@@ -56,15 +56,23 @@
         .extracted-color__hex { font-family: var(--mono); font-size: 0.55rem; color: var(--text-muted); margin-top: 0.2rem; }
         .extracted-color__name { font-family: var(--mono); font-size: 0.5rem; color: var(--text-muted); }
 
-        .palette-option { background: var(--surface); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
-        .palette-option__name { font-size: 1.1rem; font-weight: 600; margin-bottom: 0.25rem; }
+        .palette-option { background: var(--surface); border-radius: 12px; padding: 1.5rem 2.5rem 2.25rem; margin-bottom: 1.5rem; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
+        .palette-option__header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.25rem; }
+        .palette-option__name { font-size: 1.1rem; font-weight: 600; }
+        .palette-option__select { background: none; border: 1px solid var(--border); color: var(--text-muted); width: 28px; height: 28px; border-radius: 4px; cursor: pointer; transition: all 0.15s; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+        .palette-option__select:hover { background: rgba(150,150,150,0.1); border-color: var(--text-muted); color: var(--text); }
+        .palette-option__select.copied { }
         .palette-option__harmony { font-family: var(--mono); font-size: 0.7rem; color: var(--text-muted); margin-bottom: 0.5rem; }
         .palette-option__description { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem; line-height: 1.5; }
-        .palette-option__mode-label { font-family: var(--mono); font-size: 0.6rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-muted); margin: 1rem 0 0.5rem; }
+        .palette-option__mode-label { font-family: var(--mono); font-size: 0.6rem; display: flex; align-items: center; gap: 0.35rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-muted); margin: 1rem 0 0.5rem; }
         .palette-option__chips { display: flex; gap: 0.75rem; flex-wrap: wrap; }
 
         .color-chip { width: 120px; border-radius: 8px; overflow: hidden; border: 1px solid var(--border); background: var(--surface); }
-        .color-chip__fill { width: 100%; height: 100px; }
+        .color-chip__fill { width: 100%; height: 100px; position: relative; }
+        .color-chip__select { position: absolute; top: 0.35rem; right: 0.35rem; background: rgba(255,255,255,0.9); border: 1px solid rgba(0,0,0,0.15); color: #333; width: 24px; height: 24px; border-radius: 3px; cursor: pointer; opacity: 0; transition: opacity 0.15s; display: flex; align-items: center; justify-content: center; padding: 0; }
+        .color-chip:hover .color-chip__select { opacity: 1; }
+        .color-chip__select:hover { background: #fff; border-color: #999; }
+        .color-chip__select.copied { }
         .color-chip__info { padding: 0.5rem; }
         .color-chip__role { font-family: var(--mono); font-size: 0.6rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); margin-bottom: 0.25rem; }
         .color-chip__hex { font-family: var(--mono); font-size: 0.75rem; font-weight: 600; color: var(--text); }
@@ -72,7 +80,8 @@
         .color-chip__copy { font-family: var(--mono); font-size: 0.55rem; color: var(--nav-accent); cursor: pointer; background: none; border: none; padding: 0.15rem 0; margin-top: 0.15rem; }
         .color-chip__copy:hover { text-decoration: underline; }
 
-        .preview-bar { display: flex; border-radius: 8px; overflow: hidden; height: 48px; margin-top: 0.75rem; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+        .preview-bar { display: flex; border-radius: 8px; overflow: hidden; height: 22px; margin-top: 0.75rem; max-width: calc(8 * 120px + 7 * 0.75rem);  box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+        .mode-spacer { height: 0.75rem; }
         .preview-bar__segment { flex: 1; display: flex; align-items: center; justify-content: center; font-family: var(--mono); font-size: 0.6rem; font-weight: 600; }
     </style>
 </head>
@@ -128,7 +137,7 @@
                 <div class="palette-option__harmony">Monochromatic · Single hue, varying value & saturation</div>
                 <div class="palette-option__description">A pure deep-blue palette that stays within the navy family. The warm beacon white serves as the sole accent — a single point of light in the deep. Ideal for an AI presence that feels contemplative, deep, and quietly intelligent. Maximum elegance, minimal distraction.</div>
 
-                <div class="palette-option__mode-label">☀ Light Mode</div>
+                <div class="palette-option__mode-label"><svg width="16" height="16" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M10 2C10.2761 2 10.5 2.22386 10.5 2.5V3.5C10.5 3.77614 10.2761 4 10 4C9.72386 4 9.5 3.77614 9.5 3.5V2.5C9.5 2.22386 9.72386 2 10 2ZM10 14C12.2091 14 14 12.2091 14 10C14 7.79086 12.2091 6 10 6C7.79086 6 6 7.79086 6 10C6 12.2091 7.79086 14 10 14ZM10 13C8.34315 13 7 11.6569 7 10C7 8.34315 8.34315 7 10 7C11.6569 7 13 8.34315 13 10C13 11.6569 11.6569 13 10 13ZM17.5 10.5C17.7761 10.5 18 10.2761 18 10C18 9.72386 17.7761 9.5 17.5 9.5H16.5C16.2239 9.5 16 9.72386 16 10C16 10.2761 16.2239 10.5 16.5 10.5H17.5ZM10 16C10.2761 16 10.5 16.2239 10.5 16.5V17.5C10.5 17.7761 10.2761 18 10 18C9.72386 18 9.5 17.7761 9.5 17.5V16.5C9.5 16.2239 9.72386 16 10 16ZM3.5 10.5C3.77614 10.5 4 10.2761 4 10C4 9.72386 3.77614 9.5 3.5 9.5H2.46289C2.18675 9.5 1.96289 9.72386 1.96289 10C1.96289 10.2761 2.18675 10.5 2.46289 10.5H3.5ZM4.14645 4.14645C4.34171 3.95118 4.65829 3.95118 4.85355 4.14645L5.85355 5.14645C6.04882 5.34171 6.04882 5.65829 5.85355 5.85355C5.65829 6.04882 5.34171 6.04882 5.14645 5.85355L4.14645 4.85355C3.95118 4.65829 3.95118 4.34171 4.14645 4.14645ZM4.85355 15.8536C4.65829 16.0488 4.34171 16.0488 4.14645 15.8536C3.95118 15.6583 3.95118 15.3417 4.14645 15.1464L5.14645 14.1464C5.34171 13.9512 5.65829 13.9512 5.85355 14.1464C6.04882 14.3417 6.04882 14.6583 5.85355 14.8536L4.85355 15.8536ZM15.8536 4.14645C15.6583 3.95118 15.3417 3.95118 15.1464 4.14645L14.1464 5.14645C13.9512 5.34171 13.9512 5.65829 14.1464 5.85355C14.3417 6.04882 14.6583 6.04882 14.8536 5.85355L15.8536 4.85355C16.0488 4.65829 16.0488 4.34171 15.8536 4.14645ZM15.1464 15.8536C15.3417 16.0488 15.6583 16.0488 15.8536 15.8536C16.0488 15.6583 16.0488 15.3417 15.8536 15.1464L14.8536 14.1464C14.6583 13.9512 14.3417 13.9512 14.1464 14.1464C13.9512 14.3417 13.9512 14.6583 14.1464 14.8536L15.1464 15.8536Z"/></svg> Light Mode</div>
                 <div class="palette-option__chips">
                     <div class="color-chip"><div class="color-chip__fill" style="background:#1A3A6E;"></div><div class="color-chip__info"><div class="color-chip__role">Primary</div><div class="color-chip__hex">#1A3A6E</div><div class="color-chip__rgb">26, 58, 110</div><button class="color-chip__copy" data-hex="#1A3A6E">Copy</button></div></div>
                     <div class="color-chip"><div class="color-chip__fill" style="background:#2A4A6E;"></div><div class="color-chip__info"><div class="color-chip__role">Secondary</div><div class="color-chip__hex">#2A4A6E</div><div class="color-chip__rgb">42, 74, 110</div><button class="color-chip__copy" data-hex="#2A4A6E">Copy</button></div></div>
@@ -145,7 +154,7 @@
                     <div class="preview-bar__segment" style="background:#F0E8D8;flex:1;color:#0D1520;">ACC 10%</div>
                 </div>
 
-                <div class="palette-option__mode-label">🌙 Dark Mode</div>
+                <div class="palette-option__mode-label"><svg width="16" height="16" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M15.4932 13.4967C13.5653 16.8358 9.2957 17.9798 5.95663 16.052C5.20013 15.6152 4.54451 15.0515 4.01047 14.3887C6.8412 13.3015 8.56844 11.9681 9.60339 9.99249C10.651 7.99273 10.9395 5.83183 10.3628 3.08319C11.2605 3.20148 12.1328 3.49537 12.9378 3.96018C16.2769 5.88799 17.421 10.1576 15.4932 13.4967ZM5.45663 16.918C9.27399 19.122 14.1552 17.8141 16.3592 13.9967C18.5631 10.1793 17.2552 5.2981 13.4378 3.09415C12.3371 2.45863 11.1233 2.10173 9.88082 2.03507C9.4801 2.01357 9.17217 2.38477 9.26732 2.77462C9.95545 5.59395 9.70125 7.65076 8.71759 9.52844C7.78322 11.312 6.17301 12.559 3.16661 13.635C2.79667 13.7674 2.65251 14.2143 2.87537 14.538C3.54192 15.5059 4.41706 16.3178 5.45663 16.918Z"/></svg> Dark Mode</div>
                 <div class="palette-option__chips">
                     <div class="color-chip"><div class="color-chip__fill" style="background:#4A7BA8;"></div><div class="color-chip__info"><div class="color-chip__role">Primary</div><div class="color-chip__hex">#4A7BA8</div><div class="color-chip__rgb">74, 123, 168</div><button class="color-chip__copy" data-hex="#4A7BA8">Copy</button></div></div>
                     <div class="color-chip"><div class="color-chip__fill" style="background:#2A4A6E;"></div><div class="color-chip__info"><div class="color-chip__role">Secondary</div><div class="color-chip__hex">#2A4A6E</div><div class="color-chip__rgb">42, 74, 110</div><button class="color-chip__copy" data-hex="#2A4A6E">Copy</button></div></div>
@@ -171,7 +180,7 @@
                 <div class="palette-option__harmony">Analogous · Adjacent hues: Indigo → Blue → Teal</div>
                 <div class="palette-option__description">Extends the deep blue into neighboring indigo-violet and teal-cyan. Creates a richer, more dimensional color world while staying cool and harmonious. The spectrum from purple-blue through true blue to green-blue gives the embodiment a sense of depth and complexity — intelligence expressed through color range.</div>
 
-                <div class="palette-option__mode-label">☀ Light Mode</div>
+                <div class="palette-option__mode-label"><svg width="16" height="16" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M10 2C10.2761 2 10.5 2.22386 10.5 2.5V3.5C10.5 3.77614 10.2761 4 10 4C9.72386 4 9.5 3.77614 9.5 3.5V2.5C9.5 2.22386 9.72386 2 10 2ZM10 14C12.2091 14 14 12.2091 14 10C14 7.79086 12.2091 6 10 6C7.79086 6 6 7.79086 6 10C6 12.2091 7.79086 14 10 14ZM10 13C8.34315 13 7 11.6569 7 10C7 8.34315 8.34315 7 10 7C11.6569 7 13 8.34315 13 10C13 11.6569 11.6569 13 10 13ZM17.5 10.5C17.7761 10.5 18 10.2761 18 10C18 9.72386 17.7761 9.5 17.5 9.5H16.5C16.2239 9.5 16 9.72386 16 10C16 10.2761 16.2239 10.5 16.5 10.5H17.5ZM10 16C10.2761 16 10.5 16.2239 10.5 16.5V17.5C10.5 17.7761 10.2761 18 10 18C9.72386 18 9.5 17.7761 9.5 17.5V16.5C9.5 16.2239 9.72386 16 10 16ZM3.5 10.5C3.77614 10.5 4 10.2761 4 10C4 9.72386 3.77614 9.5 3.5 9.5H2.46289C2.18675 9.5 1.96289 9.72386 1.96289 10C1.96289 10.2761 2.18675 10.5 2.46289 10.5H3.5ZM4.14645 4.14645C4.34171 3.95118 4.65829 3.95118 4.85355 4.14645L5.85355 5.14645C6.04882 5.34171 6.04882 5.65829 5.85355 5.85355C5.65829 6.04882 5.34171 6.04882 5.14645 5.85355L4.14645 4.85355C3.95118 4.65829 3.95118 4.34171 4.14645 4.14645ZM4.85355 15.8536C4.65829 16.0488 4.34171 16.0488 4.14645 15.8536C3.95118 15.6583 3.95118 15.3417 4.14645 15.1464L5.14645 14.1464C5.34171 13.9512 5.65829 13.9512 5.85355 14.1464C6.04882 14.3417 6.04882 14.6583 5.85355 14.8536L4.85355 15.8536ZM15.8536 4.14645C15.6583 3.95118 15.3417 3.95118 15.1464 4.14645L14.1464 5.14645C13.9512 5.34171 13.9512 5.65829 14.1464 5.85355C14.3417 6.04882 14.6583 6.04882 14.8536 5.85355L15.8536 4.85355C16.0488 4.65829 16.0488 4.34171 15.8536 4.14645ZM15.1464 15.8536C15.3417 16.0488 15.6583 16.0488 15.8536 15.8536C16.0488 15.6583 16.0488 15.3417 15.8536 15.1464L14.8536 14.1464C14.6583 13.9512 14.3417 13.9512 14.1464 14.1464C13.9512 14.3417 13.9512 14.6583 14.1464 14.8536L15.1464 15.8536Z"/></svg> Light Mode</div>
                 <div class="palette-option__chips">
                     <div class="color-chip"><div class="color-chip__fill" style="background:#1A3A6E;"></div><div class="color-chip__info"><div class="color-chip__role">Primary</div><div class="color-chip__hex">#1A3A6E</div><div class="color-chip__rgb">26, 58, 110</div><button class="color-chip__copy" data-hex="#1A3A6E">Copy</button></div></div>
                     <div class="color-chip"><div class="color-chip__fill" style="background:#2E3A6E;"></div><div class="color-chip__info"><div class="color-chip__role">Secondary</div><div class="color-chip__hex">#2E3A6E</div><div class="color-chip__rgb">46, 58, 110</div><button class="color-chip__copy" data-hex="#2E3A6E">Copy</button></div></div>
@@ -189,7 +198,7 @@
                     <div class="preview-bar__segment" style="background:#F0E8D8;flex:1;color:#0D1520;">ACC 10%</div>
                 </div>
 
-                <div class="palette-option__mode-label">🌙 Dark Mode</div>
+                <div class="palette-option__mode-label"><svg width="16" height="16" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M15.4932 13.4967C13.5653 16.8358 9.2957 17.9798 5.95663 16.052C5.20013 15.6152 4.54451 15.0515 4.01047 14.3887C6.8412 13.3015 8.56844 11.9681 9.60339 9.99249C10.651 7.99273 10.9395 5.83183 10.3628 3.08319C11.2605 3.20148 12.1328 3.49537 12.9378 3.96018C16.2769 5.88799 17.421 10.1576 15.4932 13.4967ZM5.45663 16.918C9.27399 19.122 14.1552 17.8141 16.3592 13.9967C18.5631 10.1793 17.2552 5.2981 13.4378 3.09415C12.3371 2.45863 11.1233 2.10173 9.88082 2.03507C9.4801 2.01357 9.17217 2.38477 9.26732 2.77462C9.95545 5.59395 9.70125 7.65076 8.71759 9.52844C7.78322 11.312 6.17301 12.559 3.16661 13.635C2.79667 13.7674 2.65251 14.2143 2.87537 14.538C3.54192 15.5059 4.41706 16.3178 5.45663 16.918Z"/></svg> Dark Mode</div>
                 <div class="palette-option__chips">
                     <div class="color-chip"><div class="color-chip__fill" style="background:#4A7BA8;"></div><div class="color-chip__info"><div class="color-chip__role">Primary</div><div class="color-chip__hex">#4A7BA8</div><div class="color-chip__rgb">74, 123, 168</div><button class="color-chip__copy" data-hex="#4A7BA8">Copy</button></div></div>
                     <div class="color-chip"><div class="color-chip__fill" style="background:#6A6EAE;"></div><div class="color-chip__info"><div class="color-chip__role">Secondary</div><div class="color-chip__hex">#6A6EAE</div><div class="color-chip__rgb">106, 110, 174</div><button class="color-chip__copy" data-hex="#6A6EAE">Copy</button></div></div>
@@ -216,7 +225,7 @@
                 <div class="palette-option__harmony">Complementary · Opposite hues: Deep Blue ↔ Warm Amber</div>
                 <div class="palette-option__description">Takes the lighthouse's warm white beacon and intensifies it into a true amber-gold accent against the deep navy. High contrast, immediate visual tension. The embodiment glows warm against a cool depth — intelligence as a flame in the dark. Use sparingly: the amber is the 10% accent that commands attention. Best for the "speaking" and "active" states.</div>
 
-                <div class="palette-option__mode-label">☀ Light Mode</div>
+                <div class="palette-option__mode-label"><svg width="16" height="16" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M10 2C10.2761 2 10.5 2.22386 10.5 2.5V3.5C10.5 3.77614 10.2761 4 10 4C9.72386 4 9.5 3.77614 9.5 3.5V2.5C9.5 2.22386 9.72386 2 10 2ZM10 14C12.2091 14 14 12.2091 14 10C14 7.79086 12.2091 6 10 6C7.79086 6 6 7.79086 6 10C6 12.2091 7.79086 14 10 14ZM10 13C8.34315 13 7 11.6569 7 10C7 8.34315 8.34315 7 10 7C11.6569 7 13 8.34315 13 10C13 11.6569 11.6569 13 10 13ZM17.5 10.5C17.7761 10.5 18 10.2761 18 10C18 9.72386 17.7761 9.5 17.5 9.5H16.5C16.2239 9.5 16 9.72386 16 10C16 10.2761 16.2239 10.5 16.5 10.5H17.5ZM10 16C10.2761 16 10.5 16.2239 10.5 16.5V17.5C10.5 17.7761 10.2761 18 10 18C9.72386 18 9.5 17.7761 9.5 17.5V16.5C9.5 16.2239 9.72386 16 10 16ZM3.5 10.5C3.77614 10.5 4 10.2761 4 10C4 9.72386 3.77614 9.5 3.5 9.5H2.46289C2.18675 9.5 1.96289 9.72386 1.96289 10C1.96289 10.2761 2.18675 10.5 2.46289 10.5H3.5ZM4.14645 4.14645C4.34171 3.95118 4.65829 3.95118 4.85355 4.14645L5.85355 5.14645C6.04882 5.34171 6.04882 5.65829 5.85355 5.85355C5.65829 6.04882 5.34171 6.04882 5.14645 5.85355L4.14645 4.85355C3.95118 4.65829 3.95118 4.34171 4.14645 4.14645ZM4.85355 15.8536C4.65829 16.0488 4.34171 16.0488 4.14645 15.8536C3.95118 15.6583 3.95118 15.3417 4.14645 15.1464L5.14645 14.1464C5.34171 13.9512 5.65829 13.9512 5.85355 14.1464C6.04882 14.3417 6.04882 14.6583 5.85355 14.8536L4.85355 15.8536ZM15.8536 4.14645C15.6583 3.95118 15.3417 3.95118 15.1464 4.14645L14.1464 5.14645C13.9512 5.34171 13.9512 5.65829 14.1464 5.85355C14.3417 6.04882 14.6583 6.04882 14.8536 5.85355L15.8536 4.85355C16.0488 4.65829 16.0488 4.34171 15.8536 4.14645ZM15.1464 15.8536C15.3417 16.0488 15.6583 16.0488 15.8536 15.8536C16.0488 15.6583 16.0488 15.3417 15.8536 15.1464L14.8536 14.1464C14.6583 13.9512 14.3417 13.9512 14.1464 14.1464C13.9512 14.3417 13.9512 14.6583 14.1464 14.8536L15.1464 15.8536Z"/></svg> Light Mode</div>
                 <div class="palette-option__chips">
                     <div class="color-chip"><div class="color-chip__fill" style="background:#1A3A6E;"></div><div class="color-chip__info"><div class="color-chip__role">Primary</div><div class="color-chip__hex">#1A3A6E</div><div class="color-chip__rgb">26, 58, 110</div><button class="color-chip__copy" data-hex="#1A3A6E">Copy</button></div></div>
                     <div class="color-chip"><div class="color-chip__fill" style="background:#2A4A6E;"></div><div class="color-chip__info"><div class="color-chip__role">Secondary</div><div class="color-chip__hex">#2A4A6E</div><div class="color-chip__rgb">42, 74, 110</div><button class="color-chip__copy" data-hex="#2A4A6E">Copy</button></div></div>
@@ -233,7 +242,7 @@
                     <div class="preview-bar__segment" style="background:#D4920A;flex:1;color:#FFFFFF;">AMB 10%</div>
                 </div>
 
-                <div class="palette-option__mode-label">🌙 Dark Mode</div>
+                <div class="palette-option__mode-label"><svg width="16" height="16" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M15.4932 13.4967C13.5653 16.8358 9.2957 17.9798 5.95663 16.052C5.20013 15.6152 4.54451 15.0515 4.01047 14.3887C6.8412 13.3015 8.56844 11.9681 9.60339 9.99249C10.651 7.99273 10.9395 5.83183 10.3628 3.08319C11.2605 3.20148 12.1328 3.49537 12.9378 3.96018C16.2769 5.88799 17.421 10.1576 15.4932 13.4967ZM5.45663 16.918C9.27399 19.122 14.1552 17.8141 16.3592 13.9967C18.5631 10.1793 17.2552 5.2981 13.4378 3.09415C12.3371 2.45863 11.1233 2.10173 9.88082 2.03507C9.4801 2.01357 9.17217 2.38477 9.26732 2.77462C9.95545 5.59395 9.70125 7.65076 8.71759 9.52844C7.78322 11.312 6.17301 12.559 3.16661 13.635C2.79667 13.7674 2.65251 14.2143 2.87537 14.538C3.54192 15.5059 4.41706 16.3178 5.45663 16.918Z"/></svg> Dark Mode</div>
                 <div class="palette-option__chips">
                     <div class="color-chip"><div class="color-chip__fill" style="background:#4A7BA8;"></div><div class="color-chip__info"><div class="color-chip__role">Primary</div><div class="color-chip__hex">#4A7BA8</div><div class="color-chip__rgb">74, 123, 168</div><button class="color-chip__copy" data-hex="#4A7BA8">Copy</button></div></div>
                     <div class="color-chip"><div class="color-chip__fill" style="background:#2A4A6E;"></div><div class="color-chip__info"><div class="color-chip__role">Secondary</div><div class="color-chip__hex">#2A4A6E</div><div class="color-chip__rgb">42, 74, 110</div><button class="color-chip__copy" data-hex="#2A4A6E">Copy</button></div></div>
@@ -259,7 +268,7 @@
                 <div class="palette-option__harmony">Split-Complementary · Blue + Warm Coral + Soft Gold</div>
                 <div class="palette-option__description">Splits the amber complement into two warm neighbors — a coral-rose and a soft gold. More nuanced than pure complementary. The coral brings emotional warmth (ideal for the embodiment's "listening" state) while the gold signals active energy ("speaking" state). The deep blue remains the grounding dominant. Most versatile for communicating multiple states through color shifts.</div>
 
-                <div class="palette-option__mode-label">☀ Light Mode</div>
+                <div class="palette-option__mode-label"><svg width="16" height="16" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M10 2C10.2761 2 10.5 2.22386 10.5 2.5V3.5C10.5 3.77614 10.2761 4 10 4C9.72386 4 9.5 3.77614 9.5 3.5V2.5C9.5 2.22386 9.72386 2 10 2ZM10 14C12.2091 14 14 12.2091 14 10C14 7.79086 12.2091 6 10 6C7.79086 6 6 7.79086 6 10C6 12.2091 7.79086 14 10 14ZM10 13C8.34315 13 7 11.6569 7 10C7 8.34315 8.34315 7 10 7C11.6569 7 13 8.34315 13 10C13 11.6569 11.6569 13 10 13ZM17.5 10.5C17.7761 10.5 18 10.2761 18 10C18 9.72386 17.7761 9.5 17.5 9.5H16.5C16.2239 9.5 16 9.72386 16 10C16 10.2761 16.2239 10.5 16.5 10.5H17.5ZM10 16C10.2761 16 10.5 16.2239 10.5 16.5V17.5C10.5 17.7761 10.2761 18 10 18C9.72386 18 9.5 17.7761 9.5 17.5V16.5C9.5 16.2239 9.72386 16 10 16ZM3.5 10.5C3.77614 10.5 4 10.2761 4 10C4 9.72386 3.77614 9.5 3.5 9.5H2.46289C2.18675 9.5 1.96289 9.72386 1.96289 10C1.96289 10.2761 2.18675 10.5 2.46289 10.5H3.5ZM4.14645 4.14645C4.34171 3.95118 4.65829 3.95118 4.85355 4.14645L5.85355 5.14645C6.04882 5.34171 6.04882 5.65829 5.85355 5.85355C5.65829 6.04882 5.34171 6.04882 5.14645 5.85355L4.14645 4.85355C3.95118 4.65829 3.95118 4.34171 4.14645 4.14645ZM4.85355 15.8536C4.65829 16.0488 4.34171 16.0488 4.14645 15.8536C3.95118 15.6583 3.95118 15.3417 4.14645 15.1464L5.14645 14.1464C5.34171 13.9512 5.65829 13.9512 5.85355 14.1464C6.04882 14.3417 6.04882 14.6583 5.85355 14.8536L4.85355 15.8536ZM15.8536 4.14645C15.6583 3.95118 15.3417 3.95118 15.1464 4.14645L14.1464 5.14645C13.9512 5.34171 13.9512 5.65829 14.1464 5.85355C14.3417 6.04882 14.6583 6.04882 14.8536 5.85355L15.8536 4.85355C16.0488 4.65829 16.0488 4.34171 15.8536 4.14645ZM15.1464 15.8536C15.3417 16.0488 15.6583 16.0488 15.8536 15.8536C16.0488 15.6583 16.0488 15.3417 15.8536 15.1464L14.8536 14.1464C14.6583 13.9512 14.3417 13.9512 14.1464 14.1464C13.9512 14.3417 13.9512 14.6583 14.1464 14.8536L15.1464 15.8536Z"/></svg> Light Mode</div>
                 <div class="palette-option__chips">
                     <div class="color-chip"><div class="color-chip__fill" style="background:#1A3A6E;"></div><div class="color-chip__info"><div class="color-chip__role">Primary</div><div class="color-chip__hex">#1A3A6E</div><div class="color-chip__rgb">26, 58, 110</div><button class="color-chip__copy" data-hex="#1A3A6E">Copy</button></div></div>
                     <div class="color-chip"><div class="color-chip__fill" style="background:#2A4A6E;"></div><div class="color-chip__info"><div class="color-chip__role">Secondary</div><div class="color-chip__hex">#2A4A6E</div><div class="color-chip__rgb">42, 74, 110</div><button class="color-chip__copy" data-hex="#2A4A6E">Copy</button></div></div>
@@ -277,7 +286,7 @@
                     <div class="preview-bar__segment" style="background:#D4A840;flex:1;color:#0D1520;">GLD 10%</div>
                 </div>
 
-                <div class="palette-option__mode-label">🌙 Dark Mode</div>
+                <div class="palette-option__mode-label"><svg width="16" height="16" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M15.4932 13.4967C13.5653 16.8358 9.2957 17.9798 5.95663 16.052C5.20013 15.6152 4.54451 15.0515 4.01047 14.3887C6.8412 13.3015 8.56844 11.9681 9.60339 9.99249C10.651 7.99273 10.9395 5.83183 10.3628 3.08319C11.2605 3.20148 12.1328 3.49537 12.9378 3.96018C16.2769 5.88799 17.421 10.1576 15.4932 13.4967ZM5.45663 16.918C9.27399 19.122 14.1552 17.8141 16.3592 13.9967C18.5631 10.1793 17.2552 5.2981 13.4378 3.09415C12.3371 2.45863 11.1233 2.10173 9.88082 2.03507C9.4801 2.01357 9.17217 2.38477 9.26732 2.77462C9.95545 5.59395 9.70125 7.65076 8.71759 9.52844C7.78322 11.312 6.17301 12.559 3.16661 13.635C2.79667 13.7674 2.65251 14.2143 2.87537 14.538C3.54192 15.5059 4.41706 16.3178 5.45663 16.918Z"/></svg> Dark Mode</div>
                 <div class="palette-option__chips">
                     <div class="color-chip"><div class="color-chip__fill" style="background:#4A7BA8;"></div><div class="color-chip__info"><div class="color-chip__role">Primary</div><div class="color-chip__hex">#4A7BA8</div><div class="color-chip__rgb">74, 123, 168</div><button class="color-chip__copy" data-hex="#4A7BA8">Copy</button></div></div>
                     <div class="color-chip"><div class="color-chip__fill" style="background:#2A4A6E;"></div><div class="color-chip__info"><div class="color-chip__role">Secondary</div><div class="color-chip__hex">#2A4A6E</div><div class="color-chip__rgb">42, 74, 110</div><button class="color-chip__copy" data-hex="#2A4A6E">Copy</button></div></div>
@@ -332,7 +341,7 @@
                 <div class="palette-option__harmony">Triadic · Three equidistant hues: Violet, Cyan, Amber</div>
                 <div class="palette-option__description">Directly mirrors the iridescent image — three vivid hues in dynamic tension. Violet anchors as primary, cyan provides cool energy, amber brings warmth. This palette is maximally expressive — the embodiment could shift between all three hues to communicate different states. High energy, high personality. Requires careful application of the 60-30-10 rule to avoid visual overload.</div>
 
-                <div class="palette-option__mode-label">☀ Light Mode</div>
+                <div class="palette-option__mode-label"><svg width="16" height="16" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M10 2C10.2761 2 10.5 2.22386 10.5 2.5V3.5C10.5 3.77614 10.2761 4 10 4C9.72386 4 9.5 3.77614 9.5 3.5V2.5C9.5 2.22386 9.72386 2 10 2ZM10 14C12.2091 14 14 12.2091 14 10C14 7.79086 12.2091 6 10 6C7.79086 6 6 7.79086 6 10C6 12.2091 7.79086 14 10 14ZM10 13C8.34315 13 7 11.6569 7 10C7 8.34315 8.34315 7 10 7C11.6569 7 13 8.34315 13 10C13 11.6569 11.6569 13 10 13ZM17.5 10.5C17.7761 10.5 18 10.2761 18 10C18 9.72386 17.7761 9.5 17.5 9.5H16.5C16.2239 9.5 16 9.72386 16 10C16 10.2761 16.2239 10.5 16.5 10.5H17.5ZM10 16C10.2761 16 10.5 16.2239 10.5 16.5V17.5C10.5 17.7761 10.2761 18 10 18C9.72386 18 9.5 17.7761 9.5 17.5V16.5C9.5 16.2239 9.72386 16 10 16ZM3.5 10.5C3.77614 10.5 4 10.2761 4 10C4 9.72386 3.77614 9.5 3.5 9.5H2.46289C2.18675 9.5 1.96289 9.72386 1.96289 10C1.96289 10.2761 2.18675 10.5 2.46289 10.5H3.5ZM4.14645 4.14645C4.34171 3.95118 4.65829 3.95118 4.85355 4.14645L5.85355 5.14645C6.04882 5.34171 6.04882 5.65829 5.85355 5.85355C5.65829 6.04882 5.34171 6.04882 5.14645 5.85355L4.14645 4.85355C3.95118 4.65829 3.95118 4.34171 4.14645 4.14645ZM4.85355 15.8536C4.65829 16.0488 4.34171 16.0488 4.14645 15.8536C3.95118 15.6583 3.95118 15.3417 4.14645 15.1464L5.14645 14.1464C5.34171 13.9512 5.65829 13.9512 5.85355 14.1464C6.04882 14.3417 6.04882 14.6583 5.85355 14.8536L4.85355 15.8536ZM15.8536 4.14645C15.6583 3.95118 15.3417 3.95118 15.1464 4.14645L14.1464 5.14645C13.9512 5.34171 13.9512 5.65829 14.1464 5.85355C14.3417 6.04882 14.6583 6.04882 14.8536 5.85355L15.8536 4.85355C16.0488 4.65829 16.0488 4.34171 15.8536 4.14645ZM15.1464 15.8536C15.3417 16.0488 15.6583 16.0488 15.8536 15.8536C16.0488 15.6583 16.0488 15.3417 15.8536 15.1464L14.8536 14.1464C14.6583 13.9512 14.3417 13.9512 14.1464 14.1464C13.9512 14.3417 13.9512 14.6583 14.1464 14.8536L15.1464 15.8536Z"/></svg> Light Mode</div>
                 <div class="palette-option__chips">
                     <div class="color-chip"><div class="color-chip__fill" style="background:#6A4CA0;"></div><div class="color-chip__info"><div class="color-chip__role">Primary</div><div class="color-chip__hex">#6A4CA0</div><div class="color-chip__rgb">106, 76, 160</div><button class="color-chip__copy" data-hex="#6A4CA0">Copy</button></div></div>
                     <div class="color-chip"><div class="color-chip__fill" style="background:#2EA8C0;"></div><div class="color-chip__info"><div class="color-chip__role">Secondary</div><div class="color-chip__hex">#2EA8C0</div><div class="color-chip__rgb">46, 168, 192</div><button class="color-chip__copy" data-hex="#2EA8C0">Copy</button></div></div>
@@ -350,7 +359,7 @@
                     <div class="preview-bar__segment" style="background:#E8B850;flex:1;color:#1A1028;">AMB 10%</div>
                 </div>
 
-                <div class="palette-option__mode-label">🌙 Dark Mode</div>
+                <div class="palette-option__mode-label"><svg width="16" height="16" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M15.4932 13.4967C13.5653 16.8358 9.2957 17.9798 5.95663 16.052C5.20013 15.6152 4.54451 15.0515 4.01047 14.3887C6.8412 13.3015 8.56844 11.9681 9.60339 9.99249C10.651 7.99273 10.9395 5.83183 10.3628 3.08319C11.2605 3.20148 12.1328 3.49537 12.9378 3.96018C16.2769 5.88799 17.421 10.1576 15.4932 13.4967ZM5.45663 16.918C9.27399 19.122 14.1552 17.8141 16.3592 13.9967C18.5631 10.1793 17.2552 5.2981 13.4378 3.09415C12.3371 2.45863 11.1233 2.10173 9.88082 2.03507C9.4801 2.01357 9.17217 2.38477 9.26732 2.77462C9.95545 5.59395 9.70125 7.65076 8.71759 9.52844C7.78322 11.312 6.17301 12.559 3.16661 13.635C2.79667 13.7674 2.65251 14.2143 2.87537 14.538C3.54192 15.5059 4.41706 16.3178 5.45663 16.918Z"/></svg> Dark Mode</div>
                 <div class="palette-option__chips">
                     <div class="color-chip"><div class="color-chip__fill" style="background:#9A7CC8;"></div><div class="color-chip__info"><div class="color-chip__role">Primary</div><div class="color-chip__hex">#9A7CC8</div><div class="color-chip__rgb">154, 124, 200</div><button class="color-chip__copy" data-hex="#9A7CC8">Copy</button></div></div>
                     <div class="color-chip"><div class="color-chip__fill" style="background:#5AC8E8;"></div><div class="color-chip__info"><div class="color-chip__role">Secondary</div><div class="color-chip__hex">#5AC8E8</div><div class="color-chip__rgb">90, 200, 232</div><button class="color-chip__copy" data-hex="#5AC8E8">Copy</button></div></div>
@@ -377,7 +386,7 @@
                 <div class="palette-option__harmony">Analogous · Adjacent hues: Violet → Blue → Cyan</div>
                 <div class="palette-option__description">Strips away the amber warmth and rides the cool side of the iridescence — violet flowing into blue into cyan. Harmonious and fluid, like light bending through glass. The warm amber becomes a sparse accent that pops against the cool flow. Feels ethereal, technological, and alive. The embodiment would shimmer between these adjacent hues like oil on water.</div>
 
-                <div class="palette-option__mode-label">☀ Light Mode</div>
+                <div class="palette-option__mode-label"><svg width="16" height="16" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M10 2C10.2761 2 10.5 2.22386 10.5 2.5V3.5C10.5 3.77614 10.2761 4 10 4C9.72386 4 9.5 3.77614 9.5 3.5V2.5C9.5 2.22386 9.72386 2 10 2ZM10 14C12.2091 14 14 12.2091 14 10C14 7.79086 12.2091 6 10 6C7.79086 6 6 7.79086 6 10C6 12.2091 7.79086 14 10 14ZM10 13C8.34315 13 7 11.6569 7 10C7 8.34315 8.34315 7 10 7C11.6569 7 13 8.34315 13 10C13 11.6569 11.6569 13 10 13ZM17.5 10.5C17.7761 10.5 18 10.2761 18 10C18 9.72386 17.7761 9.5 17.5 9.5H16.5C16.2239 9.5 16 9.72386 16 10C16 10.2761 16.2239 10.5 16.5 10.5H17.5ZM10 16C10.2761 16 10.5 16.2239 10.5 16.5V17.5C10.5 17.7761 10.2761 18 10 18C9.72386 18 9.5 17.7761 9.5 17.5V16.5C9.5 16.2239 9.72386 16 10 16ZM3.5 10.5C3.77614 10.5 4 10.2761 4 10C4 9.72386 3.77614 9.5 3.5 9.5H2.46289C2.18675 9.5 1.96289 9.72386 1.96289 10C1.96289 10.2761 2.18675 10.5 2.46289 10.5H3.5ZM4.14645 4.14645C4.34171 3.95118 4.65829 3.95118 4.85355 4.14645L5.85355 5.14645C6.04882 5.34171 6.04882 5.65829 5.85355 5.85355C5.65829 6.04882 5.34171 6.04882 5.14645 5.85355L4.14645 4.85355C3.95118 4.65829 3.95118 4.34171 4.14645 4.14645ZM4.85355 15.8536C4.65829 16.0488 4.34171 16.0488 4.14645 15.8536C3.95118 15.6583 3.95118 15.3417 4.14645 15.1464L5.14645 14.1464C5.34171 13.9512 5.65829 13.9512 5.85355 14.1464C6.04882 14.3417 6.04882 14.6583 5.85355 14.8536L4.85355 15.8536ZM15.8536 4.14645C15.6583 3.95118 15.3417 3.95118 15.1464 4.14645L14.1464 5.14645C13.9512 5.34171 13.9512 5.65829 14.1464 5.85355C14.3417 6.04882 14.6583 6.04882 14.8536 5.85355L15.8536 4.85355C16.0488 4.65829 16.0488 4.34171 15.8536 4.14645ZM15.1464 15.8536C15.3417 16.0488 15.6583 16.0488 15.8536 15.8536C16.0488 15.6583 16.0488 15.3417 15.8536 15.1464L14.8536 14.1464C14.6583 13.9512 14.3417 13.9512 14.1464 14.1464C13.9512 14.3417 13.9512 14.6583 14.1464 14.8536L15.1464 15.8536Z"/></svg> Light Mode</div>
                 <div class="palette-option__chips">
                     <div class="color-chip"><div class="color-chip__fill" style="background:#6A4CA0;"></div><div class="color-chip__info"><div class="color-chip__role">Primary</div><div class="color-chip__hex">#6A4CA0</div><div class="color-chip__rgb">106, 76, 160</div><button class="color-chip__copy" data-hex="#6A4CA0">Copy</button></div></div>
                     <div class="color-chip"><div class="color-chip__fill" style="background:#4A6ACA;"></div><div class="color-chip__info"><div class="color-chip__role">Secondary</div><div class="color-chip__hex">#4A6ACA</div><div class="color-chip__rgb">74, 106, 202</div><button class="color-chip__copy" data-hex="#4A6ACA">Copy</button></div></div>
@@ -396,7 +405,7 @@
                     <div class="preview-bar__segment" style="background:#E8B850;flex:0.5;color:#1A1028;">ACC</div>
                 </div>
 
-                <div class="palette-option__mode-label">🌙 Dark Mode</div>
+                <div class="palette-option__mode-label"><svg width="16" height="16" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M15.4932 13.4967C13.5653 16.8358 9.2957 17.9798 5.95663 16.052C5.20013 15.6152 4.54451 15.0515 4.01047 14.3887C6.8412 13.3015 8.56844 11.9681 9.60339 9.99249C10.651 7.99273 10.9395 5.83183 10.3628 3.08319C11.2605 3.20148 12.1328 3.49537 12.9378 3.96018C16.2769 5.88799 17.421 10.1576 15.4932 13.4967ZM5.45663 16.918C9.27399 19.122 14.1552 17.8141 16.3592 13.9967C18.5631 10.1793 17.2552 5.2981 13.4378 3.09415C12.3371 2.45863 11.1233 2.10173 9.88082 2.03507C9.4801 2.01357 9.17217 2.38477 9.26732 2.77462C9.95545 5.59395 9.70125 7.65076 8.71759 9.52844C7.78322 11.312 6.17301 12.559 3.16661 13.635C2.79667 13.7674 2.65251 14.2143 2.87537 14.538C3.54192 15.5059 4.41706 16.3178 5.45663 16.918Z"/></svg> Dark Mode</div>
                 <div class="palette-option__chips">
                     <div class="color-chip"><div class="color-chip__fill" style="background:#9A7CC8;"></div><div class="color-chip__info"><div class="color-chip__role">Primary</div><div class="color-chip__hex">#9A7CC8</div><div class="color-chip__rgb">154, 124, 200</div><button class="color-chip__copy" data-hex="#9A7CC8">Copy</button></div></div>
                     <div class="color-chip"><div class="color-chip__fill" style="background:#6A9AE0;"></div><div class="color-chip__info"><div class="color-chip__role">Secondary</div><div class="color-chip__hex">#6A9AE0</div><div class="color-chip__rgb">106, 154, 224</div><button class="color-chip__copy" data-hex="#6A9AE0">Copy</button></div></div>
@@ -424,7 +433,7 @@
                 <div class="palette-option__harmony">Complementary · Opposite hues: Deep Violet ↔ Warm Gold</div>
                 <div class="palette-option__description">Strips the iridescence down to its core tension — violet depth vs. golden warmth. The most dramatic palette. The embodiment would live in a violet world with gold as its signal color — the moment it speaks or activates, gold flares. Luxurious, confident, slightly mystical. Works beautifully in dark mode where the violet depth can really breathe.</div>
 
-                <div class="palette-option__mode-label">☀ Light Mode</div>
+                <div class="palette-option__mode-label"><svg width="16" height="16" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M10 2C10.2761 2 10.5 2.22386 10.5 2.5V3.5C10.5 3.77614 10.2761 4 10 4C9.72386 4 9.5 3.77614 9.5 3.5V2.5C9.5 2.22386 9.72386 2 10 2ZM10 14C12.2091 14 14 12.2091 14 10C14 7.79086 12.2091 6 10 6C7.79086 6 6 7.79086 6 10C6 12.2091 7.79086 14 10 14ZM10 13C8.34315 13 7 11.6569 7 10C7 8.34315 8.34315 7 10 7C11.6569 7 13 8.34315 13 10C13 11.6569 11.6569 13 10 13ZM17.5 10.5C17.7761 10.5 18 10.2761 18 10C18 9.72386 17.7761 9.5 17.5 9.5H16.5C16.2239 9.5 16 9.72386 16 10C16 10.2761 16.2239 10.5 16.5 10.5H17.5ZM10 16C10.2761 16 10.5 16.2239 10.5 16.5V17.5C10.5 17.7761 10.2761 18 10 18C9.72386 18 9.5 17.7761 9.5 17.5V16.5C9.5 16.2239 9.72386 16 10 16ZM3.5 10.5C3.77614 10.5 4 10.2761 4 10C4 9.72386 3.77614 9.5 3.5 9.5H2.46289C2.18675 9.5 1.96289 9.72386 1.96289 10C1.96289 10.2761 2.18675 10.5 2.46289 10.5H3.5ZM4.14645 4.14645C4.34171 3.95118 4.65829 3.95118 4.85355 4.14645L5.85355 5.14645C6.04882 5.34171 6.04882 5.65829 5.85355 5.85355C5.65829 6.04882 5.34171 6.04882 5.14645 5.85355L4.14645 4.85355C3.95118 4.65829 3.95118 4.34171 4.14645 4.14645ZM4.85355 15.8536C4.65829 16.0488 4.34171 16.0488 4.14645 15.8536C3.95118 15.6583 3.95118 15.3417 4.14645 15.1464L5.14645 14.1464C5.34171 13.9512 5.65829 13.9512 5.85355 14.1464C6.04882 14.3417 6.04882 14.6583 5.85355 14.8536L4.85355 15.8536ZM15.8536 4.14645C15.6583 3.95118 15.3417 3.95118 15.1464 4.14645L14.1464 5.14645C13.9512 5.34171 13.9512 5.65829 14.1464 5.85355C14.3417 6.04882 14.6583 6.04882 14.8536 5.85355L15.8536 4.85355C16.0488 4.65829 16.0488 4.34171 15.8536 4.14645ZM15.1464 15.8536C15.3417 16.0488 15.6583 16.0488 15.8536 15.8536C16.0488 15.6583 16.0488 15.3417 15.8536 15.1464L14.8536 14.1464C14.6583 13.9512 14.3417 13.9512 14.1464 14.1464C13.9512 14.3417 13.9512 14.6583 14.1464 14.8536L15.1464 15.8536Z"/></svg> Light Mode</div>
                 <div class="palette-option__chips">
                     <div class="color-chip"><div class="color-chip__fill" style="background:#5A3A90;"></div><div class="color-chip__info"><div class="color-chip__role">Primary</div><div class="color-chip__hex">#5A3A90</div><div class="color-chip__rgb">90, 58, 144</div><button class="color-chip__copy" data-hex="#5A3A90">Copy</button></div></div>
                     <div class="color-chip"><div class="color-chip__fill" style="background:#7A5AA8;"></div><div class="color-chip__info"><div class="color-chip__role">Secondary</div><div class="color-chip__hex">#7A5AA8</div><div class="color-chip__rgb">122, 90, 168</div><button class="color-chip__copy" data-hex="#7A5AA8">Copy</button></div></div>
@@ -441,7 +450,7 @@
                     <div class="preview-bar__segment" style="background:#D4A020;flex:1;color:#FFFFFF;">GLD 10%</div>
                 </div>
 
-                <div class="palette-option__mode-label">🌙 Dark Mode</div>
+                <div class="palette-option__mode-label"><svg width="16" height="16" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M15.4932 13.4967C13.5653 16.8358 9.2957 17.9798 5.95663 16.052C5.20013 15.6152 4.54451 15.0515 4.01047 14.3887C6.8412 13.3015 8.56844 11.9681 9.60339 9.99249C10.651 7.99273 10.9395 5.83183 10.3628 3.08319C11.2605 3.20148 12.1328 3.49537 12.9378 3.96018C16.2769 5.88799 17.421 10.1576 15.4932 13.4967ZM5.45663 16.918C9.27399 19.122 14.1552 17.8141 16.3592 13.9967C18.5631 10.1793 17.2552 5.2981 13.4378 3.09415C12.3371 2.45863 11.1233 2.10173 9.88082 2.03507C9.4801 2.01357 9.17217 2.38477 9.26732 2.77462C9.95545 5.59395 9.70125 7.65076 8.71759 9.52844C7.78322 11.312 6.17301 12.559 3.16661 13.635C2.79667 13.7674 2.65251 14.2143 2.87537 14.538C3.54192 15.5059 4.41706 16.3178 5.45663 16.918Z"/></svg> Dark Mode</div>
                 <div class="palette-option__chips">
                     <div class="color-chip"><div class="color-chip__fill" style="background:#9A7CC8;"></div><div class="color-chip__info"><div class="color-chip__role">Primary</div><div class="color-chip__hex">#9A7CC8</div><div class="color-chip__rgb">154, 124, 200</div><button class="color-chip__copy" data-hex="#9A7CC8">Copy</button></div></div>
                     <div class="color-chip"><div class="color-chip__fill" style="background:#6A4CA0;"></div><div class="color-chip__info"><div class="color-chip__role">Secondary</div><div class="color-chip__hex">#6A4CA0</div><div class="color-chip__rgb">106, 76, 160</div><button class="color-chip__copy" data-hex="#6A4CA0">Copy</button></div></div>
@@ -467,7 +476,7 @@
                 <div class="palette-option__harmony">Split-Complementary · Violet + Rose + Cyan</div>
                 <div class="palette-option__description">Keeps the iridescent shimmer but tames it. Rose and cyan flank the violet — both naturally present in the source image's reflections. The palette feels like light trapped inside a gemstone: cool, luminous, and ever-so-slightly warm. Rose brings approachability (important for a daily-use personal assistant), while cyan keeps it modern and sharp. The embodiment would glow between these like shifting facets.</div>
 
-                <div class="palette-option__mode-label">☀ Light Mode</div>
+                <div class="palette-option__mode-label"><svg width="16" height="16" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M10 2C10.2761 2 10.5 2.22386 10.5 2.5V3.5C10.5 3.77614 10.2761 4 10 4C9.72386 4 9.5 3.77614 9.5 3.5V2.5C9.5 2.22386 9.72386 2 10 2ZM10 14C12.2091 14 14 12.2091 14 10C14 7.79086 12.2091 6 10 6C7.79086 6 6 7.79086 6 10C6 12.2091 7.79086 14 10 14ZM10 13C8.34315 13 7 11.6569 7 10C7 8.34315 8.34315 7 10 7C11.6569 7 13 8.34315 13 10C13 11.6569 11.6569 13 10 13ZM17.5 10.5C17.7761 10.5 18 10.2761 18 10C18 9.72386 17.7761 9.5 17.5 9.5H16.5C16.2239 9.5 16 9.72386 16 10C16 10.2761 16.2239 10.5 16.5 10.5H17.5ZM10 16C10.2761 16 10.5 16.2239 10.5 16.5V17.5C10.5 17.7761 10.2761 18 10 18C9.72386 18 9.5 17.7761 9.5 17.5V16.5C9.5 16.2239 9.72386 16 10 16ZM3.5 10.5C3.77614 10.5 4 10.2761 4 10C4 9.72386 3.77614 9.5 3.5 9.5H2.46289C2.18675 9.5 1.96289 9.72386 1.96289 10C1.96289 10.2761 2.18675 10.5 2.46289 10.5H3.5ZM4.14645 4.14645C4.34171 3.95118 4.65829 3.95118 4.85355 4.14645L5.85355 5.14645C6.04882 5.34171 6.04882 5.65829 5.85355 5.85355C5.65829 6.04882 5.34171 6.04882 5.14645 5.85355L4.14645 4.85355C3.95118 4.65829 3.95118 4.34171 4.14645 4.14645ZM4.85355 15.8536C4.65829 16.0488 4.34171 16.0488 4.14645 15.8536C3.95118 15.6583 3.95118 15.3417 4.14645 15.1464L5.14645 14.1464C5.34171 13.9512 5.65829 13.9512 5.85355 14.1464C6.04882 14.3417 6.04882 14.6583 5.85355 14.8536L4.85355 15.8536ZM15.8536 4.14645C15.6583 3.95118 15.3417 3.95118 15.1464 4.14645L14.1464 5.14645C13.9512 5.34171 13.9512 5.65829 14.1464 5.85355C14.3417 6.04882 14.6583 6.04882 14.8536 5.85355L15.8536 4.85355C16.0488 4.65829 16.0488 4.34171 15.8536 4.14645ZM15.1464 15.8536C15.3417 16.0488 15.6583 16.0488 15.8536 15.8536C16.0488 15.6583 16.0488 15.3417 15.8536 15.1464L14.8536 14.1464C14.6583 13.9512 14.3417 13.9512 14.1464 14.1464C13.9512 14.3417 13.9512 14.6583 14.1464 14.8536L15.1464 15.8536Z"/></svg> Light Mode</div>
                 <div class="palette-option__chips">
                     <div class="color-chip"><div class="color-chip__fill" style="background:#6A4CA0;"></div><div class="color-chip__info"><div class="color-chip__role">Primary</div><div class="color-chip__hex">#6A4CA0</div><div class="color-chip__rgb">106, 76, 160</div><button class="color-chip__copy" data-hex="#6A4CA0">Copy</button></div></div>
                     <div class="color-chip"><div class="color-chip__fill" style="background:#4A6ACA;"></div><div class="color-chip__info"><div class="color-chip__role">Secondary</div><div class="color-chip__hex">#4A6ACA</div><div class="color-chip__rgb">74, 106, 202</div><button class="color-chip__copy" data-hex="#4A6ACA">Copy</button></div></div>
@@ -485,7 +494,7 @@
                     <div class="preview-bar__segment" style="background:#38B8D0;flex:1;color:#FFFFFF;">CYN 10%</div>
                 </div>
 
-                <div class="palette-option__mode-label">🌙 Dark Mode</div>
+                <div class="palette-option__mode-label"><svg width="16" height="16" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M15.4932 13.4967C13.5653 16.8358 9.2957 17.9798 5.95663 16.052C5.20013 15.6152 4.54451 15.0515 4.01047 14.3887C6.8412 13.3015 8.56844 11.9681 9.60339 9.99249C10.651 7.99273 10.9395 5.83183 10.3628 3.08319C11.2605 3.20148 12.1328 3.49537 12.9378 3.96018C16.2769 5.88799 17.421 10.1576 15.4932 13.4967ZM5.45663 16.918C9.27399 19.122 14.1552 17.8141 16.3592 13.9967C18.5631 10.1793 17.2552 5.2981 13.4378 3.09415C12.3371 2.45863 11.1233 2.10173 9.88082 2.03507C9.4801 2.01357 9.17217 2.38477 9.26732 2.77462C9.95545 5.59395 9.70125 7.65076 8.71759 9.52844C7.78322 11.312 6.17301 12.559 3.16661 13.635C2.79667 13.7674 2.65251 14.2143 2.87537 14.538C3.54192 15.5059 4.41706 16.3178 5.45663 16.918Z"/></svg> Dark Mode</div>
                 <div class="palette-option__chips">
                     <div class="color-chip"><div class="color-chip__fill" style="background:#9A7CC8;"></div><div class="color-chip__info"><div class="color-chip__role">Primary</div><div class="color-chip__hex">#9A7CC8</div><div class="color-chip__rgb">154, 124, 200</div><button class="color-chip__copy" data-hex="#9A7CC8">Copy</button></div></div>
                     <div class="color-chip"><div class="color-chip__fill" style="background:#6A9AE0;"></div><div class="color-chip__info"><div class="color-chip__role">Secondary</div><div class="color-chip__hex">#6A9AE0</div><div class="color-chip__rgb">106, 154, 224</div><button class="color-chip__copy" data-hex="#6A9AE0">Copy</button></div></div>
@@ -549,7 +558,91 @@
             }
         });
         document.addEventListener('keydown', (e) => { if (e.key === 'ArrowLeft') document.getElementById('navPrev').click(); if (e.key === 'ArrowRight') document.getElementById('navNext').click(); });
+
+
+
+        const PAGE_NAME = 'coastal-beacon';
+
+        // Inject palette select buttons
+        document.querySelectorAll('.palette-option').forEach(palette => {
+            const nameEl = palette.querySelector('.palette-option__name');
+            if (!nameEl) return;
+            const paletteName = nameEl.textContent.trim().toLowerCase().replace(/\s+/g, '-');
+            const ref = PAGE_NAME + '/' + paletteName;
+            // Wrap name in header div
+            const header = document.createElement('div');
+            header.className = 'palette-option__header';
+            nameEl.parentNode.insertBefore(header, nameEl);
+            header.appendChild(nameEl);
+            // Add select button
+            const btn = document.createElement('button');
+            btn.className = 'palette-option__select';
+            btn.innerHTML = '<svg width="16" height="16" viewBox="0 -0.5 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M9.49999 4H10.5C12.433 4 14 5.567 14 7.5C14 9.36856 12.5357 10.8951 10.6941 10.9948L10.5023 11L9.5023 11.0046C9.22616 11.0059 9.00127 10.783 8.99999 10.5069C8.99888 10.2614 9.17481 10.0565 9.40787 10.0131L9.4977 10.0046L10.5 10C11.8807 10 13 8.88071 13 7.5C13 6.17452 11.9685 5.08996 10.6644 5.00532L10.5 5H9.49999C9.22386 5 8.99999 4.77614 8.99999 4.5C8.99999 4.25454 9.17687 4.05039 9.41012 4.00806L9.49999 4H10.5H9.49999ZM5.5 4H6.5C6.77614 4 7 4.22386 7 4.5C7 4.74546 6.82312 4.94961 6.58988 4.99194L6.5 5H5.5C4.11929 5 3 6.11929 3 7.5C3 8.82548 4.03154 9.91004 5.33562 9.99468L5.5 10H6.5C6.77614 10 7 10.2239 7 10.5C7 10.7455 6.82312 10.9496 6.58988 10.9919L6.5 11H5.5C3.567 11 2 9.433 2 7.5C2 5.63144 3.46428 4.10487 5.30796 4.00518L5.5 4H6.5H5.5ZM5.50023 7L10.5002 7.0023C10.7764 7.00242 11.0001 7.22638 11 7.50252C10.9999 7.74798 10.8229 7.95205 10.5897 7.99428L10.4998 8.0023L5.49977 8C5.22363 7.99987 4.99987 7.77591 5 7.49977C5.00011 7.25431 5.17708 7.05024 5.41035 7.00801L5.50023 7Z"/></svg>';
+            btn.addEventListener('click', () => {
+                navigator.clipboard.writeText(ref).then(() => {
+                    btn.innerHTML = '<svg width="16" height="16" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M3.37371 10.1678C3.19025 9.96143 2.87421 9.94284 2.66782 10.1263C2.46143 10.3098 2.44284 10.6258 2.6263 10.8322L6.6263 15.3322C6.81743 15.5472 7.15013 15.557 7.35356 15.3536L17.8536 4.85355C18.0488 4.65829 18.0488 4.34171 17.8536 4.14645C17.6583 3.95118 17.3417 3.95118 17.1465 4.14645L7.02141 14.2715L3.37371 10.1678Z"/></svg>';
+                    btn.classList.add('copied');
+                    setTimeout(() => { btn.innerHTML = '<svg width="16" height="16" viewBox="0 -0.5 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M9.49999 4H10.5C12.433 4 14 5.567 14 7.5C14 9.36856 12.5357 10.8951 10.6941 10.9948L10.5023 11L9.5023 11.0046C9.22616 11.0059 9.00127 10.783 8.99999 10.5069C8.99888 10.2614 9.17481 10.0565 9.40787 10.0131L9.4977 10.0046L10.5 10C11.8807 10 13 8.88071 13 7.5C13 6.17452 11.9685 5.08996 10.6644 5.00532L10.5 5H9.49999C9.22386 5 8.99999 4.77614 8.99999 4.5C8.99999 4.25454 9.17687 4.05039 9.41012 4.00806L9.49999 4H10.5H9.49999ZM5.5 4H6.5C6.77614 4 7 4.22386 7 4.5C7 4.74546 6.82312 4.94961 6.58988 4.99194L6.5 5H5.5C4.11929 5 3 6.11929 3 7.5C3 8.82548 4.03154 9.91004 5.33562 9.99468L5.5 10H6.5C6.77614 10 7 10.2239 7 10.5C7 10.7455 6.82312 10.9496 6.58988 10.9919L6.5 11H5.5C3.567 11 2 9.433 2 7.5C2 5.63144 3.46428 4.10487 5.30796 4.00518L5.5 4H6.5H5.5ZM5.50023 7L10.5002 7.0023C10.7764 7.00242 11.0001 7.22638 11 7.50252C10.9999 7.74798 10.8229 7.95205 10.5897 7.99428L10.4998 8.0023L5.49977 8C5.22363 7.99987 4.99987 7.77591 5 7.49977C5.00011 7.25431 5.17708 7.05024 5.41035 7.00801L5.50023 7Z"/></svg>'; btn.classList.remove('copied'); }, 1500);
+                });
+            });
+            header.appendChild(btn);
+        });
+
+        // Inject spacers between light and dark mode sections
+        document.querySelectorAll('.palette-option__mode-label').forEach(label => {
+            if (label.textContent.includes('Dark')) {
+                const spacer = document.createElement('div');
+                spacer.className = 'mode-spacer';
+                label.parentNode.insertBefore(spacer, label);
+            }
+        });
+
+        // Inject select buttons into all color chips
+        document.querySelectorAll('.color-chip').forEach(chip => {
+            const fill = chip.querySelector('.color-chip__fill');
+            const role = chip.querySelector('.color-chip__role')?.textContent?.trim() || 'unknown';
+            const hex = chip.querySelector('.color-chip__hex')?.textContent?.trim() || '';
+            const paletteEl = chip.closest('.palette-option');
+            const paletteName = paletteEl?.querySelector('.palette-option__name')?.textContent?.trim()?.toLowerCase()?.replace(/\s+/g, '-') || 'unknown';
+            // Detect light/dark mode context
+            let mode = 'light';
+            let prev = chip.closest('.palette-option__chips');
+            if (prev) { let lbl = prev.previousElementSibling; while (lbl && !lbl.classList?.contains('palette-option__mode-label')) { lbl = lbl.previousElementSibling; } if (lbl && lbl.textContent.includes('Dark')) mode = 'dark'; }
+            const ref = PAGE_NAME + '/' + paletteName + '/' + mode + '/' + role.toLowerCase().replace(/\s+/g, '-') + '/' + hex;
+            const btn = document.createElement('button');
+            btn.className = 'color-chip__select';
+            btn.innerHTML = '<svg width="14" height="14" viewBox="0 -0.5 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M9.49999 4H10.5C12.433 4 14 5.567 14 7.5C14 9.36856 12.5357 10.8951 10.6941 10.9948L10.5023 11L9.5023 11.0046C9.22616 11.0059 9.00127 10.783 8.99999 10.5069C8.99888 10.2614 9.17481 10.0565 9.40787 10.0131L9.4977 10.0046L10.5 10C11.8807 10 13 8.88071 13 7.5C13 6.17452 11.9685 5.08996 10.6644 5.00532L10.5 5H9.49999C9.22386 5 8.99999 4.77614 8.99999 4.5C8.99999 4.25454 9.17687 4.05039 9.41012 4.00806L9.49999 4H10.5H9.49999ZM5.5 4H6.5C6.77614 4 7 4.22386 7 4.5C7 4.74546 6.82312 4.94961 6.58988 4.99194L6.5 5H5.5C4.11929 5 3 6.11929 3 7.5C3 8.82548 4.03154 9.91004 5.33562 9.99468L5.5 10H6.5C6.77614 10 7 10.2239 7 10.5C7 10.7455 6.82312 10.9496 6.58988 10.9919L6.5 11H5.5C3.567 11 2 9.433 2 7.5C2 5.63144 3.46428 4.10487 5.30796 4.00518L5.5 4H6.5H5.5ZM5.50023 7L10.5002 7.0023C10.7764 7.00242 11.0001 7.22638 11 7.50252C10.9999 7.74798 10.8229 7.95205 10.5897 7.99428L10.4998 8.0023L5.49977 8C5.22363 7.99987 4.99987 7.77591 5 7.49977C5.00011 7.25431 5.17708 7.05024 5.41035 7.00801L5.50023 7Z"/></svg>';
+            btn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                const origHtml = btn.innerHTML;
+                navigator.clipboard.writeText(ref).then(() => {
+                    btn.innerHTML = '<svg width="14" height="14" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M3.37371 10.1678C3.19025 9.96143 2.87421 9.94284 2.66782 10.1263C2.46143 10.3098 2.44284 10.6258 2.6263 10.8322L6.6263 15.3322C6.81743 15.5472 7.15013 15.557 7.35356 15.3536L17.8536 4.85355C18.0488 4.65829 18.0488 4.34171 17.8536 4.14645C17.6583 3.95118 17.3417 3.95118 17.1465 4.14645L7.02141 14.2715L3.37371 10.1678Z"/></svg>';
+                    btn.classList.add('copied');
+                    setTimeout(() => { btn.innerHTML = origHtml; btn.classList.remove('copied'); }, 1500);
+                });
+            });
+            fill.appendChild(btn);
+        });
+
         initNav();
     </script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

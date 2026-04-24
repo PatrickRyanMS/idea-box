@@ -21,7 +21,7 @@ param(
 $ErrorActionPreference = "Stop"
 
 $ResolvedRoot = Resolve-Path $ProjectRoot
-$pidFile = Join-Path $ResolvedRoot ".github\comps\.comp-server.pid"
+$pidFile = Join-Path $ResolvedRoot ".github\.comp-server.pid"
 
 if (Test-Path $pidFile) {
     $serverPid = Get-Content $pidFile -Raw
