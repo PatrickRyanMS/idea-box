@@ -1,0 +1,197 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - link "Skip to content":
+      - /url: "#"
+      - generic [ref=e8] [cursor=pointer]: Skip to content
+    - generic [ref=e10]:
+      - generic [ref=e13]:
+        - generic:
+          - img "Search icon"
+        - generic [ref=e14]:
+          - combobox "Search" [ref=e15]
+          - generic:
+            - generic:
+              - generic:
+                - generic: Search for
+                - generic:
+                  - generic:
+                    - generic: sleep tracker ui
+                    - generic: alarm app ui design
+                    - generic: timer ux
+                    - generic: dark glass ui
+                    - generic: dark ui
+                    - generic: sleep tracker ui
+      - generic [ref=e16]:
+        - button "Log in" [ref=e18] [cursor=pointer]:
+          - generic [ref=e20]: Log in
+        - button "Sign up" [ref=e22] [cursor=pointer]:
+          - generic [ref=e24]: Sign up
+  - navigation [ref=e26]:
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - generic "Home" [ref=e33]:
+          - link "Home" [ref=e34] [cursor=pointer]:
+            - /url: /
+            - img [ref=e36]
+        - generic "Explore" [ref=e41]:
+          - link "Explore" [ref=e42] [cursor=pointer]:
+            - /url: /ideas
+            - img [ref=e44]
+        - generic "Shop" [ref=e49]:
+          - link "Shop" [ref=e50] [cursor=pointer]:
+            - /url: /shopping
+            - img [ref=e52]
+      - generic "More options" [ref=e56]:
+        - button "More options" [ref=e57] [cursor=pointer]:
+          - img [ref=e60]
+  - main [ref=e62]:
+    - generic [ref=e70]:
+      - generic [ref=e71]: Loading more related Pins
+      - list [ref=e76]:
+        - listitem [ref=e77]:
+          - generic [ref=e84]:
+            - button "Click to make the most out of this idea with a free account Sleep Tracker Ui, Alarm App Ui Design, Timer Ux, Dark Glass Ui, Dark Ui, Progress Tracker, Best Planner App, Dark Ui Design, Dark Theme Ui Explore Sleep Tracker Ui, Alarm App Ui Design, Timer Ux, Dark Glass Ui, Dark Ui, Progress Tracker, Best Planner App, Dark Ui Design, Dark Theme Ui" [ref=e86] [cursor=pointer]:
+              - generic [ref=e91]:
+                - generic [ref=e92]:
+                  - generic [ref=e93]:
+                    - button "Click to make the most out of this idea with a free account":
+                      - heading "Click to make the most out of this idea with a free account" [level=3] [ref=e98]
+                  - img "Sleep Tracker Ui, Alarm App Ui Design, Timer Ux, Dark Glass Ui, Dark Ui, Progress Tracker, Best Planner App, Dark Ui Design, Dark Theme Ui" [ref=e102]
+                  - button "Explore" [ref=e106]:
+                    - button "Explore" [ref=e108]:
+                      - generic [ref=e110]:
+                        - generic [ref=e113]: Explore
+                        - img "Explore" [ref=e115]
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img "Sleep Tracker Ui, Alarm App Ui Design, Timer Ux, Dark Glass Ui, Dark Ui, Progress Tracker, Best Planner App, Dark Ui Design, Dark Theme Ui"
+            - generic [ref=e120]:
+              - generic [ref=e125]:
+                - generic [ref=e127]:
+                  - generic [ref=e128]:
+                    - generic "React" [ref=e130]:
+                      - button "React to pin" [ref=e131] [cursor=pointer]:
+                        - img [ref=e134]
+                    - generic [ref=e137]: "12"
+                  - generic "Share" [ref=e142]:
+                    - button "Send" [ref=e144] [cursor=pointer]:
+                      - img [ref=e147]
+                  - generic [ref=e149]:
+                    - generic "More actions" [ref=e151]:
+                      - button "More actions" [ref=e152] [cursor=pointer]:
+                        - img [ref=e155]
+                    - generic [ref=e157]:
+                      - generic [ref=e158]:
+                        - heading "More about this Pin" [level=2] [ref=e159]
+                        - button "Close modal" [ref=e161] [cursor=pointer]:
+                          - img [ref=e164]
+                      - generic [ref=e167]:
+                        - generic [ref=e172]:
+                          - generic [ref=e174]:
+                            - link "Explore" [ref=e175] [cursor=pointer]:
+                              - /url: /ideas/
+                              - generic [ref=e176]: Explore
+                            - img "breadcrumb arrow" [ref=e179]
+                          - generic [ref=e182]:
+                            - link "Design" [ref=e183] [cursor=pointer]:
+                              - /url: /ideas/design/902065567321/
+                              - generic [ref=e184]: Design
+                            - img "breadcrumb arrow" [ref=e187]
+                          - link "Web And App Design" [ref=e191] [cursor=pointer]:
+                            - /url: /ideas/web-and-app-design/939992763802/
+                            - generic [ref=e192]: Web And App Design
+                        - generic [ref=e195]:
+                          - generic:
+                            - heading "Board containing this Pin" [level=3]
+                          - generic:
+                            - link "Selected board cover image UI Design 6.9k Pins 1d":
+                              - /url: /chan8728/ui-design/
+                              - generic [ref=e196] [cursor=pointer]:
+                                - img "Selected board cover image" [ref=e200]
+                                - generic [ref=e202]:
+                                  - generic [ref=e204]: UI Design
+                                  - generic [ref=e206]:
+                                    - generic [ref=e209]: 6.9k Pins
+                                    - generic [ref=e211]: 1d
+                        - generic [ref=e214]:
+                          - generic:
+                            - heading "Related interests" [level=3]
+                          - generic [ref=e215]:
+                            - link "Sleep Tracker Ui" [ref=e219] [cursor=pointer]:
+                              - /url: /ideas/sleep-tracker-ui/908385640446/
+                            - link "Alarm App Ui Design" [ref=e223] [cursor=pointer]:
+                              - /url: /ideas/alarm-app-ui-design/896613320240/
+                            - link "Timer Ux" [ref=e227] [cursor=pointer]:
+                              - /url: /ideas/timer-ux/953096599200/
+                            - link "Dark Glass Ui" [ref=e231] [cursor=pointer]:
+                              - /url: /ideas/dark-glass-ui/919654838648/
+                            - link "Dark Ui" [ref=e235] [cursor=pointer]:
+                              - /url: /ideas/dark-ui/926151276856/
+                            - link "Progress Tracker" [ref=e239] [cursor=pointer]:
+                              - /url: /ideas/progress-tracker/895820012192/
+                            - link "Best Planner App" [ref=e243] [cursor=pointer]:
+                              - /url: /ideas/best-planner-app/956187162563/
+                            - link "Dark Ui Design" [ref=e247] [cursor=pointer]:
+                              - /url: /ideas/dark-ui-design/959118154457/
+                            - link "Dark Theme Ui" [ref=e251] [cursor=pointer]:
+                              - /url: /ideas/dark-theme-ui/956646645214/
+                - generic [ref=e252]:
+                  - button "Visit" [ref=e255] [cursor=pointer]:
+                    - generic [ref=e257]: Visit
+                  - link "Pin" [ref=e264] [cursor=pointer]:
+                    - /url: /pin/2674081025809764/repin/
+                    - button "Pin" [ref=e265]:
+                      - button "Pin" [ref=e266]:
+                        - generic [ref=e268]: Save
+              - generic [ref=e269]:
+                - link "www.behance.net" [ref=e271] [cursor=pointer]:
+                  - /url: https://www.behance.net/Fedkovskiy19cf?utm_source=Pinterest&utm_medium=organic
+                  - generic [ref=e272]: www.behance.net
+                - link "Somnia - Mobile App - Dark Theme - Home Screen - Sleep Tracker" [ref=e274] [cursor=pointer]:
+                  - /url: https://www.behance.net/Fedkovskiy19cf?utm_source=Pinterest&utm_medium=organic
+                  - heading "Somnia - Mobile App - Dark Theme - Home Screen - Sleep Tracker" [level=1] [ref=e275]
+                - generic [ref=e278]:
+                  - link "Alexander UX/UI Designer avatar link" [ref=e280] [cursor=pointer]:
+                    - /url: /fedkovskiy/
+                    - img "Alexander UX/UI Designer avatar link" [ref=e287]
+                  - link "Alexander UX/UI Designer" [ref=e291] [cursor=pointer]:
+                    - /url: /fedkovskiy/
+                    - generic [ref=e293]: Alexander UX/UI Designer
+                - generic [ref=e294]:
+                  - heading "1 Comment" [level=2] [ref=e295]
+                  - group "Comment thread" [ref=e298]:
+                    - generic [ref=e299]:
+                      - link "Tapas Das" [ref=e301] [cursor=pointer]:
+                        - /url: /srtapaskumar1994/
+                        - img "Tapas Das" [ref=e307]
+                      - generic [ref=e314]:
+                        - link "Tapas Das" [ref=e316] [cursor=pointer]:
+                          - /url: /srtapaskumar1994
+                        - generic [ref=e317]: Lovely work
+              - generic [ref=e326]:
+                - generic [ref=e328]:
+                  - button [ref=e330]
+                  - generic [ref=e334]:
+                    - generic:
+                      - generic: Add a comment
+                    - combobox "Add a comment" [ref=e336]
+                - generic [ref=e342]:
+                  - button "Select an emoji" [ref=e344] [cursor=pointer]:
+                    - img [ref=e347]
+                  - button "Select a sticker" [ref=e350] [cursor=pointer]:
+                    - img [ref=e353]
+                  - button "Select a photo" [ref=e357] [cursor=pointer]:
+                    - img [ref=e360]
+        - listitem
+        - listitem [ref=e362]
+        - listitem [ref=e366]
+        - listitem [ref=e370]
+        - listitem [ref=e374]
+        - listitem [ref=e378]
+        - listitem [ref=e382]
+        - listitem [ref=e386]
+        - listitem [ref=e390]
+        - listitem [ref=e394]
+        - listitem [ref=e398]

@@ -1,0 +1,80 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - link "Skip to content":
+      - /url: "#"
+      - generic [ref=e8] [cursor=pointer]: Skip to content
+    - generic [ref=e10]:
+      - generic [ref=e13]:
+        - generic:
+          - img "Search icon"
+        - combobox "Search" [ref=e15]
+      - generic [ref=e16]:
+        - button "Log in" [ref=e18] [cursor=pointer]:
+          - generic [ref=e20]: Log in
+        - button "Sign up" [ref=e22] [cursor=pointer]:
+          - generic [ref=e24]: Sign up
+  - navigation [ref=e26]:
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - generic "Home" [ref=e33]:
+          - link "Home" [ref=e34] [cursor=pointer]:
+            - /url: /
+            - img [ref=e36]
+        - generic "Explore" [ref=e41]:
+          - link "Explore" [ref=e42] [cursor=pointer]:
+            - /url: /ideas
+            - img [ref=e44]
+        - generic "Shop" [ref=e49]:
+          - link "Shop" [ref=e50] [cursor=pointer]:
+            - /url: /shopping
+            - img [ref=e52]
+      - generic "More options" [ref=e56]:
+        - button "More options" [ref=e57] [cursor=pointer]:
+          - img [ref=e60]
+  - main [ref=e62]:
+    - generic [ref=e70]:
+      - generic [ref=e71]: Loading more related Pins
+      - list [ref=e76]:
+        - listitem [ref=e77]:
+          - generic [ref=e84]:
+            - button "Click to make the most out of this idea with a free account an iphone with the message chat on it Explore an iphone with the message chat on it" [ref=e86] [cursor=pointer]:
+              - generic [ref=e91]:
+                - generic [ref=e92]:
+                  - generic [ref=e93]:
+                    - button "Click to make the most out of this idea with a free account":
+                      - heading "Click to make the most out of this idea with a free account" [level=3] [ref=e98]
+                  - img "an iphone with the message chat on it" [ref=e102]
+                  - button "Explore" [ref=e106]:
+                    - button "Explore" [ref=e108]:
+                      - generic [ref=e110]:
+                        - generic:
+                          - generic:
+                            - generic: Explore
+                        - img "Explore" [ref=e112]
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img "an iphone with the message chat on it"
+            - generic [ref=e118]:
+              - heading "Chat screen ui" [level=1] [ref=e120]
+              - generic [ref=e124]: A calm, minimal chat interface designed to feel effortless. Soft spacing, clear hierarchy, and subtle cues keep conversations readable while staying visually quiet.✅✅
+              - generic [ref=e127]:
+                - link "Vibes001 avatar link" [ref=e129] [cursor=pointer]:
+                  - /url: /dannyvibes001/
+                  - img "Vibes001 avatar link" [ref=e136]
+                - link "Vibes001" [ref=e140] [cursor=pointer]:
+                  - /url: /dannyvibes001/
+                  - generic [ref=e142]: Vibes001
+              - heading "2 Comments" [level=2] [ref=e144]
+        - listitem
+        - listitem [ref=e147]
+        - listitem [ref=e151]
+        - listitem [ref=e155]
+        - listitem [ref=e159]
+        - listitem [ref=e163]
+        - listitem [ref=e167]
+        - listitem [ref=e171]
+        - listitem [ref=e175]
+        - listitem [ref=e179]
+        - listitem [ref=e183]

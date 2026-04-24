@@ -1,0 +1,130 @@
+{
+  "project": {
+    "name": "AI Embodiment",
+    "description": "Interactive AI embodiment experience — abstract visual presence for a mobile-first personal assistant",
+    "status": "draft",
+    "scope": "project",
+    "created": "2026-04-23",
+    "designDoc": ".github/ideation/designs/design-20260423-ai-embodiment.md"
+  },
+  "overview": "A mobile-first interactive AI experience where a personal assistant helps users organize their projects, thoughts, and time. The core design challenge is the embodiment — an abstract, non-figurative visual presence that implies intelligence and cognition without relying on a face or character. The embodiment must communicate agent state (listening, thinking, speaking, waiting) through subtle non-verbal cues — motion, color, scale, and position — so the interaction feels alive and intentional rather than disembodied. The experience supports equal voice and chat modes. Voice is the expected primary entry point, with chat serving as both an accessibility path and a channel for richer data exchange (photos, documents).",
+  "goals": [
+    "Create an abstract visual embodiment that implies intelligence and thought — not a character, but a presence",
+    "Communicate agent state clearly through non-verbal visual cues (motion, color, size, position)",
+    "Design equal-weight voice and chat interaction modes within a single unified experience",
+    "Achieve a modern, minimal aesthetic that remains warm and inviting for daily personal use",
+    "Mobile-first design that feels natural on phone screens",
+    "Enticing enough that users want to engage — not sterile or clinical"
+  ],
+  "nonGoals": [
+    "Skeuomorphic or figurative design — no faces, avatars, or anthropomorphic features",
+    "Desktop-first or desktop-only layouts",
+    "Technical architecture or implementation planning (visual design only)",
+    "Production-ready code (comps are design artifacts, not shippable)",
+    "Designing the backend AI capabilities or conversation logic"
+  ],
+  "scenarios": [
+    {
+      "title": "Voice Conversation — Morning Planning",
+      "steps": [
+        "User opens the app and sees the embodiment in its idle/waiting state — calm, subtly alive",
+        "User taps a microphone action or speaks a wake phrase; embodiment shifts to listening state",
+        "User says \"What do I have today?\"",
+        "Embodiment transitions to thinking state — a visible shift in motion/energy",
+        "Embodiment transitions to speaking state as the agent responds with the day's agenda",
+        "Agent finishes speaking; embodiment returns to listening or waiting state"
+      ]
+    },
+    {
+      "title": "Chat Mode — Sharing a Document",
+      "steps": [
+        "User switches to chat mode (or starts in chat mode)",
+        "Embodiment remains visible but compact, anchoring the top of the conversation",
+        "User types a message or attaches a photo/document",
+        "Embodiment reacts subtly to incoming input — acknowledging receipt",
+        "Agent responds in text; embodiment shifts through thinking → responding states",
+        "Conversation thread scrolls naturally with the embodiment as a persistent presence"
+      ]
+    },
+    {
+      "title": "State Awareness",
+      "steps": [
+        "At any moment, the user can glance at the embodiment and know: is the agent listening? Processing? About to speak? Waiting?",
+        "State transitions are smooth and organic — no jarring switches",
+        "Subtle enough to read unconsciously (like reading body language) but clear enough to never leave the user confused"
+      ]
+    }
+  ],
+  "constraints": [
+    "Mobile-first: Primary design target is phone screens (375–430pt width)",
+    "Dual interaction modes: Voice and chat must coexist as equal modes within the same UI",
+    "Accessibility: WCAG 2.2 AA compliance — embodiment states must be perceivable through means beyond color alone",
+    "State clarity: Users must always be able to determine agent state at a glance",
+    "Performance: Embodiment animations must feel smooth — design should consider what's achievable in real-time rendering on mobile"
+  ],
+  "openQuestions": [
+    "What abstract form language best implies intelligence? (fluid, particle, geometric, light-based, hybrid?)",
+    "How much screen real estate does the embodiment occupy in voice mode vs. chat mode?",
+    "Should the embodiment have a consistent shape that modulates, or should it transform more dramatically between states?",
+    "What color direction supports \"modern yet enticing\" for a personal assistant?",
+    "How does the transition between voice and chat modes work spatially?",
+    "Should the embodiment respond to ambient context (time of day, user mood) or only to direct interaction?"
+  ],
+  "resolvedQuestions": [
+    { "question": "Figurative or abstract?", "decision": "Abstract", "rationale": "Avoids uncanny valley; implies intelligence without faking humanity" },
+    { "question": "Primary audience?", "decision": "Consumer — personal assistant users", "rationale": "Shapes tone: warm, personal, daily-use" },
+    { "question": "Voice or chat primary?", "decision": "Equal modes, voice as likely entry point", "rationale": "Accessibility + richer data exchange via chat" },
+    { "question": "State communication method?", "decision": "Non-verbal visual cues (motion, color, size, position)", "rationale": "Mirrors how humans read body language — subtle but effective" }
+  ],
+  "risks": [
+    { "risk": "Abstract form feels meaningless or decorative", "impact": "Users ignore the embodiment, defeating its purpose", "mitigation": "Ground form changes in clear state logic; user test for readability" },
+    { "risk": "Too subtle state changes", "impact": "Users can't tell what the agent is doing", "mitigation": "Test with unfamiliar users; ensure at least 2 cue dimensions per state" },
+    { "risk": "Motion/animation feels heavy on mobile", "impact": "Poor performance, battery drain, janky feel", "mitigation": "Design with mobile rendering constraints; provide reduced-motion alternatives" },
+    { "risk": "Voice + chat mode switching feels disjointed", "impact": "Broken experience, confusion about mode", "mitigation": "Design a unified layout that accommodates both rather than two separate screens" },
+    { "risk": "\"Modern minimal\" becomes sterile", "impact": "Users don't feel warmth or connection", "mitigation": "Mood board to establish warmth cues; explore color temperature and organic motion" }
+  ],
+  "designScope": [
+    { "area": "Embodiment form language and motion system", "status": "not started" },
+    { "area": "Agent state visualization (idle, listening, thinking, speaking)", "status": "not started" },
+    { "area": "Voice mode layout (embodiment-dominant)", "status": "not started" },
+    { "area": "Chat mode layout (conversation + embodiment)", "status": "not started" },
+    { "area": "Voice ↔ chat mode transition", "status": "not started" },
+    { "area": "Mobile responsive behavior", "status": "not started" }
+  ],
+  "children": [
+    { "feature": "Embodiment Form & Motion", "status": "not started" },
+    { "feature": "Voice Mode Experience", "status": "not started" },
+    { "feature": "Chat Mode Experience", "status": "not started" },
+    { "feature": "Mode Transition", "status": "not started" }
+  ],
+  "cycleLog": [
+    { "cycle": "1", "agent": "Klee", "action": "Initial design conversation", "outcome": "Captured direction: abstract embodiment, dual-mode, state-driven motion, modern/warm tone" },
+    { "cycle": "1", "agent": "Klee", "action": "Mood board", "outcome": "In progress — 59 images across 6 categories" }
+  ],
+  "pages": [
+    {
+      "id": "home",
+      "type": "home",
+      "label": "Project Home",
+      "path": "index.html"
+    },
+    {
+      "id": "mood-ai-embodiment",
+      "type": "mood-board",
+      "label": "AI Embodiment Inspiration",
+      "path": "mood-boards/ai-embodiment/index.html"
+    },
+    {
+      "id": "palette-coastal-beacon",
+      "type": "palette",
+      "label": "Palette: Coastal Beacon",
+      "path": "palettes/extracted/coastal-beacon/index.html"
+    },
+    {
+      "id": "palette-ambient-gradient",
+      "type": "palette",
+      "label": "Palette: Ambient Gradient",
+      "path": "palettes/extracted/ambient-gradient/index.html"
+    }
+  ]
+}

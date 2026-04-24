@@ -1,0 +1,563 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - link "Skip to content":
+      - /url: "#"
+      - generic [ref=e9] [cursor=pointer]: Skip to content
+    - generic [ref=e11]:
+      - generic [ref=e14]:
+        - combobox "Search" [ref=e16]: minimal mobile app UI design modern dark
+        - button "Remove search input" [ref=e21] [cursor=pointer]:
+          - img [ref=e24]
+      - generic [ref=e26]:
+        - button "Log in" [ref=e28] [cursor=pointer]:
+          - generic [ref=e30]: Log in
+        - button "Sign up" [ref=e32] [cursor=pointer]:
+          - generic [ref=e34]: Sign up
+  - navigation [ref=e36]:
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - generic "Home" [ref=e43]:
+          - link "Home" [ref=e44] [cursor=pointer]:
+            - /url: /
+            - img [ref=e46]
+        - generic "Explore" [ref=e51]:
+          - link "Explore" [ref=e52] [cursor=pointer]:
+            - /url: /ideas
+            - img [ref=e54]
+        - generic "Shop" [ref=e59]:
+          - link "Shop" [ref=e60] [cursor=pointer]:
+            - /url: /shopping
+            - img [ref=e62]
+      - generic "More options" [ref=e66]:
+        - button "More options" [ref=e67] [cursor=pointer]:
+          - img [ref=e70]
+  - main [ref=e72]:
+    - generic [ref=e74]:
+      - generic [ref=e77]:
+        - heading "Search" [level=1] [ref=e79]
+        - generic [ref=e84]:
+          - button "Show filters" [ref=e90] [cursor=pointer]:
+            - img [ref=e94]
+          - button "Inspiration" [ref=e102] [cursor=pointer]:
+            - generic [ref=e107]: Inspiration
+          - button "Theme" [ref=e114] [cursor=pointer]:
+            - generic [ref=e119]: Theme
+          - button "Mode" [ref=e126] [cursor=pointer]:
+            - generic [ref=e131]: Mode
+          - button "Splash screen" [ref=e138] [cursor=pointer]:
+            - generic [ref=e143]: Splash screen
+          - button "User profile" [ref=e150] [cursor=pointer]:
+            - generic [ref=e155]: User profile
+          - button "Blue" [ref=e162] [cursor=pointer]:
+            - generic [ref=e167]: Blue
+          - button "Golden green" [ref=e174] [cursor=pointer]:
+            - generic [ref=e179]: Golden green
+          - button "Interface" [ref=e186] [cursor=pointer]:
+            - generic [ref=e191]: Interface
+          - button "Dashboard" [ref=e198] [cursor=pointer]:
+            - generic [ref=e203]: Dashboard
+          - button "Travel" [ref=e210] [cursor=pointer]:
+            - generic [ref=e215]: Travel
+          - button "Mode settings" [ref=e222] [cursor=pointer]:
+            - generic [ref=e227]: Mode settings
+      - generic [ref=e232]:
+        - generic [ref=e233]: Showing more search results for minimal mobile app UI design modern dark
+        - list [ref=e238]:
+          - listitem [ref=e239]:
+            - group "Pin card" [ref=e242]:
+              - generic [ref=e244]:
+                - link "the mobile app design is designed to look like it has been made with dark colors" [ref=e247] [cursor=pointer]:
+                  - /url: /pin/386324474305735856/
+                  - img "the mobile app design is designed to look like it has been made with dark colors" [ref=e257]
+                - generic [ref=e259]:
+                  - generic:
+                    - link "the mobile app design is designed to look like it has been made with dark colors":
+                      - /url: /pin/386324474305735856/
+                  - generic "More actions" [ref=e266]:
+                    - button "More actions" [ref=e267] [cursor=pointer]:
+                      - img [ref=e270]
+          - listitem [ref=e272]:
+            - group "Pin card" [ref=e275]:
+              - generic [ref=e277]:
+                - link "the full view of an iphone screen with different screens and buttons, all in dark colors" [ref=e280] [cursor=pointer]:
+                  - /url: /pin/34691859626610166/
+                  - img "the full view of an iphone screen with different screens and buttons, all in dark colors" [ref=e290]
+                - generic [ref=e292]:
+                  - generic:
+                    - link "the full view of an iphone screen with different screens and buttons, all in dark colors":
+                      - /url: /pin/34691859626610166/
+                  - generic "More actions" [ref=e299]:
+                    - button "More actions" [ref=e300] [cursor=pointer]:
+                      - img [ref=e303]
+          - listitem [ref=e305]:
+            - group "Pin card" [ref=e308]:
+              - generic [ref=e310]:
+                - link "a cell phone with workouts on the screen" [ref=e313] [cursor=pointer]:
+                  - /url: /pin/7248049396455204/
+                  - img "a cell phone with workouts on the screen" [ref=e323]
+                - generic [ref=e325]:
+                  - generic:
+                    - link "a cell phone with workouts on the screen":
+                      - /url: /pin/7248049396455204/
+                  - generic "More actions" [ref=e332]:
+                    - button "More actions" [ref=e333] [cursor=pointer]:
+                      - img [ref=e336]
+          - listitem [ref=e338]:
+            - group "Pin card" [ref=e341]:
+              - generic [ref=e343]:
+                - link "Modern dark mode finance mobile app UI showing transaction history, balance overview, spending analytics chart, and clean minimal fintech interface design" [ref=e346] [cursor=pointer]:
+                  - /url: /pin/877076096192150724/
+                  - img "Modern dark mode finance mobile app UI showing transaction history, balance overview, spending analytics chart, and clean minimal fintech interface design" [ref=e356]
+                - generic [ref=e358]:
+                  - generic:
+                    - link "Modern dark mode finance mobile app UI showing transaction history, balance overview, spending analytics chart, and clean minimal fintech interface design":
+                      - /url: /pin/877076096192150724/
+                  - generic "More actions" [ref=e365]:
+                    - button "More actions" [ref=e366] [cursor=pointer]:
+                      - img [ref=e369]
+          - listitem [ref=e371]:
+            - group "Pin card" [ref=e374]:
+              - generic [ref=e376]:
+                - link "an iphone showing the observattory app on it's display screen and icons" [ref=e379] [cursor=pointer]:
+                  - /url: /pin/8796161770502459/
+                  - img "an iphone showing the observattory app on it's display screen and icons" [ref=e389]
+                - generic [ref=e391]:
+                  - generic:
+                    - link "an iphone showing the observattory app on it's display screen and icons":
+                      - /url: /pin/8796161770502459/
+                  - generic "More actions" [ref=e398]:
+                    - button "More actions" [ref=e399] [cursor=pointer]:
+                      - img [ref=e402]
+          - listitem [ref=e404]:
+            - group "Pin card" [ref=e407]:
+              - generic [ref=e409]:
+                - link "an image of a cell phone screen with the text mr borowskiy on it" [ref=e412] [cursor=pointer]:
+                  - /url: /pin/8796161770469859/
+                  - img "an image of a cell phone screen with the text mr borowskiy on it" [ref=e422]
+                - generic [ref=e424]:
+                  - generic:
+                    - link "an image of a cell phone screen with the text mr borowskiy on it":
+                      - /url: /pin/8796161770469859/
+                  - generic "More actions" [ref=e431]:
+                    - button "More actions" [ref=e432] [cursor=pointer]:
+                      - img [ref=e435]
+          - listitem [ref=e437]:
+            - generic [ref=e438]:
+              - generic [ref=e444]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e446]:
+                - generic [ref=e448]:
+                  - link "three iphones are shown side by side, one is black and the other is white" [ref=e451] [cursor=pointer]:
+                    - /url: /pin/3799980931206125/
+                    - img "three iphones are shown side by side, one is black and the other is white" [ref=e461]
+                  - generic [ref=e463]:
+                    - generic:
+                      - link "three iphones are shown side by side, one is black and the other is white":
+                        - /url: /pin/3799980931206125/
+                    - generic "More actions" [ref=e470]:
+                      - button "More actions" [ref=e471] [cursor=pointer]:
+                        - img [ref=e474]
+          - listitem [ref=e476]:
+            - group "Pin card" [ref=e479]:
+              - generic [ref=e481]:
+                - link "two iphones with the text training program on them and an image of a phone screen" [ref=e484] [cursor=pointer]:
+                  - /url: /pin/844493676389881/
+                  - img "two iphones with the text training program on them and an image of a phone screen" [ref=e494]
+                - generic [ref=e496]:
+                  - generic:
+                    - link "two iphones with the text training program on them and an image of a phone screen":
+                      - /url: /pin/844493676389881/
+                  - generic "More actions" [ref=e503]:
+                    - button "More actions" [ref=e504] [cursor=pointer]:
+                      - img [ref=e507]
+          - listitem [ref=e509]:
+            - group "Pin card" [ref=e512]:
+              - generic [ref=e514]:
+                - link "the iphone app design is designed to look like it has multiple screens on each side" [ref=e517] [cursor=pointer]:
+                  - /url: /pin/395683517285858432/
+                  - img "the iphone app design is designed to look like it has multiple screens on each side" [ref=e527]
+                - generic [ref=e529]:
+                  - generic:
+                    - link "the iphone app design is designed to look like it has multiple screens on each side":
+                      - /url: /pin/395683517285858432/
+                  - generic "More actions" [ref=e536]:
+                    - button "More actions" [ref=e537] [cursor=pointer]:
+                      - img [ref=e540]
+          - listitem [ref=e542]:
+            - group "Pin card" [ref=e545]:
+              - generic [ref=e547]:
+                - link "two iphone screens with the same time and date on them" [ref=e550] [cursor=pointer]:
+                  - /url: /pin/3518505954861628/
+                  - img "two iphone screens with the same time and date on them" [ref=e560]
+                - generic [ref=e562]:
+                  - generic:
+                    - link "two iphone screens with the same time and date on them":
+                      - /url: /pin/3518505954861628/
+                  - generic "More actions" [ref=e569]:
+                    - button "More actions" [ref=e570] [cursor=pointer]:
+                      - img [ref=e573]
+          - listitem [ref=e575]:
+            - group "Pin card" [ref=e578]:
+              - generic [ref=e580]:
+                - link "an iphone screen with the finance app on it, and another screenshote that shows how to make money" [ref=e583] [cursor=pointer]:
+                  - /url: /pin/12103492744058726/
+                  - img "an iphone screen with the finance app on it, and another screenshote that shows how to make money" [ref=e593]
+                - generic [ref=e595]:
+                  - generic:
+                    - link "an iphone screen with the finance app on it, and another screenshote that shows how to make money":
+                      - /url: /pin/12103492744058726/
+                  - generic "More actions" [ref=e602]:
+                    - button "More actions" [ref=e603] [cursor=pointer]:
+                      - img [ref=e606]
+          - listitem [ref=e608]:
+            - generic [ref=e609]:
+              - generic [ref=e615]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e617]:
+                - generic [ref=e619]:
+                  - link "the black and white app design is designed to look like it has been created by an artist" [ref=e622] [cursor=pointer]:
+                    - /url: /pin/95912667060991834/
+                    - img "the black and white app design is designed to look like it has been created by an artist" [ref=e632]
+                  - generic [ref=e634]:
+                    - generic:
+                      - link "the black and white app design is designed to look like it has been created by an artist":
+                        - /url: /pin/95912667060991834/
+                    - generic "More actions" [ref=e641]:
+                      - button "More actions" [ref=e642] [cursor=pointer]:
+                        - img [ref=e645]
+          - listitem [ref=e647]:
+            - group "Pin card" [ref=e650]:
+              - generic [ref=e652]:
+                - link "Dark Neumorphic UI Kit — UI Kits on UI8 Ui Inspiration For Dark Themes, Black Ui, Dark Mode Neumorphism, Neumorphism Dark Theme, Dark Neumorphism, Dark Theme Login Screen, Dark Mode Login Interface, Modern Dark Theme Interface, Modern Dark Mode Ui" [ref=e655] [cursor=pointer]:
+                  - /url: /pin/39265828001195368/
+                  - img "Dark Neumorphic UI Kit — UI Kits on UI8 Ui Inspiration For Dark Themes, Black Ui, Dark Mode Neumorphism, Neumorphism Dark Theme, Dark Neumorphism, Dark Theme Login Screen, Dark Mode Login Interface, Modern Dark Theme Interface, Modern Dark Mode Ui" [ref=e665]
+                - generic [ref=e667]:
+                  - generic:
+                    - link "Dark Neumorphic UI Kit — UI Kits on UI8 Ui Inspiration For Dark Themes, Black Ui, Dark Mode Neumorphism, Neumorphism Dark Theme, Dark Neumorphism, Dark Theme Login Screen, Dark Mode Login Interface, Modern Dark Theme Interface, Modern Dark Mode Ui":
+                      - /url: /pin/39265828001195368/
+                  - generic "More actions" [ref=e674]:
+                    - button "More actions" [ref=e675] [cursor=pointer]:
+                      - img [ref=e678]
+          - listitem [ref=e680]:
+            - group "Pin card" [ref=e683]:
+              - generic [ref=e685]:
+                - link "an iphone screen with the text manage your money on the go in purple and black" [ref=e688] [cursor=pointer]:
+                  - /url: /pin/3870349674763951/
+                  - img "an iphone screen with the text manage your money on the go in purple and black" [ref=e698]
+                - generic [ref=e700]:
+                  - generic:
+                    - link "an iphone screen with the text manage your money on the go in purple and black":
+                      - /url: /pin/3870349674763951/
+                  - generic "More actions" [ref=e707]:
+                    - button "More actions" [ref=e708] [cursor=pointer]:
+                      - img [ref=e711]
+          - listitem [ref=e713]:
+            - group "Pin card" [ref=e716]:
+              - generic [ref=e718]:
+                - link "an iphone with the words'home portillo about contact'in black and white" [ref=e721] [cursor=pointer]:
+                  - /url: /pin/54395107995678261/
+                  - img "an iphone with the words'home portillo about contact'in black and white" [ref=e731]
+                - generic [ref=e733]:
+                  - generic:
+                    - link "an iphone with the words'home portillo about contact'in black and white":
+                      - /url: /pin/54395107995678261/
+                  - generic "More actions" [ref=e740]:
+                    - button "More actions" [ref=e741] [cursor=pointer]:
+                      - img [ref=e744]
+          - listitem [ref=e746]:
+            - group "Pin card" [ref=e749]:
+              - generic [ref=e751]:
+                - link "an iphone screen with the text'how did you sleep last night? '" [ref=e754] [cursor=pointer]:
+                  - /url: /pin/3237030978512460/
+                  - img "an iphone screen with the text'how did you sleep last night? '" [ref=e764]
+                - generic [ref=e766]:
+                  - generic:
+                    - link "an iphone screen with the text'how did you sleep last night? '":
+                      - /url: /pin/3237030978512460/
+                  - generic "More actions" [ref=e773]:
+                    - button "More actions" [ref=e774] [cursor=pointer]:
+                      - img [ref=e777]
+          - listitem [ref=e779]:
+            - generic [ref=e780]:
+              - generic [ref=e786]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e788]:
+                - generic [ref=e790]:
+                  - link "two iphones with the same design on them, one showing an ad for hypnotse" [ref=e793] [cursor=pointer]:
+                    - /url: /pin/7951736837655232/
+                    - img "two iphones with the same design on them, one showing an ad for hypnotse" [ref=e803]
+                  - generic [ref=e805]:
+                    - generic:
+                      - link "two iphones with the same design on them, one showing an ad for hypnotse":
+                        - /url: /pin/7951736837655232/
+                    - generic "More actions" [ref=e812]:
+                      - button "More actions" [ref=e813] [cursor=pointer]:
+                        - img [ref=e816]
+          - listitem [ref=e818]:
+            - group "Pin card" [ref=e821]:
+              - generic [ref=e823]:
+                - link "A dark mode UI app concept named \"Nocturne\" layered over a background of dark, smooth sand dunes with a subtle purple neon glow. The central interface features a dark frosted glass panel, clean white typography, a toggle switch for 'Focus Mode', and a neon purple bordered button that says 'BEGIN SESSION'. Premium tech graphic design by MUNÈA VISUALS." [ref=e826] [cursor=pointer]:
+                  - /url: /pin/637540891042832399/
+                  - img "A dark mode UI app concept named \"Nocturne\" layered over a background of dark, smooth sand dunes with a subtle purple neon glow. The central interface features a dark frosted glass panel, clean white typography, a toggle switch for 'Focus Mode', and a neon purple bordered button that says 'BEGIN SESSION'. Premium tech graphic design by MUNÈA VISUALS." [ref=e836]
+                - generic [ref=e838]:
+                  - generic:
+                    - link "A dark mode UI app concept named \"Nocturne\" layered over a background of dark, smooth sand dunes with a subtle purple neon glow. The central interface features a dark frosted glass panel, clean white typography, a toggle switch for 'Focus Mode', and a neon purple bordered button that says 'BEGIN SESSION'. Premium tech graphic design by MUNÈA VISUALS.":
+                      - /url: /pin/637540891042832399/
+                  - generic "More actions" [ref=e845]:
+                    - button "More actions" [ref=e846] [cursor=pointer]:
+                      - img [ref=e849]
+          - listitem [ref=e851]:
+            - group "Pin card" [ref=e854]:
+              - generic [ref=e856]:
+                - link "an image of a cell phone that is displaying the app on it's screen" [ref=e859] [cursor=pointer]:
+                  - /url: /pin/52987733113779940/
+                  - img "an image of a cell phone that is displaying the app on it's screen" [ref=e869]
+                - generic [ref=e871]:
+                  - generic:
+                    - link "an image of a cell phone that is displaying the app on it's screen":
+                      - /url: /pin/52987733113779940/
+                  - generic "More actions" [ref=e878]:
+                    - button "More actions" [ref=e879] [cursor=pointer]:
+                      - img [ref=e882]
+          - listitem [ref=e884]:
+            - group "Pin card" [ref=e887]:
+              - generic [ref=e889]:
+                - link "two mobile phones with the text explore on them and an image of people's faces" [ref=e892] [cursor=pointer]:
+                  - /url: /pin/174514554308267413/
+                  - img "two mobile phones with the text explore on them and an image of people's faces" [ref=e902]
+                - generic [ref=e904]:
+                  - generic:
+                    - link "two mobile phones with the text explore on them and an image of people's faces":
+                      - /url: /pin/174514554308267413/
+                  - generic "More actions" [ref=e911]:
+                    - button "More actions" [ref=e912] [cursor=pointer]:
+                      - img [ref=e915]
+          - listitem [ref=e917]:
+            - group "Pin card" [ref=e920]:
+              - generic [ref=e922]:
+                - link "two iphone screens showing different dashboards and data on the same screen as well as an apple watch" [ref=e925] [cursor=pointer]:
+                  - /url: /pin/40321359162554278/
+                  - img "two iphone screens showing different dashboards and data on the same screen as well as an apple watch" [ref=e935]
+                - generic [ref=e937]:
+                  - generic:
+                    - link "two iphone screens showing different dashboards and data on the same screen as well as an apple watch":
+                      - /url: /pin/40321359162554278/
+                  - generic "More actions" [ref=e944]:
+                    - button "More actions" [ref=e945] [cursor=pointer]:
+                      - img [ref=e948]
+          - listitem [ref=e950]:
+            - generic [ref=e951]:
+              - generic [ref=e957]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e959]:
+                - generic [ref=e961]:
+                  - link "a purple background with the words welcome back, rhul and login on it" [ref=e964] [cursor=pointer]:
+                    - /url: /pin/979181143993773487/
+                    - img "a purple background with the words welcome back, rhul and login on it" [ref=e974]
+                  - generic [ref=e976]:
+                    - generic:
+                      - link "a purple background with the words welcome back, rhul and login on it":
+                        - /url: /pin/979181143993773487/
+                    - generic "More actions" [ref=e983]:
+                      - button "More actions" [ref=e984] [cursor=pointer]:
+                        - img [ref=e987]
+          - listitem [ref=e989]:
+            - group "Pin card" [ref=e992]:
+              - generic [ref=e994]:
+                - link "dark mode for the iphone is shown in this screenshote image, with text below it" [ref=e997] [cursor=pointer]:
+                  - /url: /pin/159877855518676222/
+                  - img "dark mode for the iphone is shown in this screenshote image, with text below it" [ref=e1007]
+                - generic [ref=e1009]:
+                  - generic:
+                    - link "dark mode for the iphone is shown in this screenshote image, with text below it":
+                      - /url: /pin/159877855518676222/
+                  - generic "More actions" [ref=e1016]:
+                    - button "More actions" [ref=e1017] [cursor=pointer]:
+                      - img [ref=e1020]
+          - listitem [ref=e1022]:
+            - group "Pin card" [ref=e1025]:
+              - generic [ref=e1027]:
+                - link "two cell phones with different icons on them" [ref=e1030] [cursor=pointer]:
+                  - /url: /pin/2674081025800905/
+                  - img "two cell phones with different icons on them" [ref=e1040]
+                - generic [ref=e1042]:
+                  - generic:
+                    - link "two cell phones with different icons on them":
+                      - /url: /pin/2674081025800905/
+                  - generic "More actions" [ref=e1049]:
+                    - button "More actions" [ref=e1050] [cursor=pointer]:
+                      - img [ref=e1053]
+          - listitem [ref=e1055]:
+            - group "Pin card" [ref=e1058]:
+              - generic [ref=e1060]:
+                - link "a black and pink web page with different buttons" [ref=e1063] [cursor=pointer]:
+                  - /url: /pin/64598575901593087/
+                  - img "a black and pink web page with different buttons" [ref=e1073]
+                - generic [ref=e1075]:
+                  - generic:
+                    - link "a black and pink web page with different buttons":
+                      - /url: /pin/64598575901593087/
+                  - generic "More actions" [ref=e1082]:
+                    - button "More actions" [ref=e1083] [cursor=pointer]:
+                      - img [ref=e1086]
+          - listitem [ref=e1088]:
+            - generic [ref=e1089]:
+              - generic [ref=e1095]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1097]:
+                - generic [ref=e1099]:
+                  - link "an iphone with the time for tea on it's screen and text that reads," [ref=e1102] [cursor=pointer]:
+                    - /url: /pin/19844054605310685/
+                    - img "an iphone with the time for tea on it's screen and text that reads," [ref=e1112]
+                  - generic [ref=e1114]:
+                    - generic:
+                      - link "an iphone with the time for tea on it's screen and text that reads,":
+                        - /url: /pin/19844054605310685/
+                    - generic "More actions" [ref=e1121]:
+                      - button "More actions" [ref=e1122] [cursor=pointer]:
+                        - img [ref=e1125]
+          - listitem [ref=e1127]:
+            - generic [ref=e1128]:
+              - generic [ref=e1134]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1136]:
+                - generic [ref=e1138]:
+                  - link "an array of cell phones with purple and black screens on them, all displaying different messages" [ref=e1141] [cursor=pointer]:
+                    - /url: /pin/1062568105848755325/
+                    - img "an array of cell phones with purple and black screens on them, all displaying different messages" [ref=e1151]
+                  - generic [ref=e1153]:
+                    - generic:
+                      - link "an array of cell phones with purple and black screens on them, all displaying different messages":
+                        - /url: /pin/1062568105848755325/
+                    - generic "More actions" [ref=e1160]:
+                      - button "More actions" [ref=e1161] [cursor=pointer]:
+                        - img [ref=e1164]
+          - listitem [ref=e1166]:
+            - generic [ref=e1167]:
+              - generic [ref=e1173]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1175]:
+                - generic [ref=e1177]:
+                  - link "an image of the back side of a black and yellow poster with text on it" [ref=e1180] [cursor=pointer]:
+                    - /url: /pin/48624870973299928/
+                    - img "an image of the back side of a black and yellow poster with text on it" [ref=e1190]
+                  - generic [ref=e1192]:
+                    - generic:
+                      - link "an image of the back side of a black and yellow poster with text on it":
+                        - /url: /pin/48624870973299928/
+                    - generic "More actions" [ref=e1199]:
+                      - button "More actions" [ref=e1200] [cursor=pointer]:
+                        - img [ref=e1203]
+          - listitem [ref=e1205]:
+            - generic [ref=e1206]:
+              - generic [ref=e1212]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1214]:
+                - generic [ref=e1216]:
+                  - link "Voice assistant mobile app UI design in dark mode with to-do list, reminders, chat history, and task management features for productivity." [ref=e1219] [cursor=pointer]:
+                    - /url: /pin/4222193395869606/
+                    - img "Voice assistant mobile app UI design in dark mode with to-do list, reminders, chat history, and task management features for productivity." [ref=e1229]
+                  - generic [ref=e1231]:
+                    - generic:
+                      - link "Voice assistant mobile app UI design in dark mode with to-do list, reminders, chat history, and task management features for productivity.":
+                        - /url: /pin/4222193395869606/
+                    - generic "More actions" [ref=e1238]:
+                      - button "More actions" [ref=e1239] [cursor=pointer]:
+                        - img [ref=e1242]
+          - listitem [ref=e1244]:
+            - generic [ref=e1245]:
+              - generic [ref=e1251]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1253]:
+                - generic [ref=e1255]:
+                  - link "three smartphones with financial goals on them" [ref=e1258] [cursor=pointer]:
+                    - /url: /pin/25684660370125937/
+                    - img "three smartphones with financial goals on them" [ref=e1268]
+                  - generic [ref=e1270]:
+                    - generic:
+                      - link "three smartphones with financial goals on them":
+                        - /url: /pin/25684660370125937/
+                    - generic "More actions" [ref=e1277]:
+                      - button "More actions" [ref=e1278] [cursor=pointer]:
+                        - img [ref=e1281]
+          - listitem [ref=e1283]:
+            - generic [ref=e1284]:
+              - generic [ref=e1290]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1292]:
+                - generic [ref=e1294]:
+                  - link "an image of the ui design page overflowing with neon colors and dark background" [ref=e1297] [cursor=pointer]:
+                    - /url: /pin/428616089561381258/
+                    - img "an image of the ui design page overflowing with neon colors and dark background" [ref=e1307]
+                  - generic [ref=e1309]:
+                    - generic:
+                      - link "an image of the ui design page overflowing with neon colors and dark background":
+                        - /url: /pin/428616089561381258/
+                    - button "Behance" [ref=e1313] [cursor=pointer]:
+                      - generic [ref=e1315]:
+                        - button "Behance" [ref=e1318]:
+                          - generic "Behance" [ref=e1319]
+                        - generic "More actions" [ref=e1323]:
+                          - button "More actions" [ref=e1324]:
+                            - img [ref=e1327]
+          - listitem [ref=e1329]:
+            - generic [ref=e1330]:
+              - generic [ref=e1336]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1338]:
+                - generic [ref=e1340]:
+                  - link "a bunch of dark and purple app icons" [ref=e1343] [cursor=pointer]:
+                    - /url: /pin/18718154688950284/
+                    - img "a bunch of dark and purple app icons" [ref=e1353]
+                  - generic [ref=e1355]:
+                    - generic:
+                      - link "a bunch of dark and purple app icons":
+                        - /url: /pin/18718154688950284/
+                    - generic "More actions" [ref=e1362]:
+                      - button "More actions" [ref=e1363] [cursor=pointer]:
+                        - img [ref=e1366]
+          - listitem [ref=e1368]:
+            - generic [ref=e1369]:
+              - generic [ref=e1375]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1377]:
+                - generic [ref=e1379]:
+                  - link "the app is designed to look like an old school video game" [ref=e1382] [cursor=pointer]:
+                    - /url: /pin/844493676476940/
+                    - img "the app is designed to look like an old school video game" [ref=e1392]
+                  - generic [ref=e1394]:
+                    - generic:
+                      - link "the app is designed to look like an old school video game":
+                        - /url: /pin/844493676476940/
+                    - generic "More actions" [ref=e1401]:
+                      - button "More actions" [ref=e1402] [cursor=pointer]:
+                        - img [ref=e1405]
+          - listitem [ref=e1407]:
+            - generic [ref=e1408]:
+              - generic [ref=e1414]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1416]:
+                - generic [ref=e1418]:
+                  - link "Mobile app onboarding screen for a crypto exchange with dark background and glowing turquoise accents. The header reads “Power Up Your Crypto Journey” above floating crypto icons (Bitcoin, Ethereum, Solana, BNB). Two rounded buttons at the bottom say “Recover Account” and “Create Account" [ref=e1421] [cursor=pointer]:
+                    - /url: /pin/988469818222464113/
+                    - img "Mobile app onboarding screen for a crypto exchange with dark background and glowing turquoise accents. The header reads “Power Up Your Crypto Journey” above floating crypto icons (Bitcoin, Ethereum, Solana, BNB). Two rounded buttons at the bottom say “Recover Account” and “Create Account" [ref=e1431]
+                  - generic [ref=e1433]:
+                    - generic:
+                      - link "Mobile app onboarding screen for a crypto exchange with dark background and glowing turquoise accents. The header reads “Power Up Your Crypto Journey” above floating crypto icons (Bitcoin, Ethereum, Solana, BNB). Two rounded buttons at the bottom say “Recover Account” and “Create Account":
+                        - /url: /pin/988469818222464113/
+                    - generic "More actions" [ref=e1440]:
+                      - button "More actions" [ref=e1441] [cursor=pointer]:
+                        - img [ref=e1444]

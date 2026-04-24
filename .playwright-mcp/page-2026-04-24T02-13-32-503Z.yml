@@ -1,0 +1,600 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - link "Skip to content":
+      - /url: "#"
+      - generic [ref=e9] [cursor=pointer]: Skip to content
+    - generic [ref=e11]:
+      - generic [ref=e14]:
+        - combobox "Search" [ref=e16]: dark teal gradient dashboard UI design glow
+        - button "Remove search input" [ref=e21] [cursor=pointer]:
+          - img [ref=e24]
+      - generic [ref=e26]:
+        - button "Log in" [ref=e28] [cursor=pointer]:
+          - generic [ref=e30]: Log in
+        - button "Sign up" [ref=e32] [cursor=pointer]:
+          - generic [ref=e34]: Sign up
+  - navigation [ref=e36]:
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - generic "Home" [ref=e43]:
+          - link "Home" [ref=e44] [cursor=pointer]:
+            - /url: /
+            - img [ref=e46]
+        - generic "Explore" [ref=e51]:
+          - link "Explore" [ref=e52] [cursor=pointer]:
+            - /url: /ideas
+            - img [ref=e54]
+        - generic "Shop" [ref=e59]:
+          - link "Shop" [ref=e60] [cursor=pointer]:
+            - /url: /shopping
+            - img [ref=e62]
+      - generic "More options" [ref=e66]:
+        - button "More options" [ref=e67] [cursor=pointer]:
+          - img [ref=e70]
+  - main [ref=e72]:
+    - generic [ref=e74]:
+      - generic [ref=e77]:
+        - heading "Search" [level=1] [ref=e79]
+        - button "Show filters" [ref=e90] [cursor=pointer]:
+          - img [ref=e94]
+      - generic [ref=e100]:
+        - generic [ref=e101]: Showing more search results for dark teal gradient dashboard UI design glow
+        - list [ref=e106]:
+          - listitem [ref=e107]:
+            - group "Pin card" [ref=e110]:
+              - generic [ref=e112]:
+                - link "a computer screen with the name and number of people on it, as well as other information" [ref=e115] [cursor=pointer]:
+                  - /url: /pin/12244230231324136/
+                  - img "a computer screen with the name and number of people on it, as well as other information" [ref=e125]
+                - generic [ref=e127]:
+                  - generic:
+                    - link "a computer screen with the name and number of people on it, as well as other information":
+                      - /url: /pin/12244230231324136/
+                  - generic "More actions" [ref=e134]:
+                    - button "More actions" [ref=e135] [cursor=pointer]:
+                      - img [ref=e138]
+          - listitem [ref=e140]:
+            - group "Pin card" [ref=e143]:
+              - generic [ref=e145]:
+                - link "an image of a screen with the words'premiere'in white and green on it" [ref=e148] [cursor=pointer]:
+                  - /url: /pin/303148618688158141/
+                  - img "an image of a screen with the words'premiere'in white and green on it" [ref=e158]
+                - generic [ref=e160]:
+                  - generic:
+                    - link "an image of a screen with the words'premiere'in white and green on it":
+                      - /url: /pin/303148618688158141/
+                  - generic "More actions" [ref=e167]:
+                    - button "More actions" [ref=e168] [cursor=pointer]:
+                      - img [ref=e171]
+          - listitem [ref=e173]:
+            - group "Pin card" [ref=e176]:
+              - generic [ref=e178]:
+                - link "a set of dark blue and green uip elements for the user's interface" [ref=e181] [cursor=pointer]:
+                  - /url: /pin/844493676109551/
+                  - img "a set of dark blue and green uip elements for the user's interface" [ref=e191]
+                - generic [ref=e193]:
+                  - generic:
+                    - link "a set of dark blue and green uip elements for the user's interface":
+                      - /url: /pin/844493676109551/
+                  - generic "More actions" [ref=e200]:
+                    - button "More actions" [ref=e201] [cursor=pointer]:
+                      - img [ref=e204]
+          - listitem [ref=e206]:
+            - group "Pin card" [ref=e209]:
+              - generic [ref=e211]:
+                - link "the dashboard screen is displayed with icons and data" [ref=e214] [cursor=pointer]:
+                  - /url: /pin/8162843068127670/
+                  - img "the dashboard screen is displayed with icons and data" [ref=e224]
+                - generic [ref=e226]:
+                  - generic:
+                    - link "the dashboard screen is displayed with icons and data":
+                      - /url: /pin/8162843068127670/
+                  - generic "More actions" [ref=e233]:
+                    - button "More actions" [ref=e234] [cursor=pointer]:
+                      - img [ref=e237]
+          - listitem [ref=e239]:
+            - group "Pin card" [ref=e242]:
+              - generic [ref=e244]:
+                - link "an image of a dashboard screen with many different things in the area and it is dark" [ref=e247] [cursor=pointer]:
+                  - /url: /pin/22799541860353000/
+                  - img "an image of a dashboard screen with many different things in the area and it is dark" [ref=e257]
+                - generic [ref=e259]:
+                  - generic:
+                    - link "an image of a dashboard screen with many different things in the area and it is dark":
+                      - /url: /pin/22799541860353000/
+                  - generic "More actions" [ref=e266]:
+                    - button "More actions" [ref=e267] [cursor=pointer]:
+                      - img [ref=e270]
+          - listitem [ref=e272]:
+            - group "Pin card" [ref=e275]:
+              - generic [ref=e277]:
+                - link "an image of the dashboard screen in dark colors" [ref=e280] [cursor=pointer]:
+                  - /url: /pin/113715959337399784/
+                  - img "an image of the dashboard screen in dark colors" [ref=e290]
+                - generic [ref=e292]:
+                  - generic:
+                    - link "an image of the dashboard screen in dark colors":
+                      - /url: /pin/113715959337399784/
+                  - button "Behance" [ref=e296] [cursor=pointer]:
+                    - generic [ref=e298]:
+                      - button "Behance" [ref=e301]:
+                        - generic "Behance" [ref=e302]
+                      - generic "More actions" [ref=e306]:
+                        - button "More actions" [ref=e307]:
+                          - img [ref=e310]
+          - listitem [ref=e312]:
+            - generic [ref=e313]:
+              - generic [ref=e319]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e321]:
+                - generic [ref=e323]:
+                  - link "an image of a web page with dark colors and green highlights on it's screen" [ref=e326] [cursor=pointer]:
+                    - /url: /pin/22658804370752324/
+                    - img "an image of a web page with dark colors and green highlights on it's screen" [ref=e336]
+                  - generic [ref=e338]:
+                    - generic:
+                      - link "an image of a web page with dark colors and green highlights on it's screen":
+                        - /url: /pin/22658804370752324/
+                    - generic "More actions" [ref=e345]:
+                      - button "More actions" [ref=e346] [cursor=pointer]:
+                        - img [ref=e349]
+          - listitem [ref=e351]:
+            - group "Pin card" [ref=e354]:
+              - generic [ref=e356]:
+                - link "a blurry image of an airplane flying in the sky with blue and green colors" [ref=e359] [cursor=pointer]:
+                  - /url: /pin/16888567448586935/
+                  - img "a blurry image of an airplane flying in the sky with blue and green colors" [ref=e369]
+                - generic [ref=e371]:
+                  - generic:
+                    - link "a blurry image of an airplane flying in the sky with blue and green colors":
+                      - /url: /pin/16888567448586935/
+                  - generic "More actions" [ref=e378]:
+                    - button "More actions" [ref=e379] [cursor=pointer]:
+                      - img [ref=e382]
+          - listitem [ref=e384]:
+            - group "Pin card" [ref=e387]:
+              - generic [ref=e389]:
+                - link "Petroleum Color Palette, App Design Trends, Website Color Palette, Hex Color Palette, Color Palette Challenge, Color Design Inspiration, App Design Inspiration, Web Design Projects, Dashboard Design" [ref=e392] [cursor=pointer]:
+                  - /url: /pin/6262886977964046/
+                  - img "Petroleum Color Palette, App Design Trends, Website Color Palette, Hex Color Palette, Color Palette Challenge, Color Design Inspiration, App Design Inspiration, Web Design Projects, Dashboard Design" [ref=e402]
+                - generic [ref=e404]:
+                  - generic:
+                    - link "Petroleum Color Palette, App Design Trends, Website Color Palette, Hex Color Palette, Color Palette Challenge, Color Design Inspiration, App Design Inspiration, Web Design Projects, Dashboard Design":
+                      - /url: /pin/6262886977964046/
+                  - generic "More actions" [ref=e411]:
+                    - button "More actions" [ref=e412] [cursor=pointer]:
+                      - img [ref=e415]
+          - listitem [ref=e417]:
+            - group "Pin card" [ref=e420]:
+              - generic [ref=e422]:
+                - link "a set of info graphics elements in blue and green colors on a dark gray background" [ref=e425] [cursor=pointer]:
+                  - /url: /pin/4222193392893238/
+                  - img "a set of info graphics elements in blue and green colors on a dark gray background" [ref=e435]
+                - generic [ref=e437]:
+                  - generic:
+                    - link "a set of info graphics elements in blue and green colors on a dark gray background":
+                      - /url: /pin/4222193392893238/
+                  - generic "More actions" [ref=e444]:
+                    - button "More actions" [ref=e445] [cursor=pointer]:
+                      - img [ref=e448]
+          - listitem [ref=e450]:
+            - group "Pin card" [ref=e453]:
+              - generic [ref=e455]:
+                - link "a blue and green blurry background with different color options for the colors in the image" [ref=e458] [cursor=pointer]:
+                  - /url: /pin/435652963970515584/
+                  - img "a blue and green blurry background with different color options for the colors in the image" [ref=e468]
+                - generic [ref=e470]:
+                  - generic:
+                    - link "a blue and green blurry background with different color options for the colors in the image":
+                      - /url: /pin/435652963970515584/
+                  - generic "More actions" [ref=e477]:
+                    - button "More actions" [ref=e478] [cursor=pointer]:
+                      - img [ref=e481]
+          - listitem [ref=e483]:
+            - generic [ref=e484]:
+              - generic [ref=e490]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e492]:
+                - generic [ref=e494]:
+                  - link "a black and white cat sitting on top of a bed next to a green wall" [ref=e497] [cursor=pointer]:
+                    - /url: /pin/42150946509208163/
+                    - img "a black and white cat sitting on top of a bed next to a green wall" [ref=e507]
+                  - generic [ref=e509]:
+                    - generic:
+                      - link "a black and white cat sitting on top of a bed next to a green wall":
+                        - /url: /pin/42150946509208163/
+                    - generic "More actions" [ref=e516]:
+                      - button "More actions" [ref=e517] [cursor=pointer]:
+                        - img [ref=e520]
+          - listitem [ref=e522]:
+            - group "Pin card" [ref=e525]:
+              - generic [ref=e527]:
+                - link "Futuristic Ui Dashboard, Futuristic Tech Interface Inspiration, Futuristic Hud Interface, Futuristic Tech Interface Layout, Futuristic App Interface Inspiration, Blue Gradient App Design, Futuristic Interface With Digital Grid, Blue Gradient Dashboard Design, Glassmorphism Dashboard" [ref=e530] [cursor=pointer]:
+                  - /url: /pin/2462974793252217/
+                  - img "Futuristic Ui Dashboard, Futuristic Tech Interface Inspiration, Futuristic Hud Interface, Futuristic Tech Interface Layout, Futuristic App Interface Inspiration, Blue Gradient App Design, Futuristic Interface With Digital Grid, Blue Gradient Dashboard Design, Glassmorphism Dashboard" [ref=e540]
+                - generic [ref=e542]:
+                  - generic:
+                    - link "Futuristic Ui Dashboard, Futuristic Tech Interface Inspiration, Futuristic Hud Interface, Futuristic Tech Interface Layout, Futuristic App Interface Inspiration, Blue Gradient App Design, Futuristic Interface With Digital Grid, Blue Gradient Dashboard Design, Glassmorphism Dashboard":
+                      - /url: /pin/2462974793252217/
+                  - generic "More actions" [ref=e549]:
+                    - button "More actions" [ref=e550] [cursor=pointer]:
+                      - img [ref=e553]
+          - listitem [ref=e555]:
+            - group "Pin card" [ref=e558]:
+              - generic [ref=e560]:
+                - link "the dashboard screen is displaying various graphs and data, as well as other items that are displayed" [ref=e563] [cursor=pointer]:
+                  - /url: /pin/188447565646335445/
+                  - img "the dashboard screen is displaying various graphs and data, as well as other items that are displayed" [ref=e573]
+                - generic [ref=e575]:
+                  - generic:
+                    - link "the dashboard screen is displaying various graphs and data, as well as other items that are displayed":
+                      - /url: /pin/188447565646335445/
+                  - button "Behance" [ref=e579] [cursor=pointer]:
+                    - generic [ref=e581]:
+                      - button "Behance" [ref=e584]:
+                        - generic "Behance" [ref=e585]
+                      - generic "More actions" [ref=e589]:
+                        - button "More actions" [ref=e590]:
+                          - img [ref=e593]
+          - listitem [ref=e595]:
+            - group "Pin card" [ref=e598]:
+              - generic [ref=e600]:
+                - link "an image of different colored lines in the dark" [ref=e603] [cursor=pointer]:
+                  - /url: /pin/666110601203826262/
+                  - img "an image of different colored lines in the dark" [ref=e613]
+                - generic [ref=e615]:
+                  - generic:
+                    - link "an image of different colored lines in the dark":
+                      - /url: /pin/666110601203826262/
+                  - generic "More actions" [ref=e622]:
+                    - button "More actions" [ref=e623] [cursor=pointer]:
+                      - img [ref=e626]
+          - listitem [ref=e628]:
+            - group "Pin card" [ref=e631]:
+              - generic [ref=e633]:
+                - link "the night sky is filled with stars and dark blue hues, as well as clouds" [ref=e636] [cursor=pointer]:
+                  - /url: /pin/3377768468882958/
+                  - img "the night sky is filled with stars and dark blue hues, as well as clouds" [ref=e646]
+                - generic [ref=e648]:
+                  - generic:
+                    - link "the night sky is filled with stars and dark blue hues, as well as clouds":
+                      - /url: /pin/3377768468882958/
+                  - generic "More actions" [ref=e655]:
+                    - button "More actions" [ref=e656] [cursor=pointer]:
+                      - img [ref=e659]
+          - listitem [ref=e661]:
+            - generic [ref=e662]:
+              - generic [ref=e668]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e670]:
+                - generic [ref=e672]:
+                  - link "Teal HD wallpaper, An elegant gradient background transitioning from deep teal to soft aqua." [ref=e675] [cursor=pointer]:
+                    - /url: /pin/56928382801508687/
+                    - img "Teal HD wallpaper, An elegant gradient background transitioning from deep teal to soft aqua." [ref=e685]
+                  - generic [ref=e687]:
+                    - generic:
+                      - link "Teal HD wallpaper, An elegant gradient background transitioning from deep teal to soft aqua.":
+                        - /url: /pin/56928382801508687/
+                    - generic "More actions" [ref=e694]:
+                      - button "More actions" [ref=e695] [cursor=pointer]:
+                        - img [ref=e698]
+          - listitem [ref=e700]:
+            - group "Pin card" [ref=e703]:
+              - generic [ref=e705]:
+                - link "the dashboard screen for an app that shows how much money can be spent on it" [ref=e708] [cursor=pointer]:
+                  - /url: /pin/217580225737755860/
+                  - img "the dashboard screen for an app that shows how much money can be spent on it" [ref=e718]
+                - generic [ref=e720]:
+                  - generic:
+                    - link "the dashboard screen for an app that shows how much money can be spent on it":
+                      - /url: /pin/217580225737755860/
+                  - generic "More actions" [ref=e727]:
+                    - button "More actions" [ref=e728] [cursor=pointer]:
+                      - img [ref=e731]
+          - listitem [ref=e733]:
+            - group "Pin card" [ref=e736]:
+              - generic [ref=e738]:
+                - link "an image of a blue and white background" [ref=e741] [cursor=pointer]:
+                  - /url: /pin/807411039469085974/
+                  - img "an image of a blue and white background" [ref=e751]
+                - generic [ref=e753]:
+                  - generic:
+                    - link "an image of a blue and white background":
+                      - /url: /pin/807411039469085974/
+                  - generic "More actions" [ref=e760]:
+                    - button "More actions" [ref=e761] [cursor=pointer]:
+                      - img [ref=e764]
+          - listitem [ref=e766]:
+            - group "Pin card" [ref=e769]:
+              - generic [ref=e771]:
+                - link "an image of a dashboard showing the amount of money in each device's account" [ref=e774] [cursor=pointer]:
+                  - /url: /pin/136585801194615839/
+                  - img "an image of a dashboard showing the amount of money in each device's account" [ref=e784]
+                - generic [ref=e786]:
+                  - generic:
+                    - link "an image of a dashboard showing the amount of money in each device's account":
+                      - /url: /pin/136585801194615839/
+                  - generic "More actions" [ref=e793]:
+                    - button "More actions" [ref=e794] [cursor=pointer]:
+                      - img [ref=e797]
+          - listitem [ref=e799]:
+            - group "Pin card" [ref=e802]:
+              - generic [ref=e804]:
+                - link "the dashboard screen shows that there are many different things in this area, including numbers and symbols" [ref=e807] [cursor=pointer]:
+                  - /url: /pin/43417583887412600/
+                  - img "the dashboard screen shows that there are many different things in this area, including numbers and symbols" [ref=e817]
+                - generic [ref=e819]:
+                  - generic:
+                    - link "the dashboard screen shows that there are many different things in this area, including numbers and symbols":
+                      - /url: /pin/43417583887412600/
+                  - generic "More actions" [ref=e826]:
+                    - button "More actions" [ref=e827] [cursor=pointer]:
+                      - img [ref=e830]
+          - listitem [ref=e832]:
+            - generic [ref=e833]:
+              - generic [ref=e839]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e841]:
+                - generic [ref=e843]:
+                  - link "an abstract blue and white background with different font styles on the bottom right corner, below which reads" [ref=e846] [cursor=pointer]:
+                    - /url: /pin/924012048580693368/
+                    - img "an abstract blue and white background with different font styles on the bottom right corner, below which reads" [ref=e856]
+                  - generic [ref=e858]:
+                    - generic:
+                      - link "an abstract blue and white background with different font styles on the bottom right corner, below which reads":
+                        - /url: /pin/924012048580693368/
+                    - generic "More actions" [ref=e865]:
+                      - button "More actions" [ref=e866] [cursor=pointer]:
+                        - img [ref=e869]
+          - listitem [ref=e871]:
+            - group "Pin card" [ref=e874]:
+              - generic [ref=e876]:
+                - link "an image of different shades of blue and green" [ref=e879] [cursor=pointer]:
+                  - /url: /pin/380132024821215768/
+                  - img "an image of different shades of blue and green" [ref=e889]
+                - generic [ref=e891]:
+                  - generic:
+                    - link "an image of different shades of blue and green":
+                      - /url: /pin/380132024821215768/
+                  - generic "More actions" [ref=e898]:
+                    - button "More actions" [ref=e899] [cursor=pointer]:
+                      - img [ref=e902]
+          - listitem [ref=e904]:
+            - group "Pin card" [ref=e907]:
+              - generic [ref=e909]:
+                - link "an image of a remote control on a black surface with stars in the back ground" [ref=e912] [cursor=pointer]:
+                  - /url: /pin/1100356121477054600/
+                  - img "an image of a remote control on a black surface with stars in the back ground" [ref=e922]
+                - generic [ref=e924]:
+                  - generic:
+                    - link "an image of a remote control on a black surface with stars in the back ground":
+                      - /url: /pin/1100356121477054600/
+                  - generic "More actions" [ref=e931]:
+                    - button "More actions" [ref=e932] [cursor=pointer]:
+                      - img [ref=e935]
+          - listitem [ref=e937]:
+            - group "Pin card" [ref=e940]:
+              - generic [ref=e942]:
+                - link "an image of the dashboard screen with data displayed on it, including graphs and other information" [ref=e945] [cursor=pointer]:
+                  - /url: /pin/153966881012210344/
+                  - img "an image of the dashboard screen with data displayed on it, including graphs and other information" [ref=e955]
+                - generic [ref=e957]:
+                  - generic:
+                    - link "an image of the dashboard screen with data displayed on it, including graphs and other information":
+                      - /url: /pin/153966881012210344/
+                  - generic "More actions" [ref=e964]:
+                    - button "More actions" [ref=e965] [cursor=pointer]:
+                      - img [ref=e968]
+          - listitem [ref=e970]:
+            - group "Pin card" [ref=e973]:
+              - generic [ref=e975]:
+                - link "the bitcoin dashboard is displayed on a tablet screen, and it appears to be showing" [ref=e978] [cursor=pointer]:
+                  - /url: /pin/22799541859795045/
+                  - img "the bitcoin dashboard is displayed on a tablet screen, and it appears to be showing" [ref=e988]
+                - generic [ref=e990]:
+                  - generic:
+                    - link "the bitcoin dashboard is displayed on a tablet screen, and it appears to be showing":
+                      - /url: /pin/22799541859795045/
+                  - generic "More actions" [ref=e997]:
+                    - button "More actions" [ref=e998] [cursor=pointer]:
+                      - img [ref=e1001]
+          - listitem [ref=e1003]:
+            - generic [ref=e1004]:
+              - generic [ref=e1010]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1012]:
+                - generic [ref=e1014]:
+                  - link "the dashboard screen is dark and green" [ref=e1017] [cursor=pointer]:
+                    - /url: /pin/492649954531221/
+                    - img "the dashboard screen is dark and green" [ref=e1027]
+                  - generic [ref=e1029]:
+                    - generic:
+                      - link "the dashboard screen is dark and green":
+                        - /url: /pin/492649954531221/
+                    - generic "More actions" [ref=e1036]:
+                      - button "More actions" [ref=e1037] [cursor=pointer]:
+                        - img [ref=e1040]
+          - listitem [ref=e1042]:
+            - group "Pin card" [ref=e1045]:
+              - generic [ref=e1047]:
+                - link "the back side of a blue and purple background with text that reads, gladient" [ref=e1050] [cursor=pointer]:
+                  - /url: /pin/4433299630407494/
+                  - img "the back side of a blue and purple background with text that reads, gladient" [ref=e1060]
+                - generic [ref=e1062]:
+                  - generic:
+                    - link "the back side of a blue and purple background with text that reads, gladient":
+                      - /url: /pin/4433299630407494/
+                  - generic "More actions" [ref=e1069]:
+                    - button "More actions" [ref=e1070] [cursor=pointer]:
+                      - img [ref=e1073]
+          - listitem [ref=e1075]:
+            - group "Pin card" [ref=e1078]:
+              - generic [ref=e1080]:
+                - link "the dashboard screen is filled with graphs and data" [ref=e1083] [cursor=pointer]:
+                  - /url: /pin/77968637295001856/
+                  - img "the dashboard screen is filled with graphs and data" [ref=e1093]
+                - generic [ref=e1095]:
+                  - generic:
+                    - link "the dashboard screen is filled with graphs and data":
+                      - /url: /pin/77968637295001856/
+                  - generic "More actions" [ref=e1102]:
+                    - button "More actions" [ref=e1103] [cursor=pointer]:
+                      - img [ref=e1106]
+          - listitem [ref=e1108]:
+            - group "Pin card" [ref=e1111]:
+              - generic [ref=e1113]:
+                - link "an info board with various graphs and numbers on the front, purple lights in the back" [ref=e1116] [cursor=pointer]:
+                  - /url: /pin/3799980929407098/
+                  - img "an info board with various graphs and numbers on the front, purple lights in the back" [ref=e1126]
+                - generic [ref=e1128]:
+                  - generic:
+                    - link "an info board with various graphs and numbers on the front, purple lights in the back":
+                      - /url: /pin/3799980929407098/
+                  - generic "More actions" [ref=e1135]:
+                    - button "More actions" [ref=e1136] [cursor=pointer]:
+                      - img [ref=e1139]
+          - listitem [ref=e1141]:
+            - generic [ref=e1142]:
+              - generic [ref=e1148]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1150]:
+                - generic [ref=e1152]:
+                  - link "an abstract blue and green background" [ref=e1155] [cursor=pointer]:
+                    - /url: /pin/1012606297474697460/
+                    - img "an abstract blue and green background" [ref=e1165]
+                  - generic [ref=e1167]:
+                    - generic:
+                      - link "an abstract blue and green background":
+                        - /url: /pin/1012606297474697460/
+                    - generic "More actions" [ref=e1174]:
+                      - button "More actions" [ref=e1175] [cursor=pointer]:
+                        - img [ref=e1178]
+          - listitem [ref=e1180]:
+            - generic [ref=e1181]:
+              - generic [ref=e1187]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1189]:
+                - generic [ref=e1191]:
+                  - link "a poster with three overlapping circles on the front and back of it, in dark blue tones" [ref=e1194] [cursor=pointer]:
+                    - /url: /pin/633387440022867/
+                    - img "a poster with three overlapping circles on the front and back of it, in dark blue tones" [ref=e1204]
+                  - generic [ref=e1206]:
+                    - generic:
+                      - link "a poster with three overlapping circles on the front and back of it, in dark blue tones":
+                        - /url: /pin/633387440022867/
+                    - generic "More actions" [ref=e1213]:
+                      - button "More actions" [ref=e1214] [cursor=pointer]:
+                        - img [ref=e1217]
+          - listitem [ref=e1219]:
+            - generic [ref=e1220]:
+              - generic [ref=e1226]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1228]:
+                - generic [ref=e1230]:
+                  - link "two giraffes standing next to each other in the grass at night time" [ref=e1233] [cursor=pointer]:
+                    - /url: /pin/12173861488713761/
+                    - img "two giraffes standing next to each other in the grass at night time" [ref=e1243]
+                  - generic [ref=e1245]:
+                    - generic:
+                      - link "two giraffes standing next to each other in the grass at night time":
+                        - /url: /pin/12173861488713761/
+                    - generic "More actions" [ref=e1252]:
+                      - button "More actions" [ref=e1253] [cursor=pointer]:
+                        - img [ref=e1256]
+          - listitem [ref=e1258]:
+            - generic [ref=e1259]:
+              - generic [ref=e1265]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1267]:
+                - generic [ref=e1269]:
+                  - link "the numbers and symbols in an app that shows you how to use them on your phone" [ref=e1272] [cursor=pointer]:
+                    - /url: /pin/2744449769916263/
+                    - img "the numbers and symbols in an app that shows you how to use them on your phone" [ref=e1282]
+                  - generic [ref=e1284]:
+                    - generic:
+                      - link "the numbers and symbols in an app that shows you how to use them on your phone":
+                        - /url: /pin/2744449769916263/
+                    - generic "More actions" [ref=e1291]:
+                      - button "More actions" [ref=e1292] [cursor=pointer]:
+                        - img [ref=e1295]
+          - listitem [ref=e1297]:
+            - generic [ref=e1298]:
+              - generic [ref=e1304]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1306]:
+                - generic [ref=e1308]:
+                  - link "a black and green background with some white dots on the bottom right corner in the center" [ref=e1311] [cursor=pointer]:
+                    - /url: /pin/140948663332856700/
+                    - img "a black and green background with some white dots on the bottom right corner in the center" [ref=e1321]
+                  - generic [ref=e1323]:
+                    - generic:
+                      - link "a black and green background with some white dots on the bottom right corner in the center":
+                        - /url: /pin/140948663332856700/
+                    - generic "More actions" [ref=e1330]:
+                      - button "More actions" [ref=e1331] [cursor=pointer]:
+                        - img [ref=e1334]
+          - listitem [ref=e1336]:
+            - generic [ref=e1337]:
+              - generic [ref=e1343]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1345]:
+                - generic [ref=e1347]:
+                  - link "the sky is filled with stars and mountains" [ref=e1350] [cursor=pointer]:
+                    - /url: /pin/295478425573464880/
+                    - img "the sky is filled with stars and mountains" [ref=e1360]
+                  - generic [ref=e1362]:
+                    - generic:
+                      - link "the sky is filled with stars and mountains":
+                        - /url: /pin/295478425573464880/
+                    - generic "More actions" [ref=e1369]:
+                      - button "More actions" [ref=e1370] [cursor=pointer]:
+                        - img [ref=e1373]
+          - listitem [ref=e1375]:
+            - generic [ref=e1376]:
+              - generic [ref=e1382]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1384]:
+                - generic [ref=e1386]:
+                  - link "the dashboard screen is displaying data and information" [ref=e1389] [cursor=pointer]:
+                    - /url: /pin/283234264060657770/
+                    - img "the dashboard screen is displaying data and information" [ref=e1399]
+                  - generic [ref=e1401]:
+                    - generic:
+                      - link "the dashboard screen is displaying data and information":
+                        - /url: /pin/283234264060657770/
+                    - generic "More actions" [ref=e1408]:
+                      - button "More actions" [ref=e1409] [cursor=pointer]:
+                        - img [ref=e1412]
+          - listitem [ref=e1414]:
+            - generic [ref=e1415]:
+              - generic [ref=e1421]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1423]:
+                - generic [ref=e1425]:
+                  - link "a dark blue and green info board with numbers, graphs, and symbols on it" [ref=e1428] [cursor=pointer]:
+                    - /url: /pin/407998047513371093/
+                    - img "a dark blue and green info board with numbers, graphs, and symbols on it" [ref=e1438]
+                  - generic [ref=e1440]:
+                    - generic:
+                      - link "a dark blue and green info board with numbers, graphs, and symbols on it":
+                        - /url: /pin/407998047513371093/
+                    - button "Freepik" [ref=e1444] [cursor=pointer]:
+                      - generic [ref=e1446]:
+                        - button "Freepik" [ref=e1449]:
+                          - generic "Freepik" [ref=e1450]
+                        - generic "More actions" [ref=e1454]:
+                          - button "More actions" [ref=e1455]:
+                            - img [ref=e1458]

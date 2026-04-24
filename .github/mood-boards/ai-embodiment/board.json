@@ -1,0 +1,109 @@
+{
+  "name": "AI Embodiment — Abstract Intelligence",
+  "concept": "An abstract, non-figurative visual presence that implies intelligence and cognition. A simulation of thought — not a character. The embodiment communicates agent state through subtle motion, color, scale, and position shifts. Mobile-first personal assistant for organizing projects, thoughts, and time.",
+  "direction": "Abstract reactive forms, luminous atmosphere, subtle state-driven motion, modern warmth over clinical minimalism",
+  "created": "2026-04-23",
+  "categories": [
+    {
+      "id": "abstract-reactive-forms",
+      "label": "Abstract Reactive Forms",
+      "query": "abstract generative art reactive 3D fluid simulation",
+      "images": [
+        { "file": "images/abstract-reactive-forms/reactive-form-1.jpg", "source": "pinterest" },
+        { "file": "images/abstract-reactive-forms/reactive-form-2.jpg", "source": "pinterest" },
+        { "file": "images/abstract-reactive-forms/reactive-form-3.jpg", "source": "pinterest" },
+        { "file": "images/abstract-reactive-forms/reactive-form-4.jpg", "source": "pinterest" },
+        { "file": "images/abstract-reactive-forms/reactive-form-5.jpg", "source": "pinterest" },
+        { "file": "images/abstract-reactive-forms/reactive-form-6.jpg", "source": "pinterest" },
+        { "file": "images/abstract-reactive-forms/reactive-form-7.jpg", "source": "pinterest" },
+        { "file": "images/abstract-reactive-forms/reactive-form-8.jpg", "source": "pinterest" },
+        { "file": "images/abstract-reactive-forms/reactive-form-9.jpg", "source": "pinterest" },
+        { "file": "images/abstract-reactive-forms/reactive-form-10.jpg", "source": "pinterest" }
+      ]
+    },
+    {
+      "id": "light-phenomena",
+      "label": "Light Phenomena",
+      "query": "diverse light phenomena — caustics, Turrell, fiber optics, bioluminescence, prism, phosphorescence",
+      "images": [
+        { "file": "images/light-phenomena/light-1.jpg", "source": "pinterest" },
+        { "file": "images/light-phenomena/light-2.jpg", "source": "pinterest" },
+        { "file": "images/light-phenomena/light-3.jpg", "source": "pinterest" },
+        { "file": "images/light-phenomena/light-4.jpg", "source": "pinterest" },
+        { "file": "images/light-phenomena/light-5.jpg", "source": "pinterest" },
+        { "file": "images/light-phenomena/light-6.jpg", "source": "pinterest" },
+        { "file": "images/light-phenomena/light-7.jpg", "source": "pinterest" },
+        { "file": "images/light-phenomena/light-8.jpg", "source": "pinterest" },
+        { "file": "images/light-phenomena/light-9.jpg", "source": "pinterest" },
+        { "file": "images/light-phenomena/light-10.jpg", "source": "pinterest" }
+      ]
+    },
+    {
+      "id": "ai-voice-ui",
+      "label": "AI & Voice UI",
+      "query": "AI embodiment interface design — diverse form languages",
+      "images": [
+        { "file": "images/ai-voice-ui/voice-ui-1.jpg", "source": "pinterest" },
+        { "file": "images/ai-voice-ui/voice-ui-2.jpg", "source": "pinterest" },
+        { "file": "images/ai-voice-ui/voice-ui-3.jpg", "source": "pinterest" },
+        { "file": "images/ai-voice-ui/voice-ui-4.jpg", "source": "pinterest" },
+        { "file": "images/ai-voice-ui/voice-ui-5.jpg", "source": "pinterest" },
+        { "file": "images/ai-voice-ui/voice-ui-6.jpg", "source": "pinterest" },
+        { "file": "images/ai-voice-ui/voice-ui-7.jpg", "source": "pinterest" },
+        { "file": "images/ai-voice-ui/voice-ui-8.jpg", "source": "pinterest" },
+        { "file": "images/ai-voice-ui/voice-ui-9.jpg", "source": "pinterest" }
+      ]
+    },
+    {
+      "id": "minimal-mobile-ui",
+      "label": "Minimal Mobile UI",
+      "query": "minimal mobile app UI design modern dark",
+      "images": [
+        { "file": "images/minimal-mobile-ui/mobile-ui-1.jpg", "source": "pinterest" },
+        { "file": "images/minimal-mobile-ui/mobile-ui-2.jpg", "source": "pinterest" },
+        { "file": "images/minimal-mobile-ui/mobile-ui-3.jpg", "source": "pinterest" },
+        { "file": "images/minimal-mobile-ui/mobile-ui-4.jpg", "source": "pinterest" },
+        { "file": "images/minimal-mobile-ui/mobile-ui-5.jpg", "source": "pinterest" },
+        { "file": "images/minimal-mobile-ui/mobile-ui-6.jpg", "source": "pinterest" },
+        { "file": "images/minimal-mobile-ui/mobile-ui-7.jpg", "source": "pinterest" },
+        { "file": "images/minimal-mobile-ui/mobile-ui-8.jpg", "source": "pinterest" },
+        { "file": "images/minimal-mobile-ui/mobile-ui-9.jpg", "source": "pinterest" },
+        { "file": "images/minimal-mobile-ui/mobile-ui-10.jpg", "source": "pinterest" }
+      ]
+    },
+    {
+      "id": "motion-state",
+      "label": "Motion & State",
+      "query": "state transitions — breathing, cymatics, interference, frequency response",
+      "images": [
+        { "file": "images/motion-state/motion-1.jpg", "source": "pinterest" },
+        { "file": "images/motion-state/motion-2.jpg", "source": "pinterest" },
+        { "file": "images/motion-state/motion-3.jpg", "source": "pinterest" },
+        { "file": "images/motion-state/motion-4.jpg", "source": "pinterest" },
+        { "file": "images/motion-state/motion-5.jpg", "source": "pinterest" },
+        { "file": "images/motion-state/motion-6.jpg", "source": "pinterest" },
+        { "file": "images/motion-state/motion-7.jpg", "source": "pinterest" },
+        { "file": "images/motion-state/motion-8.jpg", "source": "pinterest" },
+        { "file": "images/motion-state/motion-9.jpg", "source": "pinterest" },
+        { "file": "images/motion-state/motion-10.jpg", "source": "pinterest" }
+      ]
+    },
+    {
+      "id": "color-atmosphere",
+      "label": "Color & Atmosphere",
+      "query": "modern warm color palette sophisticated digital UI",
+      "images": [
+        { "file": "images/color-atmosphere/color-atmo-1.jpg", "source": "pinterest" },
+        { "file": "images/color-atmosphere/color-atmo-2.jpg", "source": "pinterest" },
+        { "file": "images/color-atmosphere/color-atmo-3.jpg", "source": "pinterest" },
+        { "file": "images/color-atmosphere/color-atmo-4.jpg", "source": "pinterest" },
+        { "file": "images/color-atmosphere/color-atmo-5.jpg", "source": "pinterest" },
+        { "file": "images/color-atmosphere/color-atmo-6.jpg", "source": "pinterest" },
+        { "file": "images/color-atmosphere/color-atmo-7.jpg", "source": "pinterest" },
+        { "file": "images/color-atmosphere/color-atmo-8.jpg", "source": "pinterest" },
+        { "file": "images/color-atmosphere/color-atmo-9.jpg", "source": "pinterest" },
+        { "file": "images/color-atmosphere/color-atmo-10.jpg", "source": "pinterest" }
+      ]
+    }
+  ]
+}

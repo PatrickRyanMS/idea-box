@@ -1,0 +1,554 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - link "Skip to content":
+      - /url: "#"
+      - generic [ref=e9] [cursor=pointer]: Skip to content
+    - generic [ref=e11]:
+      - generic [ref=e14]:
+        - combobox "Search" [ref=e16]: conversational UI full screen mobile chat minimal
+        - button "Remove search input" [ref=e5860] [cursor=pointer]:
+          - img [ref=e5863]
+      - generic [ref=e26]:
+        - button "Log in" [ref=e28] [cursor=pointer]:
+          - generic [ref=e30]: Log in
+        - button "Sign up" [ref=e32] [cursor=pointer]:
+          - generic [ref=e34]: Sign up
+  - navigation [ref=e36]:
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - generic "Home" [ref=e43]:
+          - link "Home" [ref=e44] [cursor=pointer]:
+            - /url: /
+            - img [ref=e46]
+        - generic "Explore" [ref=e51]:
+          - link "Explore" [ref=e52] [cursor=pointer]:
+            - /url: /ideas
+            - img [ref=e54]
+        - generic "Shop" [ref=e59]:
+          - link "Shop" [ref=e60] [cursor=pointer]:
+            - /url: /shopping
+            - img [ref=e62]
+      - generic "More options" [ref=e66]:
+        - button "More options" [ref=e67] [cursor=pointer]:
+          - img [ref=e70]
+  - main [ref=e72]:
+    - generic [ref=e5866]:
+      - generic [ref=e5869]:
+        - heading "Search" [level=1] [ref=e5871]
+        - button "Show filters" [ref=e5882] [cursor=pointer]:
+          - img [ref=e5886]
+      - generic [ref=e5892]:
+        - generic [ref=e5893]: Showing more search results for conversational UI full screen mobile chat minimal
+        - list [ref=e5898]:
+          - listitem [ref=e5899]:
+            - group "Pin card" [ref=e5902]:
+              - generic [ref=e5904]:
+                - link "the text message messages are being displayed on an iphone's screen, with two people talking to each other" [ref=e5907] [cursor=pointer]:
+                  - /url: /pin/23503229301378634/
+                  - img "the text message messages are being displayed on an iphone's screen, with two people talking to each other" [ref=e5917]
+                - generic [ref=e5919]:
+                  - generic:
+                    - link "the text message messages are being displayed on an iphone's screen, with two people talking to each other":
+                      - /url: /pin/23503229301378634/
+                  - generic "More actions" [ref=e5926]:
+                    - button "More actions" [ref=e5927] [cursor=pointer]:
+                      - img [ref=e5930]
+          - listitem [ref=e5932]:
+            - group "Pin card" [ref=e5935]:
+              - generic [ref=e5937]:
+                - link "two texts are being shared to each other on the same page, and one is in conversation" [ref=e5940] [cursor=pointer]:
+                  - /url: /pin/16958936086026060/
+                  - img "two texts are being shared to each other on the same page, and one is in conversation" [ref=e5950]
+                - generic [ref=e5952]:
+                  - generic:
+                    - link "two texts are being shared to each other on the same page, and one is in conversation":
+                      - /url: /pin/16958936086026060/
+                  - generic "More actions" [ref=e5959]:
+                    - button "More actions" [ref=e5960] [cursor=pointer]:
+                      - img [ref=e5963]
+          - listitem [ref=e5965]:
+            - group "Pin card" [ref=e5968]:
+              - generic [ref=e5970]:
+                - link "an iphone screen with two texts on it and the same texting message below them" [ref=e5973] [cursor=pointer]:
+                  - /url: /pin/783626403919271729/
+                  - img "an iphone screen with two texts on it and the same texting message below them" [ref=e5983]
+                - generic [ref=e5985]:
+                  - generic:
+                    - link "an iphone screen with two texts on it and the same texting message below them":
+                      - /url: /pin/783626403919271729/
+                  - generic "More actions" [ref=e5992]:
+                    - button "More actions" [ref=e5993] [cursor=pointer]:
+                      - img [ref=e5996]
+          - listitem [ref=e5998]:
+            - group "Pin card" [ref=e6001]:
+              - generic [ref=e6003]:
+                - link "an iphone screen with texting on it" [ref=e6006] [cursor=pointer]:
+                  - /url: /pin/2674081026085857/
+                  - img "an iphone screen with texting on it" [ref=e6016]
+                - generic [ref=e6018]:
+                  - generic:
+                    - link "an iphone screen with texting on it":
+                      - /url: /pin/2674081026085857/
+                  - generic "More actions" [ref=e6025]:
+                    - button "More actions" [ref=e6026] [cursor=pointer]:
+                      - img [ref=e6029]
+          - listitem [ref=e6031]:
+            - group "Pin card" [ref=e6034]:
+              - generic [ref=e6036]:
+                - link "two screens showing messages on the same screen and an image of someone's phone" [ref=e6039] [cursor=pointer]:
+                  - /url: /pin/23432860625417744/
+                  - img "two screens showing messages on the same screen and an image of someone's phone" [ref=e6049]
+                - generic [ref=e6051]:
+                  - generic:
+                    - link "two screens showing messages on the same screen and an image of someone's phone":
+                      - /url: /pin/23432860625417744/
+                  - generic "More actions" [ref=e6058]:
+                    - button "More actions" [ref=e6059] [cursor=pointer]:
+                      - img [ref=e6062]
+          - listitem [ref=e6064]:
+            - group "Pin card" [ref=e6067]:
+              - generic [ref=e6069]:
+                - link "an iphone screen with two texts on it" [ref=e6072] [cursor=pointer]:
+                  - /url: /pin/81416705759993068/
+                  - img "an iphone screen with two texts on it" [ref=e6082]
+                - generic [ref=e6084]:
+                  - generic:
+                    - link "an iphone screen with two texts on it":
+                      - /url: /pin/81416705759993068/
+                  - generic "More actions" [ref=e6091]:
+                    - button "More actions" [ref=e6092] [cursor=pointer]:
+                      - img [ref=e6095]
+          - listitem [ref=e6097]:
+            - generic [ref=e6098]:
+              - generic [ref=e6104]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e6106]:
+                - generic [ref=e6108]:
+                  - link "two texts that are being used to describe what people think about the internet and how they use them" [ref=e6111] [cursor=pointer]:
+                    - /url: /pin/479000110387063910/
+                    - img "two texts that are being used to describe what people think about the internet and how they use them" [ref=e6121]
+                  - generic [ref=e6123]:
+                    - generic:
+                      - link "two texts that are being used to describe what people think about the internet and how they use them":
+                        - /url: /pin/479000110387063910/
+                    - generic "More actions" [ref=e6130]:
+                      - button "More actions" [ref=e6131] [cursor=pointer]:
+                        - img [ref=e6134]
+          - listitem [ref=e6136]:
+            - group "Pin card" [ref=e6139]:
+              - generic [ref=e6141]:
+                - link "the text message is being displayed on an iphone screen, and it appears to be in conversation" [ref=e6144] [cursor=pointer]:
+                  - /url: /pin/728527677221761544/
+                  - img "the text message is being displayed on an iphone screen, and it appears to be in conversation" [ref=e6154]
+                - generic [ref=e6156]:
+                  - generic:
+                    - link "the text message is being displayed on an iphone screen, and it appears to be in conversation":
+                      - /url: /pin/728527677221761544/
+                  - generic "More actions" [ref=e6163]:
+                    - button "More actions" [ref=e6164] [cursor=pointer]:
+                      - img [ref=e6167]
+          - listitem [ref=e6169]:
+            - group "Pin card" [ref=e6172]:
+              - generic [ref=e6174]:
+                - link "two people texting on their cell phones while one person is looking at the screen" [ref=e6177] [cursor=pointer]:
+                  - /url: /pin/197736239885268702/
+                  - img "two people texting on their cell phones while one person is looking at the screen" [ref=e6187]
+                - generic [ref=e6189]:
+                  - generic:
+                    - link "two people texting on their cell phones while one person is looking at the screen":
+                      - /url: /pin/197736239885268702/
+                  - generic "More actions" [ref=e6196]:
+                    - button "More actions" [ref=e6197] [cursor=pointer]:
+                      - img [ref=e6200]
+          - listitem [ref=e6202]:
+            - group "Pin card" [ref=e6205]:
+              - generic [ref=e6207]:
+                - generic [ref=e6208]:
+                  - link "an iphone screen with the text, choose how you're feeling right now neutral" [ref=e6210] [cursor=pointer]:
+                    - /url: /pin/23081016836824301/
+                    - 'img "This may contain: an iphone screen with the text, choose how you''re feeling right now neutral" [ref=e6226]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:22
+                - generic [ref=e6228]:
+                  - generic:
+                    - link "an iphone screen with the text, choose how you're feeling right now neutral":
+                      - /url: /pin/23081016836824301/
+                  - generic "More actions" [ref=e6235]:
+                    - button "More actions" [ref=e6236] [cursor=pointer]:
+                      - img [ref=e6239]
+          - listitem [ref=e6241]:
+            - group "Pin card" [ref=e6244]:
+              - generic [ref=e6246]:
+                - generic [ref=e6247]:
+                  - link "an iphone screen with the text how can i help you?" [ref=e6249] [cursor=pointer]:
+                    - /url: /pin/332984966208178984/
+                    - 'img "This may contain: an iphone screen with the text how can i help you?" [ref=e6265]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:07
+                - generic [ref=e6267]:
+                  - generic:
+                    - link "an iphone screen with the text how can i help you?":
+                      - /url: /pin/332984966208178984/
+                  - generic "More actions" [ref=e6274]:
+                    - button "More actions" [ref=e6275] [cursor=pointer]:
+                      - img [ref=e6278]
+          - listitem [ref=e6280]:
+            - generic [ref=e6281]:
+              - generic [ref=e6287]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e6289]:
+                - generic [ref=e6291]:
+                  - link "the text message is being displayed on an iphone's screen, and it appears to be in conversation with someone else" [ref=e6294] [cursor=pointer]:
+                    - /url: /pin/105623553758021835/
+                    - img "the text message is being displayed on an iphone's screen, and it appears to be in conversation with someone else" [ref=e6304]
+                  - generic [ref=e6306]:
+                    - generic:
+                      - link "the text message is being displayed on an iphone's screen, and it appears to be in conversation with someone else":
+                        - /url: /pin/105623553758021835/
+                    - generic "More actions" [ref=e6313]:
+                      - button "More actions" [ref=e6314] [cursor=pointer]:
+                        - img [ref=e6317]
+          - listitem [ref=e6319]:
+            - group "Pin card" [ref=e6322]:
+              - generic [ref=e6324]:
+                - link "an iphone with the message chat on it" [ref=e6327] [cursor=pointer]:
+                  - /url: /pin/343821752824542805/
+                  - img "an iphone with the message chat on it" [ref=e6337]
+                - generic [ref=e6339]:
+                  - generic:
+                    - link "an iphone with the message chat on it":
+                      - /url: /pin/343821752824542805/
+                  - generic "More actions" [ref=e6346]:
+                    - button "More actions" [ref=e6347] [cursor=pointer]:
+                      - img [ref=e6350]
+          - listitem [ref=e6352]:
+            - group "Pin card" [ref=e6355]:
+              - generic [ref=e6357]:
+                - link "an image of someone's text message on their cell phone that says, we respond quickly 24 / 7 support" [ref=e6360] [cursor=pointer]:
+                  - /url: /pin/2674081025197653/
+                  - img "an image of someone's text message on their cell phone that says, we respond quickly 24 / 7 support" [ref=e6370]
+                - generic [ref=e6372]:
+                  - generic:
+                    - link "an image of someone's text message on their cell phone that says, we respond quickly 24 / 7 support":
+                      - /url: /pin/2674081025197653/
+                  - generic "More actions" [ref=e6379]:
+                    - button "More actions" [ref=e6380] [cursor=pointer]:
+                      - img [ref=e6383]
+          - listitem [ref=e6385]:
+            - group "Pin card" [ref=e6388]:
+              - generic [ref=e6390]:
+                - link "two screens showing messages on the same screen, one is in purple and the other has white" [ref=e6393] [cursor=pointer]:
+                  - /url: /pin/23573598046198322/
+                  - img "two screens showing messages on the same screen, one is in purple and the other has white" [ref=e6403]
+                - generic [ref=e6405]:
+                  - generic:
+                    - link "two screens showing messages on the same screen, one is in purple and the other has white":
+                      - /url: /pin/23573598046198322/
+                  - generic "More actions" [ref=e6412]:
+                    - button "More actions" [ref=e6413] [cursor=pointer]:
+                      - img [ref=e6416]
+          - listitem [ref=e6418]:
+            - group "Pin card" [ref=e6421]:
+              - generic [ref=e6423]:
+                - link "an iphone screen with the text'hey, glad you're here '" [ref=e6426] [cursor=pointer]:
+                  - /url: /pin/1196337405317649/
+                  - img "an iphone screen with the text'hey, glad you're here '" [ref=e6436]
+                - generic [ref=e6438]:
+                  - generic:
+                    - link "an iphone screen with the text'hey, glad you're here '":
+                      - /url: /pin/1196337405317649/
+                  - generic "More actions" [ref=e6445]:
+                    - button "More actions" [ref=e6446] [cursor=pointer]:
+                      - img [ref=e6449]
+          - listitem [ref=e6451]:
+            - generic [ref=e6452]:
+              - generic [ref=e6458]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e6460]:
+                - generic [ref=e6462]:
+                  - link "two mobile phones with messages on them" [ref=e6465] [cursor=pointer]:
+                    - /url: /pin/92323861105025357/
+                    - img "two mobile phones with messages on them" [ref=e6475]
+                  - generic [ref=e6477]:
+                    - generic:
+                      - link "two mobile phones with messages on them":
+                        - /url: /pin/92323861105025357/
+                    - generic "More actions" [ref=e6484]:
+                      - button "More actions" [ref=e6485] [cursor=pointer]:
+                        - img [ref=e6488]
+          - listitem [ref=e6490]:
+            - group "Pin card" [ref=e6493]:
+              - generic [ref=e6495]:
+                - generic [ref=e6496]:
+                  - link "someone is holding their cell phone with blue lines on the screen and pointing at it" [ref=e6498] [cursor=pointer]:
+                    - /url: /pin/2322237302579290/
+                    - 'img "This may contain: someone is holding their cell phone with blue lines on the screen and pointing at it" [ref=e6514]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:11
+                - generic [ref=e6516]:
+                  - generic:
+                    - link "someone is holding their cell phone with blue lines on the screen and pointing at it":
+                      - /url: /pin/2322237302579290/
+                  - generic "More actions" [ref=e6523]:
+                    - button "More actions" [ref=e6524] [cursor=pointer]:
+                      - img [ref=e6527]
+          - listitem [ref=e6529]:
+            - group "Pin card" [ref=e6532]:
+              - generic [ref=e6534]:
+                - generic [ref=e6535]:
+                  - link "an iphone screen with the message'happy mother'on it, in front of a colorful background" [ref=e6537] [cursor=pointer]:
+                    - /url: /pin/2674081025046824/
+                    - 'img "This may contain: an iphone screen with the message''happy mother''on it, in front of a colorful background" [ref=e6553]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:21
+                - generic [ref=e6555]:
+                  - generic:
+                    - link "an iphone screen with the message'happy mother'on it, in front of a colorful background":
+                      - /url: /pin/2674081025046824/
+                  - generic "More actions" [ref=e6562]:
+                    - button "More actions" [ref=e6563] [cursor=pointer]:
+                      - img [ref=e6566]
+          - listitem [ref=e6568]:
+            - group "Pin card" [ref=e6571]:
+              - generic [ref=e6573]:
+                - link "an iphone screen showing the language selection and how to change it from english to spanish" [ref=e6576] [cursor=pointer]:
+                  - /url: /pin/195062227604403940/
+                  - img "an iphone screen showing the language selection and how to change it from english to spanish" [ref=e6586]
+                - generic [ref=e6588]:
+                  - generic:
+                    - link "an iphone screen showing the language selection and how to change it from english to spanish":
+                      - /url: /pin/195062227604403940/
+                  - generic "More actions" [ref=e6595]:
+                    - button "More actions" [ref=e6596] [cursor=pointer]:
+                      - img [ref=e6599]
+          - listitem [ref=e6601]:
+            - group "Pin card" [ref=e6604]:
+              - generic [ref=e6606]:
+                - link "two screens showing what the user is looking at and how they are doing their job" [ref=e6609] [cursor=pointer]:
+                  - /url: /pin/404831454002169677/
+                  - img "two screens showing what the user is looking at and how they are doing their job" [ref=e6619]
+                - generic [ref=e6621]:
+                  - generic:
+                    - link "two screens showing what the user is looking at and how they are doing their job":
+                      - /url: /pin/404831454002169677/
+                  - generic "More actions" [ref=e6628]:
+                    - button "More actions" [ref=e6629] [cursor=pointer]:
+                      - img [ref=e6632]
+          - listitem [ref=e6634]:
+            - generic [ref=e6635]:
+              - generic [ref=e6641]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e6643]:
+                - generic [ref=e6645]:
+                  - link "Chat Interface Design, Modern Chat App Design, Chat Ui Design, Chat App Ui, Chat Ui Design Mobile, Chat App Interface Design, Chatting Ui, Designing Chat App Interfaces, Minimalist Chat Interface" [ref=e6648] [cursor=pointer]:
+                    - /url: /pin/80713018316266752/
+                    - img "Chat Interface Design, Modern Chat App Design, Chat Ui Design, Chat App Ui, Chat Ui Design Mobile, Chat App Interface Design, Chatting Ui, Designing Chat App Interfaces, Minimalist Chat Interface" [ref=e6658]
+                  - generic [ref=e6660]:
+                    - generic:
+                      - link "Chat Interface Design, Modern Chat App Design, Chat Ui Design, Chat App Ui, Chat Ui Design Mobile, Chat App Interface Design, Chatting Ui, Designing Chat App Interfaces, Minimalist Chat Interface":
+                        - /url: /pin/80713018316266752/
+                    - generic "More actions" [ref=e6667]:
+                      - button "More actions" [ref=e6668] [cursor=pointer]:
+                        - img [ref=e6671]
+          - listitem [ref=e6673]:
+            - group "Pin card" [ref=e6676]:
+              - generic [ref=e6678]:
+                - link "an iphone screen with several different chats on the phone and one is showing people's faces" [ref=e6681] [cursor=pointer]:
+                  - /url: /pin/253749760250859026/
+                  - img "an iphone screen with several different chats on the phone and one is showing people's faces" [ref=e6691]
+                - generic [ref=e6693]:
+                  - generic:
+                    - link "an iphone screen with several different chats on the phone and one is showing people's faces":
+                      - /url: /pin/253749760250859026/
+                  - generic "More actions" [ref=e6700]:
+                    - button "More actions" [ref=e6701] [cursor=pointer]:
+                      - img [ref=e6704]
+          - listitem [ref=e6706]:
+            - generic [ref=e6707]:
+              - generic [ref=e6713]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e6715]:
+                - generic [ref=e6717]:
+                  - generic [ref=e6718]:
+                    - link "an iphone with the texting app on it's screen and keyboard keys highlighted" [ref=e6720] [cursor=pointer]:
+                      - /url: /pin/2674081025179522/
+                      - generic [ref=e6735]:
+                        - 'img "This may contain: an iphone with the texting app on it''s screen and keyboard keys highlighted"'
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 0:09
+                  - generic [ref=e6737]:
+                    - generic:
+                      - link "an iphone with the texting app on it's screen and keyboard keys highlighted":
+                        - /url: /pin/2674081025179522/
+                    - generic "More actions" [ref=e6744]:
+                      - button "More actions" [ref=e6745] [cursor=pointer]:
+                        - img [ref=e6748]
+          - listitem [ref=e6750]:
+            - generic [ref=e6751]:
+              - generic [ref=e6757]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e6759]:
+                - generic [ref=e6761]:
+                  - link "two iphones with chats displayed on them" [ref=e6764] [cursor=pointer]:
+                    - /url: /pin/2674081025035574/
+                    - generic [ref=e6773]:
+                      - img "two iphones with chats displayed on them"
+                  - generic [ref=e6775]:
+                    - generic:
+                      - link "two iphones with chats displayed on them":
+                        - /url: /pin/2674081025035574/
+                    - generic "More actions" [ref=e6782]:
+                      - button "More actions" [ref=e6783] [cursor=pointer]:
+                        - img [ref=e6786]
+          - listitem [ref=e6788]:
+            - generic [ref=e6789]:
+              - generic [ref=e6795]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e6797]:
+                - generic [ref=e6799]:
+                  - link "two cell phones with chats on them, one is green and the other is white" [ref=e6802] [cursor=pointer]:
+                    - /url: /pin/616711742770507297/
+                    - generic [ref=e6811]:
+                      - img "two cell phones with chats on them, one is green and the other is white"
+                  - generic [ref=e6813]:
+                    - generic:
+                      - link "two cell phones with chats on them, one is green and the other is white":
+                        - /url: /pin/616711742770507297/
+                    - generic "More actions" [ref=e6820]:
+                      - button "More actions" [ref=e6821] [cursor=pointer]:
+                        - img [ref=e6824]
+          - listitem [ref=e6826]:
+            - generic [ref=e6827]:
+              - generic [ref=e6833]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e6835]:
+                - generic [ref=e6837]:
+                  - link "the text message is being displayed on an iphone's screen, and it appears to be in conversation with someone else" [ref=e6840] [cursor=pointer]:
+                    - /url: /pin/662381057733513498/
+                    - generic [ref=e6849]:
+                      - img "the text message is being displayed on an iphone's screen, and it appears to be in conversation with someone else"
+                  - generic [ref=e6851]:
+                    - generic:
+                      - link "the text message is being displayed on an iphone's screen, and it appears to be in conversation with someone else":
+                        - /url: /pin/662381057733513498/
+                    - generic "More actions" [ref=e6858]:
+                      - button "More actions" [ref=e6859] [cursor=pointer]:
+                        - img [ref=e6862]
+          - listitem [ref=e6864]:
+            - generic [ref=e6865]:
+              - generic [ref=e6871]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e6873]:
+                - generic [ref=e6875]:
+                  - link "an email message is shown with the text'get something on your mind? '" [ref=e6878] [cursor=pointer]:
+                    - /url: /pin/903816219440773541/
+                    - generic [ref=e6887]:
+                      - img "an email message is shown with the text'get something on your mind? '"
+                  - generic [ref=e6889]:
+                    - generic:
+                      - link "an email message is shown with the text'get something on your mind? '":
+                        - /url: /pin/903816219440773541/
+                    - generic "More actions" [ref=e6896]:
+                      - button "More actions" [ref=e6897] [cursor=pointer]:
+                        - img [ref=e6900]
+          - listitem [ref=e6902]:
+            - generic [ref=e6903]:
+              - generic [ref=e6909]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e6911]:
+                - generic [ref=e6913]:
+                  - link "an iphone with the text hey, smile, what can i help you with?" [ref=e6916] [cursor=pointer]:
+                    - /url: /pin/14073817581462921/
+                    - generic [ref=e6925]:
+                      - img "an iphone with the text hey, smile, what can i help you with?"
+                  - generic [ref=e6927]:
+                    - generic:
+                      - link "an iphone with the text hey, smile, what can i help you with?":
+                        - /url: /pin/14073817581462921/
+                    - generic "More actions" [ref=e6934]:
+                      - button "More actions" [ref=e6935] [cursor=pointer]:
+                        - img [ref=e6938]
+          - listitem [ref=e6940]:
+            - generic [ref=e6941]:
+              - generic [ref=e6947]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e6949]:
+                - generic [ref=e6951]:
+                  - link "an iphone screen showing the keyboard and texting options for different types of texts on it" [ref=e6954] [cursor=pointer]:
+                    - /url: /pin/616782111511872157/
+                    - generic [ref=e6963]:
+                      - img "an iphone screen showing the keyboard and texting options for different types of texts on it"
+                  - generic [ref=e6965]:
+                    - generic:
+                      - link "an iphone screen showing the keyboard and texting options for different types of texts on it":
+                        - /url: /pin/616782111511872157/
+                    - generic "More actions" [ref=e6972]:
+                      - button "More actions" [ref=e6973] [cursor=pointer]:
+                        - img [ref=e6976]
+          - listitem [ref=e6978]:
+            - generic [ref=e6979]:
+              - generic [ref=e6985]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e6987]:
+                - generic [ref=e6989]:
+                  - link "two texts that are on the same page" [ref=e6992] [cursor=pointer]:
+                    - /url: /pin/916482592934145107/
+                    - generic [ref=e7001]:
+                      - img "two texts that are on the same page"
+                  - generic [ref=e7003]:
+                    - generic:
+                      - link "two texts that are on the same page":
+                        - /url: /pin/916482592934145107/
+                    - generic "More actions" [ref=e7010]:
+                      - button "More actions" [ref=e7011] [cursor=pointer]:
+                        - img [ref=e7014]
+          - listitem [ref=e7016]:
+            - generic [ref=e7017]:
+              - generic [ref=e7023]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e7025]:
+                - generic [ref=e7027]:
+                  - link "three smartphones with messages on them" [ref=e7030] [cursor=pointer]:
+                    - /url: /pin/632403972729946184/
+                    - generic [ref=e7039]:
+                      - img "three smartphones with messages on them"
+                  - generic [ref=e7041]:
+                    - generic:
+                      - link "three smartphones with messages on them":
+                        - /url: /pin/632403972729946184/
+                    - generic "More actions" [ref=e7048]:
+                      - button "More actions" [ref=e7049] [cursor=pointer]:
+                        - img [ref=e7052]

@@ -1,0 +1,332 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - link "Skip to content":
+      - /url: "#"
+      - generic [ref=e8] [cursor=pointer]: Skip to content
+    - generic [ref=e10]:
+      - generic [ref=e13]:
+        - combobox "Search" [ref=e15]: horizontal scroll mobile app dark mode swipe navigation minimal
+        - button "Remove search input" [ref=e20] [cursor=pointer]:
+          - img [ref=e23]
+      - generic [ref=e25]:
+        - button "Log in" [ref=e27] [cursor=pointer]:
+          - generic [ref=e29]: Log in
+        - button "Sign up" [ref=e31] [cursor=pointer]:
+          - generic [ref=e33]: Sign up
+  - navigation [ref=e35]:
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - generic "Home" [ref=e42]:
+          - link "Home" [ref=e43] [cursor=pointer]:
+            - /url: /
+            - img [ref=e45]
+        - generic "Explore" [ref=e50]:
+          - link "Explore" [ref=e51] [cursor=pointer]:
+            - /url: /ideas
+            - img [ref=e53]
+        - generic "Shop" [ref=e58]:
+          - link "Shop" [ref=e59] [cursor=pointer]:
+            - /url: /shopping
+            - img [ref=e61]
+      - generic "More options" [ref=e65]:
+        - button "More options" [ref=e66] [cursor=pointer]:
+          - img [ref=e69]
+  - main [ref=e71]:
+    - generic [ref=e73]:
+      - generic [ref=e76]:
+        - heading "Search" [level=1] [ref=e78]
+        - button "Show filters" [ref=e89] [cursor=pointer]:
+          - img [ref=e93]
+      - generic [ref=e99]:
+        - generic [ref=e100]: Loading more search results for horizontal scroll mobile app dark mode swipe navigation minimal
+        - list [ref=e105]:
+          - listitem [ref=e106]:
+            - group "Pin card" [ref=e109]:
+              - generic [ref=e111]:
+                - link "two screens showing the settings for an app" [ref=e114] [cursor=pointer]:
+                  - /url: /pin/5981412000728519/
+                  - img "two screens showing the settings for an app" [ref=e124]
+                - generic [ref=e126]:
+                  - generic:
+                    - link "two screens showing the settings for an app":
+                      - /url: /pin/5981412000728519/
+                  - generic "More actions" [ref=e133]:
+                    - button "More actions" [ref=e134] [cursor=pointer]:
+                      - img [ref=e137]
+          - listitem [ref=e139]:
+            - group "Pin card" [ref=e142]:
+              - generic [ref=e144]:
+                - link "an image of a cell phone that is on the screen and has been turned off" [ref=e147] [cursor=pointer]:
+                  - /url: /pin/15762667442799923/
+                  - img "an image of a cell phone that is on the screen and has been turned off" [ref=e157]
+                - generic [ref=e159]:
+                  - generic:
+                    - link "an image of a cell phone that is on the screen and has been turned off":
+                      - /url: /pin/15762667442799923/
+                  - generic "More actions" [ref=e166]:
+                    - button "More actions" [ref=e167] [cursor=pointer]:
+                      - img [ref=e170]
+          - listitem [ref=e172]:
+            - group "Pin card" [ref=e175]:
+              - generic [ref=e177]:
+                - link "two different types of technology are shown in the same image, one is black and white" [ref=e180] [cursor=pointer]:
+                  - /url: /pin/116741815317673210/
+                  - img "two different types of technology are shown in the same image, one is black and white" [ref=e190]
+                - generic [ref=e192]:
+                  - generic:
+                    - link "two different types of technology are shown in the same image, one is black and white":
+                      - /url: /pin/116741815317673210/
+                  - generic "More actions" [ref=e199]:
+                    - button "More actions" [ref=e200] [cursor=pointer]:
+                      - img [ref=e203]
+          - listitem [ref=e205]:
+            - group "Pin card" [ref=e208]:
+              - generic [ref=e210]:
+                - link "an iphone with the cvyann app displayed on it's screen, showing how to" [ref=e213] [cursor=pointer]:
+                  - /url: /pin/155092780915963505/
+                  - img "an iphone with the cvyann app displayed on it's screen, showing how to" [ref=e223]
+                - generic [ref=e225]:
+                  - generic:
+                    - link "an iphone with the cvyann app displayed on it's screen, showing how to":
+                      - /url: /pin/155092780915963505/
+                  - generic "More actions" [ref=e232]:
+                    - button "More actions" [ref=e233] [cursor=pointer]:
+                      - img [ref=e236]
+          - listitem [ref=e238]:
+            - group "Pin card" [ref=e241]:
+              - generic [ref=e243]:
+                - link "an iphone screen showing the time and date options for different types of items on it" [ref=e246] [cursor=pointer]:
+                  - /url: /pin/62698619806400259/
+                  - img "an iphone screen showing the time and date options for different types of items on it" [ref=e256]
+                - generic [ref=e258]:
+                  - generic:
+                    - link "an iphone screen showing the time and date options for different types of items on it":
+                      - /url: /pin/62698619806400259/
+                  - generic "More actions" [ref=e265]:
+                    - button "More actions" [ref=e266] [cursor=pointer]:
+                      - img [ref=e269]
+          - listitem [ref=e271]:
+            - group "Pin card" [ref=e274]:
+              - generic [ref=e276]:
+                - link "a black cell phone sitting on top of a white table" [ref=e279] [cursor=pointer]:
+                  - /url: /pin/29132728835230848/
+                - generic [ref=e293]:
+                  - generic:
+                    - link "a black cell phone sitting on top of a white table":
+                      - /url: /pin/29132728835230848/
+                  - generic "More actions" [ref=e300]:
+                    - button "More actions" [ref=e301] [cursor=pointer]:
+                      - img [ref=e304]
+          - listitem [ref=e306]:
+            - generic [ref=e307]:
+              - generic [ref=e313]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e315]:
+                - generic [ref=e317]:
+                  - generic [ref=e318]:
+                    - link "an image of a gray button with the words mohammadj jaad kermany" [ref=e320] [cursor=pointer]:
+                      - /url: /pin/2744449766599490/
+                      - 'img "This may contain: an image of a gray button with the words mohammadj jaad kermany" [ref=e336]'
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 0:11
+                  - generic [ref=e338]:
+                    - generic:
+                      - link "an image of a gray button with the words mohammadj jaad kermany":
+                        - /url: /pin/2744449766599490/
+                    - generic "More actions" [ref=e345]:
+                      - button "More actions" [ref=e346] [cursor=pointer]:
+                        - img [ref=e349]
+          - listitem [ref=e351]:
+            - group "Pin card" [ref=e354]:
+              - generic [ref=e356]:
+                - link "an iphone screen showing the story details and symbols on its display, which are highlighted in black" [ref=e359] [cursor=pointer]:
+                  - /url: /pin/6403624465890519/
+                  - img "an iphone screen showing the story details and symbols on its display, which are highlighted in black" [ref=e369]
+                - generic [ref=e371]:
+                  - generic:
+                    - link "an iphone screen showing the story details and symbols on its display, which are highlighted in black":
+                      - /url: /pin/6403624465890519/
+                  - generic "More actions" [ref=e378]:
+                    - button "More actions" [ref=e379] [cursor=pointer]:
+                      - img [ref=e382]
+          - listitem [ref=e384]:
+            - group "Pin card" [ref=e387]:
+              - generic [ref=e389]:
+                - generic [ref=e390]:
+                  - link "an iphone is shown with the text'toppling up wallet'on its screen" [ref=e392] [cursor=pointer]:
+                    - /url: /pin/2674081025867911/
+                    - 'img "This may contain: an iphone is shown with the text''toppling up wallet''on its screen" [ref=e408]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:05
+                - generic [ref=e410]:
+                  - generic:
+                    - link "an iphone is shown with the text'toppling up wallet'on its screen":
+                      - /url: /pin/2674081025867911/
+                  - generic "More actions" [ref=e417]:
+                    - button "More actions" [ref=e418] [cursor=pointer]:
+                      - img [ref=e421]
+          - listitem [ref=e423]:
+            - group "Pin card" [ref=e426]:
+              - generic [ref=e428]:
+                - link "an iphone with the image of a space capsule on it's screen and text that reads" [ref=e431] [cursor=pointer]:
+                  - /url: /pin/1759287346706942/
+                  - img "an iphone with the image of a space capsule on it's screen and text that reads" [ref=e441]
+                - generic [ref=e443]:
+                  - generic:
+                    - link "an iphone with the image of a space capsule on it's screen and text that reads":
+                      - /url: /pin/1759287346706942/
+                  - generic "More actions" [ref=e450]:
+                    - button "More actions" [ref=e451] [cursor=pointer]:
+                      - img [ref=e454]
+          - listitem [ref=e456]:
+            - group "Pin card" [ref=e459]:
+              - generic [ref=e461]:
+                - generic [ref=e462]:
+                  - link "an iphone with the app on it showing directions to nearby locations and location informations" [ref=e464] [cursor=pointer]:
+                    - /url: /pin/31595634885614204/
+                    - 'img "This may contain: an iphone with the app on it showing directions to nearby locations and location informations" [ref=e480]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:18
+                - generic [ref=e482]:
+                  - generic:
+                    - link "an iphone with the app on it showing directions to nearby locations and location informations":
+                      - /url: /pin/31595634885614204/
+                  - generic "More actions" [ref=e489]:
+                    - button "More actions" [ref=e490] [cursor=pointer]:
+                      - img [ref=e493]
+          - listitem [ref=e495]:
+            - generic [ref=e496]:
+              - generic [ref=e502]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e504]:
+                - generic [ref=e506]:
+                  - link "two screens showing the settings and options for different devices, one with buttons on each side" [ref=e509] [cursor=pointer]:
+                    - /url: /pin/2955556001532286/
+                    - img "two screens showing the settings and options for different devices, one with buttons on each side" [ref=e519]
+                  - generic [ref=e521]:
+                    - generic:
+                      - link "two screens showing the settings and options for different devices, one with buttons on each side":
+                        - /url: /pin/2955556001532286/
+                    - generic "More actions" [ref=e528]:
+                      - button "More actions" [ref=e529] [cursor=pointer]:
+                        - img [ref=e532]
+          - listitem [ref=e534]:
+            - group "Pin card" [ref=e537]:
+              - generic [ref=e539]:
+                - generic [ref=e540]:
+                  - link "an image of a cell phone screen with the time displayed on it's display" [ref=e542] [cursor=pointer]:
+                    - /url: /pin/5277724559137918/
+                    - 'img "This may contain: an image of a cell phone screen with the time displayed on it''s display" [ref=e558]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:07
+                - generic [ref=e560]:
+                  - generic:
+                    - link "an image of a cell phone screen with the time displayed on it's display":
+                      - /url: /pin/5277724559137918/
+                  - generic "More actions" [ref=e567]:
+                    - button "More actions" [ref=e568] [cursor=pointer]:
+                      - img [ref=e571]
+          - listitem [ref=e573]:
+            - group "Pin card" [ref=e576]:
+              - generic [ref=e578]:
+                - link "an image of a website page with the title'go media about us work '" [ref=e581] [cursor=pointer]:
+                  - /url: /pin/271834527479899088/
+                  - img "an image of a website page with the title'go media about us work '" [ref=e591]
+                - generic [ref=e593]:
+                  - generic:
+                    - link "an image of a website page with the title'go media about us work '":
+                      - /url: /pin/271834527479899088/
+                  - generic "More actions" [ref=e600]:
+                    - button "More actions" [ref=e601] [cursor=pointer]:
+                      - img [ref=e604]
+          - listitem [ref=e606]:
+            - group "Pin card" [ref=e609]:
+              - generic [ref=e611]:
+                - link "an image of a tablet screen with the text internet and symbols on it, all in black" [ref=e614] [cursor=pointer]:
+                  - /url: /pin/21532904463057493/
+                  - img "an image of a tablet screen with the text internet and symbols on it, all in black" [ref=e624]
+                - generic [ref=e626]:
+                  - generic:
+                    - link "an image of a tablet screen with the text internet and symbols on it, all in black":
+                      - /url: /pin/21532904463057493/
+                  - generic "More actions" [ref=e633]:
+                    - button "More actions" [ref=e634] [cursor=pointer]:
+                      - img [ref=e637]
+          - listitem [ref=e639]:
+            - group "Pin card" [ref=e642]:
+              - generic [ref=e644]:
+                - link "original_e90ac5f5ee9bade04f828c5180f04d3e.gif (800×422) Vertical Slider Ui, Bar Animation, Pause Menu Ui, Slider Animation, Slider Ui Design, Ui Motion, Animated Navigation Bar, Ios Slider, Ui Gif" [ref=e647] [cursor=pointer]:
+                  - /url: /pin/89790586315845403/
+                  - img "original_e90ac5f5ee9bade04f828c5180f04d3e.gif (800×422) Vertical Slider Ui, Bar Animation, Pause Menu Ui, Slider Animation, Slider Ui Design, Ui Motion, Animated Navigation Bar, Ios Slider, Ui Gif" [ref=e657]
+                - generic [ref=e659]:
+                  - generic:
+                    - link "original_e90ac5f5ee9bade04f828c5180f04d3e.gif (800×422) Vertical Slider Ui, Bar Animation, Pause Menu Ui, Slider Animation, Slider Ui Design, Ui Motion, Animated Navigation Bar, Ios Slider, Ui Gif":
+                      - /url: /pin/89790586315845403/
+                  - generic "More actions" [ref=e666]:
+                    - button "More actions" [ref=e667] [cursor=pointer]:
+                      - img [ref=e670]
+          - listitem [ref=e672]:
+            - generic [ref=e673]:
+              - generic [ref=e679]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e681]:
+                - generic [ref=e683]:
+                  - link "a person holding an iphone in their hand with the text geniti ressonancee on it" [ref=e686] [cursor=pointer]:
+                    - /url: /pin/42432421485740602/
+                    - img "a person holding an iphone in their hand with the text geniti ressonancee on it" [ref=e696]
+                  - generic [ref=e698]:
+                    - generic:
+                      - link "a person holding an iphone in their hand with the text geniti ressonancee on it":
+                        - /url: /pin/42432421485740602/
+                    - generic "More actions" [ref=e705]:
+                      - button "More actions" [ref=e706] [cursor=pointer]:
+                        - img [ref=e709]
+          - listitem [ref=e711]:
+            - group "Pin card" [ref=e714]:
+              - generic [ref=e716]:
+                - generic [ref=e717]:
+                  - link "the menu for an event is shown in black and gold" [ref=e719] [cursor=pointer]:
+                    - /url: /pin/2674081026100739/
+                    - 'img "This may contain: the menu for an event is shown in black and gold" [ref=e735]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:27
+                - generic [ref=e737]:
+                  - generic:
+                    - link "the menu for an event is shown in black and gold":
+                      - /url: /pin/2674081026100739/
+                  - generic "More actions" [ref=e744]:
+                    - button "More actions" [ref=e745] [cursor=pointer]:
+                      - img [ref=e748]
+          - listitem [ref=e750]
+          - listitem [ref=e754]
+          - listitem [ref=e758]
+          - listitem [ref=e762]
+          - listitem [ref=e766]
+          - listitem [ref=e770]
+          - listitem [ref=e774]
+          - listitem [ref=e778]
+          - listitem [ref=e782]
+          - listitem [ref=e786]

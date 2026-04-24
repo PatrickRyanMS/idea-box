@@ -1,0 +1,5 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        ".\\design-agent\\scripts\\setup-project.ps1": true
+    }
+}

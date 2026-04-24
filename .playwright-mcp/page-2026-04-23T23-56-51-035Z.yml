@@ -1,0 +1,499 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - link "Skip to content":
+      - /url: "#"
+      - generic [ref=e9] [cursor=pointer]: Skip to content
+    - generic [ref=e11]:
+      - generic [ref=e14]:
+        - combobox "Search" [ref=e16]: modern warm color palette sophisticated digital UI
+        - button "Remove search input" [ref=e21] [cursor=pointer]:
+          - img [ref=e24]
+      - generic [ref=e26]:
+        - button "Log in" [ref=e28] [cursor=pointer]:
+          - generic [ref=e30]: Log in
+        - button "Sign up" [ref=e32] [cursor=pointer]:
+          - generic [ref=e34]: Sign up
+  - navigation [ref=e36]:
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - generic "Home" [ref=e43]:
+          - link "Home" [ref=e44] [cursor=pointer]:
+            - /url: /
+            - img [ref=e46]
+        - generic "Explore" [ref=e51]:
+          - link "Explore" [ref=e52] [cursor=pointer]:
+            - /url: /ideas
+            - img [ref=e54]
+        - generic "Shop" [ref=e59]:
+          - link "Shop" [ref=e60] [cursor=pointer]:
+            - /url: /shopping
+            - img [ref=e62]
+      - generic "More options" [ref=e66]:
+        - button "More options" [ref=e67] [cursor=pointer]:
+          - img [ref=e70]
+  - main [ref=e72]:
+    - generic [ref=e74]:
+      - generic [ref=e77]:
+        - heading "Search" [level=1] [ref=e79]
+        - button "Show filters" [ref=e90] [cursor=pointer]:
+          - img [ref=e94]
+      - generic [ref=e100]:
+        - generic [ref=e101]: Showing more search results for modern warm color palette sophisticated digital UI
+        - list [ref=e106]:
+          - listitem [ref=e107]:
+            - heading "More ideas" [level=2] [ref=e116]
+          - listitem [ref=e117]:
+            - group "Pin card" [ref=e120]:
+              - generic [ref=e122]:
+                - link "the color palettes for this website are all different colors and sizes, but it is not" [ref=e125] [cursor=pointer]:
+                  - /url: /pin/422281212561478/
+                  - img "the color palettes for this website are all different colors and sizes, but it is not" [ref=e135]
+                - generic [ref=e137]:
+                  - generic:
+                    - link "the color palettes for this website are all different colors and sizes, but it is not":
+                      - /url: /pin/422281212561478/
+                  - generic "More actions" [ref=e144]:
+                    - button "More actions" [ref=e145] [cursor=pointer]:
+                      - img [ref=e148]
+          - listitem [ref=e150]:
+            - group "Pin card" [ref=e153]:
+              - generic [ref=e155]:
+                - link "an image of the dark side of the ocean with different colors and font on it" [ref=e158] [cursor=pointer]:
+                  - /url: /pin/68749719457/
+                  - img "an image of the dark side of the ocean with different colors and font on it" [ref=e168]
+                - generic [ref=e170]:
+                  - generic:
+                    - link "an image of the dark side of the ocean with different colors and font on it":
+                      - /url: /pin/68749719457/
+                  - generic "More actions" [ref=e177]:
+                    - button "More actions" [ref=e178] [cursor=pointer]:
+                      - img [ref=e181]
+          - listitem [ref=e183]:
+            - group "Pin card" [ref=e186]:
+              - generic [ref=e188]:
+                - link "a bunch of different types of chandeliers hanging from the ceiling" [ref=e191] [cursor=pointer]:
+                  - /url: /pin/68749788611/
+                  - img "a bunch of different types of chandeliers hanging from the ceiling" [ref=e201]
+                - generic [ref=e203]:
+                  - generic:
+                    - link "a bunch of different types of chandeliers hanging from the ceiling":
+                      - /url: /pin/68749788611/
+                  - generic "More actions" [ref=e210]:
+                    - button "More actions" [ref=e211] [cursor=pointer]:
+                      - img [ref=e214]
+          - listitem [ref=e216]:
+            - group "Pin card" [ref=e219]:
+              - generic [ref=e221]:
+                - link "the website design for luxury colors is shown in gold and black, as well as an image" [ref=e224] [cursor=pointer]:
+                  - /url: /pin/7599893117571762/
+                  - img "the website design for luxury colors is shown in gold and black, as well as an image" [ref=e234]
+                - generic [ref=e236]:
+                  - generic:
+                    - link "the website design for luxury colors is shown in gold and black, as well as an image":
+                      - /url: /pin/7599893117571762/
+                  - generic "More actions" [ref=e243]:
+                    - button "More actions" [ref=e244] [cursor=pointer]:
+                      - img [ref=e247]
+          - listitem [ref=e249]:
+            - group "Pin card" [ref=e252]:
+              - generic [ref=e254]:
+                - link "an orange and black background with some different colors on the bottom right hand corner, which is labeled light yellow" [ref=e257] [cursor=pointer]:
+                  - /url: /pin/38562140559618243/
+                  - img "an orange and black background with some different colors on the bottom right hand corner, which is labeled light yellow" [ref=e267]
+                - generic [ref=e269]:
+                  - generic:
+                    - link "an orange and black background with some different colors on the bottom right hand corner, which is labeled light yellow":
+                      - /url: /pin/38562140559618243/
+                  - generic "More actions" [ref=e276]:
+                    - button "More actions" [ref=e277] [cursor=pointer]:
+                      - img [ref=e280]
+          - listitem [ref=e282]:
+            - generic [ref=e283]:
+              - generic [ref=e289]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e291]:
+                - generic [ref=e293]:
+                  - link "a bunch of cards that are on top of each other, with different colors and shapes" [ref=e296] [cursor=pointer]:
+                    - /url: /pin/1618549865042384/
+                    - img "a bunch of cards that are on top of each other, with different colors and shapes" [ref=e306]
+                  - generic [ref=e308]:
+                    - generic:
+                      - link "a bunch of cards that are on top of each other, with different colors and shapes":
+                        - /url: /pin/1618549865042384/
+                    - generic "More actions" [ref=e315]:
+                      - button "More actions" [ref=e316] [cursor=pointer]:
+                        - img [ref=e319]
+          - listitem [ref=e321]:
+            - group "Pin card" [ref=e324]:
+              - generic [ref=e326]:
+                - link "Warm sunset color palette with soft orange and golden gradient tones. Perfect for branding, UI design, social media graphics, packaging and digital design inspiration. Aesthetic color combination for modern creatives and designers." [ref=e329] [cursor=pointer]:
+                  - /url: /pin/1970393584277624/
+                  - img "Warm sunset color palette with soft orange and golden gradient tones. Perfect for branding, UI design, social media graphics, packaging and digital design inspiration. Aesthetic color combination for modern creatives and designers." [ref=e339]
+                - generic [ref=e341]:
+                  - generic:
+                    - link "Warm sunset color palette with soft orange and golden gradient tones. Perfect for branding, UI design, social media graphics, packaging and digital design inspiration. Aesthetic color combination for modern creatives and designers.":
+                      - /url: /pin/1970393584277624/
+                  - generic "More actions" [ref=e348]:
+                    - button "More actions" [ref=e349] [cursor=pointer]:
+                      - img [ref=e352]
+          - listitem [ref=e354]:
+            - group "Pin card" [ref=e357]:
+              - generic [ref=e359]:
+                - link "three different color scheme for the same page, each with an orange and blue background" [ref=e362] [cursor=pointer]:
+                  - /url: /pin/1477812374857484/
+                  - img "three different color scheme for the same page, each with an orange and blue background" [ref=e372]
+                - generic [ref=e374]:
+                  - generic:
+                    - link "three different color scheme for the same page, each with an orange and blue background":
+                      - /url: /pin/1477812374857484/
+                  - generic "More actions" [ref=e381]:
+                    - button "More actions" [ref=e382] [cursor=pointer]:
+                      - img [ref=e385]
+          - listitem [ref=e387]:
+            - group "Pin card" [ref=e390]:
+              - generic [ref=e392]:
+                - link "the color scheme for an orange and brown palette" [ref=e395] [cursor=pointer]:
+                  - /url: /pin/563018699312728/
+                  - img "the color scheme for an orange and brown palette" [ref=e405]
+                - generic [ref=e407]:
+                  - generic:
+                    - link "the color scheme for an orange and brown palette":
+                      - /url: /pin/563018699312728/
+                  - generic "More actions" [ref=e414]:
+                    - button "More actions" [ref=e415] [cursor=pointer]:
+                      - img [ref=e418]
+          - listitem [ref=e420]:
+            - group "Pin card" [ref=e423]:
+              - generic [ref=e425]:
+                - link "there are many different types of words on this page to describe what is in each language" [ref=e428] [cursor=pointer]:
+                  - /url: /pin/1337074890125485/
+                  - img "there are many different types of words on this page to describe what is in each language" [ref=e438]
+                - generic [ref=e440]:
+                  - generic:
+                    - link "there are many different types of words on this page to describe what is in each language":
+                      - /url: /pin/1337074890125485/
+                  - generic "More actions" [ref=e447]:
+                    - button "More actions" [ref=e448] [cursor=pointer]:
+                      - img [ref=e451]
+          - listitem [ref=e453]:
+            - generic [ref=e454]:
+              - generic [ref=e460]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e462]:
+                - generic [ref=e464]:
+                  - link "Neutral, editorial-inspired color palette moodboard for creative brand and website design inspiration." [ref=e467] [cursor=pointer]:
+                    - /url: /pin/9148005522177009/
+                    - img "Neutral, editorial-inspired color palette moodboard for creative brand and website design inspiration." [ref=e477]
+                  - generic [ref=e479]:
+                    - generic:
+                      - link "Neutral, editorial-inspired color palette moodboard for creative brand and website design inspiration.":
+                        - /url: /pin/9148005522177009/
+                    - generic "More actions" [ref=e486]:
+                      - button "More actions" [ref=e487] [cursor=pointer]:
+                        - img [ref=e490]
+          - listitem [ref=e492]:
+            - group "Pin card" [ref=e495]:
+              - generic [ref=e497]:
+                - link "the color scheme for living room furniture" [ref=e500] [cursor=pointer]:
+                  - /url: /pin/7599893117769158/
+                  - img "the color scheme for living room furniture" [ref=e510]
+                - generic [ref=e512]:
+                  - generic:
+                    - link "the color scheme for living room furniture":
+                      - /url: /pin/7599893117769158/
+                  - generic "More actions" [ref=e519]:
+                    - button "More actions" [ref=e520] [cursor=pointer]:
+                      - img [ref=e523]
+          - listitem [ref=e525]:
+            - group "Pin card" [ref=e528]:
+              - generic [ref=e530]:
+                - link "the back side of a poster with four different colors" [ref=e533] [cursor=pointer]:
+                  - /url: /pin/65161525855669850/
+                  - img "the back side of a poster with four different colors" [ref=e543]
+                - generic [ref=e545]:
+                  - generic:
+                    - link "the back side of a poster with four different colors":
+                      - /url: /pin/65161525855669850/
+                  - generic "More actions" [ref=e552]:
+                    - button "More actions" [ref=e553] [cursor=pointer]:
+                      - img [ref=e556]
+          - listitem [ref=e558]:
+            - group "Pin card" [ref=e561]:
+              - generic [ref=e563]:
+                - link "an abstract poster with different shades of brown and white, including the words mocha minimal" [ref=e566] [cursor=pointer]:
+                  - /url: /pin/677862181463879867/
+                  - img "an abstract poster with different shades of brown and white, including the words mocha minimal" [ref=e576]
+                - generic [ref=e578]:
+                  - generic:
+                    - link "an abstract poster with different shades of brown and white, including the words mocha minimal":
+                      - /url: /pin/677862181463879867/
+                  - generic "More actions" [ref=e585]:
+                    - button "More actions" [ref=e586] [cursor=pointer]:
+                      - img [ref=e589]
+          - listitem [ref=e591]:
+            - group "Pin card" [ref=e594]:
+              - generic [ref=e596]:
+                - link "six different types of font and numbers are shown in the same color scheme, each with an arrow" [ref=e599] [cursor=pointer]:
+                  - /url: /pin/931471135448030589/
+                  - img "six different types of font and numbers are shown in the same color scheme, each with an arrow" [ref=e609]
+                - generic [ref=e611]:
+                  - generic:
+                    - link "six different types of font and numbers are shown in the same color scheme, each with an arrow":
+                      - /url: /pin/931471135448030589/
+                  - generic "More actions" [ref=e618]:
+                    - button "More actions" [ref=e619] [cursor=pointer]:
+                      - img [ref=e622]
+          - listitem [ref=e624]:
+            - generic [ref=e625]:
+              - generic [ref=e631]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e633]:
+                - generic [ref=e635]:
+                  - link "multiple images with different colors and shapes on them, including the wordmarks for markel" [ref=e638] [cursor=pointer]:
+                    - /url: /pin/2181499817229751/
+                    - img "multiple images with different colors and shapes on them, including the wordmarks for markel" [ref=e648]
+                  - generic [ref=e650]:
+                    - generic:
+                      - link "multiple images with different colors and shapes on them, including the wordmarks for markel":
+                        - /url: /pin/2181499817229751/
+                    - generic "More actions" [ref=e657]:
+                      - button "More actions" [ref=e658] [cursor=pointer]:
+                        - img [ref=e661]
+          - listitem [ref=e663]:
+            - group "Pin card" [ref=e666]:
+              - generic [ref=e668]:
+                - link "nan" [ref=e671] [cursor=pointer]:
+                  - /url: /pin/2814818512669632/
+                  - img "nan" [ref=e681]
+                - generic [ref=e683]:
+                  - generic:
+                    - link "nan":
+                      - /url: /pin/2814818512669632/
+                  - button "Google" [ref=e687] [cursor=pointer]:
+                    - generic [ref=e689]:
+                      - button "Google" [ref=e692]:
+                        - generic "Google" [ref=e693]
+                      - generic "More actions" [ref=e697]:
+                        - button "More actions" [ref=e698]:
+                          - img [ref=e701]
+          - listitem [ref=e703]:
+            - group "Pin card" [ref=e706]:
+              - generic [ref=e708]:
+                - link "Color Pallet Color Scheme Hex Code Grapefruit Aesthetic Red Vibes Red Aesthetic Fruit Red Vibes Burgundy Aesthetic Burgundy Vibes" [ref=e711] [cursor=pointer]:
+                  - /url: /pin/5066618331253657/
+                  - img "Color Pallet Color Scheme Hex Code Grapefruit Aesthetic Red Vibes Red Aesthetic Fruit Red Vibes Burgundy Aesthetic Burgundy Vibes" [ref=e721]
+                - generic [ref=e723]:
+                  - generic:
+                    - link "Color Pallet Color Scheme Hex Code Grapefruit Aesthetic Red Vibes Red Aesthetic Fruit Red Vibes Burgundy Aesthetic Burgundy Vibes":
+                      - /url: /pin/5066618331253657/
+                  - generic "More actions" [ref=e730]:
+                    - button "More actions" [ref=e731] [cursor=pointer]:
+                      - img [ref=e734]
+          - listitem [ref=e736]:
+            - group "Pin card" [ref=e739]:
+              - generic [ref=e741]:
+                - link "four different color scheme for the same product" [ref=e744] [cursor=pointer]:
+                  - /url: /pin/2814818512746613/
+                  - img "four different color scheme for the same product" [ref=e754]
+                - generic [ref=e756]:
+                  - generic:
+                    - link "four different color scheme for the same product":
+                      - /url: /pin/2814818512746613/
+                  - generic "More actions" [ref=e763]:
+                    - button "More actions" [ref=e764] [cursor=pointer]:
+                      - img [ref=e767]
+          - listitem [ref=e769]:
+            - group "Pin card" [ref=e772]:
+              - generic [ref=e774]:
+                - link "an orange flower with four different colors in the same color scheme, and one is labeled as azu mimosa" [ref=e777] [cursor=pointer]:
+                  - /url: /pin/211174978512402/
+                  - img "an orange flower with four different colors in the same color scheme, and one is labeled as azu mimosa" [ref=e787]
+                - generic [ref=e789]:
+                  - generic:
+                    - link "an orange flower with four different colors in the same color scheme, and one is labeled as azu mimosa":
+                      - /url: /pin/211174978512402/
+                  - generic "More actions" [ref=e796]:
+                    - button "More actions" [ref=e797] [cursor=pointer]:
+                      - img [ref=e800]
+          - listitem [ref=e802]:
+            - generic [ref=e803]:
+              - generic [ref=e809]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e811]:
+                - generic [ref=e813]:
+                  - link "four different color schemes for the same design" [ref=e816] [cursor=pointer]:
+                    - /url: /pin/211174979225917/
+                    - img "four different color schemes for the same design" [ref=e826]
+                  - generic [ref=e828]:
+                    - generic:
+                      - link "four different color schemes for the same design":
+                        - /url: /pin/211174979225917/
+                    - generic "More actions" [ref=e835]:
+                      - button "More actions" [ref=e836] [cursor=pointer]:
+                        - img [ref=e839]
+          - listitem [ref=e841]:
+            - group "Pin card" [ref=e844]:
+              - generic [ref=e846]:
+                - link "six different types of font and numbers are shown in the same color scheme, each with an arrow" [ref=e849] [cursor=pointer]:
+                  - /url: /pin/931471135448030111/
+                  - img "six different types of font and numbers are shown in the same color scheme, each with an arrow" [ref=e859]
+                - generic [ref=e861]:
+                  - generic:
+                    - link "six different types of font and numbers are shown in the same color scheme, each with an arrow":
+                      - /url: /pin/931471135448030111/
+                  - generic "More actions" [ref=e868]:
+                    - button "More actions" [ref=e869] [cursor=pointer]:
+                      - img [ref=e872]
+          - listitem [ref=e874]:
+            - group "Pin card" [ref=e877]:
+              - generic [ref=e879]:
+                - link "Pin" [ref=e882] [cursor=pointer]:
+                  - /url: /pin/931471135448030460/
+                - generic [ref=e893]:
+                  - generic:
+                    - link "Pin":
+                      - /url: /pin/931471135448030460/
+                  - generic "More actions" [ref=e900]:
+                    - button "More actions" [ref=e901] [cursor=pointer]:
+                      - img [ref=e904]
+          - listitem [ref=e906]:
+            - generic [ref=e907]:
+              - generic [ref=e913]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e915]:
+                - generic [ref=e917]:
+                  - link "the color scheme for an interior design project, with different shades and colors to choose from" [ref=e920] [cursor=pointer]:
+                    - /url: /pin/1053772012829690211/
+                    - img "the color scheme for an interior design project, with different shades and colors to choose from" [ref=e930]
+                  - generic [ref=e932]:
+                    - generic:
+                      - link "the color scheme for an interior design project, with different shades and colors to choose from":
+                        - /url: /pin/1053772012829690211/
+                    - generic "More actions" [ref=e939]:
+                      - button "More actions" [ref=e940] [cursor=pointer]:
+                        - img [ref=e943]
+          - listitem [ref=e945]:
+            - generic [ref=e946]:
+              - generic [ref=e952]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e954]:
+                - generic [ref=e956]:
+                  - link "Discover a sophisticated minimalist color palette that captures the essence of natural warmth and tranquility. These harmonious hues blend soft sage-like whites, gentle peach, muted teal, rich terracotta, and deep earthy browns to create a versatile design language. With multiple WCAG accessible color combinations, this palette offers professional flexibility for branding, web design, and visual storytelling. Craft your perfect color story with precision using the Color Palette Builder tool from Color Palette Studio – your expert companion in creating cohesive, impactful design palettes that elevate your creative vision. Warmth Color Palette, Global Color Palette, Sea Mist Color Palette, Soft Warm Color Palette, Mist Color Palette, Warm Minimalist Color Palette, Warm Muted Color Palette, Honey Color Palette, Mountain Cabin Procreate Color Palette" [ref=e959] [cursor=pointer]:
+                    - /url: /pin/1030268852256133486/
+                    - img "Discover a sophisticated minimalist color palette that captures the essence of natural warmth and tranquility. These harmonious hues blend soft sage-like whites, gentle peach, muted teal, rich terracotta, and deep earthy browns to create a versatile design language. With multiple WCAG accessible color combinations, this palette offers professional flexibility for branding, web design, and visual storytelling. Craft your perfect color story with precision using the Color Palette Builder tool from Color Palette Studio – your expert companion in creating cohesive, impactful design palettes that elevate your creative vision. Warmth Color Palette, Global Color Palette, Sea Mist Color Palette, Soft Warm Color Palette, Mist Color Palette, Warm Minimalist Color Palette, Warm Muted Color Palette, Honey Color Palette, Mountain Cabin Procreate Color Palette" [ref=e969]
+                  - 'link "Warm Minimalist Color Palette: Soft Mist, Honey & Sea Tones for Design" [ref=e974] [cursor=pointer]':
+                    - /url: /pin/1030268852256133486/
+                    - generic [ref=e976]:
+                      - 'button "Warm Minimalist Color Palette: Soft Mist, Honey & Sea Tones for Design" [ref=e978]':
+                        - 'generic "Warm Minimalist Color Palette: Soft Mist, Honey & Sea Tones for Design" [ref=e979]'
+                      - generic "More actions" [ref=e982]:
+                        - button "More actions" [ref=e983]:
+                          - img [ref=e986]
+          - listitem [ref=e988]:
+            - generic [ref=e989]:
+              - generic [ref=e995]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e997]:
+                - generic [ref=e999]:
+                  - link "the color palette for october sunset is shown in shades of purple, orange and yellow" [ref=e1002] [cursor=pointer]:
+                    - /url: /pin/70437490847864/
+                    - img "the color palette for october sunset is shown in shades of purple, orange and yellow" [ref=e1012]
+                  - generic [ref=e1014]:
+                    - generic:
+                      - link "the color palette for october sunset is shown in shades of purple, orange and yellow":
+                        - /url: /pin/70437490847864/
+                    - generic "More actions" [ref=e1021]:
+                      - button "More actions" [ref=e1022] [cursor=pointer]:
+                        - img [ref=e1025]
+          - listitem [ref=e1027]:
+            - generic [ref=e1028]:
+              - generic [ref=e1034]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1036]:
+                - generic [ref=e1038]:
+                  - link "an image of the ocean with different colors on it and text that reads carbon black, dark slate grey, clay soil" [ref=e1041] [cursor=pointer]:
+                    - /url: /pin/147563325287041853/
+                    - img "an image of the ocean with different colors on it and text that reads carbon black, dark slate grey, clay soil" [ref=e1051]
+                  - generic [ref=e1053]:
+                    - generic:
+                      - link "an image of the ocean with different colors on it and text that reads carbon black, dark slate grey, clay soil":
+                        - /url: /pin/147563325287041853/
+                    - generic "More actions" [ref=e1060]:
+                      - button "More actions" [ref=e1061] [cursor=pointer]:
+                        - img [ref=e1064]
+          - listitem [ref=e1066]:
+            - generic [ref=e1067]:
+              - generic [ref=e1073]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1075]:
+                - generic [ref=e1077]:
+                  - link "Warm yellow floral color palette with teal and neutral tones, inspired by soft petals and natural textures for branding design inspiration." [ref=e1080] [cursor=pointer]:
+                    - /url: /pin/446137906858415367/
+                    - img "Warm yellow floral color palette with teal and neutral tones, inspired by soft petals and natural textures for branding design inspiration." [ref=e1090]
+                  - generic [ref=e1092]:
+                    - generic:
+                      - link "Warm yellow floral color palette with teal and neutral tones, inspired by soft petals and natural textures for branding design inspiration.":
+                        - /url: /pin/446137906858415367/
+                    - generic "More actions" [ref=e1099]:
+                      - button "More actions" [ref=e1100] [cursor=pointer]:
+                        - img [ref=e1103]
+          - listitem [ref=e1105]:
+            - generic [ref=e1106]:
+              - generic [ref=e1112]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1114]:
+                - generic [ref=e1116]:
+                  - link "the color palettes for different shades of blue, orange and brown on a white background" [ref=e1119] [cursor=pointer]:
+                    - /url: /pin/26529085298045811/
+                    - img "the color palettes for different shades of blue, orange and brown on a white background" [ref=e1129]
+                  - generic [ref=e1131]:
+                    - generic:
+                      - link "the color palettes for different shades of blue, orange and brown on a white background":
+                        - /url: /pin/26529085298045811/
+                    - generic "More actions" [ref=e1138]:
+                      - button "More actions" [ref=e1139] [cursor=pointer]:
+                        - img [ref=e1142]
+          - listitem [ref=e1144]:
+            - generic [ref=e1145]:
+              - generic [ref=e1151]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1153]:
+                - generic [ref=e1155]:
+                  - link "Butterscotch Colors, Golden Hazel, Golden Tones, Hazel Color Palette, Cinnamon Brown Color Palette, Ginger Color Palette, Caramel Color Aesthetic, Cinnamon Color Palette, Cinnamon Palette" [ref=e1158] [cursor=pointer]:
+                    - /url: /pin/8022105581367752/
+                    - img "Butterscotch Colors, Golden Hazel, Golden Tones, Hazel Color Palette, Cinnamon Brown Color Palette, Ginger Color Palette, Caramel Color Aesthetic, Cinnamon Color Palette, Cinnamon Palette" [ref=e1168]
+                  - generic [ref=e1170]:
+                    - generic:
+                      - link "Butterscotch Colors, Golden Hazel, Golden Tones, Hazel Color Palette, Cinnamon Brown Color Palette, Ginger Color Palette, Caramel Color Aesthetic, Cinnamon Color Palette, Cinnamon Palette":
+                        - /url: /pin/8022105581367752/
+                    - generic "More actions" [ref=e1177]:
+                      - button "More actions" [ref=e1178] [cursor=pointer]:
+                        - img [ref=e1181]
+          - listitem [ref=e1183]:
+            - generic [ref=e1184]:
+              - generic [ref=e1190]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1192]:
+                - generic [ref=e1194]:
+                  - link "there are six different colors of coffee on the table and one is brown, white, blue, yellow" [ref=e1197] [cursor=pointer]:
+                    - /url: /pin/1266706141938018/
+                    - img "there are six different colors of coffee on the table and one is brown, white, blue, yellow" [ref=e1207]
+                  - generic [ref=e1209]:
+                    - generic:
+                      - link "there are six different colors of coffee on the table and one is brown, white, blue, yellow":
+                        - /url: /pin/1266706141938018/
+                    - generic "More actions" [ref=e1216]:
+                      - button "More actions" [ref=e1217] [cursor=pointer]:
+                        - img [ref=e1220]

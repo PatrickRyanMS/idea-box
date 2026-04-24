@@ -1,0 +1,517 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - link "Skip to content":
+      - /url: "#"
+      - generic [ref=e9] [cursor=pointer]: Skip to content
+    - generic [ref=e11]:
+      - generic [ref=e14]:
+        - combobox "Search" [ref=e16]: light prism dispersion rainbow dark background
+        - button "Remove search input" [ref=e21] [cursor=pointer]:
+          - img [ref=e24]
+      - generic [ref=e26]:
+        - button "Log in" [ref=e28] [cursor=pointer]:
+          - generic [ref=e30]: Log in
+        - button "Sign up" [ref=e32] [cursor=pointer]:
+          - generic [ref=e34]: Sign up
+  - navigation [ref=e36]:
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - generic "Home" [ref=e43]:
+          - link "Home" [ref=e44] [cursor=pointer]:
+            - /url: /
+            - img [ref=e46]
+        - generic "Explore" [ref=e51]:
+          - link "Explore" [ref=e52] [cursor=pointer]:
+            - /url: /ideas
+            - img [ref=e54]
+        - generic "Shop" [ref=e59]:
+          - link "Shop" [ref=e60] [cursor=pointer]:
+            - /url: /shopping
+            - img [ref=e62]
+      - generic "More options" [ref=e66]:
+        - button "More options" [ref=e67] [cursor=pointer]:
+          - img [ref=e70]
+  - main [ref=e72]:
+    - generic [ref=e74]:
+      - generic [ref=e77]:
+        - heading "Search" [level=1] [ref=e79]
+        - button "Show filters" [ref=e90] [cursor=pointer]:
+          - img [ref=e94]
+      - generic [ref=e100]:
+        - generic [ref=e101]: Showing more search results for light prism dispersion rainbow dark background
+        - list [ref=e106]:
+          - listitem [ref=e107]:
+            - group "Pin card" [ref=e110]:
+              - generic [ref=e112]:
+                - link "the rainbow is shining brightly in the dark sky" [ref=e115] [cursor=pointer]:
+                  - /url: /pin/39265828001138675/
+                  - img "the rainbow is shining brightly in the dark sky" [ref=e125]
+                - generic [ref=e127]:
+                  - generic:
+                    - link "the rainbow is shining brightly in the dark sky":
+                      - /url: /pin/39265828001138675/
+                  - generic "More actions" [ref=e134]:
+                    - button "More actions" [ref=e135] [cursor=pointer]:
+                      - img [ref=e138]
+          - listitem [ref=e140]:
+            - group "Pin card" [ref=e143]:
+              - generic [ref=e145]:
+                - link "the light is shining brightly in the dark" [ref=e148] [cursor=pointer]:
+                  - /url: /pin/364158319878931209/
+                  - img "the light is shining brightly in the dark" [ref=e158]
+                - generic [ref=e160]:
+                  - generic:
+                    - link "the light is shining brightly in the dark":
+                      - /url: /pin/364158319878931209/
+                  - generic "More actions" [ref=e167]:
+                    - button "More actions" [ref=e168] [cursor=pointer]:
+                      - img [ref=e171]
+          - listitem [ref=e173]:
+            - group "Pin card" [ref=e176]:
+              - generic [ref=e178]:
+                - link "the light is shining brightly in the dark room with its reflection on the floor and it appears to be very colorful" [ref=e181] [cursor=pointer]:
+                  - /url: /pin/4151824652789601/
+                  - img "the light is shining brightly in the dark room with its reflection on the floor and it appears to be very colorful" [ref=e191]
+                - generic [ref=e193]:
+                  - generic:
+                    - link "the light is shining brightly in the dark room with its reflection on the floor and it appears to be very colorful":
+                      - /url: /pin/4151824652789601/
+                  - generic "More actions" [ref=e200]:
+                    - button "More actions" [ref=e201] [cursor=pointer]:
+                      - img [ref=e204]
+          - listitem [ref=e206]:
+            - group "Pin card" [ref=e209]:
+              - generic [ref=e211]:
+                - link "an image of a rainbow in the dark sky with light coming from it's side" [ref=e214] [cursor=pointer]:
+                  - /url: /pin/46443439903075985/
+                  - img "an image of a rainbow in the dark sky with light coming from it's side" [ref=e224]
+                - generic [ref=e226]:
+                  - generic:
+                    - link "an image of a rainbow in the dark sky with light coming from it's side":
+                      - /url: /pin/46443439903075985/
+                  - generic "More actions" [ref=e233]:
+                    - button "More actions" [ref=e234] [cursor=pointer]:
+                      - img [ref=e237]
+          - listitem [ref=e239]:
+            - group "Pin card" [ref=e242]:
+              - generic [ref=e244]:
+                - link "an abstract image of blue and green liquid flowing down the side of a black background" [ref=e247] [cursor=pointer]:
+                  - /url: /pin/68749703442/
+                  - img "an abstract image of blue and green liquid flowing down the side of a black background" [ref=e257]
+                - generic [ref=e259]:
+                  - generic:
+                    - link "an abstract image of blue and green liquid flowing down the side of a black background":
+                      - /url: /pin/68749703442/
+                  - generic "More actions" [ref=e266]:
+                    - button "More actions" [ref=e267] [cursor=pointer]:
+                      - img [ref=e270]
+          - listitem [ref=e272]:
+            - group "Pin card" [ref=e275]:
+              - generic [ref=e277]:
+                - link "the light is shining brightly through the window and onto the wall in front of it" [ref=e280] [cursor=pointer]:
+                  - /url: /pin/59109813856067337/
+                  - img "the light is shining brightly through the window and onto the wall in front of it" [ref=e290]
+                - generic [ref=e292]:
+                  - generic:
+                    - link "the light is shining brightly through the window and onto the wall in front of it":
+                      - /url: /pin/59109813856067337/
+                  - generic "More actions" [ref=e299]:
+                    - button "More actions" [ref=e300] [cursor=pointer]:
+                      - img [ref=e303]
+          - listitem [ref=e305]:
+            - generic [ref=e306]:
+              - generic [ref=e312]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e314]:
+                - generic [ref=e316]:
+                  - link "a blurry image of rainbow colors in the sky" [ref=e319] [cursor=pointer]:
+                    - /url: /pin/22729173116155695/
+                    - img "a blurry image of rainbow colors in the sky" [ref=e329]
+                  - generic [ref=e331]:
+                    - generic:
+                      - link "a blurry image of rainbow colors in the sky":
+                        - /url: /pin/22729173116155695/
+                    - generic "More actions" [ref=e338]:
+                      - button "More actions" [ref=e339] [cursor=pointer]:
+                        - img [ref=e342]
+          - listitem [ref=e344]:
+            - group "Pin card" [ref=e347]:
+              - generic [ref=e349]:
+                - link "an airplane is flying in the sky with rainbow colors" [ref=e352] [cursor=pointer]:
+                  - /url: /pin/517702919680468291/
+                  - img "an airplane is flying in the sky with rainbow colors" [ref=e362]
+                - generic [ref=e364]:
+                  - generic:
+                    - link "an airplane is flying in the sky with rainbow colors":
+                      - /url: /pin/517702919680468291/
+                  - generic "More actions" [ref=e371]:
+                    - button "More actions" [ref=e372] [cursor=pointer]:
+                      - img [ref=e375]
+          - listitem [ref=e377]:
+            - group "Pin card" [ref=e380]:
+              - generic [ref=e382]:
+                - link "an abstract photo with rainbows and rain drops" [ref=e385] [cursor=pointer]:
+                  - /url: /pin/469359592440360983/
+                  - img "an abstract photo with rainbows and rain drops" [ref=e395]
+                - generic [ref=e397]:
+                  - generic:
+                    - link "an abstract photo with rainbows and rain drops":
+                      - /url: /pin/469359592440360983/
+                  - generic "More actions" [ref=e404]:
+                    - button "More actions" [ref=e405] [cursor=pointer]:
+                      - img [ref=e408]
+          - listitem [ref=e410]:
+            - group "Pin card" [ref=e413]:
+              - generic [ref=e415]:
+                - link "an image of a rainbow light in the dark" [ref=e418] [cursor=pointer]:
+                  - /url: /pin/906982812463266209/
+                  - img "an image of a rainbow light in the dark" [ref=e428]
+                - generic [ref=e430]:
+                  - generic:
+                    - link "an image of a rainbow light in the dark":
+                      - /url: /pin/906982812463266209/
+                  - generic "More actions" [ref=e437]:
+                    - button "More actions" [ref=e438] [cursor=pointer]:
+                      - img [ref=e441]
+          - listitem [ref=e443]:
+            - group "Pin card" [ref=e446]:
+              - generic [ref=e448]:
+                - link "sunlight shining through the trees in a forest" [ref=e451] [cursor=pointer]:
+                  - /url: /pin/351912466866425/
+                  - img "sunlight shining through the trees in a forest" [ref=e461]
+                - generic [ref=e463]:
+                  - generic:
+                    - link "sunlight shining through the trees in a forest":
+                      - /url: /pin/351912466866425/
+                  - generic "More actions" [ref=e470]:
+                    - button "More actions" [ref=e471] [cursor=pointer]:
+                      - img [ref=e474]
+          - listitem [ref=e476]:
+            - generic [ref=e477]:
+              - generic [ref=e483]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e485]:
+                - generic [ref=e487]:
+                  - link "the rainbow light is shining brightly in the dark sky with stars and sparkles on it" [ref=e490] [cursor=pointer]:
+                    - /url: /pin/12314598977899068/
+                    - img "the rainbow light is shining brightly in the dark sky with stars and sparkles on it" [ref=e500]
+                  - generic [ref=e502]:
+                    - generic:
+                      - link "the rainbow light is shining brightly in the dark sky with stars and sparkles on it":
+                        - /url: /pin/12314598977899068/
+                    - generic "More actions" [ref=e509]:
+                      - button "More actions" [ref=e510] [cursor=pointer]:
+                        - img [ref=e513]
+          - listitem [ref=e515]:
+            - group "Pin card" [ref=e518]:
+              - generic [ref=e520]:
+                - link "the shadow of a person's hand on a wall with colored light coming through it" [ref=e523] [cursor=pointer]:
+                  - /url: /pin/1146940230202702924/
+                  - img "the shadow of a person's hand on a wall with colored light coming through it" [ref=e533]
+                - generic [ref=e535]:
+                  - generic:
+                    - link "the shadow of a person's hand on a wall with colored light coming through it":
+                      - /url: /pin/1146940230202702924/
+                  - generic "More actions" [ref=e542]:
+                    - button "More actions" [ref=e543] [cursor=pointer]:
+                      - img [ref=e546]
+          - listitem [ref=e548]:
+            - group "Pin card" [ref=e551]:
+              - generic [ref=e553]:
+                - link "Trippy reflections trapped in an inverted pyramid of shadows and color glitches." [ref=e556] [cursor=pointer]:
+                  - /url: /pin/164099980167784600/
+                  - img "Trippy reflections trapped in an inverted pyramid of shadows and color glitches." [ref=e566]
+                - generic [ref=e568]:
+                  - generic:
+                    - link "Trippy reflections trapped in an inverted pyramid of shadows and color glitches.":
+                      - /url: /pin/164099980167784600/
+                  - generic "More actions" [ref=e575]:
+                    - button "More actions" [ref=e576] [cursor=pointer]:
+                      - img [ref=e579]
+          - listitem [ref=e581]:
+            - group "Pin card" [ref=e584]:
+              - generic [ref=e586]:
+                - link "a white object with a rainbow light coming out of it" [ref=e589] [cursor=pointer]:
+                  - /url: /pin/875387246332883964/
+                  - img "a white object with a rainbow light coming out of it" [ref=e599]
+                - generic [ref=e601]:
+                  - generic:
+                    - link "a white object with a rainbow light coming out of it":
+                      - /url: /pin/875387246332883964/
+                  - generic "More actions" [ref=e608]:
+                    - button "More actions" [ref=e609] [cursor=pointer]:
+                      - img [ref=e612]
+          - listitem [ref=e614]:
+            - group "Pin card" [ref=e617]:
+              - generic [ref=e619]:
+                - link "an open book sitting on top of a table next to a light reflecting from it" [ref=e622] [cursor=pointer]:
+                  - /url: /pin/71705819062227759/
+                  - img "an open book sitting on top of a table next to a light reflecting from it" [ref=e632]
+                - generic [ref=e634]:
+                  - generic:
+                    - link "an open book sitting on top of a table next to a light reflecting from it":
+                      - /url: /pin/71705819062227759/
+                  - generic "More actions" [ref=e641]:
+                    - button "More actions" [ref=e642] [cursor=pointer]:
+                      - img [ref=e645]
+          - listitem [ref=e647]:
+            - generic [ref=e648]:
+              - generic [ref=e654]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e656]:
+                - generic [ref=e658]:
+                  - link "an image of a rainbow triangle in the dark with light coming from it's side" [ref=e661] [cursor=pointer]:
+                    - /url: /pin/1071997517954129600/
+                    - img "an image of a rainbow triangle in the dark with light coming from it's side" [ref=e671]
+                  - generic [ref=e673]:
+                    - generic:
+                      - link "an image of a rainbow triangle in the dark with light coming from it's side":
+                        - /url: /pin/1071997517954129600/
+                    - generic "More actions" [ref=e680]:
+                      - button "More actions" [ref=e681] [cursor=pointer]:
+                        - img [ref=e684]
+          - listitem [ref=e686]:
+            - group "Pin card" [ref=e689]:
+              - generic [ref=e691]:
+                - link "an image of a multicolored line in the dark" [ref=e694] [cursor=pointer]:
+                  - /url: /pin/960674164279993217/
+                  - img "an image of a multicolored line in the dark" [ref=e704]
+                - generic [ref=e706]:
+                  - generic:
+                    - link "an image of a multicolored line in the dark":
+                      - /url: /pin/960674164279993217/
+                  - generic "More actions" [ref=e713]:
+                    - button "More actions" [ref=e714] [cursor=pointer]:
+                      - img [ref=e717]
+          - listitem [ref=e719]:
+            - group "Pin card" [ref=e722]:
+              - generic [ref=e724]:
+                - link "a rainbow in the sky with stars above it" [ref=e727] [cursor=pointer]:
+                  - /url: /pin/20336635813565071/
+                  - img "a rainbow in the sky with stars above it" [ref=e737]
+                - generic [ref=e739]:
+                  - generic:
+                    - link "a rainbow in the sky with stars above it":
+                      - /url: /pin/20336635813565071/
+                  - generic "More actions" [ref=e746]:
+                    - button "More actions" [ref=e747] [cursor=pointer]:
+                      - img [ref=e750]
+          - listitem [ref=e752]:
+            - group "Pin card" [ref=e755]:
+              - generic [ref=e757]:
+                - link "an abstract background with bright lights and stars in the center, as if it were from outer space" [ref=e760] [cursor=pointer]:
+                  - /url: /pin/914862421147148/
+                  - img "an abstract background with bright lights and stars in the center, as if it were from outer space" [ref=e770]
+                - generic [ref=e772]:
+                  - generic:
+                    - link "an abstract background with bright lights and stars in the center, as if it were from outer space":
+                      - /url: /pin/914862421147148/
+                  - generic "More actions" [ref=e779]:
+                    - button "More actions" [ref=e780] [cursor=pointer]:
+                      - img [ref=e783]
+          - listitem [ref=e785]:
+            - group "Pin card" [ref=e788]:
+              - generic [ref=e790]:
+                - link "the sky is filled with rainbow colored clouds" [ref=e793] [cursor=pointer]:
+                  - /url: /pin/86131411619344439/
+                  - img "the sky is filled with rainbow colored clouds" [ref=e803]
+                - generic [ref=e805]:
+                  - generic:
+                    - link "the sky is filled with rainbow colored clouds":
+                      - /url: /pin/86131411619344439/
+                  - generic "More actions" [ref=e812]:
+                    - button "More actions" [ref=e813] [cursor=pointer]:
+                      - img [ref=e816]
+          - listitem [ref=e818]:
+            - generic [ref=e819]:
+              - generic [ref=e825]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e827]:
+                - generic [ref=e829]:
+                  - link "an abstract image with many colors and shapes" [ref=e832] [cursor=pointer]:
+                    - /url: /pin/702420873170329024/
+                    - img "an abstract image with many colors and shapes" [ref=e842]
+                  - generic [ref=e844]:
+                    - generic:
+                      - link "an abstract image with many colors and shapes":
+                        - /url: /pin/702420873170329024/
+                    - generic "More actions" [ref=e851]:
+                      - button "More actions" [ref=e852] [cursor=pointer]:
+                        - img [ref=e855]
+          - listitem [ref=e857]:
+            - group "Pin card" [ref=e860]:
+              - generic [ref=e862]:
+                - link "the rainbow is shining brightly through the raindrops on the car window as it rains" [ref=e865] [cursor=pointer]:
+                  - /url: /pin/137711701100354579/
+                  - img "the rainbow is shining brightly through the raindrops on the car window as it rains" [ref=e875]
+                - generic [ref=e877]:
+                  - generic:
+                    - link "the rainbow is shining brightly through the raindrops on the car window as it rains":
+                      - /url: /pin/137711701100354579/
+                  - generic "More actions" [ref=e884]:
+                    - button "More actions" [ref=e885] [cursor=pointer]:
+                      - img [ref=e888]
+          - listitem [ref=e890]:
+            - generic [ref=e891]:
+              - generic [ref=e897]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e899]:
+                - generic [ref=e901]:
+                  - generic [ref=e902]:
+                    - link "an abstract background with white and blue lines in the center, as if it were blurred or blurry" [ref=e904] [cursor=pointer]:
+                      - /url: /pin/68749696797/
+                      - 'img "This may contain: an abstract background with white and blue lines in the center, as if it were blurred or blurry" [ref=e920]'
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 0:15
+                  - generic [ref=e922]:
+                    - generic:
+                      - link "an abstract background with white and blue lines in the center, as if it were blurred or blurry":
+                        - /url: /pin/68749696797/
+                    - generic "More actions" [ref=e929]:
+                      - button "More actions" [ref=e930] [cursor=pointer]:
+                        - img [ref=e933]
+          - listitem [ref=e935]:
+            - generic [ref=e936]:
+              - generic [ref=e942]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e944]:
+                - generic [ref=e946]:
+                  - link "blurry image of rainbow colored bubbles floating in the air" [ref=e949] [cursor=pointer]:
+                    - /url: /pin/10555380370891277/
+                    - img "blurry image of rainbow colored bubbles floating in the air" [ref=e959]
+                  - generic [ref=e961]:
+                    - generic:
+                      - link "blurry image of rainbow colored bubbles floating in the air":
+                        - /url: /pin/10555380370891277/
+                    - generic "More actions" [ref=e968]:
+                      - button "More actions" [ref=e969] [cursor=pointer]:
+                        - img [ref=e972]
+          - listitem [ref=e974]:
+            - generic [ref=e975]:
+              - generic [ref=e981]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e983]:
+                - generic [ref=e985]:
+                  - link "colorful clouds and stars are floating in the air with rainbow colors on them, as if they" [ref=e988] [cursor=pointer]:
+                    - /url: /pin/7881368095520641/
+                    - img "colorful clouds and stars are floating in the air with rainbow colors on them, as if they" [ref=e998]
+                  - generic [ref=e1000]:
+                    - generic:
+                      - link "colorful clouds and stars are floating in the air with rainbow colors on them, as if they":
+                        - /url: /pin/7881368095520641/
+                    - generic "More actions" [ref=e1007]:
+                      - button "More actions" [ref=e1008] [cursor=pointer]:
+                        - img [ref=e1011]
+          - listitem [ref=e1013]:
+            - generic [ref=e1014]:
+              - generic [ref=e1020]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1022]:
+                - generic [ref=e1024]:
+                  - link "the light is shining brightly on the white wall in the room with it's shadow" [ref=e1027] [cursor=pointer]:
+                    - /url: /pin/1087830484983353878/
+                    - img "the light is shining brightly on the white wall in the room with it's shadow" [ref=e1037]
+                  - generic [ref=e1039]:
+                    - generic:
+                      - link "the light is shining brightly on the white wall in the room with it's shadow":
+                        - /url: /pin/1087830484983353878/
+                    - generic "More actions" [ref=e1046]:
+                      - button "More actions" [ref=e1047] [cursor=pointer]:
+                        - img [ref=e1050]
+          - listitem [ref=e1052]:
+            - generic [ref=e1053]:
+              - generic [ref=e1059]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1061]:
+                - generic [ref=e1063]:
+                  - link "an image of some kind of colorful object in the dark sky with stars around it" [ref=e1066] [cursor=pointer]:
+                    - /url: /pin/978477456570722534/
+                    - img "an image of some kind of colorful object in the dark sky with stars around it" [ref=e1076]
+                  - generic [ref=e1078]:
+                    - generic:
+                      - link "an image of some kind of colorful object in the dark sky with stars around it":
+                        - /url: /pin/978477456570722534/
+                    - generic "More actions" [ref=e1085]:
+                      - button "More actions" [ref=e1086] [cursor=pointer]:
+                        - img [ref=e1089]
+          - listitem [ref=e1091]:
+            - generic [ref=e1092]:
+              - generic [ref=e1098]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1100]:
+                - generic [ref=e1102]:
+                  - link "the sky is filled with rainbow colored clouds" [ref=e1105] [cursor=pointer]:
+                    - /url: /pin/562175965994959129/
+                    - img "the sky is filled with rainbow colored clouds" [ref=e1115]
+                  - generic [ref=e1117]:
+                    - generic:
+                      - link "the sky is filled with rainbow colored clouds":
+                        - /url: /pin/562175965994959129/
+                    - generic "More actions" [ref=e1124]:
+                      - button "More actions" [ref=e1125] [cursor=pointer]:
+                        - img [ref=e1128]
+          - listitem [ref=e1130]:
+            - generic [ref=e1131]:
+              - generic [ref=e1137]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1139]:
+                - generic [ref=e1141]:
+                  - link "colorful light effects on a dark background with the words transparente crystal light refections" [ref=e1144] [cursor=pointer]:
+                    - /url: /pin/658651514283803932/
+                    - img "colorful light effects on a dark background with the words transparente crystal light refections" [ref=e1154]
+                  - generic [ref=e1156]:
+                    - generic:
+                      - link "colorful light effects on a dark background with the words transparente crystal light refections":
+                        - /url: /pin/658651514283803932/
+                    - generic "More actions" [ref=e1163]:
+                      - button "More actions" [ref=e1164] [cursor=pointer]:
+                        - img [ref=e1167]
+          - listitem [ref=e1169]:
+            - generic [ref=e1170]:
+              - generic [ref=e1176]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1178]:
+                - generic [ref=e1180]:
+                  - link "the light is shining brightly in the dark sky, and it appears to be blurry" [ref=e1183] [cursor=pointer]:
+                    - /url: /pin/49398927155736389/
+                    - img "the light is shining brightly in the dark sky, and it appears to be blurry" [ref=e1193]
+                  - generic [ref=e1195]:
+                    - generic:
+                      - link "the light is shining brightly in the dark sky, and it appears to be blurry":
+                        - /url: /pin/49398927155736389/
+                    - generic "More actions" [ref=e1202]:
+                      - button "More actions" [ref=e1203] [cursor=pointer]:
+                        - img [ref=e1206]
+          - listitem [ref=e1208]:
+            - generic [ref=e1209]:
+              - generic [ref=e1215]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1217]:
+                - generic [ref=e1219]:
+                  - link "an abstract background with bright lights" [ref=e1222] [cursor=pointer]:
+                    - /url: /pin/17310779814578074/
+                    - img "an abstract background with bright lights" [ref=e1232]
+                  - generic [ref=e1234]:
+                    - generic:
+                      - link "an abstract background with bright lights":
+                        - /url: /pin/17310779814578074/
+                    - generic "More actions" [ref=e1241]:
+                      - button "More actions" [ref=e1242] [cursor=pointer]:
+                        - img [ref=e1245]

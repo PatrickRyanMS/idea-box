@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comp Explorer</title>
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        :root {
+            --bg: #0f1117;
+            --surface: #1a1d27;
+            --card: #22263a;
+            --card-hover: #282d44;
+            --accent: #f39c12;
+            --accent-dim: rgba(243, 156, 18, 0.15);
+            --text: #c8ccd4;
+            --text-bright: #eef0f4;
+            --text-muted: #666d7a;
+            --border: #2a2e3e;
+            --success: #2ecc71;
+            --info: #3498db;
+            --font: system-ui, -apple-system, 'Segoe UI', sans-serif;
+            --mono: 'Cascadia Code', 'Fira Code', Consolas, monospace;
+        }
+
+        body { font-family: var(--font); background: var(--bg); color: var(--text); min-height: 100vh; }
+
+        /* ── Header ──────────────────────────────── */
+        .header {
+            background: var(--surface);
+            border-bottom: 3px solid var(--accent);
+            padding: 1.25rem 2rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        .header__badge {
+            background: var(--accent);
+            color: #1a1a2e;
+            font-family: var(--mono);
+            font-size: 0.65rem;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            padding: 0.2rem 0.5rem;
+            border-radius: 3px;
+            text-transform: uppercase;
+        }
+        .header__title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--text-bright);
+        }
+
+        /* ── Main ────────────────────────────────── */
+        .main { max-width: 960px; margin: 0 auto; padding: 2rem; }
+
+        /* ── Section Titles ──────────────────────── */
+        .section-title {
+            font-size: 0.7rem;
+            font-family: var(--mono);
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            color: var(--text-muted);
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .section-title:not(:first-child) { margin-top: 2.5rem; }
+
+        /* ── Empty State ─────────────────────────── */
+        .empty { color: var(--text-muted); font-style: italic; padding: 2rem 0; text-align: center; }
+
+        /* ── Exploration Nodes ────────────────────── */
+        .exploration-node { margin-bottom: 0.25rem; }
+        .exploration-node.nested {
+            margin-left: 1.5rem;
+            border-left: 2px solid var(--border);
+            padding-left: 1rem;
+            margin-top: 0.25rem;
+            margin-bottom: 0.5rem;
+        }
+        .exploration-header {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 0.6rem 0.75rem;
+            background: var(--card);
+            border-radius: 6px;
+            cursor: pointer;
+            -webkit-user-select: none;
+            user-select: none;
+            flex-wrap: wrap;
+        }
+        .exploration-header:hover { background: var(--card-hover); }
+
+        .toggle {
+            background: none;
+            border: none;
+            color: var(--text-muted);
+            cursor: pointer;
+            font-size: 0.7rem;
+            width: 1.2rem;
+            transition: transform 0.15s;
+        }
+        .exploration-node.collapsed .toggle { transform: rotate(-90deg); }
+        .exploration-node.collapsed .comp-list { display: none; }
+
+        .exploration-name { font-weight: 600; color: var(--text-bright); }
+        .screen-tag {
+            font-family: var(--mono);
+            font-size: 0.6rem;
+            padding: 0.15rem 0.4rem;
+            border-radius: 3px;
+            background: rgba(52, 152, 219, 0.15);
+            color: #3498db;
+        }
+
+        .badge {
+            font-family: var(--mono);
+            font-size: 0.6rem;
+            padding: 0.15rem 0.4rem;
+            border-radius: 3px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .badge--active { background: rgba(46, 204, 113, 0.15); color: #2ecc71; }
+        .badge--approved { background: rgba(52, 152, 219, 0.15); color: #3498db; }
+
+        .meta { font-family: var(--mono); font-size: 0.7rem; color: var(--text-muted); }
+        .view-link {
+            font-family: var(--mono);
+            font-size: 0.7rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .view-link:hover { text-decoration: underline; }
+
+        /* ── Nav Selector Dropdown ────────────────── */
+        .nav-dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .nav-dropdown__trigger {
+            font-family: var(--mono);
+            font-size: 0.65rem;
+            padding: 0.2rem 0.5rem;
+            border-radius: 3px;
+            border: 1px solid var(--border);
+            background: var(--card);
+            color: var(--text);
+            cursor: pointer;
+            white-space: nowrap;
+        }
+        .nav-dropdown__trigger:hover { background: var(--card-hover); }
+        .nav-dropdown__menu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            z-index: 200;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            padding: 0.4rem 0;
+            min-width: 200px;
+            max-height: 250px;
+            overflow-y: auto;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+        }
+        .nav-dropdown__menu.open { display: block; }
+        .nav-dropdown__item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.35rem 0.75rem;
+            font-size: 0.75rem;
+            cursor: pointer;
+            color: var(--text);
+        }
+        .nav-dropdown__item:hover { background: var(--card-hover); }
+        .nav-dropdown__item input { accent-color: var(--accent); cursor: pointer; }
+        .nav-dropdown__item--assigned {
+            color: var(--text-muted);
+            font-style: italic;
+        }
+        .nav-dropdown__empty {
+            padding: 0.5rem 0.75rem;
+            font-size: 0.7rem;
+            color: var(--text-muted);
+            font-style: italic;
+        }
+
+        /* ── Comp Rows ───────────────────────────── */
+        .comp-list { padding: 0.25rem 0 0.25rem 1rem; }
+        .comp-row {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            padding: 0.4rem 0.75rem;
+            border-radius: 4px;
+        }
+        .comp-row:hover { background: rgba(255, 255, 255, 0.03); }
+        .comp-mapping { position: relative; display: inline-block; }
+        .comp-mapping__trigger {
+            font-family: var(--mono);
+            font-size: 0.6rem;
+            padding: 0.2rem 0.5rem;
+            border-radius: 3px;
+            border: 1px solid var(--border);
+            background: var(--card);
+            color: var(--text-muted);
+            cursor: pointer;
+            white-space: nowrap;
+            min-width: 5rem;
+            text-align: left;
+        }
+        .comp-mapping__trigger:hover { background: var(--card-hover); }
+        .comp-mapping__trigger.has-mapping {
+            border-color: var(--accent);
+            color: var(--accent);
+            background: var(--accent-dim);
+        }
+        .comp-mapping__menu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            z-index: 200;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            padding: 0.4rem 0;
+            min-width: 220px;
+            max-height: 250px;
+            overflow-y: auto;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+        }
+        .comp-mapping__menu.open { display: block; }
+        .comp-mapping__item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.35rem 0.75rem;
+            font-size: 0.75rem;
+            cursor: pointer;
+            color: var(--text);
+        }
+        .comp-mapping__item:hover { background: var(--card-hover); }
+        .comp-mapping__item input { accent-color: var(--accent); cursor: pointer; }
+        .comp-mapping__item--taken {
+            color: var(--text-muted);
+            font-style: italic;
+        }
+        .comp-mapping__empty {
+            padding: 0.5rem 0.75rem;
+            font-size: 0.7rem;
+            color: var(--text-muted);
+            font-style: italic;
+        }
+        .comp-label {
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: var(--text-bright);
+        }
+        .comp-desc { font-size: 0.8rem; color: var(--text-muted); flex: 1; }
+        .comp-view {
+            font-size: 0.7rem;
+            color: var(--accent);
+            text-decoration: none;
+            font-family: var(--mono);
+        }
+        .comp-view:hover { text-decoration: underline; }
+        .expansion-badge {
+            font-family: var(--mono);
+            font-size: 0.6rem;
+            padding: 0.1rem 0.35rem;
+            border-radius: 3px;
+            background: var(--accent-dim);
+            color: var(--accent);
+        }
+
+        /* ── Flow Section ────────────────────────── */
+        .flow-card {
+            background: var(--card);
+            border-radius: 6px;
+            padding: 1rem 1.25rem;
+            margin-bottom: 0.5rem;
+        }
+        .flow-card:hover { background: var(--card-hover); }
+        .flow-card__header {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            margin-bottom: 0.5rem;
+        }
+        .flow-card__name { font-weight: 600; color: var(--text-bright); }
+        .flow-card__count {
+            font-family: var(--mono);
+            font-size: 0.7rem;
+            color: var(--text-muted);
+        }
+        .flow-card__screens {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            margin-bottom: 0.5rem;
+        }
+        .flow-card__launch {
+            font-family: var(--mono);
+            font-size: 0.7rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .flow-card__launch:hover { text-decoration: underline; }
+
+        /* ── Selection Panel ─────────────────────── */
+        .selection-panel {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: var(--surface);
+            border-top: 2px solid var(--accent);
+            padding: 0.75rem 2rem;
+            z-index: 100;
+            display: none;
+        }
+        .selection-panel.visible { display: block; }
+        .selection-panel__header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 0.5rem;
+        }
+        .selection-panel__title {
+            font-family: var(--mono);
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--accent);
+        }
+        .selection-panel__actions { display: flex; gap: 0.5rem; }
+        .sel-btn {
+            font-family: var(--mono);
+            font-size: 0.65rem;
+            padding: 0.25rem 0.6rem;
+            border-radius: 3px;
+            border: 1px solid var(--border);
+            cursor: pointer;
+            background: var(--card);
+            color: var(--text);
+        }
+        .sel-btn:hover { background: var(--card-hover); }
+        .sel-btn--primary {
+            background: var(--accent);
+            color: #1a1a2e;
+            border-color: var(--accent);
+            font-weight: 700;
+        }
+        .sel-btn--primary:hover { opacity: 0.9; }
+        .selection-list {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.4rem;
+        }
+        .selection-list li {
+            font-size: 0.75rem;
+            background: var(--card);
+            padding: 0.2rem 0.5rem;
+            border-radius: 3px;
+            font-family: var(--mono);
+        }
+
+        /* ── Bottom spacing for selection panel ── */
+        body.has-selections .main { padding-bottom: 6rem; }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <span class="header__badge">Comp Explorer</span>
+        <h1 class="header__title">Design Explorations</h1>
+    </header>
+
+    <main class="main">
+        <div id="explorations-section">
+            <h2 class="section-title">Explorations</h2>
+            <div id="exploration-tree"></div>
+        </div>
+
+        <div id="flow-section" style="display:none;">
+            <h2 class="section-title">Project Flow</h2>
+            <div id="flow-card"></div>
+        </div>
+    </main>
+
+    <div class="selection-panel" id="selection-panel">
+        <div class="selection-panel__header">
+            <span class="selection-panel__title">Button Mappings</span>
+            <div class="selection-panel__actions">
+                <button class="sel-btn" onclick="clearMappings()">Clear</button>
+                <button class="sel-btn sel-btn--primary" id="flow-btn" onclick="buildFlow()">Make Flow</button>
+            </div>
+        </div>
+        <ul class="selection-list" id="selection-list"></ul>
+    </div>
+
+    <script>
+        let manifest = null;
+
+        /* ── Init ────────────────────────────────────── */
+        (async function init() {
+            try {
+                const res = await fetch('./manifest.json');
+                if (!res.ok) throw new Error('missing');
+                manifest = await res.json();
+                if (!manifest.buttonMappings) manifest.buttonMappings = {};
+                renderExplorations(manifest.explorations || {});
+                renderFlow(manifest.flow);
+                renderMappingPanel();
+            } catch {
+                document.getElementById('exploration-tree').innerHTML =
+                    '<p class="empty">No explorations yet. Start a design exploration to see comps here.</p>';
+            }
+        })();
+
+        /* ── Close dropdowns on outside click ────────── */
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('.nav-dropdown')) {
+                document.querySelectorAll('.nav-dropdown__menu.open').forEach(m => m.classList.remove('open'));
+            }
+            if (!e.target.closest('.comp-mapping')) {
+                document.querySelectorAll('.comp-mapping__menu.open').forEach(m => m.classList.remove('open'));
+            }
+        });
+
+        /* ── Render Exploration Tree ─────────────────── */
+        function renderExplorations(explorations) {
+            const treeEl = document.getElementById('exploration-tree');
+            const entries = Object.entries(explorations);
+            if (entries.length === 0) {
+                treeEl.innerHTML = '<p class="empty">No explorations yet. Start a design exploration to see comps here.</p>';
+                return;
+            }
+            const roots = entries.filter(([, e]) => !e.parent);
+            roots.forEach(([id, exp]) => {
+                treeEl.appendChild(buildNode(id, exp, explorations, false));
+            });
+        }
+
+        function buildNode(id, exp, allExplorations, isNested) {
+            const node = document.createElement('div');
+            node.className = 'exploration-node' + (isNested ? ' nested' : '');
+
+            const header = document.createElement('div');
+            header.className = 'exploration-header';
+            header.onclick = (e) => {
+                if (e.target.closest('.nav-dropdown')) return;
+                node.classList.toggle('collapsed');
+            };
+
+            const screenTag = exp.screenName
+                ? `<span class="screen-tag">${esc(exp.screenName)}</span>`
+                : '';
+
+            const navBtns = (manifest.navButtons || []);
+            const assignedSelectors = exp.navSelectors || [];
+            const navLabel = assignedSelectors.length > 0
+                ? assignedSelectors.map(s => {
+                    const btn = navBtns.find(b => b.selector === s);
+                    return btn ? btn.label : s;
+                  }).join(', ')
+                : 'Unassigned';
+
+            header.innerHTML = `
+                <button class="toggle">&#9660;</button>
+                ${screenTag}
+                <span class="exploration-name">${esc(exp.name)}</span>
+                <span class="badge badge--${exp.status}">${exp.status}</span>
+                <span class="meta">${exp.comps.length} comps</span>
+                <div class="nav-dropdown" onclick="event.stopPropagation()">
+                    <button class="nav-dropdown__trigger" onclick="toggleNavMenu(this)" title="Nav button assignment">${esc(navLabel)}</button>
+                    <div class="nav-dropdown__menu" data-exploration="${esc(id)}">
+                        ${buildNavMenuItems(id, navBtns, assignedSelectors, allExplorations)}
+                    </div>
+                </div>
+                <a class="view-link" href="${esc(exp.path)}/index.html" onclick="event.stopPropagation()">View All &rarr;</a>
+            `;
+            node.appendChild(header);
+
+            const list = document.createElement('div');
+            list.className = 'comp-list';
+            for (const comp of exp.comps) {
+                const row = document.createElement('div');
+                row.className = 'comp-row';
+
+                const expansionId = id + '.' + comp.id;
+                const hasExpansion = !!allExplorations[expansionId];
+                const screenPrefix = exp.screenName ? esc(exp.screenName) + ' — ' : '';
+                const compFile = exp.path + '/' + comp.file;
+
+                row.innerHTML = `
+                    <div class="comp-mapping" onclick="event.stopPropagation()">
+                        <button class="comp-mapping__trigger ${hasMappingForComp(id, comp.id) ? 'has-mapping' : ''}"
+                                onclick="toggleCompMappingMenu(this)"
+                                title="Assign to nav button">
+                            ${getMappingLabel(id, comp.id)}
+                        </button>
+                        <div class="comp-mapping__menu" data-exploration="${esc(id)}" data-comp="${esc(comp.id)}">
+                            ${buildCompMappingItems(id, comp.id, compFile)}
+                        </div>
+                    </div>
+                    <span class="comp-label">${screenPrefix}${esc(comp.label)}</span>
+                    <span class="comp-desc">${esc(comp.description || '')}</span>
+                    <a class="comp-view" href="${esc(exp.path)}/${esc(comp.file)}">View</a>
+                    ${hasExpansion ? '<span class="expansion-badge">Expanded</span>' : ''}
+                `;
+                list.appendChild(row);
+
+                if (hasExpansion) {
+                    const childExp = allExplorations[expansionId];
+                    list.appendChild(buildNode(expansionId, childExp, allExplorations, true));
+                }
+            }
+            node.appendChild(list);
+            return node;
+        }
+
+        /* ── Nav Selector Dropdown ───────────────────── */
+        function buildNavMenuItems(explorationId, navBtns, assignedSelectors, allExplorations) {
+            if (navBtns.length === 0) {
+                return '<div class="nav-dropdown__empty">No nav buttons defined yet</div>';
+            }
+            return navBtns.map(btn => {
+                const isAssigned = assignedSelectors.includes(btn.selector);
+                const otherOwner = !isAssigned
+                    ? Object.entries(allExplorations).find(([eid, e]) =>
+                        eid !== explorationId && (e.navSelectors || []).includes(btn.selector))
+                    : null;
+                const ownerNote = otherOwner
+                    ? ` (${otherOwner[1].screenName || otherOwner[0]})`
+                    : '';
+                const itemClass = otherOwner ? 'nav-dropdown__item nav-dropdown__item--assigned' : 'nav-dropdown__item';
+                return `
+                    <label class="${itemClass}">
+                        <input type="checkbox"
+                               data-selector="${esc(btn.selector)}"
+                               data-exploration="${esc(explorationId)}"
+                               ${isAssigned ? 'checked' : ''}
+                               onchange="onNavAssign(this)">
+                        ${esc(btn.label)} <span style="font-family:var(--mono);font-size:0.6rem;color:var(--text-muted);">${esc(btn.selector)}${esc(ownerNote)}</span>
+                    </label>`;
+            }).join('');
+        }
+
+        function toggleNavMenu(trigger) {
+            const menu = trigger.nextElementSibling;
+            const wasOpen = menu.classList.contains('open');
+            document.querySelectorAll('.nav-dropdown__menu.open').forEach(m => m.classList.remove('open'));
+            if (!wasOpen) menu.classList.add('open');
+        }
+
+        function onNavAssign(checkbox) {
+            const selector = checkbox.dataset.selector;
+            const explorationId = checkbox.dataset.exploration;
+            const explorations = manifest.explorations || {};
+
+            if (checkbox.checked) {
+                /* Enforce one-button-one-screen: unassign from any other exploration */
+                for (const [eid, exp] of Object.entries(explorations)) {
+                    if (eid !== explorationId && exp.navSelectors) {
+                        const idx = exp.navSelectors.indexOf(selector);
+                        if (idx !== -1) {
+                            exp.navSelectors.splice(idx, 1);
+                        }
+                    }
+                }
+                /* Assign to this exploration */
+                if (!explorations[explorationId].navSelectors) {
+                    explorations[explorationId].navSelectors = [];
+                }
+                if (!explorations[explorationId].navSelectors.includes(selector)) {
+                    explorations[explorationId].navSelectors.push(selector);
+                }
+            } else {
+                /* Unassign */
+                const sels = explorations[explorationId].navSelectors || [];
+                const idx = sels.indexOf(selector);
+                if (idx !== -1) sels.splice(idx, 1);
+            }
+
+            /* Save manifest and re-render */
+            saveManifest();
+        }
+
+        /* ── Render Project Flow ─────────────────────── */
+        function renderFlow(flow) {
+            const section = document.getElementById('flow-section');
+            const container = document.getElementById('flow-card');
+            if (!flow) return;
+
+            section.style.display = '';
+            const screens = flow.screens || [];
+            const screenNames = screens.map(s => s.screenName).join(' → ');
+            container.innerHTML = `
+                <div class="flow-card">
+                    <div class="flow-card__header">
+                        <span class="flow-card__name">${esc(flow.name || 'Project Flow')}</span>
+                        <span class="flow-card__count">${screens.length} screens</span>
+                    </div>
+                    <div class="flow-card__screens">${screenNames}</div>
+                    <a class="flow-card__launch" href="flows/project-flow/index.html">Launch &rarr;</a>
+                </div>
+            `;
+        }
+
+        /* ── Comp-to-Button Mapping ───────────────────── */
+        function toggleCompMappingMenu(trigger) {
+            const menu = trigger.nextElementSibling;
+            const wasOpen = menu.classList.contains('open');
+            document.querySelectorAll('.comp-mapping__menu.open').forEach(m => m.classList.remove('open'));
+            if (!wasOpen) menu.classList.add('open');
+        }
+
+        function buildCompMappingItems(explorationId, compId, compFile) {
+            const exp = (manifest.explorations || {})[explorationId];
+            const navSelectors = exp ? (exp.navSelectors || []) : [];
+            const navBtns = manifest.navButtons || [];
+            const mappings = manifest.buttonMappings || {};
+
+            if (navSelectors.length === 0) {
+                return '<div class="comp-mapping__empty">Assign nav buttons first</div>';
+            }
+
+            return navSelectors.map(sel => {
+                const btn = navBtns.find(b => b.selector === sel);
+                const label = btn ? btn.label : sel;
+                const mapping = mappings[sel];
+                const isThisComp = mapping && mapping.exploration === explorationId && mapping.comp === compId;
+                const otherOwner = mapping && !isThisComp;
+                const ownerNote = otherOwner ? ` (${mapping.comp})` : '';
+                const itemClass = otherOwner
+                    ? 'comp-mapping__item comp-mapping__item--taken'
+                    : 'comp-mapping__item';
+
+                return `
+                    <label class="${itemClass}">
+                        <input type="checkbox"
+                               data-selector="${esc(sel)}"
+                               data-exploration="${esc(explorationId)}"
+                               data-comp="${esc(compId)}"
+                               data-file="${esc(compFile)}"
+                               ${isThisComp ? 'checked' : ''}
+                               onchange="onCompMapping(this)">
+                        ${esc(label)}
+                        <span style="font-family:var(--mono);font-size:0.6rem;color:var(--text-muted);">${esc(sel)}${esc(ownerNote)}</span>
+                    </label>`;
+            }).join('');
+        }
+
+        function hasMappingForComp(explorationId, compId) {
+            const mappings = manifest.buttonMappings || {};
+            return Object.values(mappings).some(m => m.exploration === explorationId && m.comp === compId);
+        }
+
+        function getMappingLabel(explorationId, compId) {
+            const mappings = manifest.buttonMappings || {};
+            const navBtns = manifest.navButtons || [];
+            const labels = [];
+            for (const [sel, m] of Object.entries(mappings)) {
+                if (m.exploration === explorationId && m.comp === compId) {
+                    const btn = navBtns.find(b => b.selector === sel);
+                    labels.push(btn ? btn.label : sel);
+                }
+            }
+            return labels.length > 0 ? labels.join(', ') : '— Map —';
+        }
+
+        function onCompMapping(checkbox) {
+            const selector = checkbox.dataset.selector;
+            const explorationId = checkbox.dataset.exploration;
+            const compId = checkbox.dataset.comp;
+            const compFile = checkbox.dataset.file;
+
+            if (!manifest.buttonMappings) manifest.buttonMappings = {};
+
+            if (checkbox.checked) {
+                /* Assign: one comp per button — replaces any previous mapping */
+                manifest.buttonMappings[selector] = {
+                    exploration: explorationId,
+                    comp: compId,
+                    source: compFile
+                };
+            } else {
+                /* Unassign */
+                delete manifest.buttonMappings[selector];
+            }
+
+            saveManifest();
+        }
+
+        /* ── Mapping Panel ───────────────────────────── */
+        function renderMappingPanel() {
+            const panel = document.getElementById('selection-panel');
+            const list = document.getElementById('selection-list');
+            const flowBtn = document.getElementById('flow-btn');
+            const mappings = manifest.buttonMappings || {};
+            const entries = Object.entries(mappings);
+
+            if (entries.length === 0) {
+                panel.classList.remove('visible');
+                document.body.classList.remove('has-selections');
+                return;
+            }
+            panel.classList.add('visible');
+            document.body.classList.add('has-selections');
+
+            flowBtn.textContent = manifest.flow ? 'Update Flow' : 'Make Flow';
+
+            const navBtns = manifest.navButtons || [];
+            const explorations = manifest.explorations || {};
+            list.innerHTML = entries.map(([sel, m]) => {
+                const btn = navBtns.find(b => b.selector === sel);
+                const btnLabel = btn ? btn.label : sel;
+                const exp = explorations[m.exploration];
+                const comp = exp ? (exp.comps || []).find(c => c.id === m.comp) : null;
+                const compLabel = comp ? comp.label : m.comp;
+                return `<li>${esc(btnLabel)} → ${esc(compLabel)}</li>`;
+            }).join('');
+        }
+
+        function clearMappings() {
+            manifest.buttonMappings = {};
+            saveManifest();
+        }
+
+        /* ── Build / Update Flow ─────────────────────── */
+        function buildFlow() {
+            const mappings = manifest.buttonMappings || {};
+            if (Object.keys(mappings).length === 0) return;
+
+            const explorations = manifest.explorations || {};
+            const navBtns = manifest.navButtons || [];
+
+            /* Group mappings by exploration+comp to deduplicate screens */
+            const screenMap = {};
+            for (const [selector, mapping] of Object.entries(mappings)) {
+                const key = mapping.exploration + '::' + mapping.comp;
+                if (!screenMap[key]) {
+                    const exp = explorations[mapping.exploration];
+                    const screenName = exp ? (exp.screenName || mapping.exploration) : mapping.exploration;
+                    const comp = exp ? (exp.comps || []).find(c => c.id === mapping.comp) : null;
+                    screenMap[key] = {
+                        id: screenName.toLowerCase().replace(/[^a-z0-9]+/g, '-'),
+                        screenName: screenName,
+                        label: comp ? comp.label : mapping.comp,
+                        source: mapping.source,
+                        navSelectors: [],
+                        interactions: []
+                    };
+                }
+                screenMap[key].navSelectors.push(selector);
+            }
+
+            const screens = Object.values(screenMap);
+
+            /* Auto-wire interactions from navSelectors */
+            for (const screen of screens) {
+                for (const other of screens) {
+                    if (other.id === screen.id) continue;
+                    for (const selector of other.navSelectors) {
+                        screen.interactions.push({
+                            selector: selector,
+                            target: other.id
+                        });
+                    }
+                }
+            }
+
+            manifest.flow = {
+                name: 'Project Flow',
+                created: new Date().toISOString().slice(0, 10),
+                screens: screens
+            };
+
+            saveManifest();
+            renderFlow(manifest.flow);
+            renderMappingPanel();
+        }
+
+        /* ── Persist Manifest ────────────────────────── */
+        async function saveManifest() {
+            try {
+                await fetch('./manifest.json', {
+                    method: 'PUT',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(manifest, null, 2)
+                });
+                /* Re-render to reflect changes */
+                const treeEl = document.getElementById('exploration-tree');
+                treeEl.innerHTML = '';
+                renderExplorations(manifest.explorations || {});
+                renderMappingPanel();
+            } catch {
+                /* If PUT isn't supported (static server), store pending changes locally */
+                localStorage.setItem('manifest-pending', JSON.stringify(manifest));
+                const treeEl = document.getElementById('exploration-tree');
+                treeEl.innerHTML = '';
+                renderExplorations(manifest.explorations || {});
+                renderMappingPanel();
+            }
+        }
+
+        /* ── Utility ─────────────────────────────────── */
+        function esc(str) {
+            const d = document.createElement('div');
+            d.textContent = str || '';
+            return d.innerHTML;
+        }
+    </script>
+
+</body>
+</html>

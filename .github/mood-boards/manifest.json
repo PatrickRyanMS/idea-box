@@ -1,0 +1,13 @@
+{
+  "boards": {
+    "ai-embodiment": {
+      "name": "AI Embodiment — Abstract Intelligence",
+      "concept": "An abstract, non-figurative visual presence that implies intelligence and cognition for a mobile-first personal assistant.",
+      "created": "2026-04-23",
+      "status": "active",
+      "path": "ai-embodiment",
+      "categories": ["abstract-reactive-forms", "light-phenomena", "ai-voice-ui", "minimal-mobile-ui", "motion-state", "color-atmosphere"],
+      "imageCount": 59
+    }
+  }
+}

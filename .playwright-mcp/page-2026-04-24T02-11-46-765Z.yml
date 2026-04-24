@@ -1,0 +1,506 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - link "Skip to content":
+      - /url: "#"
+      - generic [ref=e9] [cursor=pointer]: Skip to content
+    - generic [ref=e11]:
+      - generic [ref=e14]:
+        - combobox "Search" [ref=e16]: warm ember glow dark minimal photography
+        - button "Remove search input" [ref=e21] [cursor=pointer]:
+          - img [ref=e24]
+      - generic [ref=e26]:
+        - button "Log in" [ref=e28] [cursor=pointer]:
+          - generic [ref=e30]: Log in
+        - button "Sign up" [ref=e32] [cursor=pointer]:
+          - generic [ref=e34]: Sign up
+  - navigation [ref=e36]:
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - generic "Home" [ref=e43]:
+          - link "Home" [ref=e44] [cursor=pointer]:
+            - /url: /
+            - img [ref=e46]
+        - generic "Explore" [ref=e51]:
+          - link "Explore" [ref=e52] [cursor=pointer]:
+            - /url: /ideas
+            - img [ref=e54]
+        - generic "Shop" [ref=e59]:
+          - link "Shop" [ref=e60] [cursor=pointer]:
+            - /url: /shopping
+            - img [ref=e62]
+      - generic "More options" [ref=e66]:
+        - button "More options" [ref=e67] [cursor=pointer]:
+          - img [ref=e70]
+  - main [ref=e72]:
+    - generic [ref=e74]:
+      - generic [ref=e77]:
+        - heading "Search" [level=1] [ref=e79]
+        - button "Show filters" [ref=e90] [cursor=pointer]:
+          - img [ref=e94]
+      - generic [ref=e100]:
+        - generic [ref=e101]: Showing more search results for warm ember glow dark minimal photography
+        - list [ref=e106]:
+          - listitem [ref=e107]:
+            - group "Pin card" [ref=e110]:
+              - generic [ref=e112]:
+                - link "Overhead Shot Photography, Dark Cinematic Portrait, Red Light Art, Sunset Light Pictures, Unique Lighting Photography, Photography With Light, Cool Shadows, Lighting Studio Photography, Lighting Photography Ideas" [ref=e115] [cursor=pointer]:
+                  - /url: /pin/1900024839495380/
+                  - img "Overhead Shot Photography, Dark Cinematic Portrait, Red Light Art, Sunset Light Pictures, Unique Lighting Photography, Photography With Light, Cool Shadows, Lighting Studio Photography, Lighting Photography Ideas" [ref=e125]
+                - generic [ref=e127]:
+                  - generic:
+                    - link "Overhead Shot Photography, Dark Cinematic Portrait, Red Light Art, Sunset Light Pictures, Unique Lighting Photography, Photography With Light, Cool Shadows, Lighting Studio Photography, Lighting Photography Ideas":
+                      - /url: /pin/1900024839495380/
+                  - generic "More actions" [ref=e134]:
+                    - button "More actions" [ref=e135] [cursor=pointer]:
+                      - img [ref=e138]
+          - listitem [ref=e140]:
+            - group "Pin card" [ref=e143]:
+              - generic [ref=e145]:
+                - link "a blurry image of a man standing in the dark" [ref=e148] [cursor=pointer]:
+                  - /url: /pin/774124930598363/
+                  - img "a blurry image of a man standing in the dark" [ref=e158]
+                - generic [ref=e160]:
+                  - generic:
+                    - link "a blurry image of a man standing in the dark":
+                      - /url: /pin/774124930598363/
+                  - generic "More actions" [ref=e167]:
+                    - button "More actions" [ref=e168] [cursor=pointer]:
+                      - img [ref=e171]
+          - listitem [ref=e173]:
+            - group "Pin card" [ref=e176]:
+              - generic [ref=e178]:
+                - link "a blurry image of a person bending over in the fog" [ref=e181] [cursor=pointer]:
+                  - /url: /pin/1618549864036930/
+                  - img "a blurry image of a person bending over in the fog" [ref=e191]
+                - generic [ref=e193]:
+                  - generic:
+                    - link "a blurry image of a person bending over in the fog":
+                      - /url: /pin/1618549864036930/
+                  - generic "More actions" [ref=e200]:
+                    - button "More actions" [ref=e201] [cursor=pointer]:
+                      - img [ref=e204]
+          - listitem [ref=e206]:
+            - group "Pin card" [ref=e209]:
+              - generic [ref=e211]:
+                - link "a woman standing in the sunlight with her head turned to the side" [ref=e214] [cursor=pointer]:
+                  - /url: /pin/1829656095466883/
+                  - img "a woman standing in the sunlight with her head turned to the side" [ref=e224]
+                - generic [ref=e226]:
+                  - generic:
+                    - link "a woman standing in the sunlight with her head turned to the side":
+                      - /url: /pin/1829656095466883/
+                  - generic "More actions" [ref=e233]:
+                    - button "More actions" [ref=e234] [cursor=pointer]:
+                      - img [ref=e237]
+          - listitem [ref=e239]:
+            - group "Pin card" [ref=e242]:
+              - generic [ref=e244]:
+                - link "blurry image of an orange and yellow object" [ref=e247] [cursor=pointer]:
+                  - /url: /pin/209276713930720425/
+                  - img "blurry image of an orange and yellow object" [ref=e257]
+                - generic [ref=e259]:
+                  - generic:
+                    - link "blurry image of an orange and yellow object":
+                      - /url: /pin/209276713930720425/
+                  - generic "More actions" [ref=e266]:
+                    - button "More actions" [ref=e267] [cursor=pointer]:
+                      - img [ref=e270]
+          - listitem [ref=e272]:
+            - group "Pin card" [ref=e275]:
+              - generic [ref=e277]:
+                - link "a woman's face in the dark with her eyes open and light shining on her" [ref=e280] [cursor=pointer]:
+                  - /url: /pin/1900024839563691/
+                  - img "a woman's face in the dark with her eyes open and light shining on her" [ref=e290]
+                - generic [ref=e292]:
+                  - generic:
+                    - link "a woman's face in the dark with her eyes open and light shining on her":
+                      - /url: /pin/1900024839563691/
+                  - generic "More actions" [ref=e299]:
+                    - button "More actions" [ref=e300] [cursor=pointer]:
+                      - img [ref=e303]
+          - listitem [ref=e305]:
+            - generic [ref=e306]:
+              - generic [ref=e312]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e314]:
+                - generic [ref=e316]:
+                  - link "a close up of a person's face in the dark" [ref=e319] [cursor=pointer]:
+                    - /url: /pin/1548181186641860/
+                    - img "a close up of a person's face in the dark" [ref=e329]
+                  - generic [ref=e331]:
+                    - generic:
+                      - link "a close up of a person's face in the dark":
+                        - /url: /pin/1548181186641860/
+                    - generic "More actions" [ref=e338]:
+                      - button "More actions" [ref=e339] [cursor=pointer]:
+                        - img [ref=e342]
+          - listitem [ref=e344]:
+            - group "Pin card" [ref=e347]:
+              - generic [ref=e349]:
+                - link "the shadow of a lamp is cast on a wall in front of a window with light coming through it" [ref=e352] [cursor=pointer]:
+                  - /url: /pin/1031042908458824613/
+                  - img "the shadow of a lamp is cast on a wall in front of a window with light coming through it" [ref=e362]
+                - generic [ref=e364]:
+                  - generic:
+                    - link "the shadow of a lamp is cast on a wall in front of a window with light coming through it":
+                      - /url: /pin/1031042908458824613/
+                  - generic "More actions" [ref=e371]:
+                    - button "More actions" [ref=e372] [cursor=pointer]:
+                      - img [ref=e375]
+          - listitem [ref=e377]:
+            - group "Pin card" [ref=e380]:
+              - generic [ref=e382]:
+                - link "the light is shining brightly through an opening in a dark room that appears to be empty" [ref=e385] [cursor=pointer]:
+                  - /url: /pin/899664463063570419/
+                  - img "the light is shining brightly through an opening in a dark room that appears to be empty" [ref=e395]
+                - generic [ref=e397]:
+                  - generic:
+                    - link "the light is shining brightly through an opening in a dark room that appears to be empty":
+                      - /url: /pin/899664463063570419/
+                  - generic "More actions" [ref=e404]:
+                    - button "More actions" [ref=e405] [cursor=pointer]:
+                      - img [ref=e408]
+          - listitem [ref=e410]:
+            - group "Pin card" [ref=e413]:
+              - generic [ref=e415]:
+                - link "the silhouette of a woman in front of a red light" [ref=e418] [cursor=pointer]:
+                  - /url: /pin/17310779814869222/
+                  - img "the silhouette of a woman in front of a red light" [ref=e428]
+                - generic [ref=e430]:
+                  - generic:
+                    - link "the silhouette of a woman in front of a red light":
+                      - /url: /pin/17310779814869222/
+                  - generic "More actions" [ref=e437]:
+                    - button "More actions" [ref=e438] [cursor=pointer]:
+                      - img [ref=e441]
+          - listitem [ref=e443]:
+            - group "Pin card" [ref=e446]:
+              - generic [ref=e448]:
+                - link "a blurry image of an orange and black background with some red lines on it" [ref=e451] [cursor=pointer]:
+                  - /url: /pin/471189179790683225/
+                  - img "a blurry image of an orange and black background with some red lines on it" [ref=e461]
+                - generic [ref=e463]:
+                  - generic:
+                    - link "a blurry image of an orange and black background with some red lines on it":
+                      - /url: /pin/471189179790683225/
+                  - generic "More actions" [ref=e470]:
+                    - button "More actions" [ref=e471] [cursor=pointer]:
+                      - img [ref=e474]
+          - listitem [ref=e476]:
+            - generic [ref=e477]:
+              - generic [ref=e483]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e485]:
+                - generic [ref=e487]:
+                  - link "a woman's face with a lit candle sticking out of her mouth in the dark" [ref=e490] [cursor=pointer]:
+                    - /url: /pin/10977592837427890/
+                    - img "a woman's face with a lit candle sticking out of her mouth in the dark" [ref=e500]
+                  - generic [ref=e502]:
+                    - generic:
+                      - link "a woman's face with a lit candle sticking out of her mouth in the dark":
+                        - /url: /pin/10977592837427890/
+                    - generic "More actions" [ref=e509]:
+                      - button "More actions" [ref=e510] [cursor=pointer]:
+                        - img [ref=e513]
+          - listitem [ref=e515]:
+            - group "Pin card" [ref=e518]:
+              - generic [ref=e520]:
+                - link "a woman in the dark with her eyes open and looking off into the distance at night" [ref=e523] [cursor=pointer]:
+                  - /url: /pin/1900024839563722/
+                  - img "a woman in the dark with her eyes open and looking off into the distance at night" [ref=e533]
+                - generic [ref=e535]:
+                  - generic:
+                    - link "a woman in the dark with her eyes open and looking off into the distance at night":
+                      - /url: /pin/1900024839563722/
+                  - generic "More actions" [ref=e542]:
+                    - button "More actions" [ref=e543] [cursor=pointer]:
+                      - img [ref=e546]
+          - listitem [ref=e548]:
+            - group "Pin card" [ref=e551]:
+              - generic [ref=e553]:
+                - link "a woman standing in front of a yellow light with her back turned to the camera" [ref=e556] [cursor=pointer]:
+                  - /url: /pin/1900024839780981/
+                  - img "a woman standing in front of a yellow light with her back turned to the camera" [ref=e566]
+                - generic [ref=e568]:
+                  - generic:
+                    - link "a woman standing in front of a yellow light with her back turned to the camera":
+                      - /url: /pin/1900024839780981/
+                  - generic "More actions" [ref=e575]:
+                    - button "More actions" [ref=e576] [cursor=pointer]:
+                      - img [ref=e579]
+          - listitem [ref=e581]:
+            - group "Pin card" [ref=e584]:
+              - generic [ref=e586]:
+                - link "blurry image of orange circles on black background" [ref=e589] [cursor=pointer]:
+                  - /url: /pin/492299803056485111/
+                  - img "blurry image of orange circles on black background" [ref=e599]
+                - generic [ref=e601]:
+                  - generic:
+                    - link "blurry image of orange circles on black background":
+                      - /url: /pin/492299803056485111/
+                  - generic "More actions" [ref=e608]:
+                    - button "More actions" [ref=e609] [cursor=pointer]:
+                      - img [ref=e612]
+          - listitem [ref=e614]:
+            - group "Pin card" [ref=e617]:
+              - generic [ref=e619]:
+                - link "a woman wearing a veil in the dark" [ref=e622] [cursor=pointer]:
+                  - /url: /pin/1688918607088620/
+                  - img "a woman wearing a veil in the dark" [ref=e632]
+                - generic [ref=e634]:
+                  - generic:
+                    - link "a woman wearing a veil in the dark":
+                      - /url: /pin/1688918607088620/
+                  - generic "More actions" [ref=e641]:
+                    - button "More actions" [ref=e642] [cursor=pointer]:
+                      - img [ref=e645]
+          - listitem [ref=e647]:
+            - generic [ref=e648]:
+              - generic [ref=e654]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e656]:
+                - generic [ref=e658]:
+                  - link "a woman is silhouetted against a dark background with butterflies" [ref=e661] [cursor=pointer]:
+                    - /url: /pin/16325617394227382/
+                    - img "a woman is silhouetted against a dark background with butterflies" [ref=e671]
+                  - generic [ref=e673]:
+                    - generic:
+                      - link "a woman is silhouetted against a dark background with butterflies":
+                        - /url: /pin/16325617394227382/
+                    - generic "More actions" [ref=e680]:
+                      - button "More actions" [ref=e681] [cursor=pointer]:
+                        - img [ref=e684]
+          - listitem [ref=e686]:
+            - group "Pin card" [ref=e689]:
+              - generic [ref=e691]:
+                - link "Fire Portraits, Photos With Light, Light Exposure Photography, Red Light Photoshoot Ideas Women, Photo Silhouette, Fire Photo Shoot, Photo With Light, High Quality Photography, Art Reference Lighting" [ref=e694] [cursor=pointer]:
+                  - /url: /pin/1477812374663761/
+                  - img "Fire Portraits, Photos With Light, Light Exposure Photography, Red Light Photoshoot Ideas Women, Photo Silhouette, Fire Photo Shoot, Photo With Light, High Quality Photography, Art Reference Lighting" [ref=e704]
+                - generic [ref=e706]:
+                  - generic:
+                    - link "Fire Portraits, Photos With Light, Light Exposure Photography, Red Light Photoshoot Ideas Women, Photo Silhouette, Fire Photo Shoot, Photo With Light, High Quality Photography, Art Reference Lighting":
+                      - /url: /pin/1477812374663761/
+                  - generic "More actions" [ref=e713]:
+                    - button "More actions" [ref=e714] [cursor=pointer]:
+                      - img [ref=e717]
+          - listitem [ref=e719]:
+            - group "Pin card" [ref=e722]:
+              - generic [ref=e724]:
+                - link "a man standing in front of a window with the sun shining through it and his hair blowing back" [ref=e727] [cursor=pointer]:
+                  - /url: /pin/730849845823423707/
+                  - img "a man standing in front of a window with the sun shining through it and his hair blowing back" [ref=e737]
+                - generic [ref=e739]:
+                  - generic:
+                    - link "a man standing in front of a window with the sun shining through it and his hair blowing back":
+                      - /url: /pin/730849845823423707/
+                  - generic "More actions" [ref=e746]:
+                    - button "More actions" [ref=e747] [cursor=pointer]:
+                      - img [ref=e750]
+          - listitem [ref=e752]:
+            - group "Pin card" [ref=e755]:
+              - generic [ref=e757]:
+                - link "a woman holding a flower in her hand with the light coming through her face and behind her head" [ref=e760] [cursor=pointer]:
+                  - /url: /pin/8585055536641265/
+                  - img "a woman holding a flower in her hand with the light coming through her face and behind her head" [ref=e770]
+                - generic [ref=e772]:
+                  - generic:
+                    - link "a woman holding a flower in her hand with the light coming through her face and behind her head":
+                      - /url: /pin/8585055536641265/
+                  - generic "More actions" [ref=e779]:
+                    - button "More actions" [ref=e780] [cursor=pointer]:
+                      - img [ref=e783]
+          - listitem [ref=e785]:
+            - group "Pin card" [ref=e788]:
+              - generic [ref=e790]:
+                - link "a person standing in front of a bright light" [ref=e793] [cursor=pointer]:
+                  - /url: /pin/1900024839212924/
+                  - img "a person standing in front of a bright light" [ref=e803]
+                - generic [ref=e805]:
+                  - generic:
+                    - link "a person standing in front of a bright light":
+                      - /url: /pin/1900024839212924/
+                  - generic "More actions" [ref=e812]:
+                    - button "More actions" [ref=e813] [cursor=pointer]:
+                      - img [ref=e816]
+          - listitem [ref=e818]:
+            - generic [ref=e819]:
+              - generic [ref=e825]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e827]:
+                - generic [ref=e829]:
+                  - link "the light is shining down on some material that appears to be flowing in the air" [ref=e832] [cursor=pointer]:
+                    - /url: /pin/17944098512221629/
+                    - img "the light is shining down on some material that appears to be flowing in the air" [ref=e842]
+                  - generic [ref=e844]:
+                    - generic:
+                      - link "the light is shining down on some material that appears to be flowing in the air":
+                        - /url: /pin/17944098512221629/
+                    - generic "More actions" [ref=e851]:
+                      - button "More actions" [ref=e852] [cursor=pointer]:
+                        - img [ref=e855]
+          - listitem [ref=e857]:
+            - group "Pin card" [ref=e860]:
+              - generic [ref=e862]:
+                - link "an empty hallway with light coming through the windows" [ref=e865] [cursor=pointer]:
+                  - /url: /pin/2744449766515104/
+                  - img "an empty hallway with light coming through the windows" [ref=e875]
+                - generic [ref=e877]:
+                  - generic:
+                    - link "an empty hallway with light coming through the windows":
+                      - /url: /pin/2744449766515104/
+                  - generic "More actions" [ref=e884]:
+                    - button "More actions" [ref=e885] [cursor=pointer]:
+                      - img [ref=e888]
+          - listitem [ref=e890]:
+            - group "Pin card" [ref=e893]:
+              - generic [ref=e895]:
+                - link "an orange and black background with water ripples in the foreground, light reflecting on the sand" [ref=e898] [cursor=pointer]:
+                  - /url: /pin/985231164796480/
+                  - img "an orange and black background with water ripples in the foreground, light reflecting on the sand" [ref=e908]
+                - generic [ref=e910]:
+                  - generic:
+                    - link "an orange and black background with water ripples in the foreground, light reflecting on the sand":
+                      - /url: /pin/985231164796480/
+                  - generic "More actions" [ref=e917]:
+                    - button "More actions" [ref=e918] [cursor=pointer]:
+                      - img [ref=e921]
+          - listitem [ref=e923]:
+            - generic [ref=e924]:
+              - generic [ref=e930]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e932]:
+                - generic [ref=e934]:
+                  - link "the silhouette of a man in front of an orange and yellow background with blurry lights" [ref=e937] [cursor=pointer]:
+                    - /url: /pin/528398968807843789/
+                    - img "the silhouette of a man in front of an orange and yellow background with blurry lights" [ref=e947]
+                  - generic [ref=e949]:
+                    - generic:
+                      - link "the silhouette of a man in front of an orange and yellow background with blurry lights":
+                        - /url: /pin/528398968807843789/
+                    - generic "More actions" [ref=e956]:
+                      - button "More actions" [ref=e957] [cursor=pointer]:
+                        - img [ref=e960]
+          - listitem [ref=e962]:
+            - generic [ref=e963]:
+              - generic [ref=e969]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e971]:
+                - generic [ref=e973]:
+                  - link "a chair and lamp in a dimly lit room" [ref=e976] [cursor=pointer]:
+                    - /url: /pin/185140234677779627/
+                    - img "a chair and lamp in a dimly lit room" [ref=e986]
+                  - generic [ref=e988]:
+                    - generic:
+                      - link "a chair and lamp in a dimly lit room":
+                        - /url: /pin/185140234677779627/
+                    - generic "More actions" [ref=e995]:
+                      - button "More actions" [ref=e996] [cursor=pointer]:
+                        - img [ref=e999]
+          - listitem [ref=e1001]:
+            - generic [ref=e1002]:
+              - generic [ref=e1008]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1010]:
+                - generic [ref=e1012]:
+                  - link "the shadow of a person's hand on an orange wall with leaves scattered around it" [ref=e1015] [cursor=pointer]:
+                    - /url: /pin/1106548570964043555/
+                    - img "the shadow of a person's hand on an orange wall with leaves scattered around it" [ref=e1025]
+                  - generic [ref=e1027]:
+                    - generic:
+                      - link "the shadow of a person's hand on an orange wall with leaves scattered around it":
+                        - /url: /pin/1106548570964043555/
+                    - generic "More actions" [ref=e1034]:
+                      - button "More actions" [ref=e1035] [cursor=pointer]:
+                        - img [ref=e1038]
+          - listitem [ref=e1040]:
+            - generic [ref=e1041]:
+              - generic [ref=e1047]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1049]:
+                - generic [ref=e1051]:
+                  - link "the sun is seen as it eclipses behind an object" [ref=e1054] [cursor=pointer]:
+                    - /url: /pin/105342078782396889/
+                    - img "the sun is seen as it eclipses behind an object" [ref=e1064]
+                  - generic [ref=e1066]:
+                    - generic:
+                      - link "the sun is seen as it eclipses behind an object":
+                        - /url: /pin/105342078782396889/
+                    - generic "More actions" [ref=e1073]:
+                      - button "More actions" [ref=e1074] [cursor=pointer]:
+                        - img [ref=e1077]
+          - listitem [ref=e1079]:
+            - generic [ref=e1080]:
+              - generic [ref=e1086]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1088]:
+                - generic [ref=e1090]:
+                  - link "sunlight shining through the windows onto a wooden floor in a dark room with couches" [ref=e1093] [cursor=pointer]:
+                    - /url: /pin/71142869301869354/
+                    - img "sunlight shining through the windows onto a wooden floor in a dark room with couches" [ref=e1103]
+                  - generic [ref=e1105]:
+                    - generic:
+                      - link "sunlight shining through the windows onto a wooden floor in a dark room with couches":
+                        - /url: /pin/71142869301869354/
+                    - generic "More actions" [ref=e1112]:
+                      - button "More actions" [ref=e1113] [cursor=pointer]:
+                        - img [ref=e1116]
+          - listitem [ref=e1118]:
+            - generic [ref=e1119]:
+              - generic [ref=e1125]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1127]:
+                - generic [ref=e1129]:
+                  - link "a woman in the dark holding her hand up to her face with fire coming out of her mouth" [ref=e1132] [cursor=pointer]:
+                    - /url: /pin/1900024839466657/
+                    - img "a woman in the dark holding her hand up to her face with fire coming out of her mouth" [ref=e1142]
+                  - generic [ref=e1144]:
+                    - generic:
+                      - link "a woman in the dark holding her hand up to her face with fire coming out of her mouth":
+                        - /url: /pin/1900024839466657/
+                    - generic "More actions" [ref=e1151]:
+                      - button "More actions" [ref=e1152] [cursor=pointer]:
+                        - img [ref=e1155]
+          - listitem [ref=e1157]:
+            - generic [ref=e1158]:
+              - generic [ref=e1164]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1166]:
+                - generic [ref=e1168]:
+                  - link "a woman with her head turned to the side, in front of an orange background" [ref=e1171] [cursor=pointer]:
+                    - /url: /pin/1900024839449431/
+                    - img "a woman with her head turned to the side, in front of an orange background" [ref=e1181]
+                  - generic [ref=e1183]:
+                    - generic:
+                      - link "a woman with her head turned to the side, in front of an orange background":
+                        - /url: /pin/1900024839449431/
+                    - generic "More actions" [ref=e1190]:
+                      - button "More actions" [ref=e1191] [cursor=pointer]:
+                        - img [ref=e1194]
+          - listitem [ref=e1196]:
+            - generic [ref=e1197]:
+              - generic [ref=e1203]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1205]:
+                - generic [ref=e1207]:
+                  - link "the light is shining through the window in the dark room with it's reflection on the glass" [ref=e1210] [cursor=pointer]:
+                    - /url: /pin/127508233193882586/
+                    - img "the light is shining through the window in the dark room with it's reflection on the glass" [ref=e1220]
+                  - generic [ref=e1222]:
+                    - generic:
+                      - link "the light is shining through the window in the dark room with it's reflection on the glass":
+                        - /url: /pin/127508233193882586/
+                    - generic "More actions" [ref=e1229]:
+                      - button "More actions" [ref=e1230] [cursor=pointer]:
+                        - img [ref=e1233]

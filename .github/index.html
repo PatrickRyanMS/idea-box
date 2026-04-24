@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Embodiment — Design Project</title>
+    <style>
+        /* ── Reset ─────────────────────────────────── */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        :root {
+            --nav-bg: #2a2a2a;
+            --nav-text: #d0d0d0;
+            --nav-accent: #999999;
+            --bg: #f5f5f5;
+            --surface: #ffffff;
+            --text: #333333;
+            --text-muted: #777777;
+            --border: #e0e0e0;
+            --font: system-ui, -apple-system, 'Segoe UI', sans-serif;
+            --mono: 'Cascadia Code', 'Fira Code', Consolas, monospace;
+        }
+
+        body {
+            font-family: var(--font);
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+        }
+
+        /* ── Site Navigation ───────────────────────── */
+        .site-nav {
+            background: var(--nav-bg);
+            color: var(--nav-text);
+            display: flex;
+            align-items: center;
+            padding: 0 1rem;
+            height: 48px;
+            position: sticky;
+            top: 0;
+            z-index: 200;
+            border-bottom: 1px solid #444444;
+        }
+
+        .site-nav__hamburger {
+            background: none;
+            border: none;
+            color: var(--nav-text);
+            font-size: 1.4rem;
+            cursor: pointer;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            line-height: 1;
+        }
+
+        .site-nav__hamburger:hover { background: rgba(255,255,255,0.1); }
+
+        .site-nav__title {
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-left: 0.75rem;
+        }
+
+        .site-nav__page {
+            margin-left: auto;
+            font-family: var(--mono);
+            font-size: 0.7rem;
+            color: var(--nav-accent);
+        }
+
+        .site-nav__arrows {
+            display: flex;
+            gap: 0.25rem;
+            margin-left: 0.75rem;
+        }
+
+        .site-nav__arrow {
+            background: none;
+            border: 1px solid rgba(255,255,255,0.2);
+            color: var(--nav-text);
+            width: 32px;
+            height: 32px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .site-nav__arrow:hover { background: rgba(255,255,255,0.1); border-color: var(--nav-accent); }
+        .site-nav__arrow:disabled { opacity: 0.3; cursor: default; }
+
+        .nav-drawer {
+            display: none;
+            position: fixed;
+            top: 48px;
+            left: 0;
+            bottom: 0;
+            width: 280px;
+            background: var(--nav-bg);
+            z-index: 190;
+            overflow-y: auto;
+            border-right: 1px solid rgba(255,255,255,0.1);
+            padding: 1rem 0;
+        }
+
+        .nav-drawer.open { display: block; }
+
+        .nav-drawer__overlay {
+            display: none;
+            position: fixed;
+            inset: 0;
+            top: 48px;
+            background: rgba(0,0,0,0.4);
+            z-index: 185;
+        }
+
+        .nav-drawer__overlay.open { display: block; }
+
+        .nav-drawer__section {
+            font-family: var(--mono);
+            font-size: 0.6rem;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            color: rgba(255,255,255,0.4);
+            padding: 0.75rem 1.25rem 0.25rem;
+        }
+
+        .nav-drawer__link {
+            display: block;
+            padding: 0.5rem 1.25rem;
+            color: var(--nav-text);
+            text-decoration: none;
+            font-size: 0.8rem;
+            transition: background 0.1s;
+        }
+
+        .nav-drawer__link:hover { background: rgba(255,255,255,0.08); }
+        .nav-drawer__link.active { color: var(--nav-accent); background: rgba(255,255,255,0.05); }
+
+        /* ── Page Wrapper ──────────────────────────── */
+        .page-wrapper {
+            max-width: 880px;
+            padding: 0 2rem;
+        }
+
+        /* ── Hero ──────────────────────────────────── */
+        .hero {
+            display: flex;
+            gap: 2rem;
+            padding: 3rem 0 2rem;
+        }
+
+        .hero__spacer {
+            width: 160px;
+            flex-shrink: 0;
+        }
+
+        @media (max-width: 960px) {
+            .hero { display: block; }
+            .hero__spacer { display: none; }
+        }
+
+        .hero__badge {
+            font-family: var(--mono);
+            font-size: 0.65rem;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--nav-accent);
+            background: rgba(150, 150, 150, 0.1);
+            padding: 0.2rem 0.6rem;
+            border-radius: 3px;
+            display: inline-block;
+            margin-bottom: 0.75rem;
+        }
+
+        .hero__title {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--text);
+            margin-bottom: 0.5rem;
+        }
+
+        .hero__description {
+            font-size: 1.1rem;
+            color: var(--text-muted);
+            line-height: 1.6;
+            max-width: 680px;
+        }
+
+        /* ── Two-Column Layout ─────────────────────── */
+        .columns {
+            display: flex;
+            gap: 2rem;
+        }
+
+        /* ── Artifact Sidebar ──────────────────────── */
+        .artifact-sidebar {
+            width: 160px;
+            flex-shrink: 0;
+            position: sticky;
+            top: 48px;
+            align-self: flex-start;
+            max-height: calc(100vh - 48px);
+            overflow-y: auto;
+        }
+
+        .artifact-sidebar__title {
+            font-family: var(--mono);
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            color: var(--text-muted);
+            margin-bottom: 0.75rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid #cccccc;
+        }
+
+        .artifact-sidebar__link {
+            display: block;
+            padding: 0.5rem 0.75rem;
+            margin-bottom: 0.25rem;
+            border-radius: 6px;
+            text-decoration: none;
+            color: var(--text);
+            font-size: 0.8rem;
+            transition: background 0.1s;
+        }
+
+        .artifact-sidebar__link:hover {
+            background: rgba(0, 0, 0, 0.04);
+        }
+
+        .artifact-sidebar__link-type {
+            font-family: var(--mono);
+            font-size: 0.55rem;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--text-muted);
+            display: block;
+            margin-bottom: 0.1rem;
+        }
+
+        .artifact-sidebar__empty {
+            font-family: var(--mono);
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            padding: 0.5rem 0;
+        }
+
+        @media (max-width: 960px) {
+            .artifact-sidebar { display: none; }
+        }
+
+        /* ── Content ───────────────────────────────── */
+        .content {
+            flex: 1;
+            min-width: 0;
+            padding: 0 0 3rem;
+        }
+
+        .section {
+            margin-bottom: 2.5rem;
+        }
+
+        .section__title {
+            font-size: 0.7rem;
+            font-family: var(--mono);
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            color: var(--text-muted);
+            margin-bottom: 0.75rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid #cccccc;
+        }
+
+        .section__body {
+            font-size: 0.9rem;
+            line-height: 1.7;
+            color: var(--text);
+        }
+
+        /* ── Lists ─────────────────────────────────── */
+        .section__body ul,
+        .section__body ol {
+            padding-left: 1.25rem;
+            margin: 0;
+        }
+
+        .section__body li {
+            padding: 0.3rem 0;
+            line-height: 1.6;
+        }
+
+        .section__body li + li {
+            border-top: 1px solid rgba(0, 0, 0, 0.04);
+        }
+
+        /* ── Tables ────────────────────────────────── */
+        .section__body table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.85rem;
+            line-height: 1.5;
+        }
+
+        .section__body th {
+            text-align: left;
+            padding: 0.6rem 0.75rem;
+            font-family: var(--mono);
+            font-size: 0.65rem;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--text-muted);
+            border-bottom: 2px solid var(--border);
+            font-weight: 600;
+        }
+
+        .section__body td {
+            padding: 0.6rem 0.75rem;
+            border-bottom: 1px solid var(--border);
+            vertical-align: top;
+        }
+
+        .section__body tr:last-child td {
+            border-bottom: none;
+        }
+
+        .section__body td:first-child {
+            font-weight: 500;
+        }
+
+        /* Scenario blocks */
+        .section__body strong {
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        .section__body p {
+            margin-bottom: 0.75rem;
+        }
+
+        .section__body > div {
+            margin-bottom: 1rem;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-muted);
+            font-family: var(--mono);
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Site Navigation -->
+    <nav class="site-nav">
+        <button class="site-nav__hamburger" id="navToggle" aria-label="Menu">☰</button>
+        <span class="site-nav__title" id="projectTitle">AI Embodiment</span>
+        <span class="site-nav__page" id="currentPage">Home</span>
+        <div class="site-nav__arrows">
+            <button class="site-nav__arrow" id="navPrev" aria-label="Previous page" disabled>‹</button>
+            <button class="site-nav__arrow" id="navNext" aria-label="Next page">›</button>
+        </div>
+    </nav>
+
+    <!-- Navigation Drawer -->
+    <div class="nav-drawer__overlay" id="navOverlay"></div>
+    <aside class="nav-drawer" id="navDrawer" role="navigation"></aside>
+
+    <!-- Page Wrapper — everything shares the same left edge -->
+    <div class="page-wrapper">
+
+        <!-- Hero -->
+        <header class="hero">
+            <div class="hero__spacer"></div>
+            <div class="hero__content">
+                <span class="hero__badge" id="heroBadge">Design Project</span>
+                <h1 class="hero__title" id="heroTitle">AI Embodiment</h1>
+                <p class="hero__description" id="heroDescription">Interactive AI embodiment experience — abstract visual presence for a mobile-first personal assistant</p>
+                <div class="hero__meta" id="heroMeta" style="font-family:var(--mono);font-size:0.7rem;color:var(--text-muted);margin-top:0.5rem;"></div>
+            </div>
+        </header>
+
+        <!-- Two columns: sidebar + content -->
+        <div class="columns">
+            <aside class="artifact-sidebar" id="artifactSidebar">
+                <div class="artifact-sidebar__title">Design Artifacts</div>
+                <div class="artifact-sidebar__empty" id="sidebarEmpty">No artifacts yet.</div>
+                <div id="sidebarLinks"></div>
+            </aside>
+
+            <main class="content" id="contentContainer">
+                <div class="empty-state" id="loadingState">Loading project data...</div>
+            </main>
+        </div>
+
+    </div>
+
+    <script>
+        const CURRENT_PAGE_ID = 'home';
+        let navData = null;
+        let basePath = '';
+
+        async function init() {
+            try {
+                const candidates = ['../../../design-nav.json', '../../design-nav.json', '../design-nav.json', 'design-nav.json'];
+                for (const candidate of candidates) {
+                    try {
+                        const res = await fetch(candidate);
+                        if (res.ok) { navData = await res.json(); basePath = candidate.substring(0, candidate.lastIndexOf('/') + 1); break; }
+                    } catch (e) { /* try next */ }
+                }
+                if (!navData) { document.getElementById('loadingState').textContent = 'No project data found.'; return; }
+
+                renderHero();
+                renderContent();
+                renderNav();
+            } catch (e) { document.getElementById('loadingState').textContent = 'Error loading project data.'; }
+        }
+
+        function renderHero() {
+            const p = navData.project || {};
+            if (p.name) {
+                document.getElementById('projectTitle').textContent = p.name;
+                document.getElementById('heroTitle').textContent = p.name;
+            }
+            if (p.description) document.getElementById('heroDescription').textContent = p.description;
+
+            const meta = [];
+            if (p.status) meta.push('Status: ' + p.status);
+            if (p.scope) meta.push('Scope: ' + p.scope);
+            if (p.created) meta.push('Created: ' + p.created);
+            if (meta.length) document.getElementById('heroMeta').textContent = meta.join(' · ');
+            if (p.scope === 'project') document.getElementById('heroBadge').textContent = 'Design Project';
+            else document.getElementById('heroBadge').textContent = 'Design — Feature';
+        }
+
+        function renderContent() {
+            const container = document.getElementById('contentContainer');
+            let html = '';
+
+            // Overview
+            if (navData.overview) {
+                html += section('Overview', '<p>' + esc(navData.overview) + '</p>');
+            }
+
+            // Goals
+            if (navData.goals?.length) {
+                html += section('Goals', '<ul>' + navData.goals.map(g => '<li>' + esc(g) + '</li>').join('') + '</ul>');
+            }
+
+            // Non-Goals
+            if (navData.nonGoals?.length) {
+                html += section('Non-Goals', '<ul>' + navData.nonGoals.map(g => '<li>' + esc(g) + '</li>').join('') + '</ul>');
+            }
+
+            // User Scenarios
+            if (navData.scenarios?.length) {
+                let scenarioHtml = '';
+                navData.scenarios.forEach(s => {
+                    scenarioHtml += '<div style="margin-bottom:1rem;"><strong>' + esc(s.title) + '</strong>';
+                    if (s.steps?.length) {
+                        scenarioHtml += '<ol style="margin-top:0.25rem;padding-left:1.25rem;">' +
+                            s.steps.map(st => '<li>' + esc(st) + '</li>').join('') + '</ol>';
+                    }
+                    scenarioHtml += '</div>';
+                });
+                html += section('User Scenarios', scenarioHtml);
+            }
+
+            // Constraints
+            if (navData.constraints?.length) {
+                html += section('Design Constraints', '<ul>' + navData.constraints.map(c => '<li>' + esc(c) + '</li>').join('') + '</ul>');
+            }
+
+            // Design Scope
+            if (navData.designScope?.length) {
+                let scopeHtml = '<table>';
+                scopeHtml += '<tr><th>Area</th><th>Status</th></tr>';
+                navData.designScope.forEach(s => {
+                    scopeHtml += '<tr><td>' + esc(s.area) + '</td><td style="font-family:var(--mono);font-size:0.75rem;">' + esc(s.status) + '</td></tr>';
+                });
+                scopeHtml += '</table>';
+                html += section('Design Scope', scopeHtml);
+            }
+
+            // Child Features (project scope)
+            if (navData.children?.length) {
+                let childHtml = '<table>';
+                childHtml += '<tr><th>Feature</th><th>Status</th></tr>';
+                navData.children.forEach(c => {
+                    childHtml += '<tr><td>' + esc(c.feature) + '</td><td style="font-family:var(--mono);font-size:0.75rem;">' + esc(c.status) + '</td></tr>';
+                });
+                childHtml += '</table>';
+                html += section('Features', childHtml);
+            }
+
+            // Open Questions
+            if (navData.openQuestions?.length) {
+                html += section('Open Questions', '<ul>' + navData.openQuestions.map(q => '<li>' + esc(q) + '</li>').join('') + '</ul>');
+            }
+
+            // Resolved Questions
+            if (navData.resolvedQuestions?.length) {
+                let rqHtml = '<table>';
+                rqHtml += '<tr><th>Question</th><th>Decision</th><th>Rationale</th></tr>';
+                navData.resolvedQuestions.forEach(q => {
+                    rqHtml += '<tr><td>' + esc(q.question) + '</td><td>' + esc(q.decision) + '</td><td style="color:var(--text-muted);">' + esc(q.rationale) + '</td></tr>';
+                });
+                rqHtml += '</table>';
+                html += section('Resolved Questions', rqHtml);
+            }
+
+            // Risks
+            if (navData.risks?.length) {
+                let riskHtml = '<table>';
+                riskHtml += '<tr><th>Risk</th><th>Impact</th><th>Mitigation</th></tr>';
+                navData.risks.forEach(r => {
+                    riskHtml += '<tr><td>' + esc(r.risk) + '</td><td>' + esc(r.impact) + '</td><td style="color:var(--text-muted);">' + esc(r.mitigation) + '</td></tr>';
+                });
+                riskHtml += '</table>';
+                html += section('Risks', riskHtml);
+            }
+
+            // Design Cycle Log
+            if (navData.cycleLog?.length) {
+                let logHtml = '<table>';
+                logHtml += '<tr><th>Cycle</th><th>Agent</th><th>Action</th><th>Outcome</th></tr>';
+                navData.cycleLog.forEach(l => {
+                    logHtml += '<tr><td style="font-family:var(--mono);font-size:0.75rem;">' + esc(l.cycle) + '</td><td>' + esc(l.agent) + '</td><td>' + esc(l.action) + '</td><td style="color:var(--text-muted);">' + esc(l.outcome) + '</td></tr>';
+                });
+                logHtml += '</table>';
+                html += section('Design Cycle Log', logHtml);
+            }
+
+            // Artifacts section removed — now in sidebar
+
+            container.innerHTML = html || '<div class="empty-state">No project data yet. Start designing to populate this page.</div>';
+
+            // Populate sidebar
+            renderSidebar();
+        }
+
+        function section(title, body) {
+            return '<section class="section"><div class="section__title">' + esc(title) + '</div><div class="section__body">' + body + '</div></section>';
+        }
+
+        function esc(str) {
+            if (!str) return '';
+            const d = document.createElement('div');
+            d.textContent = String(str);
+            return d.innerHTML;
+        }
+
+        function renderSidebar() {
+            const typeLabels = { home: 'Home', 'mood-board': 'Mood Board', palette: 'Palette', comp: 'Comp', flow: 'Flow' };
+            const artifacts = (navData.pages || []).filter(p => p.id !== 'home');
+            const linksEl = document.getElementById('sidebarLinks');
+            const emptyEl = document.getElementById('sidebarEmpty');
+
+            if (artifacts.length) {
+                emptyEl.style.display = 'none';
+                linksEl.innerHTML = artifacts.map(p =>
+                    '<a class="artifact-sidebar__link" href="' + basePath + p.path + '">' +
+                    '<span class="artifact-sidebar__link-type">' + (typeLabels[p.type] || p.type) + '</span>' +
+                    esc(p.label) +
+                    '</a>'
+                ).join('');
+            }
+        }
+
+        function renderNav() {
+            // Drawer
+            const drawer = document.getElementById('navDrawer');
+            const pagesByType = {};
+            (navData.pages || []).forEach(p => {
+                const type = p.type || 'other';
+                if (!pagesByType[type]) pagesByType[type] = [];
+                pagesByType[type].push(p);
+            });
+            const typeLabels = { home: 'Home', 'mood-board': 'Mood Boards', palette: 'Palettes', comp: 'Comps', flow: 'Flows' };
+            let drawerHtml = '';
+            for (const [type, pages] of Object.entries(pagesByType)) {
+                drawerHtml += '<div class="nav-drawer__section">' + (typeLabels[type] || type) + '</div>';
+                pages.forEach(p => {
+                    const active = p.id === CURRENT_PAGE_ID ? ' active' : '';
+                    drawerHtml += '<a class="nav-drawer__link' + active + '" href="' + basePath + p.path + '">' + p.label + '</a>';
+                });
+            }
+            drawer.innerHTML = drawerHtml;
+
+            // Next arrow (home is first, no prev)
+            const nextBtn = document.getElementById('navNext');
+            if (navData.pages?.length > 1) {
+                nextBtn.addEventListener('click', () => window.location.href = basePath + navData.pages[1].path);
+            } else { nextBtn.disabled = true; }
+        }
+
+        // Drawer toggle
+        document.getElementById('navToggle').addEventListener('click', () => {
+            document.getElementById('navDrawer').classList.toggle('open');
+            document.getElementById('navOverlay').classList.toggle('open');
+        });
+        document.getElementById('navOverlay').addEventListener('click', () => {
+            document.getElementById('navDrawer').classList.remove('open');
+            document.getElementById('navOverlay').classList.remove('open');
+        });
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowRight') document.getElementById('navNext').click();
+        });
+
+        init();
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,402 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - link "Skip to content":
+      - /url: "#"
+      - generic [ref=e9] [cursor=pointer]: Skip to content
+    - generic [ref=e11]:
+      - generic [ref=e14]:
+        - combobox "Search" [ref=e16]: bold dark gradient abstract digital art neon
+        - button "Remove search input" [ref=e21] [cursor=pointer]:
+          - img [ref=e24]
+      - generic [ref=e26]:
+        - button "Log in" [ref=e28] [cursor=pointer]:
+          - generic [ref=e30]: Log in
+        - button "Sign up" [ref=e32] [cursor=pointer]:
+          - generic [ref=e34]: Sign up
+  - navigation [ref=e36]:
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - generic "Home" [ref=e43]:
+          - link "Home" [ref=e44] [cursor=pointer]:
+            - /url: /
+            - img [ref=e46]
+        - generic "Explore" [ref=e51]:
+          - link "Explore" [ref=e52] [cursor=pointer]:
+            - /url: /ideas
+            - img [ref=e54]
+        - generic "Shop" [ref=e59]:
+          - link "Shop" [ref=e60] [cursor=pointer]:
+            - /url: /shopping
+            - img [ref=e62]
+      - generic "More options" [ref=e66]:
+        - button "More options" [ref=e67] [cursor=pointer]:
+          - img [ref=e70]
+  - main [ref=e72]:
+    - generic [ref=e74]:
+      - generic [ref=e77]:
+        - heading "Search" [level=1] [ref=e79]
+        - button "Show filters" [ref=e90] [cursor=pointer]:
+          - img [ref=e94]
+      - generic [ref=e100]:
+        - generic [ref=e101]: Showing more search results for bold dark gradient abstract digital art neon
+        - list [ref=e106]:
+          - listitem [ref=e107]:
+            - generic [ref=e111]:
+              - link "Shop bold dark gradient abstract digital art neon" [ref=e119] [cursor=pointer]:
+                - /url: /search/pins/?rs=product_carousel&tab=shop&q=bold%20dark%20gradient%20abstract%20digital%20art%20neon&source_id=p0BePd4j&commerce_only=True&request_params=%7B%2237%22%3A%20%22Shop%20bold%20dark%20gradient%20abstract%20digital%20art%20neon%22%2C%20%221%22%3A%20%2294%22%2C%20%2236%22%3A%20%22bold%20dark%20gradient%20abstract%20digital%20art%20neon%22%2C%20%2230%22%3A%20%22Shop%20bold%20dark%20gradient%20abstract%20digital%20art%20neon%22%2C%20%222%22%3A%20%22Shop%20bold%20dark%20gradient%20abstract%20digital%20art%20neon%22%2C%20%2233%22%3A%20%5B%224595923518395576448%22%2C%20%22275141858475736459%22%2C%20%22964262970247946643%22%2C%20%224600356780303133312%22%2C%20%22155303888217880008%22%2C%20%224606971388185444480%22%5D%2C%20%2234%22%3A%20%220%22%2C%20%227%22%3A%20%22p0BePd4j%22%2C%20%228%22%3A%20%22bold%20dark%20gradient%20abstract%20digital%20art%20neon%22%7D&pins_display=2
+                - heading "Shop bold dark gradient abstract digital art neon" [level=2] [ref=e120]
+              - generic [ref=e126]:
+                - group "Slide 1 of 3" [ref=e127]:
+                  - group "Pin card" [ref=e131]:
+                    - generic [ref=e133]:
+                      - link "a multicolored circular pattern in red, yellow, and blue" [ref=e136] [cursor=pointer]:
+                        - /url: /pin/275141858475736459/
+                        - img "a multicolored circular pattern in red, yellow, and blue" [ref=e147]
+                      - link "Tourbillon Live, Arts numériques par Gaudi .C | ArtMajeur" [ref=e152] [cursor=pointer]:
+                        - /url: /pin/275141858475736459/
+                        - 'button "Current price: $77.00" [ref=e153]':
+                          - generic [ref=e154]:
+                            - generic [ref=e155]: "Current price:"
+                            - generic [ref=e156]: $77.00
+                        - generic [ref=e158]:
+                          - button "Tourbillon Live, Arts numériques par Gaudi .C | ArtMajeur" [ref=e160]:
+                            - generic "Tourbillon Live, Arts numériques par Gaudi .C | ArtMajeur" [ref=e161]
+                          - generic "More actions" [ref=e164]:
+                            - button "More actions" [ref=e165]:
+                              - img [ref=e168]
+                        - generic:
+                          - button "ArtMajeur"
+                - group "Slide 2 of 3" [ref=e170]:
+                  - group "Pin card" [ref=e174]:
+                    - generic [ref=e176]:
+                      - link "an abstract painting on the wall next to a table with a clock and vases" [ref=e179] [cursor=pointer]:
+                        - /url: /pin/4600356780303133312/
+                        - img "an abstract painting on the wall next to a table with a clock and vases" [ref=e190]
+                      - link "Trippy Abstract Waves Poster, Neon Gradient Wall Art, Modern Home Decor Print" [ref=e195] [cursor=pointer]:
+                        - /url: /pin/4600356780303133312/
+                        - 'button "Current price: $21.16" [ref=e196]':
+                          - generic [ref=e197]:
+                            - generic [ref=e198]: "Current price:"
+                            - generic [ref=e199]: $21.16
+                        - generic [ref=e201]:
+                          - button "Trippy Abstract Waves Poster, Neon Gradient Wall Art, Modern Home Decor Print" [ref=e203]:
+                            - generic "Trippy Abstract Waves Poster, Neon Gradient Wall Art, Modern Home Decor Print" [ref=e204]
+                          - generic "More actions" [ref=e207]:
+                            - button "More actions" [ref=e208]:
+                              - img [ref=e211]
+                        - generic:
+                          - button "Etsy"
+                - group "Slide 3 of 3" [ref=e213]:
+                  - group "Pin card" [ref=e217]:
+                    - generic [ref=e219]:
+                      - link [ref=e222] [cursor=pointer]:
+                        - /url: /pin/155303888217880008/
+                        - img [ref=e233]
+                      - link "Neon Brights Procreate Color Palette - 30 Vibrant & Electric Shades for Bold Digital Art" [ref=e238] [cursor=pointer]:
+                        - /url: /pin/155303888217880008/
+                        - 'button "Current price: $3.45" [ref=e239]':
+                          - generic [ref=e240]:
+                            - generic [ref=e241]: "Current price:"
+                            - generic [ref=e242]: $3.45
+                        - generic [ref=e244]:
+                          - button "Neon Brights Procreate Color Palette - 30 Vibrant & Electric Shades for Bold Digital Art" [ref=e246]:
+                            - generic "Neon Brights Procreate Color Palette - 30 Vibrant & Electric Shades for Bold Digital Art" [ref=e247]
+                          - generic "More actions" [ref=e250]:
+                            - button "More actions" [ref=e251]:
+                              - img [ref=e254]
+                        - generic:
+                          - button "Etsy"
+          - listitem [ref=e256]:
+            - heading "More ideas" [level=2] [ref=e265]
+          - listitem [ref=e266]:
+            - group "Pin card" [ref=e269]:
+              - generic [ref=e271]:
+                - link "an abstract painting with lines and colors in the middle, on a black background that appears to be multicolored" [ref=e274] [cursor=pointer]:
+                  - /url: /pin/492299803056484523/
+                  - img "an abstract painting with lines and colors in the middle, on a black background that appears to be multicolored" [ref=e284]
+                - generic [ref=e286]:
+                  - generic:
+                    - link "an abstract painting with lines and colors in the middle, on a black background that appears to be multicolored":
+                      - /url: /pin/492299803056484523/
+                  - generic "More actions" [ref=e293]:
+                    - button "More actions" [ref=e294] [cursor=pointer]:
+                      - img [ref=e297]
+          - listitem [ref=e299]:
+            - group "Pin card" [ref=e302]:
+              - generic [ref=e304]:
+                - link "an abstract painting with blue and orange colors on black background, showing wavy lines in the shape of curves" [ref=e307] [cursor=pointer]:
+                  - /url: /pin/1117877938780989798/
+                  - img "an abstract painting with blue and orange colors on black background, showing wavy lines in the shape of curves" [ref=e317]
+                - generic [ref=e319]:
+                  - generic:
+                    - link "an abstract painting with blue and orange colors on black background, showing wavy lines in the shape of curves":
+                      - /url: /pin/1117877938780989798/
+                  - generic "More actions" [ref=e326]:
+                    - button "More actions" [ref=e327] [cursor=pointer]:
+                      - img [ref=e330]
+          - listitem [ref=e332]:
+            - group "Pin card" [ref=e335]:
+              - generic [ref=e337]:
+                - link "green and black swirls are shown in this image, as well as the background" [ref=e340] [cursor=pointer]:
+                  - /url: /pin/1196337405422854/
+                  - img "green and black swirls are shown in this image, as well as the background" [ref=e350]
+                - generic [ref=e352]:
+                  - generic:
+                    - link "green and black swirls are shown in this image, as well as the background":
+                      - /url: /pin/1196337405422854/
+                  - generic "More actions" [ref=e359]:
+                    - button "More actions" [ref=e360] [cursor=pointer]:
+                      - img [ref=e363]
+          - listitem [ref=e365]:
+            - group "Pin card" [ref=e368]:
+              - generic [ref=e370]:
+                - link "an abstract background with wavy lines and colors in blue, pink, purple and black" [ref=e373] [cursor=pointer]:
+                  - /url: /pin/211174977160465/
+                  - img "an abstract background with wavy lines and colors in blue, pink, purple and black" [ref=e383]
+                - generic [ref=e385]:
+                  - generic:
+                    - link "an abstract background with wavy lines and colors in blue, pink, purple and black":
+                      - /url: /pin/211174977160465/
+                  - generic "More actions" [ref=e392]:
+                    - button "More actions" [ref=e393] [cursor=pointer]:
+                      - img [ref=e396]
+          - listitem [ref=e398]:
+            - generic [ref=e399]:
+              - generic [ref=e405]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e407]:
+                - generic [ref=e409]:
+                  - link "Thermal Wallpapers, Holo Texture, Neon Ipad Wallpaper, Rave Aesthetic Background, Wavy Aesthetic, Abstract Wallpapers, Liquid Aesthetic, Thermal Background Aesthetic, Rave Poster Background" [ref=e412] [cursor=pointer]:
+                    - /url: /pin/3166662233495456/
+                    - img "Thermal Wallpapers, Holo Texture, Neon Ipad Wallpaper, Rave Aesthetic Background, Wavy Aesthetic, Abstract Wallpapers, Liquid Aesthetic, Thermal Background Aesthetic, Rave Poster Background" [ref=e422]
+                  - generic [ref=e424]:
+                    - generic:
+                      - link "Thermal Wallpapers, Holo Texture, Neon Ipad Wallpaper, Rave Aesthetic Background, Wavy Aesthetic, Abstract Wallpapers, Liquid Aesthetic, Thermal Background Aesthetic, Rave Poster Background":
+                        - /url: /pin/3166662233495456/
+                    - generic "More actions" [ref=e431]:
+                      - button "More actions" [ref=e432] [cursor=pointer]:
+                        - img [ref=e435]
+          - listitem [ref=e437]:
+            - group "Pin card" [ref=e440]:
+              - generic [ref=e442]:
+                - link "an abstract background with lines and colors in shades of pink, blue, yellow and orange" [ref=e445] [cursor=pointer]:
+                  - /url: /pin/492299803056484522/
+                  - img "an abstract background with lines and colors in shades of pink, blue, yellow and orange" [ref=e455]
+                - generic [ref=e457]:
+                  - generic:
+                    - link "an abstract background with lines and colors in shades of pink, blue, yellow and orange":
+                      - /url: /pin/492299803056484522/
+                  - generic "More actions" [ref=e464]:
+                    - button "More actions" [ref=e465] [cursor=pointer]:
+                      - img [ref=e468]
+          - listitem [ref=e470]:
+            - group "Pin card" [ref=e473]:
+              - generic [ref=e475]:
+                - link "an abstract background with lines and colors in blue, pink, orange, and yellow" [ref=e478] [cursor=pointer]:
+                  - /url: /pin/68749716848/
+                  - img "an abstract background with lines and colors in blue, pink, orange, and yellow" [ref=e488]
+                - generic [ref=e490]:
+                  - generic:
+                    - link "an abstract background with lines and colors in blue, pink, orange, and yellow":
+                      - /url: /pin/68749716848/
+                  - generic "More actions" [ref=e497]:
+                    - button "More actions" [ref=e498] [cursor=pointer]:
+                      - img [ref=e501]
+          - listitem [ref=e503]:
+            - group "Pin card" [ref=e506]:
+              - generic [ref=e508]:
+                - link "3d Abstract Wallpapers, Modern Background Wallpapers, Abstract 3d Background, Pc Wallpaper Good Quality, Abstract Wallpapers, Color Gradient Wallpaper, Chromium Wallpaper, Wallpapers Hd, Abstract Ipad Wallpaper Hd" [ref=e511] [cursor=pointer]:
+                  - /url: /pin/3166662233404379/
+                  - img "3d Abstract Wallpapers, Modern Background Wallpapers, Abstract 3d Background, Pc Wallpaper Good Quality, Abstract Wallpapers, Color Gradient Wallpaper, Chromium Wallpaper, Wallpapers Hd, Abstract Ipad Wallpaper Hd" [ref=e521]
+                - generic [ref=e523]:
+                  - generic:
+                    - link "3d Abstract Wallpapers, Modern Background Wallpapers, Abstract 3d Background, Pc Wallpaper Good Quality, Abstract Wallpapers, Color Gradient Wallpaper, Chromium Wallpaper, Wallpapers Hd, Abstract Ipad Wallpaper Hd":
+                      - /url: /pin/3166662233404379/
+                  - generic "More actions" [ref=e530]:
+                    - button "More actions" [ref=e531] [cursor=pointer]:
+                      - img [ref=e534]
+          - listitem [ref=e536]:
+            - group "Pin card" [ref=e539]:
+              - generic [ref=e541]:
+                - link "an image of a black hole in the sky with colors changing from red to blue" [ref=e544] [cursor=pointer]:
+                  - /url: /pin/1196337405241480/
+                  - img "an image of a black hole in the sky with colors changing from red to blue" [ref=e554]
+                - generic [ref=e556]:
+                  - generic:
+                    - link "an image of a black hole in the sky with colors changing from red to blue":
+                      - /url: /pin/1196337405241480/
+                  - generic "More actions" [ref=e563]:
+                    - button "More actions" [ref=e564] [cursor=pointer]:
+                      - img [ref=e567]
+          - listitem [ref=e569]:
+            - generic [ref=e570]:
+              - generic [ref=e576]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e578]:
+                - generic [ref=e580]:
+                  - link "an abstract painting with orange and pink colors on black background, which looks like paint" [ref=e583] [cursor=pointer]:
+                    - /url: /pin/10344274147422678/
+                    - img "an abstract painting with orange and pink colors on black background, which looks like paint" [ref=e593]
+                  - generic [ref=e595]:
+                    - generic:
+                      - link "an abstract painting with orange and pink colors on black background, which looks like paint":
+                        - /url: /pin/10344274147422678/
+                    - generic "More actions" [ref=e602]:
+                      - button "More actions" [ref=e603] [cursor=pointer]:
+                        - img [ref=e606]
+          - listitem [ref=e608]:
+            - group "Pin card" [ref=e611]:
+              - generic [ref=e613]:
+                - link "an abstract image with multicolored lines in the center and on the outside, there is a black background" [ref=e616] [cursor=pointer]:
+                  - /url: /pin/14214555069582103/
+                  - img "an abstract image with multicolored lines in the center and on the outside, there is a black background" [ref=e626]
+                - generic [ref=e628]:
+                  - generic:
+                    - link "an abstract image with multicolored lines in the center and on the outside, there is a black background":
+                      - /url: /pin/14214555069582103/
+                  - generic "More actions" [ref=e635]:
+                    - button "More actions" [ref=e636] [cursor=pointer]:
+                      - img [ref=e639]
+          - listitem [ref=e641]:
+            - group "Pin card" [ref=e644]:
+              - generic [ref=e646]:
+                - link "an abstract painting that looks like it has been painted in purple, orange and yellow" [ref=e649] [cursor=pointer]:
+                  - /url: /pin/3729612268989892/
+                  - img "an abstract painting that looks like it has been painted in purple, orange and yellow" [ref=e659]
+                - generic [ref=e661]:
+                  - generic:
+                    - link "an abstract painting that looks like it has been painted in purple, orange and yellow":
+                      - /url: /pin/3729612268989892/
+                  - generic "More actions" [ref=e668]:
+                    - button "More actions" [ref=e669] [cursor=pointer]:
+                      - img [ref=e672]
+          - listitem [ref=e674]:
+            - group "Pin card" [ref=e677]:
+              - generic [ref=e679]:
+                - link "an orange and black background with red circles" [ref=e682] [cursor=pointer]:
+                  - /url: /pin/492649954680723/
+                  - img "an orange and black background with red circles" [ref=e692]
+                - generic [ref=e694]:
+                  - generic:
+                    - link "an orange and black background with red circles":
+                      - /url: /pin/492649954680723/
+                  - generic "More actions" [ref=e701]:
+                    - button "More actions" [ref=e702] [cursor=pointer]:
+                      - img [ref=e705]
+          - listitem [ref=e707]:
+            - group "Pin card" [ref=e710]:
+              - generic [ref=e712]:
+                - link "an abstract black and purple background with squares" [ref=e715] [cursor=pointer]:
+                  - /url: /pin/281543726588159/
+                  - img "an abstract black and purple background with squares" [ref=e725]
+                - generic [ref=e727]:
+                  - generic:
+                    - link "an abstract black and purple background with squares":
+                      - /url: /pin/281543726588159/
+                  - generic "More actions" [ref=e734]:
+                    - button "More actions" [ref=e735] [cursor=pointer]:
+                      - img [ref=e738]
+          - listitem [ref=e740]:
+            - generic [ref=e741]:
+              - generic [ref=e747]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e749]:
+                - generic [ref=e751]:
+                  - link "an abstract background with wavy lines and colors" [ref=e754] [cursor=pointer]:
+                    - /url: /pin/59250551351760080/
+                    - img "an abstract background with wavy lines and colors" [ref=e764]
+                  - generic [ref=e766]:
+                    - generic:
+                      - link "an abstract background with wavy lines and colors":
+                        - /url: /pin/59250551351760080/
+                    - generic "More actions" [ref=e773]:
+                      - button "More actions" [ref=e774] [cursor=pointer]:
+                        - img [ref=e777]
+          - listitem [ref=e779]:
+            - generic [ref=e780]:
+              - generic [ref=e786]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e788]:
+                - generic [ref=e790]:
+                  - link "an abstract painting with different colors and shapes" [ref=e793] [cursor=pointer]:
+                    - /url: /pin/2533343537594905/
+                    - img "an abstract painting with different colors and shapes" [ref=e803]
+                  - generic [ref=e805]:
+                    - generic:
+                      - link "an abstract painting with different colors and shapes":
+                        - /url: /pin/2533343537594905/
+                    - generic "More actions" [ref=e812]:
+                      - button "More actions" [ref=e813] [cursor=pointer]:
+                        - img [ref=e816]
+          - listitem [ref=e818]:
+            - generic [ref=e819]:
+              - generic [ref=e825]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e827]:
+                - generic [ref=e829]:
+                  - link "an abstract photo of liquid flowing down the side of a black surface with multicolored lines on it" [ref=e832] [cursor=pointer]:
+                    - /url: /pin/6896205673354415/
+                    - img "an abstract photo of liquid flowing down the side of a black surface with multicolored lines on it" [ref=e842]
+                  - generic [ref=e844]:
+                    - generic:
+                      - link "an abstract photo of liquid flowing down the side of a black surface with multicolored lines on it":
+                        - /url: /pin/6896205673354415/
+                    - generic "More actions" [ref=e851]:
+                      - button "More actions" [ref=e852] [cursor=pointer]:
+                        - img [ref=e855]
+          - listitem [ref=e857]:
+            - generic [ref=e858]:
+              - generic [ref=e864]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e866]:
+                - generic [ref=e868]:
+                  - link "Colorful Glowing Abstract Design, Abstract Fire Background Wallpaper, Fractal Fire Wallpaper, Blue And Purple Fire Background, Flowing Neon Background, Vibrant Flame Wallpaper, Neon Color Abstract Background, Colorful Abstract Flames Background, Colorful Neon Abstract Lines" [ref=e871] [cursor=pointer]:
+                    - /url: /pin/46865652367567146/
+                    - img "Colorful Glowing Abstract Design, Abstract Fire Background Wallpaper, Fractal Fire Wallpaper, Blue And Purple Fire Background, Flowing Neon Background, Vibrant Flame Wallpaper, Neon Color Abstract Background, Colorful Abstract Flames Background, Colorful Neon Abstract Lines" [ref=e881]
+                  - generic [ref=e883]:
+                    - generic:
+                      - link "Colorful Glowing Abstract Design, Abstract Fire Background Wallpaper, Fractal Fire Wallpaper, Blue And Purple Fire Background, Flowing Neon Background, Vibrant Flame Wallpaper, Neon Color Abstract Background, Colorful Abstract Flames Background, Colorful Neon Abstract Lines":
+                        - /url: /pin/46865652367567146/
+                    - generic "More actions" [ref=e890]:
+                      - button "More actions" [ref=e891] [cursor=pointer]:
+                        - img [ref=e894]
+          - listitem [ref=e896]:
+            - generic [ref=e897]:
+              - generic [ref=e903]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e905]:
+                - generic [ref=e907]:
+                  - link "an abstract painting with different colors and shapes in the form of swirls on a black background" [ref=e910] [cursor=pointer]:
+                    - /url: /pin/1970393584334297/
+                    - img "an abstract painting with different colors and shapes in the form of swirls on a black background" [ref=e920]
+                  - generic [ref=e922]:
+                    - generic:
+                      - link "an abstract painting with different colors and shapes in the form of swirls on a black background":
+                        - /url: /pin/1970393584334297/
+                    - generic "More actions" [ref=e929]:
+                      - button "More actions" [ref=e930] [cursor=pointer]:
+                        - img [ref=e933]
+          - listitem [ref=e935]:
+            - generic [ref=e936]:
+              - generic [ref=e942]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e944]:
+                - generic [ref=e946]:
+                  - link "an abstract background with purple and orange colors" [ref=e949] [cursor=pointer]:
+                    - /url: /pin/866239309601056803/
+                    - img "an abstract background with purple and orange colors" [ref=e959]
+                  - generic [ref=e961]:
+                    - generic:
+                      - link "an abstract background with purple and orange colors":
+                        - /url: /pin/866239309601056803/
+                    - generic "More actions" [ref=e968]:
+                      - button "More actions" [ref=e969] [cursor=pointer]:
+                        - img [ref=e972]

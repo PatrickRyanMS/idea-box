@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMP REVIEW — {{COMPONENT_NAME}}</title>
+    <style>
+        /* ── Reset ─────────────────────────────────────── */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        /* ── Comp Viewer Shell ─────────────────────────── */
+        :root {
+            --comp-bg: #e8e8e8;
+            --comp-card-bg: #ffffff;
+            --comp-banner: #1a1a2e;
+            --comp-banner-text: #e0e0e0;
+            --comp-accent: #f39c12;
+            --comp-label-bg: #1a1a2e;
+            --comp-label-text: #f39c12;
+            --comp-border: #cccccc;
+            --comp-text: #333333;
+            --comp-text-muted: #777777;
+            --comp-font: system-ui, -apple-system, 'Segoe UI', sans-serif;
+            --comp-font-mono: 'Cascadia Code', 'Fira Code', 'Consolas', monospace;
+        }
+
+        body {
+            font-family: var(--comp-font);
+            background: var(--comp-bg);
+            color: var(--comp-text);
+            min-height: 100vh;
+        }
+
+        /* ── Banner ────────────────────────────────────── */
+        .comp-banner {
+            background: var(--comp-banner);
+            color: var(--comp-banner-text);
+            padding: 1rem 2rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            border-bottom: 3px solid var(--comp-accent);
+        }
+
+        .comp-banner__badge {
+            background: var(--comp-accent);
+            color: var(--comp-banner);
+            font-family: var(--comp-font-mono);
+            font-size: 0.7rem;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            padding: 0.25rem 0.6rem;
+            border-radius: 3px;
+            text-transform: uppercase;
+            white-space: nowrap;
+        }
+
+        .comp-banner__title {
+            font-size: 1.25rem;
+            font-weight: 600;
+        }
+
+        .comp-banner__status {
+            margin-left: auto;
+            font-family: var(--comp-font-mono);
+            font-size: 0.8rem;
+            opacity: 0.7;
+        }
+
+        /* ── Context Section ───────────────────────────── */
+        .comp-context {
+            max-width: 1200px;
+            margin: 1.5rem auto;
+            padding: 0 2rem;
+        }
+
+        .comp-context__grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1rem;
+        }
+
+        .comp-context__card {
+            background: var(--comp-card-bg);
+            border: 1px solid var(--comp-border);
+            border-radius: 6px;
+            padding: 1rem 1.25rem;
+        }
+
+        .comp-context__label {
+            font-family: var(--comp-font-mono);
+            font-size: 0.65rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--comp-text-muted);
+            margin-bottom: 0.4rem;
+        }
+
+        .comp-context__value {
+            font-size: 0.9rem;
+            line-height: 1.5;
+        }
+
+        /* ── Comp Grid ─────────────────────────────────── */
+        .comp-grid {
+            max-width: 1200px;
+            margin: 1.5rem auto;
+            padding: 0 2rem 3rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 1.5rem;
+        }
+
+        /* ── Individual Comp Card ──────────────────────── */
+        .comp-card {
+            background: var(--comp-card-bg);
+            border: 1px solid var(--comp-border);
+            border-radius: 8px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .comp-card__header {
+            background: var(--comp-label-bg);
+            color: var(--comp-label-text);
+            padding: 0.5rem 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .comp-card__label {
+            font-family: var(--comp-font-mono);
+            font-size: 0.85rem;
+            font-weight: 700;
+        }
+
+        .comp-card__desc {
+            font-size: 0.75rem;
+            color: var(--comp-banner-text);
+            opacity: 0.7;
+        }
+
+        .comp-card__body {
+            padding: 1.5rem;
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 200px;
+            background: var(--comp-bg);
+        }
+
+        /* ── Footer ────────────────────────────────────── */
+        .comp-footer {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem 2rem 2rem;
+            text-align: center;
+            font-family: var(--comp-font-mono);
+            font-size: 0.7rem;
+            color: var(--comp-text-muted);
+            letter-spacing: 0.05em;
+        }
+
+        /* ── Back Link ──────────────────────────────── */
+        .comp-banner__back {
+            margin-left: auto;
+            font-family: var(--comp-font-mono);
+            font-size: 0.75rem;
+            color: var(--comp-accent);
+            text-decoration: none;
+        }
+        .comp-banner__back:hover { text-decoration: underline; }
+
+        /* ── Palette Bar ────────────────────────────── */
+        .comp-palette-bar {
+            max-width: 1200px;
+            margin: 0.75rem auto 0;
+            padding: 0 2rem;
+            display: none;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .comp-palette-bar.visible { display: flex; }
+        .comp-palette-bar__label {
+            font-family: var(--comp-font-mono);
+            font-size: 0.6rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--comp-text-muted);
+        }
+
+        /* ── Button Mapping ────────────────────────── */
+        .comp-card__mapping {
+            margin-left: auto;
+            position: relative;
+            display: inline-block;
+        }
+        .comp-card__mapping-btn {
+            font-family: var(--comp-font-mono);
+            font-size: 0.6rem;
+            padding: 0.2rem 0.5rem;
+            border-radius: 3px;
+            border: 1px solid var(--comp-border);
+            background: var(--comp-card-bg);
+            color: var(--comp-text-muted);
+            cursor: pointer;
+            white-space: nowrap;
+        }
+        .comp-card__mapping-btn:hover { background: rgba(255,255,255,0.05); }
+        .comp-card__mapping-btn.has-mapping {
+            border-color: var(--comp-accent);
+            color: var(--comp-accent);
+            background: rgba(243,156,18,0.12);
+        }
+        .comp-card__mapping-menu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            right: 0;
+            z-index: 200;
+            background: var(--comp-bg);
+            border: 1px solid var(--comp-border);
+            border-radius: 4px;
+            padding: 0.4rem 0;
+            min-width: 200px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+        }
+        .comp-card__mapping-menu.open { display: block; }
+        .comp-card__mapping-item {
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+            padding: 0.3rem 0.6rem;
+            font-size: 0.7rem;
+            cursor: pointer;
+            color: var(--comp-text);
+        }
+        .comp-card__mapping-item:hover { background: rgba(255,255,255,0.05); }
+        .comp-card__mapping-item input { accent-color: var(--comp-accent); cursor: pointer; }
+        .comp-card__mapping-empty {
+            padding: 0.4rem 0.6rem;
+            font-size: 0.65rem;
+            color: var(--comp-text-muted);
+            font-style: italic;
+        }
+
+        /* ── Device Preview Bar ────────────────────── */
+        .comp-device-bar {
+            max-width: 1200px;
+            margin: 0.5rem auto 0;
+            padding: 0 2rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .comp-device-bar__label {
+            font-family: var(--comp-font-mono);
+            font-size: 0.6rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--comp-text-muted);
+        }
+        .comp-device-bar__select {
+            font-family: var(--comp-font-mono);
+            font-size: 0.7rem;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            border: 1px solid var(--comp-border);
+            background: var(--comp-card-bg);
+            color: var(--comp-text);
+            cursor: pointer;
+        }
+        .comp-device-bar__dims {
+            font-family: var(--comp-font-mono);
+            font-size: 0.6rem;
+            color: var(--comp-text-muted);
+        }
+
+        /* ── Viewport Frame ────────────────────────── */
+        .comp-viewport-frame {
+            max-width: 1200px;
+            margin: 1rem auto 0;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: center;
+        }
+        .comp-viewport-frame__inner {
+            width: 100%;
+            transition: width 0.3s, height 0.3s;
+            overflow: auto;
+            border: 2px dashed var(--comp-border);
+            border-radius: 8px;
+            background: var(--comp-bg);
+        }
+        .comp-viewport-frame__inner.device-active {
+            border-color: var(--comp-accent);
+        }
+        .comp-viewport-frame__inner .comp-grid {
+            max-width: none;
+            margin: 0;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ── Banner ──────────────────────────────────── -->
+    <header class="comp-banner">
+        <span class="comp-banner__badge">Comp Review</span>
+        <h1 class="comp-banner__title">{{COMPONENT_NAME}}</h1>
+        <span class="comp-banner__status">Status: {{STATUS}}</span>
+        <a class="comp-banner__back" href="../../index.html">&larr; Explorer</a>
+    </header>
+
+    <!-- ── Palette Switcher ────────────────────────── -->
+    <div class="comp-palette-bar" id="palette-bar">
+        <span class="comp-palette-bar__label">Palette:</span>
+    </div>
+
+    <!-- ── Device Preview ──────────────────────────── -->
+    <div class="comp-device-bar">
+        <span class="comp-device-bar__label">Device:</span>
+        <select class="comp-device-bar__select" id="device-select" title="Device preview size" onchange="switchDevice(this.value)">
+            <option value="full">Full Width</option>
+            <optgroup label="Phone — Portrait">
+                <option value="375x812">iPhone SE / mini (375 × 812)</option>
+                <option value="393x852">iPhone 14 / 15 (393 × 852)</option>
+                <option value="430x932">iPhone 14 Pro Max (430 × 932)</option>
+                <option value="360x800">Android Small (360 × 800)</option>
+                <option value="412x915">Android Large (412 × 915)</option>
+            </optgroup>
+            <optgroup label="Phone — Landscape">
+                <option value="812x375">iPhone SE / mini (812 × 375)</option>
+                <option value="852x393">iPhone 14 / 15 (852 × 393)</option>
+                <option value="932x430">iPhone Pro Max (932 × 430)</option>
+                <option value="800x360">Android Small (800 × 360)</option>
+                <option value="915x412">Android Large (915 × 412)</option>
+            </optgroup>
+            <optgroup label="Tablet — Portrait">
+                <option value="768x1024">iPad Mini (768 × 1024)</option>
+                <option value="810x1080">iPad 10th Gen (810 × 1080)</option>
+                <option value="834x1194">iPad Air / Pro 11″ (834 × 1194)</option>
+                <option value="1024x1366">iPad Pro 12.9″ (1024 × 1366)</option>
+                <option value="800x1280">Android Tablet (800 × 1280)</option>
+            </optgroup>
+            <optgroup label="Tablet — Landscape">
+                <option value="1024x768">iPad Mini (1024 × 768)</option>
+                <option value="1080x810">iPad 10th Gen (1080 × 810)</option>
+                <option value="1194x834">iPad Air / Pro 11″ (1194 × 834)</option>
+                <option value="1366x1024">iPad Pro 12.9″ (1366 × 1024)</option>
+                <option value="1280x800">Android Tablet (1280 × 800)</option>
+            </optgroup>
+            <optgroup label="Desktop">
+                <option value="1280x720">HD (1280 × 720)</option>
+                <option value="1366x768">Laptop (1366 × 768)</option>
+                <option value="1440x900">MacBook Air (1440 × 900)</option>
+                <option value="1512x982">MacBook Pro 14″ (1512 × 982)</option>
+                <option value="1920x1080">Full HD (1920 × 1080)</option>
+                <option value="2560x1440">QHD / 27″ (2560 × 1440)</option>
+            </optgroup>
+        </select>
+        <span class="comp-device-bar__dims" id="device-dims"></span>
+    </div>
+
+    <!-- ── Context ─────────────────────────────────── -->
+    <section class="comp-context">
+        <div class="comp-context__grid">
+            <div class="comp-context__card">
+                <div class="comp-context__label">Component Description</div>
+                <div class="comp-context__value">{{COMPONENT_DESCRIPTION}}</div>
+            </div>
+            <div class="comp-context__card">
+                <div class="comp-context__label">Design Requirements</div>
+                <div class="comp-context__value">{{DESIGN_REQUIREMENTS}}</div>
+            </div>
+            <div class="comp-context__card">
+                <div class="comp-context__label">Experience Location</div>
+                <div class="comp-context__value">{{EXPERIENCE_LOCATION}}</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── Comp Viewport Frame ──────────────────────── -->
+    <div class="comp-viewport-frame">
+        <div class="comp-viewport-frame__inner" id="viewport-frame">
+
+    <!-- ── Comp Grid ───────────────────────────────── -->
+    <section class="comp-grid">
+
+        <!-- Comp A -->
+        <div class="comp-card">
+            <div class="comp-card__header">
+                <span class="comp-card__label">Comp A</span>
+                <span class="comp-card__desc">{{COMP_A_DESCRIPTION}}</span>
+                <div class="comp-card__mapping" data-comp="comp-a" data-file="comp-a.html">
+                    <button class="comp-card__mapping-btn" onclick="toggleCardMapping(this)">— Map —</button>
+                    <div class="comp-card__mapping-menu"></div>
+                </div>
+            </div>
+            <div class="comp-card__body">
+                <!-- Inline the comp content here, or use an iframe: -->
+                <!-- <iframe src="comp-a.html" style="border:none;width:100%;height:100%;"></iframe> -->
+            </div>
+        </div>
+
+        <!-- Comp B -->
+        <div class="comp-card">
+            <div class="comp-card__header">
+                <span class="comp-card__label">Comp B</span>
+                <span class="comp-card__desc">{{COMP_B_DESCRIPTION}}</span>
+                <div class="comp-card__mapping" data-comp="comp-b" data-file="comp-b.html">
+                    <button class="comp-card__mapping-btn" onclick="toggleCardMapping(this)">— Map —</button>
+                    <div class="comp-card__mapping-menu"></div>
+                </div>
+            </div>
+            <div class="comp-card__body">
+                <!-- Comp B content -->
+            </div>
+        </div>
+
+        <!-- Comp C -->
+        <div class="comp-card">
+            <div class="comp-card__header">
+                <span class="comp-card__label">Comp C</span>
+                <span class="comp-card__desc">{{COMP_C_DESCRIPTION}}</span>
+                <div class="comp-card__mapping" data-comp="comp-c" data-file="comp-c.html">
+                    <button class="comp-card__mapping-btn" onclick="toggleCardMapping(this)">— Map —</button>
+                    <div class="comp-card__mapping-menu"></div>
+                </div>
+            </div>
+            <div class="comp-card__body">
+                <!-- Comp C content -->
+            </div>
+        </div>
+
+        <!-- Add Comp D, E, etc. as needed -->
+
+    </section>
+
+        </div><!-- /.comp-viewport-frame__inner -->
+    </div><!-- /.comp-viewport-frame -->
+
+    <!-- ── Footer ──────────────────────────────────── -->
+    <footer class="comp-footer">
+        Super Agent · Comp Viewer · This is a design exploration — not production UI
+    </footer>
+
+    <script>
+        const EXPLORATION_ID = '{{EXPLORATION_ID}}';
+
+        let manifest = null;
+
+        (async function init() {
+            try {
+                const res = await fetch('../../manifest.json');
+                if (!res.ok) return;
+                manifest = await res.json();
+                if (!manifest.buttonMappings) manifest.buttonMappings = {};
+                buildPaletteBar(manifest);
+                buildMappingMenus();
+            } catch { /* manifest not available — palette bar stays hidden */ }
+        })();
+
+        /* ── Palette Switcher ─────────────────────── */
+        function buildPaletteBar(manifest) {
+            const exp = (manifest.explorations || {})[EXPLORATION_ID];
+            if (!exp || !exp.palettes || exp.palettes.length === 0) return;
+            const bar = document.getElementById('palette-bar');
+            bar.classList.add('visible');
+
+            const defBtn = makePaletteBtn('Default', null, true);
+            bar.appendChild(defBtn);
+
+            exp.palettes.forEach(pid => {
+                const p = (manifest.palettes || {})[pid];
+                if (p) bar.appendChild(makePaletteBtn(p.name, pid, false));
+            });
+        }
+
+        function makePaletteBtn(label, paletteId, active) {
+            const btn = document.createElement('button');
+            btn.textContent = label;
+            btn.dataset.palette = paletteId || '';
+            btn.className = active ? 'palette-active' : '';
+            Object.assign(btn.style, {
+                fontFamily: 'var(--comp-font-mono)', fontSize: '0.65rem',
+                padding: '0.2rem 0.5rem', borderRadius: '3px',
+                border: active ? '1px solid var(--comp-accent)' : '1px solid var(--comp-border)',
+                background: active ? 'rgba(243,156,18,0.15)' : 'var(--comp-card-bg)',
+                color: active ? 'var(--comp-accent)' : 'var(--comp-text)',
+                cursor: 'pointer'
+            });
+            btn.onclick = () => switchPalette(paletteId);
+            return btn;
+        }
+
+        function switchPalette(paletteId) {
+            /* Update active state */
+            document.querySelectorAll('#palette-bar button').forEach(b => {
+                const isMatch = (b.dataset.palette || null) === (paletteId || null);
+                b.className = isMatch ? 'palette-active' : '';
+                b.style.border = isMatch ? '1px solid var(--comp-accent)' : '1px solid var(--comp-border)';
+                b.style.background = isMatch ? 'rgba(243,156,18,0.15)' : 'var(--comp-card-bg)';
+                b.style.color = isMatch ? 'var(--comp-accent)' : 'var(--comp-text)';
+            });
+
+            /* Remove existing palette override */
+            document.body.removeAttribute('data-palette');
+            const existing = document.getElementById('comp-palette-override');
+            if (existing) existing.remove();
+
+            if (paletteId) {
+                const link = document.createElement('link');
+                link.id = 'comp-palette-override';
+                link.rel = 'stylesheet';
+                link.href = '../../palettes/' + paletteId + '.css';
+                document.head.appendChild(link);
+                document.body.setAttribute('data-palette', paletteId);
+            }
+        }
+
+        /* ── Button Mapping Controls ───────────────── */
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('.comp-card__mapping')) {
+                document.querySelectorAll('.comp-card__mapping-menu.open').forEach(m => m.classList.remove('open'));
+            }
+        });
+
+        function toggleCardMapping(btn) {
+            const menu = btn.nextElementSibling;
+            const wasOpen = menu.classList.contains('open');
+            document.querySelectorAll('.comp-card__mapping-menu.open').forEach(m => m.classList.remove('open'));
+            if (!wasOpen) menu.classList.add('open');
+        }
+
+        function buildMappingMenus() {
+            if (!manifest) return;
+            const exp = (manifest.explorations || {})[EXPLORATION_ID];
+            if (!exp) return;
+            const navSelectors = exp.navSelectors || [];
+            const navBtns = manifest.navButtons || [];
+            const mappings = manifest.buttonMappings || {};
+
+            document.querySelectorAll('.comp-card__mapping').forEach(container => {
+                const compId = container.dataset.comp;
+                const compFile = container.dataset.file;
+                const menu = container.querySelector('.comp-card__mapping-menu');
+                const btn = container.querySelector('.comp-card__mapping-btn');
+
+                if (navSelectors.length === 0) {
+                    menu.innerHTML = '<div class="comp-card__mapping-empty">Assign nav buttons in Explorer first</div>';
+                    return;
+                }
+
+                const mapped = [];
+                menu.innerHTML = navSelectors.map(sel => {
+                    const navBtn = navBtns.find(b => b.selector === sel);
+                    const label = navBtn ? navBtn.label : sel;
+                    const mapping = mappings[sel];
+                    const isThis = mapping && mapping.exploration === EXPLORATION_ID && mapping.comp === compId;
+                    if (isThis) mapped.push(label);
+                    return `
+                        <label class="comp-card__mapping-item">
+                            <input type="checkbox"
+                                   data-selector="${sel}"
+                                   data-comp="${compId}"
+                                   data-file="${compFile}"
+                                   ${isThis ? 'checked' : ''}
+                                   onchange="onViewerMapping(this)">
+                            ${label}
+                        </label>`;
+                }).join('');
+
+                /* Update trigger label */
+                if (mapped.length > 0) {
+                    btn.textContent = mapped.join(', ');
+                    btn.classList.add('has-mapping');
+                } else {
+                    btn.textContent = '— Map —';
+                    btn.classList.remove('has-mapping');
+                }
+            });
+        }
+
+        function onViewerMapping(checkbox) {
+            const selector = checkbox.dataset.selector;
+            const compId = checkbox.dataset.comp;
+            const compFile = checkbox.dataset.file;
+
+            if (!manifest.buttonMappings) manifest.buttonMappings = {};
+
+            if (checkbox.checked) {
+                const exp = manifest.explorations[EXPLORATION_ID] || {};
+                const basePath = exp.path || ('active/' + EXPLORATION_ID);
+                manifest.buttonMappings[selector] = {
+                    exploration: EXPLORATION_ID,
+                    comp: compId,
+                    source: basePath + '/' + compFile
+                };
+            } else {
+                delete manifest.buttonMappings[selector];
+            }
+
+            saveViewerManifest();
+        }
+
+        async function saveViewerManifest() {
+            try {
+                await fetch('../../manifest.json', {
+                    method: 'PUT',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(manifest, null, 2)
+                });
+            } catch {
+                localStorage.setItem('manifest-pending', JSON.stringify(manifest));
+            }
+            buildMappingMenus();
+        }
+
+        /* ── Device Preview Switcher ──────────────── */
+        function switchDevice(value) {
+            const frame = document.getElementById('viewport-frame');
+            const dims = document.getElementById('device-dims');
+
+            if (value === 'full') {
+                frame.style.width = '100%';
+                frame.style.maxHeight = '';
+                frame.classList.remove('device-active');
+                dims.textContent = '';
+                return;
+            }
+
+            var parts = value.split('x');
+            var w = parseInt(parts[0], 10);
+            var h = parseInt(parts[1], 10);
+            frame.style.width = w + 'px';
+            frame.style.maxHeight = h + 'px';
+            frame.classList.add('device-active');
+            dims.textContent = w + ' × ' + h + 'px';
+        }
+    </script>
+
+</body>
+</html>

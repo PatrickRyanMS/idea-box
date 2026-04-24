@@ -1,0 +1,35 @@
+/* ── Palette: {{PALETTE_NAME}} ─────────────────────────────────
+   Applied via [data-palette="{{PALETTE_ID}}"] on the comp wrapper.
+   Comp styles reference --palette-* variables for all color values.
+   ────────────────────────────────────────────────────────────── */
+
+[data-palette="{{PALETTE_ID}}"] {
+    /* ── Primary ──────────────────── */
+    --palette-primary: #3498db;
+    --palette-primary-light: #5dade2;
+    --palette-primary-dark: #2980b9;
+
+    /* ── Secondary ────────────────── */
+    --palette-secondary: #2ecc71;
+    --palette-secondary-light: #58d68d;
+    --palette-secondary-dark: #27ae60;
+
+    /* ── Accent ───────────────────── */
+    --palette-accent: #f39c12;
+    --palette-accent-light: #f5b041;
+    --palette-accent-dark: #d68910;
+
+    /* ── Surfaces ─────────────────── */
+    --palette-bg: #ffffff;
+    --palette-surface: #f8f9fa;
+    --palette-surface-alt: #e9ecef;
+
+    /* ── Text ─────────────────────── */
+    --palette-text: #212529;
+    --palette-text-muted: #6c757d;
+    --palette-text-inverse: #ffffff;
+
+    /* ── Borders ──────────────────── */
+    --palette-border: #dee2e6;
+    --palette-border-light: #f1f3f5;
+}

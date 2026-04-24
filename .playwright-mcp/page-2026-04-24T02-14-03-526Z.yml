@@ -1,0 +1,432 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - link "Skip to content":
+      - /url: "#"
+      - generic [ref=e9] [cursor=pointer]: Skip to content
+    - generic [ref=e11]:
+      - generic [ref=e14]:
+        - combobox "Search" [ref=e16]: duotone gradient poster design bold color
+        - button "Remove search input" [ref=e21] [cursor=pointer]:
+          - img [ref=e24]
+      - generic [ref=e26]:
+        - button "Log in" [ref=e28] [cursor=pointer]:
+          - generic [ref=e30]: Log in
+        - button "Sign up" [ref=e32] [cursor=pointer]:
+          - generic [ref=e34]: Sign up
+  - navigation [ref=e36]:
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - generic "Home" [ref=e43]:
+          - link "Home" [ref=e44] [cursor=pointer]:
+            - /url: /
+            - img [ref=e46]
+        - generic "Explore" [ref=e51]:
+          - link "Explore" [ref=e52] [cursor=pointer]:
+            - /url: /ideas
+            - img [ref=e54]
+        - generic "Shop" [ref=e59]:
+          - link "Shop" [ref=e60] [cursor=pointer]:
+            - /url: /shopping
+            - img [ref=e62]
+      - generic "More options" [ref=e66]:
+        - button "More options" [ref=e67] [cursor=pointer]:
+          - img [ref=e70]
+  - main [ref=e72]:
+    - generic [ref=e74]:
+      - generic [ref=e77]:
+        - heading "Search" [level=1] [ref=e79]
+        - button "Show filters" [ref=e90] [cursor=pointer]:
+          - img [ref=e94]
+      - generic [ref=e100]:
+        - generic [ref=e101]: Loading more search results for duotone gradient poster design bold color
+        - list [ref=e106]:
+          - listitem [ref=e107]:
+            - group "Pin card" [ref=e110]:
+              - generic [ref=e112]:
+                - link "a woman with green hair and pink dress looking off to the side in front of a green background" [ref=e115] [cursor=pointer]:
+                  - /url: /pin/469078117436009332/
+                  - img "a woman with green hair and pink dress looking off to the side in front of a green background" [ref=e125]
+                - generic [ref=e127]:
+                  - generic:
+                    - link "a woman with green hair and pink dress looking off to the side in front of a green background":
+                      - /url: /pin/469078117436009332/
+                  - generic "More actions" [ref=e134]:
+                    - button "More actions" [ref=e135] [cursor=pointer]:
+                      - img [ref=e138]
+          - listitem [ref=e140]:
+            - group "Pin card" [ref=e143]:
+              - generic [ref=e145]:
+                - link "a poster with the words find us on empty" [ref=e148] [cursor=pointer]:
+                  - /url: /pin/914862421834296/
+                  - img "a poster with the words find us on empty" [ref=e158]
+                - generic [ref=e160]:
+                  - generic:
+                    - link "a poster with the words find us on empty":
+                      - /url: /pin/914862421834296/
+                  - generic "More actions" [ref=e167]:
+                    - button "More actions" [ref=e168] [cursor=pointer]:
+                      - img [ref=e171]
+          - listitem [ref=e173]:
+            - group "Pin card" [ref=e176]:
+              - generic [ref=e178]:
+                - link "a woman with blue hair and glasses sitting on the ground in front of a purple background" [ref=e181] [cursor=pointer]:
+                  - /url: /pin/210754457559087692/
+                  - img "a woman with blue hair and glasses sitting on the ground in front of a purple background" [ref=e191]
+                - generic [ref=e193]:
+                  - generic:
+                    - link "a woman with blue hair and glasses sitting on the ground in front of a purple background":
+                      - /url: /pin/210754457559087692/
+                  - generic "More actions" [ref=e200]:
+                    - button "More actions" [ref=e201] [cursor=pointer]:
+                      - img [ref=e204]
+          - listitem [ref=e206]:
+            - group "Pin card" [ref=e209]:
+              - generic [ref=e211]:
+                - link "four different colored posters with the words live air, some men, and some tables" [ref=e214] [cursor=pointer]:
+                  - /url: /pin/6403624466435750/
+                  - img "four different colored posters with the words live air, some men, and some tables" [ref=e224]
+                - generic [ref=e226]:
+                  - generic:
+                    - link "four different colored posters with the words live air, some men, and some tables":
+                      - /url: /pin/6403624466435750/
+                  - generic "More actions" [ref=e233]:
+                    - button "More actions" [ref=e234] [cursor=pointer]:
+                      - img [ref=e237]
+          - listitem [ref=e239]:
+            - group "Pin card" [ref=e242]:
+              - generic [ref=e244]:
+                - link "a poster with the words beyond on it" [ref=e247] [cursor=pointer]:
+                  - /url: /pin/182677328631468720/
+                  - img "a poster with the words beyond on it" [ref=e257]
+                - generic [ref=e259]:
+                  - generic:
+                    - link "a poster with the words beyond on it":
+                      - /url: /pin/182677328631468720/
+                  - button "Freepik" [ref=e263] [cursor=pointer]:
+                    - generic [ref=e265]:
+                      - button "Freepik" [ref=e268]:
+                        - generic "Freepik" [ref=e269]
+                      - generic "More actions" [ref=e273]:
+                        - button "More actions" [ref=e274]:
+                          - img [ref=e277]
+          - listitem [ref=e279]:
+            - group "Pin card" [ref=e282]:
+              - generic [ref=e284]:
+                - link "a woman walking down a sidewalk with the word walk on it's back ground" [ref=e287] [cursor=pointer]:
+                  - /url: /pin/269019777734170974/
+                  - img "a woman walking down a sidewalk with the word walk on it's back ground" [ref=e297]
+                - generic [ref=e299]:
+                  - generic:
+                    - link "a woman walking down a sidewalk with the word walk on it's back ground":
+                      - /url: /pin/269019777734170974/
+                  - generic "More actions" [ref=e306]:
+                    - button "More actions" [ref=e307] [cursor=pointer]:
+                      - img [ref=e310]
+          - listitem [ref=e312]:
+            - generic [ref=e313]:
+              - generic [ref=e319]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e321]:
+                - generic [ref=e323]:
+                  - link "a woman standing in front of a colorful background with the words radical on it's side" [ref=e326] [cursor=pointer]:
+                    - /url: /pin/68187381853400177/
+                    - img "a woman standing in front of a colorful background with the words radical on it's side" [ref=e336]
+                  - generic [ref=e338]:
+                    - generic:
+                      - link "a woman standing in front of a colorful background with the words radical on it's side":
+                        - /url: /pin/68187381853400177/
+                    - generic "More actions" [ref=e345]:
+                      - button "More actions" [ref=e346] [cursor=pointer]:
+                        - img [ref=e349]
+          - listitem [ref=e351]:
+            - group "Pin card" [ref=e354]:
+              - generic [ref=e356]:
+                - link "a poster with the words david and an image of a man's face on it" [ref=e359] [cursor=pointer]:
+                  - /url: /pin/5629568279650128/
+                  - img "a poster with the words david and an image of a man's face on it" [ref=e369]
+                - generic [ref=e371]:
+                  - generic:
+                    - link "a poster with the words david and an image of a man's face on it":
+                      - /url: /pin/5629568279650128/
+                  - generic "More actions" [ref=e378]:
+                    - button "More actions" [ref=e379] [cursor=pointer]:
+                      - img [ref=e382]
+          - listitem [ref=e384]:
+            - group "Pin card" [ref=e387]:
+              - generic [ref=e389]:
+                - link "a poster with an image of a man's face in red and blue" [ref=e392] [cursor=pointer]:
+                  - /url: /pin/2533343538693209/
+                  - img "a poster with an image of a man's face in red and blue" [ref=e402]
+                - generic [ref=e404]:
+                  - generic:
+                    - link "a poster with an image of a man's face in red and blue":
+                      - /url: /pin/2533343538693209/
+                  - generic "More actions" [ref=e411]:
+                    - button "More actions" [ref=e412] [cursor=pointer]:
+                      - img [ref=e415]
+          - listitem [ref=e417]:
+            - group "Pin card" [ref=e420]:
+              - generic [ref=e422]:
+                - link "Techno Is Ageless Poster, Duotone Gradient, Minimalist Techno Design, Techno Poster Design, Minimalist Techno Poster, Duotone Graphic Design, Halftone Gradient Photoshop, Duotone Portrait, Duo Tone Poster" [ref=e425] [cursor=pointer]:
+                  - /url: /pin/5770305768271445/
+                  - img "Techno Is Ageless Poster, Duotone Gradient, Minimalist Techno Design, Techno Poster Design, Minimalist Techno Poster, Duotone Graphic Design, Halftone Gradient Photoshop, Duotone Portrait, Duo Tone Poster" [ref=e435]
+                - generic [ref=e437]:
+                  - generic:
+                    - link "Techno Is Ageless Poster, Duotone Gradient, Minimalist Techno Design, Techno Poster Design, Minimalist Techno Poster, Duotone Graphic Design, Halftone Gradient Photoshop, Duotone Portrait, Duo Tone Poster":
+                      - /url: /pin/5770305768271445/
+                  - generic "More actions" [ref=e444]:
+                    - button "More actions" [ref=e445] [cursor=pointer]:
+                      - img [ref=e448]
+          - listitem [ref=e450]:
+            - group "Pin card" [ref=e453]:
+              - generic [ref=e455]:
+                - link "two people are dancing with colored paint on their body and arms, one is holding the other's leg" [ref=e458] [cursor=pointer]:
+                  - /url: /pin/301600506309376348/
+                  - img "two people are dancing with colored paint on their body and arms, one is holding the other's leg" [ref=e468]
+                - generic [ref=e470]:
+                  - generic:
+                    - link "two people are dancing with colored paint on their body and arms, one is holding the other's leg":
+                      - /url: /pin/301600506309376348/
+                  - generic "More actions" [ref=e477]:
+                    - button "More actions" [ref=e478] [cursor=pointer]:
+                      - img [ref=e481]
+          - listitem [ref=e483]:
+            - generic [ref=e484]:
+              - generic [ref=e490]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e492]:
+                - generic [ref=e494]:
+                  - link "an abstract poster with red and blue colors on the bottom half of it, which reads mimo" [ref=e497] [cursor=pointer]:
+                    - /url: /pin/3588874697843860/
+                    - img "an abstract poster with red and blue colors on the bottom half of it, which reads mimo" [ref=e507]
+                  - generic [ref=e509]:
+                    - generic:
+                      - link "an abstract poster with red and blue colors on the bottom half of it, which reads mimo":
+                        - /url: /pin/3588874697843860/
+                    - generic "More actions" [ref=e516]:
+                      - button "More actions" [ref=e517] [cursor=pointer]:
+                        - img [ref=e520]
+          - listitem [ref=e522]:
+            - group "Pin card" [ref=e525]:
+              - generic [ref=e527]:
+                - link "the flyer for flowers lilies is shown in purple and orange colors on a black background" [ref=e530] [cursor=pointer]:
+                  - /url: /pin/2181499817143430/
+                  - img "the flyer for flowers lilies is shown in purple and orange colors on a black background" [ref=e540]
+                - generic [ref=e542]:
+                  - generic:
+                    - link "the flyer for flowers lilies is shown in purple and orange colors on a black background":
+                      - /url: /pin/2181499817143430/
+                  - generic "More actions" [ref=e549]:
+                    - button "More actions" [ref=e550] [cursor=pointer]:
+                      - img [ref=e553]
+          - listitem [ref=e555]:
+            - group "Pin card" [ref=e558]:
+              - generic [ref=e560]:
+                - link "the tennis player is screaming while holding her racket up in front of her face" [ref=e563] [cursor=pointer]:
+                  - /url: /pin/37999190601654552/
+                  - img "the tennis player is screaming while holding her racket up in front of her face" [ref=e573]
+                - generic [ref=e575]:
+                  - generic:
+                    - link "the tennis player is screaming while holding her racket up in front of her face":
+                      - /url: /pin/37999190601654552/
+                  - generic "More actions" [ref=e582]:
+                    - button "More actions" [ref=e583] [cursor=pointer]:
+                      - img [ref=e586]
+          - listitem [ref=e588]:
+            - group "Pin card" [ref=e591]:
+              - generic [ref=e593]:
+                - link "the poster for breathe, which features two women with their faces obscured by mountains and trees" [ref=e596] [cursor=pointer]:
+                  - /url: /pin/113364115616671705/
+                  - img "the poster for breathe, which features two women with their faces obscured by mountains and trees" [ref=e606]
+                - generic [ref=e608]:
+                  - generic:
+                    - link "the poster for breathe, which features two women with their faces obscured by mountains and trees":
+                      - /url: /pin/113364115616671705/
+                  - generic "More actions" [ref=e615]:
+                    - button "More actions" [ref=e616] [cursor=pointer]:
+                      - img [ref=e619]
+          - listitem [ref=e621]:
+            - group "Pin card" [ref=e624]:
+              - generic [ref=e626]:
+                - link "I chose this graphic becasue I liked the the contrast between the dark and the light, also how the flashlight illuminates the words. Neon Noir Design, Meaningful Advertisements, Testimonials Social Media Post, Spotlight Text, Image Typography Design, Design With Typography, Spotlight Typography, Ad Poster Ideas, Digital Poster Slogan" [ref=e629] [cursor=pointer]:
+                  - /url: /pin/1900024839916064/
+                  - img "I chose this graphic becasue I liked the the contrast between the dark and the light, also how the flashlight illuminates the words. Neon Noir Design, Meaningful Advertisements, Testimonials Social Media Post, Spotlight Text, Image Typography Design, Design With Typography, Spotlight Typography, Ad Poster Ideas, Digital Poster Slogan" [ref=e639]
+                - generic [ref=e641]:
+                  - generic:
+                    - link "I chose this graphic becasue I liked the the contrast between the dark and the light, also how the flashlight illuminates the words. Neon Noir Design, Meaningful Advertisements, Testimonials Social Media Post, Spotlight Text, Image Typography Design, Design With Typography, Spotlight Typography, Ad Poster Ideas, Digital Poster Slogan":
+                      - /url: /pin/1900024839916064/
+                  - generic "More actions" [ref=e648]:
+                    - button "More actions" [ref=e649] [cursor=pointer]:
+                      - img [ref=e652]
+          - listitem [ref=e654]:
+            - generic [ref=e655]:
+              - generic [ref=e661]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e663]:
+                - generic [ref=e665]:
+                  - link "a man with dreadlocks standing in front of a green background and the words sw" [ref=e668] [cursor=pointer]:
+                    - /url: /pin/722687071429916179/
+                    - img "a man with dreadlocks standing in front of a green background and the words sw" [ref=e678]
+                  - generic [ref=e680]:
+                    - generic:
+                      - link "a man with dreadlocks standing in front of a green background and the words sw":
+                        - /url: /pin/722687071429916179/
+                    - generic "More actions" [ref=e687]:
+                      - button "More actions" [ref=e688] [cursor=pointer]:
+                        - img [ref=e691]
+          - listitem [ref=e693]:
+            - group "Pin card" [ref=e696]:
+              - generic [ref=e698]:
+                - link "the poster for embrace the flow" [ref=e701] [cursor=pointer]:
+                  - /url: /pin/3307399722424961/
+                  - img "the poster for embrace the flow" [ref=e711]
+                - generic [ref=e713]:
+                  - generic:
+                    - link "the poster for embrace the flow":
+                      - /url: /pin/3307399722424961/
+                  - generic "More actions" [ref=e720]:
+                    - button "More actions" [ref=e721] [cursor=pointer]:
+                      - img [ref=e724]
+          - listitem [ref=e726]:
+            - group "Pin card" [ref=e729]:
+              - generic [ref=e731]:
+                - link "a woman with long hair standing in front of an orange and blue background that says sza" [ref=e734] [cursor=pointer]:
+                  - /url: /pin/418905202834102793/
+                  - img "a woman with long hair standing in front of an orange and blue background that says sza" [ref=e744]
+                - generic [ref=e746]:
+                  - generic:
+                    - link "a woman with long hair standing in front of an orange and blue background that says sza":
+                      - /url: /pin/418905202834102793/
+                  - generic "More actions" [ref=e753]:
+                    - button "More actions" [ref=e754] [cursor=pointer]:
+                      - img [ref=e757]
+          - listitem [ref=e759]:
+            - group "Pin card" [ref=e762]:
+              - generic [ref=e764]:
+                - link "the poster is designed to look like an advertisement for a fashion brand, and features white letters" [ref=e767] [cursor=pointer]:
+                  - /url: /pin/9710955437030666/
+                  - img "the poster is designed to look like an advertisement for a fashion brand, and features white letters" [ref=e777]
+                - generic [ref=e779]:
+                  - generic:
+                    - link "the poster is designed to look like an advertisement for a fashion brand, and features white letters":
+                      - /url: /pin/9710955437030666/
+                  - generic "More actions" [ref=e786]:
+                    - button "More actions" [ref=e787] [cursor=pointer]:
+                      - img [ref=e790]
+          - listitem [ref=e792]:
+            - group "Pin card" [ref=e795]:
+              - generic [ref=e797]:
+                - link "an event poster with the date and time in red, blue, green and yellow" [ref=e800] [cursor=pointer]:
+                  - /url: /pin/3799980931127415/
+                  - img "an event poster with the date and time in red, blue, green and yellow" [ref=e810]
+                - generic [ref=e812]:
+                  - generic:
+                    - link "an event poster with the date and time in red, blue, green and yellow":
+                      - /url: /pin/3799980931127415/
+                  - generic "More actions" [ref=e819]:
+                    - button "More actions" [ref=e820] [cursor=pointer]:
+                      - img [ref=e823]
+          - listitem [ref=e825]:
+            - generic [ref=e826]:
+              - generic [ref=e832]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e834]:
+                - generic [ref=e836]:
+                  - generic [ref=e837]:
+                    - link "four different types of posters on a black background" [ref=e839] [cursor=pointer]:
+                      - /url: /pin/912964155688769411/
+                      - img "four different types of posters on a black background" [ref=e849]
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 0:15
+                  - generic [ref=e851]:
+                    - generic:
+                      - link "four different types of posters on a black background":
+                        - /url: /pin/912964155688769411/
+                    - generic "More actions" [ref=e858]:
+                      - button "More actions" [ref=e859] [cursor=pointer]:
+                        - img [ref=e862]
+          - listitem [ref=e864]:
+            - group "Pin card" [ref=e867]:
+              - generic [ref=e869]:
+                - link "the website design for spotify" [ref=e872] [cursor=pointer]:
+                  - /url: /pin/822469950694384784/
+                  - img "the website design for spotify" [ref=e882]
+                - generic [ref=e884]:
+                  - generic:
+                    - link "the website design for spotify":
+                      - /url: /pin/822469950694384784/
+                  - generic "More actions" [ref=e891]:
+                    - button "More actions" [ref=e892] [cursor=pointer]:
+                      - img [ref=e895]
+          - listitem [ref=e897]:
+            - group "Pin card" [ref=e900]:
+              - generic [ref=e902]:
+                - link "a yellow rose with the words enjoy the silence on it's back side, in front of a black background" [ref=e905] [cursor=pointer]:
+                  - /url: /pin/322288917100394513/
+                  - img "a yellow rose with the words enjoy the silence on it's back side, in front of a black background" [ref=e915]
+                - generic [ref=e917]:
+                  - generic:
+                    - link "a yellow rose with the words enjoy the silence on it's back side, in front of a black background":
+                      - /url: /pin/322288917100394513/
+                  - generic "More actions" [ref=e924]:
+                    - button "More actions" [ref=e925] [cursor=pointer]:
+                      - img [ref=e928]
+          - listitem [ref=e930]:
+            - generic [ref=e931]:
+              - generic [ref=e937]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e939]:
+                - generic [ref=e941]:
+                  - link "the poster is designed to look like an abstract pattern" [ref=e944] [cursor=pointer]:
+                    - /url: /pin/70437487232607/
+                    - img "the poster is designed to look like an abstract pattern" [ref=e954]
+                  - generic [ref=e956]:
+                    - generic:
+                      - link "the poster is designed to look like an abstract pattern":
+                        - /url: /pin/70437487232607/
+                    - generic "More actions" [ref=e963]:
+                      - button "More actions" [ref=e964] [cursor=pointer]:
+                        - img [ref=e967]
+          - listitem [ref=e969]:
+            - generic [ref=e970]:
+              - generic [ref=e976]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e978]:
+                - generic [ref=e980]:
+                  - link "a man pointing to the side with his finger" [ref=e983] [cursor=pointer]:
+                    - /url: /pin/13159023906003906/
+                    - img "a man pointing to the side with his finger" [ref=e993]
+                  - generic [ref=e995]:
+                    - generic:
+                      - link "a man pointing to the side with his finger":
+                        - /url: /pin/13159023906003906/
+                    - generic "More actions" [ref=e1002]:
+                      - button "More actions" [ref=e1003] [cursor=pointer]:
+                        - img [ref=e1006]
+          - listitem [ref=e1008]:
+            - generic [ref=e1009]:
+              - generic [ref=e1015]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1017]:
+                - generic [ref=e1019]:
+                  - link "an abstract poster with the words tress, formas de arte and unico festival" [ref=e1022] [cursor=pointer]:
+                    - /url: /pin/16184879907898038/
+                    - img "an abstract poster with the words tress, formas de arte and unico festival" [ref=e1032]
+                  - generic [ref=e1034]:
+                    - generic:
+                      - link "an abstract poster with the words tress, formas de arte and unico festival":
+                        - /url: /pin/16184879907898038/
+                    - generic "More actions" [ref=e1041]:
+                      - button "More actions" [ref=e1042] [cursor=pointer]:
+                        - img [ref=e1045]

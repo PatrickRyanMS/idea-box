@@ -1,0 +1,784 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - link "Skip to content":
+      - /url: "#"
+      - generic [ref=e9] [cursor=pointer]: Skip to content
+    - generic [ref=e11]:
+      - generic [ref=e14]:
+        - combobox "Search" [ref=e16]: abstract motion states idle active processing visual
+        - button "Remove search input" [ref=e21] [cursor=pointer]:
+          - img [ref=e24]
+      - generic [ref=e26]:
+        - button "Log in" [ref=e28] [cursor=pointer]:
+          - generic [ref=e30]: Log in
+        - button "Sign up" [ref=e32] [cursor=pointer]:
+          - generic [ref=e34]: Sign up
+  - navigation [ref=e36]:
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - generic "Home" [ref=e43]:
+          - link "Home" [ref=e44] [cursor=pointer]:
+            - /url: /
+            - img [ref=e46]
+        - generic "Explore" [ref=e51]:
+          - link "Explore" [ref=e52] [cursor=pointer]:
+            - /url: /ideas
+            - img [ref=e54]
+        - generic "Shop" [ref=e59]:
+          - link "Shop" [ref=e60] [cursor=pointer]:
+            - /url: /shopping
+            - img [ref=e62]
+      - generic "More options" [ref=e66]:
+        - button "More options" [ref=e67] [cursor=pointer]:
+          - img [ref=e70]
+  - main [ref=e72]:
+    - generic [ref=e74]:
+      - generic [ref=e77]:
+        - heading "Search" [level=1] [ref=e79]
+        - button "Show filters" [ref=e90] [cursor=pointer]:
+          - img [ref=e94]
+      - generic [ref=e100]:
+        - generic [ref=e101]: Showing more search results for abstract motion states idle active processing visual
+        - list [ref=e106]:
+          - listitem [ref=e107]:
+            - group "Pin card" [ref=e110]:
+              - generic [ref=e112]:
+                - link "a black and white drawing of a woman running" [ref=e115] [cursor=pointer]:
+                  - /url: /pin/6192518232132910/
+                - generic [ref=e129]:
+                  - generic:
+                    - link "a black and white drawing of a woman running":
+                      - /url: /pin/6192518232132910/
+                  - generic "More actions" [ref=e136]:
+                    - button "More actions" [ref=e137] [cursor=pointer]:
+                      - img [ref=e140]
+          - listitem [ref=e142]:
+            - group "Pin card" [ref=e145]:
+              - generic [ref=e147]:
+                - generic [ref=e148]:
+                  - link "an abstract black and white photo with vertical lines in the center, against a light green background" [ref=e150] [cursor=pointer]:
+                    - /url: /pin/4785143349650564/
+                    - 'img "This may contain: an abstract black and white photo with vertical lines in the center, against a light green background" [ref=e166]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:07
+                - generic [ref=e168]:
+                  - generic:
+                    - link "an abstract black and white photo with vertical lines in the center, against a light green background":
+                      - /url: /pin/4785143349650564/
+                  - generic "More actions" [ref=e175]:
+                    - button "More actions" [ref=e176] [cursor=pointer]:
+                      - img [ref=e179]
+          - listitem [ref=e181]:
+            - group "Pin card" [ref=e185]:
+              - generic [ref=e187]:
+                - link "a black and white photo of a dog in a cage with the words, i don't know what this is" [ref=e190] [cursor=pointer]:
+                  - /url: /pin/563018699583986/
+                  - generic [ref=e192]:
+                    - generic [ref=e197]:
+                      - 'img "By varying density and contrast, symbols create fluid motion, turning visuals into an abstract, hypnotic experience. A fusion of nostalgia and innovation in motion design. #ASCII #asciiart #motiongraphics #motiondesign #design #graphicdesign #graphic_art" [ref=e201]'
+                      - 'img "By varying density and contrast, symbols create fluid motion, turning visuals into an abstract, hypnotic experience. A fusion of nostalgia and innovation in motion design. #ASCII #asciiart #motiongraphics #motiondesign #design #graphicdesign #graphic_art" [ref=e205]'
+                      - 'img "By varying density and contrast, symbols create fluid motion, turning visuals into an abstract, hypnotic experience. A fusion of nostalgia and innovation in motion design. #ASCII #asciiart #motiongraphics #motiondesign #design #graphicdesign #graphic_art" [ref=e209]'
+                    - generic [ref=e211]:
+                      - button "Go to slide 1 of 3" [ref=e213]
+                      - button "Go to slide 2 of 3" [ref=e216]
+                      - button "Go to slide 3 of 3" [ref=e219]
+                - generic [ref=e222]:
+                  - generic:
+                    - link "a black and white photo of a dog in a cage with the words, i don't know what this is":
+                      - /url: /pin/563018699583986/
+                  - generic "More actions" [ref=e229]:
+                    - button "More actions" [ref=e230] [cursor=pointer]:
+                      - img [ref=e233]
+          - listitem [ref=e235]:
+            - group "Pin card" [ref=e239]:
+              - generic [ref=e241]:
+                - link "a black background with the words asci motion code meets movement" [ref=e244] [cursor=pointer]:
+                  - /url: /pin/633387444434973/
+                  - generic [ref=e246]:
+                    - generic [ref=e251]:
+                      - 'img "By varying density and contrast, symbols create fluid motion, turning visuals into an abstract, hypnotic experience. A fusion of nostalgia and innovation in motion design. #ASCII #asciiart #motiongraphics #motiondesign #design #graphicdesign #graphic_art" [ref=e255]'
+                      - 'img "By varying density and contrast, symbols create fluid motion, turning visuals into an abstract, hypnotic experience. A fusion of nostalgia and innovation in motion design. #ASCII #asciiart #motiongraphics #motiondesign #design #graphicdesign #graphic_art" [ref=e259]'
+                      - 'img "By varying density and contrast, symbols create fluid motion, turning visuals into an abstract, hypnotic experience. A fusion of nostalgia and innovation in motion design. #ASCII #asciiart #motiongraphics #motiondesign #design #graphicdesign #graphic_art" [ref=e263]'
+                    - generic [ref=e265]:
+                      - button "Go to slide 1 of 3" [ref=e267]
+                      - button "Go to slide 2 of 3" [ref=e270]
+                      - button "Go to slide 3 of 3" [ref=e273]
+                - generic [ref=e276]:
+                  - generic:
+                    - link "a black background with the words asci motion code meets movement":
+                      - /url: /pin/633387444434973/
+                  - generic "More actions" [ref=e283]:
+                    - button "More actions" [ref=e284] [cursor=pointer]:
+                      - img [ref=e287]
+          - listitem [ref=e289]:
+            - group "Pin card" [ref=e292]:
+              - generic [ref=e294]:
+                - generic [ref=e295]:
+                  - link "an image of a computer screen with some lines going through it" [ref=e297] [cursor=pointer]:
+                    - /url: /pin/563018699583924/
+                    - 'img "This may contain: an image of a computer screen with some lines going through it" [ref=e313]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:09
+                - generic [ref=e315]:
+                  - generic:
+                    - link "an image of a computer screen with some lines going through it":
+                      - /url: /pin/563018699583924/
+                  - generic "More actions" [ref=e322]:
+                    - button "More actions" [ref=e323] [cursor=pointer]:
+                      - img [ref=e326]
+          - listitem [ref=e328]:
+            - group "Pin card" [ref=e332]:
+              - generic [ref=e334]:
+                - link "a black and white map with lots of dots" [ref=e337] [cursor=pointer]:
+                  - /url: /pin/703756189145794/
+                  - generic [ref=e339]:
+                    - generic [ref=e344]:
+                      - 'img "Expression Experiments in After Effects by @nigina.dsgn 🔥⁠ ⁠ #type01 #animatedtype #kinetictype #kinetictypography #expressions #ae #motionlovers #movingtype" [ref=e348]'
+                      - 'img "Expression Experiments in After Effects by @nigina.dsgn 🔥⁠ ⁠ #type01 #animatedtype #kinetictype #kinetictypography #expressions #ae #motionlovers #movingtype" [ref=e352]'
+                      - 'img "Expression Experiments in After Effects by @nigina.dsgn 🔥⁠ ⁠ #type01 #animatedtype #kinetictype #kinetictypography #expressions #ae #motionlovers #movingtype" [ref=e356]'
+                      - 'img "Expression Experiments in After Effects by @nigina.dsgn 🔥⁠ ⁠ #type01 #animatedtype #kinetictype #kinetictypography #expressions #ae #motionlovers #movingtype" [ref=e360]'
+                    - generic [ref=e362]:
+                      - button "Go to slide 1 of 4" [ref=e364]
+                      - button "Go to slide 2 of 4" [ref=e367]
+                      - button "Go to slide 3 of 4" [ref=e370]
+                      - button "Go to slide 4 of 4" [ref=e373]
+                - generic [ref=e376]:
+                  - generic:
+                    - link "a black and white map with lots of dots":
+                      - /url: /pin/703756189145794/
+                  - generic "More actions" [ref=e383]:
+                    - button "More actions" [ref=e384] [cursor=pointer]:
+                      - img [ref=e387]
+          - listitem [ref=e389]:
+            - generic [ref=e390]:
+              - generic [ref=e396]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e398]:
+                - generic [ref=e400]:
+                  - generic [ref=e401]:
+                    - link "an abstract blue and green logo on a light gray background, with the letter p in it's center" [ref=e403] [cursor=pointer]:
+                      - /url: /pin/1196337403376434/
+                      - 'img "This may contain: an abstract blue and green logo on a light gray background, with the letter p in it''s center" [ref=e419]'
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 0:11
+                  - generic [ref=e421]:
+                    - generic:
+                      - link "an abstract blue and green logo on a light gray background, with the letter p in it's center":
+                        - /url: /pin/1196337403376434/
+                    - generic "More actions" [ref=e428]:
+                      - button "More actions" [ref=e429] [cursor=pointer]:
+                        - img [ref=e432]
+          - listitem [ref=e434]:
+            - group "Pin card" [ref=e437]:
+              - generic [ref=e439]:
+                - generic [ref=e440]:
+                  - link "Unity Abstract, Abstract Background Black, White Orbs, Space Loop, Univers Logo, Cosmos Pfp, Motion Science, Logo Sphere, Void Gif" [ref=e442] [cursor=pointer]:
+                    - /url: /pin/351912466939967/
+                    - img "This contains an image of:" [ref=e458]
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:17
+                - generic [ref=e460]:
+                  - generic:
+                    - link "Unity Abstract, Abstract Background Black, White Orbs, Space Loop, Univers Logo, Cosmos Pfp, Motion Science, Logo Sphere, Void Gif":
+                      - /url: /pin/351912466939967/
+                  - generic "More actions" [ref=e467]:
+                    - button "More actions" [ref=e468] [cursor=pointer]:
+                      - img [ref=e471]
+          - listitem [ref=e473]:
+            - group "Pin card" [ref=e476]:
+              - generic [ref=e478]:
+                - generic [ref=e479]:
+                  - link "an abstract black and white photo with wavy lines in the center, as well as a light source" [ref=e481] [cursor=pointer]:
+                    - /url: /pin/703756188624812/
+                    - 'img "This may contain: an abstract black and white photo with wavy lines in the center, as well as a light source" [ref=e497]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:09
+                - generic [ref=e499]:
+                  - generic:
+                    - link "an abstract black and white photo with wavy lines in the center, as well as a light source":
+                      - /url: /pin/703756188624812/
+                  - generic "More actions" [ref=e506]:
+                    - button "More actions" [ref=e507] [cursor=pointer]:
+                      - img [ref=e510]
+          - listitem [ref=e512]:
+            - group "Pin card" [ref=e515]:
+              - generic [ref=e517]:
+                - generic [ref=e518]:
+                  - 'link "Form follows function is a principle of design which states that the shape or object should primarily relate to its intended purpose. This principle lays at the core of our design work and allows us to build brands that work for people and businesses. → #formfollowsfunction #fffunction #typography #motiondesign #branddesign #fffunctionstudio #motion #branding #identitydesign #identity #animation #aftereffects #digitalart #grafikfeed #visualdesign #fffs" [ref=e520] [cursor=pointer]':
+                    - /url: /pin/1618549862359604/
+                    - 'img "This contains: Form follows function is a principle of design which states that the shape or object should primarily relate to its intended purpose. This principle lays at the core of our design work and allows us to build brands that work for people and businesses. → #formfollowsfunction #fffunction #typography #motiondesign #branddesign #fffunctionstudio #motion #branding #identitydesign #identity #animation #aftereffects #digitalart #grafikfeed #visualdesign #fffs" [ref=e536]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:09
+                - generic [ref=e538]:
+                  - generic:
+                    - 'link "Form follows function is a principle of design which states that the shape or object should primarily relate to its intended purpose. This principle lays at the core of our design work and allows us to build brands that work for people and businesses. → #formfollowsfunction #fffunction #typography #motiondesign #branddesign #fffunctionstudio #motion #branding #identitydesign #identity #animation #aftereffects #digitalart #grafikfeed #visualdesign #fffs"':
+                      - /url: /pin/1618549862359604/
+                  - generic "More actions" [ref=e545]:
+                    - button "More actions" [ref=e546] [cursor=pointer]:
+                      - img [ref=e549]
+          - listitem [ref=e551]:
+            - group "Pin card" [ref=e554]:
+              - generic [ref=e556]:
+                - generic [ref=e557]:
+                  - link "a black background with white dots and lines" [ref=e559] [cursor=pointer]:
+                    - /url: /pin/211174979287221/
+                    - 'img "This may contain: a black background with white dots and lines" [ref=e575]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:30
+                - generic [ref=e577]:
+                  - generic:
+                    - link "a black background with white dots and lines":
+                      - /url: /pin/211174979287221/
+                  - generic "More actions" [ref=e584]:
+                    - button "More actions" [ref=e585] [cursor=pointer]:
+                      - img [ref=e588]
+          - listitem [ref=e590]:
+            - generic [ref=e591]:
+              - generic [ref=e597]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e599]:
+                - generic [ref=e601]:
+                  - generic [ref=e602]:
+                    - link "an abstract black background with multicolored squares" [ref=e604] [cursor=pointer]:
+                      - /url: /pin/2674081025962540/
+                      - 'img "This may contain: an abstract black background with multicolored squares" [ref=e620]'
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 0:07
+                  - generic [ref=e622]:
+                    - generic:
+                      - link "an abstract black background with multicolored squares":
+                        - /url: /pin/2674081025962540/
+                    - generic "More actions" [ref=e629]:
+                      - button "More actions" [ref=e630] [cursor=pointer]:
+                        - img [ref=e633]
+          - listitem [ref=e635]:
+            - group "Pin card" [ref=e638]:
+              - generic [ref=e640]:
+                - link "an abstract image of two elephants in black and white" [ref=e643] [cursor=pointer]:
+                  - /url: /pin/9851692917716427/
+                  - img "an abstract image of two elephants in black and white" [ref=e653]
+                - generic [ref=e655]:
+                  - generic:
+                    - link "an abstract image of two elephants in black and white":
+                      - /url: /pin/9851692917716427/
+                  - generic "More actions" [ref=e662]:
+                    - button "More actions" [ref=e663] [cursor=pointer]:
+                      - img [ref=e666]
+          - listitem [ref=e668]:
+            - group "Pin card" [ref=e671]:
+              - generic [ref=e673]:
+                - generic [ref=e674]:
+                  - link "an image of a sphere made up of small dots" [ref=e676] [cursor=pointer]:
+                    - /url: /pin/9288742976732787/
+                    - 'img "This may contain: an image of a sphere made up of small dots" [ref=e692]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:17
+                - generic [ref=e694]:
+                  - generic:
+                    - link "an image of a sphere made up of small dots":
+                      - /url: /pin/9288742976732787/
+                  - generic "More actions" [ref=e701]:
+                    - button "More actions" [ref=e702] [cursor=pointer]:
+                      - img [ref=e705]
+          - listitem [ref=e707]:
+            - group "Pin card" [ref=e711]:
+              - generic [ref=e713]:
+                - link "a black and white image of an object with dots on it" [ref=e716] [cursor=pointer]:
+                  - /url: /pin/211174978930854/
+                  - generic [ref=e718]:
+                    - generic [ref=e723]:
+                      - 'img "Expression Experiments in After Effects by @nigina.dsgn 🔥⁠ ⁠ #type01 #animatedtype #kinetictype #kinetictypography #expressions #ae #motionlovers #movingtype" [ref=e727]'
+                      - 'img "Expression Experiments in After Effects by @nigina.dsgn 🔥⁠ ⁠ #type01 #animatedtype #kinetictype #kinetictypography #expressions #ae #motionlovers #movingtype" [ref=e731]'
+                      - 'img "Expression Experiments in After Effects by @nigina.dsgn 🔥⁠ ⁠ #type01 #animatedtype #kinetictype #kinetictypography #expressions #ae #motionlovers #movingtype" [ref=e735]'
+                      - 'img "Expression Experiments in After Effects by @nigina.dsgn 🔥⁠ ⁠ #type01 #animatedtype #kinetictype #kinetictypography #expressions #ae #motionlovers #movingtype" [ref=e739]'
+                    - generic [ref=e741]:
+                      - button "Go to slide 1 of 4" [ref=e743]
+                      - button "Go to slide 2 of 4" [ref=e746]
+                      - button "Go to slide 3 of 4" [ref=e749]
+                      - button "Go to slide 4 of 4" [ref=e752]
+                - generic [ref=e755]:
+                  - generic:
+                    - link "a black and white image of an object with dots on it":
+                      - /url: /pin/211174978930854/
+                  - generic "More actions" [ref=e762]:
+                    - button "More actions" [ref=e763] [cursor=pointer]:
+                      - img [ref=e766]
+          - listitem [ref=e768]:
+            - group "Pin card" [ref=e771]:
+              - generic [ref=e773]:
+                - generic [ref=e774]:
+                  - link "simple animation liquidy with circles in looping motion and black and white" [ref=e776] [cursor=pointer]:
+                    - /url: /pin/68749486413/
+                    - 'img "This contains: simple animation liquidy with circles in looping motion and black and white" [ref=e792]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:05
+                - generic [ref=e794]:
+                  - generic:
+                    - link "simple animation liquidy with circles in looping motion and black and white":
+                      - /url: /pin/68749486413/
+                  - generic "More actions" [ref=e801]:
+                    - button "More actions" [ref=e802] [cursor=pointer]:
+                      - img [ref=e805]
+          - listitem [ref=e807]:
+            - generic [ref=e808]:
+              - generic [ref=e814]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e816]:
+                - generic [ref=e818]:
+                  - generic [ref=e819]:
+                    - link "a black background with white dots and the word wm on it in large letters" [ref=e821] [cursor=pointer]:
+                      - /url: /pin/1030339220976122167/
+                      - 'img "This may contain: a black background with white dots and the word wm on it in large letters" [ref=e837]'
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 0:13
+                  - generic [ref=e839]:
+                    - generic:
+                      - link "a black background with white dots and the word wm on it in large letters":
+                        - /url: /pin/1030339220976122167/
+                    - generic "More actions" [ref=e846]:
+                      - button "More actions" [ref=e847] [cursor=pointer]:
+                        - img [ref=e850]
+          - listitem [ref=e852]:
+            - group "Pin card" [ref=e855]:
+              - generic [ref=e857]:
+                - generic [ref=e858]:
+                  - link "an abstract colorful background with squares and rectangles in the shape of a wave" [ref=e860] [cursor=pointer]:
+                    - /url: /pin/1266706138617000/
+                    - 'img "This may contain: an abstract colorful background with squares and rectangles in the shape of a wave" [ref=e876]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:07
+                - generic [ref=e878]:
+                  - generic:
+                    - link "an abstract colorful background with squares and rectangles in the shape of a wave":
+                      - /url: /pin/1266706138617000/
+                  - generic "More actions" [ref=e885]:
+                    - button "More actions" [ref=e886] [cursor=pointer]:
+                      - img [ref=e889]
+          - listitem [ref=e891]:
+            - group "Pin card" [ref=e894]:
+              - generic [ref=e896]:
+                - generic [ref=e897]:
+                  - link "an abstract image of a flower with geometric shapes" [ref=e899] [cursor=pointer]:
+                    - /url: /pin/8303580558714932/
+                    - 'img "This may contain: an abstract image of a flower with geometric shapes" [ref=e915]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:50
+                - generic [ref=e917]:
+                  - generic:
+                    - link "an abstract image of a flower with geometric shapes":
+                      - /url: /pin/8303580558714932/
+                  - generic "More actions" [ref=e924]:
+                    - button "More actions" [ref=e925] [cursor=pointer]:
+                      - img [ref=e928]
+          - listitem [ref=e930]:
+            - group "Pin card" [ref=e933]:
+              - generic [ref=e935]:
+                - generic [ref=e936]:
+                  - link "three circles are shown in the dark with lines going through each circle, and there is no image to describe" [ref=e938] [cursor=pointer]:
+                    - /url: /pin/3940718420763358/
+                    - 'img "This may contain: three circles are shown in the dark with lines going through each circle, and there is no image to describe" [ref=e954]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:30
+                - generic [ref=e956]:
+                  - generic:
+                    - link "three circles are shown in the dark with lines going through each circle, and there is no image to describe":
+                      - /url: /pin/3940718420763358/
+                  - generic "More actions" [ref=e963]:
+                    - button "More actions" [ref=e964] [cursor=pointer]:
+                      - img [ref=e967]
+          - listitem [ref=e969]:
+            - group "Pin card" [ref=e972]:
+              - generic [ref=e974]:
+                - generic [ref=e975]:
+                  - link "an abstract sculpture made up of dots and lines" [ref=e977] [cursor=pointer]:
+                    - /url: /pin/48484133483627483/
+                    - 'img "This may contain: an abstract sculpture made up of dots and lines" [ref=e993]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:28
+                - generic [ref=e995]:
+                  - generic:
+                    - link "an abstract sculpture made up of dots and lines":
+                      - /url: /pin/48484133483627483/
+                  - generic "More actions" [ref=e1002]:
+                    - button "More actions" [ref=e1003] [cursor=pointer]:
+                      - img [ref=e1006]
+          - listitem [ref=e1008]:
+            - generic [ref=e1009]:
+              - generic [ref=e1015]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1017]:
+                - generic [ref=e1019]:
+                  - generic [ref=e1020]:
+                    - link "a single flower with colored squares in the center and on it's stem is shown" [ref=e1022] [cursor=pointer]:
+                      - /url: /pin/647885096418964079/
+                      - 'img "This may contain: a single flower with colored squares in the center and on it''s stem is shown" [ref=e1038]'
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 0:08
+                  - generic [ref=e1040]:
+                    - generic:
+                      - link "a single flower with colored squares in the center and on it's stem is shown":
+                        - /url: /pin/647885096418964079/
+                    - generic "More actions" [ref=e1047]:
+                      - button "More actions" [ref=e1048] [cursor=pointer]:
+                        - img [ref=e1051]
+          - listitem [ref=e1053]:
+            - group "Pin card" [ref=e1056]:
+              - generic [ref=e1058]:
+                - generic [ref=e1059]:
+                  - link "Experiments with 3D, Typography, and Motion" [ref=e1061] [cursor=pointer]:
+                    - /url: /pin/4151824652877768/
+                    - 'img "This contains: Experiments with 3D, Typography, and Motion" [ref=e1077]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:27
+                - generic [ref=e1079]:
+                  - generic:
+                    - link "Experiments with 3D, Typography, and Motion":
+                      - /url: /pin/4151824652877768/
+                  - generic "More actions" [ref=e1086]:
+                    - button "More actions" [ref=e1087] [cursor=pointer]:
+                      - img [ref=e1090]
+          - listitem [ref=e1092]:
+            - group "Pin card" [ref=e1095]:
+              - generic [ref=e1097]:
+                - generic [ref=e1098]:
+                  - link "an abstract image of green and yellow shapes" [ref=e1100] [cursor=pointer]:
+                    - /url: /pin/68749592934/
+                    - 'img "This may contain: an abstract image of green and yellow shapes" [ref=e1116]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:10
+                - generic [ref=e1118]:
+                  - generic:
+                    - link "an abstract image of green and yellow shapes":
+                      - /url: /pin/68749592934/
+                  - generic "More actions" [ref=e1125]:
+                    - button "More actions" [ref=e1126] [cursor=pointer]:
+                      - img [ref=e1129]
+          - listitem [ref=e1131]:
+            - group "Pin card" [ref=e1135]:
+              - generic [ref=e1137]:
+                - link "an abstract photo of purple hair blowing in the wind" [ref=e1140] [cursor=pointer]:
+                  - /url: /pin/18858892187249328/
+                  - generic [ref=e1142]:
+                    - generic [ref=e1147]:
+                      - img "Body Tracking Trails in Touchdesigner TOP" [ref=e1151]
+                      - 'img "Body tracking particles trails in TOP in #realtime, rendered with custom materials in @touchdesigner, while waiting for those POP to be released . . . #newmediaart #algorithmicart #genartclub #new_media_art #particles #trails #dance #contemporary #touchdesigner #codeart #generative #generativedesign #realtime #realtimegraphics #creativecoding #generativeart #motiongraphics #abstractart #realtimerendering #vfx #3dart #3dartist #3danimation #visual #visuals #visualart #visualarts" [ref=e1155]'
+                      - 'img "Body tracking particles trails in TOP in #realtime, rendered with custom materials in @touchdesigner, while waiting for those POP to be released . . . #newmediaart #algorithmicart #genartclub #new_media_art #particles #trails #dance #contemporary #touchdesigner #codeart #generative #generativedesign #realtime #realtimegraphics #creativecoding #generativeart #motiongraphics #abstractart #realtimerendering #vfx #3dart #3dartist #3danimation #visual #visuals #visualart #visualarts" [ref=e1159]'
+                      - 'img "Body tracking particles trails in TOP in #realtime, rendered with custom materials in @touchdesigner, while waiting for those POP to be released . . . #newmediaart #algorithmicart #genartclub #new_media_art #particles #trails #dance #contemporary #touchdesigner #codeart #generative #generativedesign #realtime #realtimegraphics #creativecoding #generativeart #motiongraphics #abstractart #realtimerendering #vfx #3dart #3dartist #3danimation #visual #visuals #visualart #visualarts" [ref=e1163]'
+                    - generic [ref=e1165]:
+                      - button "Body Tracking Trails in Touchdesigner TOP" [ref=e1167]
+                      - button "Go to slide 2 of 4" [ref=e1170]
+                      - button "Go to slide 3 of 4" [ref=e1173]
+                      - button "Go to slide 4 of 4" [ref=e1176]
+                - generic [ref=e1179]:
+                  - generic:
+                    - link "an abstract photo of purple hair blowing in the wind":
+                      - /url: /pin/18858892187249328/
+                  - generic "More actions" [ref=e1186]:
+                    - button "More actions" [ref=e1187] [cursor=pointer]:
+                      - img [ref=e1190]
+          - listitem [ref=e1192]:
+            - group "Pin card" [ref=e1195]:
+              - generic [ref=e1197]:
+                - link "an abstract painting in pink, yellow and blue" [ref=e1200] [cursor=pointer]:
+                  - /url: /pin/9922061674725169/
+                  - img "an abstract painting in pink, yellow and blue" [ref=e1210]
+                - generic [ref=e1212]:
+                  - generic:
+                    - link "an abstract painting in pink, yellow and blue":
+                      - /url: /pin/9922061674725169/
+                  - generic "More actions" [ref=e1219]:
+                    - button "More actions" [ref=e1220] [cursor=pointer]:
+                      - img [ref=e1223]
+          - listitem [ref=e1225]:
+            - generic [ref=e1226]:
+              - generic [ref=e1232]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1234]:
+                - generic [ref=e1236]:
+                  - generic [ref=e1237]:
+                    - link "an abstract black and white background with dots in the shape of wavy lines on top of each other" [ref=e1239] [cursor=pointer]:
+                      - /url: /pin/2111131069644845/
+                      - 'img "This may contain: an abstract black and white background with dots in the shape of wavy lines on top of each other" [ref=e1255]'
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 0:30
+                  - generic [ref=e1257]:
+                    - generic:
+                      - link "an abstract black and white background with dots in the shape of wavy lines on top of each other":
+                        - /url: /pin/2111131069644845/
+                    - generic "More actions" [ref=e1264]:
+                      - button "More actions" [ref=e1265] [cursor=pointer]:
+                        - img [ref=e1268]
+          - listitem [ref=e1270]:
+            - generic [ref=e1271]:
+              - generic [ref=e1277]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1279]:
+                - generic [ref=e1281]:
+                  - generic [ref=e1282]:
+                    - link "an abstract background with squares and dots in pink, purple, and yellow on a black background" [ref=e1284] [cursor=pointer]:
+                      - /url: /pin/1077697385847953802/
+                      - 'img "This may contain: an abstract background with squares and dots in pink, purple, and yellow on a black background" [ref=e1300]'
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 0:05
+                  - generic [ref=e1302]:
+                    - generic:
+                      - link "an abstract background with squares and dots in pink, purple, and yellow on a black background":
+                        - /url: /pin/1077697385847953802/
+                    - generic "More actions" [ref=e1309]:
+                      - button "More actions" [ref=e1310] [cursor=pointer]:
+                        - img [ref=e1313]
+          - listitem [ref=e1315]:
+            - generic [ref=e1316]:
+              - generic [ref=e1322]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1324]:
+                - generic [ref=e1326]:
+                  - generic [ref=e1327]:
+                    - link "an abstract photo with white lines in the dark" [ref=e1329] [cursor=pointer]:
+                      - /url: /pin/844493673003510/
+                      - 'img "This may contain: an abstract photo with white lines in the dark" [ref=e1345]'
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 0:20
+                  - generic [ref=e1347]:
+                    - generic:
+                      - link "an abstract photo with white lines in the dark":
+                        - /url: /pin/844493673003510/
+                    - generic "More actions" [ref=e1354]:
+                      - button "More actions" [ref=e1355] [cursor=pointer]:
+                        - img [ref=e1358]
+          - listitem [ref=e1360]:
+            - generic [ref=e1361]:
+              - generic [ref=e1367]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1370]:
+                - generic [ref=e1372]:
+                  - link "the cover of designing motion for instagramn lesson 3, with blue circles on it" [ref=e1375] [cursor=pointer]:
+                    - /url: /pin/985231165430201/
+                    - generic [ref=e1377]:
+                      - generic [ref=e1378]:
+                        - generic [ref=e1382]:
+                          - 'img "Designing Motion for Instagram Part 3 👀 This time, we’re not focusing on a specific animation, but on the basics: Easing curves. These curves make movement feel natural instead of robotic. Most motion shouldn’t start or stop suddenly, because in the real world, nothing does! Here are a few tips for Instagram: * Linear motion often feels robotic. Adding easing makes animations feel more natural and smooth. * Match the vibe: Use Back or Elastic for energetic motion, or Sine/Quad for minimal ..." [ref=e1386]'
+                          - 'img "Designing Motion for Instagram Part 3 👀 This time, we’re not focusing on a specific animation, but on the basics: Easing curves. These curves make movement feel natural instead of robotic. Most motion shouldn’t start or stop suddenly, because in the real world, nothing does! Here are a few tips for Instagram: * Linear motion often feels robotic. Adding easing makes animations feel more natural and smooth. * Match the vibe: Use Back or Elastic for energetic motion, or Sine/Quad for minimal ..." [ref=e1390]'
+                          - 'img "Designing Motion for Instagram Part 3 👀 This time, we’re not focusing on a specific animation, but on the basics: Easing curves. These curves make movement feel natural instead of robotic. Most motion shouldn’t start or stop suddenly, because in the real world, nothing does! Here are a few tips for Instagram: * Linear motion often feels robotic. Adding easing makes animations feel more natural and smooth. * Match the vibe: Use Back or Elastic for energetic motion, or Sine/Quad for minimal ..." [ref=e1394]'
+                          - 'img "Designing Motion for Instagram Part 3 👀 This time, we’re not focusing on a specific animation, but on the basics: Easing curves. These curves make movement feel natural instead of robotic. Most motion shouldn’t start or stop suddenly, because in the real world, nothing does! Here are a few tips for Instagram: * Linear motion often feels robotic. Adding easing makes animations feel more natural and smooth. * Match the vibe: Use Back or Elastic for energetic motion, or Sine/Quad for minimal ..." [ref=e1398]'
+                          - 'img "Designing Motion for Instagram Part 3 👀 This time, we’re not focusing on a specific animation, but on the basics: Easing curves. These curves make movement feel natural instead of robotic. Most motion shouldn’t start or stop suddenly, because in the real world, nothing does! Here are a few tips for Instagram: * Linear motion often feels robotic. Adding easing makes animations feel more natural and smooth. * Match the vibe: Use Back or Elastic for energetic motion, or Sine/Quad for minimal ..." [ref=e1402]'
+                          - 'img "Designing Motion for Instagram Part 3 👀 This time, we’re not focusing on a specific animation, but on the basics: Easing curves. These curves make movement feel natural instead of robotic. Most motion shouldn’t start or stop suddenly, because in the real world, nothing does! Here are a few tips for Instagram: * Linear motion often feels robotic. Adding easing makes animations feel more natural and smooth. * Match the vibe: Use Back or Elastic for energetic motion, or Sine/Quad for minimal ..." [ref=e1406]'
+                          - 'img "Designing Motion for Instagram Part 3 👀 This time, we’re not focusing on a specific animation, but on the basics: Easing curves. These curves make movement feel natural instead of robotic. Most motion shouldn’t start or stop suddenly, because in the real world, nothing does! Here are a few tips for Instagram: * Linear motion often feels robotic. Adding easing makes animations feel more natural and smooth. * Match the vibe: Use Back or Elastic for energetic motion, or Sine/Quad for minimal ..." [ref=e1410]'
+                          - 'img "Designing Motion for Instagram Part 3 👀 This time, we’re not focusing on a specific animation, but on the basics: Easing curves. These curves make movement feel natural instead of robotic. Most motion shouldn’t start or stop suddenly, because in the real world, nothing does! Here are a few tips for Instagram: * Linear motion often feels robotic. Adding easing makes animations feel more natural and smooth. * Match the vibe: Use Back or Elastic for energetic motion, or Sine/Quad for minimal ..." [ref=e1414]'
+                          - 'img "Designing Motion for Instagram Part 3 👀 This time, we’re not focusing on a specific animation, but on the basics: Easing curves. These curves make movement feel natural instead of robotic. Most motion shouldn’t start or stop suddenly, because in the real world, nothing does! Here are a few tips for Instagram: * Linear motion often feels robotic. Adding easing makes animations feel more natural and smooth. * Match the vibe: Use Back or Elastic for energetic motion, or Sine/Quad for minimal ..." [ref=e1418]'
+                          - 'img "Designing Motion for Instagram Part 3 👀 This time, we’re not focusing on a specific animation, but on the basics: Easing curves. These curves make movement feel natural instead of robotic. Most motion shouldn’t start or stop suddenly, because in the real world, nothing does! Here are a few tips for Instagram: * Linear motion often feels robotic. Adding easing makes animations feel more natural and smooth. * Match the vibe: Use Back or Elastic for energetic motion, or Sine/Quad for minimal ..." [ref=e1422]'
+                          - 'img "Designing Motion for Instagram Part 3 👀 This time, we’re not focusing on a specific animation, but on the basics: Easing curves. These curves make movement feel natural instead of robotic. Most motion shouldn’t start or stop suddenly, because in the real world, nothing does! Here are a few tips for Instagram: * Linear motion often feels robotic. Adding easing makes animations feel more natural and smooth. * Match the vibe: Use Back or Elastic for energetic motion, or Sine/Quad for minimal ..." [ref=e1426]'
+                          - 'img "Designing Motion for Instagram Part 3 👀 This time, we’re not focusing on a specific animation, but on the basics: Easing curves. These curves make movement feel natural instead of robotic. Most motion shouldn’t start or stop suddenly, because in the real world, nothing does! Here are a few tips for Instagram: * Linear motion often feels robotic. Adding easing makes animations feel more natural and smooth. * Match the vibe: Use Back or Elastic for energetic motion, or Sine/Quad for minimal ..." [ref=e1430]'
+                        - generic [ref=e1432]: 1/12
+                      - generic [ref=e1434]:
+                        - button "Go to slide 1 of 12" [ref=e1436]
+                        - button "Go to slide 2 of 12" [ref=e1439]
+                        - button "Go to slide 3 of 12" [ref=e1442]
+                        - button "Go to slide 4 of 12" [ref=e1445]
+                        - button "Go to slide 5 of 12" [ref=e1448]
+                        - button "Go to slide 6 of 12" [ref=e1451]
+                        - button "Go to slide 7 of 12" [ref=e1454]
+                        - button "Go to slide 8 of 12" [ref=e1457]
+                        - button "Go to slide 9 of 12" [ref=e1460]
+                        - button "Go to slide 10 of 12" [ref=e1463]
+                        - button "Go to slide 11 of 12" [ref=e1466]
+                        - button "Go to slide 12 of 12" [ref=e1469]
+                  - generic [ref=e1472]:
+                    - generic:
+                      - link "the cover of designing motion for instagramn lesson 3, with blue circles on it":
+                        - /url: /pin/985231165430201/
+                    - generic "More actions" [ref=e1479]:
+                      - button "More actions" [ref=e1480] [cursor=pointer]:
+                        - img [ref=e1483]
+          - listitem [ref=e1485]:
+            - generic [ref=e1486]:
+              - generic [ref=e1492]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1494]:
+                - generic [ref=e1496]:
+                  - generic [ref=e1497]:
+                    - link "an abstract pattern with lines in the form of waves and shapes that look like they are floating" [ref=e1499] [cursor=pointer]:
+                      - /url: /pin/295759900547697487/
+                      - 'img "This may contain: an abstract pattern with lines in the form of waves and shapes that look like they are floating" [ref=e1515]'
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 0:10
+                  - generic [ref=e1517]:
+                    - generic:
+                      - link "an abstract pattern with lines in the form of waves and shapes that look like they are floating":
+                        - /url: /pin/295759900547697487/
+                    - generic "More actions" [ref=e1524]:
+                      - button "More actions" [ref=e1525] [cursor=pointer]:
+                        - img [ref=e1528]
+          - listitem [ref=e1530]:
+            - generic [ref=e1531]:
+              - generic [ref=e1537]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1539]:
+                - generic [ref=e1541]:
+                  - generic [ref=e1542]:
+                    - link "an abstract black and white background with small squares in the center, on top of each other" [ref=e1544] [cursor=pointer]:
+                      - /url: /pin/21955116926378380/
+                      - 'img "This may contain: an abstract black and white background with small squares in the center, on top of each other" [ref=e1560]'
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 0:23
+                  - generic [ref=e1562]:
+                    - generic:
+                      - link "an abstract black and white background with small squares in the center, on top of each other":
+                        - /url: /pin/21955116926378380/
+                    - generic "More actions" [ref=e1569]:
+                      - button "More actions" [ref=e1570] [cursor=pointer]:
+                        - img [ref=e1573]
+          - listitem [ref=e1575]:
+            - generic [ref=e1576]:
+              - generic [ref=e1582]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1584]:
+                - generic [ref=e1586]:
+                  - generic [ref=e1587]:
+                    - link "an image of colorful objects made out of legos" [ref=e1589] [cursor=pointer]:
+                      - /url: /pin/17873729766675324/
+                      - 'img "This may contain: an image of colorful objects made out of legos" [ref=e1605]'
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 0:16
+                  - generic [ref=e1607]:
+                    - generic:
+                      - link "an image of colorful objects made out of legos":
+                        - /url: /pin/17873729766675324/
+                    - generic "More actions" [ref=e1614]:
+                      - button "More actions" [ref=e1615] [cursor=pointer]:
+                        - img [ref=e1618]
+          - listitem [ref=e1620]:
+            - generic [ref=e1621]:
+              - generic [ref=e1627]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1629]:
+                - generic [ref=e1631]:
+                  - generic [ref=e1632]:
+                    - link "black and white abstract shapes on a white background" [ref=e1634] [cursor=pointer]:
+                      - /url: /pin/633387443973855/
+                      - 'img "This may contain: black and white abstract shapes on a white background" [ref=e1650]'
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 0:15
+                  - generic [ref=e1652]:
+                    - generic:
+                      - link "black and white abstract shapes on a white background":
+                        - /url: /pin/633387443973855/
+                    - button "Bendito Mockup" [ref=e1656] [cursor=pointer]:
+                      - generic [ref=e1658]:
+                        - button "Bendito Mockup" [ref=e1661]:
+                          - generic "Bendito Mockup" [ref=e1662]
+                        - generic "More actions" [ref=e1666]:
+                          - button "More actions" [ref=e1667]:
+                            - img [ref=e1670]

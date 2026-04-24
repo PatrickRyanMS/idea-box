@@ -1,0 +1,620 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - link "Skip to content":
+      - /url: "#"
+      - generic [ref=e9] [cursor=pointer]: Skip to content
+    - generic [ref=e11]:
+      - generic [ref=e14]:
+        - combobox "Search" [ref=e16]: james turrell light installation art
+        - button "Remove search input" [ref=e21] [cursor=pointer]:
+          - img [ref=e24]
+      - generic [ref=e26]:
+        - button "Log in" [ref=e28] [cursor=pointer]:
+          - generic [ref=e30]: Log in
+        - button "Sign up" [ref=e32] [cursor=pointer]:
+          - generic [ref=e34]: Sign up
+  - navigation [ref=e36]:
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - generic "Home" [ref=e43]:
+          - link "Home" [ref=e44] [cursor=pointer]:
+            - /url: /
+            - img [ref=e46]
+        - generic "Explore" [ref=e51]:
+          - link "Explore" [ref=e52] [cursor=pointer]:
+            - /url: /ideas
+            - img [ref=e54]
+        - generic "Shop" [ref=e59]:
+          - link "Shop" [ref=e60] [cursor=pointer]:
+            - /url: /shopping
+            - img [ref=e62]
+      - generic "More options" [ref=e66]:
+        - button "More options" [ref=e67] [cursor=pointer]:
+          - img [ref=e70]
+  - main [ref=e72]:
+    - generic [ref=e74]:
+      - generic [ref=e77]:
+        - heading "Search" [level=1] [ref=e79]
+        - generic [ref=e84]:
+          - button "Show filters" [ref=e90] [cursor=pointer]:
+            - img [ref=e94]
+          - button "Neon" [ref=e102] [cursor=pointer]:
+            - generic [ref=e107]: Neon
+          - button "Architecture" [ref=e114] [cursor=pointer]:
+            - generic [ref=e119]: Architecture
+          - button "Kendall" [ref=e126] [cursor=pointer]:
+            - generic [ref=e131]: Kendall
+          - button "Diy" [ref=e138] [cursor=pointer]:
+            - generic [ref=e143]: Diy
+          - button "Space" [ref=e150] [cursor=pointer]:
+            - generic [ref=e155]: Space
+          - button "Wallpaper" [ref=e162] [cursor=pointer]:
+            - generic [ref=e167]: Wallpaper
+          - button "Blue" [ref=e174] [cursor=pointer]:
+            - generic [ref=e179]: Blue
+          - button "Orange" [ref=e186] [cursor=pointer]:
+            - generic [ref=e191]: Orange
+      - generic [ref=e196]:
+        - generic [ref=e197]: Showing more search results for james turrell light installation art
+        - list [ref=e202]:
+          - listitem [ref=e203]:
+            - generic [ref=e207]:
+              - link "Shop james turrell light installation art" [ref=e215] [cursor=pointer]:
+                - /url: /search/pins/?rs=product_carousel&tab=shop&q=james%20turrell%20light%20installation%20art&source_id=4ejWT4ae&commerce_only=True&request_params=%7B%2237%22%3A%20%22Shop%20james%20turrell%20light%20installation%20art%22%2C%20%221%22%3A%20%2294%22%2C%20%2236%22%3A%20%22james%20turrell%20light%20installation%20art%22%2C%20%2230%22%3A%20%22Shop%20james%20turrell%20light%20installation%20art%22%2C%20%222%22%3A%20%22Shop%20james%20turrell%20light%20installation%20art%22%2C%20%2233%22%3A%20%5B%22275212227354178150%22%2C%20%224611404618088923520%22%2C%20%221047579563341369188%22%2C%20%224592968036820196864%22%2C%20%22155303888281303415%22%2C%20%22155303888281304168%22%5D%2C%20%2234%22%3A%20%220%22%2C%20%227%22%3A%20%224ejWT4ae%22%2C%20%228%22%3A%20%22james%20turrell%20light%20installation%20art%22%7D&pins_display=2
+                - heading "Shop james turrell light installation art" [level=2] [ref=e216]
+              - generic [ref=e222]:
+                - group "Slide 1 of 5" [ref=e223]:
+                  - group "Pin card" [ref=e227]:
+                    - generic [ref=e229]:
+                      - link "a pink and purple poster with the words james turrell in red on it" [ref=e232] [cursor=pointer]:
+                        - /url: /pin/275212227354178150/
+                        - img "a pink and purple poster with the words james turrell in red on it" [ref=e243]
+                      - 'link "James Turrell: A Retrospective" [ref=e248] [cursor=pointer]':
+                        - /url: /pin/275212227354178150/
+                        - 'button "Current price: $85.00" [ref=e249]':
+                          - generic [ref=e250]:
+                            - generic [ref=e251]: "Current price:"
+                            - generic [ref=e252]: $85.00
+                        - generic [ref=e254]:
+                          - 'button "James Turrell: A Retrospective" [ref=e256]':
+                            - 'generic "James Turrell: A Retrospective" [ref=e257]'
+                          - generic "More actions" [ref=e260]:
+                            - button "More actions" [ref=e261]:
+                              - img [ref=e264]
+                        - generic:
+                          - button "Jayson Home"
+                - group "Slide 2 of 5" [ref=e266]:
+                  - group "Pin card" [ref=e270]:
+                    - generic [ref=e272]:
+                      - link "an image of james turrelll's poster for the movie, in which he is" [ref=e275] [cursor=pointer]:
+                        - /url: /pin/4611404618088923520/
+                        - img "an image of james turrelll's poster for the movie, in which he is" [ref=e286]
+                      - link "James Turrell Original Exhibition Poster - MASS MoCA Light and Space Art Print" [ref=e291] [cursor=pointer]:
+                        - /url: /pin/4611404618088923520/
+                        - 'button "Current price: $150.00" [ref=e292]':
+                          - generic [ref=e293]:
+                            - generic [ref=e294]: "Current price:"
+                            - generic [ref=e295]: $150.00
+                        - generic [ref=e297]:
+                          - button "James Turrell Original Exhibition Poster - MASS MoCA Light and Space Art Print" [ref=e299]:
+                            - generic "James Turrell Original Exhibition Poster - MASS MoCA Light and Space Art Print" [ref=e300]
+                          - generic "More actions" [ref=e303]:
+                            - button "More actions" [ref=e304]:
+                              - img [ref=e307]
+                        - generic:
+                          - button "Etsy"
+                - group "Slide 3 of 5" [ref=e309]:
+                  - group "Pin card" [ref=e313]:
+                    - generic [ref=e315]:
+                      - link "the cover of james turrell's book, in pink and purple colors" [ref=e318] [cursor=pointer]:
+                        - /url: /pin/1047579563341369188/
+                        - img "the cover of james turrell's book, in pink and purple colors" [ref=e329]
+                      - 'link "James Turrell: A Retrospective [Book]" [ref=e334] [cursor=pointer]':
+                        - /url: /pin/1047579563341369188/
+                        - 'button "Current price: $85.00" [ref=e335]':
+                          - generic [ref=e336]:
+                            - generic [ref=e337]: "Current price:"
+                            - generic [ref=e338]: $85.00
+                        - generic [ref=e340]:
+                          - 'button "James Turrell: A Retrospective [Book]" [ref=e342]':
+                            - 'generic "James Turrell: A Retrospective [Book]" [ref=e343]'
+                          - generic "More actions" [ref=e346]:
+                            - button "More actions" [ref=e347]:
+                              - img [ref=e350]
+                        - generic:
+                          - button "DiscountMags.com"
+                - group "Slide 4 of 5" [ref=e352]:
+                  - group "Pin card" [ref=e356]:
+                    - generic [ref=e358]:
+                      - link "Houston, TX Photo -The Light Inside Installation, by James Turrell, at The Museum of Fine Arts, Houston, Texas" [ref=e361] [cursor=pointer]:
+                        - /url: /pin/4592968036820196864/
+                        - img "Houston, TX Photo -The Light Inside Installation, by James Turrell, at The Museum of Fine Arts, Houston, Texas" [ref=e372]
+                      - link "Houston, TX Photo -The Light Inside Installation, by James Turrell, at The Museum of Fine Arts, Houston, Texas - 44in x 36in" [ref=e377] [cursor=pointer]:
+                        - /url: /pin/4592968036820196864/
+                        - 'button "Current price: $99.99" [ref=e378]':
+                          - generic [ref=e379]:
+                            - generic [ref=e380]: "Current price:"
+                            - generic [ref=e381]: $99.99
+                        - generic [ref=e383]:
+                          - button "Houston, TX Photo -The Light Inside Installation, by James Turrell, at The Museum of Fine Arts, Houston, Texas - 44in x 36in" [ref=e385]:
+                            - generic "Houston, TX Photo -The Light Inside Installation, by James Turrell, at The Museum of Fine Arts, Houston, Texas - 44in x 36in" [ref=e386]
+                          - generic "More actions" [ref=e389]:
+                            - button "More actions" [ref=e390]:
+                              - img [ref=e393]
+                        - generic:
+                          - button "Historic Pictoric"
+                - group "Slide 5 of 5" [ref=e395]:
+                  - group "Pin card" [ref=e399]:
+                    - generic [ref=e401]:
+                      - link "a red and pink painting hanging on the wall next to a white wall with a window" [ref=e404] [cursor=pointer]:
+                        - /url: /pin/155303888281303415/
+                        - img "a red and pink painting hanging on the wall next to a white wall with a window" [ref=e415]
+                      - link "James Turrell Red Sun Physical Print | Abstract Geometric Wall Art, Poster, Colorful Neon Printable Art, Wall Decor Art, Physical Poster" [ref=e420] [cursor=pointer]:
+                        - /url: /pin/155303888281303415/
+                        - 'button "Current price: $78.24" [ref=e421]':
+                          - generic [ref=e422]:
+                            - generic [ref=e423]: "Current price:"
+                            - generic [ref=e424]: $78.24
+                        - generic [ref=e426]:
+                          - button "James Turrell Red Sun Physical Print | Abstract Geometric Wall Art, Poster, Colorful Neon Printable Art, Wall Decor Art, Physical Poster" [ref=e428]:
+                            - generic "James Turrell Red Sun Physical Print | Abstract Geometric Wall Art, Poster, Colorful Neon Printable Art, Wall Decor Art, Physical Poster" [ref=e429]
+                          - generic "More actions" [ref=e432]:
+                            - button "More actions" [ref=e433]:
+                              - img [ref=e436]
+                        - generic:
+                          - button "Etsy"
+          - listitem [ref=e438]:
+            - heading "More ideas" [level=2] [ref=e447]
+          - listitem [ref=e448]:
+            - group "Pin card" [ref=e451]:
+              - generic [ref=e453]:
+                - link "three people are standing in front of a large orange object that looks like an orb" [ref=e456] [cursor=pointer]:
+                  - /url: /pin/835417799645400342/
+                  - img "three people are standing in front of a large orange object that looks like an orb" [ref=e466]
+                - generic [ref=e468]:
+                  - generic:
+                    - link "three people are standing in front of a large orange object that looks like an orb":
+                      - /url: /pin/835417799645400342/
+                  - generic "More actions" [ref=e475]:
+                    - button "More actions" [ref=e476] [cursor=pointer]:
+                      - img [ref=e479]
+          - listitem [ref=e481]:
+            - group "Pin card" [ref=e484]:
+              - generic [ref=e486]:
+                - link "four different images of people standing in a room with pink and blue lighting, one man is" [ref=e489] [cursor=pointer]:
+                  - /url: /pin/270427152598698822/
+                  - img "four different images of people standing in a room with pink and blue lighting, one man is" [ref=e499]
+                - generic [ref=e501]:
+                  - generic:
+                    - link "four different images of people standing in a room with pink and blue lighting, one man is":
+                      - /url: /pin/270427152598698822/
+                  - generic "More actions" [ref=e508]:
+                    - button "More actions" [ref=e509] [cursor=pointer]:
+                      - img [ref=e512]
+          - listitem [ref=e514]:
+            - group "Pin card" [ref=e517]:
+              - generic [ref=e519]:
+                - link "a person standing in front of an orange and purple light with the sun behind them" [ref=e522] [cursor=pointer]:
+                  - /url: /pin/1759287347258267/
+                  - img "a person standing in front of an orange and purple light with the sun behind them" [ref=e532]
+                - generic [ref=e534]:
+                  - generic:
+                    - link "a person standing in front of an orange and purple light with the sun behind them":
+                      - /url: /pin/1759287347258267/
+                  - generic "More actions" [ref=e541]:
+                    - button "More actions" [ref=e542] [cursor=pointer]:
+                      - img [ref=e545]
+          - listitem [ref=e547]:
+            - group "Pin card" [ref=e550]:
+              - generic [ref=e552]:
+                - link "an orange structure with water in the middle and sky above it at sunset or dawn" [ref=e555] [cursor=pointer]:
+                  - /url: /pin/3307399722276860/
+                  - img "an orange structure with water in the middle and sky above it at sunset or dawn" [ref=e565]
+                - generic [ref=e567]:
+                  - generic:
+                    - link "an orange structure with water in the middle and sky above it at sunset or dawn":
+                      - /url: /pin/3307399722276860/
+                  - generic "More actions" [ref=e574]:
+                    - button "More actions" [ref=e575] [cursor=pointer]:
+                      - img [ref=e578]
+          - listitem [ref=e580]:
+            - generic [ref=e581]:
+              - generic [ref=e587]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e589]:
+                - generic [ref=e591]:
+                  - link "a round object is shown in the sky above a wooden table with a light shining on it" [ref=e594] [cursor=pointer]:
+                    - /url: /pin/443745369554560524/
+                    - img "a round object is shown in the sky above a wooden table with a light shining on it" [ref=e604]
+                  - generic [ref=e606]:
+                    - generic:
+                      - link "a round object is shown in the sky above a wooden table with a light shining on it":
+                        - /url: /pin/443745369554560524/
+                    - generic "More actions" [ref=e613]:
+                      - button "More actions" [ref=e614] [cursor=pointer]:
+                        - img [ref=e617]
+          - listitem [ref=e619]:
+            - group "Pin card" [ref=e622]:
+              - generic [ref=e624]:
+                - link "a long tunnel with stairs leading up to the sky" [ref=e627] [cursor=pointer]:
+                  - /url: /pin/705305991626065641/
+                  - img "a long tunnel with stairs leading up to the sky" [ref=e637]
+                - generic [ref=e639]:
+                  - generic:
+                    - link "a long tunnel with stairs leading up to the sky":
+                      - /url: /pin/705305991626065641/
+                  - generic "More actions" [ref=e646]:
+                    - button "More actions" [ref=e647] [cursor=pointer]:
+                      - img [ref=e650]
+          - listitem [ref=e652]:
+            - group "Pin card" [ref=e655]:
+              - generic [ref=e657]:
+                - link "a person sitting in the middle of a room with an orange ceiling and blue sky" [ref=e660] [cursor=pointer]:
+                  - /url: /pin/542754192615453583/
+                  - img "a person sitting in the middle of a room with an orange ceiling and blue sky" [ref=e670]
+                - generic [ref=e672]:
+                  - generic:
+                    - link "a person sitting in the middle of a room with an orange ceiling and blue sky":
+                      - /url: /pin/542754192615453583/
+                  - button "Architectural Digest México" [ref=e676] [cursor=pointer]:
+                    - generic [ref=e678]:
+                      - button "Architectural Digest México" [ref=e681]:
+                        - generic "Architectural Digest México" [ref=e682]
+                      - generic "More actions" [ref=e686]:
+                        - button "More actions" [ref=e687]:
+                          - img [ref=e690]
+          - listitem [ref=e692]:
+            - group "Pin card" [ref=e695]:
+              - generic [ref=e697]:
+                - link "two people standing in front of a pink and orange circle" [ref=e700] [cursor=pointer]:
+                  - /url: /pin/473229873352305345/
+                  - img "two people standing in front of a pink and orange circle" [ref=e710]
+                - generic [ref=e712]:
+                  - generic:
+                    - link "two people standing in front of a pink and orange circle":
+                      - /url: /pin/473229873352305345/
+                  - button "Collater.al Magazine" [ref=e716] [cursor=pointer]:
+                    - generic [ref=e718]:
+                      - button "Collater.al Magazine" [ref=e721]:
+                        - generic "Collater.al Magazine" [ref=e722]
+                      - generic "More actions" [ref=e726]:
+                        - button "More actions" [ref=e727]:
+                          - img [ref=e730]
+          - listitem [ref=e732]:
+            - group "Pin card" [ref=e735]:
+              - generic [ref=e737]:
+                - link "an empty room with no one in it and the ceiling is lit up by lights" [ref=e740] [cursor=pointer]:
+                  - /url: /pin/546342998564155268/
+                  - img "an empty room with no one in it and the ceiling is lit up by lights" [ref=e750]
+                - generic [ref=e752]:
+                  - generic:
+                    - link "an empty room with no one in it and the ceiling is lit up by lights":
+                      - /url: /pin/546342998564155268/
+                  - button "Architectural Digest" [ref=e756] [cursor=pointer]:
+                    - generic [ref=e758]:
+                      - button "Architectural Digest" [ref=e761]:
+                        - generic "Architectural Digest" [ref=e762]
+                      - generic "More actions" [ref=e766]:
+                        - button "More actions" [ref=e767]:
+                          - img [ref=e770]
+          - listitem [ref=e772]:
+            - generic [ref=e773]:
+              - generic [ref=e779]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e781]:
+                - generic [ref=e783]:
+                  - link "a man standing in front of a red and blue tunnel with his back to the camera" [ref=e786] [cursor=pointer]:
+                    - /url: /pin/351912466097415/
+                    - img "a man standing in front of a red and blue tunnel with his back to the camera" [ref=e796]
+                  - generic [ref=e798]:
+                    - generic:
+                      - link "a man standing in front of a red and blue tunnel with his back to the camera":
+                        - /url: /pin/351912466097415/
+                    - generic "More actions" [ref=e805]:
+                      - button "More actions" [ref=e806] [cursor=pointer]:
+                        - img [ref=e809]
+          - listitem [ref=e811]:
+            - group "Pin card" [ref=e814]:
+              - generic [ref=e816]:
+                - link "an empty room with benches and skylight in the ceiling is lit by lights from above" [ref=e819] [cursor=pointer]:
+                  - /url: /pin/237142736620297705/
+                  - img "an empty room with benches and skylight in the ceiling is lit by lights from above" [ref=e829]
+                - generic [ref=e831]:
+                  - generic:
+                    - link "an empty room with benches and skylight in the ceiling is lit by lights from above":
+                      - /url: /pin/237142736620297705/
+                  - generic "More actions" [ref=e838]:
+                    - button "More actions" [ref=e839] [cursor=pointer]:
+                      - img [ref=e842]
+          - listitem [ref=e844]:
+            - group "Pin card" [ref=e847]:
+              - generic [ref=e849]:
+                - link "a room with blue walls and a skylight in the middle is lit by lights" [ref=e852] [cursor=pointer]:
+                  - /url: /pin/69876231707448777/
+                  - img "a room with blue walls and a skylight in the middle is lit by lights" [ref=e862]
+                - generic [ref=e864]:
+                  - generic:
+                    - link "a room with blue walls and a skylight in the middle is lit by lights":
+                      - /url: /pin/69876231707448777/
+                  - generic "More actions" [ref=e871]:
+                    - button "More actions" [ref=e872] [cursor=pointer]:
+                      - img [ref=e875]
+          - listitem [ref=e877]:
+            - group "Pin card" [ref=e880]:
+              - generic [ref=e882]:
+                - link "an empty room with pink and purple lights on the walls, in front of a black background" [ref=e885] [cursor=pointer]:
+                  - /url: /pin/272397477442771721/
+                  - img "an empty room with pink and purple lights on the walls, in front of a black background" [ref=e895]
+                - generic [ref=e897]:
+                  - generic:
+                    - link "an empty room with pink and purple lights on the walls, in front of a black background":
+                      - /url: /pin/272397477442771721/
+                  - generic "More actions" [ref=e904]:
+                    - button "More actions" [ref=e905] [cursor=pointer]:
+                      - img [ref=e908]
+          - listitem [ref=e910]:
+            - group "Pin card" [ref=e913]:
+              - generic [ref=e915]:
+                - link "four people standing in the middle of a pink and blue room, looking at something" [ref=e918] [cursor=pointer]:
+                  - /url: /pin/578642252159072571/
+                  - img "four people standing in the middle of a pink and blue room, looking at something" [ref=e928]
+                - generic [ref=e930]:
+                  - generic:
+                    - link "four people standing in the middle of a pink and blue room, looking at something":
+                      - /url: /pin/578642252159072571/
+                  - generic "More actions" [ref=e937]:
+                    - button "More actions" [ref=e938] [cursor=pointer]:
+                      - img [ref=e941]
+          - listitem [ref=e943]:
+            - generic [ref=e944]:
+              - generic [ref=e950]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e952]:
+                - generic [ref=e954]:
+                  - link "an outdoor bar lit up with blue lights" [ref=e957] [cursor=pointer]:
+                    - /url: /pin/359725088982895628/
+                    - img "an outdoor bar lit up with blue lights" [ref=e967]
+                  - generic [ref=e969]:
+                    - generic:
+                      - link "an outdoor bar lit up with blue lights":
+                        - /url: /pin/359725088982895628/
+                    - generic "More actions" [ref=e976]:
+                      - button "More actions" [ref=e977] [cursor=pointer]:
+                        - img [ref=e980]
+          - listitem [ref=e982]:
+            - group "Pin card" [ref=e985]:
+              - generic [ref=e987]:
+                - link "two pictures one with stairs and the other with blue light" [ref=e990] [cursor=pointer]:
+                  - /url: /pin/202450945720186993/
+                  - img "two pictures one with stairs and the other with blue light" [ref=e1000]
+                - generic [ref=e1002]:
+                  - generic:
+                    - link "two pictures one with stairs and the other with blue light":
+                      - /url: /pin/202450945720186993/
+                  - generic "More actions" [ref=e1009]:
+                    - button "More actions" [ref=e1010] [cursor=pointer]:
+                      - img [ref=e1013]
+          - listitem [ref=e1015]:
+            - group "Pin card" [ref=e1018]:
+              - generic [ref=e1020]:
+                - link "people are sitting and standing in front of a large circular room with blue lights on the ceiling" [ref=e1023] [cursor=pointer]:
+                  - /url: /pin/103231016451810419/
+                  - img "people are sitting and standing in front of a large circular room with blue lights on the ceiling" [ref=e1033]
+                - generic [ref=e1035]:
+                  - generic:
+                    - link "people are sitting and standing in front of a large circular room with blue lights on the ceiling":
+                      - /url: /pin/103231016451810419/
+                  - generic "More actions" [ref=e1042]:
+                    - button "More actions" [ref=e1043] [cursor=pointer]:
+                      - img [ref=e1046]
+          - listitem [ref=e1048]:
+            - group "Pin card" [ref=e1051]:
+              - generic [ref=e1053]:
+                - link "an image of stairs going up to the sky with a blue oval in the middle" [ref=e1056] [cursor=pointer]:
+                  - /url: /pin/148900331420708079/
+                  - img "an image of stairs going up to the sky with a blue oval in the middle" [ref=e1066]
+                - generic [ref=e1068]:
+                  - generic:
+                    - link "an image of stairs going up to the sky with a blue oval in the middle":
+                      - /url: /pin/148900331420708079/
+                  - generic "More actions" [ref=e1075]:
+                    - button "More actions" [ref=e1076] [cursor=pointer]:
+                      - img [ref=e1079]
+          - listitem [ref=e1081]:
+            - group "Pin card" [ref=e1084]:
+              - generic [ref=e1086]:
+                - link "the cover of james turrell's new book" [ref=e1089] [cursor=pointer]:
+                  - /url: /pin/157696424442995106/
+                  - img "the cover of james turrell's new book" [ref=e1099]
+                - generic [ref=e1101]:
+                  - generic:
+                    - link "the cover of james turrell's new book":
+                      - /url: /pin/157696424442995106/
+                  - button "The New York Times" [ref=e1105] [cursor=pointer]:
+                    - generic [ref=e1107]:
+                      - button "The New York Times" [ref=e1110]:
+                        - generic "The New York Times" [ref=e1111]
+                      - generic "More actions" [ref=e1115]:
+                        - button "More actions" [ref=e1116]:
+                          - img [ref=e1119]
+          - listitem [ref=e1121]:
+            - generic [ref=e1122]:
+              - generic [ref=e1128]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1130]:
+                - generic [ref=e1132]:
+                  - link "people are laying on the floor in front of a circular ceiling with light coming through it" [ref=e1135] [cursor=pointer]:
+                    - /url: /pin/85427724160632562/
+                    - img "people are laying on the floor in front of a circular ceiling with light coming through it" [ref=e1145]
+                  - generic [ref=e1147]:
+                    - generic:
+                      - link "people are laying on the floor in front of a circular ceiling with light coming through it":
+                        - /url: /pin/85427724160632562/
+                    - generic "More actions" [ref=e1154]:
+                      - button "More actions" [ref=e1155] [cursor=pointer]:
+                        - img [ref=e1158]
+          - listitem [ref=e1160]:
+            - generic [ref=e1161]:
+              - generic [ref=e1167]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1169]:
+                - generic [ref=e1171]:
+                  - link "an archway with stairs leading up to it and pink light coming from the doorways" [ref=e1174] [cursor=pointer]:
+                    - /url: /pin/216243219601151225/
+                    - img "an archway with stairs leading up to it and pink light coming from the doorways" [ref=e1184]
+                  - generic [ref=e1186]:
+                    - generic:
+                      - link "an archway with stairs leading up to it and pink light coming from the doorways":
+                        - /url: /pin/216243219601151225/
+                    - generic "More actions" [ref=e1193]:
+                      - button "More actions" [ref=e1194] [cursor=pointer]:
+                        - img [ref=e1197]
+          - listitem [ref=e1199]:
+            - generic [ref=e1200]:
+              - generic [ref=e1206]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1208]:
+                - generic [ref=e1210]:
+                  - link "a person standing in front of a blue and pink background with the light at the end" [ref=e1213] [cursor=pointer]:
+                    - /url: /pin/815292338832559544/
+                    - img "a person standing in front of a blue and pink background with the light at the end" [ref=e1223]
+                  - generic [ref=e1225]:
+                    - generic:
+                      - link "a person standing in front of a blue and pink background with the light at the end":
+                        - /url: /pin/815292338832559544/
+                    - generic "More actions" [ref=e1232]:
+                      - button "More actions" [ref=e1233] [cursor=pointer]:
+                        - img [ref=e1236]
+          - listitem [ref=e1238]:
+            - generic [ref=e1239]:
+              - generic [ref=e1245]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1247]:
+                - generic [ref=e1249]:
+                  - link "a group of people standing on top of a stage under a purple lit skylight" [ref=e1252] [cursor=pointer]:
+                    - /url: /pin/591730838547197129/
+                    - img "a group of people standing on top of a stage under a purple lit skylight" [ref=e1262]
+                  - generic [ref=e1264]:
+                    - generic:
+                      - link "a group of people standing on top of a stage under a purple lit skylight":
+                        - /url: /pin/591730838547197129/
+                    - button "VICE Magazine" [ref=e1268] [cursor=pointer]:
+                      - generic [ref=e1270]:
+                        - button "VICE Magazine" [ref=e1273]:
+                          - generic "VICE Magazine" [ref=e1274]
+                        - generic "More actions" [ref=e1278]:
+                          - button "More actions" [ref=e1279]:
+                            - img [ref=e1282]
+          - listitem [ref=e1284]:
+            - generic [ref=e1285]:
+              - generic [ref=e1291]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1293]:
+                - generic [ref=e1295]:
+                  - link "a person standing in the middle of a room with a bright light coming through it" [ref=e1298] [cursor=pointer]:
+                    - /url: /pin/1337074888365130/
+                    - img "a person standing in the middle of a room with a bright light coming through it" [ref=e1308]
+                  - generic [ref=e1310]:
+                    - generic:
+                      - link "a person standing in the middle of a room with a bright light coming through it":
+                        - /url: /pin/1337074888365130/
+                    - generic "More actions" [ref=e1317]:
+                      - button "More actions" [ref=e1318] [cursor=pointer]:
+                        - img [ref=e1321]
+          - listitem [ref=e1323]:
+            - generic [ref=e1324]:
+              - generic [ref=e1330]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1332]:
+                - generic [ref=e1334]:
+                  - link "a person standing in front of an orange and purple light with the sun behind them" [ref=e1337] [cursor=pointer]:
+                    - /url: /pin/108860515993338024/
+                    - img "a person standing in front of an orange and purple light with the sun behind them" [ref=e1347]
+                  - generic [ref=e1349]:
+                    - generic:
+                      - link "a person standing in front of an orange and purple light with the sun behind them":
+                        - /url: /pin/108860515993338024/
+                    - button "Vaincourt" [ref=e1353] [cursor=pointer]:
+                      - generic [ref=e1355]:
+                        - button "Vaincourt" [ref=e1358]:
+                          - generic "Vaincourt" [ref=e1359]
+                        - generic "More actions" [ref=e1363]:
+                          - button "More actions" [ref=e1364]:
+                            - img [ref=e1367]
+          - listitem [ref=e1369]:
+            - generic [ref=e1370]:
+              - generic [ref=e1376]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1378]:
+                - generic [ref=e1380]:
+                  - link "the inside of a building with a blue sky in the background" [ref=e1383] [cursor=pointer]:
+                    - /url: /pin/359302876541952578/
+                    - img "the inside of a building with a blue sky in the background" [ref=e1393]
+                  - generic [ref=e1395]:
+                    - generic:
+                      - link "the inside of a building with a blue sky in the background":
+                        - /url: /pin/359302876541952578/
+                    - generic "More actions" [ref=e1402]:
+                      - button "More actions" [ref=e1403] [cursor=pointer]:
+                        - img [ref=e1406]
+          - listitem [ref=e1408]:
+            - generic [ref=e1409]:
+              - generic [ref=e1415]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1417]:
+                - generic [ref=e1419]:
+                  - link "a man standing in front of a purple background with a large round object behind him" [ref=e1422] [cursor=pointer]:
+                    - /url: /pin/819655200970356198/
+                    - img "a man standing in front of a purple background with a large round object behind him" [ref=e1432]
+                  - generic [ref=e1434]:
+                    - generic:
+                      - link "a man standing in front of a purple background with a large round object behind him":
+                        - /url: /pin/819655200970356198/
+                    - generic "More actions" [ref=e1441]:
+                      - button "More actions" [ref=e1442] [cursor=pointer]:
+                        - img [ref=e1445]
+          - listitem [ref=e1447]:
+            - generic [ref=e1448]:
+              - generic [ref=e1454]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1456]:
+                - generic [ref=e1458]:
+                  - link "an empty room with light coming from the ceiling and shadows on the floor in front of it" [ref=e1461] [cursor=pointer]:
+                    - /url: /pin/340232946842975135/
+                    - img "an empty room with light coming from the ceiling and shadows on the floor in front of it" [ref=e1471]
+                  - generic [ref=e1473]:
+                    - generic:
+                      - link "an empty room with light coming from the ceiling and shadows on the floor in front of it":
+                        - /url: /pin/340232946842975135/
+                    - generic "More actions" [ref=e1480]:
+                      - button "More actions" [ref=e1481] [cursor=pointer]:
+                        - img [ref=e1484]
+          - listitem [ref=e1486]:
+            - generic [ref=e1487]:
+              - generic [ref=e1493]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1495]:
+                - generic [ref=e1497]:
+                  - link "the sky is shining brightly in this circular room" [ref=e1500] [cursor=pointer]:
+                    - /url: /pin/973199800703564137/
+                    - img "the sky is shining brightly in this circular room" [ref=e1510]
+                  - generic [ref=e1512]:
+                    - generic:
+                      - link "the sky is shining brightly in this circular room":
+                        - /url: /pin/973199800703564137/
+                    - generic "More actions" [ref=e1519]:
+                      - button "More actions" [ref=e1520] [cursor=pointer]:
+                        - img [ref=e1523]

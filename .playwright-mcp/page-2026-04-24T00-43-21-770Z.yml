@@ -1,0 +1,2727 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - link "Skip to content":
+      - /url: "#"
+      - generic [ref=e9] [cursor=pointer]: Skip to content
+    - generic [ref=e11]:
+      - generic [ref=e14]:
+        - generic:
+          - img "Search icon"
+        - generic [ref=e15]:
+          - combobox "Search" [ref=e16]
+          - generic:
+            - generic:
+              - generic:
+                - generic: Search for
+                - generic:
+                  - generic:
+                    - generic: au story chat
+                    - generic: messaging ui design
+                    - generic: interactive chat design inspiration
+                    - generic: chatbot interface design
+                    - generic: two smartphones with chat screens
+                    - generic: au story chat
+      - generic [ref=e26]:
+        - button "Log in" [ref=e28] [cursor=pointer]:
+          - generic [ref=e30]: Log in
+        - button "Sign up" [ref=e32] [cursor=pointer]:
+          - generic [ref=e34]: Sign up
+  - navigation [ref=e36]:
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - generic "Home" [ref=e43]:
+          - link "Home" [ref=e44] [cursor=pointer]:
+            - /url: /
+            - img [ref=e46]
+        - generic "Explore" [ref=e51]:
+          - link "Explore" [ref=e52] [cursor=pointer]:
+            - /url: /ideas
+            - img [ref=e54]
+        - generic "Shop" [ref=e59]:
+          - link "Shop" [ref=e60] [cursor=pointer]:
+            - /url: /shopping
+            - img [ref=e62]
+      - generic "More options" [ref=e66]:
+        - button "More options" [ref=e67] [cursor=pointer]:
+          - img [ref=e70]
+  - main [ref=e72]:
+    - list [ref=e1280]:
+      - listitem [ref=e1281]:
+        - generic [ref=e1288]:
+          - button "Click to make the most out of this idea with a free account the text message messages are being displayed on an iphone's screen, with two people talking to each other the text message messages are being displayed on an iphone's screen, with two people talking to each other Explore" [ref=e1290] [cursor=pointer]:
+            - generic [ref=e1296]:
+              - generic [ref=e1297]:
+                - button "Click to make the most out of this idea with a free account":
+                  - heading "Click to make the most out of this idea with a free account" [level=3] [ref=e1302]
+              - img "the text message messages are being displayed on an iphone's screen, with two people talking to each other" [ref=e1305]
+              - img "the text message messages are being displayed on an iphone's screen, with two people talking to each other" [ref=e1308]
+              - button "Explore" [ref=e1312]:
+                - button "Explore" [ref=e1314]:
+                  - img "Explore" [ref=e1317]
+          - generic [ref=e1322]:
+            - generic [ref=e1328]:
+              - generic [ref=e1330]:
+                - generic [ref=e1331]:
+                  - generic "React" [ref=e1333]:
+                    - button "React to pin" [ref=e1334] [cursor=pointer]:
+                      - img [ref=e1337]
+                  - generic [ref=e1340]: "4"
+                - generic "Share" [ref=e1345]:
+                  - button "Send" [ref=e1347] [cursor=pointer]:
+                    - img [ref=e1350]
+                - generic [ref=e1352]:
+                  - generic "More actions" [ref=e1354]:
+                    - button "More actions" [ref=e1355] [cursor=pointer]:
+                      - img [ref=e1358]
+                  - generic [ref=e1360]:
+                    - generic [ref=e1361]:
+                      - heading "More about this Pin" [level=2] [ref=e1362]
+                      - button "Close modal" [ref=e1364] [cursor=pointer]:
+                        - img [ref=e1367]
+                    - generic [ref=e1370]:
+                      - generic [ref=e1375]:
+                        - generic [ref=e1377]:
+                          - link "Explore" [ref=e1378] [cursor=pointer]:
+                            - /url: /ideas/
+                            - generic [ref=e1379]: Explore
+                          - img "breadcrumb arrow" [ref=e1382]
+                        - generic [ref=e1385]:
+                          - link "Design" [ref=e1386] [cursor=pointer]:
+                            - /url: /ideas/design/902065567321/
+                            - generic [ref=e1387]: Design
+                          - img "breadcrumb arrow" [ref=e1390]
+                        - link "Web And App Design" [ref=e1394] [cursor=pointer]:
+                          - /url: /ideas/web-and-app-design/939992763802/
+                          - generic [ref=e1395]: Web And App Design
+                      - generic [ref=e1398]:
+                        - generic:
+                          - heading "Board containing this Pin" [level=3]
+                        - generic:
+                          - link "Selected board cover image Worldpay 259 Pins 4mo":
+                            - /url: /ifourgenius/worldpay/
+                            - generic [ref=e1399] [cursor=pointer]:
+                              - img "Selected board cover image" [ref=e1403]
+                              - generic [ref=e1405]:
+                                - generic [ref=e1407]: Worldpay
+                                - generic [ref=e1409]:
+                                  - generic [ref=e1412]: 259 Pins
+                                  - generic [ref=e1414]: 4mo
+                      - generic [ref=e1417]:
+                        - generic:
+                          - heading "Related interests" [level=3]
+                        - generic [ref=e1418]:
+                          - link "Au Story Chat" [ref=e1422] [cursor=pointer]:
+                            - /url: /ideas/au-story-chat/901314883391/
+                          - link "Messaging Ui Design" [ref=e1426] [cursor=pointer]:
+                            - /url: /ideas/messaging-ui-design/954123435545/
+                          - link "Interactive Chat Design Inspiration" [ref=e1430] [cursor=pointer]:
+                            - /url: /ideas/interactive-chat-design-inspiration/908861276938/
+                          - link "Chatbot Interface Design" [ref=e1434] [cursor=pointer]:
+                            - /url: /ideas/chatbot-interface-design/899206686766/
+                          - link "Two Smartphones With Chat Screens" [ref=e1438] [cursor=pointer]:
+                            - /url: /ideas/two-smartphones-with-chat-screens/902723991275/
+                          - link "Messenger Chat Template" [ref=e1442] [cursor=pointer]:
+                            - /url: /ideas/messenger-chat-template/906261806602/
+                          - link "Chat Bot Ui Design" [ref=e1446] [cursor=pointer]:
+                            - /url: /ideas/chat-bot-ui-design/944399104192/
+                          - link "Chatting Ui" [ref=e1450] [cursor=pointer]:
+                            - /url: /ideas/chatting-ui/959086722147/
+                          - link "Text Message Ui" [ref=e1454] [cursor=pointer]:
+                            - /url: /ideas/text-message-ui/949128124303/
+              - link "Pin" [ref=e1462] [cursor=pointer]:
+                - /url: /pin/23503229301378634/repin/
+                - button "Pin" [ref=e1463]:
+                  - button "Pin" [ref=e1464]:
+                    - generic [ref=e1466]: Save
+            - generic [ref=e1467]:
+              - heading "Au Story Chat" [level=1] [ref=e1472]
+              - generic [ref=e1475]:
+                - link "taps1710" [ref=e1477] [cursor=pointer]:
+                  - /url: /taps1710/
+                  - img "taps1710" [ref=e1482]
+                - link "Trupti Pawnikar" [ref=e1484] [cursor=pointer]:
+                  - /url: /taps1710/
+                  - generic "Trupti Pawnikar" [ref=e1487]
+            - heading "Comments" [level=2] [ref=e1489]
+            - generic [ref=e1497]:
+              - generic [ref=e1499]:
+                - button [ref=e1501]
+                - generic [ref=e1505]:
+                  - generic:
+                    - generic: Add a comment
+                  - combobox "Add a comment" [ref=e1507]
+              - generic [ref=e1513]:
+                - button "Select an emoji" [ref=e1515] [cursor=pointer]:
+                  - img [ref=e1518]
+                - button "Select a sticker" [ref=e1521] [cursor=pointer]:
+                  - img [ref=e1524]
+                - button "Select a photo" [ref=e1528] [cursor=pointer]:
+                  - img [ref=e1531]
+      - listitem [ref=e1533]
+      - listitem [ref=e1534]:
+        - button "Pin card" [ref=e1536] [cursor=pointer]:
+          - group "Pin card" [ref=e1538]:
+            - generic [ref=e1540]:
+              - generic [ref=e1541]:
+                - link "someone is holding up a tube of sunscreen for the camera and it's caption" [ref=e1543]:
+                  - /url: /pin/985231165264529/
+                - generic [ref=e1553]:
+                  - generic [ref=e1554]:
+                    - heading "More about this Pin" [level=2] [ref=e1555]
+                    - button "Close modal" [ref=e1557]:
+                      - img [ref=e1560]
+                  - generic [ref=e1563]:
+                    - generic [ref=e1565]:
+                      - generic [ref=e1566]:
+                        - generic [ref=e1567]: 3.8k
+                        - generic [ref=e1568]: Saves
+                      - generic [ref=e1569]:
+                        - generic [ref=e1570]: "65"
+                        - generic [ref=e1571]: Likes
+                      - generic [ref=e1572]:
+                        - generic [ref=e1573]: "374"
+                        - generic [ref=e1574]: Shares
+                    - generic [ref=e1577]:
+                      - generic:
+                        - heading "Board containing this Pin" [level=3]
+                      - generic:
+                        - link "Selected board cover image The Breath Co 11 Pins 2mo":
+                          - /url: /carlotasanper22/the-breath-co/
+                          - generic [ref=e1578]:
+                            - img "Selected board cover image" [ref=e1582]
+                            - generic [ref=e1584]:
+                              - generic [ref=e1586]: The Breath Co
+                              - generic [ref=e1588]:
+                                - generic [ref=e1591]: 11 Pins
+                                - generic [ref=e1593]: 2mo
+                    - generic [ref=e1596]:
+                      - generic:
+                        - heading "Related interests" [level=3]
+                      - generic [ref=e1597]:
+                        - link "Acne Ad" [ref=e1601]:
+                          - /url: /ideas/acne-ad/941961912705/
+                        - link "Static Ads Ideas" [ref=e1605]:
+                          - /url: /ideas/static-ads-ideas/911477936978/
+                        - link "Witty Ads" [ref=e1609]:
+                          - /url: /ideas/witty-ads/895175988870/
+                        - link "Testimonial Ad" [ref=e1613]:
+                          - /url: /ideas/testimonial-ad/928658640196/
+                        - link "Text Highlight Design" [ref=e1617]:
+                          - /url: /ideas/text-highlight-design/938280022549/
+                        - link "New Product Ads" [ref=e1621]:
+                          - /url: /ideas/new-product-ads/949066616889/
+                        - link "Clean Social Media Design" [ref=e1625]:
+                          - /url: /ideas/clean-social-media-design/928201757558/
+                        - link "Creative Static Ads" [ref=e1629]:
+                          - /url: /ideas/creative-static-ads/922188946004/
+                        - link "Print Ads Creative" [ref=e1633]:
+                          - /url: /ideas/print-ads-creative/911501195490/
+              - generic [ref=e1635]:
+                - generic:
+                  - link "someone is holding up a tube of sunscreen for the camera and it's caption":
+                    - /url: /pin/985231165264529/
+                - generic [ref=e1642]:
+                  - button "Ours is Beyond Basic sunscreen" [ref=e1645]:
+                    - generic "Ours is Beyond Basic sunscreen" [ref=e1646]
+                  - generic [ref=e1648]:
+                    - generic "More actions" [ref=e1650]:
+                      - button "More actions" [ref=e1651]:
+                        - img [ref=e1654]
+                    - generic [ref=e1656]:
+                      - generic [ref=e1657]:
+                        - heading "More about this Pin" [level=2] [ref=e1658]
+                        - button "Close modal" [ref=e1660]:
+                          - img [ref=e1663]
+                      - generic [ref=e1666]:
+                        - generic [ref=e1668]:
+                          - generic [ref=e1669]:
+                            - generic [ref=e1670]: 3.8k
+                            - generic [ref=e1671]: Saves
+                          - generic [ref=e1672]:
+                            - generic [ref=e1673]: "65"
+                            - generic [ref=e1674]: Likes
+                          - generic [ref=e1675]:
+                            - generic [ref=e1676]: "374"
+                            - generic [ref=e1677]: Shares
+                        - generic [ref=e1680]:
+                          - generic:
+                            - heading "Board containing this Pin" [level=3]
+                          - generic:
+                            - link "Selected board cover image The Breath Co 11 Pins 2mo":
+                              - /url: /carlotasanper22/the-breath-co/
+                              - generic [ref=e1681]:
+                                - img "Selected board cover image" [ref=e1685]
+                                - generic [ref=e1687]:
+                                  - generic [ref=e1689]: The Breath Co
+                                  - generic [ref=e1691]:
+                                    - generic [ref=e1694]: 11 Pins
+                                    - generic [ref=e1696]: 2mo
+                        - generic [ref=e1699]:
+                          - generic:
+                            - heading "Related interests" [level=3]
+                          - generic [ref=e1700]:
+                            - link "Acne Ad" [ref=e1704]:
+                              - /url: /ideas/acne-ad/941961912705/
+                            - link "Static Ads Ideas" [ref=e1708]:
+                              - /url: /ideas/static-ads-ideas/911477936978/
+                            - link "Witty Ads" [ref=e1712]:
+                              - /url: /ideas/witty-ads/895175988870/
+                            - link "Testimonial Ad" [ref=e1716]:
+                              - /url: /ideas/testimonial-ad/928658640196/
+                            - link "Text Highlight Design" [ref=e1720]:
+                              - /url: /ideas/text-highlight-design/938280022549/
+                            - link "New Product Ads" [ref=e1724]:
+                              - /url: /ideas/new-product-ads/949066616889/
+                            - link "Clean Social Media Design" [ref=e1728]:
+                              - /url: /ideas/clean-social-media-design/928201757558/
+                            - link "Creative Static Ads" [ref=e1732]:
+                              - /url: /ideas/creative-static-ads/922188946004/
+                            - link "Print Ads Creative" [ref=e1736]:
+                              - /url: /ideas/print-ads-creative/911501195490/
+      - listitem [ref=e1737]:
+        - button "Pin card" [ref=e1739] [cursor=pointer]:
+          - group "Pin card" [ref=e1741]:
+            - generic [ref=e1743]:
+              - generic [ref=e1744]:
+                - link "three folders in a black holder on a white background" [ref=e1746]:
+                  - /url: /pin/633387444216376/
+                - generic [ref=e1756]:
+                  - generic [ref=e1757]:
+                    - heading "More about this Pin" [level=2] [ref=e1758]
+                    - button "Close modal" [ref=e1760]:
+                      - img [ref=e1763]
+                  - generic [ref=e1766]:
+                    - generic [ref=e1768]:
+                      - generic [ref=e1769]:
+                        - generic [ref=e1770]: 8k
+                        - generic [ref=e1771]: Saves
+                      - generic [ref=e1772]:
+                        - generic [ref=e1773]: "606"
+                        - generic [ref=e1774]: Likes
+                      - generic [ref=e1775]:
+                        - generic [ref=e1776]: "131"
+                        - generic [ref=e1777]: Shares
+                    - generic [ref=e1780]:
+                      - generic:
+                        - heading "Board containing this Pin" [level=3]
+                      - generic:
+                        - link "Selected board cover image Clean Graphic Design 92 Pins 3w":
+                          - /url: /joellebump/clean-graphic-design/
+                          - generic [ref=e1781]:
+                            - img "Selected board cover image" [ref=e1785]
+                            - generic [ref=e1787]:
+                              - generic [ref=e1789]: Clean Graphic Design
+                              - generic [ref=e1791]:
+                                - generic [ref=e1794]: 92 Pins
+                                - generic [ref=e1796]: 3w
+                    - generic [ref=e1799]:
+                      - generic:
+                        - heading "Related interests" [level=3]
+                      - generic [ref=e1800]:
+                        - link "Macos Folder Icon Png" [ref=e1804]:
+                          - /url: /ideas/macos-folder-icon-png/933556503744/
+                        - link "Document Paper Icon" [ref=e1808]:
+                          - /url: /ideas/document-paper-icon/929771399460/
+                        - link "File 3d Icon" [ref=e1812]:
+                          - /url: /ideas/file-3d-icon/901853602130/
+                        - link "Canva Icons Png" [ref=e1816]:
+                          - /url: /ideas/canva-icons-png/928328606438/
+                        - link "Content Icons" [ref=e1820]:
+                          - /url: /ideas/content-icons/961774887006/
+                        - link "Folder Design Inspo" [ref=e1824]:
+                          - /url: /ideas/folder-design-inspo/915159039624/
+                        - link "Folder 3d Icon" [ref=e1828]:
+                          - /url: /ideas/folder-3d-icon/924389906083/
+                        - link "Interface Png" [ref=e1832]:
+                          - /url: /ideas/interface-png/937475295061/
+                        - link "File Explorer Icon" [ref=e1836]:
+                          - /url: /ideas/file-explorer-icon/956647008321/
+              - generic [ref=e1838]:
+                - generic:
+                  - link "three folders in a black holder on a white background":
+                    - /url: /pin/633387444216376/
+                - generic [ref=e1845]:
+                  - generic "More actions" [ref=e1847]:
+                    - button "More actions" [ref=e1848]:
+                      - img [ref=e1851]
+                  - generic [ref=e1853]:
+                    - generic [ref=e1854]:
+                      - heading "More about this Pin" [level=2] [ref=e1855]
+                      - button "Close modal" [ref=e1857]:
+                        - img [ref=e1860]
+                    - generic [ref=e1863]:
+                      - generic [ref=e1865]:
+                        - generic [ref=e1866]:
+                          - generic [ref=e1867]: 8k
+                          - generic [ref=e1868]: Saves
+                        - generic [ref=e1869]:
+                          - generic [ref=e1870]: "606"
+                          - generic [ref=e1871]: Likes
+                        - generic [ref=e1872]:
+                          - generic [ref=e1873]: "131"
+                          - generic [ref=e1874]: Shares
+                      - generic [ref=e1877]:
+                        - generic:
+                          - heading "Board containing this Pin" [level=3]
+                        - generic:
+                          - link "Selected board cover image Clean Graphic Design 92 Pins 3w":
+                            - /url: /joellebump/clean-graphic-design/
+                            - generic [ref=e1878]:
+                              - img "Selected board cover image" [ref=e1882]
+                              - generic [ref=e1884]:
+                                - generic [ref=e1886]: Clean Graphic Design
+                                - generic [ref=e1888]:
+                                  - generic [ref=e1891]: 92 Pins
+                                  - generic [ref=e1893]: 3w
+                      - generic [ref=e1896]:
+                        - generic:
+                          - heading "Related interests" [level=3]
+                        - generic [ref=e1897]:
+                          - link "Macos Folder Icon Png" [ref=e1901]:
+                            - /url: /ideas/macos-folder-icon-png/933556503744/
+                          - link "Document Paper Icon" [ref=e1905]:
+                            - /url: /ideas/document-paper-icon/929771399460/
+                          - link "File 3d Icon" [ref=e1909]:
+                            - /url: /ideas/file-3d-icon/901853602130/
+                          - link "Canva Icons Png" [ref=e1913]:
+                            - /url: /ideas/canva-icons-png/928328606438/
+                          - link "Content Icons" [ref=e1917]:
+                            - /url: /ideas/content-icons/961774887006/
+                          - link "Folder Design Inspo" [ref=e1921]:
+                            - /url: /ideas/folder-design-inspo/915159039624/
+                          - link "Folder 3d Icon" [ref=e1925]:
+                            - /url: /ideas/folder-3d-icon/924389906083/
+                          - link "Interface Png" [ref=e1929]:
+                            - /url: /ideas/interface-png/937475295061/
+                          - link "File Explorer Icon" [ref=e1933]:
+                            - /url: /ideas/file-explorer-icon/956647008321/
+      - listitem [ref=e1934]:
+        - button "Pin card" [ref=e1936] [cursor=pointer]:
+          - group "Pin card" [ref=e1938]:
+            - generic [ref=e1940]:
+              - generic [ref=e1941]:
+                - link "an iphone with conversation bubbles on the screen" [ref=e1943]:
+                  - /url: /pin/4433299629897605/
+                - generic [ref=e1953]:
+                  - generic [ref=e1954]:
+                    - heading "More about this Pin" [level=2] [ref=e1955]
+                    - button "Close modal" [ref=e1957]:
+                      - img [ref=e1960]
+                  - generic [ref=e1963]:
+                    - generic [ref=e1965]:
+                      - generic [ref=e1966]:
+                        - generic [ref=e1967]: "709"
+                        - generic [ref=e1968]: Saves
+                      - generic [ref=e1969]:
+                        - generic [ref=e1970]: "8"
+                        - generic [ref=e1971]: Likes
+                      - generic [ref=e1972]:
+                        - generic [ref=e1973]: "4"
+                        - generic [ref=e1974]: Shares
+                    - generic [ref=e1977]:
+                      - generic:
+                        - heading "Board containing this Pin" [level=3]
+                      - generic:
+                        - link "Selected board cover image Flyer 23 Pins 7mo":
+                          - /url: /jucharpentier/flyer/
+                          - generic [ref=e1978]:
+                            - img "Selected board cover image" [ref=e1982]
+                            - generic [ref=e1984]:
+                              - generic [ref=e1986]: Flyer
+                              - generic [ref=e1988]:
+                                - generic [ref=e1991]: 23 Pins
+                                - generic [ref=e1993]: 7mo
+                    - generic [ref=e1996]:
+                      - generic:
+                        - heading "Related interests" [level=3]
+                      - generic [ref=e1997]:
+                        - link "Messaging App Branding Ideas" [ref=e2001]:
+                          - /url: /ideas/messaging-app-branding-ideas/925132050590/
+                        - link "Conversation Design" [ref=e2005]:
+                          - /url: /ideas/conversation-design/921113436046/
+                        - link "Ux Posters" [ref=e2009]:
+                          - /url: /ideas/ux-posters/903795262644/
+                        - link "Ui Interaction Ideas" [ref=e2013]:
+                          - /url: /ideas/ui-interaction-ideas/909598597157/
+                        - link "Design Communication App Logo" [ref=e2017]:
+                          - /url: /ideas/design-communication-app-logo/956187143725/
+                        - link "Conversation Graphic Design" [ref=e2021]:
+                          - /url: /ideas/conversation-graphic-design/904234960532/
+                        - link "Conversation Poster" [ref=e2025]:
+                          - /url: /ideas/conversation-poster/954248687166/
+                        - link "Conversation Graphic" [ref=e2029]:
+                          - /url: /ideas/conversation-graphic/931089781666/
+                        - link "Social Experience Design @ Interaction 13" [ref=e2033]:
+                          - /url: /ideas/social-experience-design-@-interaction-13/916761328783/
+              - generic [ref=e2035]:
+                - generic:
+                  - link "an iphone with conversation bubbles on the screen":
+                    - /url: /pin/4433299629897605/
+                - generic [ref=e2042]:
+                  - generic "More actions" [ref=e2044]:
+                    - button "More actions" [ref=e2045]:
+                      - img [ref=e2048]
+                  - generic [ref=e2050]:
+                    - generic [ref=e2051]:
+                      - heading "More about this Pin" [level=2] [ref=e2052]
+                      - button "Close modal" [ref=e2054]:
+                        - img [ref=e2057]
+                    - generic [ref=e2060]:
+                      - generic [ref=e2062]:
+                        - generic [ref=e2063]:
+                          - generic [ref=e2064]: "709"
+                          - generic [ref=e2065]: Saves
+                        - generic [ref=e2066]:
+                          - generic [ref=e2067]: "8"
+                          - generic [ref=e2068]: Likes
+                        - generic [ref=e2069]:
+                          - generic [ref=e2070]: "4"
+                          - generic [ref=e2071]: Shares
+                      - generic [ref=e2074]:
+                        - generic:
+                          - heading "Board containing this Pin" [level=3]
+                        - generic:
+                          - link "Selected board cover image Flyer 23 Pins 7mo":
+                            - /url: /jucharpentier/flyer/
+                            - generic [ref=e2075]:
+                              - img "Selected board cover image" [ref=e2079]
+                              - generic [ref=e2081]:
+                                - generic [ref=e2083]: Flyer
+                                - generic [ref=e2085]:
+                                  - generic [ref=e2088]: 23 Pins
+                                  - generic [ref=e2090]: 7mo
+                      - generic [ref=e2093]:
+                        - generic:
+                          - heading "Related interests" [level=3]
+                        - generic [ref=e2094]:
+                          - link "Messaging App Branding Ideas" [ref=e2098]:
+                            - /url: /ideas/messaging-app-branding-ideas/925132050590/
+                          - link "Conversation Design" [ref=e2102]:
+                            - /url: /ideas/conversation-design/921113436046/
+                          - link "Ux Posters" [ref=e2106]:
+                            - /url: /ideas/ux-posters/903795262644/
+                          - link "Ui Interaction Ideas" [ref=e2110]:
+                            - /url: /ideas/ui-interaction-ideas/909598597157/
+                          - link "Design Communication App Logo" [ref=e2114]:
+                            - /url: /ideas/design-communication-app-logo/956187143725/
+                          - link "Conversation Graphic Design" [ref=e2118]:
+                            - /url: /ideas/conversation-graphic-design/904234960532/
+                          - link "Conversation Poster" [ref=e2122]:
+                            - /url: /ideas/conversation-poster/954248687166/
+                          - link "Conversation Graphic" [ref=e2126]:
+                            - /url: /ideas/conversation-graphic/931089781666/
+                          - link "Social Experience Design @ Interaction 13" [ref=e2130]:
+                            - /url: /ideas/social-experience-design-@-interaction-13/916761328783/
+      - listitem [ref=e2131]:
+        - button "Pin card" [ref=e2133] [cursor=pointer]:
+          - group "Pin card" [ref=e2135]:
+            - generic [ref=e2137]:
+              - generic [ref=e2138]:
+                - link "two chat bubbles with the text welcome to the chat on one side and the message'finally i'll send everyone photos from the concert last night" [ref=e2140]:
+                  - /url: /pin/2674081025983898/
+                - generic [ref=e2150]:
+                  - generic [ref=e2151]:
+                    - heading "More about this Pin" [level=2] [ref=e2152]
+                    - button "Close modal" [ref=e2154]:
+                      - img [ref=e2157]
+                  - generic [ref=e2160]:
+                    - generic [ref=e2162]:
+                      - generic [ref=e2163]:
+                        - generic [ref=e2164]: "64"
+                        - generic [ref=e2165]: Saves
+                      - generic [ref=e2166]:
+                        - generic [ref=e2167]: "2"
+                        - generic [ref=e2168]: Likes
+                      - generic [ref=e2169]:
+                        - generic [ref=e2170]: "5"
+                        - generic [ref=e2171]: Shares
+                    - generic [ref=e2173]:
+                      - heading "Description" [level=3]
+                      - generic [ref=e2174]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: Build unstoppable teams equipped to do even more with the intuitive integrations of Galaxy Z Fold7.
+                    - generic [ref=e2177]:
+                      - generic:
+                        - heading "Board containing this Pin" [level=3]
+                      - generic:
+                        - link "Selected board cover image UI Design 6.9k Pins 1d":
+                          - /url: /chan8728/ui-design/
+                          - generic [ref=e2178]:
+                            - img "Selected board cover image" [ref=e2182]
+                            - generic [ref=e2184]:
+                              - generic [ref=e2186]: UI Design
+                              - generic [ref=e2188]:
+                                - generic [ref=e2191]: 6.9k Pins
+                                - generic [ref=e2193]: 1d
+                    - generic [ref=e2196]:
+                      - generic:
+                        - heading "Related interests" [level=3]
+                      - generic [ref=e2197]:
+                        - link "Nature Logo Design" [ref=e2201]:
+                          - /url: /ideas/nature-logo-design/926583071396/
+                        - link "Mobile Ui Design" [ref=e2205]:
+                          - /url: /ideas/mobile-ui-design/941672389241/
+                        - link "Motion Design Video" [ref=e2209]:
+                          - /url: /ideas/motion-design-video/916628498362/
+                        - link "Phone Messages" [ref=e2213]:
+                          - /url: /ideas/phone-messages/952300048586/
+                        - link "Life App" [ref=e2217]:
+                          - /url: /ideas/life-app/955770716486/
+                        - link "Natural Logo" [ref=e2221]:
+                          - /url: /ideas/natural-logo/909784311923/
+                        - link "App Interface" [ref=e2225]:
+                          - /url: /ideas/app-interface/939406701865/
+                        - link "User Interface Design" [ref=e2229]:
+                          - /url: /ideas/user-interface-design/922546161300/
+                        - link "Identity Theft" [ref=e2233]:
+                          - /url: /ideas/identity-theft/924723514281/
+              - generic [ref=e2235]:
+                - generic:
+                  - link "two chat bubbles with the text welcome to the chat on one side and the message'finally i'll send everyone photos from the concert last night":
+                    - /url: /pin/2674081025983898/
+                - generic [ref=e2242]:
+                  - 'button "Samsung Galaxy Z Fold7: Prices, 3 Colors, Sizes, Features & Specs" [ref=e2245]':
+                    - 'generic "Samsung Galaxy Z Fold7: Prices, 3 Colors, Sizes, Features & Specs" [ref=e2246]'
+                  - generic [ref=e2248]:
+                    - generic "More actions" [ref=e2250]:
+                      - button "More actions" [ref=e2251]:
+                        - img [ref=e2254]
+                    - generic [ref=e2256]:
+                      - generic [ref=e2257]:
+                        - heading "More about this Pin" [level=2] [ref=e2258]
+                        - button "Close modal" [ref=e2260]:
+                          - img [ref=e2263]
+                      - generic [ref=e2266]:
+                        - generic [ref=e2268]:
+                          - generic [ref=e2269]:
+                            - generic [ref=e2270]: "64"
+                            - generic [ref=e2271]: Saves
+                          - generic [ref=e2272]:
+                            - generic [ref=e2273]: "2"
+                            - generic [ref=e2274]: Likes
+                          - generic [ref=e2275]:
+                            - generic [ref=e2276]: "5"
+                            - generic [ref=e2277]: Shares
+                        - generic [ref=e2279]:
+                          - heading "Description" [level=3]
+                          - generic [ref=e2280]:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic: Build unstoppable teams equipped to do even more with the intuitive integrations of Galaxy Z Fold7.
+                        - generic [ref=e2283]:
+                          - generic:
+                            - heading "Board containing this Pin" [level=3]
+                          - generic:
+                            - link "Selected board cover image UI Design 6.9k Pins 1d":
+                              - /url: /chan8728/ui-design/
+                              - generic [ref=e2284]:
+                                - img "Selected board cover image" [ref=e2288]
+                                - generic [ref=e2290]:
+                                  - generic [ref=e2292]: UI Design
+                                  - generic [ref=e2294]:
+                                    - generic [ref=e2297]: 6.9k Pins
+                                    - generic [ref=e2299]: 1d
+                        - generic [ref=e2302]:
+                          - generic:
+                            - heading "Related interests" [level=3]
+                          - generic [ref=e2303]:
+                            - link "Nature Logo Design" [ref=e2307]:
+                              - /url: /ideas/nature-logo-design/926583071396/
+                            - link "Mobile Ui Design" [ref=e2311]:
+                              - /url: /ideas/mobile-ui-design/941672389241/
+                            - link "Motion Design Video" [ref=e2315]:
+                              - /url: /ideas/motion-design-video/916628498362/
+                            - link "Phone Messages" [ref=e2319]:
+                              - /url: /ideas/phone-messages/952300048586/
+                            - link "Life App" [ref=e2323]:
+                              - /url: /ideas/life-app/955770716486/
+                            - link "Natural Logo" [ref=e2327]:
+                              - /url: /ideas/natural-logo/909784311923/
+                            - link "App Interface" [ref=e2331]:
+                              - /url: /ideas/app-interface/939406701865/
+                            - link "User Interface Design" [ref=e2335]:
+                              - /url: /ideas/user-interface-design/922546161300/
+                            - link "Identity Theft" [ref=e2339]:
+                              - /url: /ideas/identity-theft/924723514281/
+      - listitem [ref=e2340]:
+        - button "third-party-ad-slot Pin card" [ref=e2342] [cursor=pointer]:
+          - generic [ref=e2348]:
+            - region "third-party-ad-slot":
+              - region "3p-google-ad-slot"
+          - group "Pin card" [ref=e2350]:
+            - generic [ref=e2352]:
+              - generic [ref=e2353]:
+                - link "an iphone is being held up in front of a computer screen with the words good on it" [ref=e2355]:
+                  - /url: /pin/2462974793176017/
+                - generic [ref=e2368]:
+                  - generic [ref=e2369]:
+                    - heading "More about this Pin" [level=2] [ref=e2370]
+                    - button "Close modal" [ref=e2372]:
+                      - img [ref=e2375]
+                  - generic [ref=e2378]:
+                    - generic [ref=e2380]:
+                      - generic [ref=e2381]:
+                        - generic [ref=e2382]: 3.3k
+                        - generic [ref=e2383]: Saves
+                      - generic [ref=e2384]:
+                        - generic [ref=e2385]: "283"
+                        - generic [ref=e2386]: Likes
+                      - generic [ref=e2387]:
+                        - generic [ref=e2388]: "247"
+                        - generic [ref=e2389]: Shares
+                    - generic [ref=e2391]:
+                      - heading "Description" [level=3]
+                      - generic [ref=e2392]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic "Product Checkout Prototype for Flawle m-commerce app"
+                    - generic [ref=e2395]:
+                      - generic:
+                        - heading "Board containing this Pin" [level=3]
+                      - generic:
+                        - link "Selected board cover image Payment 117 Pins 1mo":
+                          - /url: /shahidihesam/payment/
+                          - generic [ref=e2396]:
+                            - img "Selected board cover image" [ref=e2400]
+                            - generic [ref=e2402]:
+                              - generic [ref=e2404]: Payment
+                              - generic [ref=e2406]:
+                                - generic [ref=e2409]: 117 Pins
+                                - generic [ref=e2411]: 1mo
+                    - generic [ref=e2414]:
+                      - generic:
+                        - heading "Related interests" [level=3]
+                      - generic [ref=e2415]:
+                        - link "Creative App Design" [ref=e2419]:
+                          - /url: /ideas/creative-app-design/907448618378/
+                        - link "Ui Design Tutorial" [ref=e2423]:
+                          - /url: /ideas/ui-design-tutorial/929813049476/
+                        - link "Desain Ux" [ref=e2427]:
+                          - /url: /ideas/desain-ux/910542540244/
+                        - link "Ux App Design" [ref=e2431]:
+                          - /url: /ideas/ux-app-design/897248938487/
+                        - link "Idle Game" [ref=e2435]:
+                          - /url: /ideas/idle-game/961626040106/
+                        - link "Ui Design Principles" [ref=e2439]:
+                          - /url: /ideas/ui-design-principles/952001585877/
+                        - link "Interactive Web Design" [ref=e2443]:
+                          - /url: /ideas/interactive-web-design/931990788859/
+                        - link "App Design Layout" [ref=e2447]:
+                          - /url: /ideas/app-design-layout/923294356380/
+                        - link "Mobile App Design Inspiration" [ref=e2451]:
+                          - /url: /ideas/mobile-app-design-inspiration/906544034722/
+              - generic [ref=e2453]:
+                - generic:
+                  - link "an iphone is being held up in front of a computer screen with the words good on it":
+                    - /url: /pin/2462974793176017/
+                - generic [ref=e2460]:
+                  - generic "More actions" [ref=e2462]:
+                    - button "More actions" [ref=e2463]:
+                      - img [ref=e2466]
+                  - generic [ref=e2468]:
+                    - generic [ref=e2469]:
+                      - heading "More about this Pin" [level=2] [ref=e2470]
+                      - button "Close modal" [ref=e2472]:
+                        - img [ref=e2475]
+                    - generic [ref=e2478]:
+                      - generic [ref=e2480]:
+                        - generic [ref=e2481]:
+                          - generic [ref=e2482]: 3.3k
+                          - generic [ref=e2483]: Saves
+                        - generic [ref=e2484]:
+                          - generic [ref=e2485]: "283"
+                          - generic [ref=e2486]: Likes
+                        - generic [ref=e2487]:
+                          - generic [ref=e2488]: "247"
+                          - generic [ref=e2489]: Shares
+                      - generic [ref=e2491]:
+                        - heading "Description" [level=3]
+                        - generic [ref=e2492]:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic "Product Checkout Prototype for Flawle m-commerce app"
+                      - generic [ref=e2495]:
+                        - generic:
+                          - heading "Board containing this Pin" [level=3]
+                        - generic:
+                          - link "Selected board cover image Payment 117 Pins 1mo":
+                            - /url: /shahidihesam/payment/
+                            - generic [ref=e2496]:
+                              - img "Selected board cover image" [ref=e2500]
+                              - generic [ref=e2502]:
+                                - generic [ref=e2504]: Payment
+                                - generic [ref=e2506]:
+                                  - generic [ref=e2509]: 117 Pins
+                                  - generic [ref=e2511]: 1mo
+                      - generic [ref=e2514]:
+                        - generic:
+                          - heading "Related interests" [level=3]
+                        - generic [ref=e2515]:
+                          - link "Creative App Design" [ref=e2519]:
+                            - /url: /ideas/creative-app-design/907448618378/
+                          - link "Ui Design Tutorial" [ref=e2523]:
+                            - /url: /ideas/ui-design-tutorial/929813049476/
+                          - link "Desain Ux" [ref=e2527]:
+                            - /url: /ideas/desain-ux/910542540244/
+                          - link "Ux App Design" [ref=e2531]:
+                            - /url: /ideas/ux-app-design/897248938487/
+                          - link "Idle Game" [ref=e2535]:
+                            - /url: /ideas/idle-game/961626040106/
+                          - link "Ui Design Principles" [ref=e2539]:
+                            - /url: /ideas/ui-design-principles/952001585877/
+                          - link "Interactive Web Design" [ref=e2543]:
+                            - /url: /ideas/interactive-web-design/931990788859/
+                          - link "App Design Layout" [ref=e2547]:
+                            - /url: /ideas/app-design-layout/923294356380/
+                          - link "Mobile App Design Inspiration" [ref=e2551]:
+                            - /url: /ideas/mobile-app-design-inspiration/906544034722/
+      - listitem [ref=e2552]:
+        - button "Pin card" [ref=e2554] [cursor=pointer]:
+          - group "Pin card" [ref=e2556]:
+            - generic [ref=e2558]:
+              - generic [ref=e2559]:
+                - link "two blue and white speech bubbles are shown" [ref=e2561]:
+                  - /url: /pin/messenger-content-creation-video--389983648998781099/
+                  - 'img "#content #iMessage #iphone #ipad #apple #text" [ref=e2577]'
+                - generic [ref=e2578]:
+                  - generic [ref=e2579]:
+                    - heading "More about this Pin" [level=2] [ref=e2580]
+                    - button "Close modal" [ref=e2582]:
+                      - img [ref=e2585]
+                  - generic [ref=e2588]:
+                    - generic [ref=e2590]:
+                      - generic [ref=e2591]:
+                        - generic [ref=e2592]: "60"
+                        - generic [ref=e2593]: Saves
+                      - generic [ref=e2594]:
+                        - generic [ref=e2595]: "7"
+                        - generic [ref=e2596]: Likes
+                      - generic [ref=e2597]:
+                        - generic [ref=e2598]: "89"
+                        - generic [ref=e2599]: Shares
+                    - generic [ref=e2601]:
+                      - heading "Description" [level=3]
+                      - generic [ref=e2602]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic "Messenger Content Creation Video"
+                              - generic:
+                                - generic:
+                                  - generic: "#content #iMessage #iphone #ipad #apple #text"
+                    - generic [ref=e2605]:
+                      - generic:
+                        - heading "Board containing this Pin" [level=3]
+                      - generic:
+                        - link "Selected board cover image Монтаж 338 Pins 1y":
+                          - /url: /chotkiperats/%d0%bc%d0%be%d0%bd%d1%82%d0%b0%d0%b6/
+                          - generic [ref=e2606]:
+                            - img "Selected board cover image" [ref=e2610]
+                            - generic [ref=e2612]:
+                              - generic [ref=e2614]: Монтаж
+                              - generic [ref=e2616]:
+                                - generic [ref=e2619]: 338 Pins
+                                - generic [ref=e2621]: 1y
+                    - generic [ref=e2624]:
+                      - generic:
+                        - heading "Related interests" [level=3]
+                      - generic [ref=e2625]:
+                        - link "Instagram Design Creative" [ref=e2629]:
+                          - /url: /ideas/instagram-design-creative/943999862918/
+                        - link "Youtube Design" [ref=e2633]:
+                          - /url: /ideas/youtube-design/937517717033/
+                        - link "Ig Post" [ref=e2637]:
+                          - /url: /ideas/ig-post/958253193126/
+                        - link "Social Media Page Design" [ref=e2641]:
+                          - /url: /ideas/social-media-page-design/894043754366/
+                        - link "Anime Scenery Wallpaper" [ref=e2645]:
+                          - /url: /ideas/anime-scenery-wallpaper/901695480235/
+                        - link "Content Creation" [ref=e2649]:
+                          - /url: /ideas/content-creation/915115366483/
+                        - link "Iphone Apps" [ref=e2653]:
+                          - /url: /ideas/iphone-apps/906465248693/
+                        - link "Text Posts" [ref=e2657]:
+                          - /url: /ideas/text-posts/951508516733/
+                        - link "Anime Scenery" [ref=e2661]:
+                          - /url: /ideas/anime-scenery/921383355284/
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic: 0:06
+              - generic [ref=e2663]:
+                - generic:
+                  - link "two blue and white speech bubbles are shown":
+                    - /url: /pin/messenger-content-creation-video--389983648998781099/
+                - generic [ref=e2672]:
+                  - generic "More actions" [ref=e2674]:
+                    - button "More actions" [ref=e2675]:
+                      - img [ref=e2678]
+                  - generic [ref=e2680]:
+                    - generic [ref=e2681]:
+                      - heading "More about this Pin" [level=2] [ref=e2682]
+                      - button "Close modal" [ref=e2684]:
+                        - img [ref=e2687]
+                    - generic [ref=e2690]:
+                      - generic [ref=e2692]:
+                        - generic [ref=e2693]:
+                          - generic [ref=e2694]: "60"
+                          - generic [ref=e2695]: Saves
+                        - generic [ref=e2696]:
+                          - generic [ref=e2697]: "7"
+                          - generic [ref=e2698]: Likes
+                        - generic [ref=e2699]:
+                          - generic [ref=e2700]: "89"
+                          - generic [ref=e2701]: Shares
+                      - generic [ref=e2703]:
+                        - heading "Description" [level=3]
+                        - generic [ref=e2704]:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic "Messenger Content Creation Video"
+                                - generic:
+                                  - generic:
+                                    - generic: "#content #iMessage #iphone #ipad #apple #text"
+                      - generic [ref=e2707]:
+                        - generic:
+                          - heading "Board containing this Pin" [level=3]
+                        - generic:
+                          - link "Selected board cover image Монтаж 338 Pins 1y":
+                            - /url: /chotkiperats/%d0%bc%d0%be%d0%bd%d1%82%d0%b0%d0%b6/
+                            - generic [ref=e2708]:
+                              - img "Selected board cover image" [ref=e2712]
+                              - generic [ref=e2714]:
+                                - generic [ref=e2716]: Монтаж
+                                - generic [ref=e2718]:
+                                  - generic [ref=e2721]: 338 Pins
+                                  - generic [ref=e2723]: 1y
+                      - generic [ref=e2726]:
+                        - generic:
+                          - heading "Related interests" [level=3]
+                        - generic [ref=e2727]:
+                          - link "Instagram Design Creative" [ref=e2731]:
+                            - /url: /ideas/instagram-design-creative/943999862918/
+                          - link "Youtube Design" [ref=e2735]:
+                            - /url: /ideas/youtube-design/937517717033/
+                          - link "Ig Post" [ref=e2739]:
+                            - /url: /ideas/ig-post/958253193126/
+                          - link "Social Media Page Design" [ref=e2743]:
+                            - /url: /ideas/social-media-page-design/894043754366/
+                          - link "Anime Scenery Wallpaper" [ref=e2747]:
+                            - /url: /ideas/anime-scenery-wallpaper/901695480235/
+                          - link "Content Creation" [ref=e2751]:
+                            - /url: /ideas/content-creation/915115366483/
+                          - link "Iphone Apps" [ref=e2755]:
+                            - /url: /ideas/iphone-apps/906465248693/
+                          - link "Text Posts" [ref=e2759]:
+                            - /url: /ideas/text-posts/951508516733/
+                          - link "Anime Scenery" [ref=e2763]:
+                            - /url: /ideas/anime-scenery/921383355284/
+      - listitem [ref=e2764]:
+        - button "Pin card" [ref=e2766] [cursor=pointer]:
+          - group "Pin card" [ref=e2768]:
+            - generic [ref=e2770]:
+              - generic [ref=e2771]:
+                - link "an apple logo with the words ask me anything" [ref=e2773]:
+                  - /url: /pin/81909286967185132/
+                - generic [ref=e2783]:
+                  - generic [ref=e2784]:
+                    - heading "More about this Pin" [level=2] [ref=e2785]
+                    - button "Close modal" [ref=e2787]:
+                      - img [ref=e2790]
+                  - generic [ref=e2793]:
+                    - generic [ref=e2795]:
+                      - generic [ref=e2796]:
+                        - generic [ref=e2797]: "86"
+                        - generic [ref=e2798]: Saves
+                      - generic [ref=e2799]:
+                        - generic [ref=e2800]: "1"
+                        - generic [ref=e2801]: Like
+                    - generic [ref=e2803]:
+                      - heading "Description" [level=3]
+                      - generic [ref=e2804]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: Gemini의 작동 원리를 알아보고 이미지 생성, Deep Research, 개인화 등 일상에 활력을 불어넣는 혁신적인 기능을 확인해 보세요.
+                    - generic [ref=e2807]:
+                      - generic:
+                        - heading "Board containing this Pin" [level=3]
+                      - generic:
+                        - link "Selected board cover image AI identity 3 Pins 2w":
+                          - /url: /davidmathevosyan/ai-identity/
+                          - generic [ref=e2808]:
+                            - img "Selected board cover image" [ref=e2812]
+                            - generic [ref=e2814]:
+                              - generic [ref=e2816]: AI identity
+                              - generic [ref=e2818]:
+                                - generic [ref=e2821]: 3 Pins
+                                - generic [ref=e2823]: 2w
+                    - generic [ref=e2826]:
+                      - generic:
+                        - heading "Related interests" [level=3]
+                      - generic [ref=e2827]:
+                        - link "Google Gemini Gif" [ref=e2831]:
+                          - /url: /ideas/google-gemini-gif/944165990134/
+                        - link "Gemini Branding" [ref=e2835]:
+                          - /url: /ideas/gemini-branding/943421140786/
+                        - link "Gemini Style" [ref=e2839]:
+                          - /url: /ideas/gemini-style/908419402164/
+                        - link "Practice Interview Questions" [ref=e2843]:
+                          - /url: /ideas/practice-interview-questions/933035079553/
+                        - link "Google Gemini" [ref=e2847]:
+                          - /url: /ideas/google-gemini/945551226218/
+                        - link "Apps For Teens" [ref=e2851]:
+                          - /url: /ideas/apps-for-teens/946493052510/
+                        - link "Best Character Names" [ref=e2855]:
+                          - /url: /ideas/best-character-names/935896819564/
+                        - link "Diagram Design" [ref=e2859]:
+                          - /url: /ideas/diagram-design/943553695768/
+                        - link "Create Picture" [ref=e2863]:
+                          - /url: /ideas/create-picture/913745142448/
+              - generic [ref=e2865]:
+                - generic:
+                  - link "an apple logo with the words ask me anything":
+                    - /url: /pin/81909286967185132/
+                - generic [ref=e2874]:
+                  - generic "More actions" [ref=e2876]:
+                    - button "More actions" [ref=e2877]:
+                      - img [ref=e2880]
+                  - generic [ref=e2882]:
+                    - generic [ref=e2883]:
+                      - heading "More about this Pin" [level=2] [ref=e2884]
+                      - button "Close modal" [ref=e2886]:
+                        - img [ref=e2889]
+                    - generic [ref=e2892]:
+                      - generic [ref=e2894]:
+                        - generic [ref=e2895]:
+                          - generic [ref=e2896]: "86"
+                          - generic [ref=e2897]: Saves
+                        - generic [ref=e2898]:
+                          - generic [ref=e2899]: "1"
+                          - generic [ref=e2900]: Like
+                      - generic [ref=e2902]:
+                        - heading "Description" [level=3]
+                        - generic [ref=e2903]:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic: Gemini의 작동 원리를 알아보고 이미지 생성, Deep Research, 개인화 등 일상에 활력을 불어넣는 혁신적인 기능을 확인해 보세요.
+                      - generic [ref=e2906]:
+                        - generic:
+                          - heading "Board containing this Pin" [level=3]
+                        - generic:
+                          - link "Selected board cover image AI identity 3 Pins 2w":
+                            - /url: /davidmathevosyan/ai-identity/
+                            - generic [ref=e2907]:
+                              - img "Selected board cover image" [ref=e2911]
+                              - generic [ref=e2913]:
+                                - generic [ref=e2915]: AI identity
+                                - generic [ref=e2917]:
+                                  - generic [ref=e2920]: 3 Pins
+                                  - generic [ref=e2922]: 2w
+                      - generic [ref=e2925]:
+                        - generic:
+                          - heading "Related interests" [level=3]
+                        - generic [ref=e2926]:
+                          - link "Google Gemini Gif" [ref=e2930]:
+                            - /url: /ideas/google-gemini-gif/944165990134/
+                          - link "Gemini Branding" [ref=e2934]:
+                            - /url: /ideas/gemini-branding/943421140786/
+                          - link "Gemini Style" [ref=e2938]:
+                            - /url: /ideas/gemini-style/908419402164/
+                          - link "Practice Interview Questions" [ref=e2942]:
+                            - /url: /ideas/practice-interview-questions/933035079553/
+                          - link "Google Gemini" [ref=e2946]:
+                            - /url: /ideas/google-gemini/945551226218/
+                          - link "Apps For Teens" [ref=e2950]:
+                            - /url: /ideas/apps-for-teens/946493052510/
+                          - link "Best Character Names" [ref=e2954]:
+                            - /url: /ideas/best-character-names/935896819564/
+                          - link "Diagram Design" [ref=e2958]:
+                            - /url: /ideas/diagram-design/943553695768/
+                          - link "Create Picture" [ref=e2962]:
+                            - /url: /ideas/create-picture/913745142448/
+      - listitem [ref=e2963]:
+        - button "Pin card" [ref=e2965] [cursor=pointer]:
+          - group "Pin card" [ref=e2967]:
+            - generic [ref=e2969]:
+              - generic [ref=e2970]:
+                - link "the app is designed to look like it has been created for someone's time" [ref=e2972]:
+                  - /url: /pin/844493674542239/
+                - generic [ref=e2982]:
+                  - generic [ref=e2983]:
+                    - heading "More about this Pin" [level=2] [ref=e2984]
+                    - button "Close modal" [ref=e2986]:
+                      - img [ref=e2989]
+                  - generic [ref=e2992]:
+                    - generic [ref=e2994]:
+                      - generic [ref=e2995]:
+                        - generic [ref=e2996]: 7.7k
+                        - generic [ref=e2997]: Saves
+                      - generic [ref=e2998]:
+                        - generic [ref=e2999]: "493"
+                        - generic [ref=e3000]: Likes
+                      - generic [ref=e3001]:
+                        - generic [ref=e3002]: "165"
+                        - generic [ref=e3003]: Shares
+                    - generic [ref=e3006]:
+                      - generic:
+                        - heading "Board containing this Pin" [level=3]
+                      - generic:
+                        - link "Selected board cover image Design inspiration | web + web apps 260 Pins 1mo":
+                          - /url: /measurableuplift/design-inspiration-web-%2b-web-apps/
+                          - generic [ref=e3007]:
+                            - img "Selected board cover image" [ref=e3011]
+                            - generic [ref=e3013]:
+                              - generic [ref=e3015]: Design inspiration | web + web apps
+                              - generic [ref=e3017]:
+                                - generic [ref=e3020]: 260 Pins
+                                - generic [ref=e3022]: 1mo
+                    - generic [ref=e3025]:
+                      - generic:
+                        - heading "Related interests" [level=3]
+                      - generic [ref=e3026]:
+                        - link "Minimalist Dashboard Ui Design" [ref=e3030]:
+                          - /url: /ideas/minimalist-dashboard-ui-design/938024238866/
+                        - link "Website App Design" [ref=e3034]:
+                          - /url: /ideas/website-app-design/939471530580/
+                        - link "Minimal Dashboard Ui" [ref=e3038]:
+                          - /url: /ideas/minimal-dashboard-ui/956148370050/
+                        - link "Data Dashboard Design" [ref=e3042]:
+                          - /url: /ideas/data-dashboard-design/959850858521/
+                        - link "Dashboard Page Design" [ref=e3046]:
+                          - /url: /ideas/dashboard-page-design/896049346575/
+                        - link "Modern App Design" [ref=e3050]:
+                          - /url: /ideas/modern-app-design/924853283199/
+                        - link "Sleek Dashboard Features" [ref=e3054]:
+                          - /url: /ideas/sleek-dashboard-features/952003146567/
+                        - link "Ui Dashboard Design" [ref=e3058]:
+                          - /url: /ideas/ui-dashboard-design/915987527840/
+                        - link "Minimalist Ui Design" [ref=e3062]:
+                          - /url: /ideas/minimalist-ui-design/945451243552/
+              - generic [ref=e3064]:
+                - generic:
+                  - link "the app is designed to look like it has been created for someone's time":
+                    - /url: /pin/844493674542239/
+                - generic [ref=e3071]:
+                  - generic "More actions" [ref=e3073]:
+                    - button "More actions" [ref=e3074]:
+                      - img [ref=e3077]
+                  - generic [ref=e3079]:
+                    - generic [ref=e3080]:
+                      - heading "More about this Pin" [level=2] [ref=e3081]
+                      - button "Close modal" [ref=e3083]:
+                        - img [ref=e3086]
+                    - generic [ref=e3089]:
+                      - generic [ref=e3091]:
+                        - generic [ref=e3092]:
+                          - generic [ref=e3093]: 7.7k
+                          - generic [ref=e3094]: Saves
+                        - generic [ref=e3095]:
+                          - generic [ref=e3096]: "493"
+                          - generic [ref=e3097]: Likes
+                        - generic [ref=e3098]:
+                          - generic [ref=e3099]: "165"
+                          - generic [ref=e3100]: Shares
+                      - generic [ref=e3103]:
+                        - generic:
+                          - heading "Board containing this Pin" [level=3]
+                        - generic:
+                          - link "Selected board cover image Design inspiration | web + web apps 260 Pins 1mo":
+                            - /url: /measurableuplift/design-inspiration-web-%2b-web-apps/
+                            - generic [ref=e3104]:
+                              - img "Selected board cover image" [ref=e3108]
+                              - generic [ref=e3110]:
+                                - generic [ref=e3112]: Design inspiration | web + web apps
+                                - generic [ref=e3114]:
+                                  - generic [ref=e3117]: 260 Pins
+                                  - generic [ref=e3119]: 1mo
+                      - generic [ref=e3122]:
+                        - generic:
+                          - heading "Related interests" [level=3]
+                        - generic [ref=e3123]:
+                          - link "Minimalist Dashboard Ui Design" [ref=e3127]:
+                            - /url: /ideas/minimalist-dashboard-ui-design/938024238866/
+                          - link "Website App Design" [ref=e3131]:
+                            - /url: /ideas/website-app-design/939471530580/
+                          - link "Minimal Dashboard Ui" [ref=e3135]:
+                            - /url: /ideas/minimal-dashboard-ui/956148370050/
+                          - link "Data Dashboard Design" [ref=e3139]:
+                            - /url: /ideas/data-dashboard-design/959850858521/
+                          - link "Dashboard Page Design" [ref=e3143]:
+                            - /url: /ideas/dashboard-page-design/896049346575/
+                          - link "Modern App Design" [ref=e3147]:
+                            - /url: /ideas/modern-app-design/924853283199/
+                          - link "Sleek Dashboard Features" [ref=e3151]:
+                            - /url: /ideas/sleek-dashboard-features/952003146567/
+                          - link "Ui Dashboard Design" [ref=e3155]:
+                            - /url: /ideas/ui-dashboard-design/915987527840/
+                          - link "Minimalist Ui Design" [ref=e3159]:
+                            - /url: /ideas/minimalist-ui-design/945451243552/
+      - listitem [ref=e3160]:
+        - button "Pin card" [ref=e3162] [cursor=pointer]:
+          - group "Pin card" [ref=e3164]:
+            - generic [ref=e3166]:
+              - generic [ref=e3167]:
+                - link "an image of two people talking to each other with text bubbles above them that says,'hey did you see the new friends at kawl kleen's faces?" [ref=e3169]:
+                  - /url: /pin/912964155745058314/
+                  - 'img "Candy vibes, but make it tee. Snag the Girly Pop Sweets for just $15 and flex that sweet side without saying a word. Perfect for chill days or when you wanna keep it lowkey but still fresh. #GirlyPopSweets #CandyVibes #SweetStyle #ChillFashion #StreetwearTrends #FashionForward #CasualVibes #TrendAlert #FreshLooks #KewlKweensTees" [ref=e3185]'
+                - generic [ref=e3186]:
+                  - generic [ref=e3187]:
+                    - heading "More about this Pin" [level=2] [ref=e3188]
+                    - button "Close modal" [ref=e3190]:
+                      - img [ref=e3193]
+                  - generic [ref=e3196]:
+                    - generic [ref=e3198]:
+                      - heading "Description" [level=3]
+                      - generic [ref=e3199]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic "Girly Pop Sweets Tee"
+                              - generic:
+                                - generic:
+                                  - generic: "Candy vibes, but make it tee. Snag the Girly Pop Sweets for just $15 and flex that sweet side without saying a word. Perfect for chill days or when you wanna keep it lowkey but still fresh. #GirlyPopSweets #CandyVibes #SweetStyle #ChillFashion #StreetwearTrends #FashionForward #CasualVibes #TrendAlert #FreshLooks #KewlKweensTees"
+                    - generic [ref=e3202]:
+                      - generic:
+                        - heading "Board containing this Pin" [level=3]
+                      - generic:
+                        - link "Selected board cover image Quick Saves 125 Pins 2mo":
+                          - /url: /charmantlefou/_quick_saves/
+                          - generic [ref=e3203]:
+                            - img "Selected board cover image" [ref=e3207]
+                            - generic [ref=e3209]:
+                              - generic [ref=e3211]: Quick Saves
+                              - generic [ref=e3213]:
+                                - generic [ref=e3216]: 125 Pins
+                                - generic [ref=e3218]: 2mo
+                    - generic [ref=e3221]:
+                      - generic:
+                        - heading "Related interests" [level=3]
+                      - generic [ref=e3222]:
+                        - link "Sweet Style" [ref=e3226]:
+                          - /url: /ideas/sweet-style/926499495494/
+                        - link "Fashion Forward" [ref=e3230]:
+                          - /url: /ideas/fashion-forward/914391799225/
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic: 0:14
+              - generic [ref=e3232]:
+                - generic:
+                  - link "an image of two people talking to each other with text bubbles above them that says,'hey did you see the new friends at kawl kleen's faces?":
+                    - /url: /pin/912964155745058314/
+                - generic [ref=e3241]:
+                  - generic "More actions" [ref=e3243]:
+                    - button "More actions" [ref=e3244]:
+                      - img [ref=e3247]
+                  - generic [ref=e3249]:
+                    - generic [ref=e3250]:
+                      - heading "More about this Pin" [level=2] [ref=e3251]
+                      - button "Close modal" [ref=e3253]:
+                        - img [ref=e3256]
+                    - generic [ref=e3259]:
+                      - generic [ref=e3261]:
+                        - heading "Description" [level=3]
+                        - generic [ref=e3262]:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic "Girly Pop Sweets Tee"
+                                - generic:
+                                  - generic:
+                                    - generic: "Candy vibes, but make it tee. Snag the Girly Pop Sweets for just $15 and flex that sweet side without saying a word. Perfect for chill days or when you wanna keep it lowkey but still fresh. #GirlyPopSweets #CandyVibes #SweetStyle #ChillFashion #StreetwearTrends #FashionForward #CasualVibes #TrendAlert #FreshLooks #KewlKweensTees"
+                      - generic [ref=e3265]:
+                        - generic:
+                          - heading "Board containing this Pin" [level=3]
+                        - generic:
+                          - link "Selected board cover image Quick Saves 125 Pins 2mo":
+                            - /url: /charmantlefou/_quick_saves/
+                            - generic [ref=e3266]:
+                              - img "Selected board cover image" [ref=e3270]
+                              - generic [ref=e3272]:
+                                - generic [ref=e3274]: Quick Saves
+                                - generic [ref=e3276]:
+                                  - generic [ref=e3279]: 125 Pins
+                                  - generic [ref=e3281]: 2mo
+                      - generic [ref=e3284]:
+                        - generic:
+                          - heading "Related interests" [level=3]
+                        - generic [ref=e3285]:
+                          - link "Sweet Style" [ref=e3289]:
+                            - /url: /ideas/sweet-style/926499495494/
+                          - link "Fashion Forward" [ref=e3293]:
+                            - /url: /ideas/fashion-forward/914391799225/
+      - listitem [ref=e3294]:
+        - button "third-party-ad-slot Pin card" [ref=e3296] [cursor=pointer]:
+          - generic [ref=e3302]:
+            - region "third-party-ad-slot":
+              - region "3p-google-ad-slot"
+          - group "Pin card" [ref=e3304]:
+            - generic [ref=e3306]:
+              - generic [ref=e3307]:
+                - link "an iphone screen with the text how are you feeling today? on it and two different icons" [ref=e3309]:
+                  - /url: /pin/3025924746708340/
+                - generic [ref=e3319]:
+                  - generic [ref=e3320]:
+                    - heading "More about this Pin" [level=2] [ref=e3321]
+                    - button "Close modal" [ref=e3323]:
+                      - img [ref=e3326]
+                  - generic [ref=e3329]:
+                    - generic [ref=e3331]:
+                      - generic [ref=e3332]:
+                        - generic [ref=e3333]: 3.5k
+                        - generic [ref=e3334]: Saves
+                      - generic [ref=e3335]:
+                        - generic [ref=e3336]: "79"
+                        - generic [ref=e3337]: Likes
+                      - generic [ref=e3338]:
+                        - generic [ref=e3339]: "11"
+                        - generic [ref=e3340]: Shares
+                    - generic [ref=e3343]:
+                      - generic:
+                        - heading "Board containing this Pin" [level=3]
+                      - generic:
+                        - link "Selected board cover image Humm 28 Pins 1mo":
+                          - /url: /saifislam804/humm/
+                          - generic [ref=e3344]:
+                            - img "Selected board cover image" [ref=e3348]
+                            - generic [ref=e3350]:
+                              - generic [ref=e3352]: Humm
+                              - generic [ref=e3354]:
+                                - generic [ref=e3357]: 28 Pins
+                                - generic [ref=e3359]: 1mo
+                    - generic [ref=e3362]:
+                      - generic:
+                        - heading "Related interests" [level=3]
+                      - generic [ref=e3363]:
+                        - link "Neumorphism Alarm Clock App" [ref=e3367]:
+                          - /url: /ideas/neumorphism-alarm-clock-app/943568619469/
+                        - link "Mood Tracker App Design" [ref=e3371]:
+                          - /url: /ideas/mood-tracker-app-design/898258299653/
+                        - link "Mood Tracker App" [ref=e3375]:
+                          - /url: /ideas/mood-tracker-app/948759934168/
+                        - link "Self-love Meditation App Interface" [ref=e3379]:
+                          - /url: /ideas/self-love-meditation-app-interface/946822017852/
+                        - link "Mental Health App" [ref=e3383]:
+                          - /url: /ideas/mental-health-app/898423893168/
+                        - link "Mood App" [ref=e3387]:
+                          - /url: /ideas/mood-app/932738496475/
+                        - link "Mental Health App Design" [ref=e3391]:
+                          - /url: /ideas/mental-health-app-design/895462616067/
+                        - link "Mental Health App Interface" [ref=e3395]:
+                          - /url: /ideas/mental-health-app-interface/921490413991/
+                        - link "Mental Health App Interface Design" [ref=e3399]:
+                          - /url: /ideas/mental-health-app-interface-design/949283611335/
+              - generic [ref=e3401]:
+                - generic:
+                  - link "an iphone screen with the text how are you feeling today? on it and two different icons":
+                    - /url: /pin/3025924746708340/
+                - generic [ref=e3408]:
+                  - button "Mood and mental health tracker app | UI concept" [ref=e3411]:
+                    - generic "Mood and mental health tracker app | UI concept" [ref=e3412]
+                  - generic [ref=e3414]:
+                    - generic "More actions" [ref=e3416]:
+                      - button "More actions" [ref=e3417]:
+                        - img [ref=e3420]
+                    - generic [ref=e3422]:
+                      - generic [ref=e3423]:
+                        - heading "More about this Pin" [level=2] [ref=e3424]
+                        - button "Close modal" [ref=e3426]:
+                          - img [ref=e3429]
+                      - generic [ref=e3432]:
+                        - generic [ref=e3434]:
+                          - generic [ref=e3435]:
+                            - generic [ref=e3436]: 3.5k
+                            - generic [ref=e3437]: Saves
+                          - generic [ref=e3438]:
+                            - generic [ref=e3439]: "79"
+                            - generic [ref=e3440]: Likes
+                          - generic [ref=e3441]:
+                            - generic [ref=e3442]: "11"
+                            - generic [ref=e3443]: Shares
+                        - generic [ref=e3446]:
+                          - generic:
+                            - heading "Board containing this Pin" [level=3]
+                          - generic:
+                            - link "Selected board cover image Humm 28 Pins 1mo":
+                              - /url: /saifislam804/humm/
+                              - generic [ref=e3447]:
+                                - img "Selected board cover image" [ref=e3451]
+                                - generic [ref=e3453]:
+                                  - generic [ref=e3455]: Humm
+                                  - generic [ref=e3457]:
+                                    - generic [ref=e3460]: 28 Pins
+                                    - generic [ref=e3462]: 1mo
+                        - generic [ref=e3465]:
+                          - generic:
+                            - heading "Related interests" [level=3]
+                          - generic [ref=e3466]:
+                            - link "Neumorphism Alarm Clock App" [ref=e3470]:
+                              - /url: /ideas/neumorphism-alarm-clock-app/943568619469/
+                            - link "Mood Tracker App Design" [ref=e3474]:
+                              - /url: /ideas/mood-tracker-app-design/898258299653/
+                            - link "Mood Tracker App" [ref=e3478]:
+                              - /url: /ideas/mood-tracker-app/948759934168/
+                            - link "Self-love Meditation App Interface" [ref=e3482]:
+                              - /url: /ideas/self-love-meditation-app-interface/946822017852/
+                            - link "Mental Health App" [ref=e3486]:
+                              - /url: /ideas/mental-health-app/898423893168/
+                            - link "Mood App" [ref=e3490]:
+                              - /url: /ideas/mood-app/932738496475/
+                            - link "Mental Health App Design" [ref=e3494]:
+                              - /url: /ideas/mental-health-app-design/895462616067/
+                            - link "Mental Health App Interface" [ref=e3498]:
+                              - /url: /ideas/mental-health-app-interface/921490413991/
+                            - link "Mental Health App Interface Design" [ref=e3502]:
+                              - /url: /ideas/mental-health-app-interface-design/949283611335/
+      - listitem [ref=e3503]:
+        - button "Pin card" [ref=e3505] [cursor=pointer]:
+          - group "Pin card" [ref=e3507]:
+            - generic [ref=e3509]:
+              - generic [ref=e3510]:
+                - link "two screens showing different types of typographs and the words bad vs good typograph" [ref=e3512]:
+                  - /url: /pin/703756189029430/
+                - generic [ref=e3522]:
+                  - generic [ref=e3523]:
+                    - heading "More about this Pin" [level=2] [ref=e3524]
+                    - button "Close modal" [ref=e3526]:
+                      - img [ref=e3529]
+                  - generic [ref=e3532]:
+                    - generic [ref=e3534]:
+                      - generic [ref=e3535]:
+                        - generic [ref=e3536]: 7.5k
+                        - generic [ref=e3537]: Saves
+                      - generic [ref=e3538]:
+                        - generic [ref=e3539]: "689"
+                        - generic [ref=e3540]: Likes
+                      - generic [ref=e3541]:
+                        - generic [ref=e3542]: "16"
+                        - generic [ref=e3543]: Shares
+                    - generic [ref=e3546]:
+                      - generic:
+                        - heading "Board containing this Pin" [level=3]
+                      - generic:
+                        - link "Selected board cover image landing page´s 1.1k Pins 1d":
+                          - /url: /alan_bls_03/landing-page-s/
+                          - generic [ref=e3547]:
+                            - img "Selected board cover image" [ref=e3551]
+                            - generic [ref=e3553]:
+                              - generic [ref=e3555]: landing page´s
+                              - generic [ref=e3557]:
+                                - generic [ref=e3560]: 1.1k Pins
+                                - generic [ref=e3562]: 1d
+                    - generic [ref=e3565]:
+                      - generic:
+                        - heading "Related interests" [level=3]
+                      - generic [ref=e3566]:
+                        - link "Rollup Design" [ref=e3570]:
+                          - /url: /ideas/rollup-design/930656854860/
+                        - link "Ui Design Tutorial" [ref=e3574]:
+                          - /url: /ideas/ui-design-tutorial/929813049476/
+                        - link "Desain Ux" [ref=e3578]:
+                          - /url: /ideas/desain-ux/910542540244/
+                        - link "Plans De Conception Web" [ref=e3582]:
+                          - /url: /ideas/plans-de-conception-web/901747123469/
+                        - link "Ux Design Principles" [ref=e3586]:
+                          - /url: /ideas/ux-design-principles/944943868549/
+                        - link "Ui Design Principles" [ref=e3590]:
+                          - /url: /ideas/ui-design-principles/952001585877/
+                        - link "Interactive Web Design" [ref=e3594]:
+                          - /url: /ideas/interactive-web-design/931990788859/
+                        - link "App Design Layout" [ref=e3598]:
+                          - /url: /ideas/app-design-layout/923294356380/
+                        - link "Graphic Design Tutorials Learning" [ref=e3602]:
+                          - /url: /ideas/graphic-design-tutorials-learning/915991591444/
+              - generic [ref=e3604]:
+                - generic:
+                  - link "two screens showing different types of typographs and the words bad vs good typograph":
+                    - /url: /pin/703756189029430/
+                - generic [ref=e3611]:
+                  - generic "More actions" [ref=e3613]:
+                    - button "More actions" [ref=e3614]:
+                      - img [ref=e3617]
+                  - generic [ref=e3619]:
+                    - generic [ref=e3620]:
+                      - heading "More about this Pin" [level=2] [ref=e3621]
+                      - button "Close modal" [ref=e3623]:
+                        - img [ref=e3626]
+                    - generic [ref=e3629]:
+                      - generic [ref=e3631]:
+                        - generic [ref=e3632]:
+                          - generic [ref=e3633]: 7.5k
+                          - generic [ref=e3634]: Saves
+                        - generic [ref=e3635]:
+                          - generic [ref=e3636]: "689"
+                          - generic [ref=e3637]: Likes
+                        - generic [ref=e3638]:
+                          - generic [ref=e3639]: "16"
+                          - generic [ref=e3640]: Shares
+                      - generic [ref=e3643]:
+                        - generic:
+                          - heading "Board containing this Pin" [level=3]
+                        - generic:
+                          - link "Selected board cover image landing page´s 1.1k Pins 1d":
+                            - /url: /alan_bls_03/landing-page-s/
+                            - generic [ref=e3644]:
+                              - img "Selected board cover image" [ref=e3648]
+                              - generic [ref=e3650]:
+                                - generic [ref=e3652]: landing page´s
+                                - generic [ref=e3654]:
+                                  - generic [ref=e3657]: 1.1k Pins
+                                  - generic [ref=e3659]: 1d
+                      - generic [ref=e3662]:
+                        - generic:
+                          - heading "Related interests" [level=3]
+                        - generic [ref=e3663]:
+                          - link "Rollup Design" [ref=e3667]:
+                            - /url: /ideas/rollup-design/930656854860/
+                          - link "Ui Design Tutorial" [ref=e3671]:
+                            - /url: /ideas/ui-design-tutorial/929813049476/
+                          - link "Desain Ux" [ref=e3675]:
+                            - /url: /ideas/desain-ux/910542540244/
+                          - link "Plans De Conception Web" [ref=e3679]:
+                            - /url: /ideas/plans-de-conception-web/901747123469/
+                          - link "Ux Design Principles" [ref=e3683]:
+                            - /url: /ideas/ux-design-principles/944943868549/
+                          - link "Ui Design Principles" [ref=e3687]:
+                            - /url: /ideas/ui-design-principles/952001585877/
+                          - link "Interactive Web Design" [ref=e3691]:
+                            - /url: /ideas/interactive-web-design/931990788859/
+                          - link "App Design Layout" [ref=e3695]:
+                            - /url: /ideas/app-design-layout/923294356380/
+                          - link "Graphic Design Tutorials Learning" [ref=e3699]:
+                            - /url: /ideas/graphic-design-tutorials-learning/915991591444/
+      - listitem [ref=e3700]:
+        - generic [ref=e3703]:
+          - heading "Explore related boards" [level=2] [ref=e3710]
+          - generic [ref=e3712]:
+            - button "View Next" [ref=e3716] [cursor=pointer]:
+              - img [ref=e3719]
+            - generic [ref=e3724]:
+              - group "Slide 1 of 9" [ref=e3725]:
+                - link "apotek Dwi Aja , 16 Pins , 2y" [ref=e3727] [cursor=pointer]:
+                  - /url: /ajad36297/apotek/
+                  - generic [ref=e3752]:
+                    - heading "apotek" [level=2] [ref=e3754]
+                    - generic [ref=e3758]: Dwi Aja
+                    - generic [ref=e3759]:
+                      - generic [ref=e3760]:
+                        - generic [ref=e3761]:
+                          - generic [ref=e3762]: ","
+                          - text: 16 Pins
+                        - generic [ref=e3764]: ·
+                      - generic [ref=e3767]:
+                        - generic [ref=e3768]: ","
+                        - text: 2y
+              - group "Slide 2 of 9" [ref=e3769]:
+                - link "design Very Average , 1.3k Pins , 1d" [ref=e3771] [cursor=pointer]:
+                  - /url: /rottenbreadd/design/
+                  - generic [ref=e3796]:
+                    - heading "design" [level=2] [ref=e3798]
+                    - generic [ref=e3802]: Very Average
+                    - generic [ref=e3803]:
+                      - generic [ref=e3804]:
+                        - generic [ref=e3805]:
+                          - generic [ref=e3806]: ","
+                          - text: 1.3k Pins
+                        - generic [ref=e3808]: ·
+                      - generic [ref=e3811]:
+                        - generic [ref=e3812]: ","
+                        - text: 1d
+              - group "Slide 3 of 9" [ref=e3813]:
+                - link "IxD/UI Manuel Bazán + 2 , 481 Pins , 1mo" [ref=e3815] [cursor=pointer]:
+                  - /url: /bazn1211/ixdui/
+                  - generic [ref=e3840]:
+                    - heading "IxD/UI" [level=2] [ref=e3842]
+                    - generic [ref=e3844]:
+                      - generic [ref=e3846]: Manuel Bazán
+                      - generic [ref=e3848]: + 2
+                    - generic [ref=e3849]:
+                      - generic [ref=e3850]:
+                        - generic [ref=e3851]:
+                          - generic [ref=e3852]: ","
+                          - text: 481 Pins
+                        - generic [ref=e3854]: ·
+                      - generic [ref=e3857]:
+                        - generic [ref=e3858]: ","
+                        - text: 1mo
+              - group "Slide 4 of 9" [ref=e3859]:
+                - link "Humann aesthetic Mansi Goenka , 16 Pins , 1y" [ref=e3861] [cursor=pointer]:
+                  - /url: /mansigoenka25/humann-aesthetic/
+                  - generic [ref=e3886]:
+                    - heading "Humann aesthetic" [level=2] [ref=e3888]
+                    - generic [ref=e3892]: Mansi Goenka
+                    - generic [ref=e3893]:
+                      - generic [ref=e3894]:
+                        - generic [ref=e3895]:
+                          - generic [ref=e3896]: ","
+                          - text: 16 Pins
+                        - generic [ref=e3898]: ·
+                      - generic [ref=e3901]:
+                        - generic [ref=e3902]: ","
+                        - text: 1y
+              - group "Slide 5 of 9" [ref=e3903]:
+                - link "Dirige.ai Andrey S , 43 Pins , 6mo" [ref=e3905] [cursor=pointer]:
+                  - /url: /andreysenes/dirigeai/
+                  - generic [ref=e3930]:
+                    - heading "Dirige.ai" [level=2] [ref=e3932]
+                    - generic [ref=e3936]: Andrey S
+                    - generic [ref=e3937]:
+                      - generic [ref=e3938]:
+                        - generic [ref=e3939]:
+                          - generic [ref=e3940]: ","
+                          - text: 43 Pins
+                        - generic [ref=e3942]: ·
+                      - generic [ref=e3945]:
+                        - generic [ref=e3946]: ","
+                        - text: 6mo
+              - group "Slide 6 of 9" [ref=e3947]:
+                - link "UI/UX inspiration Doźie.illustrator🦋 , 400 Pins , 2w" [ref=e3949] [cursor=pointer]:
+                  - /url: /dozieillustrator/uiux-inspiration/
+                  - generic [ref=e3974]:
+                    - heading "UI/UX inspiration" [level=2] [ref=e3976]
+                    - generic [ref=e3980]: Doźie.illustrator🦋
+                    - generic [ref=e3981]:
+                      - generic [ref=e3982]:
+                        - generic [ref=e3983]:
+                          - generic [ref=e3984]: ","
+                          - text: 400 Pins
+                        - generic [ref=e3986]: ·
+                      - generic [ref=e3989]:
+                        - generic [ref=e3990]: ","
+                        - text: 2w
+              - group "Slide 7 of 9" [ref=e3991]:
+                - link "ui Suhyun Jeong , 974 Pins , 2d" [ref=e3993] [cursor=pointer]:
+                  - /url: /jeong3177/ui/
+                  - generic [ref=e4018]:
+                    - heading "ui" [level=2] [ref=e4020]
+                    - generic [ref=e4024]: Suhyun Jeong
+                    - generic [ref=e4025]:
+                      - generic [ref=e4026]:
+                        - generic [ref=e4027]:
+                          - generic [ref=e4028]: ","
+                          - text: 974 Pins
+                        - generic [ref=e4030]: ·
+                      - generic [ref=e4033]:
+                        - generic [ref=e4034]: ","
+                        - text: 2d
+              - group "Slide 8 of 9" [ref=e4035]:
+                - link "flutter ui Jody , 1.5k Pins , 5d" [ref=e4037] [cursor=pointer]:
+                  - /url: /mojjo_jjojjo/flutter-ui/
+                  - generic [ref=e4062]:
+                    - heading "flutter ui" [level=2] [ref=e4064]
+                    - generic [ref=e4068]: Jody
+                    - generic [ref=e4069]:
+                      - generic [ref=e4070]:
+                        - generic [ref=e4071]:
+                          - generic [ref=e4072]: ","
+                          - text: 1.5k Pins
+                        - generic [ref=e4074]: ·
+                      - generic [ref=e4077]:
+                        - generic [ref=e4078]: ","
+                        - text: 5d
+              - group "Slide 9 of 9" [ref=e4079]:
+                - link "Boostpals Josephine Scanio + 1 , 35 Pins , 4mo" [ref=e4081] [cursor=pointer]:
+                  - /url: /josephinescanio/boostpals/
+                  - generic [ref=e4106]:
+                    - heading "Boostpals" [level=2] [ref=e4108]
+                    - generic [ref=e4110]:
+                      - generic [ref=e4112]: Josephine Scanio
+                      - generic [ref=e4114]: + 1
+                    - generic [ref=e4115]:
+                      - generic [ref=e4116]:
+                        - generic [ref=e4117]:
+                          - generic [ref=e4118]: ","
+                          - text: 35 Pins
+                        - generic [ref=e4120]: ·
+                      - generic [ref=e4123]:
+                        - generic [ref=e4124]: ","
+                        - text: 4mo
+      - listitem [ref=e4125]:
+        - button "Pin card" [ref=e4127] [cursor=pointer]:
+          - group "Pin card" [ref=e4129]:
+            - generic [ref=e4131]:
+              - generic [ref=e4132]:
+                - link "an orange and white cell phone with the quote it's overcast clouds with temp 38c outside" [ref=e4134]:
+                  - /url: /pin/theme-material-orange-kwgt-theming-our-phones--70437488483811/
+                - generic [ref=e4144]:
+                  - generic [ref=e4145]:
+                    - heading "More about this Pin" [level=2] [ref=e4146]
+                    - button "Close modal" [ref=e4148]:
+                      - img [ref=e4151]
+                  - generic [ref=e4154]:
+                    - generic [ref=e4156]:
+                      - generic [ref=e4157]:
+                        - generic [ref=e4158]: 3.5k
+                        - generic [ref=e4159]: Saves
+                      - generic [ref=e4160]:
+                        - generic [ref=e4161]: "179"
+                        - generic [ref=e4162]: Likes
+                      - generic [ref=e4163]:
+                        - generic [ref=e4164]: "74"
+                        - generic [ref=e4165]: Shares
+                    - generic [ref=e4168]:
+                      - generic:
+                        - heading "Board containing this Pin" [level=3]
+                      - generic:
+                        - link "Selected board cover image 회사소개서 49 Pins 5mo":
+                          - /url: /jjaeccoony/%ed%9a%8c%ec%82%ac%ec%86%8c%ea%b0%9c%ec%84%9c/
+                          - generic [ref=e4169]:
+                            - img "Selected board cover image" [ref=e4173]
+                            - generic [ref=e4175]:
+                              - generic [ref=e4177]: 회사소개서
+                              - generic [ref=e4179]:
+                                - generic [ref=e4182]: 49 Pins
+                                - generic [ref=e4184]: 5mo
+                    - generic [ref=e4187]:
+                      - generic:
+                        - heading "Related interests" [level=3]
+                      - generic [ref=e4188]:
+                        - link "Orange Phone Design" [ref=e4192]:
+                          - /url: /ideas/orange-phone-design/907375354790/
+                        - link "Orange-themed Widget Design On Phone" [ref=e4196]:
+                          - /url: /ideas/orange-themed-widget-design-on-phone/950487659171/
+                        - link "Orange Themed App Design" [ref=e4200]:
+                          - /url: /ideas/orange-themed-app-design/931321030723/
+                        - link "Orange Button Ui" [ref=e4204]:
+                          - /url: /ideas/orange-button-ui/951375873113/
+                        - link "Orange Smartphone Design" [ref=e4208]:
+                          - /url: /ideas/orange-smartphone-design/957026226019/
+                        - link "Orange App Interface" [ref=e4212]:
+                          - /url: /ideas/orange-app-interface/902032260530/
+                        - link "Orange Background App Interface" [ref=e4216]:
+                          - /url: /ideas/orange-background-app-interface/938108122954/
+                        - link "Kwgt Widgets Design" [ref=e4220]:
+                          - /url: /ideas/kwgt-widgets-design/938822782065/
+                        - link "Orange And White App Interface" [ref=e4224]:
+                          - /url: /ideas/orange-and-white-app-interface/956270399996/
+              - generic [ref=e4226]:
+                - generic:
+                  - link "an orange and white cell phone with the quote it's overcast clouds with temp 38c outside":
+                    - /url: /pin/theme-material-orange-kwgt-theming-our-phones--70437488483811/
+                - generic [ref=e4233]:
+                  - generic "More actions" [ref=e4235]:
+                    - button "More actions" [ref=e4236]:
+                      - img [ref=e4239]
+                  - generic [ref=e4241]:
+                    - generic [ref=e4242]:
+                      - heading "More about this Pin" [level=2] [ref=e4243]
+                      - button "Close modal" [ref=e4245]:
+                        - img [ref=e4248]
+                    - generic [ref=e4251]:
+                      - generic [ref=e4253]:
+                        - generic [ref=e4254]:
+                          - generic [ref=e4255]: 3.5k
+                          - generic [ref=e4256]: Saves
+                        - generic [ref=e4257]:
+                          - generic [ref=e4258]: "179"
+                          - generic [ref=e4259]: Likes
+                        - generic [ref=e4260]:
+                          - generic [ref=e4261]: "74"
+                          - generic [ref=e4262]: Shares
+                      - generic [ref=e4265]:
+                        - generic:
+                          - heading "Board containing this Pin" [level=3]
+                        - generic:
+                          - link "Selected board cover image 회사소개서 49 Pins 5mo":
+                            - /url: /jjaeccoony/%ed%9a%8c%ec%82%ac%ec%86%8c%ea%b0%9c%ec%84%9c/
+                            - generic [ref=e4266]:
+                              - img "Selected board cover image" [ref=e4270]
+                              - generic [ref=e4272]:
+                                - generic [ref=e4274]: 회사소개서
+                                - generic [ref=e4276]:
+                                  - generic [ref=e4279]: 49 Pins
+                                  - generic [ref=e4281]: 5mo
+                      - generic [ref=e4284]:
+                        - generic:
+                          - heading "Related interests" [level=3]
+                        - generic [ref=e4285]:
+                          - link "Orange Phone Design" [ref=e4289]:
+                            - /url: /ideas/orange-phone-design/907375354790/
+                          - link "Orange-themed Widget Design On Phone" [ref=e4293]:
+                            - /url: /ideas/orange-themed-widget-design-on-phone/950487659171/
+                          - link "Orange Themed App Design" [ref=e4297]:
+                            - /url: /ideas/orange-themed-app-design/931321030723/
+                          - link "Orange Button Ui" [ref=e4301]:
+                            - /url: /ideas/orange-button-ui/951375873113/
+                          - link "Orange Smartphone Design" [ref=e4305]:
+                            - /url: /ideas/orange-smartphone-design/957026226019/
+                          - link "Orange App Interface" [ref=e4309]:
+                            - /url: /ideas/orange-app-interface/902032260530/
+                          - link "Orange Background App Interface" [ref=e4313]:
+                            - /url: /ideas/orange-background-app-interface/938108122954/
+                          - link "Kwgt Widgets Design" [ref=e4317]:
+                            - /url: /ideas/kwgt-widgets-design/938822782065/
+                          - link "Orange And White App Interface" [ref=e4321]:
+                            - /url: /ideas/orange-and-white-app-interface/956270399996/
+      - listitem [ref=e4322]:
+        - button "Pin card" [ref=e4324] [cursor=pointer]:
+          - group "Pin card" [ref=e4326]:
+            - generic [ref=e4328]:
+              - generic [ref=e4329]:
+                - link "an image of a remote control with different buttons on the back and front side, as well as text" [ref=e4331]:
+                  - /url: /pin/844493676102913/
+                - generic [ref=e4341]:
+                  - generic [ref=e4342]:
+                    - heading "More about this Pin" [level=2] [ref=e4343]
+                    - button "Close modal" [ref=e4345]:
+                      - img [ref=e4348]
+                  - generic [ref=e4351]:
+                    - generic [ref=e4353]:
+                      - generic [ref=e4354]:
+                        - generic [ref=e4355]: 5.1k
+                        - generic [ref=e4356]: Saves
+                      - generic [ref=e4357]:
+                        - generic [ref=e4358]: "234"
+                        - generic [ref=e4359]: Likes
+                      - generic [ref=e4360]:
+                        - generic [ref=e4361]: "39"
+                        - generic [ref=e4362]: Shares
+                    - generic [ref=e4365]:
+                      - generic:
+                        - heading "Board containing this Pin" [level=3]
+                      - generic:
+                        - link "Selected board cover image Web design 772 Pins 1mo":
+                          - /url: /roy660ba/web-design/
+                          - generic [ref=e4366]:
+                            - img "Selected board cover image" [ref=e4370]
+                            - generic [ref=e4372]:
+                              - generic [ref=e4374]: Web design
+                              - generic [ref=e4376]:
+                                - generic [ref=e4379]: 772 Pins
+                                - generic [ref=e4381]: 1mo
+                    - generic [ref=e4384]:
+                      - generic:
+                        - heading "Related interests" [level=3]
+                      - generic [ref=e4385]:
+                        - link "Mobile Nav Bar" [ref=e4389]:
+                          - /url: /ideas/mobile-nav-bar/921917313327/
+                        - link "Dashboard Elements" [ref=e4393]:
+                          - /url: /ideas/dashboard-elements/918951421180/
+                        - link "File Management Ui Design" [ref=e4397]:
+                          - /url: /ideas/file-management-ui-design/900984641327/
+                        - link "Router Design" [ref=e4401]:
+                          - /url: /ideas/router-design/907770802354/
+                        - link "Application Interface" [ref=e4405]:
+                          - /url: /ideas/application-interface/913491111426/
+                        - link "Swipe Ui" [ref=e4409]:
+                          - /url: /ideas/swipe-ui/917167649226/
+                        - link "Sleek Ui" [ref=e4413]:
+                          - /url: /ideas/sleek-ui/908480758267/
+                        - link "Modern Ui Design" [ref=e4417]:
+                          - /url: /ideas/modern-ui-design/898290912194/
+                        - link "Ui Kit Design" [ref=e4421]:
+                          - /url: /ideas/ui-kit-design/895238330844/
+              - generic [ref=e4423]:
+                - generic:
+                  - link "an image of a remote control with different buttons on the back and front side, as well as text":
+                    - /url: /pin/844493676102913/
+                - generic [ref=e4430]:
+                  - button "Side Navigation" [ref=e4433]:
+                    - generic "Side Navigation" [ref=e4434]
+                  - generic [ref=e4436]:
+                    - generic "More actions" [ref=e4438]:
+                      - button "More actions" [ref=e4439]:
+                        - img [ref=e4442]
+                    - generic [ref=e4444]:
+                      - generic [ref=e4445]:
+                        - heading "More about this Pin" [level=2] [ref=e4446]
+                        - button "Close modal" [ref=e4448]:
+                          - img [ref=e4451]
+                      - generic [ref=e4454]:
+                        - generic [ref=e4456]:
+                          - generic [ref=e4457]:
+                            - generic [ref=e4458]: 5.1k
+                            - generic [ref=e4459]: Saves
+                          - generic [ref=e4460]:
+                            - generic [ref=e4461]: "234"
+                            - generic [ref=e4462]: Likes
+                          - generic [ref=e4463]:
+                            - generic [ref=e4464]: "39"
+                            - generic [ref=e4465]: Shares
+                        - generic [ref=e4468]:
+                          - generic:
+                            - heading "Board containing this Pin" [level=3]
+                          - generic:
+                            - link "Selected board cover image Web design 772 Pins 1mo":
+                              - /url: /roy660ba/web-design/
+                              - generic [ref=e4469]:
+                                - img "Selected board cover image" [ref=e4473]
+                                - generic [ref=e4475]:
+                                  - generic [ref=e4477]: Web design
+                                  - generic [ref=e4479]:
+                                    - generic [ref=e4482]: 772 Pins
+                                    - generic [ref=e4484]: 1mo
+                        - generic [ref=e4487]:
+                          - generic:
+                            - heading "Related interests" [level=3]
+                          - generic [ref=e4488]:
+                            - link "Mobile Nav Bar" [ref=e4492]:
+                              - /url: /ideas/mobile-nav-bar/921917313327/
+                            - link "Dashboard Elements" [ref=e4496]:
+                              - /url: /ideas/dashboard-elements/918951421180/
+                            - link "File Management Ui Design" [ref=e4500]:
+                              - /url: /ideas/file-management-ui-design/900984641327/
+                            - link "Router Design" [ref=e4504]:
+                              - /url: /ideas/router-design/907770802354/
+                            - link "Application Interface" [ref=e4508]:
+                              - /url: /ideas/application-interface/913491111426/
+                            - link "Swipe Ui" [ref=e4512]:
+                              - /url: /ideas/swipe-ui/917167649226/
+                            - link "Sleek Ui" [ref=e4516]:
+                              - /url: /ideas/sleek-ui/908480758267/
+                            - link "Modern Ui Design" [ref=e4520]:
+                              - /url: /ideas/modern-ui-design/898290912194/
+                            - link "Ui Kit Design" [ref=e4524]:
+                              - /url: /ideas/ui-kit-design/895238330844/
+      - listitem [ref=e4525]:
+        - button "third-party-ad-slot Pin card" [ref=e4527] [cursor=pointer]:
+          - generic [ref=e4533]:
+            - region "third-party-ad-slot":
+              - region "3p-google-ad-slot"
+          - group "Pin card" [ref=e4535]:
+            - generic [ref=e4537]:
+              - generic [ref=e4538]:
+                - link "a black and white poster with different types of buttons" [ref=e4540]:
+                  - /url: /pin/844493675856555/
+                  - img "This contains an image of:" [ref=e4556]
+                - generic [ref=e4557]:
+                  - generic [ref=e4558]:
+                    - heading "More about this Pin" [level=2] [ref=e4559]
+                    - button "Close modal" [ref=e4561]:
+                      - img [ref=e4564]
+                  - generic [ref=e4567]:
+                    - generic [ref=e4569]:
+                      - generic [ref=e4570]:
+                        - generic [ref=e4571]: 26.6k
+                        - generic [ref=e4572]: Saves
+                      - generic [ref=e4573]:
+                        - generic [ref=e4574]: 2.8k
+                        - generic [ref=e4575]: Likes
+                      - generic [ref=e4576]:
+                        - generic [ref=e4577]: "521"
+                        - generic [ref=e4578]: Shares
+                    - generic [ref=e4581]:
+                      - generic:
+                        - heading "Board containing this Pin" [level=3]
+                      - generic:
+                        - link "Selected board cover image design 772 Pins 1mo":
+                          - /url: /aniazhao/design/
+                          - generic [ref=e4582]:
+                            - img "Selected board cover image" [ref=e4586]
+                            - generic [ref=e4588]:
+                              - generic [ref=e4590]: design
+                              - generic [ref=e4592]:
+                                - generic [ref=e4595]: 772 Pins
+                                - generic [ref=e4597]: 1mo
+                    - generic [ref=e4600]:
+                      - generic:
+                        - heading "Related interests" [level=3]
+                      - generic [ref=e4601]:
+                        - link "Typing Indicator Gif" [ref=e4605]:
+                          - /url: /ideas/typing-indicator-gif/935869979321/
+                        - link "Svg Loaders" [ref=e4609]:
+                          - /url: /ideas/svg-loaders/942693736080/
+                        - link "Interactive Icons" [ref=e4613]:
+                          - /url: /ideas/interactive-icons/937869275145/
+                        - link "Format Icon" [ref=e4617]:
+                          - /url: /ideas/format-icon/900048409995/
+                        - link "Coding Animated Gif" [ref=e4621]:
+                          - /url: /ideas/coding-animated-gif/916451319042/
+                        - link "Awesome Web Design" [ref=e4625]:
+                          - /url: /ideas/awesome-web-design/916904571530/
+                        - link "Loading Icons" [ref=e4629]:
+                          - /url: /ideas/loading-icons/954178038111/
+                        - link "Load Icon" [ref=e4633]:
+                          - /url: /ideas/load-icon/902087118544/
+                        - link "Animated Loader" [ref=e4637]:
+                          - /url: /ideas/animated-loader/960203337300/
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic: 0:10
+              - generic [ref=e4639]:
+                - generic:
+                  - link "a black and white poster with different types of buttons":
+                    - /url: /pin/844493675856555/
+                - generic [ref=e4646]:
+                  - generic "More actions" [ref=e4648]:
+                    - button "More actions" [ref=e4649]:
+                      - img [ref=e4652]
+                  - generic [ref=e4654]:
+                    - generic [ref=e4655]:
+                      - heading "More about this Pin" [level=2] [ref=e4656]
+                      - button "Close modal" [ref=e4658]:
+                        - img [ref=e4661]
+                    - generic [ref=e4664]:
+                      - generic [ref=e4666]:
+                        - generic [ref=e4667]:
+                          - generic [ref=e4668]: 26.6k
+                          - generic [ref=e4669]: Saves
+                        - generic [ref=e4670]:
+                          - generic [ref=e4671]: 2.8k
+                          - generic [ref=e4672]: Likes
+                        - generic [ref=e4673]:
+                          - generic [ref=e4674]: "521"
+                          - generic [ref=e4675]: Shares
+                      - generic [ref=e4678]:
+                        - generic:
+                          - heading "Board containing this Pin" [level=3]
+                        - generic:
+                          - link "Selected board cover image design 772 Pins 1mo":
+                            - /url: /aniazhao/design/
+                            - generic [ref=e4679]:
+                              - img "Selected board cover image" [ref=e4683]
+                              - generic [ref=e4685]:
+                                - generic [ref=e4687]: design
+                                - generic [ref=e4689]:
+                                  - generic [ref=e4692]: 772 Pins
+                                  - generic [ref=e4694]: 1mo
+                      - generic [ref=e4697]:
+                        - generic:
+                          - heading "Related interests" [level=3]
+                        - generic [ref=e4698]:
+                          - link "Typing Indicator Gif" [ref=e4702]:
+                            - /url: /ideas/typing-indicator-gif/935869979321/
+                          - link "Svg Loaders" [ref=e4706]:
+                            - /url: /ideas/svg-loaders/942693736080/
+                          - link "Interactive Icons" [ref=e4710]:
+                            - /url: /ideas/interactive-icons/937869275145/
+                          - link "Format Icon" [ref=e4714]:
+                            - /url: /ideas/format-icon/900048409995/
+                          - link "Coding Animated Gif" [ref=e4718]:
+                            - /url: /ideas/coding-animated-gif/916451319042/
+                          - link "Awesome Web Design" [ref=e4722]:
+                            - /url: /ideas/awesome-web-design/916904571530/
+                          - link "Loading Icons" [ref=e4726]:
+                            - /url: /ideas/loading-icons/954178038111/
+                          - link "Load Icon" [ref=e4730]:
+                            - /url: /ideas/load-icon/902087118544/
+                          - link "Animated Loader" [ref=e4734]:
+                            - /url: /ideas/animated-loader/960203337300/
+      - listitem [ref=e4735]:
+        - button "third-party-ad-slot Pin card" [ref=e4737] [cursor=pointer]:
+          - generic [ref=e4743]:
+            - region "third-party-ad-slot":
+              - region "3p-google-ad-slot"
+          - group "Pin card" [ref=e4745]:
+            - generic [ref=e4747]:
+              - generic [ref=e4748]:
+                - link "the screen is showing an image of a woman's face and text that reads marine bettyue" [ref=e4750]:
+                  - /url: /pin/290130401019467982/
+                - generic [ref=e4760]:
+                  - generic [ref=e4761]:
+                    - heading "More about this Pin" [level=2] [ref=e4762]
+                    - button "Close modal" [ref=e4764]:
+                      - img [ref=e4767]
+                  - generic [ref=e4770]:
+                    - generic [ref=e4772]:
+                      - generic [ref=e4773]:
+                        - generic [ref=e4774]: "33"
+                        - generic [ref=e4775]: Saves
+                      - generic [ref=e4776]:
+                        - generic [ref=e4777]: "1"
+                        - generic [ref=e4778]: Like
+                    - generic [ref=e4780]:
+                      - heading "Description" [level=3]
+                      - generic [ref=e4781]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "🚀 Dive into the mind of Ho3ein (@mhmoradii) on X! 🧠 Explore cutting-edge ideas, insightful commentary, and thought-provoking content. Follow for a daily dose of inspiration and innovation. You won't want to miss what he shares next! #Ho3ein #X #DigitalExplorer #Innovation #ThoughtLeadership #MustFollow"
+                    - generic [ref=e4784]:
+                      - generic:
+                        - heading "Board containing this Pin" [level=3]
+                      - generic:
+                        - link "Selected board cover image Newsfeed 41 Pins 3w":
+                          - /url: /zooshme/newsfeed/
+                          - generic [ref=e4785]:
+                            - img "Selected board cover image" [ref=e4789]
+                            - generic [ref=e4791]:
+                              - generic [ref=e4793]: Newsfeed
+                              - generic [ref=e4795]:
+                                - generic [ref=e4798]: 41 Pins
+                                - generic [ref=e4800]: 3w
+                    - generic [ref=e4803]:
+                      - generic:
+                        - heading "Related interests" [level=3]
+                      - generic [ref=e4804]:
+                        - link "Contact Us Page Images" [ref=e4808]:
+                          - /url: /ideas/contact-us-page-images/903643800150/
+                        - link "Instagram Job Post" [ref=e4812]:
+                          - /url: /ideas/instagram-job-post/903953279588/
+                        - link "Send Message Ui" [ref=e4816]:
+                          - /url: /ideas/send-message-ui/915237083615/
+                        - link "Social Media Profile Mockup" [ref=e4820]:
+                          - /url: /ideas/social-media-profile-mockup/939787100243/
+                        - link "Iit Poster" [ref=e4824]:
+                          - /url: /ideas/iit-poster/961484756637/
+                        - link "Person Card Ui" [ref=e4828]:
+                          - /url: /ideas/person-card-ui/939836812454/
+                        - link "Service Cards Ui" [ref=e4832]:
+                          - /url: /ideas/service-cards-ui/960315537970/
+                        - link "Selfie Design" [ref=e4836]:
+                          - /url: /ideas/selfie-design/960513798713/
+                        - link "Add Photo Ui" [ref=e4840]:
+                          - /url: /ideas/add-photo-ui/921366089118/
+              - generic [ref=e4842]:
+                - generic:
+                  - link "the screen is showing an image of a woman's face and text that reads marine bettyue":
+                    - /url: /pin/290130401019467982/
+                - generic [ref=e4849]:
+                  - button "👽 Ho3ein's X Profile (@mhmoradii)" [ref=e4852]:
+                    - generic "👽 Ho3ein's X Profile (@mhmoradii)" [ref=e4853]
+                  - generic [ref=e4855]:
+                    - generic "More actions" [ref=e4857]:
+                      - button "More actions" [ref=e4858]:
+                        - img [ref=e4861]
+                    - generic [ref=e4863]:
+                      - generic [ref=e4864]:
+                        - heading "More about this Pin" [level=2] [ref=e4865]
+                        - button "Close modal" [ref=e4867]:
+                          - img [ref=e4870]
+                      - generic [ref=e4873]:
+                        - generic [ref=e4875]:
+                          - generic [ref=e4876]:
+                            - generic [ref=e4877]: "33"
+                            - generic [ref=e4878]: Saves
+                          - generic [ref=e4879]:
+                            - generic [ref=e4880]: "1"
+                            - generic [ref=e4881]: Like
+                        - generic [ref=e4883]:
+                          - heading "Description" [level=3]
+                          - generic [ref=e4884]:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic: "🚀 Dive into the mind of Ho3ein (@mhmoradii) on X! 🧠 Explore cutting-edge ideas, insightful commentary, and thought-provoking content. Follow for a daily dose of inspiration and innovation. You won't want to miss what he shares next! #Ho3ein #X #DigitalExplorer #Innovation #ThoughtLeadership #MustFollow"
+                        - generic [ref=e4887]:
+                          - generic:
+                            - heading "Board containing this Pin" [level=3]
+                          - generic:
+                            - link "Selected board cover image Newsfeed 41 Pins 3w":
+                              - /url: /zooshme/newsfeed/
+                              - generic [ref=e4888]:
+                                - img "Selected board cover image" [ref=e4892]
+                                - generic [ref=e4894]:
+                                  - generic [ref=e4896]: Newsfeed
+                                  - generic [ref=e4898]:
+                                    - generic [ref=e4901]: 41 Pins
+                                    - generic [ref=e4903]: 3w
+                        - generic [ref=e4906]:
+                          - generic:
+                            - heading "Related interests" [level=3]
+                          - generic [ref=e4907]:
+                            - link "Contact Us Page Images" [ref=e4911]:
+                              - /url: /ideas/contact-us-page-images/903643800150/
+                            - link "Instagram Job Post" [ref=e4915]:
+                              - /url: /ideas/instagram-job-post/903953279588/
+                            - link "Send Message Ui" [ref=e4919]:
+                              - /url: /ideas/send-message-ui/915237083615/
+                            - link "Social Media Profile Mockup" [ref=e4923]:
+                              - /url: /ideas/social-media-profile-mockup/939787100243/
+                            - link "Iit Poster" [ref=e4927]:
+                              - /url: /ideas/iit-poster/961484756637/
+                            - link "Person Card Ui" [ref=e4931]:
+                              - /url: /ideas/person-card-ui/939836812454/
+                            - link "Service Cards Ui" [ref=e4935]:
+                              - /url: /ideas/service-cards-ui/960315537970/
+                            - link "Selfie Design" [ref=e4939]:
+                              - /url: /ideas/selfie-design/960513798713/
+                            - link "Add Photo Ui" [ref=e4943]:
+                              - /url: /ideas/add-photo-ui/921366089118/
+      - listitem [ref=e4944]:
+        - generic [ref=e4948]:
+          - generic [ref=e4949]:
+            - generic [ref=e4951]: We think you’ll love these
+            - heading "Related Interests" [level=2] [ref=e4953]
+          - generic [ref=e4954]:
+            - link "Au Story Chat" [ref=e4958] [cursor=pointer]:
+              - /url: /ideas/au-story-chat/901314883391/
+              - generic "Au Story Chat" [ref=e4966]
+            - link "Messaging Ui Design" [ref=e4970] [cursor=pointer]:
+              - /url: /ideas/messaging-ui-design/954123435545/
+              - generic "Messaging Ui Design" [ref=e4978]
+            - link "Interactive Chat Design Inspiration" [ref=e4982] [cursor=pointer]:
+              - /url: /ideas/interactive-chat-design-inspiration/908861276938/
+              - generic "Interactive Chat Design Inspiration" [ref=e4990]
+            - link "Chatbot Interface Design" [ref=e4994] [cursor=pointer]:
+              - /url: /ideas/chatbot-interface-design/899206686766/
+              - generic "Chatbot Interface Design" [ref=e5002]
+            - link "Two Smartphones With Chat Screens" [ref=e5006] [cursor=pointer]:
+              - /url: /ideas/two-smartphones-with-chat-screens/902723991275/
+              - generic "Two Smartphones With Chat Screens" [ref=e5014]
+            - link "Messenger Chat Template" [ref=e5018] [cursor=pointer]:
+              - /url: /ideas/messenger-chat-template/906261806602/
+              - generic "Messenger Chat Template" [ref=e5026]
+      - listitem [ref=e5027]:
+        - button "third-party-ad-slot Pin card" [ref=e5029] [cursor=pointer]:
+          - generic [ref=e5035]:
+            - region "third-party-ad-slot":
+              - region "3p-google-ad-slot"
+          - group "Pin card" [ref=e5037]:
+            - generic [ref=e5039]:
+              - generic [ref=e5040]:
+                - link "two conversation bubbles with the words hey, you want to in them at google?" [ref=e5042]:
+                  - /url: /pin/106819822408644716/
+                - generic [ref=e5052]:
+                  - generic [ref=e5053]:
+                    - heading "More about this Pin" [level=2] [ref=e5054]
+                    - button "Close modal" [ref=e5056]:
+                      - img [ref=e5059]
+                  - generic [ref=e5062]:
+                    - generic [ref=e5064]:
+                      - generic [ref=e5065]:
+                        - generic [ref=e5066]: "158"
+                        - generic [ref=e5067]: Saves
+                      - generic [ref=e5068]:
+                        - generic [ref=e5069]: "2"
+                        - generic [ref=e5070]: Likes
+                      - generic [ref=e5071]:
+                        - generic [ref=e5072]: "26"
+                        - generic [ref=e5073]: Shares
+                    - generic [ref=e5075]:
+                      - heading "Description" [level=3]
+                      - generic [ref=e5076]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: interncomms-final.gif (800×600)
+                    - generic [ref=e5079]:
+                      - generic:
+                        - heading "Board containing this Pin" [level=3]
+                      - generic:
+                        - link "Selected board cover image 게임uxui연출 365 Pins 1w":
+                          - /url: /nhj910228/%ea%b2%8c%ec%9e%84uxui%ec%97%b0%ec%b6%9c/
+                          - generic [ref=e5080]:
+                            - img "Selected board cover image" [ref=e5084]
+                            - generic [ref=e5086]:
+                              - generic [ref=e5088]: 게임uxui연출
+                              - generic [ref=e5090]:
+                                - generic [ref=e5093]: 365 Pins
+                                - generic [ref=e5095]: 1w
+                    - generic [ref=e5098]:
+                      - generic:
+                        - heading "Related interests" [level=3]
+                      - generic [ref=e5099]:
+                        - link "Google Internship Application" [ref=e5103]:
+                          - /url: /ideas/google-internship/959225925406/
+                        - link "How To Apply For Google Internship" [ref=e5107]:
+                          - /url: /ideas/internship-at-google/938143007786/
+                        - link "Interview Preparation Tips" [ref=e5111]:
+                          - /url: /ideas/interview-preparation-tips/938794142918/
+                        - link "Messaging Animation" [ref=e5115]:
+                          - /url: /ideas/messaging-animation/904111095055/
+                        - link "Text Bubble Animation" [ref=e5119]:
+                          - /url: /ideas/text-bubble-animation/926569711946/
+                        - link "Text Notification Gif" [ref=e5123]:
+                          - /url: /ideas/text-notification-gif/958310148703/
+                        - link "Texting On Phone Gif" [ref=e5127]:
+                          - /url: /ideas/texting-on-phone-gif/919082681945/
+                        - generic [ref=e5130]: Google Intern Chat Illustration
+                        - generic [ref=e5133]: Virtual Interview Chat Graphic
+              - generic [ref=e5135]:
+                - generic:
+                  - link "two conversation bubbles with the words hey, you want to in them at google?":
+                    - /url: /pin/106819822408644716/
+                - generic [ref=e5144]:
+                  - generic "More actions" [ref=e5146]:
+                    - button "More actions" [ref=e5147]:
+                      - img [ref=e5150]
+                  - generic [ref=e5152]:
+                    - generic [ref=e5153]:
+                      - heading "More about this Pin" [level=2] [ref=e5154]
+                      - button "Close modal" [ref=e5156]:
+                        - img [ref=e5159]
+                    - generic [ref=e5162]:
+                      - generic [ref=e5164]:
+                        - generic [ref=e5165]:
+                          - generic [ref=e5166]: "158"
+                          - generic [ref=e5167]: Saves
+                        - generic [ref=e5168]:
+                          - generic [ref=e5169]: "2"
+                          - generic [ref=e5170]: Likes
+                        - generic [ref=e5171]:
+                          - generic [ref=e5172]: "26"
+                          - generic [ref=e5173]: Shares
+                      - generic [ref=e5175]:
+                        - heading "Description" [level=3]
+                        - generic [ref=e5176]:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic: interncomms-final.gif (800×600)
+                      - generic [ref=e5179]:
+                        - generic:
+                          - heading "Board containing this Pin" [level=3]
+                        - generic:
+                          - link "Selected board cover image 게임uxui연출 365 Pins 1w":
+                            - /url: /nhj910228/%ea%b2%8c%ec%9e%84uxui%ec%97%b0%ec%b6%9c/
+                            - generic [ref=e5180]:
+                              - img "Selected board cover image" [ref=e5184]
+                              - generic [ref=e5186]:
+                                - generic [ref=e5188]: 게임uxui연출
+                                - generic [ref=e5190]:
+                                  - generic [ref=e5193]: 365 Pins
+                                  - generic [ref=e5195]: 1w
+                      - generic [ref=e5198]:
+                        - generic:
+                          - heading "Related interests" [level=3]
+                        - generic [ref=e5199]:
+                          - link "Google Internship Application" [ref=e5203]:
+                            - /url: /ideas/google-internship/959225925406/
+                          - link "How To Apply For Google Internship" [ref=e5207]:
+                            - /url: /ideas/internship-at-google/938143007786/
+                          - link "Interview Preparation Tips" [ref=e5211]:
+                            - /url: /ideas/interview-preparation-tips/938794142918/
+                          - link "Messaging Animation" [ref=e5215]:
+                            - /url: /ideas/messaging-animation/904111095055/
+                          - link "Text Bubble Animation" [ref=e5219]:
+                            - /url: /ideas/text-bubble-animation/926569711946/
+                          - link "Text Notification Gif" [ref=e5223]:
+                            - /url: /ideas/text-notification-gif/958310148703/
+                          - link "Texting On Phone Gif" [ref=e5227]:
+                            - /url: /ideas/texting-on-phone-gif/919082681945/
+                          - generic [ref=e5230]: Google Intern Chat Illustration
+                          - generic [ref=e5233]: Virtual Interview Chat Graphic
+      - listitem [ref=e5234]:
+        - button "third-party-ad-slot Pin card" [ref=e5236] [cursor=pointer]:
+          - generic [ref=e5242]:
+            - region "third-party-ad-slot":
+              - region "3p-google-ad-slot"
+          - group "Pin card" [ref=e5244]:
+            - generic [ref=e5246]:
+              - generic [ref=e5247]:
+                - link "two texts that say, what should we do for our weekend trip? relax at a spa hit the open road go camping" [ref=e5249]:
+                  - /url: /pin/367606388362090253/
+                - generic [ref=e5259]:
+                  - generic [ref=e5260]:
+                    - heading "More about this Pin" [level=2] [ref=e5261]
+                    - button "Close modal" [ref=e5263]:
+                      - img [ref=e5266]
+                  - generic [ref=e5269]:
+                    - generic [ref=e5272]:
+                      - generic [ref=e5273]: "2"
+                      - generic [ref=e5274]: Saves
+                    - generic [ref=e5276]:
+                      - heading "Description" [level=3]
+                      - generic [ref=e5277]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "#AppleEvent #iPhonePresentation #NewiPhone #TechLaunch #AppleKeynote #ProductReveal #FutureOfTech #Innovation #Apple2025 #iOS#AppleEcosystem#ПрезентацияApple #НовыйАйфон #АйфонПрезентация #ТехЗапуск #Эпл #Айфон #Технологии #Инновации #БудущееТехнологий #Гаджеты #МобильныеТехнологии #iPhone17Pro (по тексту на изображении) #iPhonePro #ПроВерсия #Смартфон #КамераАйфон #A19Pro #ПродукцияApple #Новинка #ДизайнАйфон #ОранжевыйАйфон #МедныйЦвет #НовыйДизайн #Концепт #Рендер #Стиль #Эстетика..."
+                    - generic [ref=e5280]:
+                      - generic:
+                        - heading "Board containing this Pin" [level=3]
+                      - generic:
+                        - link "Selected board cover image switer 162 Pins 2mo":
+                          - /url: /mateirusu/switer/
+                          - generic [ref=e5281]:
+                            - img "Selected board cover image" [ref=e5285]
+                            - generic [ref=e5287]:
+                              - generic [ref=e5289]: switer
+                              - generic [ref=e5291]:
+                                - generic [ref=e5294]: 162 Pins
+                                - generic [ref=e5296]: 2mo
+                    - generic [ref=e5299]:
+                      - generic:
+                        - heading "Related interests" [level=3]
+                      - generic [ref=e5300]:
+                        - link "Promotion Display" [ref=e5304]:
+                          - /url: /ideas/promotion-display/903223520351/
+                        - link "Buy Iphone" [ref=e5308]:
+                          - /url: /ideas/buy-iphone/954856750305/
+                        - link "Apple Store" [ref=e5312]:
+                          - /url: /ideas/apple-store/924775269145/
+                        - link "Go Camping" [ref=e5316]:
+                          - /url: /ideas/go-camping/936983770684/
+                        - link "Apple Products" [ref=e5320]:
+                          - /url: /ideas/apple-products/942230186107/
+                        - link "New Iphone" [ref=e5324]:
+                          - /url: /ideas/new-iphone/917113717260/
+                        - link "Iphone Models" [ref=e5328]:
+                          - /url: /ideas/iphone-models/926779816909/
+                        - link "Ios" [ref=e5332]:
+                          - /url: /ideas/ios/937606712423/
+                        - link "Iphone" [ref=e5336]:
+                          - /url: /ideas/iphone/915188704732/
+              - generic [ref=e5338]:
+                - generic:
+                  - link "two texts that say, what should we do for our weekend trip? relax at a spa hit the open road go camping":
+                    - /url: /pin/367606388362090253/
+                - generic [ref=e5347]:
+                  - generic "More actions" [ref=e5349]:
+                    - button "More actions" [ref=e5350]:
+                      - img [ref=e5353]
+                  - generic [ref=e5355]:
+                    - generic [ref=e5356]:
+                      - heading "More about this Pin" [level=2] [ref=e5357]
+                      - button "Close modal" [ref=e5359]:
+                        - img [ref=e5362]
+                    - generic [ref=e5365]:
+                      - generic [ref=e5368]:
+                        - generic [ref=e5369]: "2"
+                        - generic [ref=e5370]: Saves
+                      - generic [ref=e5372]:
+                        - heading "Description" [level=3]
+                        - generic [ref=e5373]:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic: "#AppleEvent #iPhonePresentation #NewiPhone #TechLaunch #AppleKeynote #ProductReveal #FutureOfTech #Innovation #Apple2025 #iOS#AppleEcosystem#ПрезентацияApple #НовыйАйфон #АйфонПрезентация #ТехЗапуск #Эпл #Айфон #Технологии #Инновации #БудущееТехнологий #Гаджеты #МобильныеТехнологии #iPhone17Pro (по тексту на изображении) #iPhonePro #ПроВерсия #Смартфон #КамераАйфон #A19Pro #ПродукцияApple #Новинка #ДизайнАйфон #ОранжевыйАйфон #МедныйЦвет #НовыйДизайн #Концепт #Рендер #Стиль #Эстетика..."
+                      - generic [ref=e5376]:
+                        - generic:
+                          - heading "Board containing this Pin" [level=3]
+                        - generic:
+                          - link "Selected board cover image switer 162 Pins 2mo":
+                            - /url: /mateirusu/switer/
+                            - generic [ref=e5377]:
+                              - img "Selected board cover image" [ref=e5381]
+                              - generic [ref=e5383]:
+                                - generic [ref=e5385]: switer
+                                - generic [ref=e5387]:
+                                  - generic [ref=e5390]: 162 Pins
+                                  - generic [ref=e5392]: 2mo
+                      - generic [ref=e5395]:
+                        - generic:
+                          - heading "Related interests" [level=3]
+                        - generic [ref=e5396]:
+                          - link "Promotion Display" [ref=e5400]:
+                            - /url: /ideas/promotion-display/903223520351/
+                          - link "Buy Iphone" [ref=e5404]:
+                            - /url: /ideas/buy-iphone/954856750305/
+                          - link "Apple Store" [ref=e5408]:
+                            - /url: /ideas/apple-store/924775269145/
+                          - link "Go Camping" [ref=e5412]:
+                            - /url: /ideas/go-camping/936983770684/
+                          - link "Apple Products" [ref=e5416]:
+                            - /url: /ideas/apple-products/942230186107/
+                          - link "New Iphone" [ref=e5420]:
+                            - /url: /ideas/new-iphone/917113717260/
+                          - link "Iphone Models" [ref=e5424]:
+                            - /url: /ideas/iphone-models/926779816909/
+                          - link "Ios" [ref=e5428]:
+                            - /url: /ideas/ios/937606712423/
+                          - link "Iphone" [ref=e5432]:
+                            - /url: /ideas/iphone/915188704732/
+      - listitem [ref=e5433]:
+        - button "third-party-ad-slot Pin card" [ref=e5435] [cursor=pointer]:
+          - generic [ref=e5441]:
+            - region "third-party-ad-slot":
+              - region "3p-google-ad-slot"
+          - group "Pin card" [ref=e5443]:
+            - generic [ref=e5445]:
+              - generic [ref=e5446]:
+                - link "an email message is shown with the text'i want it to hit the gym whats the weather like tomorrow? '" [ref=e5448]:
+                  - /url: /pin/22658804370822631/
+                - generic [ref=e5458]:
+                  - generic [ref=e5459]:
+                    - heading "More about this Pin" [level=2] [ref=e5460]
+                    - button "Close modal" [ref=e5462]:
+                      - img [ref=e5465]
+                  - generic [ref=e5468]:
+                    - generic [ref=e5470]:
+                      - generic [ref=e5471]:
+                        - generic [ref=e5472]: "493"
+                        - generic [ref=e5473]: Saves
+                      - generic [ref=e5474]:
+                        - generic [ref=e5475]: "12"
+                        - generic [ref=e5476]: Likes
+                      - generic [ref=e5477]:
+                        - generic [ref=e5478]: "1"
+                        - generic [ref=e5479]: Share
+                    - generic [ref=e5481]:
+                      - heading "Description" [level=3]
+                      - generic [ref=e5482]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "Ask AI with instant topic prompts - ideal for AI chat, voice, and assistant products. Included in the Headstart Premium AI UI Kit - 120 pixel-perfect, Figma-ready cards to help you design and ship faster. Regular price: $49 → Use code ‘START20’ to get the Kit at $29 🚀 👉 Explore the full kit: useheadstart.com #HeadstartUI #AIUI #PremiumUI #AIUX #AIDesign #UIDesign #UXDesign #FigmaDesign #AIFigma #ProductDesign"
+                    - generic [ref=e5485]:
+                      - generic:
+                        - heading "Board containing this Pin" [level=3]
+                      - generic:
+                        - link "Selected board cover image UI 409 Pins 2d":
+                          - /url: /li_mingrui/ui/
+                          - generic [ref=e5486]:
+                            - img "Selected board cover image" [ref=e5490]
+                            - generic [ref=e5492]:
+                              - generic [ref=e5494]: UI
+                              - generic [ref=e5496]:
+                                - generic [ref=e5499]: 409 Pins
+                                - generic [ref=e5501]: 2d
+                    - generic [ref=e5504]:
+                      - generic:
+                        - heading "Related interests" [level=3]
+                      - generic [ref=e5505]:
+                        - link "Chatting Ui" [ref=e5509]:
+                          - /url: /ideas/chatting-ui/959086722147/
+                        - link "Text Message Ui" [ref=e5513]:
+                          - /url: /ideas/text-message-ui/949128124303/
+                        - link "Features Ui" [ref=e5517]:
+                          - /url: /ideas/features-ui/905497385513/
+                        - link "Social App Design" [ref=e5521]:
+                          - /url: /ideas/social-app-design/928421753291/
+                        - link "Digital Minimalism" [ref=e5525]:
+                          - /url: /ideas/digital-minimalism/910808220730/
+                        - link "Ui Design Dashboard" [ref=e5529]:
+                          - /url: /ideas/ui-design-dashboard/959239285515/
+                        - link "App Design Layout" [ref=e5533]:
+                          - /url: /ideas/app-design-layout/923294356380/
+                        - link "Mobile App Design Inspiration" [ref=e5537]:
+                          - /url: /ideas/mobile-app-design-inspiration/906544034722/
+                        - link "Mobile Ui Design" [ref=e5541]:
+                          - /url: /ideas/mobile-ui-design/941672389241/
+              - generic [ref=e5543]:
+                - generic:
+                  - link "an email message is shown with the text'i want it to hit the gym whats the weather like tomorrow? '":
+                    - /url: /pin/22658804370822631/
+                - generic [ref=e5550]:
+                  - 'button "UI Spotlight: AI Chat" [ref=e5553]':
+                    - 'generic "UI Spotlight: AI Chat" [ref=e5554]'
+                  - generic [ref=e5556]:
+                    - generic "More actions" [ref=e5558]:
+                      - button "More actions" [ref=e5559]:
+                        - img [ref=e5562]
+                    - generic [ref=e5564]:
+                      - generic [ref=e5565]:
+                        - heading "More about this Pin" [level=2] [ref=e5566]
+                        - button "Close modal" [ref=e5568]:
+                          - img [ref=e5571]
+                      - generic [ref=e5574]:
+                        - generic [ref=e5576]:
+                          - generic [ref=e5577]:
+                            - generic [ref=e5578]: "493"
+                            - generic [ref=e5579]: Saves
+                          - generic [ref=e5580]:
+                            - generic [ref=e5581]: "12"
+                            - generic [ref=e5582]: Likes
+                          - generic [ref=e5583]:
+                            - generic [ref=e5584]: "1"
+                            - generic [ref=e5585]: Share
+                        - generic [ref=e5587]:
+                          - heading "Description" [level=3]
+                          - generic [ref=e5588]:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic: "Ask AI with instant topic prompts - ideal for AI chat, voice, and assistant products. Included in the Headstart Premium AI UI Kit - 120 pixel-perfect, Figma-ready cards to help you design and ship faster. Regular price: $49 → Use code ‘START20’ to get the Kit at $29 🚀 👉 Explore the full kit: useheadstart.com #HeadstartUI #AIUI #PremiumUI #AIUX #AIDesign #UIDesign #UXDesign #FigmaDesign #AIFigma #ProductDesign"
+                        - generic [ref=e5591]:
+                          - generic:
+                            - heading "Board containing this Pin" [level=3]
+                          - generic:
+                            - link "Selected board cover image UI 409 Pins 2d":
+                              - /url: /li_mingrui/ui/
+                              - generic [ref=e5592]:
+                                - img "Selected board cover image" [ref=e5596]
+                                - generic [ref=e5598]:
+                                  - generic [ref=e5600]: UI
+                                  - generic [ref=e5602]:
+                                    - generic [ref=e5605]: 409 Pins
+                                    - generic [ref=e5607]: 2d
+                        - generic [ref=e5610]:
+                          - generic:
+                            - heading "Related interests" [level=3]
+                          - generic [ref=e5611]:
+                            - link "Chatting Ui" [ref=e5615]:
+                              - /url: /ideas/chatting-ui/959086722147/
+                            - link "Text Message Ui" [ref=e5619]:
+                              - /url: /ideas/text-message-ui/949128124303/
+                            - link "Features Ui" [ref=e5623]:
+                              - /url: /ideas/features-ui/905497385513/
+                            - link "Social App Design" [ref=e5627]:
+                              - /url: /ideas/social-app-design/928421753291/
+                            - link "Digital Minimalism" [ref=e5631]:
+                              - /url: /ideas/digital-minimalism/910808220730/
+                            - link "Ui Design Dashboard" [ref=e5635]:
+                              - /url: /ideas/ui-design-dashboard/959239285515/
+                            - link "App Design Layout" [ref=e5639]:
+                              - /url: /ideas/app-design-layout/923294356380/
+                            - link "Mobile App Design Inspiration" [ref=e5643]:
+                              - /url: /ideas/mobile-app-design-inspiration/906544034722/
+                            - link "Mobile Ui Design" [ref=e5647]:
+                              - /url: /ideas/mobile-ui-design/941672389241/
+      - listitem [ref=e5648]:
+        - button "third-party-ad-slot Pin card" [ref=e5650] [cursor=pointer]:
+          - generic [ref=e5656]:
+            - region "third-party-ad-slot":
+              - region "3p-google-ad-slot"
+          - group "Pin card" [ref=e5658]:
+            - generic [ref=e5660]:
+              - generic [ref=e5661]:
+                - link "an iphone screen with two texts on it" [ref=e5663]:
+                  - /url: /pin/81416705759993068/
+                - generic [ref=e5673]:
+                  - generic [ref=e5674]:
+                    - heading "More about this Pin" [level=2] [ref=e5675]
+                    - button "Close modal" [ref=e5677]:
+                      - img [ref=e5680]
+                  - generic [ref=e5683]:
+                    - generic [ref=e5685]:
+                      - generic [ref=e5686]:
+                        - generic [ref=e5687]: "42"
+                        - generic [ref=e5688]: Saves
+                      - generic [ref=e5689]:
+                        - generic [ref=e5690]: "3"
+                        - generic [ref=e5691]: Shares
+                    - generic [ref=e5693]:
+                      - heading "Description" [level=3]
+                      - generic [ref=e5694]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "Modern Chat & Group Chatting App UI WooChat #AD #amp, #Ad, #Group, #Modern, #Chat"
+                    - generic [ref=e5697]:
+                      - generic:
+                        - heading "Board containing this Pin" [level=3]
+                      - generic:
+                        - link "Selected board cover image Human 70 Pins 2mo":
+                          - /url: /solavankovych/human/
+                          - generic [ref=e5698]:
+                            - img "Selected board cover image" [ref=e5702]
+                            - generic [ref=e5704]:
+                              - generic [ref=e5706]: Human
+                              - generic [ref=e5708]:
+                                - generic [ref=e5711]: 70 Pins
+                                - generic [ref=e5713]: 2mo
+                    - generic [ref=e5716]:
+                      - generic:
+                        - heading "Related interests" [level=3]
+                      - generic [ref=e5717]:
+                        - link "Chat Conversation Template" [ref=e5721]:
+                          - /url: /ideas/chat-conversation-template/911218645665/
+                        - link "Chat App Ui Design" [ref=e5725]:
+                          - /url: /ideas/chat-app-ui-design/938596728080/
+                        - link "Modern Chat App Design" [ref=e5729]:
+                          - /url: /ideas/modern-chat-app-design/954709298873/
+                        - link "Two Smartphones With Chat Screens" [ref=e5733]:
+                          - /url: /ideas/two-smartphones-with-chat-screens/902723991275/
+                        - link "Chat App Ui" [ref=e5737]:
+                          - /url: /ideas/chat-app-ui/900937819983/
+                        - link "Texting App Interface" [ref=e5741]:
+                          - /url: /ideas/texting-app-interface/899022569456/
+                        - link "Chatting Ui" [ref=e5745]:
+                          - /url: /ideas/chatting-ui/959086722147/
+                        - link "Messaging App Interface" [ref=e5749]:
+                          - /url: /ideas/messaging-app-interface/942305142347/
+                        - link "Creative Chat Screen Inspiration" [ref=e5753]:
+                          - /url: /ideas/creative-chat-screen-inspiration/893749753791/
+              - generic [ref=e5755]:
+                - generic:
+                  - link "an iphone screen with two texts on it":
+                    - /url: /pin/81416705759993068/
+                - generic [ref=e5762]:
+                  - button "Chatting App UI Kit| Group Chatting App UI Kit| Audio Video Calling App UI Kit| WooChat" [ref=e5765]:
+                    - generic "Chatting App UI Kit| Group Chatting App UI Kit| Audio Video Calling App UI Kit| WooChat" [ref=e5766]
+                  - generic [ref=e5768]:
+                    - generic "More actions" [ref=e5770]:
+                      - button "More actions" [ref=e5771]:
+                        - img [ref=e5774]
+                    - generic [ref=e5776]:
+                      - generic [ref=e5777]:
+                        - heading "More about this Pin" [level=2] [ref=e5778]
+                        - button "Close modal" [ref=e5780]:
+                          - img [ref=e5783]
+                      - generic [ref=e5786]:
+                        - generic [ref=e5788]:
+                          - generic [ref=e5789]:
+                            - generic [ref=e5790]: "42"
+                            - generic [ref=e5791]: Saves
+                          - generic [ref=e5792]:
+                            - generic [ref=e5793]: "3"
+                            - generic [ref=e5794]: Shares
+                        - generic [ref=e5796]:
+                          - heading "Description" [level=3]
+                          - generic [ref=e5797]:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic: "Modern Chat & Group Chatting App UI WooChat #AD #amp, #Ad, #Group, #Modern, #Chat"
+                        - generic [ref=e5800]:
+                          - generic:
+                            - heading "Board containing this Pin" [level=3]
+                          - generic:
+                            - link "Selected board cover image Human 70 Pins 2mo":
+                              - /url: /solavankovych/human/
+                              - generic [ref=e5801]:
+                                - img "Selected board cover image" [ref=e5805]
+                                - generic [ref=e5807]:
+                                  - generic [ref=e5809]: Human
+                                  - generic [ref=e5811]:
+                                    - generic [ref=e5814]: 70 Pins
+                                    - generic [ref=e5816]: 2mo
+                        - generic [ref=e5819]:
+                          - generic:
+                            - heading "Related interests" [level=3]
+                          - generic [ref=e5820]:
+                            - link "Chat Conversation Template" [ref=e5824]:
+                              - /url: /ideas/chat-conversation-template/911218645665/
+                            - link "Chat App Ui Design" [ref=e5828]:
+                              - /url: /ideas/chat-app-ui-design/938596728080/
+                            - link "Modern Chat App Design" [ref=e5832]:
+                              - /url: /ideas/modern-chat-app-design/954709298873/
+                            - link "Two Smartphones With Chat Screens" [ref=e5836]:
+                              - /url: /ideas/two-smartphones-with-chat-screens/902723991275/
+                            - link "Chat App Ui" [ref=e5840]:
+                              - /url: /ideas/chat-app-ui/900937819983/
+                            - link "Texting App Interface" [ref=e5844]:
+                              - /url: /ideas/texting-app-interface/899022569456/
+                            - link "Chatting Ui" [ref=e5848]:
+                              - /url: /ideas/chatting-ui/959086722147/
+                            - link "Messaging App Interface" [ref=e5852]:
+                              - /url: /ideas/messaging-app-interface/942305142347/
+                            - link "Creative Chat Screen Inspiration" [ref=e5856]:
+                              - /url: /ideas/creative-chat-screen-inspiration/893749753791/

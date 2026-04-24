@@ -1,0 +1,549 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - link "Skip to content":
+      - /url: "#"
+      - generic [ref=e8] [cursor=pointer]: Skip to content
+    - generic [ref=e10]:
+      - generic [ref=e13]:
+        - combobox "Search" [ref=e15]: unconventional mobile app layout dark mode innovative UI design
+        - button "Remove search input" [ref=e20] [cursor=pointer]:
+          - img [ref=e23]
+      - generic [ref=e25]:
+        - button "Log in" [ref=e27] [cursor=pointer]:
+          - generic [ref=e29]: Log in
+        - button "Sign up" [ref=e31] [cursor=pointer]:
+          - generic [ref=e33]: Sign up
+  - navigation [ref=e35]:
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - generic "Home" [ref=e42]:
+          - link "Home" [ref=e43] [cursor=pointer]:
+            - /url: /
+            - img [ref=e45]
+        - generic "Explore" [ref=e50]:
+          - link "Explore" [ref=e51] [cursor=pointer]:
+            - /url: /ideas
+            - img [ref=e53]
+        - generic "Shop" [ref=e58]:
+          - link "Shop" [ref=e59] [cursor=pointer]:
+            - /url: /shopping
+            - img [ref=e61]
+      - generic "More options" [ref=e65]:
+        - button "More options" [ref=e66] [cursor=pointer]:
+          - img [ref=e69]
+  - main [ref=e71]:
+    - generic [ref=e252]:
+      - generic [ref=e255]:
+        - heading "Search" [level=1] [ref=e257]
+        - button "Show filters" [ref=e268] [cursor=pointer]:
+          - img [ref=e272]
+      - generic [ref=e278]:
+        - generic [ref=e279]: Showing more search results for unconventional mobile app layout dark mode innovative UI design
+        - list [ref=e284]:
+          - listitem [ref=e285]:
+            - group "Pin card" [ref=e288]:
+              - generic [ref=e290]:
+                - link "an iphone showing the observattory app on it's display screen and icons" [ref=e293] [cursor=pointer]:
+                  - /url: /pin/8796161770502459/
+                  - img "an iphone showing the observattory app on it's display screen and icons" [ref=e303]
+                - generic [ref=e305]:
+                  - generic:
+                    - link "an iphone showing the observattory app on it's display screen and icons":
+                      - /url: /pin/8796161770502459/
+                  - generic "More actions" [ref=e312]:
+                    - button "More actions" [ref=e313] [cursor=pointer]:
+                      - img [ref=e316]
+          - listitem [ref=e318]:
+            - group "Pin card" [ref=e321]:
+              - generic [ref=e323]:
+                - link "the mobile app design is designed to look like it has been made with dark colors" [ref=e326] [cursor=pointer]:
+                  - /url: /pin/386324474305735856/
+                  - img "the mobile app design is designed to look like it has been made with dark colors" [ref=e336]
+                - generic [ref=e338]:
+                  - generic:
+                    - link "the mobile app design is designed to look like it has been made with dark colors":
+                      - /url: /pin/386324474305735856/
+                  - generic "More actions" [ref=e345]:
+                    - button "More actions" [ref=e346] [cursor=pointer]:
+                      - img [ref=e349]
+          - listitem [ref=e351]:
+            - group "Pin card" [ref=e354]:
+              - generic [ref=e356]:
+                - link "two iphones with the text training program on them and an image of a phone screen" [ref=e359] [cursor=pointer]:
+                  - /url: /pin/844493676389881/
+                  - img "two iphones with the text training program on them and an image of a phone screen" [ref=e369]
+                - generic [ref=e371]:
+                  - generic:
+                    - link "two iphones with the text training program on them and an image of a phone screen":
+                      - /url: /pin/844493676389881/
+                  - generic "More actions" [ref=e378]:
+                    - button "More actions" [ref=e379] [cursor=pointer]:
+                      - img [ref=e382]
+          - listitem [ref=e384]:
+            - group "Pin card" [ref=e387]:
+              - generic [ref=e389]:
+                - link "an image of a purple and black wallpaper" [ref=e392] [cursor=pointer]:
+                  - /url: /pin/34691859628213958/
+                  - img "an image of a purple and black wallpaper" [ref=e402]
+                - generic [ref=e404]:
+                  - generic:
+                    - link "an image of a purple and black wallpaper":
+                      - /url: /pin/34691859628213958/
+                  - generic "More actions" [ref=e411]:
+                    - button "More actions" [ref=e412] [cursor=pointer]:
+                      - img [ref=e415]
+          - listitem [ref=e417]:
+            - group "Pin card" [ref=e420]:
+              - generic [ref=e422]:
+                - link "a mobile phone screen with the words meditation and daydream on it, in front of a desert landscape" [ref=e425] [cursor=pointer]:
+                  - /url: /pin/15199717492226712/
+                  - img "a mobile phone screen with the words meditation and daydream on it, in front of a desert landscape" [ref=e435]
+                - generic [ref=e437]:
+                  - generic:
+                    - link "a mobile phone screen with the words meditation and daydream on it, in front of a desert landscape":
+                      - /url: /pin/15199717492226712/
+                  - generic "More actions" [ref=e444]:
+                    - button "More actions" [ref=e445] [cursor=pointer]:
+                      - img [ref=e448]
+          - listitem [ref=e450]:
+            - group "Pin card" [ref=e453]:
+              - generic [ref=e455]:
+                - link "an iphone screen with a black bird on it's display and the words, dark" [ref=e458] [cursor=pointer]:
+                  - /url: /pin/3799980929190936/
+                  - img "an iphone screen with a black bird on it's display and the words, dark" [ref=e468]
+                - generic [ref=e470]:
+                  - generic:
+                    - link "an iphone screen with a black bird on it's display and the words, dark":
+                      - /url: /pin/3799980929190936/
+                  - generic "More actions" [ref=e477]:
+                    - button "More actions" [ref=e478] [cursor=pointer]:
+                      - img [ref=e481]
+          - listitem [ref=e483]:
+            - generic [ref=e484]:
+              - generic [ref=e490]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e492]:
+                - generic [ref=e494]:
+                  - link "three smartphones with different app icons displayed on them in neon colors and dark background" [ref=e497] [cursor=pointer]:
+                    - /url: /pin/984810643541218748/
+                    - img "three smartphones with different app icons displayed on them in neon colors and dark background" [ref=e507]
+                  - generic [ref=e509]:
+                    - generic:
+                      - link "three smartphones with different app icons displayed on them in neon colors and dark background":
+                        - /url: /pin/984810643541218748/
+                    - generic "More actions" [ref=e516]:
+                      - button "More actions" [ref=e517] [cursor=pointer]:
+                        - img [ref=e520]
+          - listitem [ref=e522]:
+            - group "Pin card" [ref=e525]:
+              - generic [ref=e527]:
+                - link "the full view of an iphone screen with different screens and buttons, all in dark colors" [ref=e530] [cursor=pointer]:
+                  - /url: /pin/34691859626610166/
+                  - img "the full view of an iphone screen with different screens and buttons, all in dark colors" [ref=e540]
+                - generic [ref=e542]:
+                  - generic:
+                    - link "the full view of an iphone screen with different screens and buttons, all in dark colors":
+                      - /url: /pin/34691859626610166/
+                  - generic "More actions" [ref=e549]:
+                    - button "More actions" [ref=e550] [cursor=pointer]:
+                      - img [ref=e553]
+          - listitem [ref=e555]:
+            - group "Pin card" [ref=e558]:
+              - generic [ref=e560]:
+                - link "four iphone screens with different colors and text on them, all showing the same color scheme" [ref=e563] [cursor=pointer]:
+                  - /url: /pin/774124931570371/
+                  - img "four iphone screens with different colors and text on them, all showing the same color scheme" [ref=e573]
+                - generic [ref=e575]:
+                  - generic:
+                    - link "four iphone screens with different colors and text on them, all showing the same color scheme":
+                      - /url: /pin/774124931570371/
+                  - generic "More actions" [ref=e582]:
+                    - button "More actions" [ref=e583] [cursor=pointer]:
+                      - img [ref=e586]
+          - listitem [ref=e588]:
+            - group "Pin card" [ref=e591]:
+              - generic [ref=e593]:
+                - link "the black and white app design is designed to look like it has been created by an artist" [ref=e596] [cursor=pointer]:
+                  - /url: /pin/95912667060991834/
+                  - img "the black and white app design is designed to look like it has been created by an artist" [ref=e606]
+                - generic [ref=e608]:
+                  - generic:
+                    - link "the black and white app design is designed to look like it has been created by an artist":
+                      - /url: /pin/95912667060991834/
+                  - generic "More actions" [ref=e615]:
+                    - button "More actions" [ref=e616] [cursor=pointer]:
+                      - img [ref=e619]
+          - listitem [ref=e621]:
+            - group "Pin card" [ref=e624]:
+              - generic [ref=e626]:
+                - link "the iphone app design is designed to look like it has multiple screens on each side" [ref=e629] [cursor=pointer]:
+                  - /url: /pin/395683517285858432/
+                  - img "the iphone app design is designed to look like it has multiple screens on each side" [ref=e639]
+                - generic [ref=e641]:
+                  - generic:
+                    - link "the iphone app design is designed to look like it has multiple screens on each side":
+                      - /url: /pin/395683517285858432/
+                  - generic "More actions" [ref=e648]:
+                    - button "More actions" [ref=e649] [cursor=pointer]:
+                      - img [ref=e652]
+          - listitem [ref=e654]:
+            - generic [ref=e655]:
+              - generic [ref=e661]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e663]:
+                - generic [ref=e665]:
+                  - link "three smartphone screens showing different dashboards and numbers on the same screen, one with orange buttons" [ref=e668] [cursor=pointer]:
+                    - /url: /pin/302656037479102118/
+                    - img "three smartphone screens showing different dashboards and numbers on the same screen, one with orange buttons" [ref=e678]
+                  - generic [ref=e680]:
+                    - generic:
+                      - link "three smartphone screens showing different dashboards and numbers on the same screen, one with orange buttons":
+                        - /url: /pin/302656037479102118/
+                    - generic "More actions" [ref=e687]:
+                      - button "More actions" [ref=e688] [cursor=pointer]:
+                        - img [ref=e691]
+          - listitem [ref=e693]:
+            - group "Pin card" [ref=e696]:
+              - generic [ref=e698]:
+                - link "two cell phones with different icons on them" [ref=e701] [cursor=pointer]:
+                  - /url: /pin/2674081025800905/
+                  - img "two cell phones with different icons on them" [ref=e711]
+                - generic [ref=e713]:
+                  - generic:
+                    - link "two cell phones with different icons on them":
+                      - /url: /pin/2674081025800905/
+                  - generic "More actions" [ref=e720]:
+                    - button "More actions" [ref=e721] [cursor=pointer]:
+                      - img [ref=e724]
+          - listitem [ref=e726]:
+            - group "Pin card" [ref=e729]:
+              - generic [ref=e731]:
+                - link "two smartphone screens showing the home screen and night time app on one side, with an image of a house in the background" [ref=e734] [cursor=pointer]:
+                  - /url: /pin/211174979206375/
+                  - img "two smartphone screens showing the home screen and night time app on one side, with an image of a house in the background" [ref=e744]
+                - generic [ref=e746]:
+                  - generic:
+                    - link "two smartphone screens showing the home screen and night time app on one side, with an image of a house in the background":
+                      - /url: /pin/211174979206375/
+                  - generic "More actions" [ref=e753]:
+                    - button "More actions" [ref=e754] [cursor=pointer]:
+                      - img [ref=e757]
+          - listitem [ref=e759]:
+            - group "Pin card" [ref=e762]:
+              - generic [ref=e764]:
+                - link "two iphones with different screens showing the time and location of each device, one is on" [ref=e767] [cursor=pointer]:
+                  - /url: /pin/77335318596761976/
+                  - img "two iphones with different screens showing the time and location of each device, one is on" [ref=e777]
+                - generic [ref=e779]:
+                  - generic:
+                    - link "two iphones with different screens showing the time and location of each device, one is on":
+                      - /url: /pin/77335318596761976/
+                  - generic "More actions" [ref=e786]:
+                    - button "More actions" [ref=e787] [cursor=pointer]:
+                      - img [ref=e790]
+          - listitem [ref=e792]:
+            - group "Pin card" [ref=e795]:
+              - generic [ref=e797]:
+                - link "an iphone with the image of a space capsule on it's screen and text that reads" [ref=e800] [cursor=pointer]:
+                  - /url: /pin/1759287346706942/
+                  - img "an iphone with the image of a space capsule on it's screen and text that reads" [ref=e810]
+                - generic [ref=e812]:
+                  - generic:
+                    - link "an iphone with the image of a space capsule on it's screen and text that reads":
+                      - /url: /pin/1759287346706942/
+                  - generic "More actions" [ref=e819]:
+                    - button "More actions" [ref=e820] [cursor=pointer]:
+                      - img [ref=e823]
+          - listitem [ref=e825]:
+            - generic [ref=e826]:
+              - generic [ref=e832]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e834]:
+                - generic [ref=e836]:
+                  - link "three cell phones with different app icons on the screens, one showing what you want to do" [ref=e839] [cursor=pointer]:
+                    - /url: /pin/32510428557800027/
+                    - img "three cell phones with different app icons on the screens, one showing what you want to do" [ref=e849]
+                  - generic [ref=e851]:
+                    - generic:
+                      - link "three cell phones with different app icons on the screens, one showing what you want to do":
+                        - /url: /pin/32510428557800027/
+                    - generic "More actions" [ref=e858]:
+                      - button "More actions" [ref=e859] [cursor=pointer]:
+                        - img [ref=e862]
+          - listitem [ref=e864]:
+            - group "Pin card" [ref=e867]:
+              - generic [ref=e869]:
+                - link "the interface for an app is shown with buttons, controls and other electronic devices on it" [ref=e872] [cursor=pointer]:
+                  - /url: /pin/2814818512619132/
+                  - img "the interface for an app is shown with buttons, controls and other electronic devices on it" [ref=e882]
+                - generic [ref=e884]:
+                  - generic:
+                    - link "the interface for an app is shown with buttons, controls and other electronic devices on it":
+                      - /url: /pin/2814818512619132/
+                  - generic "More actions" [ref=e891]:
+                    - button "More actions" [ref=e892] [cursor=pointer]:
+                      - img [ref=e895]
+          - listitem [ref=e897]:
+            - group "Pin card" [ref=e900]:
+              - generic [ref=e902]:
+                - link "two smartphones with different app icons displayed on the screens, one is displaying an image" [ref=e905] [cursor=pointer]:
+                  - /url: /pin/211174977047083/
+                  - img "two smartphones with different app icons displayed on the screens, one is displaying an image" [ref=e915]
+                - generic [ref=e917]:
+                  - generic:
+                    - link "two smartphones with different app icons displayed on the screens, one is displaying an image":
+                      - /url: /pin/211174977047083/
+                  - generic "More actions" [ref=e924]:
+                    - button "More actions" [ref=e925] [cursor=pointer]:
+                      - img [ref=e928]
+          - listitem [ref=e930]:
+            - group "Pin card" [ref=e933]:
+              - generic [ref=e935]:
+                - link "two cell phones are shown side by side with the same image as they appear in this advertisement" [ref=e938] [cursor=pointer]:
+                  - /url: /pin/844493676474289/
+                  - img "two cell phones are shown side by side with the same image as they appear in this advertisement" [ref=e948]
+                - generic [ref=e950]:
+                  - generic:
+                    - link "two cell phones are shown side by side with the same image as they appear in this advertisement":
+                      - /url: /pin/844493676474289/
+                  - generic "More actions" [ref=e957]:
+                    - button "More actions" [ref=e958] [cursor=pointer]:
+                      - img [ref=e961]
+          - listitem [ref=e963]:
+            - group "Pin card" [ref=e966]:
+              - generic [ref=e968]:
+                - link "an image of some cell phones with different themes and colors on them, including neon lights" [ref=e971] [cursor=pointer]:
+                  - /url: /pin/1106618939707207887/
+                  - img "an image of some cell phones with different themes and colors on them, including neon lights" [ref=e981]
+                - generic [ref=e983]:
+                  - generic:
+                    - link "an image of some cell phones with different themes and colors on them, including neon lights":
+                      - /url: /pin/1106618939707207887/
+                  - generic "More actions" [ref=e990]:
+                    - button "More actions" [ref=e991] [cursor=pointer]:
+                      - img [ref=e994]
+          - listitem [ref=e996]:
+            - generic [ref=e997]:
+              - generic [ref=e1003]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1005]:
+                - generic [ref=e1007]:
+                  - link "two mobile phones with the text explore on them and an image of people's faces" [ref=e1010] [cursor=pointer]:
+                    - /url: /pin/174514554308267413/
+                    - img "two mobile phones with the text explore on them and an image of people's faces" [ref=e1020]
+                  - generic [ref=e1022]:
+                    - generic:
+                      - link "two mobile phones with the text explore on them and an image of people's faces":
+                        - /url: /pin/174514554308267413/
+                    - generic "More actions" [ref=e1029]:
+                      - button "More actions" [ref=e1030] [cursor=pointer]:
+                        - img [ref=e1033]
+          - listitem [ref=e1035]:
+            - group "Pin card" [ref=e1038]:
+              - generic [ref=e1040]:
+                - link "an image of a purple and black background with text that reads gaming app ui design" [ref=e1043] [cursor=pointer]:
+                  - /url: /pin/176062666681644443/
+                  - img "an image of a purple and black background with text that reads gaming app ui design" [ref=e1053]
+                - generic [ref=e1055]:
+                  - generic:
+                    - link "an image of a purple and black background with text that reads gaming app ui design":
+                      - /url: /pin/176062666681644443/
+                  - generic "More actions" [ref=e1062]:
+                    - button "More actions" [ref=e1063] [cursor=pointer]:
+                      - img [ref=e1066]
+          - listitem [ref=e1068]:
+            - group "Pin card" [ref=e1071]:
+              - generic [ref=e1073]:
+                - link "two iphones with different images on them" [ref=e1076] [cursor=pointer]:
+                  - /url: /pin/2674081026353089/
+                  - img "two iphones with different images on them" [ref=e1086]
+                - generic [ref=e1088]:
+                  - generic:
+                    - link "two iphones with different images on them":
+                      - /url: /pin/2674081026353089/
+                  - generic "More actions" [ref=e1095]:
+                    - button "More actions" [ref=e1096] [cursor=pointer]:
+                      - img [ref=e1099]
+          - listitem [ref=e1101]:
+            - group "Pin card" [ref=e1104]:
+              - generic [ref=e1106]:
+                - link "two iphones with the same design on them, one showing an ad for hypnotse" [ref=e1109] [cursor=pointer]:
+                  - /url: /pin/7951736837655232/
+                  - img "two iphones with the same design on them, one showing an ad for hypnotse" [ref=e1119]
+                - generic [ref=e1121]:
+                  - generic:
+                    - link "two iphones with the same design on them, one showing an ad for hypnotse":
+                      - /url: /pin/7951736837655232/
+                  - generic "More actions" [ref=e1128]:
+                    - button "More actions" [ref=e1129] [cursor=pointer]:
+                      - img [ref=e1132]
+          - listitem [ref=e1134]:
+            - group "Pin card" [ref=e1137]:
+              - generic [ref=e1139]:
+                - link "an array of mobile phone screens on a dark surface with glowing lights and circles around them" [ref=e1142] [cursor=pointer]:
+                  - /url: /pin/984810643541219946/
+                  - img "an array of mobile phone screens on a dark surface with glowing lights and circles around them" [ref=e1152]
+                - generic [ref=e1154]:
+                  - generic:
+                    - link "an array of mobile phone screens on a dark surface with glowing lights and circles around them":
+                      - /url: /pin/984810643541219946/
+                  - generic "More actions" [ref=e1161]:
+                    - button "More actions" [ref=e1162] [cursor=pointer]:
+                      - img [ref=e1165]
+          - listitem [ref=e1167]:
+            - generic [ref=e1168]:
+              - generic [ref=e1174]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1176]:
+                - generic [ref=e1178]:
+                  - link "two cell phones with different screens on them" [ref=e1181] [cursor=pointer]:
+                    - /url: /pin/235031674299688719/
+                    - img "two cell phones with different screens on them" [ref=e1191]
+                  - generic [ref=e1193]:
+                    - generic:
+                      - link "two cell phones with different screens on them":
+                        - /url: /pin/235031674299688719/
+                    - generic "More actions" [ref=e1200]:
+                      - button "More actions" [ref=e1201] [cursor=pointer]:
+                        - img [ref=e1204]
+          - listitem [ref=e1206]:
+            - generic [ref=e1207]:
+              - generic [ref=e1213]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1215]:
+                - generic [ref=e1217]:
+                  - link "a cell phone with the dark mode displayed on it's screen and an abstract background" [ref=e1220] [cursor=pointer]:
+                    - /url: /pin/15199717492234742/
+                    - img "a cell phone with the dark mode displayed on it's screen and an abstract background" [ref=e1230]
+                  - generic [ref=e1232]:
+                    - generic:
+                      - link "a cell phone with the dark mode displayed on it's screen and an abstract background":
+                        - /url: /pin/15199717492234742/
+                    - generic "More actions" [ref=e1239]:
+                      - button "More actions" [ref=e1240] [cursor=pointer]:
+                        - img [ref=e1243]
+          - listitem [ref=e1245]:
+            - generic [ref=e1246]:
+              - generic [ref=e1252]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1254]:
+                - generic [ref=e1256]:
+                  - link "a cell phone with an app on the screen and icons displayed in purples, blues and violets" [ref=e1259] [cursor=pointer]:
+                    - /url: /pin/16325617396826132/
+                    - img "a cell phone with an app on the screen and icons displayed in purples, blues and violets" [ref=e1269]
+                  - generic [ref=e1271]:
+                    - generic:
+                      - link "a cell phone with an app on the screen and icons displayed in purples, blues and violets":
+                        - /url: /pin/16325617396826132/
+                    - generic "More actions" [ref=e1278]:
+                      - button "More actions" [ref=e1279] [cursor=pointer]:
+                        - img [ref=e1282]
+          - listitem [ref=e1284]:
+            - generic [ref=e1285]:
+              - generic [ref=e1291]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1293]:
+                - generic [ref=e1295]:
+                  - link "three iphone screens with different designs and text on the front, one in black and white" [ref=e1298] [cursor=pointer]:
+                    - /url: /pin/285978645083485641/
+                    - img "three iphone screens with different designs and text on the front, one in black and white" [ref=e1308]
+                  - generic [ref=e1310]:
+                    - generic:
+                      - link "three iphone screens with different designs and text on the front, one in black and white":
+                        - /url: /pin/285978645083485641/
+                    - generic "More actions" [ref=e1317]:
+                      - button "More actions" [ref=e1318] [cursor=pointer]:
+                        - img [ref=e1321]
+          - listitem [ref=e1323]:
+            - generic [ref=e1324]:
+              - generic [ref=e1330]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1332]:
+                - generic [ref=e1334]:
+                  - link "the app is designed to look like an old school video game" [ref=e1337] [cursor=pointer]:
+                    - /url: /pin/844493676476940/
+                    - img "the app is designed to look like an old school video game" [ref=e1347]
+                  - generic [ref=e1349]:
+                    - generic:
+                      - link "the app is designed to look like an old school video game":
+                        - /url: /pin/844493676476940/
+                    - generic "More actions" [ref=e1356]:
+                      - button "More actions" [ref=e1357] [cursor=pointer]:
+                        - img [ref=e1360]
+          - listitem [ref=e1362]:
+            - generic [ref=e1363]:
+              - generic [ref=e1369]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1371]:
+                - generic [ref=e1373]:
+                  - link "Dark Neumorphic UI Kit — UI Kits on UI8 Ui Inspiration For Dark Themes, Black Ui, Dark Mode Neumorphism, Neumorphism Dark Theme, Dark Neumorphism, Dark Theme Login Screen, Dark Mode Login Interface, Modern Dark Theme Interface, Modern Dark Mode Ui" [ref=e1376] [cursor=pointer]:
+                    - /url: /pin/39265828001195368/
+                    - img "Dark Neumorphic UI Kit — UI Kits on UI8 Ui Inspiration For Dark Themes, Black Ui, Dark Mode Neumorphism, Neumorphism Dark Theme, Dark Neumorphism, Dark Theme Login Screen, Dark Mode Login Interface, Modern Dark Theme Interface, Modern Dark Mode Ui" [ref=e1386]
+                  - generic [ref=e1388]:
+                    - generic:
+                      - link "Dark Neumorphic UI Kit — UI Kits on UI8 Ui Inspiration For Dark Themes, Black Ui, Dark Mode Neumorphism, Neumorphism Dark Theme, Dark Neumorphism, Dark Theme Login Screen, Dark Mode Login Interface, Modern Dark Theme Interface, Modern Dark Mode Ui":
+                        - /url: /pin/39265828001195368/
+                    - generic "More actions" [ref=e1395]:
+                      - button "More actions" [ref=e1396] [cursor=pointer]:
+                        - img [ref=e1399]
+          - listitem [ref=e1401]:
+            - generic [ref=e1402]:
+              - generic [ref=e1408]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1410]:
+                - generic [ref=e1412]:
+                  - link "an image of a web page with headphones on it" [ref=e1415] [cursor=pointer]:
+                    - /url: /pin/1130685050255165958/
+                    - img "an image of a web page with headphones on it" [ref=e1425]
+                  - generic [ref=e1427]:
+                    - generic:
+                      - link "an image of a web page with headphones on it":
+                        - /url: /pin/1130685050255165958/
+                    - generic "More actions" [ref=e1434]:
+                      - button "More actions" [ref=e1435] [cursor=pointer]:
+                        - img [ref=e1438]
+          - listitem [ref=e1440]:
+            - generic [ref=e1441]:
+              - generic [ref=e1447]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1449]:
+                - generic [ref=e1451]:
+                  - link "A dark mode UI app concept named \"Nocturne\" layered over a background of dark, smooth sand dunes with a subtle purple neon glow. The central interface features a dark frosted glass panel, clean white typography, a toggle switch for 'Focus Mode', and a neon purple bordered button that says 'BEGIN SESSION'. Premium tech graphic design by MUNÈA VISUALS." [ref=e1454] [cursor=pointer]:
+                    - /url: /pin/637540891042832399/
+                    - img "A dark mode UI app concept named \"Nocturne\" layered over a background of dark, smooth sand dunes with a subtle purple neon glow. The central interface features a dark frosted glass panel, clean white typography, a toggle switch for 'Focus Mode', and a neon purple bordered button that says 'BEGIN SESSION'. Premium tech graphic design by MUNÈA VISUALS." [ref=e1464]
+                  - generic [ref=e1466]:
+                    - generic:
+                      - link "A dark mode UI app concept named \"Nocturne\" layered over a background of dark, smooth sand dunes with a subtle purple neon glow. The central interface features a dark frosted glass panel, clean white typography, a toggle switch for 'Focus Mode', and a neon purple bordered button that says 'BEGIN SESSION'. Premium tech graphic design by MUNÈA VISUALS.":
+                        - /url: /pin/637540891042832399/
+                    - generic "More actions" [ref=e1473]:
+                      - button "More actions" [ref=e1474] [cursor=pointer]:
+                        - img [ref=e1477]
+          - listitem [ref=e1479]:
+            - generic [ref=e1480]:
+              - generic [ref=e1486]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1488]:
+                - generic [ref=e1490]:
+                  - link "two iphone screens showing the same user's profile, one with an image of a woman" [ref=e1493] [cursor=pointer]:
+                    - /url: /pin/12244230231212937/
+                    - img "two iphone screens showing the same user's profile, one with an image of a woman" [ref=e1503]
+                  - generic [ref=e1505]:
+                    - generic:
+                      - link "two iphone screens showing the same user's profile, one with an image of a woman":
+                        - /url: /pin/12244230231212937/
+                    - generic "More actions" [ref=e1512]:
+                      - button "More actions" [ref=e1513] [cursor=pointer]:
+                        - img [ref=e1516]

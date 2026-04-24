@@ -1,0 +1,549 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - link "Skip to content":
+      - /url: "#"
+      - generic [ref=e9] [cursor=pointer]: Skip to content
+    - generic [ref=e11]:
+      - generic [ref=e14]:
+        - combobox "Search" [ref=e16]: midnight teal dark interface app design
+        - button "Remove search input" [ref=e21] [cursor=pointer]:
+          - img [ref=e24]
+      - generic [ref=e26]:
+        - button "Log in" [ref=e28] [cursor=pointer]:
+          - generic [ref=e30]: Log in
+        - button "Sign up" [ref=e32] [cursor=pointer]:
+          - generic [ref=e34]: Sign up
+  - navigation [ref=e36]:
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - generic "Home" [ref=e43]:
+          - link "Home" [ref=e44] [cursor=pointer]:
+            - /url: /
+            - img [ref=e46]
+        - generic "Explore" [ref=e51]:
+          - link "Explore" [ref=e52] [cursor=pointer]:
+            - /url: /ideas
+            - img [ref=e54]
+        - generic "Shop" [ref=e59]:
+          - link "Shop" [ref=e60] [cursor=pointer]:
+            - /url: /shopping
+            - img [ref=e62]
+      - generic "More options" [ref=e66]:
+        - button "More options" [ref=e67] [cursor=pointer]:
+          - img [ref=e70]
+  - main [ref=e72]:
+    - generic [ref=e74]:
+      - generic [ref=e77]:
+        - heading "Search" [level=1] [ref=e79]
+        - button "Show filters" [ref=e90] [cursor=pointer]:
+          - img [ref=e94]
+      - generic [ref=e100]:
+        - generic [ref=e101]: Showing more search results for midnight teal dark interface app design
+        - list [ref=e106]:
+          - listitem [ref=e107]:
+            - group "Pin card" [ref=e110]:
+              - generic [ref=e112]:
+                - link "Petroleum Color Palette, App Design Trends, Website Color Palette, Hex Color Palette, Color Palette Challenge, Color Design Inspiration, App Design Inspiration, Web Design Projects, Dashboard Design" [ref=e115] [cursor=pointer]:
+                  - /url: /pin/6262886977964046/
+                  - img "Petroleum Color Palette, App Design Trends, Website Color Palette, Hex Color Palette, Color Palette Challenge, Color Design Inspiration, App Design Inspiration, Web Design Projects, Dashboard Design" [ref=e125]
+                - generic [ref=e127]:
+                  - generic:
+                    - link "Petroleum Color Palette, App Design Trends, Website Color Palette, Hex Color Palette, Color Palette Challenge, Color Design Inspiration, App Design Inspiration, Web Design Projects, Dashboard Design":
+                      - /url: /pin/6262886977964046/
+                  - generic "More actions" [ref=e134]:
+                    - button "More actions" [ref=e135] [cursor=pointer]:
+                      - img [ref=e138]
+          - listitem [ref=e140]:
+            - group "Pin card" [ref=e143]:
+              - generic [ref=e145]:
+                - link "the letter p is made up of white letters on a blue background with a black border" [ref=e148] [cursor=pointer]:
+                  - /url: /pin/475059460718090267/
+                  - img "the letter p is made up of white letters on a blue background with a black border" [ref=e158]
+                - generic [ref=e160]:
+                  - generic:
+                    - link "the letter p is made up of white letters on a blue background with a black border":
+                      - /url: /pin/475059460718090267/
+                  - generic "More actions" [ref=e167]:
+                    - button "More actions" [ref=e168] [cursor=pointer]:
+                      - img [ref=e171]
+          - listitem [ref=e173]:
+            - group "Pin card" [ref=e176]:
+              - generic [ref=e178]:
+                - link "a black background with blue swirls on it" [ref=e181] [cursor=pointer]:
+                  - /url: /pin/573575702568168739/
+                  - img "a black background with blue swirls on it" [ref=e191]
+                - generic [ref=e193]:
+                  - generic:
+                    - link "a black background with blue swirls on it":
+                      - /url: /pin/573575702568168739/
+                  - generic "More actions" [ref=e200]:
+                    - button "More actions" [ref=e201] [cursor=pointer]:
+                      - img [ref=e204]
+          - listitem [ref=e206]:
+            - group "Pin card" [ref=e209]:
+              - generic [ref=e211]:
+                - link "five phases of the moon are shown in black and blue colors, with one half lit up" [ref=e214] [cursor=pointer]:
+                  - /url: /pin/193936327700862233/
+                  - img "five phases of the moon are shown in black and blue colors, with one half lit up" [ref=e224]
+                - generic [ref=e226]:
+                  - generic:
+                    - link "five phases of the moon are shown in black and blue colors, with one half lit up":
+                      - /url: /pin/193936327700862233/
+                  - generic "More actions" [ref=e233]:
+                    - button "More actions" [ref=e234] [cursor=pointer]:
+                      - img [ref=e237]
+          - listitem [ref=e239]:
+            - group "Pin card" [ref=e242]:
+              - generic [ref=e244]:
+                - link "the night sky is filled with stars and dark blue hues, as well as clouds" [ref=e247] [cursor=pointer]:
+                  - /url: /pin/3377768468882958/
+                  - img "the night sky is filled with stars and dark blue hues, as well as clouds" [ref=e257]
+                - generic [ref=e259]:
+                  - generic:
+                    - link "the night sky is filled with stars and dark blue hues, as well as clouds":
+                      - /url: /pin/3377768468882958/
+                  - generic "More actions" [ref=e266]:
+                    - button "More actions" [ref=e267] [cursor=pointer]:
+                      - img [ref=e270]
+          - listitem [ref=e272]:
+            - group "Pin card" [ref=e275]:
+              - generic [ref=e277]:
+                - link "an image of the moon in the sky with clouds and stars around it, as if from outer space" [ref=e280] [cursor=pointer]:
+                  - /url: /pin/5840674510160708/
+                  - img "an image of the moon in the sky with clouds and stars around it, as if from outer space" [ref=e290]
+                - generic [ref=e292]:
+                  - generic:
+                    - link "an image of the moon in the sky with clouds and stars around it, as if from outer space":
+                      - /url: /pin/5840674510160708/
+                  - generic "More actions" [ref=e299]:
+                    - button "More actions" [ref=e300] [cursor=pointer]:
+                      - img [ref=e303]
+          - listitem [ref=e305]:
+            - generic [ref=e306]:
+              - generic [ref=e312]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e314]:
+                - generic [ref=e316]:
+                  - link "an abstract background with stars and swirls" [ref=e319] [cursor=pointer]:
+                    - /url: /pin/7036943163119619/
+                    - img "an abstract background with stars and swirls" [ref=e329]
+                  - generic [ref=e331]:
+                    - generic:
+                      - link "an abstract background with stars and swirls":
+                        - /url: /pin/7036943163119619/
+                    - generic "More actions" [ref=e338]:
+                      - button "More actions" [ref=e339] [cursor=pointer]:
+                        - img [ref=e342]
+          - listitem [ref=e344]:
+            - group "Pin card" [ref=e347]:
+              - generic [ref=e349]:
+                - link "an image of the same color scheme" [ref=e352] [cursor=pointer]:
+                  - /url: /pin/82824080644724853/
+                  - img "an image of the same color scheme" [ref=e362]
+                - generic [ref=e364]:
+                  - generic:
+                    - link "an image of the same color scheme":
+                      - /url: /pin/82824080644724853/
+                  - generic "More actions" [ref=e371]:
+                    - button "More actions" [ref=e372] [cursor=pointer]:
+                      - img [ref=e375]
+          - listitem [ref=e377]:
+            - group "Pin card" [ref=e380]:
+              - generic [ref=e382]:
+                - link "the back side of an iphone with blue background and text that reads,'magicbook '" [ref=e385] [cursor=pointer]:
+                  - /url: /pin/17803361026691141/
+                  - img "the back side of an iphone with blue background and text that reads,'magicbook '" [ref=e395]
+                - generic [ref=e397]:
+                  - generic:
+                    - link "the back side of an iphone with blue background and text that reads,'magicbook '":
+                      - /url: /pin/17803361026691141/
+                  - generic "More actions" [ref=e404]:
+                    - button "More actions" [ref=e405] [cursor=pointer]:
+                      - img [ref=e408]
+          - listitem [ref=e410]:
+            - group "Pin card" [ref=e413]:
+              - generic [ref=e415]:
+                - link "an image of the back side of a cell phone with different colors and font on it" [ref=e418] [cursor=pointer]:
+                  - /url: /pin/689895236719911020/
+                  - img "an image of the back side of a cell phone with different colors and font on it" [ref=e428]
+                - generic [ref=e430]:
+                  - generic:
+                    - link "an image of the back side of a cell phone with different colors and font on it":
+                      - /url: /pin/689895236719911020/
+                  - generic "More actions" [ref=e437]:
+                    - button "More actions" [ref=e438] [cursor=pointer]:
+                      - img [ref=e441]
+          - listitem [ref=e443]:
+            - group "Pin card" [ref=e446]:
+              - generic [ref=e448]:
+                - link "the word onyx glows green in the dark" [ref=e451] [cursor=pointer]:
+                  - /url: /pin/265008759329481338/
+                  - img "the word onyx glows green in the dark" [ref=e461]
+                - generic [ref=e463]:
+                  - generic:
+                    - link "the word onyx glows green in the dark":
+                      - /url: /pin/265008759329481338/
+                  - generic "More actions" [ref=e470]:
+                    - button "More actions" [ref=e471] [cursor=pointer]:
+                      - img [ref=e474]
+          - listitem [ref=e476]:
+            - generic [ref=e477]:
+              - generic [ref=e483]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e485]:
+                - generic [ref=e487]:
+                  - link "an abstract painting with waves and bubbles in the dark blue water on a black background" [ref=e490] [cursor=pointer]:
+                    - /url: /pin/47710077299710155/
+                    - img "an abstract painting with waves and bubbles in the dark blue water on a black background" [ref=e500]
+                  - generic [ref=e502]:
+                    - generic:
+                      - link "an abstract painting with waves and bubbles in the dark blue water on a black background":
+                        - /url: /pin/47710077299710155/
+                    - generic "More actions" [ref=e509]:
+                      - button "More actions" [ref=e510] [cursor=pointer]:
+                        - img [ref=e513]
+          - listitem [ref=e515]:
+            - group "Pin card" [ref=e518]:
+              - generic [ref=e520]:
+                - link "the full moon is seen in the dark sky" [ref=e523] [cursor=pointer]:
+                  - /url: /pin/173036810678307769/
+                  - img "the full moon is seen in the dark sky" [ref=e533]
+                - generic [ref=e535]:
+                  - generic:
+                    - link "the full moon is seen in the dark sky":
+                      - /url: /pin/173036810678307769/
+                  - generic "More actions" [ref=e542]:
+                    - button "More actions" [ref=e543] [cursor=pointer]:
+                      - img [ref=e546]
+          - listitem [ref=e548]:
+            - group "Pin card" [ref=e551]:
+              - generic [ref=e553]:
+                - link "the headphones are glowing green in the dark" [ref=e556] [cursor=pointer]:
+                  - /url: /pin/38913984276871715/
+                  - img "the headphones are glowing green in the dark" [ref=e566]
+                - generic [ref=e568]:
+                  - generic:
+                    - link "the headphones are glowing green in the dark":
+                      - /url: /pin/38913984276871715/
+                  - generic "More actions" [ref=e575]:
+                    - button "More actions" [ref=e576] [cursor=pointer]:
+                      - img [ref=e579]
+          - listitem [ref=e581]:
+            - group "Pin card" [ref=e584]:
+              - generic [ref=e586]:
+                - link "a black cat with blue eyes looking at the camera" [ref=e589] [cursor=pointer]:
+                  - /url: /pin/29132728835273234/
+                  - img "a black cat with blue eyes looking at the camera" [ref=e599]
+                - generic [ref=e601]:
+                  - generic:
+                    - link "a black cat with blue eyes looking at the camera":
+                      - /url: /pin/29132728835273234/
+                  - generic "More actions" [ref=e608]:
+                    - button "More actions" [ref=e609] [cursor=pointer]:
+                      - img [ref=e612]
+          - listitem [ref=e614]:
+            - group "Pin card" [ref=e617]:
+              - generic [ref=e619]:
+                - link "three different types of credit cards on a blue background with the same number as each card" [ref=e622] [cursor=pointer]:
+                  - /url: /pin/5840674511938695/
+                  - img "three different types of credit cards on a blue background with the same number as each card" [ref=e632]
+                - generic [ref=e634]:
+                  - generic:
+                    - link "three different types of credit cards on a blue background with the same number as each card":
+                      - /url: /pin/5840674511938695/
+                  - generic "More actions" [ref=e641]:
+                    - button "More actions" [ref=e642] [cursor=pointer]:
+                      - img [ref=e645]
+          - listitem [ref=e647]:
+            - generic [ref=e648]:
+              - generic [ref=e654]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e656]:
+                - generic [ref=e658]:
+                  - link "the sky is filled with green and blue stars, as well as some dark clouds" [ref=e661] [cursor=pointer]:
+                    - /url: /pin/41025046602732566/
+                    - img "the sky is filled with green and blue stars, as well as some dark clouds" [ref=e671]
+                  - generic [ref=e673]:
+                    - generic:
+                      - link "the sky is filled with green and blue stars, as well as some dark clouds":
+                        - /url: /pin/41025046602732566/
+                    - generic "More actions" [ref=e680]:
+                      - button "More actions" [ref=e681] [cursor=pointer]:
+                        - img [ref=e684]
+          - listitem [ref=e686]:
+            - group "Pin card" [ref=e689]:
+              - generic [ref=e691]:
+                - link "a white flower on a black background" [ref=e694] [cursor=pointer]:
+                  - /url: /pin/475059460718090269/
+                  - img "a white flower on a black background" [ref=e704]
+                - generic [ref=e706]:
+                  - generic:
+                    - link "a white flower on a black background":
+                      - /url: /pin/475059460718090269/
+                  - generic "More actions" [ref=e713]:
+                    - button "More actions" [ref=e714] [cursor=pointer]:
+                      - img [ref=e717]
+          - listitem [ref=e719]:
+            - group "Pin card" [ref=e722]:
+              - generic [ref=e724]:
+                - link "the full moon is seen in the dark sky" [ref=e727] [cursor=pointer]:
+                  - /url: /pin/18788523442600761/
+                  - img "the full moon is seen in the dark sky" [ref=e737]
+                - generic [ref=e739]:
+                  - generic:
+                    - link "the full moon is seen in the dark sky":
+                      - /url: /pin/18788523442600761/
+                  - generic "More actions" [ref=e746]:
+                    - button "More actions" [ref=e747] [cursor=pointer]:
+                      - img [ref=e750]
+          - listitem [ref=e752]:
+            - group "Pin card" [ref=e755]:
+              - generic [ref=e757]:
+                - link "two jellyfish swimming in the dark water" [ref=e760] [cursor=pointer]:
+                  - /url: /pin/157837161937626779/
+                  - img "two jellyfish swimming in the dark water" [ref=e770]
+                - generic [ref=e772]:
+                  - generic:
+                    - link "two jellyfish swimming in the dark water":
+                      - /url: /pin/157837161937626779/
+                  - generic "More actions" [ref=e779]:
+                    - button "More actions" [ref=e780] [cursor=pointer]:
+                      - img [ref=e783]
+          - listitem [ref=e785]:
+            - group "Pin card" [ref=e788]:
+              - generic [ref=e790]:
+                - link "the moon is shining brightly in the dark night sky over the water and stars above it" [ref=e793] [cursor=pointer]:
+                  - /url: /pin/64528207156814021/
+                  - img "the moon is shining brightly in the dark night sky over the water and stars above it" [ref=e803]
+                - generic [ref=e805]:
+                  - generic:
+                    - link "the moon is shining brightly in the dark night sky over the water and stars above it":
+                      - /url: /pin/64528207156814021/
+                  - generic "More actions" [ref=e812]:
+                    - button "More actions" [ref=e813] [cursor=pointer]:
+                      - img [ref=e816]
+          - listitem [ref=e818]:
+            - generic [ref=e819]:
+              - generic [ref=e825]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e827]:
+                - generic [ref=e829]:
+                  - link "the night sky is filled with stars and clouds, as seen from an airplane window" [ref=e832] [cursor=pointer]:
+                    - /url: /pin/14496030044720223/
+                    - img "the night sky is filled with stars and clouds, as seen from an airplane window" [ref=e842]
+                  - generic [ref=e844]:
+                    - generic:
+                      - link "the night sky is filled with stars and clouds, as seen from an airplane window":
+                        - /url: /pin/14496030044720223/
+                    - generic "More actions" [ref=e851]:
+                      - button "More actions" [ref=e852] [cursor=pointer]:
+                        - img [ref=e855]
+          - listitem [ref=e857]:
+            - group "Pin card" [ref=e860]:
+              - generic [ref=e862]:
+                - link "Dark Teal Phone Wallpaper, Dark Teal Green Aesthetic, Dark Teal Blue Aesthetic, Dark Aqua Aesthetic, Bluish Green Aesthetic, Teal Aesthetic Background, Dark Teal Wallpaper, Dark Blue And Green Wallpaper, Dark Teal Wallpaper Iphone" [ref=e865] [cursor=pointer]:
+                  - /url: /pin/31806741114466956/
+                  - img "Dark Teal Phone Wallpaper, Dark Teal Green Aesthetic, Dark Teal Blue Aesthetic, Dark Aqua Aesthetic, Bluish Green Aesthetic, Teal Aesthetic Background, Dark Teal Wallpaper, Dark Blue And Green Wallpaper, Dark Teal Wallpaper Iphone" [ref=e875]
+                - generic [ref=e877]:
+                  - generic:
+                    - link "Dark Teal Phone Wallpaper, Dark Teal Green Aesthetic, Dark Teal Blue Aesthetic, Dark Aqua Aesthetic, Bluish Green Aesthetic, Teal Aesthetic Background, Dark Teal Wallpaper, Dark Blue And Green Wallpaper, Dark Teal Wallpaper Iphone":
+                      - /url: /pin/31806741114466956/
+                  - generic "More actions" [ref=e884]:
+                    - button "More actions" [ref=e885] [cursor=pointer]:
+                      - img [ref=e888]
+          - listitem [ref=e890]:
+            - group "Pin card" [ref=e893]:
+              - generic [ref=e895]:
+                - link "a black square with blue dots on the side and three green dots in the middle" [ref=e898] [cursor=pointer]:
+                  - /url: /pin/96968198221298023/
+                  - img "a black square with blue dots on the side and three green dots in the middle" [ref=e908]
+                - generic [ref=e910]:
+                  - generic:
+                    - link "a black square with blue dots on the side and three green dots in the middle":
+                      - /url: /pin/96968198221298023/
+                  - generic "More actions" [ref=e917]:
+                    - button "More actions" [ref=e918] [cursor=pointer]:
+                      - img [ref=e921]
+          - listitem [ref=e923]:
+            - group "Pin card" [ref=e926]:
+              - generic [ref=e928]:
+                - link "an iphone screen showing the dark side of space with images and captions on it" [ref=e931] [cursor=pointer]:
+                  - /url: /pin/7036943163122523/
+                  - img "an iphone screen showing the dark side of space with images and captions on it" [ref=e941]
+                - generic [ref=e943]:
+                  - generic:
+                    - link "an iphone screen showing the dark side of space with images and captions on it":
+                      - /url: /pin/7036943163122523/
+                  - generic "More actions" [ref=e950]:
+                    - button "More actions" [ref=e951] [cursor=pointer]:
+                      - img [ref=e954]
+          - listitem [ref=e956]:
+            - group "Pin card" [ref=e959]:
+              - generic [ref=e961]:
+                - link "a white spot on a black background with the letter s in it's center" [ref=e964] [cursor=pointer]:
+                  - /url: /pin/475059460718090254/
+                  - img "a white spot on a black background with the letter s in it's center" [ref=e974]
+                - generic [ref=e976]:
+                  - generic:
+                    - link "a white spot on a black background with the letter s in it's center":
+                      - /url: /pin/475059460718090254/
+                  - generic "More actions" [ref=e983]:
+                    - button "More actions" [ref=e984] [cursor=pointer]:
+                      - img [ref=e987]
+          - listitem [ref=e989]:
+            - generic [ref=e990]:
+              - generic [ref=e996]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e998]:
+                - generic [ref=e1000]:
+                  - link "two smartphone screens displaying different types of app design" [ref=e1003] [cursor=pointer]:
+                    - /url: /pin/17381148558214050/
+                    - img "two smartphone screens displaying different types of app design" [ref=e1013]
+                  - generic [ref=e1015]:
+                    - generic:
+                      - link "two smartphone screens displaying different types of app design":
+                        - /url: /pin/17381148558214050/
+                    - generic "More actions" [ref=e1022]:
+                      - button "More actions" [ref=e1023] [cursor=pointer]:
+                        - img [ref=e1026]
+          - listitem [ref=e1028]:
+            - generic [ref=e1029]:
+              - generic [ref=e1035]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1037]:
+                - generic [ref=e1039]:
+                  - link "a black and white drawing of a controller on a dark blue background with the words" [ref=e1042] [cursor=pointer]:
+                    - /url: /pin/475059460718090249/
+                    - img "a black and white drawing of a controller on a dark blue background with the words" [ref=e1052]
+                  - generic [ref=e1054]:
+                    - generic:
+                      - link "a black and white drawing of a controller on a dark blue background with the words":
+                        - /url: /pin/475059460718090249/
+                    - generic "More actions" [ref=e1061]:
+                      - button "More actions" [ref=e1062] [cursor=pointer]:
+                        - img [ref=e1065]
+          - listitem [ref=e1067]:
+            - generic [ref=e1068]:
+              - generic [ref=e1074]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1076]:
+                - generic [ref=e1078]:
+                  - 'link "Monochromatic Color Palette Deep Sea Teal #00586A · Charcoal Teal #004551 · Night Teal #003C47 · Midnight Teal #00697C · Dusty Teal #008080" [ref=e1081] [cursor=pointer]':
+                    - /url: /pin/17803361026783544/
+                    - 'img "Monochromatic Color Palette Deep Sea Teal #00586A · Charcoal Teal #004551 · Night Teal #003C47 · Midnight Teal #00697C · Dusty Teal #008080" [ref=e1091]'
+                  - generic [ref=e1093]:
+                    - generic:
+                      - 'link "Monochromatic Color Palette Deep Sea Teal #00586A · Charcoal Teal #004551 · Night Teal #003C47 · Midnight Teal #00697C · Dusty Teal #008080"':
+                        - /url: /pin/17803361026783544/
+                    - generic "More actions" [ref=e1100]:
+                      - button "More actions" [ref=e1101] [cursor=pointer]:
+                        - img [ref=e1104]
+          - listitem [ref=e1106]:
+            - generic [ref=e1107]:
+              - generic [ref=e1113]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1115]:
+                - generic [ref=e1117]:
+                  - link "an image of a car app with different colors and options to choose which one is best for you" [ref=e1120] [cursor=pointer]:
+                    - /url: /pin/458733912068956843/
+                    - img "an image of a car app with different colors and options to choose which one is best for you" [ref=e1130]
+                  - generic [ref=e1132]:
+                    - generic:
+                      - link "an image of a car app with different colors and options to choose which one is best for you":
+                        - /url: /pin/458733912068956843/
+                    - generic "More actions" [ref=e1139]:
+                      - button "More actions" [ref=e1140] [cursor=pointer]:
+                        - img [ref=e1143]
+          - listitem [ref=e1145]:
+            - generic [ref=e1146]:
+              - generic [ref=e1152]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1154]:
+                - generic [ref=e1156]:
+                  - link "five phases of the moon are shown in black and blue colors, with one half lit up" [ref=e1159] [cursor=pointer]:
+                    - /url: /pin/18155204744339744/
+                    - img "five phases of the moon are shown in black and blue colors, with one half lit up" [ref=e1169]
+                  - generic [ref=e1171]:
+                    - generic:
+                      - link "five phases of the moon are shown in black and blue colors, with one half lit up":
+                        - /url: /pin/18155204744339744/
+                    - generic "More actions" [ref=e1178]:
+                      - button "More actions" [ref=e1179] [cursor=pointer]:
+                        - img [ref=e1182]
+          - listitem [ref=e1184]:
+            - generic [ref=e1185]:
+              - generic [ref=e1191]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1193]:
+                - generic [ref=e1195]:
+                  - link "a black background with a blue cloud in the middle and a green line across the top" [ref=e1198] [cursor=pointer]:
+                    - /url: /pin/327566572914194312/
+                    - img "a black background with a blue cloud in the middle and a green line across the top" [ref=e1208]
+                  - generic [ref=e1210]:
+                    - generic:
+                      - link "a black background with a blue cloud in the middle and a green line across the top":
+                        - /url: /pin/327566572914194312/
+                    - generic "More actions" [ref=e1217]:
+                      - button "More actions" [ref=e1218] [cursor=pointer]:
+                        - img [ref=e1221]
+          - listitem [ref=e1223]:
+            - generic [ref=e1224]:
+              - generic [ref=e1230]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1232]:
+                - generic [ref=e1234]:
+                  - link "a green heart shaped object in the dark" [ref=e1237] [cursor=pointer]:
+                    - /url: /pin/97953360639413898/
+                    - img "a green heart shaped object in the dark" [ref=e1247]
+                  - generic [ref=e1249]:
+                    - generic:
+                      - link "a green heart shaped object in the dark":
+                        - /url: /pin/97953360639413898/
+                    - generic "More actions" [ref=e1256]:
+                      - button "More actions" [ref=e1257] [cursor=pointer]:
+                        - img [ref=e1260]
+          - listitem [ref=e1262]:
+            - generic [ref=e1263]:
+              - generic [ref=e1269]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1271]:
+                - generic [ref=e1273]:
+                  - link "an abstract background with gold lines and triangles on a dark green backdrop that looks like it has been painted" [ref=e1276] [cursor=pointer]:
+                    - /url: /pin/33777065953873123/
+                    - img "an abstract background with gold lines and triangles on a dark green backdrop that looks like it has been painted" [ref=e1286]
+                  - generic [ref=e1288]:
+                    - generic:
+                      - link "an abstract background with gold lines and triangles on a dark green backdrop that looks like it has been painted":
+                        - /url: /pin/33777065953873123/
+                    - generic "More actions" [ref=e1295]:
+                      - button "More actions" [ref=e1296] [cursor=pointer]:
+                        - img [ref=e1299]
+          - listitem [ref=e1301]:
+            - generic [ref=e1302]:
+              - generic [ref=e1308]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1310]:
+                - generic [ref=e1312]:
+                  - link "a ferris wheel lit up in the dark" [ref=e1315] [cursor=pointer]:
+                    - /url: /pin/29132728835273249/
+                    - img "a ferris wheel lit up in the dark" [ref=e1325]
+                  - generic [ref=e1327]:
+                    - generic:
+                      - link "a ferris wheel lit up in the dark":
+                        - /url: /pin/29132728835273249/
+                    - generic "More actions" [ref=e1334]:
+                      - button "More actions" [ref=e1335] [cursor=pointer]:
+                        - img [ref=e1338]

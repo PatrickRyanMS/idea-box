@@ -1,0 +1,430 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - link "Skip to content":
+      - /url: "#"
+      - generic [ref=e8] [cursor=pointer]: Skip to content
+    - generic [ref=e10]:
+      - generic [ref=e13]:
+        - combobox "Search" [ref=e15]: dark UI gradient glow warm accent interface
+        - button "Remove search input" [ref=e20] [cursor=pointer]:
+          - img [ref=e23]
+      - generic [ref=e25]:
+        - button "Log in" [ref=e27] [cursor=pointer]:
+          - generic [ref=e29]: Log in
+        - button "Sign up" [ref=e31] [cursor=pointer]:
+          - generic [ref=e33]: Sign up
+  - navigation [ref=e35]:
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - generic "Home" [ref=e42]:
+          - link "Home" [ref=e43] [cursor=pointer]:
+            - /url: /
+            - img [ref=e45]
+        - generic "Explore" [ref=e50]:
+          - link "Explore" [ref=e51] [cursor=pointer]:
+            - /url: /ideas
+            - img [ref=e53]
+        - generic "Shop" [ref=e58]:
+          - link "Shop" [ref=e59] [cursor=pointer]:
+            - /url: /shopping
+            - img [ref=e61]
+      - generic "More options" [ref=e65]:
+        - button "More options" [ref=e66] [cursor=pointer]:
+          - img [ref=e69]
+  - main [ref=e71]:
+    - generic [ref=e73]:
+      - generic [ref=e76]:
+        - heading "Search" [level=1] [ref=e78]
+        - button "Show filters" [ref=e89] [cursor=pointer]:
+          - img [ref=e93]
+      - generic [ref=e99]:
+        - generic [ref=e100]: Showing more search results for dark UI gradient glow warm accent interface
+        - list [ref=e105]:
+          - listitem [ref=e106]:
+            - group "Pin card" [ref=e109]:
+              - generic [ref=e111]:
+                - link "three screens showing different stages of lighting in the dark room, including an orange and yellow light" [ref=e114] [cursor=pointer]:
+                  - /url: /pin/844493676320414/
+                  - img "three screens showing different stages of lighting in the dark room, including an orange and yellow light" [ref=e124]
+                - generic [ref=e126]:
+                  - generic:
+                    - link "three screens showing different stages of lighting in the dark room, including an orange and yellow light":
+                      - /url: /pin/844493676320414/
+                  - generic "More actions" [ref=e133]:
+                    - button "More actions" [ref=e134] [cursor=pointer]:
+                      - img [ref=e137]
+          - listitem [ref=e139]:
+            - group "Pin card" [ref=e142]:
+              - generic [ref=e144]:
+                - link "the website design is dark and orange" [ref=e147] [cursor=pointer]:
+                  - /url: /pin/3307399722086531/
+                  - img "the website design is dark and orange" [ref=e157]
+                - generic [ref=e159]:
+                  - generic:
+                    - link "the website design is dark and orange":
+                      - /url: /pin/3307399722086531/
+                  - generic "More actions" [ref=e166]:
+                    - button "More actions" [ref=e167] [cursor=pointer]:
+                      - img [ref=e170]
+          - listitem [ref=e172]:
+            - group "Pin card" [ref=e175]:
+              - generic [ref=e177]:
+                - link "an orange and black background with the word contact on it's left side, and two" [ref=e180] [cursor=pointer]:
+                  - /url: /pin/51861833204504959/
+                  - img "an orange and black background with the word contact on it's left side, and two" [ref=e190]
+                - generic [ref=e192]:
+                  - generic:
+                    - link "an orange and black background with the word contact on it's left side, and two":
+                      - /url: /pin/51861833204504959/
+                  - generic "More actions" [ref=e199]:
+                    - button "More actions" [ref=e200] [cursor=pointer]:
+                      - img [ref=e203]
+          - listitem [ref=e205]:
+            - group "Pin card" [ref=e208]:
+              - generic [ref=e210]:
+                - link "Web Ux Design, Gradient Website Design, Gradient Web Design, Elegant Website Design, Ux Design Principles, Ui Design Principles, Mobile App Design Inspiration, App Design Inspiration, Ui Design Inspiration" [ref=e213] [cursor=pointer]:
+                  - /url: /pin/3799980931060225/
+                  - img "Web Ux Design, Gradient Website Design, Gradient Web Design, Elegant Website Design, Ux Design Principles, Ui Design Principles, Mobile App Design Inspiration, App Design Inspiration, Ui Design Inspiration" [ref=e223]
+                - generic [ref=e225]:
+                  - generic:
+                    - link "Web Ux Design, Gradient Website Design, Gradient Web Design, Elegant Website Design, Ux Design Principles, Ui Design Principles, Mobile App Design Inspiration, App Design Inspiration, Ui Design Inspiration":
+                      - /url: /pin/3799980931060225/
+                  - generic "More actions" [ref=e232]:
+                    - button "More actions" [ref=e233] [cursor=pointer]:
+                      - img [ref=e236]
+          - listitem [ref=e238]:
+            - group "Pin card" [ref=e241]:
+              - generic [ref=e243]:
+                - link "three different colored lights in the dark" [ref=e246] [cursor=pointer]:
+                  - /url: /pin/19773685859567108/
+                  - img "three different colored lights in the dark" [ref=e256]
+                - generic [ref=e258]:
+                  - generic:
+                    - link "three different colored lights in the dark":
+                      - /url: /pin/19773685859567108/
+                  - generic "More actions" [ref=e265]:
+                    - button "More actions" [ref=e266] [cursor=pointer]:
+                      - img [ref=e269]
+          - listitem [ref=e271]:
+            - group "Pin card" [ref=e274]:
+              - generic [ref=e276]:
+                - link "an orange and black website design with the word about on it's front page" [ref=e279] [cursor=pointer]:
+                  - /url: /pin/7036943160887130/
+                  - img "an orange and black website design with the word about on it's front page" [ref=e289]
+                - generic [ref=e291]:
+                  - generic:
+                    - link "an orange and black website design with the word about on it's front page":
+                      - /url: /pin/7036943160887130/
+                  - generic "More actions" [ref=e298]:
+                    - button "More actions" [ref=e299] [cursor=pointer]:
+                      - img [ref=e302]
+          - listitem [ref=e304]:
+            - generic [ref=e305]:
+              - generic [ref=e311]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e313]:
+                - generic [ref=e315]:
+                  - link "three iphones with the text sleep later on them and an image of a rainbow - colored" [ref=e318] [cursor=pointer]:
+                    - /url: /pin/4433299629056547/
+                    - img "three iphones with the text sleep later on them and an image of a rainbow - colored" [ref=e328]
+                  - generic [ref=e330]:
+                    - generic:
+                      - link "three iphones with the text sleep later on them and an image of a rainbow - colored":
+                        - /url: /pin/4433299629056547/
+                    - generic "More actions" [ref=e337]:
+                      - button "More actions" [ref=e338] [cursor=pointer]:
+                        - img [ref=e341]
+          - listitem [ref=e343]:
+            - group "Pin card" [ref=e346]:
+              - generic [ref=e348]:
+                - link "an orange and black background with square shapes" [ref=e351] [cursor=pointer]:
+                  - /url: /pin/844493676096656/
+                  - img "an orange and black background with square shapes" [ref=e361]
+                - generic [ref=e363]:
+                  - generic:
+                    - link "an orange and black background with square shapes":
+                      - /url: /pin/844493676096656/
+                  - generic "More actions" [ref=e370]:
+                    - button "More actions" [ref=e371] [cursor=pointer]:
+                      - img [ref=e374]
+          - listitem [ref=e376]:
+            - group "Pin card" [ref=e379]:
+              - generic [ref=e381]:
+                - link "the user's interface design for an app" [ref=e384] [cursor=pointer]:
+                  - /url: /pin/15129348745110165/
+                  - img "the user's interface design for an app" [ref=e394]
+                - generic [ref=e396]:
+                  - generic:
+                    - link "the user's interface design for an app":
+                      - /url: /pin/15129348745110165/
+                  - generic "More actions" [ref=e403]:
+                    - button "More actions" [ref=e404] [cursor=pointer]:
+                      - img [ref=e407]
+          - listitem [ref=e409]:
+            - group "Pin card" [ref=e412]:
+              - generic [ref=e414]:
+                - link "the back side of a black device with red and blue light coming out of it" [ref=e417] [cursor=pointer]:
+                  - /url: /pin/2814818513039234/
+                  - img "the back side of a black device with red and blue light coming out of it" [ref=e427]
+                - generic [ref=e429]:
+                  - generic:
+                    - link "the back side of a black device with red and blue light coming out of it":
+                      - /url: /pin/2814818513039234/
+                  - generic "More actions" [ref=e436]:
+                    - button "More actions" [ref=e437] [cursor=pointer]:
+                      - img [ref=e440]
+          - listitem [ref=e442]:
+            - group "Pin card" [ref=e445]:
+              - generic [ref=e447]:
+                - link "the gradient effect in figma" [ref=e450] [cursor=pointer]:
+                  - /url: /pin/242138917461818580/
+                  - img "the gradient effect in figma" [ref=e460]
+                - generic [ref=e462]:
+                  - generic:
+                    - link "the gradient effect in figma":
+                      - /url: /pin/242138917461818580/
+                  - generic "More actions" [ref=e469]:
+                    - button "More actions" [ref=e470] [cursor=pointer]:
+                      - img [ref=e473]
+          - listitem [ref=e475]:
+            - generic [ref=e476]:
+              - generic [ref=e482]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e484]:
+                - generic [ref=e486]:
+                  - link "the blurry image shows an orange and yellow light in the background with words below it" [ref=e489] [cursor=pointer]:
+                    - /url: /pin/12033124000294684/
+                    - img "the blurry image shows an orange and yellow light in the background with words below it" [ref=e499]
+                  - generic [ref=e501]:
+                    - generic:
+                      - link "the blurry image shows an orange and yellow light in the background with words below it":
+                        - /url: /pin/12033124000294684/
+                    - generic "More actions" [ref=e508]:
+                      - button "More actions" [ref=e509] [cursor=pointer]:
+                        - img [ref=e512]
+          - listitem [ref=e514]:
+            - group "Pin card" [ref=e517]:
+              - generic [ref=e519]:
+                - link "an orange and black background with the light reflecting off it's back end in the distance" [ref=e522] [cursor=pointer]:
+                  - /url: /pin/563018699560055/
+                  - img "an orange and black background with the light reflecting off it's back end in the distance" [ref=e532]
+                - generic [ref=e534]:
+                  - generic:
+                    - link "an orange and black background with the light reflecting off it's back end in the distance":
+                      - /url: /pin/563018699560055/
+                  - generic "More actions" [ref=e541]:
+                    - button "More actions" [ref=e542] [cursor=pointer]:
+                      - img [ref=e545]
+          - listitem [ref=e547]:
+            - group "Pin card" [ref=e550]:
+              - generic [ref=e552]:
+                - link "three mobile phone screens with different shapes and sizes on them, all displaying the same device's buttons" [ref=e555] [cursor=pointer]:
+                  - /url: /pin/6825836929218823/
+                  - img "three mobile phone screens with different shapes and sizes on them, all displaying the same device's buttons" [ref=e565]
+                - generic [ref=e567]:
+                  - generic:
+                    - link "three mobile phone screens with different shapes and sizes on them, all displaying the same device's buttons":
+                      - /url: /pin/6825836929218823/
+                  - generic "More actions" [ref=e574]:
+                    - button "More actions" [ref=e575] [cursor=pointer]:
+                      - img [ref=e578]
+          - listitem [ref=e580]:
+            - group "Pin card" [ref=e583]:
+              - generic [ref=e585]:
+                - 'link "Dark-themed UI presentation slide showing two sections with bright gradient color palettes for a mobile app landing page. On the left, a light card displays accent colors like violet, blue, and lavender with hex codes (#C78BFF, #64ADFB, #2D2CFF) over a soft gradient background. On the right, a darker card titled “Space gradient” features deep blue tones and a starry background with hex. The layout uses modern typography, clean spacing, and glowing gradients to highlight color use in UI design." [ref=e588] [cursor=pointer]':
+                  - /url: /pin/774124931269814/
+                  - 'img "Dark-themed UI presentation slide showing two sections with bright gradient color palettes for a mobile app landing page. On the left, a light card displays accent colors like violet, blue, and lavender with hex codes (#C78BFF, #64ADFB, #2D2CFF) over a soft gradient background. On the right, a darker card titled “Space gradient” features deep blue tones and a starry background with hex. The layout uses modern typography, clean spacing, and glowing gradients to highlight color use in UI design." [ref=e598]'
+                - generic [ref=e600]:
+                  - generic:
+                    - 'link "Dark-themed UI presentation slide showing two sections with bright gradient color palettes for a mobile app landing page. On the left, a light card displays accent colors like violet, blue, and lavender with hex codes (#C78BFF, #64ADFB, #2D2CFF) over a soft gradient background. On the right, a darker card titled “Space gradient” features deep blue tones and a starry background with hex. The layout uses modern typography, clean spacing, and glowing gradients to highlight color use in UI design."':
+                      - /url: /pin/774124931269814/
+                  - generic "More actions" [ref=e607]:
+                    - button "More actions" [ref=e608] [cursor=pointer]:
+                      - img [ref=e611]
+          - listitem [ref=e613]:
+            - group "Pin card" [ref=e616]:
+              - generic [ref=e618]:
+                - link "the back side of an ipad with text on it that reads,'gradient '" [ref=e621] [cursor=pointer]:
+                  - /url: /pin/53550683064061448/
+                  - img "the back side of an ipad with text on it that reads,'gradient '" [ref=e631]
+                - generic [ref=e633]:
+                  - generic:
+                    - link "the back side of an ipad with text on it that reads,'gradient '":
+                      - /url: /pin/53550683064061448/
+                  - generic "More actions" [ref=e640]:
+                    - button "More actions" [ref=e641] [cursor=pointer]:
+                      - img [ref=e644]
+          - listitem [ref=e646]:
+            - generic [ref=e647]:
+              - generic [ref=e653]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e655]:
+                - generic [ref=e657]:
+                  - link "an orange and black background with some different colors on the bottom right hand corner, which is labeled light yellow" [ref=e660] [cursor=pointer]:
+                    - /url: /pin/38562140559618243/
+                    - img "an orange and black background with some different colors on the bottom right hand corner, which is labeled light yellow" [ref=e670]
+                  - generic [ref=e672]:
+                    - generic:
+                      - link "an orange and black background with some different colors on the bottom right hand corner, which is labeled light yellow":
+                        - /url: /pin/38562140559618243/
+                    - generic "More actions" [ref=e679]:
+                      - button "More actions" [ref=e680] [cursor=pointer]:
+                        - img [ref=e683]
+          - listitem [ref=e685]:
+            - group "Pin card" [ref=e688]:
+              - generic [ref=e690]:
+                - link "an image of a person holding a cell phone in front of a screen with text on it" [ref=e693] [cursor=pointer]:
+                  - /url: /pin/38843615661572405/
+                  - img "an image of a person holding a cell phone in front of a screen with text on it" [ref=e703]
+                - generic [ref=e705]:
+                  - generic:
+                    - link "an image of a person holding a cell phone in front of a screen with text on it":
+                      - /url: /pin/38843615661572405/
+                  - generic "More actions" [ref=e712]:
+                    - button "More actions" [ref=e713] [cursor=pointer]:
+                      - img [ref=e716]
+          - listitem [ref=e718]:
+            - group "Pin card" [ref=e721]:
+              - generic [ref=e723]:
+                - link "an orange and yellow background with some black dots in the bottom right corner that is slightly blurry" [ref=e726] [cursor=pointer]:
+                  - /url: /pin/3799980930836158/
+                  - img "an orange and yellow background with some black dots in the bottom right corner that is slightly blurry" [ref=e736]
+                - generic [ref=e738]:
+                  - generic:
+                    - link "an orange and yellow background with some black dots in the bottom right corner that is slightly blurry":
+                      - /url: /pin/3799980930836158/
+                  - generic "More actions" [ref=e745]:
+                    - button "More actions" [ref=e746] [cursor=pointer]:
+                      - img [ref=e749]
+          - listitem [ref=e751]:
+            - group "Pin card" [ref=e754]:
+              - generic [ref=e756]:
+                - link "Warm sunset color palette with soft orange and golden gradient tones. Perfect for branding, UI design, social media graphics, packaging and digital design inspiration. Aesthetic color combination for modern creatives and designers." [ref=e759] [cursor=pointer]:
+                  - /url: /pin/1970393584277624/
+                  - img "Warm sunset color palette with soft orange and golden gradient tones. Perfect for branding, UI design, social media graphics, packaging and digital design inspiration. Aesthetic color combination for modern creatives and designers." [ref=e769]
+                - generic [ref=e771]:
+                  - generic:
+                    - link "Warm sunset color palette with soft orange and golden gradient tones. Perfect for branding, UI design, social media graphics, packaging and digital design inspiration. Aesthetic color combination for modern creatives and designers.":
+                      - /url: /pin/1970393584277624/
+                  - generic "More actions" [ref=e778]:
+                    - button "More actions" [ref=e779] [cursor=pointer]:
+                      - img [ref=e782]
+          - listitem [ref=e784]:
+            - group "Pin card" [ref=e787]:
+              - generic [ref=e789]:
+                - link "four different colored buttons on a black background with the text'every argument is true '" [ref=e792] [cursor=pointer]:
+                  - /url: /pin/1688918606961179/
+                  - img "four different colored buttons on a black background with the text'every argument is true '" [ref=e802]
+                - generic [ref=e804]:
+                  - generic:
+                    - link "four different colored buttons on a black background with the text'every argument is true '":
+                      - /url: /pin/1688918606961179/
+                  - generic "More actions" [ref=e811]:
+                    - button "More actions" [ref=e812] [cursor=pointer]:
+                      - img [ref=e815]
+          - listitem [ref=e817]:
+            - generic [ref=e818]:
+              - generic [ref=e824]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e826]:
+                - generic [ref=e828]:
+                  - link "a collection of black and gold objects on a dark background with space for text or image" [ref=e831] [cursor=pointer]:
+                    - /url: /pin/9851692934318035/
+                    - img "a collection of black and gold objects on a dark background with space for text or image" [ref=e841]
+                  - generic [ref=e843]:
+                    - generic:
+                      - link "a collection of black and gold objects on a dark background with space for text or image":
+                        - /url: /pin/9851692934318035/
+                    - generic "More actions" [ref=e850]:
+                      - button "More actions" [ref=e851] [cursor=pointer]:
+                        - img [ref=e854]
+          - listitem [ref=e856]:
+            - group "Pin card" [ref=e859]:
+              - generic [ref=e861]:
+                - link "three black and white images with the number 350 on them, one is illuminated by a light bulb" [ref=e864] [cursor=pointer]:
+                  - /url: /pin/5207355814779208/
+                  - img "three black and white images with the number 350 on them, one is illuminated by a light bulb" [ref=e874]
+                - generic [ref=e876]:
+                  - generic:
+                    - link "three black and white images with the number 350 on them, one is illuminated by a light bulb":
+                      - /url: /pin/5207355814779208/
+                  - generic "More actions" [ref=e883]:
+                    - button "More actions" [ref=e884] [cursor=pointer]:
+                      - img [ref=e887]
+          - listitem [ref=e889]:
+            - group "Pin card" [ref=e892]:
+              - generic [ref=e894]:
+                - link "four different screens with purple and white shapes on them, all showing the same color" [ref=e897] [cursor=pointer]:
+                  - /url: /pin/2814818512588819/
+                  - img "four different screens with purple and white shapes on them, all showing the same color" [ref=e907]
+                - generic [ref=e909]:
+                  - generic:
+                    - link "four different screens with purple and white shapes on them, all showing the same color":
+                      - /url: /pin/2814818512588819/
+                  - generic "More actions" [ref=e916]:
+                    - button "More actions" [ref=e917] [cursor=pointer]:
+                      - img [ref=e920]
+          - listitem [ref=e922]:
+            - group "Pin card" [ref=e925]:
+              - generic [ref=e927]:
+                - link "an image of a black background with white squares on it and the words visual tutor written below" [ref=e930] [cursor=pointer]:
+                  - /url: /pin/4362930884020531/
+                  - img "an image of a black background with white squares on it and the words visual tutor written below" [ref=e940]
+                - generic [ref=e942]:
+                  - generic:
+                    - link "an image of a black background with white squares on it and the words visual tutor written below":
+                      - /url: /pin/4362930884020531/
+                  - generic "More actions" [ref=e949]:
+                    - button "More actions" [ref=e950] [cursor=pointer]:
+                      - img [ref=e953]
+          - listitem [ref=e955]:
+            - group "Pin card" [ref=e958]:
+              - generic [ref=e960]:
+                - link "two iphone screens displaying the homepage and build wallets app on their sides, with text overlaying them" [ref=e963] [cursor=pointer]:
+                  - /url: /pin/3307399722316699/
+                  - img "two iphone screens displaying the homepage and build wallets app on their sides, with text overlaying them" [ref=e973]
+                - generic [ref=e975]:
+                  - generic:
+                    - link "two iphone screens displaying the homepage and build wallets app on their sides, with text overlaying them":
+                      - /url: /pin/3307399722316699/
+                  - generic "More actions" [ref=e982]:
+                    - button "More actions" [ref=e983] [cursor=pointer]:
+                      - img [ref=e986]
+          - listitem [ref=e988]:
+            - generic [ref=e989]:
+              - generic [ref=e995]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e997]:
+                - generic [ref=e999]:
+                  - link "four square buttons with different colors and text on them, all in the same color scheme" [ref=e1002] [cursor=pointer]:
+                    - /url: /pin/19773685859486033/
+                    - img "four square buttons with different colors and text on them, all in the same color scheme" [ref=e1012]
+                  - generic [ref=e1014]:
+                    - generic:
+                      - link "four square buttons with different colors and text on them, all in the same color scheme":
+                        - /url: /pin/19773685859486033/
+                    - generic "More actions" [ref=e1021]:
+                      - button "More actions" [ref=e1022] [cursor=pointer]:
+                        - img [ref=e1025]
+          - listitem [ref=e1027]:
+            - generic [ref=e1028]:
+              - generic [ref=e1034]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1036]:
+                - generic [ref=e1038]:
+                  - link "an abstract blurry image with blue and yellow colors" [ref=e1041] [cursor=pointer]:
+                    - /url: /pin/492299803056484924/
+                    - img "an abstract blurry image with blue and yellow colors" [ref=e1051]
+                  - generic [ref=e1053]:
+                    - generic:
+                      - link "an abstract blurry image with blue and yellow colors":
+                        - /url: /pin/492299803056484924/
+                    - generic "More actions" [ref=e1060]:
+                      - button "More actions" [ref=e1061] [cursor=pointer]:
+                        - img [ref=e1064]

@@ -1,0 +1,21 @@
+# Notification Settings (Optional)
+# Configure ntfy for push notifications when design tasks complete
+
+enabled: false
+
+# ntfy server and topic
+server: https://ntfy.sh
+topic: design-agent-{user}  # Replace {user} with your identifier
+
+# Notification triggers
+notify_on:
+  comp_set_complete: true
+  mood_board_complete: true
+  research_complete: true
+  design_doc_ready_for_review: true
+
+# Priority levels (1-5, 5 being highest)
+priority:
+  default: 3
+  blocked: 4
+  approval_needed: 5

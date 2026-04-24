@@ -1,0 +1,272 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - link "Skip to content":
+      - /url: "#"
+      - generic [ref=e8] [cursor=pointer]: Skip to content
+    - generic [ref=e10]:
+      - generic [ref=e13]:
+        - generic:
+          - img "Search icon"
+        - generic [ref=e14]:
+          - combobox "Search" [ref=e15]
+          - generic:
+            - generic:
+              - generic:
+                - generic: Search for
+                - generic:
+                  - generic:
+                    - generic: memo app
+                    - generic: ux design principles
+                    - generic: app interface design
+                    - generic: diagram design
+                    - generic: mobile app ui
+                    - generic: memo app
+      - generic [ref=e16]:
+        - button "Log in" [ref=e18] [cursor=pointer]:
+          - generic [ref=e20]: Log in
+        - button "Sign up" [ref=e22] [cursor=pointer]:
+          - generic [ref=e24]: Sign up
+  - navigation [ref=e26]:
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - generic "Home" [ref=e33]:
+          - link "Home" [ref=e34] [cursor=pointer]:
+            - /url: /
+            - img [ref=e36]
+        - generic "Explore" [ref=e41]:
+          - link "Explore" [ref=e42] [cursor=pointer]:
+            - /url: /ideas
+            - img [ref=e44]
+        - generic "Shop" [ref=e49]:
+          - link "Shop" [ref=e50] [cursor=pointer]:
+            - /url: /shopping
+            - img [ref=e52]
+      - generic "More options" [ref=e56]:
+        - button "More options" [ref=e57] [cursor=pointer]:
+          - img [ref=e60]
+  - main [ref=e62]:
+    - generic [ref=e70]:
+      - generic [ref=e71]: Loading more related Pins
+      - list [ref=e76]:
+        - listitem [ref=e77]:
+          - generic [ref=e84]:
+            - button "Click to make the most out of this idea with a free account Voice assistant mobile app UI design in dark mode with to-do list, reminders, chat history, and task management features for productivity. Explore Voice assistant mobile app UI design in dark mode with to-do list, reminders, chat history, and task management features for productivity." [ref=e86] [cursor=pointer]:
+              - generic [ref=e91]:
+                - generic [ref=e92]:
+                  - generic [ref=e93]:
+                    - button "Click to make the most out of this idea with a free account":
+                      - heading "Click to make the most out of this idea with a free account" [level=3] [ref=e98]
+                  - img "Voice assistant mobile app UI design in dark mode with to-do list, reminders, chat history, and task management features for productivity." [ref=e102]
+                  - button "Explore" [ref=e106]:
+                    - button "Explore" [ref=e108]:
+                      - generic [ref=e110]:
+                        - generic [ref=e113]: Explore
+                        - img "Explore" [ref=e115]
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img "Voice assistant mobile app UI design in dark mode with to-do list, reminders, chat history, and task management features for productivity."
+            - generic [ref=e120]:
+              - generic [ref=e125]:
+                - generic [ref=e127]:
+                  - generic [ref=e128]:
+                    - generic "React" [ref=e130]:
+                      - button "React to pin" [ref=e131] [cursor=pointer]:
+                        - img [ref=e134]
+                    - generic [ref=e137]: "24"
+                  - generic "Share" [ref=e142]:
+                    - button "Send" [ref=e144] [cursor=pointer]:
+                      - img [ref=e147]
+                  - generic [ref=e149]:
+                    - generic "More actions" [ref=e151]:
+                      - button "More actions" [ref=e152] [cursor=pointer]:
+                        - img [ref=e155]
+                    - generic [ref=e157]:
+                      - generic [ref=e158]:
+                        - heading "More about this Pin" [level=2] [ref=e159]
+                        - button "Close modal" [ref=e161] [cursor=pointer]:
+                          - img [ref=e164]
+                      - generic [ref=e167]:
+                        - generic [ref=e172]:
+                          - generic [ref=e174]:
+                            - link "Explore" [ref=e175] [cursor=pointer]:
+                              - /url: /ideas/
+                              - generic [ref=e176]: Explore
+                            - img "breadcrumb arrow" [ref=e179]
+                          - link "Design" [ref=e183] [cursor=pointer]:
+                            - /url: /ideas/design/902065567321/
+                            - generic [ref=e184]: Design
+                        - generic [ref=e187]:
+                          - generic:
+                            - heading "Board containing this Pin" [level=3]
+                          - generic:
+                            - link "Selected board cover image EE 214 Pins 7 sections 3d":
+                              - /url: /jscroswell/ee/
+                              - generic [ref=e188] [cursor=pointer]:
+                                - img "Selected board cover image" [ref=e192]
+                                - generic [ref=e194]:
+                                  - generic [ref=e196]: EE
+                                  - generic [ref=e198]:
+                                    - generic [ref=e200]:
+                                      - generic [ref=e201]: 214 Pins
+                                      - generic [ref=e203]: ·
+                                      - generic [ref=e204]: 7 sections
+                                    - generic [ref=e206]: 3d
+                        - generic [ref=e209]:
+                          - generic:
+                            - heading "Related interests" [level=3]
+                          - generic [ref=e210]:
+                            - link "Memo App" [ref=e214] [cursor=pointer]:
+                              - /url: /ideas/memo-app/909891730014/
+                            - link "Ux Design Principles" [ref=e218] [cursor=pointer]:
+                              - /url: /ideas/ux-design-principles/944943868549/
+                            - link "App Interface Design" [ref=e222] [cursor=pointer]:
+                              - /url: /ideas/app-interface-design/899295154239/
+                            - link "Diagram Design" [ref=e226] [cursor=pointer]:
+                              - /url: /ideas/diagram-design/943553695768/
+                            - link "Mobile App Ui" [ref=e230] [cursor=pointer]:
+                              - /url: /ideas/mobile-app-ui/909687609369/
+                            - link "Web Layout Design" [ref=e234] [cursor=pointer]:
+                              - /url: /ideas/web-layout-design/911812183615/
+                            - link "Ui Design Inspiration" [ref=e238] [cursor=pointer]:
+                              - /url: /ideas/ui-design-inspiration/959677182976/
+                            - link "Branding Website Design" [ref=e242] [cursor=pointer]:
+                              - /url: /ideas/branding-website-design/938732247812/
+                            - link "App Interface" [ref=e246] [cursor=pointer]:
+                              - /url: /ideas/app-interface/939406701865/
+                - generic [ref=e247]:
+                  - button "Visit" [ref=e250] [cursor=pointer]:
+                    - generic [ref=e252]: Visit
+                  - link "Pin" [ref=e259] [cursor=pointer]:
+                    - /url: /pin/4222193395869606/repin/
+                    - button "Pin" [ref=e260]:
+                      - button "Pin" [ref=e261]:
+                        - generic [ref=e263]: Save
+              - generic [ref=e264]:
+                - link "www.orbix.studio" [ref=e266] [cursor=pointer]:
+                  - /url: https://www.orbix.studio/?utm_source=Pinterest&utm_medium=organic
+                  - generic [ref=e267]: www.orbix.studio
+                - link "Voice Assistant App UI | Smart Task & Productivity Design Inspiration" [ref=e269] [cursor=pointer]:
+                  - /url: https://www.orbix.studio/?utm_source=Pinterest&utm_medium=organic
+                  - heading "Voice Assistant App UI | Smart Task & Productivity Design Inspiration" [level=1] [ref=e270]
+                - generic [ref=e274]:
+                  - text: Hello everyone! our design team just developed This voice assistant app UI design showcases a sleek dark interface that helps users manage tasks, set reminders, and access chat history with ease. From creating to-do lists to managing conversations, the interface blends minimalism with efficiency
+                  - button "... more" [ref=e277] [cursor=pointer]:
+                    - generic [ref=e278]: ... more
+                - generic [ref=e281]:
+                  - link "Orbix Studio | UI/UX Design Agency avatar link" [ref=e283] [cursor=pointer]:
+                    - /url: /orbixstudio/
+                    - img "Orbix Studio | UI/UX Design Agency avatar link" [ref=e290]
+                  - link "Orbix Studio | UI/UX Design Agency" [ref=e294] [cursor=pointer]:
+                    - /url: /orbixstudio/
+                    - generic [ref=e296]: Orbix Studio | UI/UX Design Agency
+                - generic [ref=e297]:
+                  - heading "9 Comments" [level=2] [ref=e298]
+                  - generic [ref=e300]:
+                    - group "Comment thread" [ref=e301]:
+                      - generic [ref=e302]:
+                        - link "ui/ux design" [ref=e304] [cursor=pointer]:
+                          - /url: /uinazmul/
+                          - img "ui/ux design" [ref=e310]
+                        - generic [ref=e317]:
+                          - link "ui/ux design" [ref=e319] [cursor=pointer]:
+                            - /url: /uinazmul
+                          - generic [ref=e320]: Perfectly done
+                      - group "Comment thread" [ref=e323]:
+                        - generic [ref=e324]:
+                          - link "Orbix Studio | UI/UX Design Agency" [ref=e326] [cursor=pointer]:
+                            - /url: /orbixstudio/
+                            - img "Orbix Studio | UI/UX Design Agency" [ref=e332]
+                          - generic [ref=e339]:
+                            - link "Orbix Studio | UI/UX Design Agency" [ref=e341] [cursor=pointer]:
+                              - /url: /orbixstudio
+                            - generic [ref=e342]: Thanks
+                    - group "Comment thread" [ref=e343]:
+                      - generic [ref=e344]:
+                        - link "Istiak" [ref=e346] [cursor=pointer]:
+                          - /url: /istiakalams/
+                          - img "Istiak" [ref=e352]
+                        - generic [ref=e359]:
+                          - link "Istiak" [ref=e361] [cursor=pointer]:
+                            - /url: /istiakalams
+                          - generic [ref=e362]: wow!
+                      - group "Comment thread" [ref=e365]:
+                        - generic [ref=e366]:
+                          - link "Orbix Studio | UI/UX Design Agency" [ref=e368] [cursor=pointer]:
+                            - /url: /orbixstudio/
+                            - img "Orbix Studio | UI/UX Design Agency" [ref=e374]
+                          - generic [ref=e381]:
+                            - link "Orbix Studio | UI/UX Design Agency" [ref=e383] [cursor=pointer]:
+                              - /url: /orbixstudio
+                            - generic [ref=e384]: thanks
+                    - group "Comment thread" [ref=e385]:
+                      - generic [ref=e386]:
+                        - link "morshed" [ref=e388] [cursor=pointer]:
+                          - /url: /morshedsami9/
+                          - img "morshed" [ref=e394]
+                        - generic [ref=e401]:
+                          - link "morshed" [ref=e403] [cursor=pointer]:
+                            - /url: /morshedsami9
+                          - generic [ref=e404]: Great Work!
+                      - group "Comment thread" [ref=e407]:
+                        - generic [ref=e408]:
+                          - link "Orbix Studio | UI/UX Design Agency" [ref=e410] [cursor=pointer]:
+                            - /url: /orbixstudio/
+                            - img "Orbix Studio | UI/UX Design Agency" [ref=e416]
+                          - generic [ref=e423]:
+                            - link "Orbix Studio | UI/UX Design Agency" [ref=e425] [cursor=pointer]:
+                              - /url: /orbixstudio
+                            - generic [ref=e426]: yes sirrrrrr
+                    - group "Comment thread" [ref=e427]:
+                      - generic [ref=e428]:
+                        - link "tanjila" [ref=e430] [cursor=pointer]:
+                          - /url: /tanjilatahsin80/
+                          - img "tanjila" [ref=e436]
+                        - generic [ref=e443]:
+                          - link "tanjila" [ref=e445] [cursor=pointer]:
+                            - /url: /tanjilatahsin80
+                          - generic [ref=e446]: Great Work!
+                    - group "Comment thread" [ref=e447]:
+                      - generic [ref=e448]:
+                        - link "Mohammad" [ref=e450] [cursor=pointer]:
+                          - /url: /iammun1101/
+                          - img "Mohammad" [ref=e456]
+                        - generic [ref=e463]:
+                          - link "Mohammad" [ref=e465] [cursor=pointer]:
+                            - /url: /iammun1101
+                          - generic [ref=e466]: Nice
+                      - group "Comment thread" [ref=e469]:
+                        - generic [ref=e470]:
+                          - link "Orbix Studio | UI/UX Design Agency" [ref=e472] [cursor=pointer]:
+                            - /url: /orbixstudio/
+                            - img "Orbix Studio | UI/UX Design Agency" [ref=e478]
+                          - generic [ref=e485]:
+                            - link "Orbix Studio | UI/UX Design Agency" [ref=e487] [cursor=pointer]:
+                              - /url: /orbixstudio
+                            - generic [ref=e488]: thanks
+              - generic [ref=e497]:
+                - generic [ref=e499]:
+                  - button [ref=e501]
+                  - generic [ref=e505]:
+                    - generic:
+                      - generic: Add a comment
+                    - combobox "Add a comment" [ref=e507]
+                - generic [ref=e513]:
+                  - button "Select an emoji" [ref=e515] [cursor=pointer]:
+                    - img [ref=e518]
+                  - button "Select a sticker" [ref=e521] [cursor=pointer]:
+                    - img [ref=e524]
+                  - button "Select a photo" [ref=e528] [cursor=pointer]:
+                    - img [ref=e531]
+        - listitem
+        - listitem [ref=e533]
+        - listitem [ref=e537]
+        - listitem [ref=e541]
+        - listitem [ref=e545]
+        - listitem [ref=e549]
+        - listitem [ref=e553]
+        - listitem [ref=e557]
+        - listitem [ref=e561]
+        - listitem [ref=e565]
+        - listitem [ref=e569]

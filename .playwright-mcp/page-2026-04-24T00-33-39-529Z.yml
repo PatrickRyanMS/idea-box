@@ -1,0 +1,459 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - link "Skip to content":
+      - /url: "#"
+      - generic [ref=e9] [cursor=pointer]: Skip to content
+    - generic [ref=e11]:
+      - generic [ref=e14]:
+        - combobox "Search" [ref=e16]: phosphorescent glow dark surface texture
+        - button "Remove search input" [ref=e21] [cursor=pointer]:
+          - img [ref=e24]
+      - generic [ref=e26]:
+        - button "Log in" [ref=e28] [cursor=pointer]:
+          - generic [ref=e30]: Log in
+        - button "Sign up" [ref=e32] [cursor=pointer]:
+          - generic [ref=e34]: Sign up
+  - navigation [ref=e36]:
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - generic "Home" [ref=e43]:
+          - link "Home" [ref=e44] [cursor=pointer]:
+            - /url: /
+            - img [ref=e46]
+        - generic "Explore" [ref=e51]:
+          - link "Explore" [ref=e52] [cursor=pointer]:
+            - /url: /ideas
+            - img [ref=e54]
+        - generic "Shop" [ref=e59]:
+          - link "Shop" [ref=e60] [cursor=pointer]:
+            - /url: /shopping
+            - img [ref=e62]
+      - generic "More options" [ref=e66]:
+        - button "More options" [ref=e67] [cursor=pointer]:
+          - img [ref=e70]
+  - main [ref=e72]:
+    - generic [ref=e74]:
+      - generic [ref=e77]:
+        - heading "Search" [level=1] [ref=e79]
+        - button "Show filters" [ref=e90] [cursor=pointer]:
+          - img [ref=e94]
+      - generic [ref=e100]:
+        - generic [ref=e101]: Showing more search results for phosphorescent glow dark surface texture
+        - list [ref=e106]:
+          - listitem [ref=e107]:
+            - generic [ref=e111]:
+              - link "Shop phosphorescent glow dark surface texture" [ref=e119] [cursor=pointer]:
+                - /url: /search/pins/?rs=product_carousel&tab=shop&q=phosphorescent%20glow%20dark%20surface%20texture&source_id=1X5rmAKx&commerce_only=True&request_params=%7B%2237%22%3A%20%22Shop%20phosphorescent%20glow%20dark%20surface%20texture%22%2C%20%221%22%3A%20%2294%22%2C%20%2236%22%3A%20%22phosphorescent%20glow%20dark%20surface%20texture%22%2C%20%2230%22%3A%20%22Shop%20phosphorescent%20glow%20dark%20surface%20texture%22%2C%20%222%22%3A%20%22Shop%20phosphorescent%20glow%20dark%20surface%20texture%22%2C%20%2233%22%3A%20%5B%224593249479165713152%22%2C%20%224610982414788942208%22%2C%20%224601764103264253440%22%2C%20%224594375403664163584%22%2C%20%22155303888117417869%22%2C%20%22155303888106570966%22%5D%2C%20%2234%22%3A%20%220%22%2C%20%227%22%3A%20%221X5rmAKx%22%2C%20%228%22%3A%20%22phosphorescent%20glow%20dark%20surface%20texture%22%7D&pins_display=2
+                - heading "Shop phosphorescent glow dark surface texture" [level=2] [ref=e120]
+              - generic [ref=e126]:
+                - group "Slide 1 of 4" [ref=e127]:
+                  - group "Pin card" [ref=e131]:
+                    - generic [ref=e133]:
+                      - link "a large green object is glowing in the dark" [ref=e136] [cursor=pointer]:
+                        - /url: /pin/4593249479165713152/
+                        - img "a large green object is glowing in the dark" [ref=e147]
+                      - link "Glow in The Dark Fabric Luminous Satin Fabric, 50cm/100cmx145cm for DIY Sewing, Bedding, Pillows, Children Clothing, Handmade Down Jacket" [ref=e152] [cursor=pointer]:
+                        - /url: /pin/4593249479165713152/
+                        - 'button "Current price: $30.69" [ref=e153]':
+                          - generic [ref=e154]:
+                            - generic [ref=e155]: "Current price:"
+                            - generic [ref=e156]: $30.69
+                        - generic [ref=e158]:
+                          - button "Glow in The Dark Fabric Luminous Satin Fabric, 50cm/100cmx145cm for DIY Sewing, Bedding, Pillows, Children Clothing, Handmade Down Jacket" [ref=e160]:
+                            - generic "Glow in The Dark Fabric Luminous Satin Fabric, 50cm/100cmx145cm for DIY Sewing, Bedding, Pillows, Children Clothing, Handmade Down Jacket" [ref=e161]
+                          - generic "More actions" [ref=e164]:
+                            - button "More actions" [ref=e165]:
+                              - img [ref=e168]
+                        - generic:
+                          - button "Etsy"
+                - group "Slide 2 of 4" [ref=e170]:
+                  - group "Pin card" [ref=e174]:
+                    - generic [ref=e176]:
+                      - link "a rock with green and blue paint on it's side, against a black background" [ref=e179] [cursor=pointer]:
+                        - /url: /pin/4610982414788942208/
+                        - img "a rock with green and blue paint on it's side, against a black background" [ref=e190]
+                      - link "High-Intensity Green Fluorescent Opal/Chalcedony | LW & SW UV Reactive | Bright Glow Mineral Specimen" [ref=e195] [cursor=pointer]:
+                        - /url: /pin/4610982414788942208/
+                        - 'button "Current price: $60.00" [ref=e196]':
+                          - generic [ref=e197]:
+                            - generic [ref=e198]: "Current price:"
+                            - generic [ref=e199]: $60.00
+                        - generic [ref=e201]:
+                          - button "High-Intensity Green Fluorescent Opal/Chalcedony | LW & SW UV Reactive | Bright Glow Mineral Specimen" [ref=e203]:
+                            - generic "High-Intensity Green Fluorescent Opal/Chalcedony | LW & SW UV Reactive | Bright Glow Mineral Specimen" [ref=e204]
+                          - generic "More actions" [ref=e207]:
+                            - button "More actions" [ref=e208]:
+                              - img [ref=e211]
+                        - generic:
+                          - button "Etsy"
+                - group "Slide 3 of 4" [ref=e213]:
+                  - group "Pin card" [ref=e217]:
+                    - generic [ref=e219]:
+                      - link "four lit up baskets sitting on top of a table" [ref=e222] [cursor=pointer]:
+                        - /url: /pin/4594375403664163584/
+                        - img "four lit up baskets sitting on top of a table" [ref=e233]
+                      - link "Aquarium Planter Glow in the Dark Blacklight Reactive VoroPot" [ref=e238] [cursor=pointer]:
+                        - /url: /pin/4594375403664163584/
+                        - 'button "Current price: $3.99" [ref=e239]':
+                          - generic [ref=e240]:
+                            - generic [ref=e241]: "Current price:"
+                            - generic [ref=e242]: $3.99
+                        - generic [ref=e244]:
+                          - button "Aquarium Planter Glow in the Dark Blacklight Reactive VoroPot" [ref=e246]:
+                            - generic "Aquarium Planter Glow in the Dark Blacklight Reactive VoroPot" [ref=e247]
+                          - generic "More actions" [ref=e250]:
+                            - button "More actions" [ref=e251]:
+                              - img [ref=e254]
+                        - generic:
+                          - button "Etsy"
+                - group "Slide 4 of 4" [ref=e256]:
+                  - group "Pin card" [ref=e260]:
+                    - generic [ref=e262]:
+                      - link "there are many different patterns that can be seen in this image" [ref=e265] [cursor=pointer]:
+                        - /url: /pin/155303888117417869/
+                        - img "there are many different patterns that can be seen in this image" [ref=e276]
+                      - 'link "Glow in the Dark Seamless Paper: Quilled Texture (Digital Download)" [ref=e281] [cursor=pointer]':
+                        - /url: /pin/155303888117417869/
+                        - 'button "Current price: $2.00" [ref=e282]':
+                          - generic [ref=e283]:
+                            - generic [ref=e284]: "Current price:"
+                            - generic [ref=e285]: $2.00
+                        - generic [ref=e287]:
+                          - 'button "Glow in the Dark Seamless Paper: Quilled Texture (Digital Download)" [ref=e289]':
+                            - 'generic "Glow in the Dark Seamless Paper: Quilled Texture (Digital Download)" [ref=e290]'
+                          - generic "More actions" [ref=e293]:
+                            - button "More actions" [ref=e294]:
+                              - img [ref=e297]
+                        - generic:
+                          - button "Etsy"
+          - listitem [ref=e299]:
+            - heading "More ideas" [level=2] [ref=e308]
+          - listitem [ref=e309]:
+            - group "Pin card" [ref=e312]:
+              - generic [ref=e314]:
+                - link "the floor is covered with blue and green confetti flakes on black ground" [ref=e317] [cursor=pointer]:
+                  - /url: /pin/6896205674097342/
+                  - img "the floor is covered with blue and green confetti flakes on black ground" [ref=e327]
+                - generic [ref=e329]:
+                  - generic:
+                    - link "the floor is covered with blue and green confetti flakes on black ground":
+                      - /url: /pin/6896205674097342/
+                  - generic "More actions" [ref=e336]:
+                    - button "More actions" [ref=e337] [cursor=pointer]:
+                      - img [ref=e340]
+          - listitem [ref=e342]:
+            - group "Pin card" [ref=e345]:
+              - generic [ref=e347]:
+                - link "the ocean is illuminated with blue lights and stars in the water, as if it were floating" [ref=e350] [cursor=pointer]:
+                  - /url: /pin/825918019201131693/
+                  - img "the ocean is illuminated with blue lights and stars in the water, as if it were floating" [ref=e360]
+                - generic [ref=e362]:
+                  - generic:
+                    - link "the ocean is illuminated with blue lights and stars in the water, as if it were floating":
+                      - /url: /pin/825918019201131693/
+                  - generic "More actions" [ref=e369]:
+                    - button "More actions" [ref=e370] [cursor=pointer]:
+                      - img [ref=e373]
+          - listitem [ref=e375]:
+            - group "Pin card" [ref=e378]:
+              - generic [ref=e380]:
+                - link "an abstract image of blue and green liquid flowing down the side of a black background" [ref=e383] [cursor=pointer]:
+                  - /url: /pin/68749703442/
+                  - img "an abstract image of blue and green liquid flowing down the side of a black background" [ref=e393]
+                - generic [ref=e395]:
+                  - generic:
+                    - link "an abstract image of blue and green liquid flowing down the side of a black background":
+                      - /url: /pin/68749703442/
+                  - generic "More actions" [ref=e402]:
+                    - button "More actions" [ref=e403] [cursor=pointer]:
+                      - img [ref=e406]
+          - listitem [ref=e408]:
+            - group "Pin card" [ref=e411]:
+              - generic [ref=e413]:
+                - link "an image of some rocks with blue lights on the ground in the middle of it" [ref=e416] [cursor=pointer]:
+                  - /url: /pin/5559199534223927/
+                  - img "an image of some rocks with blue lights on the ground in the middle of it" [ref=e426]
+                - generic [ref=e428]:
+                  - generic:
+                    - link "an image of some rocks with blue lights on the ground in the middle of it":
+                      - /url: /pin/5559199534223927/
+                  - generic "More actions" [ref=e435]:
+                    - button "More actions" [ref=e436] [cursor=pointer]:
+                      - img [ref=e439]
+          - listitem [ref=e441]:
+            - generic [ref=e442]:
+              - generic [ref=e448]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e450]:
+                - generic [ref=e452]:
+                  - link "the scales of an animal's skin are multicolored and iridescent" [ref=e455] [cursor=pointer]:
+                    - /url: /pin/108860515993705081/
+                    - img "the scales of an animal's skin are multicolored and iridescent" [ref=e465]
+                  - generic [ref=e467]:
+                    - generic:
+                      - link "the scales of an animal's skin are multicolored and iridescent":
+                        - /url: /pin/108860515993705081/
+                    - generic "More actions" [ref=e474]:
+                      - button "More actions" [ref=e475] [cursor=pointer]:
+                        - img [ref=e478]
+          - listitem [ref=e480]:
+            - group "Pin card" [ref=e483]:
+              - generic [ref=e485]:
+                - link "an abstract painting with blue, purple and yellow colors on it's surface in the dark" [ref=e488] [cursor=pointer]:
+                  - /url: /pin/11892386512567093/
+                  - img "an abstract painting with blue, purple and yellow colors on it's surface in the dark" [ref=e498]
+                - generic [ref=e500]:
+                  - generic:
+                    - link "an abstract painting with blue, purple and yellow colors on it's surface in the dark":
+                      - /url: /pin/11892386512567093/
+                  - generic "More actions" [ref=e507]:
+                    - button "More actions" [ref=e508] [cursor=pointer]:
+                      - img [ref=e511]
+          - listitem [ref=e513]:
+            - group "Pin card" [ref=e516]:
+              - generic [ref=e518]:
+                - link "an abstract background with wavy lines in black and silver colors, including the light at the end" [ref=e521] [cursor=pointer]:
+                  - /url: /pin/93801604735259908/
+                  - img "an abstract background with wavy lines in black and silver colors, including the light at the end" [ref=e531]
+                - generic [ref=e533]:
+                  - generic:
+                    - link "an abstract background with wavy lines in black and silver colors, including the light at the end":
+                      - /url: /pin/93801604735259908/
+                  - generic "More actions" [ref=e540]:
+                    - button "More actions" [ref=e541] [cursor=pointer]:
+                      - img [ref=e544]
+          - listitem [ref=e546]:
+            - group "Pin card" [ref=e549]:
+              - generic [ref=e551]:
+                - link "an abstract black background with multicolored lines" [ref=e554] [cursor=pointer]:
+                  - /url: /pin/128563764361173119/
+                  - img "an abstract black background with multicolored lines" [ref=e564]
+                - generic [ref=e566]:
+                  - generic:
+                    - link "an abstract black background with multicolored lines":
+                      - /url: /pin/128563764361173119/
+                  - generic "More actions" [ref=e573]:
+                    - button "More actions" [ref=e574] [cursor=pointer]:
+                      - img [ref=e577]
+          - listitem [ref=e579]:
+            - group "Pin card" [ref=e582]:
+              - generic [ref=e584]:
+                - generic [ref=e585]:
+                  - link "an abstract black and white background with dots in the shape of wavy lines on top of each other" [ref=e587] [cursor=pointer]:
+                    - /url: /pin/2111131069644845/
+                    - 'img "This may contain: an abstract black and white background with dots in the shape of wavy lines on top of each other" [ref=e603]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:30
+                - generic [ref=e605]:
+                  - generic:
+                    - link "an abstract black and white background with dots in the shape of wavy lines on top of each other":
+                      - /url: /pin/2111131069644845/
+                  - generic "More actions" [ref=e612]:
+                    - button "More actions" [ref=e613] [cursor=pointer]:
+                      - img [ref=e616]
+          - listitem [ref=e618]:
+            - generic [ref=e619]:
+              - generic [ref=e625]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e627]:
+                - generic [ref=e629]:
+                  - link "a person's hand is glowing blue in the dark" [ref=e632] [cursor=pointer]:
+                    - /url: /pin/398568635782511004/
+                    - img "a person's hand is glowing blue in the dark" [ref=e642]
+                  - generic [ref=e644]:
+                    - generic:
+                      - link "a person's hand is glowing blue in the dark":
+                        - /url: /pin/398568635782511004/
+                    - generic "More actions" [ref=e651]:
+                      - button "More actions" [ref=e652] [cursor=pointer]:
+                        - img [ref=e655]
+          - listitem [ref=e657]:
+            - group "Pin card" [ref=e660]:
+              - generic [ref=e662]:
+                - link "Mystique Aesthetic, Color Energy, Electric Color Palette, Purple Palette, Color Swirl, Glass Blowing, Color Palette, Iphone Wallpaper, Blue And White" [ref=e665] [cursor=pointer]:
+                  - /url: /pin/332210910036985288/
+                  - img "Mystique Aesthetic, Color Energy, Electric Color Palette, Purple Palette, Color Swirl, Glass Blowing, Color Palette, Iphone Wallpaper, Blue And White" [ref=e675]
+                - generic [ref=e677]:
+                  - generic:
+                    - link "Mystique Aesthetic, Color Energy, Electric Color Palette, Purple Palette, Color Swirl, Glass Blowing, Color Palette, Iphone Wallpaper, Blue And White":
+                      - /url: /pin/332210910036985288/
+                  - generic "More actions" [ref=e684]:
+                    - button "More actions" [ref=e685] [cursor=pointer]:
+                      - img [ref=e688]
+          - listitem [ref=e690]:
+            - group "Pin card" [ref=e693]:
+              - generic [ref=e695]:
+                - link "an abstract background with gold and blue sparkles in the dark, on a black background" [ref=e698] [cursor=pointer]:
+                  - /url: /pin/1266706141178491/
+                  - img "an abstract background with gold and blue sparkles in the dark, on a black background" [ref=e708]
+                - generic [ref=e710]:
+                  - generic:
+                    - link "an abstract background with gold and blue sparkles in the dark, on a black background":
+                      - /url: /pin/1266706141178491/
+                  - generic "More actions" [ref=e717]:
+                    - button "More actions" [ref=e718] [cursor=pointer]:
+                      - img [ref=e721]
+          - listitem [ref=e723]:
+            - group "Pin card" [ref=e726]:
+              - generic [ref=e728]:
+                - link "glowing mushrooms in the dark forest at night" [ref=e731] [cursor=pointer]:
+                  - /url: /pin/31525266137091069/
+                  - img "glowing mushrooms in the dark forest at night" [ref=e741]
+                - generic [ref=e743]:
+                  - generic:
+                    - link "glowing mushrooms in the dark forest at night":
+                      - /url: /pin/31525266137091069/
+                  - generic "More actions" [ref=e750]:
+                    - button "More actions" [ref=e751] [cursor=pointer]:
+                      - img [ref=e754]
+          - listitem [ref=e756]:
+            - group "Pin card" [ref=e759]:
+              - generic [ref=e761]:
+                - link "an abstract photo of some white lights in the dark" [ref=e764] [cursor=pointer]:
+                  - /url: /pin/53269208090013276/
+                  - img "an abstract photo of some white lights in the dark" [ref=e774]
+                - generic [ref=e776]:
+                  - generic:
+                    - link "an abstract photo of some white lights in the dark":
+                      - /url: /pin/53269208090013276/
+                  - generic "More actions" [ref=e783]:
+                    - button "More actions" [ref=e784] [cursor=pointer]:
+                      - img [ref=e787]
+          - listitem [ref=e789]:
+            - generic [ref=e790]:
+              - generic [ref=e796]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e798]:
+                - generic [ref=e800]:
+                  - link "Ghost hand picture" [ref=e803] [cursor=pointer]:
+                    - /url: /pin/4785143350741928/
+                    - img "Ghost hand picture" [ref=e813]
+                  - generic [ref=e815]:
+                    - generic:
+                      - link "Ghost hand picture":
+                        - /url: /pin/4785143350741928/
+                    - generic "More actions" [ref=e822]:
+                      - button "More actions" [ref=e823] [cursor=pointer]:
+                        - img [ref=e826]
+          - listitem [ref=e828]:
+            - group "Pin card" [ref=e831]:
+              - generic [ref=e833]:
+                - link "an abstract background with multicolored swirls and bubbles on the bottom half of it" [ref=e836] [cursor=pointer]:
+                  - /url: /pin/11329436559396695/
+                  - img "an abstract background with multicolored swirls and bubbles on the bottom half of it" [ref=e846]
+                - generic [ref=e848]:
+                  - generic:
+                    - link "an abstract background with multicolored swirls and bubbles on the bottom half of it":
+                      - /url: /pin/11329436559396695/
+                  - generic "More actions" [ref=e855]:
+                    - button "More actions" [ref=e856] [cursor=pointer]:
+                      - img [ref=e859]
+          - listitem [ref=e861]:
+            - group "Pin card" [ref=e864]:
+              - generic [ref=e866]:
+                - link "an image of some blue and green lights in the dark night sky, taken from above" [ref=e869] [cursor=pointer]:
+                  - /url: /pin/71424344076485859/
+                  - img "an image of some blue and green lights in the dark night sky, taken from above" [ref=e879]
+                - generic [ref=e881]:
+                  - generic:
+                    - link "an image of some blue and green lights in the dark night sky, taken from above":
+                      - /url: /pin/71424344076485859/
+                  - button "Ambient Glow Technology - AGT™" [ref=e885] [cursor=pointer]:
+                    - generic [ref=e887]:
+                      - button "Ambient Glow Technology - AGT™" [ref=e890]:
+                        - generic "Ambient Glow Technology - AGT™" [ref=e891]
+                      - generic "More actions" [ref=e895]:
+                        - button "More actions" [ref=e896]:
+                          - img [ref=e899]
+          - listitem [ref=e901]:
+            - generic [ref=e902]:
+              - generic [ref=e908]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e910]:
+                - generic [ref=e912]:
+                  - link "an abstract background with bright lights and stars in the night sky, as if from outer space" [ref=e915] [cursor=pointer]:
+                    - /url: /pin/2251868559332919/
+                    - img "an abstract background with bright lights and stars in the night sky, as if from outer space" [ref=e925]
+                  - generic [ref=e927]:
+                    - generic:
+                      - link "an abstract background with bright lights and stars in the night sky, as if from outer space":
+                        - /url: /pin/2251868559332919/
+                    - generic "More actions" [ref=e934]:
+                      - button "More actions" [ref=e935] [cursor=pointer]:
+                        - img [ref=e938]
+          - listitem [ref=e940]:
+            - generic [ref=e941]:
+              - generic [ref=e947]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e949]:
+                - generic [ref=e951]:
+                  - link "an image of a black background with stars and lines in the center, as well as some colors on the ground" [ref=e954] [cursor=pointer]:
+                    - /url: /pin/792281759493625464/
+                    - img "an image of a black background with stars and lines in the center, as well as some colors on the ground" [ref=e964]
+                  - generic [ref=e966]:
+                    - generic:
+                      - link "an image of a black background with stars and lines in the center, as well as some colors on the ground":
+                        - /url: /pin/792281759493625464/
+                    - generic "More actions" [ref=e973]:
+                      - button "More actions" [ref=e974] [cursor=pointer]:
+                        - img [ref=e977]
+          - listitem [ref=e979]:
+            - generic [ref=e980]:
+              - generic [ref=e986]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e988]:
+                - generic [ref=e990]:
+                  - link "purple and blue lights shine on the surface of a table with drops of water all over it" [ref=e993] [cursor=pointer]:
+                    - /url: /pin/600878775328969451/
+                    - img "purple and blue lights shine on the surface of a table with drops of water all over it" [ref=e1003]
+                  - generic [ref=e1005]:
+                    - generic:
+                      - link "purple and blue lights shine on the surface of a table with drops of water all over it":
+                        - /url: /pin/600878775328969451/
+                    - generic "More actions" [ref=e1012]:
+                      - button "More actions" [ref=e1013] [cursor=pointer]:
+                        - img [ref=e1016]
+          - listitem [ref=e1018]:
+            - generic [ref=e1019]:
+              - generic [ref=e1025]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1027]:
+                - generic [ref=e1029]:
+                  - link "blue and pink lights are shining in the night sky, creating an intricate pattern on grass" [ref=e1032] [cursor=pointer]:
+                    - /url: /pin/108579041011749136/
+                    - img "blue and pink lights are shining in the night sky, creating an intricate pattern on grass" [ref=e1042]
+                  - generic [ref=e1044]:
+                    - generic:
+                      - link "blue and pink lights are shining in the night sky, creating an intricate pattern on grass":
+                        - /url: /pin/108579041011749136/
+                    - generic "More actions" [ref=e1051]:
+                      - button "More actions" [ref=e1052] [cursor=pointer]:
+                        - img [ref=e1055]
+          - listitem [ref=e1057]:
+            - generic [ref=e1058]:
+              - generic [ref=e1064]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1066]:
+                - generic [ref=e1068]:
+                  - link "an image of some bubbles floating in the air with water droplets all around them on a black background" [ref=e1071] [cursor=pointer]:
+                    - /url: /pin/701154235764465387/
+                    - img "an image of some bubbles floating in the air with water droplets all around them on a black background" [ref=e1081]
+                  - generic [ref=e1083]:
+                    - generic:
+                      - link "an image of some bubbles floating in the air with water droplets all around them on a black background":
+                        - /url: /pin/701154235764465387/
+                    - generic "More actions" [ref=e1090]:
+                      - button "More actions" [ref=e1091] [cursor=pointer]:
+                        - img [ref=e1094]

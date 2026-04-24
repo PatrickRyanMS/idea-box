@@ -1,0 +1,373 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - link "Skip to content":
+      - /url: "#"
+      - generic [ref=e9] [cursor=pointer]: Skip to content
+    - generic [ref=e11]:
+      - generic [ref=e14]:
+        - combobox "Search" [ref=e16]: moody sunset gradient abstract background
+        - button "Remove search input" [ref=e21] [cursor=pointer]:
+          - img [ref=e24]
+      - generic [ref=e26]:
+        - button "Log in" [ref=e28] [cursor=pointer]:
+          - generic [ref=e30]: Log in
+        - button "Sign up" [ref=e32] [cursor=pointer]:
+          - generic [ref=e34]: Sign up
+  - navigation [ref=e36]:
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - generic "Home" [ref=e43]:
+          - link "Home" [ref=e44] [cursor=pointer]:
+            - /url: /
+            - img [ref=e46]
+        - generic "Explore" [ref=e51]:
+          - link "Explore" [ref=e52] [cursor=pointer]:
+            - /url: /ideas
+            - img [ref=e54]
+        - generic "Shop" [ref=e59]:
+          - link "Shop" [ref=e60] [cursor=pointer]:
+            - /url: /shopping
+            - img [ref=e62]
+      - generic "More options" [ref=e66]:
+        - button "More options" [ref=e67] [cursor=pointer]:
+          - img [ref=e70]
+  - main [ref=e72]:
+    - generic [ref=e74]:
+      - generic [ref=e77]:
+        - heading "Search" [level=1] [ref=e79]
+        - button "Show filters" [ref=e90] [cursor=pointer]:
+          - img [ref=e94]
+      - generic [ref=e100]:
+        - generic [ref=e101]: Showing more search results for moody sunset gradient abstract background
+        - list [ref=e106]:
+          - listitem [ref=e107]:
+            - group "Pin card" [ref=e110]:
+              - generic [ref=e112]:
+                - link "a blurry image of an orange and black background" [ref=e115] [cursor=pointer]:
+                  - /url: /pin/943293084469256320/
+                  - img "a blurry image of an orange and black background" [ref=e125]
+                - generic [ref=e127]:
+                  - generic:
+                    - link "a blurry image of an orange and black background":
+                      - /url: /pin/943293084469256320/
+                  - generic "More actions" [ref=e134]:
+                    - button "More actions" [ref=e135] [cursor=pointer]:
+                      - img [ref=e138]
+          - listitem [ref=e140]:
+            - group "Pin card" [ref=e143]:
+              - generic [ref=e145]:
+                - link "blurry image of an orange and purple sky" [ref=e148] [cursor=pointer]:
+                  - /url: /pin/5277724559486842/
+                  - img "blurry image of an orange and purple sky" [ref=e158]
+                - generic [ref=e160]:
+                  - generic:
+                    - link "blurry image of an orange and purple sky":
+                      - /url: /pin/5277724559486842/
+                  - generic "More actions" [ref=e167]:
+                    - button "More actions" [ref=e168] [cursor=pointer]:
+                      - img [ref=e171]
+          - listitem [ref=e173]:
+            - group "Pin card" [ref=e176]:
+              - generic [ref=e178]:
+                - link "an airplane flying in the sky at sunset with a half moon above it and another plane on the ground" [ref=e181] [cursor=pointer]:
+                  - /url: /pin/24136548000648010/
+                  - img "an airplane flying in the sky at sunset with a half moon above it and another plane on the ground" [ref=e191]
+                - generic [ref=e193]:
+                  - generic:
+                    - link "an airplane flying in the sky at sunset with a half moon above it and another plane on the ground":
+                      - /url: /pin/24136548000648010/
+                  - generic "More actions" [ref=e200]:
+                    - button "More actions" [ref=e201] [cursor=pointer]:
+                      - img [ref=e204]
+          - listitem [ref=e206]:
+            - group "Pin card" [ref=e209]:
+              - generic [ref=e211]:
+                - link "an orange and red blurry background with stars" [ref=e214] [cursor=pointer]:
+                  - /url: /pin/23221754324959584/
+                  - img "an orange and red blurry background with stars" [ref=e224]
+                - generic [ref=e226]:
+                  - generic:
+                    - link "an orange and red blurry background with stars":
+                      - /url: /pin/23221754324959584/
+                  - generic "More actions" [ref=e233]:
+                    - button "More actions" [ref=e234] [cursor=pointer]:
+                      - img [ref=e237]
+          - listitem [ref=e239]:
+            - group "Pin card" [ref=e242]:
+              - generic [ref=e244]:
+                - link "an orange and purple sky with the sun going down" [ref=e247] [cursor=pointer]:
+                  - /url: /pin/11047961582897040/
+                  - img "an orange and purple sky with the sun going down" [ref=e257]
+                - generic [ref=e259]:
+                  - generic:
+                    - link "an orange and purple sky with the sun going down":
+                      - /url: /pin/11047961582897040/
+                  - generic "More actions" [ref=e266]:
+                    - button "More actions" [ref=e267] [cursor=pointer]:
+                      - img [ref=e270]
+          - listitem [ref=e272]:
+            - group "Pin card" [ref=e275]:
+              - generic [ref=e277]:
+                - link "an abstract blurry background in purple and orange" [ref=e280] [cursor=pointer]:
+                  - /url: /pin/14707136281275414/
+                  - img "an abstract blurry background in purple and orange" [ref=e290]
+                - generic [ref=e292]:
+                  - generic:
+                    - link "an abstract blurry background in purple and orange":
+                      - /url: /pin/14707136281275414/
+                  - generic "More actions" [ref=e299]:
+                    - button "More actions" [ref=e300] [cursor=pointer]:
+                      - img [ref=e303]
+          - listitem [ref=e305]:
+            - generic [ref=e306]:
+              - generic [ref=e312]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e314]:
+                - generic [ref=e316]:
+                  - link "an orange and black blurry background" [ref=e319] [cursor=pointer]:
+                    - /url: /pin/343610646583202505/
+                    - img "an orange and black blurry background" [ref=e329]
+                  - generic [ref=e331]:
+                    - generic:
+                      - link "an orange and black blurry background":
+                        - /url: /pin/343610646583202505/
+                    - generic "More actions" [ref=e338]:
+                      - button "More actions" [ref=e339] [cursor=pointer]:
+                        - img [ref=e342]
+          - listitem [ref=e344]:
+            - group "Pin card" [ref=e347]:
+              - generic [ref=e349]:
+                - link "an orange, yellow and red blurry background" [ref=e352] [cursor=pointer]:
+                  - /url: /pin/9992430418989598/
+                  - img "an orange, yellow and red blurry background" [ref=e362]
+                - generic [ref=e364]:
+                  - generic:
+                    - link "an orange, yellow and red blurry background":
+                      - /url: /pin/9992430418989598/
+                  - generic "More actions" [ref=e371]:
+                    - button "More actions" [ref=e372] [cursor=pointer]:
+                      - img [ref=e375]
+          - listitem [ref=e377]:
+            - group "Pin card" [ref=e380]:
+              - generic [ref=e382]:
+                - link "a blurry image of an orange and pink color in the dark background is shown" [ref=e385] [cursor=pointer]:
+                  - /url: /pin/810507264222862573/
+                  - img "a blurry image of an orange and pink color in the dark background is shown" [ref=e395]
+                - generic [ref=e397]:
+                  - generic:
+                    - link "a blurry image of an orange and pink color in the dark background is shown":
+                      - /url: /pin/810507264222862573/
+                  - generic "More actions" [ref=e404]:
+                    - button "More actions" [ref=e405] [cursor=pointer]:
+                      - img [ref=e408]
+          - listitem [ref=e410]:
+            - group "Pin card" [ref=e413]:
+              - generic [ref=e415]:
+                - link "blurry image of an orange and yellow object" [ref=e418] [cursor=pointer]:
+                  - /url: /pin/209276713930720425/
+                  - img "blurry image of an orange and yellow object" [ref=e428]
+                - generic [ref=e430]:
+                  - generic:
+                    - link "blurry image of an orange and yellow object":
+                      - /url: /pin/209276713930720425/
+                  - generic "More actions" [ref=e437]:
+                    - button "More actions" [ref=e438] [cursor=pointer]:
+                      - img [ref=e441]
+          - listitem [ref=e443]:
+            - group "Pin card" [ref=e446]:
+              - generic [ref=e448]:
+                - link "an abstract blurry background with orange and purple colors" [ref=e451] [cursor=pointer]:
+                  - /url: /pin/997195542480504407/
+                  - img "an abstract blurry background with orange and purple colors" [ref=e461]
+                - generic [ref=e463]:
+                  - generic:
+                    - link "an abstract blurry background with orange and purple colors":
+                      - /url: /pin/997195542480504407/
+                  - generic "More actions" [ref=e470]:
+                    - button "More actions" [ref=e471] [cursor=pointer]:
+                      - img [ref=e474]
+          - listitem [ref=e476]:
+            - generic [ref=e477]:
+              - generic [ref=e483]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e485]:
+                - generic [ref=e487]:
+                  - link "an orange and red blurry background with a bird flying in the air above it" [ref=e490] [cursor=pointer]:
+                    - /url: /pin/49469295903603768/
+                    - img "an orange and red blurry background with a bird flying in the air above it" [ref=e500]
+                  - generic [ref=e502]:
+                    - generic:
+                      - link "an orange and red blurry background with a bird flying in the air above it":
+                        - /url: /pin/49469295903603768/
+                    - generic "More actions" [ref=e509]:
+                      - button "More actions" [ref=e510] [cursor=pointer]:
+                        - img [ref=e513]
+          - listitem [ref=e515]:
+            - group "Pin card" [ref=e518]:
+              - generic [ref=e520]:
+                - link "an abstract blurry background with red and purple colors" [ref=e523] [cursor=pointer]:
+                  - /url: /pin/1010002653970724568/
+                  - img "an abstract blurry background with red and purple colors" [ref=e533]
+                - generic [ref=e535]:
+                  - generic:
+                    - link "an abstract blurry background with red and purple colors":
+                      - /url: /pin/1010002653970724568/
+                  - generic "More actions" [ref=e542]:
+                    - button "More actions" [ref=e543] [cursor=pointer]:
+                      - img [ref=e546]
+          - listitem [ref=e548]:
+            - group "Pin card" [ref=e551]:
+              - generic [ref=e553]:
+                - link "an orange and black background with red circles" [ref=e556] [cursor=pointer]:
+                  - /url: /pin/492649954680723/
+                  - img "an orange and black background with red circles" [ref=e566]
+                - generic [ref=e568]:
+                  - generic:
+                    - link "an orange and black background with red circles":
+                      - /url: /pin/492649954680723/
+                  - generic "More actions" [ref=e575]:
+                    - button "More actions" [ref=e576] [cursor=pointer]:
+                      - img [ref=e579]
+          - listitem [ref=e581]:
+            - group "Pin card" [ref=e584]:
+              - generic [ref=e586]:
+                - link "a blurry image of an orange and black background with some red lines on it" [ref=e589] [cursor=pointer]:
+                  - /url: /pin/471189179790683225/
+                  - img "a blurry image of an orange and black background with some red lines on it" [ref=e599]
+                - generic [ref=e601]:
+                  - generic:
+                    - link "a blurry image of an orange and black background with some red lines on it":
+                      - /url: /pin/471189179790683225/
+                  - generic "More actions" [ref=e608]:
+                    - button "More actions" [ref=e609] [cursor=pointer]:
+                      - img [ref=e612]
+          - listitem [ref=e614]:
+            - generic [ref=e615]:
+              - generic [ref=e621]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e623]:
+                - generic [ref=e625]:
+                  - link "two giraffes standing in an orange and black field at sunset with their necks touching each other" [ref=e628] [cursor=pointer]:
+                    - /url: /pin/19773685859544127/
+                    - img "two giraffes standing in an orange and black field at sunset with their necks touching each other" [ref=e638]
+                  - generic [ref=e640]:
+                    - generic:
+                      - link "two giraffes standing in an orange and black field at sunset with their necks touching each other":
+                        - /url: /pin/19773685859544127/
+                    - generic "More actions" [ref=e647]:
+                      - button "More actions" [ref=e648] [cursor=pointer]:
+                        - img [ref=e651]
+          - listitem [ref=e653]:
+            - group "Pin card" [ref=e656]:
+              - generic [ref=e658]:
+                - link "a blurry image of an orange and blue background" [ref=e661] [cursor=pointer]:
+                  - /url: /pin/3940718420343289/
+                  - img "a blurry image of an orange and blue background" [ref=e671]
+                - generic [ref=e673]:
+                  - generic:
+                    - link "a blurry image of an orange and blue background":
+                      - /url: /pin/3940718420343289/
+                  - generic "More actions" [ref=e680]:
+                    - button "More actions" [ref=e681] [cursor=pointer]:
+                      - img [ref=e684]
+          - listitem [ref=e686]:
+            - group "Pin card" [ref=e689]:
+              - generic [ref=e691]:
+                - link "an abstract blurry background in purple and orange" [ref=e694] [cursor=pointer]:
+                  - /url: /pin/914230793084042397/
+                  - img "an abstract blurry background in purple and orange" [ref=e704]
+                - generic [ref=e706]:
+                  - generic:
+                    - link "an abstract blurry background in purple and orange":
+                      - /url: /pin/914230793084042397/
+                  - generic "More actions" [ref=e713]:
+                    - button "More actions" [ref=e714] [cursor=pointer]:
+                      - img [ref=e717]
+          - listitem [ref=e719]:
+            - generic [ref=e720]:
+              - generic [ref=e726]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e728]:
+                - generic [ref=e730]:
+                  - link "an airplane is flying in the sky at sunset or dawn with orange and blue colors" [ref=e733] [cursor=pointer]:
+                    - /url: /pin/20407004557891145/
+                    - img "an airplane is flying in the sky at sunset or dawn with orange and blue colors" [ref=e743]
+                  - generic [ref=e745]:
+                    - generic:
+                      - link "an airplane is flying in the sky at sunset or dawn with orange and blue colors":
+                        - /url: /pin/20407004557891145/
+                    - generic "More actions" [ref=e752]:
+                      - button "More actions" [ref=e753] [cursor=pointer]:
+                        - img [ref=e756]
+          - listitem [ref=e758]:
+            - generic [ref=e759]:
+              - generic [ref=e765]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e767]:
+                - generic [ref=e769]:
+                  - link "an airplane is flying in the sky at sunset" [ref=e772] [cursor=pointer]:
+                    - /url: /pin/10625749118711600/
+                    - img "an airplane is flying in the sky at sunset" [ref=e782]
+                  - generic [ref=e784]:
+                    - generic:
+                      - link "an airplane is flying in the sky at sunset":
+                        - /url: /pin/10625749118711600/
+                    - generic "More actions" [ref=e791]:
+                      - button "More actions" [ref=e792] [cursor=pointer]:
+                        - img [ref=e795]
+          - listitem [ref=e797]:
+            - generic [ref=e798]:
+              - generic [ref=e804]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e806]:
+                - generic [ref=e808]:
+                  - link "an airplane is flying in the sky at sunset or sunrise with orange and blue colors" [ref=e811] [cursor=pointer]:
+                    - /url: /pin/3377768467949247/
+                    - img "an airplane is flying in the sky at sunset or sunrise with orange and blue colors" [ref=e821]
+                  - generic [ref=e823]:
+                    - generic:
+                      - link "an airplane is flying in the sky at sunset or sunrise with orange and blue colors":
+                        - /url: /pin/3377768467949247/
+                    - generic "More actions" [ref=e830]:
+                      - button "More actions" [ref=e831] [cursor=pointer]:
+                        - img [ref=e834]
+          - listitem [ref=e836]:
+            - generic [ref=e837]:
+              - generic [ref=e843]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e845]:
+                - generic [ref=e847]:
+                  - link "an orange and red background that is very blurry" [ref=e850] [cursor=pointer]:
+                    - /url: /pin/832532681153594412/
+                    - img "an orange and red background that is very blurry" [ref=e860]
+                  - generic [ref=e862]:
+                    - generic:
+                      - link "an orange and red background that is very blurry":
+                        - /url: /pin/832532681153594412/
+                    - generic "More actions" [ref=e869]:
+                      - button "More actions" [ref=e870] [cursor=pointer]:
+                        - img [ref=e873]
+          - listitem [ref=e875]:
+            - generic [ref=e876]:
+              - generic [ref=e882]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e884]:
+                - generic [ref=e886]:
+                  - link "an orange and blue background with blurry lines" [ref=e889] [cursor=pointer]:
+                    - /url: /pin/9077636744352646/
+                    - img "an orange and blue background with blurry lines" [ref=e899]
+                  - generic [ref=e901]:
+                    - generic:
+                      - link "an orange and blue background with blurry lines":
+                        - /url: /pin/9077636744352646/
+                    - generic "More actions" [ref=e908]:
+                      - button "More actions" [ref=e909] [cursor=pointer]:
+                        - img [ref=e912]

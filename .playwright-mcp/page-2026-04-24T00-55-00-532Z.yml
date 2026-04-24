@@ -1,0 +1,538 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - link "Skip to content":
+      - /url: "#"
+      - generic [ref=e9] [cursor=pointer]: Skip to content
+    - generic [ref=e11]:
+      - generic [ref=e14]:
+        - combobox "Search" [ref=e16]: caustics light refraction water pattern
+        - button "Remove search input" [ref=e21] [cursor=pointer]:
+          - img [ref=e24]
+      - generic [ref=e26]:
+        - button "Log in" [ref=e28] [cursor=pointer]:
+          - generic [ref=e30]: Log in
+        - button "Sign up" [ref=e32] [cursor=pointer]:
+          - generic [ref=e34]: Sign up
+  - navigation [ref=e36]:
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - generic "Home" [ref=e43]:
+          - link "Home" [ref=e44] [cursor=pointer]:
+            - /url: /
+            - img [ref=e46]
+        - generic "Explore" [ref=e51]:
+          - link "Explore" [ref=e52] [cursor=pointer]:
+            - /url: /ideas
+            - img [ref=e54]
+        - generic "Shop" [ref=e59]:
+          - link "Shop" [ref=e60] [cursor=pointer]:
+            - /url: /shopping
+            - img [ref=e62]
+      - generic "More options" [ref=e66]:
+        - button "More options" [ref=e67] [cursor=pointer]:
+          - img [ref=e70]
+  - main [ref=e72]:
+    - generic [ref=e253]:
+      - generic [ref=e256]:
+        - heading "Search" [level=1] [ref=e258]
+        - button "Show filters" [ref=e269] [cursor=pointer]:
+          - img [ref=e273]
+      - generic [ref=e279]:
+        - generic [ref=e280]: Showing more search results for caustics light refraction water pattern
+        - list [ref=e285]:
+          - listitem [ref=e286]:
+            - group "Pin card" [ref=e289]:
+              - generic [ref=e291]:
+                - generic [ref=e292]:
+                  - link "the reflection of sunlight on an office building's glass block wall" [ref=e294] [cursor=pointer]:
+                    - /url: /pin/6544361955011673/
+                    - img "the reflection of sunlight on an office building's glass block wall" [ref=e304]
+                  - button "Send" [ref=e311] [cursor=pointer]:
+                    - img [ref=e314]
+                - generic [ref=e317]:
+                  - generic:
+                    - link "the reflection of sunlight on an office building's glass block wall":
+                      - /url: /pin/6544361955011673/
+                  - generic "More actions" [ref=e324]:
+                    - button "More actions" [ref=e325] [cursor=pointer]:
+                      - img [ref=e328]
+          - listitem [ref=e330]:
+            - group "Pin card" [ref=e333]:
+              - generic [ref=e335]:
+                - link "an abstract photograph of water and sunlight" [ref=e338] [cursor=pointer]:
+                  - /url: /pin/1618549864823985/
+                  - img "an abstract photograph of water and sunlight" [ref=e348]
+                - generic [ref=e350]:
+                  - generic:
+                    - link "an abstract photograph of water and sunlight":
+                      - /url: /pin/1618549864823985/
+                  - generic "More actions" [ref=e357]:
+                    - button "More actions" [ref=e358] [cursor=pointer]:
+                      - img [ref=e361]
+          - listitem [ref=e363]:
+            - group "Pin card" [ref=e366]:
+              - generic [ref=e368]:
+                - link "the sun is shining through some colorful glass blocks in front of a wall that has water reflecting on it" [ref=e371] [cursor=pointer]:
+                  - /url: /pin/4011087181457450/
+                  - img "the sun is shining through some colorful glass blocks in front of a wall that has water reflecting on it" [ref=e381]
+                - generic [ref=e383]:
+                  - generic:
+                    - link "the sun is shining through some colorful glass blocks in front of a wall that has water reflecting on it":
+                      - /url: /pin/4011087181457450/
+                  - generic "More actions" [ref=e390]:
+                    - button "More actions" [ref=e391] [cursor=pointer]:
+                      - img [ref=e394]
+          - listitem [ref=e396]:
+            - group "Pin card" [ref=e399]:
+              - generic [ref=e401]:
+                - link "Shimmering Water Surface, Shimmering Water Texture, Shiny Water Texture, Reflective Water Surface With Sunlight, Shimmering Sea Water Texture, Shimmering Ocean Water Texture, Shimmering Water Surface With Ripples, Sparkling Ocean Water Surface, Water Surface With Sunlight Reflections" [ref=e404] [cursor=pointer]:
+                  - /url: /pin/302233825015009122/
+                  - img "Shimmering Water Surface, Shimmering Water Texture, Shiny Water Texture, Reflective Water Surface With Sunlight, Shimmering Sea Water Texture, Shimmering Ocean Water Texture, Shimmering Water Surface With Ripples, Sparkling Ocean Water Surface, Water Surface With Sunlight Reflections" [ref=e414]
+                - generic [ref=e416]:
+                  - generic:
+                    - link "Shimmering Water Surface, Shimmering Water Texture, Shiny Water Texture, Reflective Water Surface With Sunlight, Shimmering Sea Water Texture, Shimmering Ocean Water Texture, Shimmering Water Surface With Ripples, Sparkling Ocean Water Surface, Water Surface With Sunlight Reflections":
+                      - /url: /pin/302233825015009122/
+                  - generic "More actions" [ref=e423]:
+                    - button "More actions" [ref=e424] [cursor=pointer]:
+                      - img [ref=e427]
+          - listitem [ref=e429]:
+            - group "Pin card" [ref=e432]:
+              - generic [ref=e434]:
+                - link "the water is reflecting sunlight on the ground" [ref=e437] [cursor=pointer]:
+                  - /url: /pin/703756188179003/
+                  - img "the water is reflecting sunlight on the ground" [ref=e447]
+                - generic [ref=e449]:
+                  - generic:
+                    - link "the water is reflecting sunlight on the ground":
+                      - /url: /pin/703756188179003/
+                  - generic "More actions" [ref=e456]:
+                    - button "More actions" [ref=e457] [cursor=pointer]:
+                      - img [ref=e460]
+          - listitem [ref=e462]:
+            - group "Pin card" [ref=e465]:
+              - generic [ref=e467]:
+                - link "an image of some kind of structure that looks like it is made out of paper" [ref=e470] [cursor=pointer]:
+                  - /url: /pin/982769949955480555/
+                  - img "an image of some kind of structure that looks like it is made out of paper" [ref=e480]
+                - generic [ref=e482]:
+                  - generic:
+                    - link "an image of some kind of structure that looks like it is made out of paper":
+                      - /url: /pin/982769949955480555/
+                  - generic "More actions" [ref=e489]:
+                    - button "More actions" [ref=e490] [cursor=pointer]:
+                      - img [ref=e493]
+          - listitem [ref=e495]:
+            - generic [ref=e496]:
+              - generic [ref=e502]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e504]:
+                - generic [ref=e506]:
+                  - link "water ripples on the surface of a body of water, with light reflecting off it" [ref=e509] [cursor=pointer]:
+                    - /url: /pin/9851692934825205/
+                    - img "water ripples on the surface of a body of water, with light reflecting off it" [ref=e519]
+                  - generic [ref=e521]:
+                    - generic:
+                      - link "water ripples on the surface of a body of water, with light reflecting off it":
+                        - /url: /pin/9851692934825205/
+                    - generic "More actions" [ref=e528]:
+                      - button "More actions" [ref=e529] [cursor=pointer]:
+                        - img [ref=e532]
+          - listitem [ref=e534]:
+            - group "Pin card" [ref=e537]:
+              - generic [ref=e539]:
+                - link "the water is crystal clear and there are rocks in it" [ref=e542] [cursor=pointer]:
+                  - /url: /pin/704461566757264097/
+                  - img "the water is crystal clear and there are rocks in it" [ref=e552]
+                - generic [ref=e554]:
+                  - generic:
+                    - link "the water is crystal clear and there are rocks in it":
+                      - /url: /pin/704461566757264097/
+                  - generic "More actions" [ref=e561]:
+                    - button "More actions" [ref=e562] [cursor=pointer]:
+                      - img [ref=e565]
+          - listitem [ref=e567]:
+            - group "Pin card" [ref=e570]:
+              - generic [ref=e572]:
+                - link "the water is reflecting light and ripples in it's reflection on the surface" [ref=e575] [cursor=pointer]:
+                  - /url: /pin/2674081025539342/
+                  - img "the water is reflecting light and ripples in it's reflection on the surface" [ref=e585]
+                - generic [ref=e587]:
+                  - generic:
+                    - link "the water is reflecting light and ripples in it's reflection on the surface":
+                      - /url: /pin/2674081025539342/
+                  - generic "More actions" [ref=e594]:
+                    - button "More actions" [ref=e595] [cursor=pointer]:
+                      - img [ref=e598]
+          - listitem [ref=e600]:
+            - group "Pin card" [ref=e603]:
+              - generic [ref=e605]:
+                - link "the sun is shining down on water under a concrete structure with pipes sticking out of it" [ref=e608] [cursor=pointer]:
+                  - /url: /pin/52917364368005355/
+                  - img "the sun is shining down on water under a concrete structure with pipes sticking out of it" [ref=e618]
+                - generic [ref=e620]:
+                  - generic:
+                    - link "the sun is shining down on water under a concrete structure with pipes sticking out of it":
+                      - /url: /pin/52917364368005355/
+                  - generic "More actions" [ref=e627]:
+                    - button "More actions" [ref=e628] [cursor=pointer]:
+                      - img [ref=e631]
+          - listitem [ref=e633]:
+            - group "Pin card" [ref=e636]:
+              - generic [ref=e638]:
+                - link "the reflection of water in a swimming pool" [ref=e641] [cursor=pointer]:
+                  - /url: /pin/1043568544914260158/
+                - generic [ref=e655]:
+                  - generic:
+                    - link "the reflection of water in a swimming pool":
+                      - /url: /pin/1043568544914260158/
+                  - generic "More actions" [ref=e662]:
+                    - button "More actions" [ref=e663] [cursor=pointer]:
+                      - img [ref=e666]
+          - listitem [ref=e668]:
+            - generic [ref=e669]:
+              - generic [ref=e675]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e677]:
+                - generic [ref=e679]:
+                  - link "an abstract photograph of water and light" [ref=e682] [cursor=pointer]:
+                    - /url: /pin/47921183531130335/
+                    - img "an abstract photograph of water and light" [ref=e692]
+                  - generic [ref=e694]:
+                    - generic:
+                      - link "an abstract photograph of water and light":
+                        - /url: /pin/47921183531130335/
+                    - generic "More actions" [ref=e701]:
+                      - button "More actions" [ref=e702] [cursor=pointer]:
+                        - img [ref=e705]
+          - listitem [ref=e707]:
+            - group "Pin card" [ref=e710]:
+              - generic [ref=e712]:
+                - link "an abstract photo of water flowing from a window into a room with sunlight streaming through the windows" [ref=e715] [cursor=pointer]:
+                  - /url: /pin/29766047533563965/
+                  - img "an abstract photo of water flowing from a window into a room with sunlight streaming through the windows" [ref=e725]
+                - generic [ref=e727]:
+                  - generic:
+                    - link "an abstract photo of water flowing from a window into a room with sunlight streaming through the windows":
+                      - /url: /pin/29766047533563965/
+                  - generic "More actions" [ref=e734]:
+                    - button "More actions" [ref=e735] [cursor=pointer]:
+                      - img [ref=e738]
+          - listitem [ref=e740]:
+            - group "Pin card" [ref=e743]:
+              - generic [ref=e745]:
+                - link "an abstract photograph of ice and water" [ref=e748] [cursor=pointer]:
+                  - /url: /pin/546272629799695029/
+                  - img "an abstract photograph of ice and water" [ref=e758]
+                - generic [ref=e760]:
+                  - generic:
+                    - link "an abstract photograph of ice and water":
+                      - /url: /pin/546272629799695029/
+                  - generic "More actions" [ref=e767]:
+                    - button "More actions" [ref=e768] [cursor=pointer]:
+                      - img [ref=e771]
+          - listitem [ref=e773]:
+            - group "Pin card" [ref=e776]:
+              - generic [ref=e778]:
+                - link "a hand is holding up a piece of glass with water droplets on it and the image has" [ref=e781] [cursor=pointer]:
+                  - /url: /pin/26036504093159920/
+                  - img "a hand is holding up a piece of glass with water droplets on it and the image has" [ref=e791]
+                - generic [ref=e793]:
+                  - generic:
+                    - link "a hand is holding up a piece of glass with water droplets on it and the image has":
+                      - /url: /pin/26036504093159920/
+                  - generic "More actions" [ref=e800]:
+                    - button "More actions" [ref=e801] [cursor=pointer]:
+                      - img [ref=e804]
+          - listitem [ref=e806]:
+            - group "Pin card" [ref=e809]:
+              - generic [ref=e811]:
+                - link "a white plate with some light reflections on it" [ref=e814] [cursor=pointer]:
+                  - /url: /pin/53269208090013294/
+                  - img "a white plate with some light reflections on it" [ref=e824]
+                - generic [ref=e826]:
+                  - generic:
+                    - link "a white plate with some light reflections on it":
+                      - /url: /pin/53269208090013294/
+                  - generic "More actions" [ref=e833]:
+                    - button "More actions" [ref=e834] [cursor=pointer]:
+                      - img [ref=e837]
+          - listitem [ref=e839]:
+            - generic [ref=e840]:
+              - generic [ref=e846]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e848]:
+                - generic [ref=e850]:
+                  - link "the light shines brightly through the water's ripples in front of an empty room" [ref=e853] [cursor=pointer]:
+                    - /url: /pin/6262886978111383/
+                    - img "the light shines brightly through the water's ripples in front of an empty room" [ref=e863]
+                  - generic [ref=e865]:
+                    - generic:
+                      - link "the light shines brightly through the water's ripples in front of an empty room":
+                        - /url: /pin/6262886978111383/
+                    - generic "More actions" [ref=e872]:
+                      - button "More actions" [ref=e873] [cursor=pointer]:
+                        - img [ref=e876]
+          - listitem [ref=e878]:
+            - group "Pin card" [ref=e881]:
+              - generic [ref=e883]:
+                - link "some water that is reflecting the sun in it's reflection on the blue surface" [ref=e886] [cursor=pointer]:
+                  - /url: /pin/351912466231861/
+                  - img "some water that is reflecting the sun in it's reflection on the blue surface" [ref=e896]
+                - generic [ref=e898]:
+                  - generic:
+                    - link "some water that is reflecting the sun in it's reflection on the blue surface":
+                      - /url: /pin/351912466231861/
+                  - generic "More actions" [ref=e905]:
+                    - button "More actions" [ref=e906] [cursor=pointer]:
+                      - img [ref=e909]
+          - listitem [ref=e911]:
+            - group "Pin card" [ref=e914]:
+              - generic [ref=e916]:
+                - link "the water is very blue and it looks like they are floating in the ocean or swimming pool" [ref=e919] [cursor=pointer]:
+                  - /url: /pin/65794844552118231/
+                  - img "the water is very blue and it looks like they are floating in the ocean or swimming pool" [ref=e929]
+                - generic [ref=e931]:
+                  - generic:
+                    - link "the water is very blue and it looks like they are floating in the ocean or swimming pool":
+                      - /url: /pin/65794844552118231/
+                  - generic "More actions" [ref=e938]:
+                    - button "More actions" [ref=e939] [cursor=pointer]:
+                      - img [ref=e942]
+          - listitem [ref=e944]:
+            - group "Pin card" [ref=e947]:
+              - generic [ref=e949]:
+                - link "an abstract photo of water and glass in a building's window panes, reflecting light" [ref=e952] [cursor=pointer]:
+                  - /url: /pin/23292123068039928/
+                  - img "an abstract photo of water and glass in a building's window panes, reflecting light" [ref=e962]
+                - generic [ref=e964]:
+                  - generic:
+                    - link "an abstract photo of water and glass in a building's window panes, reflecting light":
+                      - /url: /pin/23292123068039928/
+                  - generic "More actions" [ref=e971]:
+                    - button "More actions" [ref=e972] [cursor=pointer]:
+                      - img [ref=e975]
+          - listitem [ref=e977]:
+            - group "Pin card" [ref=e980]:
+              - generic [ref=e982]:
+                - link "the light is shining on the wall and reflecting off it's surface in the water" [ref=e985] [cursor=pointer]:
+                  - /url: /pin/47147127346334081/
+                  - img "the light is shining on the wall and reflecting off it's surface in the water" [ref=e995]
+                - generic [ref=e997]:
+                  - generic:
+                    - link "the light is shining on the wall and reflecting off it's surface in the water":
+                      - /url: /pin/47147127346334081/
+                  - generic "More actions" [ref=e1004]:
+                    - button "More actions" [ref=e1005] [cursor=pointer]:
+                      - img [ref=e1008]
+          - listitem [ref=e1010]:
+            - generic [ref=e1011]:
+              - generic [ref=e1017]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1019]:
+                - generic [ref=e1021]:
+                  - link "an image of water with bubbles in it" [ref=e1024] [cursor=pointer]:
+                    - /url: /pin/460704236883789629/
+                    - img "an image of water with bubbles in it" [ref=e1034]
+                  - generic [ref=e1036]:
+                    - generic:
+                      - link "an image of water with bubbles in it":
+                        - /url: /pin/460704236883789629/
+                    - generic "More actions" [ref=e1043]:
+                      - button "More actions" [ref=e1044] [cursor=pointer]:
+                        - img [ref=e1047]
+          - listitem [ref=e1049]:
+            - group "Pin card" [ref=e1052]:
+              - generic [ref=e1054]:
+                - link "the water is very blue and clear with some reflections on it's surface," [ref=e1057] [cursor=pointer]:
+                  - /url: /pin/1037727939155264866/
+                  - img "the water is very blue and clear with some reflections on it's surface," [ref=e1067]
+                - generic [ref=e1069]:
+                  - generic:
+                    - link "the water is very blue and clear with some reflections on it's surface,":
+                      - /url: /pin/1037727939155264866/
+                  - generic "More actions" [ref=e1076]:
+                    - button "More actions" [ref=e1077] [cursor=pointer]:
+                      - img [ref=e1080]
+          - listitem [ref=e1082]:
+            - group "Pin card" [ref=e1085]:
+              - generic [ref=e1087]:
+                - link "an underwater view of water and sand with sunlight reflecting off the surface, making it appear to be very blue" [ref=e1090] [cursor=pointer]:
+                  - /url: /pin/6685099441885188/
+                  - img "an underwater view of water and sand with sunlight reflecting off the surface, making it appear to be very blue" [ref=e1100]
+                - generic [ref=e1102]:
+                  - generic:
+                    - link "an underwater view of water and sand with sunlight reflecting off the surface, making it appear to be very blue":
+                      - /url: /pin/6685099441885188/
+                  - generic "More actions" [ref=e1109]:
+                    - button "More actions" [ref=e1110] [cursor=pointer]:
+                      - img [ref=e1113]
+          - listitem [ref=e1115]:
+            - group "Pin card" [ref=e1118]:
+              - generic [ref=e1120]:
+                - link "the ripples in the water are circular" [ref=e1123] [cursor=pointer]:
+                  - /url: /pin/352406739614329552/
+                  - img "the ripples in the water are circular" [ref=e1133]
+                - generic [ref=e1135]:
+                  - generic:
+                    - link "the ripples in the water are circular":
+                      - /url: /pin/352406739614329552/
+                  - generic "More actions" [ref=e1142]:
+                    - button "More actions" [ref=e1143] [cursor=pointer]:
+                      - img [ref=e1146]
+          - listitem [ref=e1148]:
+            - generic [ref=e1149]:
+              - generic [ref=e1155]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1157]:
+                - generic [ref=e1159]:
+                  - link "the water is very clear and blue with little bubbles on it's bottom half" [ref=e1162] [cursor=pointer]:
+                    - /url: /pin/333970128639723346/
+                    - img "the water is very clear and blue with little bubbles on it's bottom half" [ref=e1172]
+                  - generic [ref=e1174]:
+                    - generic:
+                      - link "the water is very clear and blue with little bubbles on it's bottom half":
+                        - /url: /pin/333970128639723346/
+                    - generic "More actions" [ref=e1181]:
+                      - button "More actions" [ref=e1182] [cursor=pointer]:
+                        - img [ref=e1185]
+          - listitem [ref=e1187]:
+            - generic [ref=e1188]:
+              - generic [ref=e1194]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1196]:
+                - generic [ref=e1198]:
+                  - link "the sun is shining brightly through some blurry objects" [ref=e1201] [cursor=pointer]:
+                    - /url: /pin/12314598978210756/
+                    - img "the sun is shining brightly through some blurry objects" [ref=e1211]
+                  - generic [ref=e1213]:
+                    - generic:
+                      - link "the sun is shining brightly through some blurry objects":
+                        - /url: /pin/12314598978210756/
+                    - generic "More actions" [ref=e1220]:
+                      - button "More actions" [ref=e1221] [cursor=pointer]:
+                        - img [ref=e1224]
+          - listitem [ref=e1226]:
+            - generic [ref=e1227]:
+              - generic [ref=e1233]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1235]:
+                - generic [ref=e1237]:
+                  - link "the water is reflecting sunlight and ripples on it's surface, as seen from above" [ref=e1240] [cursor=pointer]:
+                    - /url: /pin/59532026398216073/
+                    - img "the water is reflecting sunlight and ripples on it's surface, as seen from above" [ref=e1250]
+                  - generic [ref=e1252]:
+                    - generic:
+                      - link "the water is reflecting sunlight and ripples on it's surface, as seen from above":
+                        - /url: /pin/59532026398216073/
+                    - generic "More actions" [ref=e1259]:
+                      - button "More actions" [ref=e1260] [cursor=pointer]:
+                        - img [ref=e1263]
+          - listitem [ref=e1265]:
+            - generic [ref=e1266]:
+              - generic [ref=e1272]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1274]:
+                - generic [ref=e1276]:
+                  - link "there are many empty glasses on the table" [ref=e1279] [cursor=pointer]:
+                    - /url: /pin/513199320007650343/
+                    - img "there are many empty glasses on the table" [ref=e1289]
+                  - generic [ref=e1291]:
+                    - generic:
+                      - link "there are many empty glasses on the table":
+                        - /url: /pin/513199320007650343/
+                    - generic "More actions" [ref=e1298]:
+                      - button "More actions" [ref=e1299] [cursor=pointer]:
+                        - img [ref=e1302]
+          - listitem [ref=e1304]:
+            - generic [ref=e1305]:
+              - generic [ref=e1311]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1313]:
+                - generic [ref=e1315]:
+                  - link "an abstract image of water and sunlight reflecting off the bottom of the water's surface" [ref=e1318] [cursor=pointer]:
+                    - /url: /pin/1688918606505274/
+                    - img "an abstract image of water and sunlight reflecting off the bottom of the water's surface" [ref=e1328]
+                  - generic [ref=e1330]:
+                    - generic:
+                      - link "an abstract image of water and sunlight reflecting off the bottom of the water's surface":
+                        - /url: /pin/1688918606505274/
+                    - generic "More actions" [ref=e1337]:
+                      - button "More actions" [ref=e1338] [cursor=pointer]:
+                        - img [ref=e1341]
+          - listitem [ref=e1343]:
+            - generic [ref=e1344]:
+              - generic [ref=e1350]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1352]:
+                - generic [ref=e1354]:
+                  - link "the light is shining on the surface of an object that appears to be blurry" [ref=e1357] [cursor=pointer]:
+                    - /url: /pin/28640147625386747/
+                    - img "the light is shining on the surface of an object that appears to be blurry" [ref=e1367]
+                  - generic [ref=e1369]:
+                    - generic:
+                      - link "the light is shining on the surface of an object that appears to be blurry":
+                        - /url: /pin/28640147625386747/
+                    - generic "More actions" [ref=e1376]:
+                      - button "More actions" [ref=e1377] [cursor=pointer]:
+                        - img [ref=e1380]
+          - listitem [ref=e1382]:
+            - generic [ref=e1383]:
+              - generic [ref=e1389]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1391]:
+                - generic [ref=e1393]:
+                  - link "water ripples over the surface of a pool with white circles and bubbles in it" [ref=e1396] [cursor=pointer]:
+                    - /url: /pin/22377329394232924/
+                    - img "water ripples over the surface of a pool with white circles and bubbles in it" [ref=e1406]
+                  - generic [ref=e1408]:
+                    - generic:
+                      - link "water ripples over the surface of a pool with white circles and bubbles in it":
+                        - /url: /pin/22377329394232924/
+                    - generic "More actions" [ref=e1415]:
+                      - button "More actions" [ref=e1416] [cursor=pointer]:
+                        - img [ref=e1419]
+          - listitem [ref=e1421]:
+            - generic [ref=e1422]:
+              - generic [ref=e1428]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1430]:
+                - generic [ref=e1432]:
+                  - link "the sun shines brightly in the water as it reflects on the surface with ripples" [ref=e1435] [cursor=pointer]:
+                    - /url: /pin/2181499816480287/
+                    - img "the sun shines brightly in the water as it reflects on the surface with ripples" [ref=e1445]
+                  - generic [ref=e1447]:
+                    - generic:
+                      - link "the sun shines brightly in the water as it reflects on the surface with ripples":
+                        - /url: /pin/2181499816480287/
+                    - generic "More actions" [ref=e1454]:
+                      - button "More actions" [ref=e1455] [cursor=pointer]:
+                        - img [ref=e1458]
+          - listitem [ref=e1460]:
+            - generic [ref=e1461]:
+              - generic [ref=e1467]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1469]:
+                - generic [ref=e1471]:
+                  - link "the sun shines brightly through the water" [ref=e1474] [cursor=pointer]:
+                    - /url: /pin/548313323411486679/
+                    - img "the sun shines brightly through the water" [ref=e1484]
+                  - generic [ref=e1486]:
+                    - generic:
+                      - link "the sun shines brightly through the water":
+                        - /url: /pin/548313323411486679/
+                    - generic "More actions" [ref=e1493]:
+                      - button "More actions" [ref=e1494] [cursor=pointer]:
+                        - img [ref=e1497]

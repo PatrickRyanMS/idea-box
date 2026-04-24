@@ -1,0 +1,578 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - link "Skip to content":
+      - /url: "#"
+      - generic [ref=e9] [cursor=pointer]: Skip to content
+    - generic [ref=e11]:
+      - generic [ref=e14]:
+        - combobox "Search" [ref=e16]: ambient AI interface gradient atmosphere design
+        - button "Remove search input" [ref=e21] [cursor=pointer]:
+          - img [ref=e24]
+      - generic [ref=e26]:
+        - button "Log in" [ref=e28] [cursor=pointer]:
+          - generic [ref=e30]: Log in
+        - button "Sign up" [ref=e32] [cursor=pointer]:
+          - generic [ref=e34]: Sign up
+  - navigation [ref=e36]:
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - generic "Home" [ref=e43]:
+          - link "Home" [ref=e44] [cursor=pointer]:
+            - /url: /
+            - img [ref=e46]
+        - generic "Explore" [ref=e51]:
+          - link "Explore" [ref=e52] [cursor=pointer]:
+            - /url: /ideas
+            - img [ref=e54]
+        - generic "Shop" [ref=e59]:
+          - link "Shop" [ref=e60] [cursor=pointer]:
+            - /url: /shopping
+            - img [ref=e62]
+      - generic "More options" [ref=e66]:
+        - button "More options" [ref=e67] [cursor=pointer]:
+          - img [ref=e70]
+  - main [ref=e72]:
+    - generic [ref=e74]:
+      - heading "Search" [level=1] [ref=e76]
+      - generic [ref=e81]:
+        - generic [ref=e82]: Showing more search results for ambient AI interface gradient atmosphere design
+        - list [ref=e87]:
+          - listitem [ref=e88]:
+            - group "Pin card" [ref=e91]:
+              - generic [ref=e93]:
+                - link "three different colored lights in the dark" [ref=e96] [cursor=pointer]:
+                  - /url: /pin/509891989084981017/
+                  - img "three different colored lights in the dark" [ref=e106]
+                - generic [ref=e108]:
+                  - generic:
+                    - link "three different colored lights in the dark":
+                      - /url: /pin/509891989084981017/
+                  - generic "More actions" [ref=e115]:
+                    - button "More actions" [ref=e116] [cursor=pointer]:
+                      - img [ref=e119]
+          - listitem [ref=e121]:
+            - group "Pin card" [ref=e124]:
+              - generic [ref=e126]:
+                - link "Web Ux Design, Gradient Website Design, Gradient Web Design, Elegant Website Design, Ux Design Principles, Ui Design Principles, Mobile App Design Inspiration, App Design Inspiration, Ui Design Inspiration" [ref=e129] [cursor=pointer]:
+                  - /url: /pin/3799980931060225/
+                  - img "Web Ux Design, Gradient Website Design, Gradient Web Design, Elegant Website Design, Ux Design Principles, Ui Design Principles, Mobile App Design Inspiration, App Design Inspiration, Ui Design Inspiration" [ref=e139]
+                - generic [ref=e141]:
+                  - generic:
+                    - link "Web Ux Design, Gradient Website Design, Gradient Web Design, Elegant Website Design, Ux Design Principles, Ui Design Principles, Mobile App Design Inspiration, App Design Inspiration, Ui Design Inspiration":
+                      - /url: /pin/3799980931060225/
+                  - generic "More actions" [ref=e148]:
+                    - button "More actions" [ref=e149] [cursor=pointer]:
+                      - img [ref=e152]
+          - listitem [ref=e154]:
+            - group "Pin card" [ref=e157]:
+              - generic [ref=e159]:
+                - link "a person standing in the middle of a room with an orange light coming from it" [ref=e162] [cursor=pointer]:
+                  - /url: /pin/844493676360835/
+                  - img "a person standing in the middle of a room with an orange light coming from it" [ref=e172]
+                - generic [ref=e174]:
+                  - generic:
+                    - link "a person standing in the middle of a room with an orange light coming from it":
+                      - /url: /pin/844493676360835/
+                  - generic "More actions" [ref=e181]:
+                    - button "More actions" [ref=e182] [cursor=pointer]:
+                      - img [ref=e185]
+          - listitem [ref=e187]:
+            - group "Pin card" [ref=e190]:
+              - generic [ref=e192]:
+                - link "three screens showing different stages of lighting in the dark" [ref=e195] [cursor=pointer]:
+                  - /url: /pin/11470174047243889/
+                  - img "three screens showing different stages of lighting in the dark" [ref=e205]
+                - generic [ref=e207]:
+                  - generic:
+                    - link "three screens showing different stages of lighting in the dark":
+                      - /url: /pin/11470174047243889/
+                  - generic "More actions" [ref=e214]:
+                    - button "More actions" [ref=e215] [cursor=pointer]:
+                      - img [ref=e218]
+          - listitem [ref=e220]:
+            - group "Pin card" [ref=e223]:
+              - generic [ref=e225]:
+                - link "an image of a cell phone screen with the text hello on it in white and pink" [ref=e228] [cursor=pointer]:
+                  - /url: /pin/140806231271990/
+                  - img "an image of a cell phone screen with the text hello on it in white and pink" [ref=e238]
+                - generic [ref=e240]:
+                  - generic:
+                    - link "an image of a cell phone screen with the text hello on it in white and pink":
+                      - /url: /pin/140806231271990/
+                  - generic "More actions" [ref=e247]:
+                    - button "More actions" [ref=e248] [cursor=pointer]:
+                      - img [ref=e251]
+          - listitem [ref=e253]:
+            - group "Pin card" [ref=e256]:
+              - generic [ref=e258]:
+                - link "an image of the word auro in white on a black and orange background with light coming through it" [ref=e261] [cursor=pointer]:
+                  - /url: /pin/2674081026387909/
+                  - img "an image of the word auro in white on a black and orange background with light coming through it" [ref=e271]
+                - generic [ref=e273]:
+                  - generic:
+                    - link "an image of the word auro in white on a black and orange background with light coming through it":
+                      - /url: /pin/2674081026387909/
+                  - generic "More actions" [ref=e280]:
+                    - button "More actions" [ref=e281] [cursor=pointer]:
+                      - img [ref=e284]
+          - listitem [ref=e286]:
+            - generic [ref=e287]:
+              - generic [ref=e293]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e295]:
+                - generic [ref=e297]:
+                  - link "three iphones with the text sleep later on them and an image of a rainbow - colored" [ref=e300] [cursor=pointer]:
+                    - /url: /pin/4433299629056547/
+                    - img "three iphones with the text sleep later on them and an image of a rainbow - colored" [ref=e310]
+                  - generic [ref=e312]:
+                    - generic:
+                      - link "three iphones with the text sleep later on them and an image of a rainbow - colored":
+                        - /url: /pin/4433299629056547/
+                    - generic "More actions" [ref=e319]:
+                      - button "More actions" [ref=e320] [cursor=pointer]:
+                        - img [ref=e323]
+          - listitem [ref=e325]:
+            - group "Pin card" [ref=e328]:
+              - generic [ref=e330]:
+                - link "three different colored shapes on black background" [ref=e333] [cursor=pointer]:
+                  - /url: /pin/703756187769890/
+                  - img "three different colored shapes on black background" [ref=e343]
+                - generic [ref=e345]:
+                  - generic:
+                    - link "three different colored shapes on black background":
+                      - /url: /pin/703756187769890/
+                  - generic "More actions" [ref=e352]:
+                    - button "More actions" [ref=e353] [cursor=pointer]:
+                      - img [ref=e356]
+          - listitem [ref=e358]:
+            - group "Pin card" [ref=e361]:
+              - generic [ref=e363]:
+                - link "the screens are all different colors and shapes, but there is no image on them" [ref=e366] [cursor=pointer]:
+                  - /url: /pin/8303580559472962/
+                  - img "the screens are all different colors and shapes, but there is no image on them" [ref=e376]
+                - generic [ref=e378]:
+                  - generic:
+                    - link "the screens are all different colors and shapes, but there is no image on them":
+                      - /url: /pin/8303580559472962/
+                  - generic "More actions" [ref=e385]:
+                    - button "More actions" [ref=e386] [cursor=pointer]:
+                      - img [ref=e389]
+          - listitem [ref=e391]:
+            - group "Pin card" [ref=e394]:
+              - generic [ref=e396]:
+                - link "Ui Design Tutorial, Ux Design Principles, Creative Web Design, Portfolio Web Design, Webpage Design, App Design Inspiration, Web Inspiration, Graphic Design Lessons, Website Design Inspiration" [ref=e399] [cursor=pointer]:
+                  - /url: /pin/844493676474195/
+                  - img "Ui Design Tutorial, Ux Design Principles, Creative Web Design, Portfolio Web Design, Webpage Design, App Design Inspiration, Web Inspiration, Graphic Design Lessons, Website Design Inspiration" [ref=e409]
+                - generic [ref=e411]:
+                  - generic:
+                    - link "Ui Design Tutorial, Ux Design Principles, Creative Web Design, Portfolio Web Design, Webpage Design, App Design Inspiration, Web Inspiration, Graphic Design Lessons, Website Design Inspiration":
+                      - /url: /pin/844493676474195/
+                  - generic "More actions" [ref=e418]:
+                    - button "More actions" [ref=e419] [cursor=pointer]:
+                      - img [ref=e422]
+          - listitem [ref=e424]:
+            - group "Pin card" [ref=e427]:
+              - generic [ref=e429]:
+                - link "an image of a flower with sound waves coming out of the top and below it" [ref=e432] [cursor=pointer]:
+                  - /url: /pin/197665871149716154/
+                - generic [ref=e446]:
+                  - generic:
+                    - link "an image of a flower with sound waves coming out of the top and below it":
+                      - /url: /pin/197665871149716154/
+                  - generic "More actions" [ref=e453]:
+                    - button "More actions" [ref=e454] [cursor=pointer]:
+                      - img [ref=e457]
+          - listitem [ref=e459]:
+            - generic [ref=e460]:
+              - generic [ref=e466]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e468]:
+                - generic [ref=e470]:
+                  - link "a white background with an oval shaped object in the center and light coming from it" [ref=e473] [cursor=pointer]:
+                    - /url: /pin/844493676473937/
+                    - img "a white background with an oval shaped object in the center and light coming from it" [ref=e483]
+                  - generic [ref=e485]:
+                    - generic:
+                      - link "a white background with an oval shaped object in the center and light coming from it":
+                        - /url: /pin/844493676473937/
+                    - generic "More actions" [ref=e492]:
+                      - button "More actions" [ref=e493] [cursor=pointer]:
+                        - img [ref=e496]
+          - listitem [ref=e498]:
+            - group "Pin card" [ref=e501]:
+              - generic [ref=e503]:
+                - link "multiple images of different colors and shapes in the same image, each with their own light source" [ref=e506] [cursor=pointer]:
+                  - /url: /pin/431641945554251939/
+                  - img "multiple images of different colors and shapes in the same image, each with their own light source" [ref=e516]
+                - generic [ref=e518]:
+                  - generic:
+                    - link "multiple images of different colors and shapes in the same image, each with their own light source":
+                      - /url: /pin/431641945554251939/
+                  - generic "More actions" [ref=e525]:
+                    - button "More actions" [ref=e526] [cursor=pointer]:
+                      - img [ref=e529]
+          - listitem [ref=e531]:
+            - group "Pin card" [ref=e534]:
+              - generic [ref=e536]:
+                - link "an image of the planets in space with their names and numbers on it, as well as other information about them" [ref=e539] [cursor=pointer]:
+                  - /url: /pin/844493676430674/
+                  - img "an image of the planets in space with their names and numbers on it, as well as other information about them" [ref=e549]
+                - generic [ref=e551]:
+                  - generic:
+                    - link "an image of the planets in space with their names and numbers on it, as well as other information about them":
+                      - /url: /pin/844493676430674/
+                  - generic "More actions" [ref=e558]:
+                    - button "More actions" [ref=e559] [cursor=pointer]:
+                      - img [ref=e562]
+          - listitem [ref=e564]:
+            - group "Pin card" [ref=e567]:
+              - generic [ref=e569]:
+                - link "an image of different colored lights in the night sky, with text below that reads purple and green" [ref=e572] [cursor=pointer]:
+                  - /url: /pin/2674081026097289/
+                  - img "an image of different colored lights in the night sky, with text below that reads purple and green" [ref=e582]
+                - generic [ref=e584]:
+                  - generic:
+                    - link "an image of different colored lights in the night sky, with text below that reads purple and green":
+                      - /url: /pin/2674081026097289/
+                  - generic "More actions" [ref=e591]:
+                    - button "More actions" [ref=e592] [cursor=pointer]:
+                      - img [ref=e595]
+          - listitem [ref=e597]:
+            - group "Pin card" [ref=e600]:
+              - generic [ref=e602]:
+                - link "an iphone screen with the text what's happening? on it, and a photo of" [ref=e605] [cursor=pointer]:
+                  - /url: /pin/140806233884817/
+                  - img "an iphone screen with the text what's happening? on it, and a photo of" [ref=e615]
+                - generic [ref=e617]:
+                  - generic:
+                    - link "an iphone screen with the text what's happening? on it, and a photo of":
+                      - /url: /pin/140806233884817/
+                  - generic "More actions" [ref=e624]:
+                    - button "More actions" [ref=e625] [cursor=pointer]:
+                      - img [ref=e628]
+          - listitem [ref=e630]:
+            - generic [ref=e631]:
+              - generic [ref=e637]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e639]:
+                - generic [ref=e641]:
+                  - link "landing page marketing" [ref=e644] [cursor=pointer]:
+                    - /url: /pin/3096293491671279/
+                    - img "landing page marketing" [ref=e654]
+                  - generic [ref=e656]:
+                    - generic:
+                      - link "landing page marketing":
+                        - /url: /pin/3096293491671279/
+                    - generic "More actions" [ref=e663]:
+                      - button "More actions" [ref=e664] [cursor=pointer]:
+                        - img [ref=e667]
+          - listitem [ref=e669]:
+            - group "Pin card" [ref=e672]:
+              - generic [ref=e674]:
+                - generic [ref=e675]:
+                  - link "the sun and cold fronts are shown in this graphic above an orange, yellow, and blue color scheme" [ref=e677] [cursor=pointer]:
+                    - /url: /pin/416090453090070889/
+                    - 'img "This may contain: the sun and cold fronts are shown in this graphic above an orange, yellow, and blue color scheme" [ref=e693]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:12
+                - generic [ref=e695]:
+                  - generic:
+                    - link "the sun and cold fronts are shown in this graphic above an orange, yellow, and blue color scheme":
+                      - /url: /pin/416090453090070889/
+                  - generic "More actions" [ref=e702]:
+                    - button "More actions" [ref=e703] [cursor=pointer]:
+                      - img [ref=e706]
+          - listitem [ref=e708]:
+            - group "Pin card" [ref=e711]:
+              - generic [ref=e713]:
+                - link "four different screens with purple and white shapes on them, all showing the same color" [ref=e716] [cursor=pointer]:
+                  - /url: /pin/2814818512588819/
+                  - img "four different screens with purple and white shapes on them, all showing the same color" [ref=e726]
+                - generic [ref=e728]:
+                  - generic:
+                    - link "four different screens with purple and white shapes on them, all showing the same color":
+                      - /url: /pin/2814818512588819/
+                  - generic "More actions" [ref=e735]:
+                    - button "More actions" [ref=e736] [cursor=pointer]:
+                      - img [ref=e739]
+          - listitem [ref=e741]:
+            - group "Pin card" [ref=e744]:
+              - generic [ref=e746]:
+                - link "four different colored images with one person in the middle" [ref=e749] [cursor=pointer]:
+                  - /url: /pin/3588874698017229/
+                  - img "four different colored images with one person in the middle" [ref=e759]
+                - generic [ref=e761]:
+                  - generic:
+                    - link "four different colored images with one person in the middle":
+                      - /url: /pin/3588874698017229/
+                  - generic "More actions" [ref=e768]:
+                    - button "More actions" [ref=e769] [cursor=pointer]:
+                      - img [ref=e772]
+          - listitem [ref=e774]:
+            - group "Pin card" [ref=e777]:
+              - generic [ref=e779]:
+                - link "Collection of modern UI gradients displayed in a grid layout" [ref=e782] [cursor=pointer]:
+                  - /url: /pin/5066618331387157/
+                  - img "Collection of modern UI gradients displayed in a grid layout" [ref=e792]
+                - generic [ref=e794]:
+                  - generic:
+                    - link "Collection of modern UI gradients displayed in a grid layout":
+                      - /url: /pin/5066618331387157/
+                  - generic "More actions" [ref=e801]:
+                    - button "More actions" [ref=e802] [cursor=pointer]:
+                      - img [ref=e805]
+          - listitem [ref=e807]:
+            - generic [ref=e808]:
+              - generic [ref=e814]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e816]:
+                - generic [ref=e818]:
+                  - link "an orange and blue background with water in the foreground" [ref=e821] [cursor=pointer]:
+                    - /url: /pin/591871576064671606/
+                    - img "an orange and blue background with water in the foreground" [ref=e831]
+                  - generic [ref=e833]:
+                    - generic:
+                      - link "an orange and blue background with water in the foreground":
+                        - /url: /pin/591871576064671606/
+                    - generic "More actions" [ref=e840]:
+                      - button "More actions" [ref=e841] [cursor=pointer]:
+                        - img [ref=e844]
+          - listitem [ref=e846]:
+            - group "Pin card" [ref=e849]:
+              - generic [ref=e851]:
+                - link "an open book with the light reflecting off of it's cover and its pages glowing brightly" [ref=e854] [cursor=pointer]:
+                  - /url: /pin/3799980930477891/
+                  - img "an open book with the light reflecting off of it's cover and its pages glowing brightly" [ref=e864]
+                - generic [ref=e866]:
+                  - generic:
+                    - link "an open book with the light reflecting off of it's cover and its pages glowing brightly":
+                      - /url: /pin/3799980930477891/
+                  - generic "More actions" [ref=e873]:
+                    - button "More actions" [ref=e874] [cursor=pointer]:
+                      - img [ref=e877]
+          - listitem [ref=e879]:
+            - group "Pin card" [ref=e882]:
+              - generic [ref=e884]:
+                - link "5 Degrees, Graphic Design Space, Tech Branding Design, Liquid Gradient, Gradient Adobe Illustrator, Gradient Ui Design, Simple Portfolio Cover, Website Ui Design, Figma Design Ideas" [ref=e887] [cursor=pointer]:
+                  - /url: /pin/3588874697940631/
+                  - img "5 Degrees, Graphic Design Space, Tech Branding Design, Liquid Gradient, Gradient Adobe Illustrator, Gradient Ui Design, Simple Portfolio Cover, Website Ui Design, Figma Design Ideas" [ref=e897]
+                - generic [ref=e899]:
+                  - generic:
+                    - link "5 Degrees, Graphic Design Space, Tech Branding Design, Liquid Gradient, Gradient Adobe Illustrator, Gradient Ui Design, Simple Portfolio Cover, Website Ui Design, Figma Design Ideas":
+                      - /url: /pin/3588874697940631/
+                  - generic "More actions" [ref=e906]:
+                    - button "More actions" [ref=e907] [cursor=pointer]:
+                      - img [ref=e910]
+          - listitem [ref=e912]:
+            - group "Pin card" [ref=e915]:
+              - generic [ref=e917]:
+                - link "an image of a screen with the caption'cricadian lighting for energy and sleep cycles '" [ref=e920] [cursor=pointer]:
+                  - /url: /pin/45669383718232551/
+                  - img "an image of a screen with the caption'cricadian lighting for energy and sleep cycles '" [ref=e930]
+                - generic [ref=e932]:
+                  - generic:
+                    - link "an image of a screen with the caption'cricadian lighting for energy and sleep cycles '":
+                      - /url: /pin/45669383718232551/
+                  - generic "More actions" [ref=e939]:
+                    - button "More actions" [ref=e940] [cursor=pointer]:
+                      - img [ref=e943]
+          - listitem [ref=e945]:
+            - group "Pin card" [ref=e948]:
+              - generic [ref=e950]:
+                - link "four different screens with chinese text on them and an image of a candle in the middle" [ref=e953] [cursor=pointer]:
+                  - /url: /pin/1043850019891175094/
+                  - img "four different screens with chinese text on them and an image of a candle in the middle" [ref=e963]
+                - generic [ref=e965]:
+                  - generic:
+                    - link "four different screens with chinese text on them and an image of a candle in the middle":
+                      - /url: /pin/1043850019891175094/
+                  - generic "More actions" [ref=e972]:
+                    - button "More actions" [ref=e973] [cursor=pointer]:
+                      - img [ref=e976]
+          - listitem [ref=e978]:
+            - generic [ref=e979]:
+              - generic [ref=e985]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e987]:
+                - generic [ref=e989]:
+                  - link "an iphone screen with the text personal song on it" [ref=e992] [cursor=pointer]:
+                    - /url: /pin/8725793025635110/
+                    - img "an iphone screen with the text personal song on it" [ref=e1002]
+                  - generic [ref=e1004]:
+                    - generic:
+                      - link "an iphone screen with the text personal song on it":
+                        - /url: /pin/8725793025635110/
+                    - generic "More actions" [ref=e1011]:
+                      - button "More actions" [ref=e1012] [cursor=pointer]:
+                        - img [ref=e1015]
+          - listitem [ref=e1017]:
+            - group "Pin card" [ref=e1020]:
+              - generic [ref=e1022]:
+                - link "three iphone screens with the text good morning, afternoon maria and good evening mara on them" [ref=e1025] [cursor=pointer]:
+                  - /url: /pin/531917406012899402/
+                  - img "three iphone screens with the text good morning, afternoon maria and good evening mara on them" [ref=e1035]
+                - generic [ref=e1037]:
+                  - generic:
+                    - link "three iphone screens with the text good morning, afternoon maria and good evening mara on them":
+                      - /url: /pin/531917406012899402/
+                  - generic "More actions" [ref=e1044]:
+                    - button "More actions" [ref=e1045] [cursor=pointer]:
+                      - img [ref=e1048]
+          - listitem [ref=e1050]:
+            - group "Pin card" [ref=e1053]:
+              - generic [ref=e1055]:
+                - link "an abstract background with different types of shapes and sizes, all in shades of purple" [ref=e1058] [cursor=pointer]:
+                  - /url: /pin/59954238839032837/
+                  - img "an abstract background with different types of shapes and sizes, all in shades of purple" [ref=e1068]
+                - generic [ref=e1070]:
+                  - generic:
+                    - link "an abstract background with different types of shapes and sizes, all in shades of purple":
+                      - /url: /pin/59954238839032837/
+                  - generic "More actions" [ref=e1077]:
+                    - button "More actions" [ref=e1078] [cursor=pointer]:
+                      - img [ref=e1081]
+          - listitem [ref=e1083]:
+            - generic [ref=e1084]:
+              - generic [ref=e1090]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1092]:
+                - generic [ref=e1094]:
+                  - link "an abstract poster with different colors and shapes on it's black background, including the text" [ref=e1097] [cursor=pointer]:
+                    - /url: /pin/31666003625243764/
+                    - img "an abstract poster with different colors and shapes on it's black background, including the text" [ref=e1107]
+                  - generic [ref=e1109]:
+                    - generic:
+                      - link "an abstract poster with different colors and shapes on it's black background, including the text":
+                        - /url: /pin/31666003625243764/
+                    - generic "More actions" [ref=e1116]:
+                      - button "More actions" [ref=e1117] [cursor=pointer]:
+                        - img [ref=e1120]
+          - listitem [ref=e1122]:
+            - generic [ref=e1123]:
+              - generic [ref=e1129]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1131]:
+                - generic [ref=e1133]:
+                  - link "an image of a blurry background with the text lightning fast rendering" [ref=e1136] [cursor=pointer]:
+                    - /url: /pin/19773685859544062/
+                    - img "an image of a blurry background with the text lightning fast rendering" [ref=e1146]
+                  - generic [ref=e1148]:
+                    - generic:
+                      - link "an image of a blurry background with the text lightning fast rendering":
+                        - /url: /pin/19773685859544062/
+                    - generic "More actions" [ref=e1155]:
+                      - button "More actions" [ref=e1156] [cursor=pointer]:
+                        - img [ref=e1159]
+          - listitem [ref=e1161]:
+            - generic [ref=e1162]:
+              - generic [ref=e1168]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1170]:
+                - generic [ref=e1172]:
+                  - link "an abstract background with different colors and shapes, including the words flowy on it" [ref=e1175] [cursor=pointer]:
+                    - /url: /pin/351912466239947/
+                    - img "an abstract background with different colors and shapes, including the words flowy on it" [ref=e1185]
+                  - generic [ref=e1187]:
+                    - generic:
+                      - link "an abstract background with different colors and shapes, including the words flowy on it":
+                        - /url: /pin/351912466239947/
+                    - generic "More actions" [ref=e1194]:
+                      - button "More actions" [ref=e1195] [cursor=pointer]:
+                        - img [ref=e1198]
+          - listitem [ref=e1200]:
+            - generic [ref=e1201]:
+              - generic [ref=e1207]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1209]:
+                - generic [ref=e1211]:
+                  - link "an image of a web page with the text get in touch on it and blue lights" [ref=e1214] [cursor=pointer]:
+                    - /url: /pin/211174978814384/
+                    - img "an image of a web page with the text get in touch on it and blue lights" [ref=e1224]
+                  - generic [ref=e1226]:
+                    - generic:
+                      - link "an image of a web page with the text get in touch on it and blue lights":
+                        - /url: /pin/211174978814384/
+                    - generic "More actions" [ref=e1233]:
+                      - button "More actions" [ref=e1234] [cursor=pointer]:
+                        - img [ref=e1237]
+          - listitem [ref=e1239]:
+            - generic [ref=e1240]:
+              - generic [ref=e1246]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1248]:
+                - generic [ref=e1250]:
+                  - link "an abstract purple and white background with circular shapes in the center, on top of each other" [ref=e1253] [cursor=pointer]:
+                    - /url: /pin/492649954812226/
+                    - img "an abstract purple and white background with circular shapes in the center, on top of each other" [ref=e1263]
+                  - generic [ref=e1265]:
+                    - generic:
+                      - link "an abstract purple and white background with circular shapes in the center, on top of each other":
+                        - /url: /pin/492649954812226/
+                    - generic "More actions" [ref=e1272]:
+                      - button "More actions" [ref=e1273] [cursor=pointer]:
+                        - img [ref=e1276]
+          - listitem [ref=e1278]:
+            - generic [ref=e1279]:
+              - generic [ref=e1285]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1287]:
+                - generic [ref=e1289]:
+                  - link "the landing page is designed to look like an appliance with different colors and shapes" [ref=e1292] [cursor=pointer]:
+                    - /url: /pin/10555380372332771/
+                    - img "the landing page is designed to look like an appliance with different colors and shapes" [ref=e1302]
+                  - generic [ref=e1304]:
+                    - generic:
+                      - link "the landing page is designed to look like an appliance with different colors and shapes":
+                        - /url: /pin/10555380372332771/
+                    - generic "More actions" [ref=e1311]:
+                      - button "More actions" [ref=e1312] [cursor=pointer]:
+                        - img [ref=e1315]
+          - listitem [ref=e1317]:
+            - generic [ref=e1318]:
+              - generic [ref=e1324]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1326]:
+                - generic [ref=e1328]:
+                  - link "the light is shining brightly through an opening in a dark room that appears to be empty" [ref=e1331] [cursor=pointer]:
+                    - /url: /pin/899664463063570419/
+                    - img "the light is shining brightly through an opening in a dark room that appears to be empty" [ref=e1341]
+                  - generic [ref=e1343]:
+                    - generic:
+                      - link "the light is shining brightly through an opening in a dark room that appears to be empty":
+                        - /url: /pin/899664463063570419/
+                    - generic "More actions" [ref=e1350]:
+                      - button "More actions" [ref=e1351] [cursor=pointer]:
+                        - img [ref=e1354]
+          - listitem [ref=e1356]:
+            - generic [ref=e1357]:
+              - generic [ref=e1363]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1365]:
+                - generic [ref=e1367]:
+                  - link "Gradient Background" [ref=e1370] [cursor=pointer]:
+                    - /url: /pin/702069029455999379/
+                    - img "Gradient Background" [ref=e1380]
+                  - generic [ref=e1382]:
+                    - generic:
+                      - link "Gradient Background":
+                        - /url: /pin/702069029455999379/
+                    - generic "More actions" [ref=e1389]:
+                      - button "More actions" [ref=e1390] [cursor=pointer]:
+                        - img [ref=e1393]

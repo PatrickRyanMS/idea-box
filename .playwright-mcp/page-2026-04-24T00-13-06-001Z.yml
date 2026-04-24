@@ -1,0 +1,577 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - link "Skip to content":
+      - /url: "#"
+      - generic [ref=e8] [cursor=pointer]: Skip to content
+    - generic [ref=e10]:
+      - generic [ref=e13]:
+        - combobox "Search" [ref=e15]: aurora borealis interface design app
+        - button "Remove search input" [ref=e20] [cursor=pointer]:
+          - img [ref=e23]
+      - generic [ref=e25]:
+        - button "Log in" [ref=e27] [cursor=pointer]:
+          - generic [ref=e29]: Log in
+        - button "Sign up" [ref=e31] [cursor=pointer]:
+          - generic [ref=e33]: Sign up
+  - navigation [ref=e35]:
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - generic "Home" [ref=e42]:
+          - link "Home" [ref=e43] [cursor=pointer]:
+            - /url: /
+            - img [ref=e45]
+        - generic "Explore" [ref=e50]:
+          - link "Explore" [ref=e51] [cursor=pointer]:
+            - /url: /ideas
+            - img [ref=e53]
+        - generic "Shop" [ref=e58]:
+          - link "Shop" [ref=e59] [cursor=pointer]:
+            - /url: /shopping
+            - img [ref=e61]
+      - generic "More options" [ref=e65]:
+        - button "More options" [ref=e66] [cursor=pointer]:
+          - img [ref=e69]
+  - main [ref=e71]:
+    - generic [ref=e73]:
+      - generic [ref=e76]:
+        - heading "Search" [level=1] [ref=e78]
+        - generic [ref=e83]:
+          - button "Show filters" [ref=e89] [cursor=pointer]:
+            - img [ref=e93]
+          - button "Mobile" [ref=e101] [cursor=pointer]:
+            - generic [ref=e106]: Mobile
+          - button "Dashboard ui" [ref=e113] [cursor=pointer]:
+            - generic [ref=e118]: Dashboard ui
+          - button "Ideas" [ref=e125] [cursor=pointer]:
+            - generic [ref=e130]: Ideas
+          - button "Desktop" [ref=e137] [cursor=pointer]:
+            - generic [ref=e142]: Desktop
+          - button "Mobile ui" [ref=e149] [cursor=pointer]:
+            - generic [ref=e154]: Mobile ui
+          - button "Inspiration user" [ref=e161] [cursor=pointer]:
+            - generic [ref=e166]: Inspiration user
+          - button "User" [ref=e173] [cursor=pointer]:
+            - generic [ref=e178]: User
+          - button "Ui" [ref=e185] [cursor=pointer]:
+            - generic [ref=e190]: Ui
+          - button "Templates" [ref=e197] [cursor=pointer]:
+            - generic [ref=e202]: Templates
+          - button "Inspiration" [ref=e209] [cursor=pointer]:
+            - generic [ref=e214]: Inspiration
+          - button "Mobile ui user" [ref=e221] [cursor=pointer]:
+            - generic [ref=e226]: Mobile ui user
+          - button "Music" [ref=e233] [cursor=pointer]:
+            - generic [ref=e238]: Music
+          - button "Layout" [ref=e245] [cursor=pointer]:
+            - generic [ref=e250]: Layout
+          - button "Mobile application user" [ref=e257] [cursor=pointer]:
+            - generic [ref=e262]: Mobile application user
+          - button "Tablet ui" [ref=e269] [cursor=pointer]:
+            - generic [ref=e274]: Tablet ui
+          - button "Restaurant" [ref=e281] [cursor=pointer]:
+            - generic [ref=e286]: Restaurant
+          - button "Food" [ref=e293] [cursor=pointer]:
+            - generic [ref=e298]: Food
+          - button "Social media" [ref=e305] [cursor=pointer]:
+            - generic [ref=e310]: Social media
+          - button "Minimalist" [ref=e317] [cursor=pointer]:
+            - generic [ref=e322]: Minimalist
+          - button "Weather" [ref=e329] [cursor=pointer]:
+            - generic [ref=e334]: Weather
+          - button "Profile" [ref=e341] [cursor=pointer]:
+            - generic [ref=e346]: Profile
+          - button "Simple" [ref=e353] [cursor=pointer]:
+            - generic [ref=e358]: Simple
+          - button "Delivery" [ref=e365] [cursor=pointer]:
+            - generic [ref=e370]: Delivery
+          - button "Travel" [ref=e377] [cursor=pointer]:
+            - generic [ref=e382]: Travel
+          - button "Web" [ref=e389] [cursor=pointer]:
+            - generic [ref=e394]: Web
+      - generic [ref=e399]:
+        - generic [ref=e400]: Showing more search results for aurora borealis interface design app
+        - list [ref=e405]:
+          - listitem [ref=e406]:
+            - group "Pin card" [ref=e409]:
+              - generic [ref=e411]:
+                - link "an image of the aurora website with blue and green lights in the sky above it" [ref=e414] [cursor=pointer]:
+                  - /url: /pin/5277724559662094/
+                  - img "an image of the aurora website with blue and green lights in the sky above it" [ref=e424]
+                - generic [ref=e426]:
+                  - generic:
+                    - link "an image of the aurora website with blue and green lights in the sky above it":
+                      - /url: /pin/5277724559662094/
+                  - generic "More actions" [ref=e433]:
+                    - button "More actions" [ref=e434] [cursor=pointer]:
+                      - img [ref=e437]
+          - listitem [ref=e439]:
+            - group "Pin card" [ref=e442]:
+              - generic [ref=e444]:
+                - link "an image of the aurora bore with four different colors on it's face, and three" [ref=e447] [cursor=pointer]:
+                  - /url: /pin/147774431531423931/
+                  - img "an image of the aurora bore with four different colors on it's face, and three" [ref=e457]
+                - generic [ref=e459]:
+                  - generic:
+                    - link "an image of the aurora bore with four different colors on it's face, and three":
+                      - /url: /pin/147774431531423931/
+                  - generic "More actions" [ref=e466]:
+                    - button "More actions" [ref=e467] [cursor=pointer]:
+                      - img [ref=e470]
+          - listitem [ref=e472]:
+            - group "Pin card" [ref=e475]:
+              - generic [ref=e477]:
+                - link "the aurora borealis theme is shown in this screenshote screen shot, and it's colors are all different" [ref=e480] [cursor=pointer]:
+                  - /url: /pin/140806234015018/
+                  - img "the aurora borealis theme is shown in this screenshote screen shot, and it's colors are all different" [ref=e490]
+                - generic [ref=e492]:
+                  - generic:
+                    - link "the aurora borealis theme is shown in this screenshote screen shot, and it's colors are all different":
+                      - /url: /pin/140806234015018/
+                  - generic "More actions" [ref=e499]:
+                    - button "More actions" [ref=e500] [cursor=pointer]:
+                      - img [ref=e503]
+          - listitem [ref=e505]:
+            - group "Pin card" [ref=e508]:
+              - generic [ref=e510]:
+                - link "the landing page for an app that is designed to look like it's floating in space" [ref=e513] [cursor=pointer]:
+                  - /url: /pin/1100074646503081649/
+                  - img "the landing page for an app that is designed to look like it's floating in space" [ref=e523]
+                - generic [ref=e525]:
+                  - generic:
+                    - link "the landing page for an app that is designed to look like it's floating in space":
+                      - /url: /pin/1100074646503081649/
+                  - generic "More actions" [ref=e532]:
+                    - button "More actions" [ref=e533] [cursor=pointer]:
+                      - img [ref=e536]
+          - listitem [ref=e538]:
+            - group "Pin card" [ref=e541]:
+              - generic [ref=e543]:
+                - link "an image of the aurora over trees with color swatches to match it's hues" [ref=e546] [cursor=pointer]:
+                  - /url: /pin/201043570862907288/
+                  - img "an image of the aurora over trees with color swatches to match it's hues" [ref=e556]
+                - generic [ref=e558]:
+                  - generic:
+                    - link "an image of the aurora over trees with color swatches to match it's hues":
+                      - /url: /pin/201043570862907288/
+                  - generic "More actions" [ref=e565]:
+                    - button "More actions" [ref=e566] [cursor=pointer]:
+                      - img [ref=e569]
+          - listitem [ref=e571]:
+            - group "Pin card" [ref=e574]:
+              - generic [ref=e576]:
+                - link "an image of the night sky with stars and moon in it, as well as text that reads aurora borealis" [ref=e579] [cursor=pointer]:
+                  - /url: /pin/7599893111236481/
+                  - img "an image of the night sky with stars and moon in it, as well as text that reads aurora borealis" [ref=e589]
+                - generic [ref=e591]:
+                  - generic:
+                    - link "an image of the night sky with stars and moon in it, as well as text that reads aurora borealis":
+                      - /url: /pin/7599893111236481/
+                  - generic "More actions" [ref=e598]:
+                    - button "More actions" [ref=e599] [cursor=pointer]:
+                      - img [ref=e602]
+          - listitem [ref=e604]:
+            - generic [ref=e605]:
+              - generic [ref=e611]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e613]:
+                - generic [ref=e615]:
+                  - link "the aurora colors are shown in this graphic above it is an info sheet with information about how to use them" [ref=e618] [cursor=pointer]:
+                    - /url: /pin/8092474327435060/
+                    - img "the aurora colors are shown in this graphic above it is an info sheet with information about how to use them" [ref=e628]
+                  - generic [ref=e630]:
+                    - generic:
+                      - link "the aurora colors are shown in this graphic above it is an info sheet with information about how to use them":
+                        - /url: /pin/8092474327435060/
+                    - generic "More actions" [ref=e637]:
+                      - button "More actions" [ref=e638] [cursor=pointer]:
+                        - img [ref=e641]
+          - listitem [ref=e643]:
+            - group "Pin card" [ref=e646]:
+              - generic [ref=e648]:
+                - link "the aurora bore is glowing green in the night sky, and it looks like something from outer space" [ref=e651] [cursor=pointer]:
+                  - /url: /pin/257057091228773130/
+                  - img "the aurora bore is glowing green in the night sky, and it looks like something from outer space" [ref=e661]
+                - generic [ref=e663]:
+                  - generic:
+                    - link "the aurora bore is glowing green in the night sky, and it looks like something from outer space":
+                      - /url: /pin/257057091228773130/
+                  - generic "More actions" [ref=e670]:
+                    - button "More actions" [ref=e671] [cursor=pointer]:
+                      - img [ref=e674]
+          - listitem [ref=e676]:
+            - group "Pin card" [ref=e679]:
+              - generic [ref=e681]:
+                - link "the aurora bore is lit up in green and purple" [ref=e684] [cursor=pointer]:
+                  - /url: /pin/134756213846944438/
+                  - img "the aurora bore is lit up in green and purple" [ref=e694]
+                - generic [ref=e696]:
+                  - generic:
+                    - link "the aurora bore is lit up in green and purple":
+                      - /url: /pin/134756213846944438/
+                  - generic "More actions" [ref=e703]:
+                    - button "More actions" [ref=e704] [cursor=pointer]:
+                      - img [ref=e707]
+          - listitem [ref=e709]:
+            - group "Pin card" [ref=e712]:
+              - generic [ref=e714]:
+                - link "an image of the aurora bore in the night sky with stars and lines on it" [ref=e717] [cursor=pointer]:
+                  - /url: /pin/63543044737603496/
+                  - img "an image of the aurora bore in the night sky with stars and lines on it" [ref=e727]
+                - generic [ref=e729]:
+                  - generic:
+                    - link "an image of the aurora bore in the night sky with stars and lines on it":
+                      - /url: /pin/63543044737603496/
+                  - generic "More actions" [ref=e736]:
+                    - button "More actions" [ref=e737] [cursor=pointer]:
+                      - img [ref=e740]
+          - listitem [ref=e742]:
+            - group "Pin card" [ref=e745]:
+              - generic [ref=e747]:
+                - link "the aurora bore is shining brightly in the night sky with stars and snow flakes" [ref=e750] [cursor=pointer]:
+                  - /url: /pin/6051780746158780/
+                  - img "the aurora bore is shining brightly in the night sky with stars and snow flakes" [ref=e760]
+                - generic [ref=e762]:
+                  - generic:
+                    - link "the aurora bore is shining brightly in the night sky with stars and snow flakes":
+                      - /url: /pin/6051780746158780/
+                  - generic "More actions" [ref=e769]:
+                    - button "More actions" [ref=e770] [cursor=pointer]:
+                      - img [ref=e773]
+          - listitem [ref=e775]:
+            - generic [ref=e776]:
+              - generic [ref=e782]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e784]:
+                - generic [ref=e786]:
+                  - link "the aurora bore is glowing brightly in the night sky, with stars and clouds around it" [ref=e789] [cursor=pointer]:
+                    - /url: /pin/63261569762576496/
+                    - img "the aurora bore is glowing brightly in the night sky, with stars and clouds around it" [ref=e799]
+                  - generic [ref=e801]:
+                    - generic:
+                      - link "the aurora bore is glowing brightly in the night sky, with stars and clouds around it":
+                        - /url: /pin/63261569762576496/
+                    - generic "More actions" [ref=e808]:
+                      - button "More actions" [ref=e809] [cursor=pointer]:
+                        - img [ref=e812]
+          - listitem [ref=e814]:
+            - group "Pin card" [ref=e817]:
+              - generic [ref=e819]:
+                - link "the colors of aurora in space and how they are used to describe it's surroundings" [ref=e822] [cursor=pointer]:
+                  - /url: /pin/174303448075920155/
+                  - img "the colors of aurora in space and how they are used to describe it's surroundings" [ref=e832]
+                - generic [ref=e834]:
+                  - generic:
+                    - link "the colors of aurora in space and how they are used to describe it's surroundings":
+                      - /url: /pin/174303448075920155/
+                  - generic "More actions" [ref=e841]:
+                    - button "More actions" [ref=e842] [cursor=pointer]:
+                      - img [ref=e845]
+          - listitem [ref=e847]:
+            - group "Pin card" [ref=e850]:
+              - generic [ref=e852]:
+                - link "the aurora bore is shining brightly in the night sky over mountains and snow covered hills" [ref=e855] [cursor=pointer]:
+                  - /url: /pin/346355027604249615/
+                - generic [ref=e869]:
+                  - generic:
+                    - link "the aurora bore is shining brightly in the night sky over mountains and snow covered hills":
+                      - /url: /pin/346355027604249615/
+                  - generic "More actions" [ref=e876]:
+                    - button "More actions" [ref=e877] [cursor=pointer]:
+                      - img [ref=e880]
+          - listitem [ref=e882]:
+            - group "Pin card" [ref=e885]:
+              - generic [ref=e887]:
+                - link "the website design is designed to look like it has green lights" [ref=e890] [cursor=pointer]:
+                  - /url: /pin/304626362316533594/
+                  - img "the website design is designed to look like it has green lights" [ref=e900]
+                - generic [ref=e902]:
+                  - generic:
+                    - link "the website design is designed to look like it has green lights":
+                      - /url: /pin/304626362316533594/
+                  - button "Behance" [ref=e906] [cursor=pointer]:
+                    - generic [ref=e908]:
+                      - button "Behance" [ref=e911]:
+                        - generic "Behance" [ref=e912]
+                      - generic "More actions" [ref=e916]:
+                        - button "More actions" [ref=e917]:
+                          - img [ref=e920]
+          - listitem [ref=e922]:
+            - group "Pin card" [ref=e925]:
+              - generic [ref=e927]:
+                - link "an image of the northern lights in the sky over mountains and snow covered mountain tops" [ref=e930] [cursor=pointer]:
+                  - /url: /pin/41025046602732751/
+                  - img "an image of the northern lights in the sky over mountains and snow covered mountain tops" [ref=e940]
+                - generic [ref=e942]:
+                  - generic:
+                    - link "an image of the northern lights in the sky over mountains and snow covered mountain tops":
+                      - /url: /pin/41025046602732751/
+                  - generic "More actions" [ref=e949]:
+                    - button "More actions" [ref=e950] [cursor=pointer]:
+                      - img [ref=e953]
+          - listitem [ref=e955]:
+            - generic [ref=e956]:
+              - generic [ref=e962]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e964]:
+                - generic [ref=e966]:
+                  - link "an image of the aurora bore in blue and green with different colors on it, as well as some trees" [ref=e969] [cursor=pointer]:
+                    - /url: /pin/214624738488050706/
+                    - img "an image of the aurora bore in blue and green with different colors on it, as well as some trees" [ref=e979]
+                  - generic [ref=e981]:
+                    - generic:
+                      - link "an image of the aurora bore in blue and green with different colors on it, as well as some trees":
+                        - /url: /pin/214624738488050706/
+                    - generic "More actions" [ref=e988]:
+                      - button "More actions" [ref=e989] [cursor=pointer]:
+                        - img [ref=e992]
+          - listitem [ref=e994]:
+            - group "Pin card" [ref=e997]:
+              - generic [ref=e999]:
+                - link "the aurora powerpoint presentation is shown in purple and green colors, with trees on each side" [ref=e1002] [cursor=pointer]:
+                  - /url: /pin/277675133270811114/
+                  - img "the aurora powerpoint presentation is shown in purple and green colors, with trees on each side" [ref=e1012]
+                - generic [ref=e1014]:
+                  - generic:
+                    - link "the aurora powerpoint presentation is shown in purple and green colors, with trees on each side":
+                      - /url: /pin/277675133270811114/
+                  - generic "More actions" [ref=e1021]:
+                    - button "More actions" [ref=e1022] [cursor=pointer]:
+                      - img [ref=e1025]
+          - listitem [ref=e1027]:
+            - group "Pin card" [ref=e1030]:
+              - generic [ref=e1032]:
+                - link "an image of the northern lights in purple and blue with different colors to choose from" [ref=e1035] [cursor=pointer]:
+                  - /url: /pin/112027111109369567/
+                  - img "an image of the northern lights in purple and blue with different colors to choose from" [ref=e1045]
+                - generic [ref=e1047]:
+                  - generic:
+                    - link "an image of the northern lights in purple and blue with different colors to choose from":
+                      - /url: /pin/112027111109369567/
+                  - generic "More actions" [ref=e1054]:
+                    - button "More actions" [ref=e1055] [cursor=pointer]:
+                      - img [ref=e1058]
+          - listitem [ref=e1060]:
+            - group "Pin card" [ref=e1063]:
+              - generic [ref=e1065]:
+                - link "the aurora bore is glowing brightly in the night sky" [ref=e1068] [cursor=pointer]:
+                  - /url: /pin/55380270413623631/
+                  - img "the aurora bore is glowing brightly in the night sky" [ref=e1078]
+                - generic [ref=e1080]:
+                  - generic:
+                    - link "the aurora bore is glowing brightly in the night sky":
+                      - /url: /pin/55380270413623631/
+                  - generic "More actions" [ref=e1087]:
+                    - button "More actions" [ref=e1088] [cursor=pointer]:
+                      - img [ref=e1091]
+          - listitem [ref=e1093]:
+            - group "Pin card" [ref=e1096]:
+              - generic [ref=e1098]:
+                - link "the aurora bore is shining brightly in the night sky, with stars and blue skies" [ref=e1101] [cursor=pointer]:
+                  - /url: /pin/1548181161595684/
+                  - img "the aurora bore is shining brightly in the night sky, with stars and blue skies" [ref=e1111]
+                - generic [ref=e1113]:
+                  - generic:
+                    - link "the aurora bore is shining brightly in the night sky, with stars and blue skies":
+                      - /url: /pin/1548181161595684/
+                  - generic "More actions" [ref=e1120]:
+                    - button "More actions" [ref=e1121] [cursor=pointer]:
+                      - img [ref=e1124]
+          - listitem [ref=e1126]:
+            - generic [ref=e1127]:
+              - generic [ref=e1133]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1135]:
+                - generic [ref=e1137]:
+                  - link "purple and blue aurora bores in the night sky over water with stars on it" [ref=e1140] [cursor=pointer]:
+                    - /url: /pin/4081455907835021/
+                    - img "purple and blue aurora bores in the night sky over water with stars on it" [ref=e1150]
+                  - generic [ref=e1152]:
+                    - generic:
+                      - link "purple and blue aurora bores in the night sky over water with stars on it":
+                        - /url: /pin/4081455907835021/
+                    - generic "More actions" [ref=e1159]:
+                      - button "More actions" [ref=e1160] [cursor=pointer]:
+                        - img [ref=e1163]
+          - listitem [ref=e1165]:
+            - group "Pin card" [ref=e1168]:
+              - generic [ref=e1170]:
+                - link "purple and blue lights in the sky with stars on it's sides, as well as" [ref=e1173] [cursor=pointer]:
+                  - /url: /pin/329677635209574518/
+                  - img "purple and blue lights in the sky with stars on it's sides, as well as" [ref=e1183]
+                - generic [ref=e1185]:
+                  - generic:
+                    - link "purple and blue lights in the sky with stars on it's sides, as well as":
+                      - /url: /pin/329677635209574518/
+                  - generic "More actions" [ref=e1192]:
+                    - button "More actions" [ref=e1193] [cursor=pointer]:
+                      - img [ref=e1196]
+          - listitem [ref=e1198]:
+            - group "Pin card" [ref=e1201]:
+              - generic [ref=e1203]:
+                - link "an image of the northern lights in the sky over a snow covered field with trees" [ref=e1206] [cursor=pointer]:
+                  - /url: /pin/47358233577743994/
+                  - img "an image of the northern lights in the sky over a snow covered field with trees" [ref=e1216]
+                - generic [ref=e1218]:
+                  - generic:
+                    - link "an image of the northern lights in the sky over a snow covered field with trees":
+                      - /url: /pin/47358233577743994/
+                  - generic "More actions" [ref=e1225]:
+                    - button "More actions" [ref=e1226] [cursor=pointer]:
+                      - img [ref=e1229]
+          - listitem [ref=e1231]:
+            - generic [ref=e1232]:
+              - generic [ref=e1238]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1240]:
+                - generic [ref=e1242]:
+                  - link "an aurora bore is seen in the sky with blue and green lights on it's sides" [ref=e1245] [cursor=pointer]:
+                    - /url: /pin/4855512094863681/
+                    - img "an aurora bore is seen in the sky with blue and green lights on it's sides" [ref=e1255]
+                  - generic [ref=e1257]:
+                    - generic:
+                      - link "an aurora bore is seen in the sky with blue and green lights on it's sides":
+                        - /url: /pin/4855512094863681/
+                    - generic "More actions" [ref=e1264]:
+                      - button "More actions" [ref=e1265] [cursor=pointer]:
+                        - img [ref=e1268]
+          - listitem [ref=e1270]:
+            - generic [ref=e1271]:
+              - generic [ref=e1277]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1279]:
+                - generic [ref=e1281]:
+                  - link "an aurora bore is shown in the sky with blue and green lights on it's side" [ref=e1284] [cursor=pointer]:
+                    - /url: /pin/27162403995821051/
+                    - img "an aurora bore is shown in the sky with blue and green lights on it's side" [ref=e1294]
+                  - generic [ref=e1296]:
+                    - generic:
+                      - link "an aurora bore is shown in the sky with blue and green lights on it's side":
+                        - /url: /pin/27162403995821051/
+                    - generic "More actions" [ref=e1303]:
+                      - button "More actions" [ref=e1304] [cursor=pointer]:
+                        - img [ref=e1307]
+          - listitem [ref=e1309]:
+            - generic [ref=e1310]:
+              - generic [ref=e1316]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1318]:
+                - generic [ref=e1320]:
+                  - link "the aurora bore is glowing brightly in the night sky over a river and snow covered forest" [ref=e1323] [cursor=pointer]:
+                    - /url: /pin/243053711135034308/
+                    - img "the aurora bore is glowing brightly in the night sky over a river and snow covered forest" [ref=e1333]
+                  - generic [ref=e1335]:
+                    - generic:
+                      - link "the aurora bore is glowing brightly in the night sky over a river and snow covered forest":
+                        - /url: /pin/243053711135034308/
+                    - generic "More actions" [ref=e1342]:
+                      - button "More actions" [ref=e1343] [cursor=pointer]:
+                        - img [ref=e1346]
+          - listitem [ref=e1348]:
+            - generic [ref=e1349]:
+              - generic [ref=e1355]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1357]:
+                - generic [ref=e1359]:
+                  - link "the aurora bore is reflected in water with purple and green hues, as well as blue" [ref=e1362] [cursor=pointer]:
+                    - /url: /pin/26669822788537831/
+                    - img "the aurora bore is reflected in water with purple and green hues, as well as blue" [ref=e1372]
+                  - generic [ref=e1374]:
+                    - generic:
+                      - link "the aurora bore is reflected in water with purple and green hues, as well as blue":
+                        - /url: /pin/26669822788537831/
+                    - generic "More actions" [ref=e1381]:
+                      - button "More actions" [ref=e1382] [cursor=pointer]:
+                        - img [ref=e1385]
+          - listitem [ref=e1387]:
+            - generic [ref=e1388]:
+              - generic [ref=e1394]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1396]:
+                - generic [ref=e1398]:
+                  - link "an aurora bore is seen in the night sky with green and blue lights on it" [ref=e1401] [cursor=pointer]:
+                    - /url: /pin/27584616459845908/
+                    - img "an aurora bore is seen in the night sky with green and blue lights on it" [ref=e1411]
+                  - generic [ref=e1413]:
+                    - generic:
+                      - link "an aurora bore is seen in the night sky with green and blue lights on it":
+                        - /url: /pin/27584616459845908/
+                    - generic "More actions" [ref=e1420]:
+                      - button "More actions" [ref=e1421] [cursor=pointer]:
+                        - img [ref=e1424]
+          - listitem [ref=e1426]:
+            - generic [ref=e1427]:
+              - generic [ref=e1433]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1435]:
+                - generic [ref=e1437]:
+                  - link "the aurora bore over a frozen lake and snow covered ground with stars in the sky" [ref=e1440] [cursor=pointer]:
+                    - /url: /pin/15270086238903101/
+                    - img "the aurora bore over a frozen lake and snow covered ground with stars in the sky" [ref=e1450]
+                  - generic [ref=e1452]:
+                    - generic:
+                      - link "the aurora bore over a frozen lake and snow covered ground with stars in the sky":
+                        - /url: /pin/15270086238903101/
+                    - generic "More actions" [ref=e1459]:
+                      - button "More actions" [ref=e1460] [cursor=pointer]:
+                        - img [ref=e1463]
+          - listitem [ref=e1465]:
+            - generic [ref=e1466]:
+              - generic [ref=e1472]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1474]:
+                - generic [ref=e1476]:
+                  - link "green and blue color palette with aurora lights" [ref=e1479] [cursor=pointer]:
+                    - /url: /pin/134896951334094899/
+                    - img "green and blue color palette with aurora lights" [ref=e1489]
+                  - generic [ref=e1491]:
+                    - generic:
+                      - link "green and blue color palette with aurora lights":
+                        - /url: /pin/134896951334094899/
+                    - generic "More actions" [ref=e1498]:
+                      - button "More actions" [ref=e1499] [cursor=pointer]:
+                        - img [ref=e1502]
+          - listitem [ref=e1504]:
+            - generic [ref=e1505]:
+              - generic [ref=e1511]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1513]:
+                - generic [ref=e1515]:
+                  - link "an aurora bore is seen in the night sky with green and pink lights on it" [ref=e1518] [cursor=pointer]:
+                    - /url: /pin/10485011665030533/
+                    - img "an aurora bore is seen in the night sky with green and pink lights on it" [ref=e1528]
+                  - generic [ref=e1530]:
+                    - generic:
+                      - link "an aurora bore is seen in the night sky with green and pink lights on it":
+                        - /url: /pin/10485011665030533/
+                    - generic "More actions" [ref=e1537]:
+                      - button "More actions" [ref=e1538] [cursor=pointer]:
+                        - img [ref=e1541]
+          - listitem [ref=e1543]:
+            - generic [ref=e1544]:
+              - generic [ref=e1550]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1552]:
+                - generic [ref=e1554]:
+                  - link "an image of the night sky with green and blue lights in it, as well as mountains" [ref=e1557] [cursor=pointer]:
+                    - /url: /pin/16044142416789254/
+                    - img "an image of the night sky with green and blue lights in it, as well as mountains" [ref=e1567]
+                  - generic [ref=e1569]:
+                    - generic:
+                      - link "an image of the night sky with green and blue lights in it, as well as mountains":
+                        - /url: /pin/16044142416789254/
+                    - generic "More actions" [ref=e1576]:
+                      - button "More actions" [ref=e1577] [cursor=pointer]:
+                        - img [ref=e1580]

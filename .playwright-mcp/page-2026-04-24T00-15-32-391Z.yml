@@ -1,0 +1,804 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - link "Skip to content":
+      - /url: "#"
+      - generic [ref=e9] [cursor=pointer]: Skip to content
+    - generic [ref=e11]:
+      - generic [ref=e14]:
+        - combobox "Search" [ref=e16]: typography kinetic motion AI interface
+        - button "Remove search input" [ref=e21] [cursor=pointer]:
+          - img [ref=e24]
+      - generic [ref=e26]:
+        - button "Log in" [ref=e28] [cursor=pointer]:
+          - generic [ref=e30]: Log in
+        - button "Sign up" [ref=e32] [cursor=pointer]:
+          - generic [ref=e34]: Sign up
+  - navigation [ref=e36]:
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - generic "Home" [ref=e43]:
+          - link "Home" [ref=e44] [cursor=pointer]:
+            - /url: /
+            - img [ref=e46]
+        - generic "Explore" [ref=e51]:
+          - link "Explore" [ref=e52] [cursor=pointer]:
+            - /url: /ideas
+            - img [ref=e54]
+        - generic "Shop" [ref=e59]:
+          - link "Shop" [ref=e60] [cursor=pointer]:
+            - /url: /shopping
+            - img [ref=e62]
+      - generic "More options" [ref=e66]:
+        - button "More options" [ref=e67] [cursor=pointer]:
+          - img [ref=e70]
+  - main [ref=e72]:
+    - generic [ref=e74]:
+      - heading "Search" [level=1] [ref=e76]
+      - generic [ref=e81]:
+        - generic [ref=e82]: Showing more search results for typography kinetic motion AI interface
+        - list [ref=e87]:
+          - listitem [ref=e88]:
+            - group "Pin card" [ref=e91]:
+              - generic [ref=e93]:
+                - link "an old computer screen with many different types of letters and numbers on it, all in blue" [ref=e96] [cursor=pointer]:
+                  - /url: /pin/771593348681235758/
+                - generic [ref=e110]:
+                  - generic:
+                    - link "an old computer screen with many different types of letters and numbers on it, all in blue":
+                      - /url: /pin/771593348681235758/
+                  - generic "More actions" [ref=e117]:
+                    - button "More actions" [ref=e118] [cursor=pointer]:
+                      - img [ref=e121]
+          - listitem [ref=e123]:
+            - group "Pin card" [ref=e127]:
+              - generic [ref=e129]:
+                - link "an abstract black and white photo with words in the center that appear to be made out of letters" [ref=e132] [cursor=pointer]:
+                  - /url: /pin/5348093304513498/
+                  - generic [ref=e134]:
+                    - generic [ref=e139]:
+                      - img "Typographic Motion Design Inspiration by Gimmick Studio" [ref=e143]
+                      - 'img "Our first love: type animation.❤️‍🔥 Our favorite typographic motion projects over the years. #motiondesign #kinetictypography #typeanimation #typeface @type01_ #motionographer" [ref=e147]'
+                      - 'img "Our first love: type animation.❤️‍🔥 Our favorite typographic motion projects over the years. #motiondesign #kinetictypography #typeanimation #typeface @type01_ #motionographer" [ref=e151]'
+                      - 'img "Our first love: type animation.❤️‍🔥 Our favorite typographic motion projects over the years. #motiondesign #kinetictypography #typeanimation #typeface @type01_ #motionographer" [ref=e155]'
+                    - generic [ref=e157]:
+                      - button "Typographic Motion Design Inspiration by Gimmick Studio" [ref=e159]
+                      - button "Go to slide 2 of 4" [ref=e162]
+                      - button "Go to slide 3 of 4" [ref=e165]
+                      - button "Go to slide 4 of 4" [ref=e168]
+                - generic [ref=e171]:
+                  - generic:
+                    - link "an abstract black and white photo with words in the center that appear to be made out of letters":
+                      - /url: /pin/5348093304513498/
+                  - generic "More actions" [ref=e178]:
+                    - button "More actions" [ref=e179] [cursor=pointer]:
+                      - img [ref=e182]
+          - listitem [ref=e184]:
+            - group "Pin card" [ref=e187]:
+              - generic [ref=e189]:
+                - generic [ref=e190]:
+                  - link "the words extend and extend are in white letters on a black background that reads extended" [ref=e192] [cursor=pointer]:
+                    - /url: /pin/1407443629228171/
+                    - 'img "This may contain: the words extend and extend are in white letters on a black background that reads extended" [ref=e208]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:12
+                - generic [ref=e210]:
+                  - generic:
+                    - link "the words extend and extend are in white letters on a black background that reads extended":
+                      - /url: /pin/1407443629228171/
+                  - generic "More actions" [ref=e217]:
+                    - button "More actions" [ref=e218] [cursor=pointer]:
+                      - img [ref=e221]
+          - listitem [ref=e223]:
+            - group "Pin card" [ref=e226]:
+              - generic [ref=e228]:
+                - generic [ref=e229]:
+                  - link "the word hey written in black on a white background" [ref=e231] [cursor=pointer]:
+                    - /url: /pin/15833036185290526/
+                    - 'img "This may contain: the word hey written in black on a white background" [ref=e247]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:31
+                - generic [ref=e249]:
+                  - generic:
+                    - link "the word hey written in black on a white background":
+                      - /url: /pin/15833036185290526/
+                  - generic "More actions" [ref=e256]:
+                    - button "More actions" [ref=e257] [cursor=pointer]:
+                      - img [ref=e260]
+          - listitem [ref=e262]:
+            - group "Pin card" [ref=e265]:
+              - generic [ref=e267]:
+                - generic [ref=e268]:
+                  - link "a black and white photo of a triangle" [ref=e270] [cursor=pointer]:
+                    - /url: /pin/1125968648019922/
+                    - 'img "This may contain: a black and white photo of a triangle" [ref=e286]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:10
+                - generic [ref=e288]:
+                  - generic:
+                    - link "a black and white photo of a triangle":
+                      - /url: /pin/1125968648019922/
+                  - generic "More actions" [ref=e295]:
+                    - button "More actions" [ref=e296] [cursor=pointer]:
+                      - img [ref=e299]
+          - listitem [ref=e301]:
+            - group "Pin card" [ref=e304]:
+              - generic [ref=e306]:
+                - generic [ref=e307]:
+                  - link "the limits of my language mean the limits of my world text on a white background" [ref=e309] [cursor=pointer]:
+                    - /url: /pin/771593348681235752/
+                    - 'img "This may contain: the limits of my language mean the limits of my world text on a white background" [ref=e325]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:10
+                - generic [ref=e327]:
+                  - generic:
+                    - link "the limits of my language mean the limits of my world text on a white background":
+                      - /url: /pin/771593348681235752/
+                  - generic "More actions" [ref=e334]:
+                    - button "More actions" [ref=e335] [cursor=pointer]:
+                      - img [ref=e338]
+          - listitem [ref=e340]:
+            - generic [ref=e341]:
+              - generic [ref=e347]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e349]:
+                - generic [ref=e351]:
+                  - generic [ref=e352]:
+                    - link "a black and white photo with the words play written in cursive writing on it" [ref=e354] [cursor=pointer]:
+                      - /url: /pin/2111131073664316/
+                      - 'img "This may contain: a black and white photo with the words play written in cursive writing on it" [ref=e370]'
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 0:15
+                  - generic [ref=e372]:
+                    - generic:
+                      - link "a black and white photo with the words play written in cursive writing on it":
+                        - /url: /pin/2111131073664316/
+                    - generic "More actions" [ref=e379]:
+                      - button "More actions" [ref=e380] [cursor=pointer]:
+                        - img [ref=e383]
+          - listitem [ref=e385]:
+            - group "Pin card" [ref=e388]:
+              - generic [ref=e390]:
+                - generic [ref=e391]:
+                  - link "the words shift are written in white on a black background with letters that spell out" [ref=e393] [cursor=pointer]:
+                    - /url: /pin/3588874698284479/
+                    - 'img "This may contain: the words shift are written in white on a black background with letters that spell out" [ref=e409]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:12
+                - generic [ref=e411]:
+                  - generic:
+                    - link "the words shift are written in white on a black background with letters that spell out":
+                      - /url: /pin/3588874698284479/
+                  - generic "More actions" [ref=e418]:
+                    - button "More actions" [ref=e419] [cursor=pointer]:
+                      - img [ref=e422]
+          - listitem [ref=e424]:
+            - group "Pin card" [ref=e428]:
+              - generic [ref=e430]:
+                - link "a black background with the words asci motion code meets movement" [ref=e433] [cursor=pointer]:
+                  - /url: /pin/695595104992469860/
+                  - generic [ref=e435]:
+                    - generic [ref=e440]:
+                      - 'img "By varying density and contrast, symbols create fluid motion, turning visuals into an abstract, hypnotic experience. A fusion of nostalgia and innovation in motion design. #ASCII #asciiart #motiongraphics #motiondesign #design #graphicdesign #graphic_art" [ref=e444]'
+                      - 'img "By varying density and contrast, symbols create fluid motion, turning visuals into an abstract, hypnotic experience. A fusion of nostalgia and innovation in motion design. #ASCII #asciiart #motiongraphics #motiondesign #design #graphicdesign #graphic_art" [ref=e448]'
+                      - 'img "By varying density and contrast, symbols create fluid motion, turning visuals into an abstract, hypnotic experience. A fusion of nostalgia and innovation in motion design. #ASCII #asciiart #motiongraphics #motiondesign #design #graphicdesign #graphic_art" [ref=e452]'
+                    - generic [ref=e454]:
+                      - button "Go to slide 1 of 3" [ref=e456]
+                      - button "Go to slide 2 of 3" [ref=e459]
+                      - button "Go to slide 3 of 3" [ref=e462]
+                - generic [ref=e465]:
+                  - generic:
+                    - link "a black background with the words asci motion code meets movement":
+                      - /url: /pin/695595104992469860/
+                  - generic "More actions" [ref=e472]:
+                    - button "More actions" [ref=e473] [cursor=pointer]:
+                      - img [ref=e476]
+          - listitem [ref=e478]:
+            - group "Pin card" [ref=e481]:
+              - generic [ref=e483]:
+                - generic [ref=e484]:
+                  - link "the screen is displaying different types of typograms" [ref=e486] [cursor=pointer]:
+                    - /url: /pin/630715122834450255/
+                    - 'img "This may contain: the screen is displaying different types of typograms" [ref=e502]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:05
+                - generic [ref=e504]:
+                  - generic:
+                    - link "the screen is displaying different types of typograms":
+                      - /url: /pin/630715122834450255/
+                  - generic "More actions" [ref=e511]:
+                    - button "More actions" [ref=e512] [cursor=pointer]:
+                      - img [ref=e515]
+          - listitem [ref=e517]:
+            - group "Pin card" [ref=e520]:
+              - generic [ref=e522]:
+                - generic [ref=e523]:
+                  - link "a poster with words written in black and white, including the word's name" [ref=e525] [cursor=pointer]:
+                    - /url: /pin/1759287348932176/
+                    - 'img "This may contain: a poster with words written in black and white, including the word''s name" [ref=e541]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:18
+                - generic [ref=e543]:
+                  - generic:
+                    - link "a poster with words written in black and white, including the word's name":
+                      - /url: /pin/1759287348932176/
+                  - generic "More actions" [ref=e550]:
+                    - button "More actions" [ref=e551] [cursor=pointer]:
+                      - img [ref=e554]
+          - listitem [ref=e556]:
+            - generic [ref=e557]:
+              - generic [ref=e563]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e565]:
+                - generic [ref=e567]:
+                  - generic [ref=e568]:
+                    - link "a purple background with white lettering and the word faith written in cursive font" [ref=e570] [cursor=pointer]:
+                      - /url: /pin/1337074889702081/
+                      - 'img "This may contain: a purple background with white lettering and the word faith written in cursive font" [ref=e586]'
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 0:16
+                  - generic [ref=e588]:
+                    - generic:
+                      - link "a purple background with white lettering and the word faith written in cursive font":
+                        - /url: /pin/1337074889702081/
+                    - generic "More actions" [ref=e595]:
+                      - button "More actions" [ref=e596] [cursor=pointer]:
+                        - img [ref=e599]
+          - listitem [ref=e601]:
+            - group "Pin card" [ref=e604]:
+              - generic [ref=e606]:
+                - generic [ref=e607]:
+                  - link "a black and white photo of the word flow in an artistic font pattern on a dark background" [ref=e609] [cursor=pointer]:
+                    - /url: /pin/1337074889625722/
+                    - 'img "This may contain: a black and white photo of the word flow in an artistic font pattern on a dark background" [ref=e625]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:05
+                - generic [ref=e627]:
+                  - generic:
+                    - link "a black and white photo of the word flow in an artistic font pattern on a dark background":
+                      - /url: /pin/1337074889625722/
+                  - generic "More actions" [ref=e634]:
+                    - button "More actions" [ref=e635] [cursor=pointer]:
+                      - img [ref=e638]
+          - listitem [ref=e640]:
+            - group "Pin card" [ref=e643]:
+              - generic [ref=e645]:
+                - generic [ref=e646]:
+                  - link "an image of some type of typogramic on a purple background with white letters" [ref=e648] [cursor=pointer]:
+                    - /url: /pin/140806234581839/
+                    - 'img "This may contain: an image of some type of typogramic on a purple background with white letters" [ref=e664]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:06
+                - generic [ref=e666]:
+                  - generic:
+                    - link "an image of some type of typogramic on a purple background with white letters":
+                      - /url: /pin/140806234581839/
+                  - generic "More actions" [ref=e673]:
+                    - button "More actions" [ref=e674] [cursor=pointer]:
+                      - img [ref=e677]
+          - listitem [ref=e679]:
+            - group "Pin card" [ref=e682]:
+              - generic [ref=e684]:
+                - generic [ref=e685]:
+                  - link "the words are arranged in different colors and sizes on a black background with multiple letters" [ref=e687] [cursor=pointer]:
+                    - /url: /pin/3518505954709124/
+                    - 'img "This may contain: the words are arranged in different colors and sizes on a black background with multiple letters" [ref=e703]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:02
+                - generic [ref=e705]:
+                  - generic:
+                    - link "the words are arranged in different colors and sizes on a black background with multiple letters":
+                      - /url: /pin/3518505954709124/
+                  - generic "More actions" [ref=e712]:
+                    - button "More actions" [ref=e713] [cursor=pointer]:
+                      - img [ref=e716]
+          - listitem [ref=e718]:
+            - group "Pin card" [ref=e721]:
+              - generic [ref=e723]:
+                - link "an infinite sign made up of words in blue and white on a black background," [ref=e726] [cursor=pointer]:
+                  - /url: /pin/1970393584068643/
+                  - img "an infinite sign made up of words in blue and white on a black background," [ref=e736]
+                - generic [ref=e738]:
+                  - generic:
+                    - link "an infinite sign made up of words in blue and white on a black background,":
+                      - /url: /pin/1970393584068643/
+                  - button "Behance" [ref=e742] [cursor=pointer]:
+                    - generic [ref=e744]:
+                      - button "Behance" [ref=e747]:
+                        - generic "Behance" [ref=e748]
+                      - generic "More actions" [ref=e752]:
+                        - button "More actions" [ref=e753]:
+                          - img [ref=e756]
+          - listitem [ref=e758]:
+            - generic [ref=e759]:
+              - generic [ref=e765]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e768]:
+                - generic [ref=e770]:
+                  - link "the poster is black and white with words on it" [ref=e773] [cursor=pointer]:
+                    - /url: /pin/34199278420564427/
+                    - generic [ref=e775]:
+                      - generic [ref=e780]:
+                        - 'img "{Repost} Kinetic type animation by @antonin.work⁠" [ref=e784]'
+                        - 'img "{Repost} Kinetic type animation by @antonin.work⁠" [ref=e788]'
+                        - 'img "{Repost} Kinetic type animation by @antonin.work⁠" [ref=e792]'
+                      - generic [ref=e794]:
+                        - button "Go to slide 1 of 3" [ref=e796]
+                        - button "Go to slide 2 of 3" [ref=e799]
+                        - button "Go to slide 3 of 3" [ref=e802]
+                  - generic [ref=e805]:
+                    - generic:
+                      - link "the poster is black and white with words on it":
+                        - /url: /pin/34199278420564427/
+                    - generic "More actions" [ref=e812]:
+                      - button "More actions" [ref=e813] [cursor=pointer]:
+                        - img [ref=e816]
+          - listitem [ref=e818]:
+            - group "Pin card" [ref=e821]:
+              - generic [ref=e823]:
+                - generic [ref=e824]:
+                  - link "an image of some type of art that looks like it is made out of squares" [ref=e826] [cursor=pointer]:
+                    - /url: /pin/774124929951562/
+                    - 'img "This may contain: an image of some type of art that looks like it is made out of squares" [ref=e842]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:12
+                - generic [ref=e844]:
+                  - generic:
+                    - link "an image of some type of art that looks like it is made out of squares":
+                      - /url: /pin/774124929951562/
+                  - generic "More actions" [ref=e851]:
+                    - button "More actions" [ref=e852] [cursor=pointer]:
+                      - img [ref=e855]
+          - listitem [ref=e857]:
+            - group "Pin card" [ref=e860]:
+              - generic [ref=e862]:
+                - generic [ref=e863]:
+                  - link "the words focus are written in white on a black background, with an abstract design" [ref=e865] [cursor=pointer]:
+                    - /url: /pin/20195898326890111/
+                    - 'img "This may contain: the words focus are written in white on a black background, with an abstract design" [ref=e881]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:12
+                - generic [ref=e883]:
+                  - generic:
+                    - link "the words focus are written in white on a black background, with an abstract design":
+                      - /url: /pin/20195898326890111/
+                  - generic "More actions" [ref=e890]:
+                    - button "More actions" [ref=e891] [cursor=pointer]:
+                      - img [ref=e894]
+          - listitem [ref=e896]:
+            - group "Pin card" [ref=e899]:
+              - generic [ref=e901]:
+                - generic [ref=e902]:
+                  - link "the words steampunk are arranged in white on a black background, and there is no image to describe" [ref=e904] [cursor=pointer]:
+                    - /url: /pin/1759287348536155/
+                    - 'img "This may contain: the words steampunk are arranged in white on a black background, and there is no image to describe" [ref=e920]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:10
+                - generic [ref=e922]:
+                  - generic:
+                    - link "the words steampunk are arranged in white on a black background, and there is no image to describe":
+                      - /url: /pin/1759287348536155/
+                  - generic "More actions" [ref=e929]:
+                    - button "More actions" [ref=e930] [cursor=pointer]:
+                      - img [ref=e933]
+          - listitem [ref=e935]:
+            - group "Pin card" [ref=e938]:
+              - generic [ref=e940]:
+                - generic [ref=e941]:
+                  - link "the back side of a black and white poster with words written in different font styles" [ref=e943] [cursor=pointer]:
+                    - /url: /pin/1407443629064869/
+                    - 'img "This may contain: the back side of a black and white poster with words written in different font styles" [ref=e959]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:08
+                - generic [ref=e961]:
+                  - generic:
+                    - link "the back side of a black and white poster with words written in different font styles":
+                      - /url: /pin/1407443629064869/
+                  - generic "More actions" [ref=e968]:
+                    - button "More actions" [ref=e969] [cursor=pointer]:
+                      - img [ref=e972]
+          - listitem [ref=e974]:
+            - generic [ref=e975]:
+              - generic [ref=e981]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e983]:
+                - generic [ref=e985]:
+                  - generic [ref=e986]:
+                    - link "the words dream, super powers are displayed in pink and purple colors on a white background" [ref=e988] [cursor=pointer]:
+                      - /url: /pin/1008595279052523159/
+                      - 'img "This may contain: the words dream, super powers are displayed in pink and purple colors on a white background" [ref=e1004]'
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 0:07
+                  - generic [ref=e1006]:
+                    - generic:
+                      - link "the words dream, super powers are displayed in pink and purple colors on a white background":
+                        - /url: /pin/1008595279052523159/
+                    - generic "More actions" [ref=e1013]:
+                      - button "More actions" [ref=e1014] [cursor=pointer]:
+                        - img [ref=e1017]
+          - listitem [ref=e1019]:
+            - group "Pin card" [ref=e1022]:
+              - generic [ref=e1024]:
+                - link "the letter g is made up of squares and lines in white on a black background" [ref=e1027] [cursor=pointer]:
+                  - /url: /pin/28499410137929476/
+                  - img "the letter g is made up of squares and lines in white on a black background" [ref=e1037]
+                - generic [ref=e1039]:
+                  - generic:
+                    - link "the letter g is made up of squares and lines in white on a black background":
+                      - /url: /pin/28499410137929476/
+                  - generic "More actions" [ref=e1046]:
+                    - button "More actions" [ref=e1047] [cursor=pointer]:
+                      - img [ref=e1050]
+          - listitem [ref=e1052]:
+            - group "Pin card" [ref=e1055]:
+              - generic [ref=e1057]:
+                - generic [ref=e1058]:
+                  - link "the word simple is spelled in black and white letters on a gray background with blue squares" [ref=e1060] [cursor=pointer]:
+                    - /url: /pin/1196337404996776/
+                    - 'img "This may contain: the word simple is spelled in black and white letters on a gray background with blue squares" [ref=e1076]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:13
+                - generic [ref=e1078]:
+                  - generic:
+                    - link "the word simple is spelled in black and white letters on a gray background with blue squares":
+                      - /url: /pin/1196337404996776/
+                  - generic "More actions" [ref=e1085]:
+                    - button "More actions" [ref=e1086] [cursor=pointer]:
+                      - img [ref=e1089]
+          - listitem [ref=e1091]:
+            - group "Pin card" [ref=e1094]:
+              - generic [ref=e1096]:
+                - generic [ref=e1097]:
+                  - link "a black background with white letters and numbers" [ref=e1099] [cursor=pointer]:
+                    - /url: /pin/5559199538214899/
+                    - 'img "This may contain: a black background with white letters and numbers" [ref=e1115]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:20
+                - generic [ref=e1117]:
+                  - generic:
+                    - link "a black background with white letters and numbers":
+                      - /url: /pin/5559199538214899/
+                  - generic "More actions" [ref=e1124]:
+                    - button "More actions" [ref=e1125] [cursor=pointer]:
+                      - img [ref=e1128]
+          - listitem [ref=e1130]:
+            - group "Pin card" [ref=e1134]:
+              - generic [ref=e1136]:
+                - link "a black and white image of an object with dots on it" [ref=e1139] [cursor=pointer]:
+                  - /url: /pin/211174978930854/
+                  - generic [ref=e1141]:
+                    - generic [ref=e1146]:
+                      - 'img "Expression Experiments in After Effects by @nigina.dsgn 🔥⁠ ⁠ #type01 #animatedtype #kinetictype #kinetictypography #expressions #ae #motionlovers #movingtype" [ref=e1150]'
+                      - 'img "Expression Experiments in After Effects by @nigina.dsgn 🔥⁠ ⁠ #type01 #animatedtype #kinetictype #kinetictypography #expressions #ae #motionlovers #movingtype" [ref=e1154]'
+                      - 'img "Expression Experiments in After Effects by @nigina.dsgn 🔥⁠ ⁠ #type01 #animatedtype #kinetictype #kinetictypography #expressions #ae #motionlovers #movingtype" [ref=e1158]'
+                      - 'img "Expression Experiments in After Effects by @nigina.dsgn 🔥⁠ ⁠ #type01 #animatedtype #kinetictype #kinetictypography #expressions #ae #motionlovers #movingtype" [ref=e1162]'
+                    - generic [ref=e1164]:
+                      - button "Go to slide 1 of 4" [ref=e1166]
+                      - button "Go to slide 2 of 4" [ref=e1169]
+                      - button "Go to slide 3 of 4" [ref=e1172]
+                      - button "Go to slide 4 of 4" [ref=e1175]
+                - generic [ref=e1178]:
+                  - generic:
+                    - link "a black and white image of an object with dots on it":
+                      - /url: /pin/211174978930854/
+                  - generic "More actions" [ref=e1185]:
+                    - button "More actions" [ref=e1186] [cursor=pointer]:
+                      - img [ref=e1189]
+          - listitem [ref=e1191]:
+            - generic [ref=e1192]:
+              - generic [ref=e1198]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1200]:
+                - generic [ref=e1202]:
+                  - generic [ref=e1203]:
+                    - link "Motion Design kinetic Animation" [ref=e1205] [cursor=pointer]:
+                      - /url: /pin/70016969203842217/
+                      - 'img "This contains: Motion Design kinetic Animation" [ref=e1221]'
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 0:12
+                  - generic [ref=e1223]:
+                    - generic:
+                      - link "Motion Design kinetic Animation":
+                        - /url: /pin/70016969203842217/
+                    - generic "More actions" [ref=e1230]:
+                      - button "More actions" [ref=e1231] [cursor=pointer]:
+                        - img [ref=e1234]
+          - listitem [ref=e1236]:
+            - group "Pin card" [ref=e1239]:
+              - generic [ref=e1241]:
+                - generic [ref=e1242]:
+                  - link "the letter a is made up of multicolored lines and letters that appear to be distorted" [ref=e1244] [cursor=pointer]:
+                    - /url: /pin/13862711349358442/
+                    - 'img "This may contain: the letter a is made up of multicolored lines and letters that appear to be distorted" [ref=e1260]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:06
+                - generic [ref=e1262]:
+                  - generic:
+                    - link "the letter a is made up of multicolored lines and letters that appear to be distorted":
+                      - /url: /pin/13862711349358442/
+                  - generic "More actions" [ref=e1269]:
+                    - button "More actions" [ref=e1270] [cursor=pointer]:
+                      - img [ref=e1273]
+          - listitem [ref=e1275]:
+            - group "Pin card" [ref=e1279]:
+              - generic [ref=e1281]:
+                - link "a poster with words written in black and white, including the names of various arts and technology" [ref=e1284] [cursor=pointer]:
+                  - /url: /pin/492649954856500/
+                  - generic [ref=e1286]:
+                    - generic [ref=e1287]:
+                      - generic [ref=e1291]:
+                        - img "Campaign for Spatial’s second edition designed by @smlxl.company - an innovative Berlin-based festival that explores immersive sound technologies and spatial sound. For 2025, the festival returned with an expanded presence, occupying five rooms of the iconic Funkhaus Berlin. The campaign’s visual language translated this evolution, with the graphics themselves conceived as immersive environments, spaces that mirror the festival’s experiential essence." [ref=e1295]
+                        - img "Campaign for Spatial’s second edition designed by @smlxl.company - an innovative Berlin-based festival that explores immersive sound technologies and spatial sound. For 2025, the festival returned with an expanded presence, occupying five rooms of the iconic Funkhaus Berlin. The campaign’s visual language translated this evolution, with the graphics themselves conceived as immersive environments, spaces that mirror the festival’s experiential essence." [ref=e1299]
+                        - img "Campaign for Spatial’s second edition designed by @smlxl.company - an innovative Berlin-based festival that explores immersive sound technologies and spatial sound. For 2025, the festival returned with an expanded presence, occupying five rooms of the iconic Funkhaus Berlin. The campaign’s visual language translated this evolution, with the graphics themselves conceived as immersive environments, spaces that mirror the festival’s experiential essence." [ref=e1303]
+                        - img "Campaign for Spatial’s second edition designed by @smlxl.company - an innovative Berlin-based festival that explores immersive sound technologies and spatial sound. For 2025, the festival returned with an expanded presence, occupying five rooms of the iconic Funkhaus Berlin. The campaign’s visual language translated this evolution, with the graphics themselves conceived as immersive environments, spaces that mirror the festival’s experiential essence." [ref=e1307]
+                        - img "Campaign for Spatial’s second edition designed by @smlxl.company - an innovative Berlin-based festival that explores immersive sound technologies and spatial sound. For 2025, the festival returned with an expanded presence, occupying five rooms of the iconic Funkhaus Berlin. The campaign’s visual language translated this evolution, with the graphics themselves conceived as immersive environments, spaces that mirror the festival’s experiential essence." [ref=e1311]
+                        - img "Campaign for Spatial’s second edition designed by @smlxl.company - an innovative Berlin-based festival that explores immersive sound technologies and spatial sound. For 2025, the festival returned with an expanded presence, occupying five rooms of the iconic Funkhaus Berlin. The campaign’s visual language translated this evolution, with the graphics themselves conceived as immersive environments, spaces that mirror the festival’s experiential essence." [ref=e1315]
+                        - img "Campaign for Spatial’s second edition designed by @smlxl.company - an innovative Berlin-based festival that explores immersive sound technologies and spatial sound. For 2025, the festival returned with an expanded presence, occupying five rooms of the iconic Funkhaus Berlin. The campaign’s visual language translated this evolution, with the graphics themselves conceived as immersive environments, spaces that mirror the festival’s experiential essence." [ref=e1319]
+                        - img "Campaign for Spatial’s second edition designed by @smlxl.company - an innovative Berlin-based festival that explores immersive sound technologies and spatial sound. For 2025, the festival returned with an expanded presence, occupying five rooms of the iconic Funkhaus Berlin. The campaign’s visual language translated this evolution, with the graphics themselves conceived as immersive environments, spaces that mirror the festival’s experiential essence." [ref=e1323]
+                        - img "Campaign for Spatial’s second edition designed by @smlxl.company - an innovative Berlin-based festival that explores immersive sound technologies and spatial sound. For 2025, the festival returned with an expanded presence, occupying five rooms of the iconic Funkhaus Berlin. The campaign’s visual language translated this evolution, with the graphics themselves conceived as immersive environments, spaces that mirror the festival’s experiential essence." [ref=e1327]
+                        - img "Campaign for Spatial’s second edition designed by @smlxl.company - an innovative Berlin-based festival that explores immersive sound technologies and spatial sound. For 2025, the festival returned with an expanded presence, occupying five rooms of the iconic Funkhaus Berlin. The campaign’s visual language translated this evolution, with the graphics themselves conceived as immersive environments, spaces that mirror the festival’s experiential essence." [ref=e1331]
+                      - generic [ref=e1333]: 1/10
+                    - generic [ref=e1335]:
+                      - button "Go to slide 1 of 10" [ref=e1337]
+                      - button "Go to slide 2 of 10" [ref=e1340]
+                      - button "Go to slide 3 of 10" [ref=e1343]
+                      - button "Go to slide 4 of 10" [ref=e1346]
+                      - button "Go to slide 5 of 10" [ref=e1349]
+                      - button "Go to slide 6 of 10" [ref=e1352]
+                      - button "Go to slide 7 of 10" [ref=e1355]
+                      - button "Go to slide 8 of 10" [ref=e1358]
+                      - button "Go to slide 9 of 10" [ref=e1361]
+                      - button "Go to slide 10 of 10" [ref=e1364]
+                - generic [ref=e1367]:
+                  - generic:
+                    - link "a poster with words written in black and white, including the names of various arts and technology":
+                      - /url: /pin/492649954856500/
+                  - generic "More actions" [ref=e1374]:
+                    - button "More actions" [ref=e1375] [cursor=pointer]:
+                      - img [ref=e1378]
+          - listitem [ref=e1380]:
+            - generic [ref=e1381]:
+              - generic [ref=e1387]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1389]:
+                - generic [ref=e1391]:
+                  - link "the words liquid liquid are in white letters on a black background, and there is no image to describe" [ref=e1394] [cursor=pointer]:
+                    - /url: /pin/6825836926388591/
+                    - img "the words liquid liquid are in white letters on a black background, and there is no image to describe" [ref=e1404]
+                  - generic [ref=e1406]:
+                    - generic:
+                      - link "the words liquid liquid are in white letters on a black background, and there is no image to describe":
+                        - /url: /pin/6825836926388591/
+                    - generic "More actions" [ref=e1413]:
+                      - button "More actions" [ref=e1414] [cursor=pointer]:
+                        - img [ref=e1417]
+          - listitem [ref=e1419]:
+            - generic [ref=e1420]:
+              - generic [ref=e1426]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1428]:
+                - generic [ref=e1430]:
+                  - generic [ref=e1431]:
+                    - link "the words are written in different languages on a black background with white letters and numbers" [ref=e1433] [cursor=pointer]:
+                      - /url: /pin/569353577906739797/
+                      - 'img "This may contain: the words are written in different languages on a black background with white letters and numbers" [ref=e1449]'
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 0:16
+                  - generic [ref=e1451]:
+                    - generic:
+                      - link "the words are written in different languages on a black background with white letters and numbers":
+                        - /url: /pin/569353577906739797/
+                    - button "Squarespace" [ref=e1455] [cursor=pointer]:
+                      - generic [ref=e1457]:
+                        - button "Squarespace" [ref=e1460]:
+                          - generic "Squarespace" [ref=e1461]
+                        - generic "More actions" [ref=e1465]:
+                          - button "More actions" [ref=e1466]:
+                            - img [ref=e1469]
+          - listitem [ref=e1471]:
+            - generic [ref=e1472]:
+              - generic [ref=e1478]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1480]:
+                - generic [ref=e1482]:
+                  - generic [ref=e1483]:
+                    - link "the letters s and v are made up of colorful lines" [ref=e1485] [cursor=pointer]:
+                      - /url: /pin/7599893116560534/
+                      - 'img "This may contain: the letters s and v are made up of colorful lines" [ref=e1501]'
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 0:15
+                  - generic [ref=e1503]:
+                    - generic:
+                      - link "the letters s and v are made up of colorful lines":
+                        - /url: /pin/7599893116560534/
+                    - generic "More actions" [ref=e1510]:
+                      - button "More actions" [ref=e1511] [cursor=pointer]:
+                        - img [ref=e1514]
+          - listitem [ref=e1516]:
+            - generic [ref=e1517]:
+              - generic [ref=e1523]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1525]:
+                - generic [ref=e1527]:
+                  - generic [ref=e1528]:
+                    - link "an abstract black and white poster with the word cut out in it's center" [ref=e1530] [cursor=pointer]:
+                      - /url: /pin/1337074889693896/
+                      - 'img "This may contain: an abstract black and white poster with the word cut out in it''s center" [ref=e1546]'
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 0:09
+                  - generic [ref=e1548]:
+                    - generic:
+                      - link "an abstract black and white poster with the word cut out in it's center":
+                        - /url: /pin/1337074889693896/
+                    - generic "More actions" [ref=e1555]:
+                      - button "More actions" [ref=e1556] [cursor=pointer]:
+                        - img [ref=e1559]
+          - listitem [ref=e1561]:
+            - generic [ref=e1562]:
+              - generic [ref=e1568]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1570]:
+                - generic [ref=e1572]:
+                  - generic [ref=e1573]:
+                    - link "Ladna is a grotesque-style not too serious typeface equipped with a friendly presence through its slight quirks which it doesn’t bother hiding. The typeface interprets certain clumsiness of soviet-era enamel street signs found around Estonia, giving it a relaxed tone while not interrupting the reading experience too much. Street Sign Fonts, Craft Type, Typography Construction, Movement Fonts, Street Type, Animation Font, Vintage Symbol, Minimalist Type, Ae Text Animation" [ref=e1575] [cursor=pointer]:
+                      - /url: /pin/774124930460329/
+                      - img "Ladna is a grotesque-style not too serious typeface equipped with a friendly presence through its slight quirks which it doesn’t bother hiding. The typeface interprets certain clumsiness of soviet-era enamel street signs found around Estonia, giving it a relaxed tone while not interrupting the reading experience too much." [ref=e1591]
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 0:12
+                  - generic [ref=e1593]:
+                    - generic:
+                      - link "Ladna is a grotesque-style not too serious typeface equipped with a friendly presence through its slight quirks which it doesn’t bother hiding. The typeface interprets certain clumsiness of soviet-era enamel street signs found around Estonia, giving it a relaxed tone while not interrupting the reading experience too much. Street Sign Fonts, Craft Type, Typography Construction, Movement Fonts, Street Type, Animation Font, Vintage Symbol, Minimalist Type, Ae Text Animation":
+                        - /url: /pin/774124930460329/
+                    - generic "More actions" [ref=e1600]:
+                      - button "More actions" [ref=e1601] [cursor=pointer]:
+                        - img [ref=e1604]
+          - listitem [ref=e1606]:
+            - generic [ref=e1607]:
+              - generic [ref=e1613]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1615]:
+                - generic [ref=e1617]:
+                  - link "an image of some type of typogramic designs on a blue screen print" [ref=e1620] [cursor=pointer]:
+                    - /url: /pin/9710955443787677/
+                    - img "an image of some type of typogramic designs on a blue screen print" [ref=e1630]
+                  - generic [ref=e1632]:
+                    - generic:
+                      - link "an image of some type of typogramic designs on a blue screen print":
+                        - /url: /pin/9710955443787677/
+                    - generic "More actions" [ref=e1639]:
+                      - button "More actions" [ref=e1640] [cursor=pointer]:
+                        - img [ref=e1643]
+          - listitem [ref=e1645]:
+            - generic [ref=e1646]:
+              - generic [ref=e1652]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1654]:
+                - generic [ref=e1656]:
+                  - generic [ref=e1657]:
+                    - link "a man sitting in front of a laptop computer with the text motion array floating next to him" [ref=e1659] [cursor=pointer]:
+                      - /url: /pin/3307399722272833/
+                      - 'img "This may contain: a man sitting in front of a laptop computer with the text motion array floating next to him" [ref=e1675]'
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 0:59
+                  - generic [ref=e1677]:
+                    - generic:
+                      - link "a man sitting in front of a laptop computer with the text motion array floating next to him":
+                        - /url: /pin/3307399722272833/
+                    - generic "More actions" [ref=e1684]:
+                      - button "More actions" [ref=e1685] [cursor=pointer]:
+                        - img [ref=e1688]

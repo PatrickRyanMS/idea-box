@@ -1,0 +1,472 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - link "Skip to content":
+      - /url: "#"
+      - generic [ref=e8] [cursor=pointer]: Skip to content
+    - generic [ref=e10]:
+      - generic [ref=e13]:
+        - combobox "Search" [ref=e15]: mobile app UI dark gradient background atmospheric minimal
+        - button "Remove search input" [ref=e20] [cursor=pointer]:
+          - img [ref=e23]
+      - generic [ref=e25]:
+        - button "Log in" [ref=e27] [cursor=pointer]:
+          - generic [ref=e29]: Log in
+        - button "Sign up" [ref=e31] [cursor=pointer]:
+          - generic [ref=e33]: Sign up
+  - navigation [ref=e35]:
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - generic "Home" [ref=e42]:
+          - link "Home" [ref=e43] [cursor=pointer]:
+            - /url: /
+            - img [ref=e45]
+        - generic "Explore" [ref=e50]:
+          - link "Explore" [ref=e51] [cursor=pointer]:
+            - /url: /ideas
+            - img [ref=e53]
+        - generic "Shop" [ref=e58]:
+          - link "Shop" [ref=e59] [cursor=pointer]:
+            - /url: /shopping
+            - img [ref=e61]
+      - generic "More options" [ref=e65]:
+        - button "More options" [ref=e66] [cursor=pointer]:
+          - img [ref=e69]
+  - main [ref=e71]:
+    - generic [ref=e252]:
+      - generic [ref=e255]:
+        - heading "Search" [level=1] [ref=e257]
+        - button "Show filters" [ref=e268] [cursor=pointer]:
+          - img [ref=e272]
+      - generic [ref=e278]:
+        - generic [ref=e279]: Showing more search results for mobile app UI dark gradient background atmospheric minimal
+        - list [ref=e284]:
+          - listitem [ref=e285]:
+            - group "Pin card" [ref=e288]:
+              - generic [ref=e290]:
+                - generic [ref=e291]:
+                  - 'link "Dark-themed UI presentation slide showing two sections with bright gradient color palettes for a mobile app landing page. On the left, a light card displays accent colors like violet, blue, and lavender with hex codes (#C78BFF, #64ADFB, #2D2CFF) over a soft gradient background. On the right, a darker card titled “Space gradient” features deep blue tones and a starry background with hex. The layout uses modern typography, clean spacing, and glowing gradients to highlight color use in UI design." [ref=e293] [cursor=pointer]':
+                    - /url: /pin/774124931269814/
+                    - 'img "Dark-themed UI presentation slide showing two sections with bright gradient color palettes for a mobile app landing page. On the left, a light card displays accent colors like violet, blue, and lavender with hex codes (#C78BFF, #64ADFB, #2D2CFF) over a soft gradient background. On the right, a darker card titled “Space gradient” features deep blue tones and a starry background with hex. The layout uses modern typography, clean spacing, and glowing gradients to highlight color use in UI design." [ref=e303]'
+                  - generic [ref=e305]:
+                    - link "Visit site" [ref=e308] [cursor=pointer]:
+                      - /url: https://www.behance.net/gallery/225199147/Plansome-Landing-Web-Design-for-Task-Manager-App?utm_source=Pinterest&utm_medium=organic
+                      - img [ref=e310]
+                      - generic [ref=e312]: Visit site
+                    - button "Send" [ref=e317] [cursor=pointer]:
+                      - img [ref=e320]
+                - generic [ref=e323]:
+                  - generic:
+                    - 'link "Dark-themed UI presentation slide showing two sections with bright gradient color palettes for a mobile app landing page. On the left, a light card displays accent colors like violet, blue, and lavender with hex codes (#C78BFF, #64ADFB, #2D2CFF) over a soft gradient background. On the right, a darker card titled “Space gradient” features deep blue tones and a starry background with hex. The layout uses modern typography, clean spacing, and glowing gradients to highlight color use in UI design."':
+                      - /url: /pin/774124931269814/
+                  - generic "More actions" [ref=e330]:
+                    - button "More actions" [ref=e331] [cursor=pointer]:
+                      - img [ref=e334]
+          - listitem [ref=e336]:
+            - group "Pin card" [ref=e339]:
+              - generic [ref=e341]:
+                - link "three iphone screens with different designs and colors, one showing an image of the planets" [ref=e344] [cursor=pointer]:
+                  - /url: /pin/2674081026028049/
+                  - img "three iphone screens with different designs and colors, one showing an image of the planets" [ref=e354]
+                - generic [ref=e356]:
+                  - generic:
+                    - link "three iphone screens with different designs and colors, one showing an image of the planets":
+                      - /url: /pin/2674081026028049/
+                  - generic "More actions" [ref=e363]:
+                    - button "More actions" [ref=e364] [cursor=pointer]:
+                      - img [ref=e367]
+          - listitem [ref=e369]:
+            - group "Pin card" [ref=e372]:
+              - generic [ref=e374]:
+                - link "an image of some purple and black screensavers on a dark background with text" [ref=e377] [cursor=pointer]:
+                  - /url: /pin/22447698138680379/
+                  - img "an image of some purple and black screensavers on a dark background with text" [ref=e387]
+                - generic [ref=e389]:
+                  - generic:
+                    - link "an image of some purple and black screensavers on a dark background with text":
+                      - /url: /pin/22447698138680379/
+                  - button "Behance" [ref=e393] [cursor=pointer]:
+                    - generic [ref=e395]:
+                      - button "Behance" [ref=e398]:
+                        - generic "Behance" [ref=e399]
+                      - generic "More actions" [ref=e403]:
+                        - button "More actions" [ref=e404]:
+                          - img [ref=e407]
+          - listitem [ref=e409]:
+            - group "Pin card" [ref=e412]:
+              - generic [ref=e414]:
+                - link "an iphone screen with the finance app on it, and another screenshote that shows how to make money" [ref=e417] [cursor=pointer]:
+                  - /url: /pin/12103492744058726/
+                  - img "an iphone screen with the finance app on it, and another screenshote that shows how to make money" [ref=e427]
+                - generic [ref=e429]:
+                  - generic:
+                    - link "an iphone screen with the finance app on it, and another screenshote that shows how to make money":
+                      - /url: /pin/12103492744058726/
+                  - generic "More actions" [ref=e436]:
+                    - button "More actions" [ref=e437] [cursor=pointer]:
+                      - img [ref=e440]
+          - listitem [ref=e442]:
+            - group "Pin card" [ref=e445]:
+              - generic [ref=e447]:
+                - link "an iphone screen with the text'how did you sleep last night? '" [ref=e450] [cursor=pointer]:
+                  - /url: /pin/3237030978512460/
+                  - img "an iphone screen with the text'how did you sleep last night? '" [ref=e460]
+                - generic [ref=e462]:
+                  - generic:
+                    - link "an iphone screen with the text'how did you sleep last night? '":
+                      - /url: /pin/3237030978512460/
+                  - generic "More actions" [ref=e469]:
+                    - button "More actions" [ref=e470] [cursor=pointer]:
+                      - img [ref=e473]
+          - listitem [ref=e475]:
+            - group "Pin card" [ref=e479]:
+              - generic [ref=e481]:
+                - link "two iphones with the app displayed on them" [ref=e484] [cursor=pointer]:
+                  - /url: /pin/136585801194615840/
+                  - generic [ref=e486]:
+                    - generic [ref=e491]:
+                      - 'img "Aura - AI Assistant Mobile App 📝 Designed by: @afterglowstudio_ 👉 Follow @uiuxbunker for more UI inspiration⁠ and Daily Tips⁠⠀⠀⠀⠀⠀⠀ Use #uiuxbunker and tag us to be featured 😉 ⠀ ⠀ #ui #ux #appdesign #interfacedesign #userinterface #interface #dailyui #dribbble #ui_design_inspiration #uidesign #mobileapps #graphicdesignui #mobileapp #ux_trends #applicationdesign #appdesigninspiration #uidesigning #appdesign #uiux #uiconcept #mobileappdesign #subscriptionapps #uiinspirations #digitalproductd..." [ref=e495]'
+                      - 'img "Aura - AI Assistant Mobile App 📝 Designed by: @afterglowstudio_ 👉 Follow @uiuxbunker for more UI inspiration⁠ and Daily Tips⁠⠀⠀⠀⠀⠀⠀ Use #uiuxbunker and tag us to be featured 😉 ⠀ ⠀ #ui #ux #appdesign #interfacedesign #userinterface #interface #dailyui #dribbble #ui_design_inspiration #uidesign #mobileapps #graphicdesignui #mobileapp #ux_trends #applicationdesign #appdesigninspiration #uidesigning #appdesign #uiux #uiconcept #mobileappdesign #subscriptionapps #uiinspirations #digitalproductd..." [ref=e499]'
+                      - 'img "Aura - AI Assistant Mobile App 📝 Designed by: @afterglowstudio_ 👉 Follow @uiuxbunker for more UI inspiration⁠ and Daily Tips⁠⠀⠀⠀⠀⠀⠀ Use #uiuxbunker and tag us to be featured 😉 ⠀ ⠀ #ui #ux #appdesign #interfacedesign #userinterface #interface #dailyui #dribbble #ui_design_inspiration #uidesign #mobileapps #graphicdesignui #mobileapp #ux_trends #applicationdesign #appdesigninspiration #uidesigning #appdesign #uiux #uiconcept #mobileappdesign #subscriptionapps #uiinspirations #digitalproductd..." [ref=e503]'
+                      - 'img "Aura - AI Assistant Mobile App 📝 Designed by: @afterglowstudio_ 👉 Follow @uiuxbunker for more UI inspiration⁠ and Daily Tips⁠⠀⠀⠀⠀⠀⠀ Use #uiuxbunker and tag us to be featured 😉 ⠀ ⠀ #ui #ux #appdesign #interfacedesign #userinterface #interface #dailyui #dribbble #ui_design_inspiration #uidesign #mobileapps #graphicdesignui #mobileapp #ux_trends #applicationdesign #appdesigninspiration #uidesigning #appdesign #uiux #uiconcept #mobileappdesign #subscriptionapps #uiinspirations #digitalproductd..." [ref=e507]'
+                      - 'img "Aura - AI Assistant Mobile App 📝 Designed by: @afterglowstudio_ 👉 Follow @uiuxbunker for more UI inspiration⁠ and Daily Tips⁠⠀⠀⠀⠀⠀⠀ Use #uiuxbunker and tag us to be featured 😉 ⠀ ⠀ #ui #ux #appdesign #interfacedesign #userinterface #interface #dailyui #dribbble #ui_design_inspiration #uidesign #mobileapps #graphicdesignui #mobileapp #ux_trends #applicationdesign #appdesigninspiration #uidesigning #appdesign #uiux #uiconcept #mobileappdesign #subscriptionapps #uiinspirations #digitalproductd..." [ref=e511]'
+                      - 'img "Aura - AI Assistant Mobile App 📝 Designed by: @afterglowstudio_ 👉 Follow @uiuxbunker for more UI inspiration⁠ and Daily Tips⁠⠀⠀⠀⠀⠀⠀ Use #uiuxbunker and tag us to be featured 😉 ⠀ ⠀ #ui #ux #appdesign #interfacedesign #userinterface #interface #dailyui #dribbble #ui_design_inspiration #uidesign #mobileapps #graphicdesignui #mobileapp #ux_trends #applicationdesign #appdesigninspiration #uidesigning #appdesign #uiux #uiconcept #mobileappdesign #subscriptionapps #uiinspirations #digitalproductd..." [ref=e515]'
+                      - 'img "Aura - AI Assistant Mobile App 📝 Designed by: @afterglowstudio_ 👉 Follow @uiuxbunker for more UI inspiration⁠ and Daily Tips⁠⠀⠀⠀⠀⠀⠀ Use #uiuxbunker and tag us to be featured 😉 ⠀ ⠀ #ui #ux #appdesign #interfacedesign #userinterface #interface #dailyui #dribbble #ui_design_inspiration #uidesign #mobileapps #graphicdesignui #mobileapp #ux_trends #applicationdesign #appdesigninspiration #uidesigning #appdesign #uiux #uiconcept #mobileappdesign #subscriptionapps #uiinspirations #digitalproductd..." [ref=e519]'
+                    - generic [ref=e521]:
+                      - button "Go to slide 1 of 7" [ref=e523]
+                      - button "Go to slide 2 of 7" [ref=e526]
+                      - button "Go to slide 3 of 7" [ref=e529]
+                      - button "Go to slide 4 of 7" [ref=e532]
+                      - button "Go to slide 5 of 7" [ref=e535]
+                      - button "Go to slide 6 of 7" [ref=e538]
+                      - button "Go to slide 7 of 7" [ref=e541]
+                - generic [ref=e544]:
+                  - generic:
+                    - link "two iphones with the app displayed on them":
+                      - /url: /pin/136585801194615840/
+                  - generic "More actions" [ref=e551]:
+                    - button "More actions" [ref=e552] [cursor=pointer]:
+                      - img [ref=e555]
+          - listitem [ref=e557]:
+            - generic [ref=e558]:
+              - generic [ref=e564]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e566]:
+                - generic [ref=e568]:
+                  - link "an image of a purple and blue background with the text 18 know everything about the weather" [ref=e571] [cursor=pointer]:
+                    - /url: /pin/19210735905562188/
+                    - img "an image of a purple and blue background with the text 18 know everything about the weather" [ref=e581]
+                  - generic [ref=e583]:
+                    - generic:
+                      - link "an image of a purple and blue background with the text 18 know everything about the weather":
+                        - /url: /pin/19210735905562188/
+                    - generic "More actions" [ref=e590]:
+                      - button "More actions" [ref=e591] [cursor=pointer]:
+                        - img [ref=e594]
+          - listitem [ref=e596]:
+            - group "Pin card" [ref=e599]:
+              - generic [ref=e601]:
+                - link "a blurry image of purple and black colors" [ref=e604] [cursor=pointer]:
+                  - /url: /pin/32088216099196952/
+                  - img "a blurry image of purple and black colors" [ref=e614]
+                - generic [ref=e616]:
+                  - generic:
+                    - link "a blurry image of purple and black colors":
+                      - /url: /pin/32088216099196952/
+                  - generic "More actions" [ref=e623]:
+                    - button "More actions" [ref=e624] [cursor=pointer]:
+                      - img [ref=e627]
+          - listitem [ref=e629]:
+            - group "Pin card" [ref=e632]:
+              - generic [ref=e634]:
+                - link "Sleep Tracker Ui, Alarm App Ui Design, Timer Ux, Dark Glass Ui, Dark Ui, Progress Tracker, Best Planner App, Dark Ui Design, Dark Theme Ui" [ref=e637] [cursor=pointer]:
+                  - /url: /pin/2674081025809764/
+                  - img "Sleep Tracker Ui, Alarm App Ui Design, Timer Ux, Dark Glass Ui, Dark Ui, Progress Tracker, Best Planner App, Dark Ui Design, Dark Theme Ui" [ref=e647]
+                - generic [ref=e649]:
+                  - generic:
+                    - link "Sleep Tracker Ui, Alarm App Ui Design, Timer Ux, Dark Glass Ui, Dark Ui, Progress Tracker, Best Planner App, Dark Ui Design, Dark Theme Ui":
+                      - /url: /pin/2674081025809764/
+                  - generic "More actions" [ref=e656]:
+                    - button "More actions" [ref=e657] [cursor=pointer]:
+                      - img [ref=e660]
+          - listitem [ref=e662]:
+            - group "Pin card" [ref=e665]:
+              - generic [ref=e667]:
+                - link "an orange and black background with the word contact on it's left side, and two" [ref=e670] [cursor=pointer]:
+                  - /url: /pin/51861833204504959/
+                  - img "an orange and black background with the word contact on it's left side, and two" [ref=e680]
+                - generic [ref=e682]:
+                  - generic:
+                    - link "an orange and black background with the word contact on it's left side, and two":
+                      - /url: /pin/51861833204504959/
+                  - generic "More actions" [ref=e689]:
+                    - button "More actions" [ref=e690] [cursor=pointer]:
+                      - img [ref=e693]
+          - listitem [ref=e695]:
+            - group "Pin card" [ref=e698]:
+              - generic [ref=e700]:
+                - link "two iphones side by side with the same screenshote and texting options" [ref=e703] [cursor=pointer]:
+                  - /url: /pin/27232772741678914/
+                  - img "two iphones side by side with the same screenshote and texting options" [ref=e713]
+                - generic [ref=e715]:
+                  - generic:
+                    - link "two iphones side by side with the same screenshote and texting options":
+                      - /url: /pin/27232772741678914/
+                  - generic "More actions" [ref=e722]:
+                    - button "More actions" [ref=e723] [cursor=pointer]:
+                      - img [ref=e726]
+          - listitem [ref=e728]:
+            - generic [ref=e729]:
+              - generic [ref=e735]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e737]:
+                - generic [ref=e739]:
+                  - 'link "Take control of your money, shape your future. With Zentra Finance App, managing savings, tracking spending, and building wealth has never been this smooth. Sleek design. Smart features. Total confidence. Would you try this app? Comment below! Follow @uix.vikram for more designs like this ✨. Contact ~ Email ✉️: vikramtech69@gmail.com Instagram: @uix.vikram WhatsApp: +91 8547937420 One quality post per day . . . . #FinanceApp #UIDesign #UXDesign #AppDesign #MinimalDesign #Mobil... Modern Login Page, Home App Design, Pinterest App Design, Features Design, Application Ui, Light Signs, App Layout Ideas, App Ux Design Inspiration, Gradient App Background" [ref=e742] [cursor=pointer]':
+                    - /url: /pin/211174979200588/
+                    - 'img "Take control of your money, shape your future. With Zentra Finance App, managing savings, tracking spending, and building wealth has never been this smooth. Sleek design. Smart features. Total confidence. Would you try this app? Comment below! Follow @uix.vikram for more designs like this ✨. Contact ~ Email ✉️: vikramtech69@gmail.com Instagram: @uix.vikram WhatsApp: +91 8547937420 One quality post per day . . . . #FinanceApp #UIDesign #UXDesign #AppDesign #MinimalDesign #Mobil... Modern Login Page, Home App Design, Pinterest App Design, Features Design, Application Ui, Light Signs, App Layout Ideas, App Ux Design Inspiration, Gradient App Background" [ref=e752]'
+                  - generic [ref=e754]:
+                    - generic:
+                      - 'link "Take control of your money, shape your future. With Zentra Finance App, managing savings, tracking spending, and building wealth has never been this smooth. Sleek design. Smart features. Total confidence. Would you try this app? Comment below! Follow @uix.vikram for more designs like this ✨. Contact ~ Email ✉️: vikramtech69@gmail.com Instagram: @uix.vikram WhatsApp: +91 8547937420 One quality post per day . . . . #FinanceApp #UIDesign #UXDesign #AppDesign #MinimalDesign #Mobil... Modern Login Page, Home App Design, Pinterest App Design, Features Design, Application Ui, Light Signs, App Layout Ideas, App Ux Design Inspiration, Gradient App Background"':
+                        - /url: /pin/211174979200588/
+                    - generic "More actions" [ref=e761]:
+                      - button "More actions" [ref=e762] [cursor=pointer]:
+                        - img [ref=e765]
+          - listitem [ref=e767]:
+            - group "Pin card" [ref=e770]:
+              - generic [ref=e772]:
+                - link "an image of a green screen with the text, change here and everywhere" [ref=e775] [cursor=pointer]:
+                  - /url: /pin/9992430418261971/
+                  - img "an image of a green screen with the text, change here and everywhere" [ref=e785]
+                - generic [ref=e787]:
+                  - generic:
+                    - link "an image of a green screen with the text, change here and everywhere":
+                      - /url: /pin/9992430418261971/
+                  - generic "More actions" [ref=e794]:
+                    - button "More actions" [ref=e795] [cursor=pointer]:
+                      - img [ref=e798]
+          - listitem [ref=e800]:
+            - group "Pin card" [ref=e804]:
+              - generic [ref=e806]:
+                - link "Дизайн мобильного приложения" [ref=e809] [cursor=pointer]:
+                  - /url: /pin/297589487901382825/
+                  - generic [ref=e811]:
+                    - generic [ref=e816]:
+                      - img "Mobile app design" [ref=e820]
+                      - img "Mobile app design" [ref=e824]
+                    - generic [ref=e826]:
+                      - button "Mobile app design" [ref=e828]
+                      - button "Mobile app design" [ref=e831]
+                - generic [ref=e834]:
+                  - generic:
+                    - link "Дизайн мобильного приложения":
+                      - /url: /pin/297589487901382825/
+                  - generic "More actions" [ref=e841]:
+                    - button "More actions" [ref=e842] [cursor=pointer]:
+                      - img [ref=e845]
+          - listitem [ref=e847]:
+            - group "Pin card" [ref=e850]:
+              - generic [ref=e852]:
+                - link "a black and purple background that is very blurry" [ref=e855] [cursor=pointer]:
+                  - /url: /pin/482025966389051144/
+                  - img "a black and purple background that is very blurry" [ref=e865]
+                - generic [ref=e867]:
+                  - generic:
+                    - link "a black and purple background that is very blurry":
+                      - /url: /pin/482025966389051144/
+                  - generic "More actions" [ref=e874]:
+                    - button "More actions" [ref=e875] [cursor=pointer]:
+                      - img [ref=e878]
+          - listitem [ref=e880]:
+            - group "Pin card" [ref=e883]:
+              - generic [ref=e885]:
+                - link "an abstract background consisting of blue and purple circles on a black background with no one in the photo" [ref=e888] [cursor=pointer]:
+                  - /url: /pin/703756187769883/
+                  - img "an abstract background consisting of blue and purple circles on a black background with no one in the photo" [ref=e898]
+                - generic [ref=e900]:
+                  - generic:
+                    - link "an abstract background consisting of blue and purple circles on a black background with no one in the photo":
+                      - /url: /pin/703756187769883/
+                  - generic "More actions" [ref=e907]:
+                    - button "More actions" [ref=e908] [cursor=pointer]:
+                      - img [ref=e911]
+          - listitem [ref=e913]:
+            - generic [ref=e914]:
+              - generic [ref=e920]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e922]:
+                - generic [ref=e924]:
+                  - link "three screens showing different settings for the app, including an image of a person walking" [ref=e927] [cursor=pointer]:
+                    - /url: /pin/294352525669677232/
+                    - img "three screens showing different settings for the app, including an image of a person walking" [ref=e937]
+                  - generic [ref=e939]:
+                    - generic:
+                      - link "three screens showing different settings for the app, including an image of a person walking":
+                        - /url: /pin/294352525669677232/
+                    - generic "More actions" [ref=e946]:
+                      - button "More actions" [ref=e947] [cursor=pointer]:
+                        - img [ref=e950]
+          - listitem [ref=e952]:
+            - group "Pin card" [ref=e955]:
+              - generic [ref=e957]:
+                - link "three smartphones with purple screens showing different things in the screen, and one on the phone" [ref=e960] [cursor=pointer]:
+                  - /url: /pin/40110252928257233/
+                  - img "three smartphones with purple screens showing different things in the screen, and one on the phone" [ref=e970]
+                - generic [ref=e972]:
+                  - generic:
+                    - link "three smartphones with purple screens showing different things in the screen, and one on the phone":
+                      - /url: /pin/40110252928257233/
+                  - generic "More actions" [ref=e979]:
+                    - button "More actions" [ref=e980] [cursor=pointer]:
+                      - img [ref=e983]
+          - listitem [ref=e985]:
+            - group "Pin card" [ref=e988]:
+              - generic [ref=e990]:
+                - link "landing page marketing" [ref=e993] [cursor=pointer]:
+                  - /url: /pin/3096293491671279/
+                  - img "landing page marketing" [ref=e1003]
+                - generic [ref=e1005]:
+                  - generic:
+                    - link "landing page marketing":
+                      - /url: /pin/3096293491671279/
+                  - generic "More actions" [ref=e1012]:
+                    - button "More actions" [ref=e1013] [cursor=pointer]:
+                      - img [ref=e1016]
+          - listitem [ref=e1018]:
+            - group "Pin card" [ref=e1021]:
+              - generic [ref=e1023]:
+                - link "a black and white photo of a bird in flight" [ref=e1026] [cursor=pointer]:
+                  - /url: /pin/71213237852678311/
+                  - img "a black and white photo of a bird in flight" [ref=e1036]
+                - generic [ref=e1038]:
+                  - generic:
+                    - link "a black and white photo of a bird in flight":
+                      - /url: /pin/71213237852678311/
+                  - generic "More actions" [ref=e1045]:
+                    - button "More actions" [ref=e1046] [cursor=pointer]:
+                      - img [ref=e1049]
+          - listitem [ref=e1051]:
+            - group "Pin card" [ref=e1054]:
+              - generic [ref=e1056]:
+                - link "a blue circle on a black background" [ref=e1059] [cursor=pointer]:
+                  - /url: /pin/6473993211455642/
+                  - img "a blue circle on a black background" [ref=e1069]
+                - generic [ref=e1071]:
+                  - generic:
+                    - link "a blue circle on a black background":
+                      - /url: /pin/6473993211455642/
+                  - generic "More actions" [ref=e1078]:
+                    - button "More actions" [ref=e1079] [cursor=pointer]:
+                      - img [ref=e1082]
+          - listitem [ref=e1084]:
+            - generic [ref=e1085]:
+              - generic [ref=e1091]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1093]:
+                - generic [ref=e1095]:
+                  - link "an airplane is flying in the sky with green lights on it's wings and tail" [ref=e1098] [cursor=pointer]:
+                    - /url: /pin/6896205672993451/
+                    - img "an airplane is flying in the sky with green lights on it's wings and tail" [ref=e1108]
+                  - generic [ref=e1110]:
+                    - generic:
+                      - link "an airplane is flying in the sky with green lights on it's wings and tail":
+                        - /url: /pin/6896205672993451/
+                    - generic "More actions" [ref=e1117]:
+                      - button "More actions" [ref=e1118] [cursor=pointer]:
+                        - img [ref=e1121]
+          - listitem [ref=e1123]:
+            - group "Pin card" [ref=e1126]:
+              - generic [ref=e1128]:
+                - link "a blurry image of purple and black colors" [ref=e1131] [cursor=pointer]:
+                  - /url: /pin/1970393584321933/
+                  - img "a blurry image of purple and black colors" [ref=e1141]
+                - generic [ref=e1143]:
+                  - generic:
+                    - link "a blurry image of purple and black colors":
+                      - /url: /pin/1970393584321933/
+                  - generic "More actions" [ref=e1150]:
+                    - button "More actions" [ref=e1151] [cursor=pointer]:
+                      - img [ref=e1154]
+          - listitem [ref=e1156]:
+            - group "Pin card" [ref=e1159]:
+              - generic [ref=e1161]:
+                - link "a blurry image of an orange and pink color in the dark background is shown" [ref=e1164] [cursor=pointer]:
+                  - /url: /pin/19351473395003497/
+                  - img "a blurry image of an orange and pink color in the dark background is shown" [ref=e1174]
+                - generic [ref=e1176]:
+                  - generic:
+                    - link "a blurry image of an orange and pink color in the dark background is shown":
+                      - /url: /pin/19351473395003497/
+                  - generic "More actions" [ref=e1183]:
+                    - button "More actions" [ref=e1184] [cursor=pointer]:
+                      - img [ref=e1187]
+          - listitem [ref=e1189]:
+            - generic [ref=e1190]:
+              - generic [ref=e1196]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1198]:
+                - generic [ref=e1200]:
+                  - link "a black and blue blurry background that is very dark" [ref=e1203] [cursor=pointer]:
+                    - /url: /pin/9077636744400723/
+                    - img "a black and blue blurry background that is very dark" [ref=e1213]
+                  - generic [ref=e1215]:
+                    - generic:
+                      - link "a black and blue blurry background that is very dark":
+                        - /url: /pin/9077636744400723/
+                    - generic "More actions" [ref=e1222]:
+                      - button "More actions" [ref=e1223] [cursor=pointer]:
+                        - img [ref=e1226]
+          - listitem [ref=e1228]:
+            - generic [ref=e1229]:
+              - generic [ref=e1235]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1237]:
+                - generic [ref=e1239]:
+                  - link "Instagram Sign Up Screens Ui Design, Home Screen App Layout, Settings Ui Mobile, Dark Theme App, Label Ui Design, Home Screen Ui Design, Productivity App Ui, Apple Vision Pro Ui, Modern App Ui" [ref=e1242] [cursor=pointer]:
+                    - /url: /pin/4222193396068946/
+                    - img "Instagram Sign Up Screens Ui Design, Home Screen App Layout, Settings Ui Mobile, Dark Theme App, Label Ui Design, Home Screen Ui Design, Productivity App Ui, Apple Vision Pro Ui, Modern App Ui" [ref=e1252]
+                  - generic [ref=e1254]:
+                    - generic:
+                      - link "Instagram Sign Up Screens Ui Design, Home Screen App Layout, Settings Ui Mobile, Dark Theme App, Label Ui Design, Home Screen Ui Design, Productivity App Ui, Apple Vision Pro Ui, Modern App Ui":
+                        - /url: /pin/4222193396068946/
+                    - generic "More actions" [ref=e1261]:
+                      - button "More actions" [ref=e1262] [cursor=pointer]:
+                        - img [ref=e1265]
+          - listitem [ref=e1267]:
+            - generic [ref=e1268]:
+              - generic [ref=e1274]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1276]:
+                - generic [ref=e1278]:
+                  - link "an abstract blurry background in purple and blue" [ref=e1281] [cursor=pointer]:
+                    - /url: /pin/62417144830036285/
+                    - img "an abstract blurry background in purple and blue" [ref=e1291]
+                  - generic [ref=e1293]:
+                    - generic:
+                      - link "an abstract blurry background in purple and blue":
+                        - /url: /pin/62417144830036285/
+                    - generic "More actions" [ref=e1300]:
+                      - button "More actions" [ref=e1301] [cursor=pointer]:
+                        - img [ref=e1304]
+          - listitem [ref=e1306]:
+            - generic [ref=e1307]:
+              - generic [ref=e1313]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1315]:
+                - generic [ref=e1317]:
+                  - link "an abstract black and white background" [ref=e1320] [cursor=pointer]:
+                    - /url: /pin/11892386513973928/
+                    - img "an abstract black and white background" [ref=e1330]
+                  - generic [ref=e1332]:
+                    - generic:
+                      - link "an abstract black and white background":
+                        - /url: /pin/11892386513973928/
+                    - generic "More actions" [ref=e1339]:
+                      - button "More actions" [ref=e1340] [cursor=pointer]:
+                        - img [ref=e1343]

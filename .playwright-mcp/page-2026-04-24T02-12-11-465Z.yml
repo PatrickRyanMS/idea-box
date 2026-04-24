@@ -1,0 +1,402 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - link "Skip to content":
+      - /url: "#"
+      - generic [ref=e9] [cursor=pointer]: Skip to content
+    - generic [ref=e11]:
+      - generic [ref=e14]:
+        - combobox "Search" [ref=e16]: iridescent holographic gradient abstract art
+        - button "Remove search input" [ref=e21] [cursor=pointer]:
+          - img [ref=e24]
+      - generic [ref=e26]:
+        - button "Log in" [ref=e28] [cursor=pointer]:
+          - generic [ref=e30]: Log in
+        - button "Sign up" [ref=e32] [cursor=pointer]:
+          - generic [ref=e34]: Sign up
+  - navigation [ref=e36]:
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - generic "Home" [ref=e43]:
+          - link "Home" [ref=e44] [cursor=pointer]:
+            - /url: /
+            - img [ref=e46]
+        - generic "Explore" [ref=e51]:
+          - link "Explore" [ref=e52] [cursor=pointer]:
+            - /url: /ideas
+            - img [ref=e54]
+        - generic "Shop" [ref=e59]:
+          - link "Shop" [ref=e60] [cursor=pointer]:
+            - /url: /shopping
+            - img [ref=e62]
+      - generic "More options" [ref=e66]:
+        - button "More options" [ref=e67] [cursor=pointer]:
+          - img [ref=e70]
+  - main [ref=e72]:
+    - generic [ref=e74]:
+      - generic [ref=e77]:
+        - heading "Search" [level=1] [ref=e79]
+        - button "Show filters" [ref=e90] [cursor=pointer]:
+          - img [ref=e94]
+      - generic [ref=e100]:
+        - generic [ref=e101]: Showing more search results for iridescent holographic gradient abstract art
+        - list [ref=e106]:
+          - listitem [ref=e107]:
+            - generic [ref=e111]:
+              - link "Shop iridescent holographic gradient abstract art" [ref=e119] [cursor=pointer]:
+                - /url: /search/pins/?rs=product_carousel&tab=shop&q=iridescent%20holographic%20gradient%20abstract%20art&source_id=1gke0D28&commerce_only=True&request_params=%7B%2237%22%3A%20%22Shop%20iridescent%20holographic%20gradient%20abstract%20art%22%2C%20%221%22%3A%20%2294%22%2C%20%2236%22%3A%20%22iridescent%20holographic%20gradient%20abstract%20art%22%2C%20%2230%22%3A%20%22Shop%20iridescent%20holographic%20gradient%20abstract%20art%22%2C%20%222%22%3A%20%22Shop%20iridescent%20holographic%20gradient%20abstract%20art%22%2C%20%2233%22%3A%20%5B%22480829697739212632%22%2C%20%224611123155653480832%22%2C%20%2216888567445862505%22%2C%20%22467741111322212826%22%2C%20%22935833997580815486%22%5D%2C%20%2234%22%3A%20%220%22%2C%20%227%22%3A%20%221gke0D28%22%2C%20%228%22%3A%20%22iridescent%20holographic%20gradient%20abstract%20art%22%7D&pins_display=2
+                - heading "Shop iridescent holographic gradient abstract art" [level=2] [ref=e120]
+              - generic [ref=e126]:
+                - group "Slide 1 of 3" [ref=e127]:
+                  - group "Pin card" [ref=e131]:
+                    - generic [ref=e133]:
+                      - link "an abstract background with blue, pink and green waves in the center on top of each other" [ref=e136] [cursor=pointer]:
+                        - /url: /pin/480829697739212632/
+                        - img "an abstract background with blue, pink and green waves in the center on top of each other" [ref=e147]
+                      - link "Holographic Rainbow Foil Background by Vector Tradition | Creative Market" [ref=e152] [cursor=pointer]:
+                        - /url: /pin/480829697739212632/
+                        - 'button "Current price: $8.00" [ref=e153]':
+                          - generic [ref=e154]:
+                            - generic [ref=e155]: "Current price:"
+                            - generic [ref=e156]: $8.00
+                        - generic [ref=e158]:
+                          - button "Holographic Rainbow Foil Background by Vector Tradition | Creative Market" [ref=e160]:
+                            - generic "Holographic Rainbow Foil Background by Vector Tradition | Creative Market" [ref=e161]
+                          - generic "More actions" [ref=e164]:
+                            - button "More actions" [ref=e165]:
+                              - img [ref=e168]
+                        - generic:
+                          - button "Creative Market"
+                - group "Slide 2 of 3" [ref=e170]:
+                  - group "Pin card" [ref=e174]:
+                    - generic [ref=e176]:
+                      - link "an abstract painting with pastel colors on white paper in the shape of a circle" [ref=e179] [cursor=pointer]:
+                        - /url: /pin/4611123155653480832/
+                        - img "an abstract painting with pastel colors on white paper in the shape of a circle" [ref=e190]
+                      - link "Holographic Dream, Style A|Canvas Print Poster Wall Art | By Treechild" [ref=e195] [cursor=pointer]:
+                        - /url: /pin/4611123155653480832/
+                        - 'button "Current price: $179.99" [ref=e196]':
+                          - generic [ref=e197]:
+                            - generic [ref=e198]: "Current price:"
+                            - generic [ref=e199]: $179.99
+                        - generic [ref=e201]:
+                          - button "Holographic Dream, Style A|Canvas Print Poster Wall Art | By Treechild" [ref=e203]:
+                            - generic "Holographic Dream, Style A|Canvas Print Poster Wall Art | By Treechild" [ref=e204]
+                          - generic "More actions" [ref=e207]:
+                            - button "More actions" [ref=e208]:
+                              - img [ref=e211]
+                        - generic:
+                          - button "Gioia Wall Art"
+                - group "Slide 3 of 3" [ref=e213]:
+                  - group "Pin card" [ref=e217]:
+                    - generic [ref=e219]:
+                      - link "a wedding card with the word sweet sixteen on it, next to a vase filled with flowers" [ref=e222] [cursor=pointer]:
+                        - /url: /pin/16888567445862505/
+                        - img "a wedding card with the word sweet sixteen on it, next to a vase filled with flowers" [ref=e233]
+                      - link "Modern Holographic Gradient Swirl Design Invitation" [ref=e238] [cursor=pointer]:
+                        - /url: /pin/16888567445862505/
+                        - 'button "Current price: $1.90" [ref=e239]':
+                          - generic [ref=e240]:
+                            - generic [ref=e241]: "Current price:"
+                            - generic [ref=e242]: $1.90
+                        - generic [ref=e244]:
+                          - button "Modern Holographic Gradient Swirl Design Invitation" [ref=e246]:
+                            - generic "Modern Holographic Gradient Swirl Design Invitation" [ref=e247]
+                          - generic "More actions" [ref=e250]:
+                            - button "More actions" [ref=e251]:
+                              - img [ref=e254]
+                        - generic:
+                          - button "Zazzle"
+          - listitem [ref=e256]:
+            - heading "More ideas" [level=2] [ref=e265]
+          - listitem [ref=e266]:
+            - group "Pin card" [ref=e269]:
+              - generic [ref=e271]:
+                - link "an abstract background with blue, yellow and pink colors in the form of liquid waves" [ref=e274] [cursor=pointer]:
+                  - /url: /pin/1119848263586059539/
+                  - img "an abstract background with blue, yellow and pink colors in the form of liquid waves" [ref=e284]
+                - generic [ref=e286]:
+                  - generic:
+                    - link "an abstract background with blue, yellow and pink colors in the form of liquid waves":
+                      - /url: /pin/1119848263586059539/
+                  - generic "More actions" [ref=e293]:
+                    - button "More actions" [ref=e294] [cursor=pointer]:
+                      - img [ref=e297]
+          - listitem [ref=e299]:
+            - group "Pin card" [ref=e302]:
+              - generic [ref=e304]:
+                - link "an abstract blurry photo with pastel colors on a gray background is shown in the form of a rectangle" [ref=e307] [cursor=pointer]:
+                  - /url: /pin/872924340278569842/
+                  - img "an abstract blurry photo with pastel colors on a gray background is shown in the form of a rectangle" [ref=e317]
+                - generic [ref=e319]:
+                  - generic:
+                    - link "an abstract blurry photo with pastel colors on a gray background is shown in the form of a rectangle":
+                      - /url: /pin/872924340278569842/
+                  - generic "More actions" [ref=e326]:
+                    - button "More actions" [ref=e327] [cursor=pointer]:
+                      - img [ref=e330]
+          - listitem [ref=e332]:
+            - group "Pin card" [ref=e335]:
+              - generic [ref=e337]:
+                - link "an abstract, multicolored background with wavy lines in pastel blue and pink" [ref=e340] [cursor=pointer]:
+                  - /url: /pin/1131670212640444984/
+                  - img "an abstract, multicolored background with wavy lines in pastel blue and pink" [ref=e350]
+                - generic [ref=e352]:
+                  - generic:
+                    - link "an abstract, multicolored background with wavy lines in pastel blue and pink":
+                      - /url: /pin/1131670212640444984/
+                  - generic "More actions" [ref=e359]:
+                    - button "More actions" [ref=e360] [cursor=pointer]:
+                      - img [ref=e363]
+          - listitem [ref=e365]:
+            - group "Pin card" [ref=e368]:
+              - generic [ref=e370]:
+                - link "an abstract image of purple and blue liquid or water with some light reflections on it" [ref=e373] [cursor=pointer]:
+                  - /url: /pin/1119848263587713358/
+                  - img "an abstract image of purple and blue liquid or water with some light reflections on it" [ref=e383]
+                - generic [ref=e385]:
+                  - generic:
+                    - link "an abstract image of purple and blue liquid or water with some light reflections on it":
+                      - /url: /pin/1119848263587713358/
+                  - generic "More actions" [ref=e392]:
+                    - button "More actions" [ref=e393] [cursor=pointer]:
+                      - img [ref=e396]
+          - listitem [ref=e398]:
+            - generic [ref=e399]:
+              - generic [ref=e405]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e407]:
+                - generic [ref=e409]:
+                  - link "an abstract painting with different colors and shapes in the form of swirls on a black background" [ref=e412] [cursor=pointer]:
+                    - /url: /pin/1970393584334297/
+                    - img "an abstract painting with different colors and shapes in the form of swirls on a black background" [ref=e422]
+                  - generic [ref=e424]:
+                    - generic:
+                      - link "an abstract painting with different colors and shapes in the form of swirls on a black background":
+                        - /url: /pin/1970393584334297/
+                    - generic "More actions" [ref=e431]:
+                      - button "More actions" [ref=e432] [cursor=pointer]:
+                        - img [ref=e435]
+          - listitem [ref=e437]:
+            - group "Pin card" [ref=e440]:
+              - generic [ref=e442]:
+                - link "an abstract painting with different colors and shapes" [ref=e445] [cursor=pointer]:
+                  - /url: /pin/1059753356087362018/
+                  - img "an abstract painting with different colors and shapes" [ref=e455]
+                - generic [ref=e457]:
+                  - generic:
+                    - link "an abstract painting with different colors and shapes":
+                      - /url: /pin/1059753356087362018/
+                  - generic "More actions" [ref=e464]:
+                    - button "More actions" [ref=e465] [cursor=pointer]:
+                      - img [ref=e468]
+          - listitem [ref=e470]:
+            - group "Pin card" [ref=e473]:
+              - generic [ref=e475]:
+                - link "an abstract background with blue, pink and green colors in the form of wavy lines" [ref=e478] [cursor=pointer]:
+                  - /url: /pin/790663278354928757/
+                  - img "an abstract background with blue, pink and green colors in the form of wavy lines" [ref=e488]
+                - generic [ref=e490]:
+                  - generic:
+                    - link "an abstract background with blue, pink and green colors in the form of wavy lines":
+                      - /url: /pin/790663278354928757/
+                  - generic "More actions" [ref=e497]:
+                    - button "More actions" [ref=e498] [cursor=pointer]:
+                      - img [ref=e501]
+          - listitem [ref=e503]:
+            - group "Pin card" [ref=e506]:
+              - generic [ref=e508]:
+                - link "an abstract background with multicolored lines and swirls in blue, green, pink, purple, and yellow" [ref=e511] [cursor=pointer]:
+                  - /url: /pin/276478864613033740/
+                  - img "an abstract background with multicolored lines and swirls in blue, green, pink, purple, and yellow" [ref=e521]
+                - generic [ref=e523]:
+                  - generic:
+                    - link "an abstract background with multicolored lines and swirls in blue, green, pink, purple, and yellow":
+                      - /url: /pin/276478864613033740/
+                  - generic "More actions" [ref=e530]:
+                    - button "More actions" [ref=e531] [cursor=pointer]:
+                      - img [ref=e534]
+          - listitem [ref=e536]:
+            - group "Pin card" [ref=e539]:
+              - generic [ref=e541]:
+                - link "an abstract image of blue and purple colors with wavy lines in the center, as well as" [ref=e544] [cursor=pointer]:
+                  - /url: /pin/956100195906607877/
+                  - img "an abstract image of blue and purple colors with wavy lines in the center, as well as" [ref=e554]
+                - generic [ref=e556]:
+                  - generic:
+                    - link "an abstract image of blue and purple colors with wavy lines in the center, as well as":
+                      - /url: /pin/956100195906607877/
+                  - generic "More actions" [ref=e563]:
+                    - button "More actions" [ref=e564] [cursor=pointer]:
+                      - img [ref=e567]
+          - listitem [ref=e569]:
+            - generic [ref=e570]:
+              - generic [ref=e576]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e578]:
+                - generic [ref=e580]:
+                  - link "an abstract painting with blue, pink and white swirls on the bottom right corner" [ref=e583] [cursor=pointer]:
+                    - /url: /pin/904097693940231248/
+                    - img "an abstract painting with blue, pink and white swirls on the bottom right corner" [ref=e593]
+                  - generic [ref=e595]:
+                    - generic:
+                      - link "an abstract painting with blue, pink and white swirls on the bottom right corner":
+                        - /url: /pin/904097693940231248/
+                    - generic "More actions" [ref=e602]:
+                      - button "More actions" [ref=e603] [cursor=pointer]:
+                        - img [ref=e606]
+          - listitem [ref=e608]:
+            - group "Pin card" [ref=e611]:
+              - generic [ref=e613]:
+                - link "an abstract background with bright lights and bubbles in the air, as well as blurry lines" [ref=e616] [cursor=pointer]:
+                  - /url: /pin/781093129160660037/
+                  - img "an abstract background with bright lights and bubbles in the air, as well as blurry lines" [ref=e626]
+                - generic [ref=e628]:
+                  - generic:
+                    - link "an abstract background with bright lights and bubbles in the air, as well as blurry lines":
+                      - /url: /pin/781093129160660037/
+                  - generic "More actions" [ref=e635]:
+                    - button "More actions" [ref=e636] [cursor=pointer]:
+                      - img [ref=e639]
+          - listitem [ref=e641]:
+            - group "Pin card" [ref=e644]:
+              - generic [ref=e646]:
+                - link "an abstract background with wavy lines and colors in the form of rainbows on a black background" [ref=e649] [cursor=pointer]:
+                  - /url: /pin/528117493818882922/
+                  - img "an abstract background with wavy lines and colors in the form of rainbows on a black background" [ref=e659]
+                - generic [ref=e661]:
+                  - generic:
+                    - link "an abstract background with wavy lines and colors in the form of rainbows on a black background":
+                      - /url: /pin/528117493818882922/
+                  - generic "More actions" [ref=e668]:
+                    - button "More actions" [ref=e669] [cursor=pointer]:
+                      - img [ref=e672]
+          - listitem [ref=e674]:
+            - group "Pin card" [ref=e677]:
+              - generic [ref=e679]:
+                - link "an abstract painting with white and pink colors on it's side, in the shape of a human body" [ref=e682] [cursor=pointer]:
+                  - /url: /pin/352477108359286225/
+                  - img "an abstract painting with white and pink colors on it's side, in the shape of a human body" [ref=e692]
+                - generic [ref=e694]:
+                  - generic:
+                    - link "an abstract painting with white and pink colors on it's side, in the shape of a human body":
+                      - /url: /pin/352477108359286225/
+                  - generic "More actions" [ref=e701]:
+                    - button "More actions" [ref=e702] [cursor=pointer]:
+                      - img [ref=e705]
+          - listitem [ref=e707]:
+            - group "Pin card" [ref=e710]:
+              - generic [ref=e712]:
+                - link "a blurry image of rainbow colors in the sky" [ref=e715] [cursor=pointer]:
+                  - /url: /pin/549087379575857027/
+                  - img "a blurry image of rainbow colors in the sky" [ref=e725]
+                - generic [ref=e727]:
+                  - generic:
+                    - link "a blurry image of rainbow colors in the sky":
+                      - /url: /pin/549087379575857027/
+                  - generic "More actions" [ref=e734]:
+                    - button "More actions" [ref=e735] [cursor=pointer]:
+                      - img [ref=e738]
+          - listitem [ref=e740]:
+            - generic [ref=e741]:
+              - generic [ref=e747]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e749]:
+                - generic [ref=e751]:
+                  - link "an abstract pink and blue background with wavy lines" [ref=e754] [cursor=pointer]:
+                    - /url: /pin/890657263827341296/
+                    - img "an abstract pink and blue background with wavy lines" [ref=e764]
+                  - generic [ref=e766]:
+                    - generic:
+                      - link "an abstract pink and blue background with wavy lines":
+                        - /url: /pin/890657263827341296/
+                    - generic "More actions" [ref=e773]:
+                      - button "More actions" [ref=e774] [cursor=pointer]:
+                        - img [ref=e777]
+          - listitem [ref=e779]:
+            - generic [ref=e780]:
+              - generic [ref=e786]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e788]:
+                - generic [ref=e790]:
+                  - link "an abstract purple and blue background with wavy lines in the bottom right corner, as well as some light streaks on the left side" [ref=e793] [cursor=pointer]:
+                    - /url: /pin/1119848263585208846/
+                    - img "an abstract purple and blue background with wavy lines in the bottom right corner, as well as some light streaks on the left side" [ref=e803]
+                  - generic [ref=e805]:
+                    - generic:
+                      - link "an abstract purple and blue background with wavy lines in the bottom right corner, as well as some light streaks on the left side":
+                        - /url: /pin/1119848263585208846/
+                    - generic "More actions" [ref=e812]:
+                      - button "More actions" [ref=e813] [cursor=pointer]:
+                        - img [ref=e816]
+          - listitem [ref=e818]:
+            - generic [ref=e819]:
+              - generic [ref=e825]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e827]:
+                - generic [ref=e829]:
+                  - link "an abstract background with pink and blue swirls on the bottom right corner, as if it were liquid paint" [ref=e832] [cursor=pointer]:
+                    - /url: /pin/882705595709216235/
+                    - img "an abstract background with pink and blue swirls on the bottom right corner, as if it were liquid paint" [ref=e842]
+                  - generic [ref=e844]:
+                    - generic:
+                      - link "an abstract background with pink and blue swirls on the bottom right corner, as if it were liquid paint":
+                        - /url: /pin/882705595709216235/
+                    - generic "More actions" [ref=e851]:
+                      - button "More actions" [ref=e852] [cursor=pointer]:
+                        - img [ref=e855]
+          - listitem [ref=e857]:
+            - generic [ref=e858]:
+              - generic [ref=e864]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e866]:
+                - generic [ref=e868]:
+                  - link "an abstract image with pastel colors on a gray background that appears to be blurry" [ref=e871] [cursor=pointer]:
+                    - /url: /pin/336433034680912806/
+                    - img "an abstract image with pastel colors on a gray background that appears to be blurry" [ref=e881]
+                  - generic [ref=e883]:
+                    - generic:
+                      - link "an abstract image with pastel colors on a gray background that appears to be blurry":
+                        - /url: /pin/336433034680912806/
+                    - generic "More actions" [ref=e890]:
+                      - button "More actions" [ref=e891] [cursor=pointer]:
+                        - img [ref=e894]
+          - listitem [ref=e896]:
+            - generic [ref=e897]:
+              - generic [ref=e903]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e905]:
+                - generic [ref=e907]:
+                  - link "an abstract image of blue and purple colors with waves in the background, as well as text that reads meta al" [ref=e910] [cursor=pointer]:
+                    - /url: /pin/358458451615348985/
+                    - img "an abstract image of blue and purple colors with waves in the background, as well as text that reads meta al" [ref=e920]
+                  - generic [ref=e922]:
+                    - generic:
+                      - link "an abstract image of blue and purple colors with waves in the background, as well as text that reads meta al":
+                        - /url: /pin/358458451615348985/
+                    - generic "More actions" [ref=e929]:
+                      - button "More actions" [ref=e930] [cursor=pointer]:
+                        - img [ref=e933]
+          - listitem [ref=e935]:
+            - generic [ref=e936]:
+              - generic [ref=e942]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e944]:
+                - generic [ref=e946]:
+                  - link "an abstract painting with blue, pink and yellow colors" [ref=e949] [cursor=pointer]:
+                    - /url: /pin/102456960269055645/
+                    - img "an abstract painting with blue, pink and yellow colors" [ref=e959]
+                  - generic [ref=e961]:
+                    - generic:
+                      - link "an abstract painting with blue, pink and yellow colors":
+                        - /url: /pin/102456960269055645/
+                    - generic "More actions" [ref=e968]:
+                      - button "More actions" [ref=e969] [cursor=pointer]:
+                        - img [ref=e972]

@@ -1,0 +1,630 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - link "Skip to content":
+      - /url: "#"
+      - generic [ref=e8] [cursor=pointer]: Skip to content
+    - generic [ref=e10]:
+      - generic [ref=e13]:
+        - combobox "Search" [ref=e15]: gesture driven mobile UI swipe interaction dark
+        - button "Remove search input" [ref=e20] [cursor=pointer]:
+          - img [ref=e23]
+      - generic [ref=e25]:
+        - button "Log in" [ref=e27] [cursor=pointer]:
+          - generic [ref=e29]: Log in
+        - button "Sign up" [ref=e31] [cursor=pointer]:
+          - generic [ref=e33]: Sign up
+  - navigation [ref=e35]:
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - generic "Home" [ref=e42]:
+          - link "Home" [ref=e43] [cursor=pointer]:
+            - /url: /
+            - img [ref=e45]
+        - generic "Explore" [ref=e50]:
+          - link "Explore" [ref=e51] [cursor=pointer]:
+            - /url: /ideas
+            - img [ref=e53]
+        - generic "Shop" [ref=e58]:
+          - link "Shop" [ref=e59] [cursor=pointer]:
+            - /url: /shopping
+            - img [ref=e61]
+      - generic "More options" [ref=e65]:
+        - button "More options" [ref=e66] [cursor=pointer]:
+          - img [ref=e69]
+  - main [ref=e71]:
+    - generic [ref=e252]:
+      - generic [ref=e255]:
+        - heading "Search" [level=1] [ref=e257]
+        - button "Show filters" [ref=e268] [cursor=pointer]:
+          - img [ref=e272]
+      - generic [ref=e278]:
+        - generic [ref=e279]: Showing more search results for gesture driven mobile UI swipe interaction dark
+        - list [ref=e284]:
+          - listitem [ref=e285]:
+            - group "Pin card" [ref=e288]:
+              - generic [ref=e290]:
+                - 'link "Can art heal? I built a prototype of an iOS app that helps to refocus your attention by pressing and holding a button, and guided breathing techniques help to heal from anxiety attacks. Let me know if you’d like to test it out and give me some feedback. #digitalart #iosapp #panicattack Breathing Techniques, Ui Inspiration, Ios App, Hold On, Give It To Me, Healing, Let It Be, Canning" [ref=e293] [cursor=pointer]':
+                  - /url: /pin/48202658506299270/
+                - generic [ref=e307]:
+                  - generic:
+                    - 'link "Can art heal? I built a prototype of an iOS app that helps to refocus your attention by pressing and holding a button, and guided breathing techniques help to heal from anxiety attacks. Let me know if you’d like to test it out and give me some feedback. #digitalart #iosapp #panicattack Breathing Techniques, Ui Inspiration, Ios App, Hold On, Give It To Me, Healing, Let It Be, Canning"':
+                      - /url: /pin/48202658506299270/
+                  - generic "More actions" [ref=e314]:
+                    - button "More actions" [ref=e315] [cursor=pointer]:
+                      - img [ref=e318]
+          - listitem [ref=e320]:
+            - group "Pin card" [ref=e323]:
+              - generic [ref=e325]:
+                - generic [ref=e326]:
+                  - link "an iphone is shown with the text'toppling up wallet'on its screen" [ref=e328] [cursor=pointer]:
+                    - /url: /pin/2674081025867911/
+                    - 'img "This may contain: an iphone is shown with the text''toppling up wallet''on its screen" [ref=e344]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:05
+                - generic [ref=e346]:
+                  - generic:
+                    - link "an iphone is shown with the text'toppling up wallet'on its screen":
+                      - /url: /pin/2674081025867911/
+                  - generic "More actions" [ref=e353]:
+                    - button "More actions" [ref=e354] [cursor=pointer]:
+                      - img [ref=e357]
+          - listitem [ref=e359]:
+            - group "Pin card" [ref=e362]:
+              - generic [ref=e364]:
+                - link "an iphone screen showing the time and date" [ref=e367] [cursor=pointer]:
+                  - /url: /pin/14284923813383555/
+                  - img "an iphone screen showing the time and date" [ref=e377]
+                - generic [ref=e379]:
+                  - generic:
+                    - link "an iphone screen showing the time and date":
+                      - /url: /pin/14284923813383555/
+                  - generic "More actions" [ref=e386]:
+                    - button "More actions" [ref=e387] [cursor=pointer]:
+                      - img [ref=e390]
+          - listitem [ref=e392]:
+            - group "Pin card" [ref=e395]:
+              - generic [ref=e397]:
+                - generic [ref=e398]:
+                  - link "two screens showing different dashboards and numbers on the same screen, one is displaying data" [ref=e400] [cursor=pointer]:
+                    - /url: /pin/1068760555299837031/
+                    - 'img "This may contain: two screens showing different dashboards and numbers on the same screen, one is displaying data" [ref=e416]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:13
+                - generic [ref=e418]:
+                  - generic:
+                    - link "two screens showing different dashboards and numbers on the same screen, one is displaying data":
+                      - /url: /pin/1068760555299837031/
+                  - generic "More actions" [ref=e425]:
+                    - button "More actions" [ref=e426] [cursor=pointer]:
+                      - img [ref=e429]
+          - listitem [ref=e431]:
+            - group "Pin card" [ref=e434]:
+              - generic [ref=e436]:
+                - generic [ref=e437]:
+                  - link "someone is holding up their cell phone to take a selfie with the other hand" [ref=e439] [cursor=pointer]:
+                    - /url: /pin/39899146694072810/
+                    - 'img "This may contain: someone is holding up their cell phone to take a selfie with the other hand" [ref=e455]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:18
+                - generic [ref=e457]:
+                  - generic:
+                    - link "someone is holding up their cell phone to take a selfie with the other hand":
+                      - /url: /pin/39899146694072810/
+                  - generic "More actions" [ref=e464]:
+                    - button "More actions" [ref=e465] [cursor=pointer]:
+                      - img [ref=e468]
+          - listitem [ref=e470]:
+            - group "Pin card" [ref=e473]:
+              - generic [ref=e475]:
+                - link "an iphone screen with the text how easily do you usually recognize your emotions?" [ref=e478] [cursor=pointer]:
+                  - /url: /pin/93097917293384470/
+                  - img "an iphone screen with the text how easily do you usually recognize your emotions?" [ref=e488]
+                - generic [ref=e490]:
+                  - generic:
+                    - link "an iphone screen with the text how easily do you usually recognize your emotions?":
+                      - /url: /pin/93097917293384470/
+                  - generic "More actions" [ref=e497]:
+                    - button "More actions" [ref=e498] [cursor=pointer]:
+                      - img [ref=e501]
+          - listitem [ref=e503]:
+            - generic [ref=e504]:
+              - generic [ref=e510]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e512]:
+                - generic [ref=e514]:
+                  - generic [ref=e515]:
+                    - link "a hand holding an iphone in front of a computer monitor with the screen lit up" [ref=e517] [cursor=pointer]:
+                      - /url: /pin/2322237302325992/
+                      - 'img "This may contain: a hand holding an iphone in front of a computer monitor with the screen lit up" [ref=e533]'
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 0:11
+                  - generic [ref=e535]:
+                    - generic:
+                      - link "a hand holding an iphone in front of a computer monitor with the screen lit up":
+                        - /url: /pin/2322237302325992/
+                    - generic "More actions" [ref=e542]:
+                      - button "More actions" [ref=e543] [cursor=pointer]:
+                        - img [ref=e546]
+          - listitem [ref=e548]:
+            - group "Pin card" [ref=e551]:
+              - generic [ref=e553]:
+                - generic [ref=e554]:
+                  - link "a person holding up a smart phone with an ad on the screen" [ref=e556] [cursor=pointer]:
+                    - /url: /pin/22025485674246152/
+                    - 'img "This may contain: a person holding up a smart phone with an ad on the screen" [ref=e572]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:39
+                - generic [ref=e574]:
+                  - generic:
+                    - link "a person holding up a smart phone with an ad on the screen":
+                      - /url: /pin/22025485674246152/
+                  - generic "More actions" [ref=e581]:
+                    - button "More actions" [ref=e582] [cursor=pointer]:
+                      - img [ref=e585]
+          - listitem [ref=e587]:
+            - group "Pin card" [ref=e590]:
+              - generic [ref=e592]:
+                - generic [ref=e593]:
+                  - link "an image of a cell phone screen with the number 60 % on it's display" [ref=e595] [cursor=pointer]:
+                    - /url: /pin/492649954921983/
+                    - 'img "This may contain: an image of a cell phone screen with the number 60 % on it''s display" [ref=e611]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:30
+                - generic [ref=e613]:
+                  - generic:
+                    - link "an image of a cell phone screen with the number 60 % on it's display":
+                      - /url: /pin/492649954921983/
+                  - generic "More actions" [ref=e620]:
+                    - button "More actions" [ref=e621] [cursor=pointer]:
+                      - img [ref=e624]
+          - listitem [ref=e626]:
+            - group "Pin card" [ref=e629]:
+              - generic [ref=e631]:
+                - link "the screenshot shows that there is no image to describe" [ref=e634] [cursor=pointer]:
+                  - /url: /pin/8162843070772278/
+                  - img "the screenshot shows that there is no image to describe" [ref=e644]
+                - generic [ref=e646]:
+                  - generic:
+                    - link "the screenshot shows that there is no image to describe":
+                      - /url: /pin/8162843070772278/
+                  - generic "More actions" [ref=e653]:
+                    - button "More actions" [ref=e654] [cursor=pointer]:
+                      - img [ref=e657]
+          - listitem [ref=e659]:
+            - group "Pin card" [ref=e662]:
+              - generic [ref=e664]:
+                - link "an iphone with the image of a space capsule on it's screen and text that reads" [ref=e667] [cursor=pointer]:
+                  - /url: /pin/1759287346706942/
+                  - img "an iphone with the image of a space capsule on it's screen and text that reads" [ref=e677]
+                - generic [ref=e679]:
+                  - generic:
+                    - link "an iphone with the image of a space capsule on it's screen and text that reads":
+                      - /url: /pin/1759287346706942/
+                  - generic "More actions" [ref=e686]:
+                    - button "More actions" [ref=e687] [cursor=pointer]:
+                      - img [ref=e690]
+          - listitem [ref=e692]:
+            - generic [ref=e693]:
+              - generic [ref=e699]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e701]:
+                - generic [ref=e703]:
+                  - generic [ref=e704]:
+                    - link "a cell phone with the text freebie friday vf course on it and an image of a woman in a hoodie" [ref=e706] [cursor=pointer]:
+                      - /url: /pin/2533343538454453/
+                      - 'img "This may contain: a cell phone with the text freebie friday vf course on it and an image of a woman in a hoodie" [ref=e722]'
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 0:05
+                  - generic [ref=e724]:
+                    - generic:
+                      - link "a cell phone with the text freebie friday vf course on it and an image of a woman in a hoodie":
+                        - /url: /pin/2533343538454453/
+                    - generic "More actions" [ref=e731]:
+                      - button "More actions" [ref=e732] [cursor=pointer]:
+                        - img [ref=e735]
+          - listitem [ref=e737]:
+            - group "Pin card" [ref=e740]:
+              - generic [ref=e742]:
+                - generic [ref=e743]:
+                  - link "someone is holding up their cell phone to play the game" [ref=e745] [cursor=pointer]:
+                    - /url: /pin/13088655163118819/
+                    - 'img "This may contain: someone is holding up their cell phone to play the game" [ref=e761]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:20
+                - generic [ref=e763]:
+                  - generic:
+                    - link "someone is holding up their cell phone to play the game":
+                      - /url: /pin/13088655163118819/
+                  - generic "More actions" [ref=e770]:
+                    - button "More actions" [ref=e771] [cursor=pointer]:
+                      - img [ref=e774]
+          - listitem [ref=e776]:
+            - group "Pin card" [ref=e779]:
+              - generic [ref=e781]:
+                - link "an iphone with the text hey, smile, what can i help you with?" [ref=e784] [cursor=pointer]:
+                  - /url: /pin/14073817581462921/
+                  - img "an iphone with the text hey, smile, what can i help you with?" [ref=e794]
+                - generic [ref=e796]:
+                  - generic:
+                    - link "an iphone with the text hey, smile, what can i help you with?":
+                      - /url: /pin/14073817581462921/
+                  - generic "More actions" [ref=e803]:
+                    - button "More actions" [ref=e804] [cursor=pointer]:
+                      - img [ref=e807]
+          - listitem [ref=e809]:
+            - group "Pin card" [ref=e812]:
+              - generic [ref=e814]:
+                - generic [ref=e815]:
+                  - link "an orange square with eyes and the word confue on it's face" [ref=e817] [cursor=pointer]:
+                    - /url: /pin/492649954237469/
+                    - 'img "This may contain: an orange square with eyes and the word confue on it''s face" [ref=e833]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:48
+                - generic [ref=e835]:
+                  - generic:
+                    - link "an orange square with eyes and the word confue on it's face":
+                      - /url: /pin/492649954237469/
+                  - generic "More actions" [ref=e842]:
+                    - button "More actions" [ref=e843] [cursor=pointer]:
+                      - img [ref=e846]
+          - listitem [ref=e848]:
+            - group "Pin card" [ref=e851]:
+              - generic [ref=e853]:
+                - generic [ref=e854]:
+                  - 'link "Micro-animations enhance usability and bring a sense of polish to the flow. Here are few inspirations for Messaging app 💬 @ui_gradient @uxbucket @uxmaniac @uiuxmobile @uiuxdailytips @uiuxbunker @designspective @uxbrainy @ux_trends #ux #ui #uxdesigns #uxdesign #uxuidesign #uidesign #interface #interfacedesign #designtip #designtips #designresources #dribbble #behance #googlefont #webdesign #website #websitedesigning #product #productdesigner #gradient #gradients #transition Mobile Ui Animation, Messenger Ui, Chat Ui Design Mobile, Apple Ui Animation, App Animation, App Explainer Video, Social App Design, Micro Interactions Ui Animation, Motion App" [ref=e856] [cursor=pointer]':
+                    - /url: /pin/2674081026302181/
+                    - 'img "Micro-animations enhance usability and bring a sense of polish to the flow. Here are few inspirations for Messaging app 💬 @ui_gradient @uxbucket @uxmaniac @uiuxmobile @uiuxdailytips @uiuxbunker @designspective @uxbrainy @ux_trends #ux #ui #uxdesigns #uxdesign #uxuidesign #uidesign #interface #interfacedesign #designtip #designtips #designresources #dribbble #behance #googlefont #webdesign #website #websitedesigning #product #productdesigner #gradient #gradients #transition" [ref=e872]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:26
+                - generic [ref=e874]:
+                  - generic:
+                    - 'link "Micro-animations enhance usability and bring a sense of polish to the flow. Here are few inspirations for Messaging app 💬 @ui_gradient @uxbucket @uxmaniac @uiuxmobile @uiuxdailytips @uiuxbunker @designspective @uxbrainy @ux_trends #ux #ui #uxdesigns #uxdesign #uxuidesign #uidesign #interface #interfacedesign #designtip #designtips #designresources #dribbble #behance #googlefont #webdesign #website #websitedesigning #product #productdesigner #gradient #gradients #transition Mobile Ui Animation, Messenger Ui, Chat Ui Design Mobile, Apple Ui Animation, App Animation, App Explainer Video, Social App Design, Micro Interactions Ui Animation, Motion App"':
+                      - /url: /pin/2674081026302181/
+                  - generic "More actions" [ref=e881]:
+                    - button "More actions" [ref=e882] [cursor=pointer]:
+                      - img [ref=e885]
+          - listitem [ref=e887]:
+            - generic [ref=e888]:
+              - generic [ref=e894]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e896]:
+                - generic [ref=e898]:
+                  - generic [ref=e899]:
+                    - link "an iphone with the text let's verify your number on its screen" [ref=e901] [cursor=pointer]:
+                      - /url: /pin/19844054605072994/
+                      - 'img "This may contain: an iphone with the text let''s verify your number on its screen" [ref=e917]'
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 0:04
+                  - generic [ref=e919]:
+                    - generic:
+                      - link "an iphone with the text let's verify your number on its screen":
+                        - /url: /pin/19844054605072994/
+                    - generic "More actions" [ref=e926]:
+                      - button "More actions" [ref=e927] [cursor=pointer]:
+                        - img [ref=e930]
+          - listitem [ref=e932]:
+            - group "Pin card" [ref=e935]:
+              - generic [ref=e937]:
+                - link "the packaging for jellyfish is displayed on a white background" [ref=e940] [cursor=pointer]:
+                  - /url: /pin/4081455907542587/
+                  - img "the packaging for jellyfish is displayed on a white background" [ref=e950]
+                - generic [ref=e952]:
+                  - generic:
+                    - link "the packaging for jellyfish is displayed on a white background":
+                      - /url: /pin/4081455907542587/
+                  - generic "More actions" [ref=e959]:
+                    - button "More actions" [ref=e960] [cursor=pointer]:
+                      - img [ref=e963]
+          - listitem [ref=e965]:
+            - group "Pin card" [ref=e968]:
+              - generic [ref=e970]:
+                - generic [ref=e971]:
+                  - link "an image of a man in the desert with his cell phone showing him on his screen" [ref=e973] [cursor=pointer]:
+                    - /url: /pin/11751649023619595/
+                    - 'img "This may contain: an image of a man in the desert with his cell phone showing him on his screen" [ref=e989]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:04
+                - generic [ref=e991]:
+                  - generic:
+                    - link "an image of a man in the desert with his cell phone showing him on his screen":
+                      - /url: /pin/11751649023619595/
+                  - generic "More actions" [ref=e998]:
+                    - button "More actions" [ref=e999] [cursor=pointer]:
+                      - img [ref=e1002]
+          - listitem [ref=e1004]:
+            - group "Pin card" [ref=e1007]:
+              - generic [ref=e1009]:
+                - generic [ref=e1010]:
+                  - link "a person holding up an iphone in front of a computer screen with the back cover open" [ref=e1012] [cursor=pointer]:
+                    - /url: /pin/1337074889678835/
+                    - 'img "This may contain: a person holding up an iphone in front of a computer screen with the back cover open" [ref=e1028]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:12
+                - generic [ref=e1030]:
+                  - generic:
+                    - link "a person holding up an iphone in front of a computer screen with the back cover open":
+                      - /url: /pin/1337074889678835/
+                  - generic "More actions" [ref=e1037]:
+                    - button "More actions" [ref=e1038] [cursor=pointer]:
+                      - img [ref=e1041]
+          - listitem [ref=e1043]:
+            - group "Pin card" [ref=e1046]:
+              - generic [ref=e1048]:
+                - generic [ref=e1049]:
+                  - link "a hand holding a blue cell phone on top of a wooden table next to a computer mouse" [ref=e1051] [cursor=pointer]:
+                    - /url: /pin/852728510711918063/
+                    - 'img "This may contain: a hand holding a blue cell phone on top of a wooden table next to a computer mouse" [ref=e1067]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:08
+                - generic [ref=e1069]:
+                  - generic:
+                    - link "a hand holding a blue cell phone on top of a wooden table next to a computer mouse":
+                      - /url: /pin/852728510711918063/
+                  - generic "More actions" [ref=e1076]:
+                    - button "More actions" [ref=e1077] [cursor=pointer]:
+                      - img [ref=e1080]
+          - listitem [ref=e1082]:
+            - generic [ref=e1083]:
+              - generic [ref=e1089]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1091]:
+                - generic [ref=e1093]:
+                  - link "an iphone screen showing the story details and symbols on its display, which are highlighted in black" [ref=e1096] [cursor=pointer]:
+                    - /url: /pin/6403624465890519/
+                    - img "an iphone screen showing the story details and symbols on its display, which are highlighted in black" [ref=e1106]
+                  - generic [ref=e1108]:
+                    - generic:
+                      - link "an iphone screen showing the story details and symbols on its display, which are highlighted in black":
+                        - /url: /pin/6403624465890519/
+                    - generic "More actions" [ref=e1115]:
+                      - button "More actions" [ref=e1116] [cursor=pointer]:
+                        - img [ref=e1119]
+          - listitem [ref=e1121]:
+            - group "Pin card" [ref=e1124]:
+              - generic [ref=e1126]:
+                - link "an iphone displaying the message's screen on top of a rock in front of a dark background" [ref=e1129] [cursor=pointer]:
+                  - /url: /pin/2674081025308787/
+                  - img "an iphone displaying the message's screen on top of a rock in front of a dark background" [ref=e1139]
+                - generic [ref=e1141]:
+                  - generic:
+                    - link "an iphone displaying the message's screen on top of a rock in front of a dark background":
+                      - /url: /pin/2674081025308787/
+                  - generic "More actions" [ref=e1148]:
+                    - button "More actions" [ref=e1149] [cursor=pointer]:
+                      - img [ref=e1152]
+          - listitem [ref=e1154]:
+            - group "Pin card" [ref=e1157]:
+              - generic [ref=e1159]:
+                - generic [ref=e1160]:
+                  - link "an iphone screen with the text, choose how you're feeling right now neutral" [ref=e1162] [cursor=pointer]:
+                    - /url: /pin/23081016836824301/
+                    - 'img "This may contain: an iphone screen with the text, choose how you''re feeling right now neutral" [ref=e1178]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:22
+                - generic [ref=e1180]:
+                  - generic:
+                    - link "an iphone screen with the text, choose how you're feeling right now neutral":
+                      - /url: /pin/23081016836824301/
+                  - generic "More actions" [ref=e1187]:
+                    - button "More actions" [ref=e1188] [cursor=pointer]:
+                      - img [ref=e1191]
+          - listitem [ref=e1193]:
+            - group "Pin card" [ref=e1196]:
+              - generic [ref=e1198]:
+                - link "an iphone screen with the text,'something is your name?'on it" [ref=e1201] [cursor=pointer]:
+                  - /url: /pin/225672631323359586/
+                  - img "an iphone screen with the text,'something is your name?'on it" [ref=e1211]
+                - generic [ref=e1213]:
+                  - generic:
+                    - link "an iphone screen with the text,'something is your name?'on it":
+                      - /url: /pin/225672631323359586/
+                  - generic "More actions" [ref=e1220]:
+                    - button "More actions" [ref=e1221] [cursor=pointer]:
+                      - img [ref=e1224]
+          - listitem [ref=e1226]:
+            - group "Pin card" [ref=e1229]:
+              - generic [ref=e1231]:
+                - link "an iphone screen with the message write down your email phrase and then click on it" [ref=e1234] [cursor=pointer]:
+                  - /url: /pin/211174978155600/
+                  - img "an iphone screen with the message write down your email phrase and then click on it" [ref=e1244]
+                - generic [ref=e1246]:
+                  - generic:
+                    - link "an iphone screen with the message write down your email phrase and then click on it":
+                      - /url: /pin/211174978155600/
+                  - generic "More actions" [ref=e1253]:
+                    - button "More actions" [ref=e1254] [cursor=pointer]:
+                      - img [ref=e1257]
+          - listitem [ref=e1259]:
+            - generic [ref=e1260]:
+              - generic [ref=e1266]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1268]:
+                - generic [ref=e1270]:
+                  - link "an iphone screen with the text'how did you sleep last night? '" [ref=e1273] [cursor=pointer]:
+                    - /url: /pin/3237030978512460/
+                    - img "an iphone screen with the text'how did you sleep last night? '" [ref=e1283]
+                  - generic [ref=e1285]:
+                    - generic:
+                      - link "an iphone screen with the text'how did you sleep last night? '":
+                        - /url: /pin/3237030978512460/
+                    - generic "More actions" [ref=e1292]:
+                      - button "More actions" [ref=e1293] [cursor=pointer]:
+                        - img [ref=e1296]
+          - listitem [ref=e1298]:
+            - generic [ref=e1299]:
+              - generic [ref=e1305]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1307]:
+                - generic [ref=e1309]:
+                  - generic [ref=e1310]:
+                    - link "the menu for an event is shown in black and gold" [ref=e1312] [cursor=pointer]:
+                      - /url: /pin/2674081026100739/
+                      - 'img "This may contain: the menu for an event is shown in black and gold" [ref=e1328]'
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 0:27
+                  - generic [ref=e1330]:
+                    - generic:
+                      - link "the menu for an event is shown in black and gold":
+                        - /url: /pin/2674081026100739/
+                    - generic "More actions" [ref=e1337]:
+                      - button "More actions" [ref=e1338] [cursor=pointer]:
+                        - img [ref=e1341]
+          - listitem [ref=e1343]:
+            - generic [ref=e1344]:
+              - generic [ref=e1350]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1352]:
+                - generic [ref=e1354]:
+                  - generic [ref=e1355]:
+                    - link "an iphone displaying the new app for reading books on it's screen, which is open" [ref=e1357] [cursor=pointer]:
+                      - /url: /pin/1196337403716920/
+                      - 'img "This may contain: an iphone displaying the new app for reading books on it''s screen, which is open" [ref=e1373]'
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 0:07
+                  - generic [ref=e1375]:
+                    - generic:
+                      - link "an iphone displaying the new app for reading books on it's screen, which is open":
+                        - /url: /pin/1196337403716920/
+                    - generic "More actions" [ref=e1382]:
+                      - button "More actions" [ref=e1383] [cursor=pointer]:
+                        - img [ref=e1386]
+          - listitem [ref=e1388]:
+            - generic [ref=e1389]:
+              - generic [ref=e1395]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1397]:
+                - generic [ref=e1399]:
+                  - generic [ref=e1400]:
+                    - link "an image of a gray button with the words mohammadj jaad kermany" [ref=e1402] [cursor=pointer]:
+                      - /url: /pin/2744449766599490/
+                      - 'img "This may contain: an image of a gray button with the words mohammadj jaad kermany" [ref=e1418]'
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 0:11
+                  - generic [ref=e1420]:
+                    - generic:
+                      - link "an image of a gray button with the words mohammadj jaad kermany":
+                        - /url: /pin/2744449766599490/
+                    - generic "More actions" [ref=e1427]:
+                      - button "More actions" [ref=e1428] [cursor=pointer]:
+                        - img [ref=e1431]
+          - listitem [ref=e1433]:
+            - generic [ref=e1434]:
+              - generic [ref=e1440]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1442]:
+                - generic [ref=e1444]:
+                  - link "a cell phone with the app on it's screen showing various tasks and options" [ref=e1447] [cursor=pointer]:
+                    - /url: /pin/5207355815039070/
+                    - img "a cell phone with the app on it's screen showing various tasks and options" [ref=e1457]
+                  - generic [ref=e1459]:
+                    - generic:
+                      - link "a cell phone with the app on it's screen showing various tasks and options":
+                        - /url: /pin/5207355815039070/
+                    - generic "More actions" [ref=e1466]:
+                      - button "More actions" [ref=e1467] [cursor=pointer]:
+                        - img [ref=e1470]
+          - listitem [ref=e1472]:
+            - generic [ref=e1473]:
+              - generic [ref=e1479]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1481]:
+                - generic [ref=e1483]:
+                  - generic [ref=e1484]:
+                    - link "an iphone with the welcome to united app on it's screen and several different colored discs" [ref=e1486] [cursor=pointer]:
+                      - /url: /pin/2674081025643990/
+                      - 'img "This may contain: an iphone with the welcome to united app on it''s screen and several different colored discs" [ref=e1502]'
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 0:15
+                  - generic [ref=e1504]:
+                    - generic:
+                      - link "an iphone with the welcome to united app on it's screen and several different colored discs":
+                        - /url: /pin/2674081025643990/
+                    - generic "More actions" [ref=e1511]:
+                      - button "More actions" [ref=e1512] [cursor=pointer]:
+                        - img [ref=e1515]

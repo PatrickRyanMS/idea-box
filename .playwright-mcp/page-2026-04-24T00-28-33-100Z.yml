@@ -1,0 +1,583 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - link "Skip to content":
+      - /url: "#"
+      - generic [ref=e9] [cursor=pointer]: Skip to content
+    - generic [ref=e11]:
+      - generic [ref=e14]:
+        - combobox "Search" [ref=e16]: personal assistant app mobile UI schedule planner
+        - button "Remove search input" [ref=e21] [cursor=pointer]:
+          - img [ref=e24]
+      - generic [ref=e26]:
+        - button "Log in" [ref=e28] [cursor=pointer]:
+          - generic [ref=e30]: Log in
+        - button "Sign up" [ref=e32] [cursor=pointer]:
+          - generic [ref=e34]: Sign up
+  - navigation [ref=e36]:
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - generic "Home" [ref=e43]:
+          - link "Home" [ref=e44] [cursor=pointer]:
+            - /url: /
+            - img [ref=e46]
+        - generic "Explore" [ref=e51]:
+          - link "Explore" [ref=e52] [cursor=pointer]:
+            - /url: /ideas
+            - img [ref=e54]
+        - generic "Shop" [ref=e59]:
+          - link "Shop" [ref=e60] [cursor=pointer]:
+            - /url: /shopping
+            - img [ref=e62]
+      - generic "More options" [ref=e66]:
+        - button "More options" [ref=e67] [cursor=pointer]:
+          - img [ref=e70]
+  - main [ref=e72]:
+    - generic [ref=e74]:
+      - generic [ref=e77]:
+        - heading "Search" [level=1] [ref=e79]
+        - button "Show filters" [ref=e90] [cursor=pointer]:
+          - img [ref=e94]
+      - generic [ref=e100]:
+        - generic [ref=e101]: Showing more search results for personal assistant app mobile UI schedule planner
+        - list [ref=e106]:
+          - listitem [ref=e107]:
+            - group "Pin card" [ref=e110]:
+              - generic [ref=e112]:
+                - link "two mobile screens showing tasks on the same screen, one with task progress and another without" [ref=e115] [cursor=pointer]:
+                  - /url: /pin/6966574413762637/
+                  - img "two mobile screens showing tasks on the same screen, one with task progress and another without" [ref=e125]
+                - generic [ref=e127]:
+                  - generic:
+                    - link "two mobile screens showing tasks on the same screen, one with task progress and another without":
+                      - /url: /pin/6966574413762637/
+                  - generic "More actions" [ref=e134]:
+                    - button "More actions" [ref=e135] [cursor=pointer]:
+                      - img [ref=e138]
+          - listitem [ref=e140]:
+            - group "Pin card" [ref=e143]:
+              - generic [ref=e145]:
+                - link "an iphone screen showing the daily planner" [ref=e148] [cursor=pointer]:
+                  - /url: /pin/581316264456390411/
+                  - img "an iphone screen showing the daily planner" [ref=e158]
+                - generic [ref=e160]:
+                  - generic:
+                    - link "an iphone screen showing the daily planner":
+                      - /url: /pin/581316264456390411/
+                  - generic "More actions" [ref=e167]:
+                    - button "More actions" [ref=e168] [cursor=pointer]:
+                      - img [ref=e171]
+          - listitem [ref=e173]:
+            - group "Pin card" [ref=e176]:
+              - generic [ref=e178]:
+                - link "an iphone screen with the text today on it, and two different tasks to do" [ref=e181] [cursor=pointer]:
+                  - /url: /pin/117093659057430339/
+                  - img "an iphone screen with the text today on it, and two different tasks to do" [ref=e191]
+                - generic [ref=e193]:
+                  - generic:
+                    - link "an iphone screen with the text today on it, and two different tasks to do":
+                      - /url: /pin/117093659057430339/
+                  - generic "More actions" [ref=e200]:
+                    - button "More actions" [ref=e201] [cursor=pointer]:
+                      - img [ref=e204]
+          - listitem [ref=e206]:
+            - group "Pin card" [ref=e209]:
+              - generic [ref=e211]:
+                - link "three iphones with different user interfaces on them, one is showing the same person's profile" [ref=e214] [cursor=pointer]:
+                  - /url: /pin/39547302973398065/
+                  - img "three iphones with different user interfaces on them, one is showing the same person's profile" [ref=e224]
+                - generic [ref=e226]:
+                  - generic:
+                    - link "three iphones with different user interfaces on them, one is showing the same person's profile":
+                      - /url: /pin/39547302973398065/
+                  - generic "More actions" [ref=e233]:
+                    - button "More actions" [ref=e234] [cursor=pointer]:
+                      - img [ref=e237]
+          - listitem [ref=e239]:
+            - group "Pin card" [ref=e242]:
+              - generic [ref=e244]:
+                - link "three screens showing the different types of app designs" [ref=e247] [cursor=pointer]:
+                  - /url: /pin/8162843069832915/
+                  - img "three screens showing the different types of app designs" [ref=e257]
+                - generic [ref=e259]:
+                  - generic:
+                    - link "three screens showing the different types of app designs":
+                      - /url: /pin/8162843069832915/
+                  - generic "More actions" [ref=e266]:
+                    - button "More actions" [ref=e267] [cursor=pointer]:
+                      - img [ref=e270]
+          - listitem [ref=e272]:
+            - group "Pin card" [ref=e275]:
+              - generic [ref=e277]:
+                - link "two iphone screens with the same calendar on one side and an image of someone's work schedule on the other" [ref=e280] [cursor=pointer]:
+                  - /url: /pin/4996249583602076/
+                  - img "two iphone screens with the same calendar on one side and an image of someone's work schedule on the other" [ref=e290]
+                - generic [ref=e292]:
+                  - generic:
+                    - link "two iphone screens with the same calendar on one side and an image of someone's work schedule on the other":
+                      - /url: /pin/4996249583602076/
+                  - generic "More actions" [ref=e299]:
+                    - button "More actions" [ref=e300] [cursor=pointer]:
+                      - img [ref=e303]
+          - listitem [ref=e305]:
+            - generic [ref=e306]:
+              - generic [ref=e312]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e314]:
+                - generic [ref=e316]:
+                  - link "an array of cell phones with purple and black screens on them, all displaying different messages" [ref=e319] [cursor=pointer]:
+                    - /url: /pin/52495151902087348/
+                    - img "an array of cell phones with purple and black screens on them, all displaying different messages" [ref=e329]
+                  - generic [ref=e331]:
+                    - generic:
+                      - link "an array of cell phones with purple and black screens on them, all displaying different messages":
+                        - /url: /pin/52495151902087348/
+                    - generic "More actions" [ref=e338]:
+                      - button "More actions" [ref=e339] [cursor=pointer]:
+                        - img [ref=e342]
+          - listitem [ref=e344]:
+            - group "Pin card" [ref=e347]:
+              - generic [ref=e349]:
+                - 'link "📅 Stay organized! 💼 Calendar management UI/UX design features: intuitive interface, event scheduling, and reminders. Boost productivity with efficient calendar management 📈. #CalendarManagement #UIUXDesign #Productivity #Organization #TimeManagement Trello Mobile Ui, Schedule Designs, Ui Design Inspo, Iphone App Design Layout, App Inspo, Cool Ui, Ux Ui Design Ideas, App Design Ui, App Designs" [ref=e352] [cursor=pointer]':
+                  - /url: /pin/422281211531664/
+                  - 'img "📅 Stay organized! 💼 Calendar management UI/UX design features: intuitive interface, event scheduling, and reminders. Boost productivity with efficient calendar management 📈. #CalendarManagement #UIUXDesign #Productivity #Organization #TimeManagement Trello Mobile Ui, Schedule Designs, Ui Design Inspo, Iphone App Design Layout, App Inspo, Cool Ui, Ux Ui Design Ideas, App Design Ui, App Designs" [ref=e362]'
+                - generic [ref=e364]:
+                  - generic:
+                    - 'link "📅 Stay organized! 💼 Calendar management UI/UX design features: intuitive interface, event scheduling, and reminders. Boost productivity with efficient calendar management 📈. #CalendarManagement #UIUXDesign #Productivity #Organization #TimeManagement Trello Mobile Ui, Schedule Designs, Ui Design Inspo, Iphone App Design Layout, App Inspo, Cool Ui, Ux Ui Design Ideas, App Design Ui, App Designs"':
+                      - /url: /pin/422281211531664/
+                  - generic "More actions" [ref=e371]:
+                    - button "More actions" [ref=e372] [cursor=pointer]:
+                      - img [ref=e375]
+          - listitem [ref=e377]:
+            - group "Pin card" [ref=e380]:
+              - generic [ref=e382]:
+                - link "three screens showing different messages on their phones" [ref=e385] [cursor=pointer]:
+                  - /url: /pin/4996249583602139/
+                  - img "three screens showing different messages on their phones" [ref=e395]
+                - generic [ref=e397]:
+                  - generic:
+                    - link "three screens showing different messages on their phones":
+                      - /url: /pin/4996249583602139/
+                  - generic "More actions" [ref=e404]:
+                    - button "More actions" [ref=e405] [cursor=pointer]:
+                      - img [ref=e408]
+          - listitem [ref=e410]:
+            - group "Pin card" [ref=e413]:
+              - generic [ref=e415]:
+                - link "two mobile screens showing the time and date" [ref=e418] [cursor=pointer]:
+                  - /url: /pin/844493670980131/
+                  - img "two mobile screens showing the time and date" [ref=e428]
+                - generic [ref=e430]:
+                  - generic:
+                    - link "two mobile screens showing the time and date":
+                      - /url: /pin/844493670980131/
+                  - generic "More actions" [ref=e437]:
+                    - button "More actions" [ref=e438] [cursor=pointer]:
+                      - img [ref=e441]
+          - listitem [ref=e443]:
+            - group "Pin card" [ref=e446]:
+              - generic [ref=e448]:
+                - link "four iphones with the text today's schedule displayed on them, all in different colors" [ref=e451] [cursor=pointer]:
+                  - /url: /pin/11259067814446373/
+                  - img "four iphones with the text today's schedule displayed on them, all in different colors" [ref=e461]
+                - generic [ref=e463]:
+                  - generic:
+                    - link "four iphones with the text today's schedule displayed on them, all in different colors":
+                      - /url: /pin/11259067814446373/
+                  - generic "More actions" [ref=e470]:
+                    - button "More actions" [ref=e471] [cursor=pointer]:
+                      - img [ref=e474]
+          - listitem [ref=e476]:
+            - generic [ref=e477]:
+              - generic [ref=e483]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e485]:
+                - generic [ref=e487]:
+                  - link "three smartphones with different messages on them" [ref=e490] [cursor=pointer]:
+                    - /url: /pin/643311128029618406/
+                    - img "three smartphones with different messages on them" [ref=e500]
+                  - generic [ref=e502]:
+                    - generic:
+                      - link "three smartphones with different messages on them":
+                        - /url: /pin/643311128029618406/
+                    - generic "More actions" [ref=e509]:
+                      - button "More actions" [ref=e510] [cursor=pointer]:
+                        - img [ref=e513]
+          - listitem [ref=e515]:
+            - group "Pin card" [ref=e518]:
+              - generic [ref=e520]:
+                - link "a cell phone with an app on the screen and texting options displayed in green" [ref=e523] [cursor=pointer]:
+                  - /url: /pin/4011087181728375/
+                  - img "a cell phone with an app on the screen and texting options displayed in green" [ref=e533]
+                - generic [ref=e535]:
+                  - generic:
+                    - link "a cell phone with an app on the screen and texting options displayed in green":
+                      - /url: /pin/4011087181728375/
+                  - generic "More actions" [ref=e542]:
+                    - button "More actions" [ref=e543] [cursor=pointer]:
+                      - img [ref=e546]
+          - listitem [ref=e548]:
+            - group "Pin card" [ref=e551]:
+              - generic [ref=e553]:
+                - link "three smartphones displaying different tasks on the same screen, one showing schedule and another showing schedules" [ref=e556] [cursor=pointer]:
+                  - /url: /pin/7248049396308055/
+                  - img "three smartphones displaying different tasks on the same screen, one showing schedule and another showing schedules" [ref=e566]
+                - generic [ref=e568]:
+                  - generic:
+                    - link "three smartphones displaying different tasks on the same screen, one showing schedule and another showing schedules":
+                      - /url: /pin/7248049396308055/
+                  - generic "More actions" [ref=e575]:
+                    - button "More actions" [ref=e576] [cursor=pointer]:
+                      - img [ref=e579]
+          - listitem [ref=e581]:
+            - group "Pin card" [ref=e584]:
+              - generic [ref=e586]:
+                - link "three iphone screens showing the user's profile and application options for their app design" [ref=e589] [cursor=pointer]:
+                  - /url: /pin/68117013105877132/
+                  - img "three iphone screens showing the user's profile and application options for their app design" [ref=e599]
+                - generic [ref=e601]:
+                  - generic:
+                    - link "three iphone screens showing the user's profile and application options for their app design":
+                      - /url: /pin/68117013105877132/
+                  - generic "More actions" [ref=e608]:
+                    - button "More actions" [ref=e609] [cursor=pointer]:
+                      - img [ref=e612]
+          - listitem [ref=e614]:
+            - group "Pin card" [ref=e617]:
+              - generic [ref=e619]:
+                - link "two iphone screens with the same calendar on them" [ref=e622] [cursor=pointer]:
+                  - /url: /pin/844493671814376/
+                  - img "two iphone screens with the same calendar on them" [ref=e632]
+                - generic [ref=e634]:
+                  - generic:
+                    - link "two iphone screens with the same calendar on them":
+                      - /url: /pin/844493671814376/
+                  - generic "More actions" [ref=e641]:
+                    - button "More actions" [ref=e642] [cursor=pointer]:
+                      - img [ref=e645]
+          - listitem [ref=e647]:
+            - generic [ref=e648]:
+              - generic [ref=e654]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e656]:
+                - generic [ref=e658]:
+                  - link "two iphone screens showing the same user's profile on each screen, one with an email" [ref=e661] [cursor=pointer]:
+                    - /url: /pin/3729612268990294/
+                    - img "two iphone screens showing the same user's profile on each screen, one with an email" [ref=e671]
+                  - generic [ref=e673]:
+                    - generic:
+                      - link "two iphone screens showing the same user's profile on each screen, one with an email":
+                        - /url: /pin/3729612268990294/
+                    - generic "More actions" [ref=e680]:
+                      - button "More actions" [ref=e681] [cursor=pointer]:
+                        - img [ref=e684]
+          - listitem [ref=e686]:
+            - group "Pin card" [ref=e689]:
+              - generic [ref=e691]:
+                - link "two screens showing the same messages on their phones" [ref=e694] [cursor=pointer]:
+                  - /url: /pin/13651605114840609/
+                  - img "two screens showing the same messages on their phones" [ref=e704]
+                - generic [ref=e706]:
+                  - generic:
+                    - link "two screens showing the same messages on their phones":
+                      - /url: /pin/13651605114840609/
+                  - generic "More actions" [ref=e713]:
+                    - button "More actions" [ref=e714] [cursor=pointer]:
+                      - img [ref=e717]
+          - listitem [ref=e719]:
+            - group "Pin card" [ref=e722]:
+              - generic [ref=e724]:
+                - link "Modern cleaning service mobile app UI showing 5 screens including home dashboard, service selection, booking schedule, payment checkout, and order tracking interface with clean blue and green design" [ref=e727] [cursor=pointer]:
+                  - /url: /pin/862720872419004274/
+                  - img "Modern cleaning service mobile app UI showing 5 screens including home dashboard, service selection, booking schedule, payment checkout, and order tracking interface with clean blue and green design" [ref=e737]
+                - generic [ref=e739]:
+                  - generic:
+                    - link "Modern cleaning service mobile app UI showing 5 screens including home dashboard, service selection, booking schedule, payment checkout, and order tracking interface with clean blue and green design":
+                      - /url: /pin/862720872419004274/
+                  - generic "More actions" [ref=e746]:
+                    - button "More actions" [ref=e747] [cursor=pointer]:
+                      - img [ref=e750]
+          - listitem [ref=e752]:
+            - group "Pin card" [ref=e755]:
+              - generic [ref=e757]:
+                - link "an iphone screen with the text schedule on it" [ref=e760] [cursor=pointer]:
+                  - /url: /pin/64176363434943128/
+                  - img "an iphone screen with the text schedule on it" [ref=e770]
+                - generic [ref=e772]:
+                  - generic:
+                    - link "an iphone screen with the text schedule on it":
+                      - /url: /pin/64176363434943128/
+                  - generic "More actions" [ref=e779]:
+                    - button "More actions" [ref=e780] [cursor=pointer]:
+                      - img [ref=e783]
+          - listitem [ref=e785]:
+            - group "Pin card" [ref=e788]:
+              - generic [ref=e790]:
+                - link "an iphone is sitting on top of a rock and it's screen displays the calendar" [ref=e793] [cursor=pointer]:
+                  - /url: /pin/4362930884632982/
+                  - img "an iphone is sitting on top of a rock and it's screen displays the calendar" [ref=e803]
+                - generic [ref=e805]:
+                  - generic:
+                    - link "an iphone is sitting on top of a rock and it's screen displays the calendar":
+                      - /url: /pin/4362930884632982/
+                  - generic "More actions" [ref=e812]:
+                    - button "More actions" [ref=e813] [cursor=pointer]:
+                      - img [ref=e816]
+          - listitem [ref=e818]:
+            - generic [ref=e819]:
+              - generic [ref=e825]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e827]:
+                - generic [ref=e829]:
+                  - link "an image of a personal assistant invoicer with the title'my personal assistant '" [ref=e832] [cursor=pointer]:
+                    - /url: /pin/68749924023/
+                    - img "an image of a personal assistant invoicer with the title'my personal assistant '" [ref=e842]
+                  - generic [ref=e844]:
+                    - generic:
+                      - link "an image of a personal assistant invoicer with the title'my personal assistant '":
+                        - /url: /pin/68749924023/
+                    - generic "More actions" [ref=e851]:
+                      - button "More actions" [ref=e852] [cursor=pointer]:
+                        - img [ref=e855]
+          - listitem [ref=e857]:
+            - group "Pin card" [ref=e860]:
+              - generic [ref=e862]:
+                - link "Creative attendance app design layout tailored for college attendance management and student planners." [ref=e865] [cursor=pointer]:
+                  - /url: /pin/104919866315659369/
+                  - img "Creative attendance app design layout tailored for college attendance management and student planners." [ref=e875]
+                - generic [ref=e877]:
+                  - generic:
+                    - link "Creative attendance app design layout tailored for college attendance management and student planners.":
+                      - /url: /pin/104919866315659369/
+                  - generic "More actions" [ref=e884]:
+                    - button "More actions" [ref=e885] [cursor=pointer]:
+                      - img [ref=e888]
+          - listitem [ref=e890]:
+            - group "Pin card" [ref=e893]:
+              - generic [ref=e895]:
+                - link "several screens showing different tasks in the app" [ref=e898] [cursor=pointer]:
+                  - /url: /pin/140807925846148582/
+                  - img "several screens showing different tasks in the app" [ref=e908]
+                - generic [ref=e910]:
+                  - generic:
+                    - link "several screens showing different tasks in the app":
+                      - /url: /pin/140807925846148582/
+                  - generic "More actions" [ref=e917]:
+                    - button "More actions" [ref=e918] [cursor=pointer]:
+                      - img [ref=e921]
+          - listitem [ref=e923]:
+            - group "Pin card" [ref=e926]:
+              - generic [ref=e928]:
+                - link "Visual Planner for ADHD and Executive" [ref=e931] [cursor=pointer]:
+                  - /url: /pin/4996249583606182/
+                  - img "Visual Planner for ADHD and Executive" [ref=e941]
+                - generic [ref=e943]:
+                  - generic:
+                    - link "Visual Planner for ADHD and Executive":
+                      - /url: /pin/4996249583606182/
+                  - generic "More actions" [ref=e950]:
+                    - button "More actions" [ref=e951] [cursor=pointer]:
+                      - img [ref=e954]
+          - listitem [ref=e956]:
+            - group "Pin card" [ref=e959]:
+              - generic [ref=e961]:
+                - link "an iphone screen showing the daily schedule for this month's yoga and fitness classes" [ref=e964] [cursor=pointer]:
+                  - /url: /pin/673428950574302812/
+                  - img "an iphone screen showing the daily schedule for this month's yoga and fitness classes" [ref=e974]
+                - generic [ref=e976]:
+                  - generic:
+                    - link "an iphone screen showing the daily schedule for this month's yoga and fitness classes":
+                      - /url: /pin/673428950574302812/
+                  - generic "More actions" [ref=e983]:
+                    - button "More actions" [ref=e984] [cursor=pointer]:
+                      - img [ref=e987]
+          - listitem [ref=e989]:
+            - generic [ref=e990]:
+              - generic [ref=e996]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e998]:
+                - generic [ref=e1000]:
+                  - link "the six most important apps to use for your business or company, and what they are doing" [ref=e1003] [cursor=pointer]:
+                    - /url: /pin/906068018817671300/
+                    - img "the six most important apps to use for your business or company, and what they are doing" [ref=e1013]
+                  - generic [ref=e1015]:
+                    - generic:
+                      - link "the six most important apps to use for your business or company, and what they are doing":
+                        - /url: /pin/906068018817671300/
+                    - generic "More actions" [ref=e1022]:
+                      - button "More actions" [ref=e1023] [cursor=pointer]:
+                        - img [ref=e1026]
+          - listitem [ref=e1028]:
+            - group "Pin card" [ref=e1031]:
+              - generic [ref=e1033]:
+                - link "two cell phones with the numbers 30 and thirty displayed on them" [ref=e1036] [cursor=pointer]:
+                  - /url: /pin/7248049396580831/
+                  - img "two cell phones with the numbers 30 and thirty displayed on them" [ref=e1046]
+                - generic [ref=e1048]:
+                  - generic:
+                    - link "two cell phones with the numbers 30 and thirty displayed on them":
+                      - /url: /pin/7248049396580831/
+                  - generic "More actions" [ref=e1055]:
+                    - button "More actions" [ref=e1056] [cursor=pointer]:
+                      - img [ref=e1059]
+          - listitem [ref=e1061]:
+            - group "Pin card" [ref=e1064]:
+              - generic [ref=e1066]:
+                - link "two iphone screens displaying the new task and schedule for each month, with one being an app" [ref=e1069] [cursor=pointer]:
+                  - /url: /pin/193514115232054703/
+                  - img "two iphone screens displaying the new task and schedule for each month, with one being an app" [ref=e1079]
+                - generic [ref=e1081]:
+                  - generic:
+                    - link "two iphone screens displaying the new task and schedule for each month, with one being an app":
+                      - /url: /pin/193514115232054703/
+                  - generic "More actions" [ref=e1088]:
+                    - button "More actions" [ref=e1089] [cursor=pointer]:
+                      - img [ref=e1092]
+          - listitem [ref=e1094]:
+            - generic [ref=e1095]:
+              - generic [ref=e1101]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1103]:
+                - generic [ref=e1105]:
+                  - link "the calendar app is displayed on two smartphones" [ref=e1108] [cursor=pointer]:
+                    - /url: /pin/34691859628213592/
+                    - img "the calendar app is displayed on two smartphones" [ref=e1118]
+                  - generic [ref=e1120]:
+                    - generic:
+                      - link "the calendar app is displayed on two smartphones":
+                        - /url: /pin/34691859628213592/
+                    - generic "More actions" [ref=e1127]:
+                      - button "More actions" [ref=e1128] [cursor=pointer]:
+                        - img [ref=e1131]
+          - listitem [ref=e1133]:
+            - generic [ref=e1134]:
+              - generic [ref=e1140]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1142]:
+                - generic [ref=e1144]:
+                  - link "an iphone screen with the text, all your classes at a glance today on it" [ref=e1147] [cursor=pointer]:
+                    - /url: /pin/7248049396580112/
+                    - img "an iphone screen with the text, all your classes at a glance today on it" [ref=e1157]
+                  - generic [ref=e1159]:
+                    - generic:
+                      - link "an iphone screen with the text, all your classes at a glance today on it":
+                        - /url: /pin/7248049396580112/
+                    - generic "More actions" [ref=e1166]:
+                      - button "More actions" [ref=e1167] [cursor=pointer]:
+                        - img [ref=e1170]
+          - listitem [ref=e1172]:
+            - generic [ref=e1173]:
+              - generic [ref=e1179]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1181]:
+                - generic [ref=e1183]:
+                  - link "a cell phone with a calendar on the screen and an arrow pointing to different times" [ref=e1186] [cursor=pointer]:
+                    - /url: /pin/29132728833882781/
+                    - img "a cell phone with a calendar on the screen and an arrow pointing to different times" [ref=e1196]
+                  - generic [ref=e1198]:
+                    - generic:
+                      - link "a cell phone with a calendar on the screen and an arrow pointing to different times":
+                        - /url: /pin/29132728833882781/
+                    - button "Vecteezy" [ref=e1202] [cursor=pointer]:
+                      - generic [ref=e1204]:
+                        - button "Vecteezy" [ref=e1207]:
+                          - generic "Vecteezy" [ref=e1208]
+                        - generic "More actions" [ref=e1212]:
+                          - button "More actions" [ref=e1213]:
+                            - img [ref=e1216]
+          - listitem [ref=e1218]:
+            - generic [ref=e1219]:
+              - generic [ref=e1225]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1227]:
+                - generic [ref=e1229]:
+                  - link "six iphones with different messages on them, all showing the same person's phone number" [ref=e1232] [cursor=pointer]:
+                    - /url: /pin/875668721313692288/
+                    - img "six iphones with different messages on them, all showing the same person's phone number" [ref=e1242]
+                  - generic [ref=e1244]:
+                    - generic:
+                      - link "six iphones with different messages on them, all showing the same person's phone number":
+                        - /url: /pin/875668721313692288/
+                    - generic "More actions" [ref=e1251]:
+                      - button "More actions" [ref=e1252] [cursor=pointer]:
+                        - img [ref=e1255]
+          - listitem [ref=e1257]:
+            - generic [ref=e1258]:
+              - generic [ref=e1264]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1266]:
+                - generic [ref=e1268]:
+                  - link "the screens are showing different types of app designs and features for people to use on their phones" [ref=e1271] [cursor=pointer]:
+                    - /url: /pin/18718154689244169/
+                    - img "the screens are showing different types of app designs and features for people to use on their phones" [ref=e1281]
+                  - generic [ref=e1283]:
+                    - generic:
+                      - link "the screens are showing different types of app designs and features for people to use on their phones":
+                        - /url: /pin/18718154689244169/
+                    - generic "More actions" [ref=e1290]:
+                      - button "More actions" [ref=e1291] [cursor=pointer]:
+                        - img [ref=e1294]
+          - listitem [ref=e1296]:
+            - generic [ref=e1297]:
+              - generic [ref=e1303]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1305]:
+                - generic [ref=e1307]:
+                  - link "an iphone with the text where your time finally makes sense on it, surrounded by icons" [ref=e1310] [cursor=pointer]:
+                    - /url: /pin/477803841742621522/
+                    - img "an iphone with the text where your time finally makes sense on it, surrounded by icons" [ref=e1320]
+                  - generic [ref=e1322]:
+                    - generic:
+                      - link "an iphone with the text where your time finally makes sense on it, surrounded by icons":
+                        - /url: /pin/477803841742621522/
+                    - button "Behance" [ref=e1326] [cursor=pointer]:
+                      - generic [ref=e1328]:
+                        - button "Behance" [ref=e1331]:
+                          - generic "Behance" [ref=e1332]
+                        - generic "More actions" [ref=e1336]:
+                          - button "More actions" [ref=e1337]:
+                            - img [ref=e1340]
+          - listitem [ref=e1342]:
+            - generic [ref=e1343]:
+              - generic [ref=e1349]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1351]:
+                - generic [ref=e1353]:
+                  - link "two screens showing the schedule and schedules for each event, one with an individual's name on it" [ref=e1356] [cursor=pointer]:
+                    - /url: /pin/131519251613341673/
+                    - img "two screens showing the schedule and schedules for each event, one with an individual's name on it" [ref=e1366]
+                  - generic [ref=e1368]:
+                    - generic:
+                      - link "two screens showing the schedule and schedules for each event, one with an individual's name on it":
+                        - /url: /pin/131519251613341673/
+                    - generic "More actions" [ref=e1375]:
+                      - button "More actions" [ref=e1376] [cursor=pointer]:
+                        - img [ref=e1379]
+          - listitem [ref=e1381]:
+            - generic [ref=e1382]:
+              - generic [ref=e1388]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1390]:
+                - generic [ref=e1392]:
+                  - link "two iphones with different messages on them, one showing an image and the other saying" [ref=e1395] [cursor=pointer]:
+                    - /url: /pin/338544097013145640/
+                    - img "two iphones with different messages on them, one showing an image and the other saying" [ref=e1405]
+                  - generic [ref=e1407]:
+                    - generic:
+                      - link "two iphones with different messages on them, one showing an image and the other saying":
+                        - /url: /pin/338544097013145640/
+                    - generic "More actions" [ref=e1414]:
+                      - button "More actions" [ref=e1415] [cursor=pointer]:
+                        - img [ref=e1418]

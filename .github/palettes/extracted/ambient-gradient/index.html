@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PALETTE — Ambient Gradient</title>
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        :root {
+            --nav-bg: #2a2a2a; --nav-text: #d0d0d0; --nav-accent: #999999;
+            --bg: #f5f5f5; --surface: #ffffff; --text: #333333; --text-muted: #777777; --border: #e0e0e0;
+            --font: system-ui, -apple-system, 'Segoe UI', sans-serif;
+            --mono: 'Cascadia Code', 'Fira Code', Consolas, monospace;
+        }
+        body { font-family: var(--font); background: var(--bg); color: var(--text); min-height: 100vh; }
+        .site-nav { background: var(--nav-bg); color: var(--nav-text); display: flex; align-items: center; padding: 0 1rem; height: 48px; position: sticky; top: 0; z-index: 200; border-bottom: 1px solid #444; }
+        .site-nav__hamburger { background: none; border: none; color: var(--nav-text); font-size: 1.4rem; cursor: pointer; padding: 0.25rem 0.5rem; border-radius: 4px; line-height: 1; }
+        .site-nav__hamburger:hover { background: rgba(255,255,255,0.1); }
+        .site-nav__title { font-size: 0.85rem; font-weight: 600; margin-left: 0.75rem; }
+        .site-nav__page { margin-left: auto; font-family: var(--mono); font-size: 0.7rem; color: var(--nav-accent); }
+        .site-nav__arrows { display: flex; gap: 0.25rem; margin-left: 0.75rem; }
+        .site-nav__arrow { background: none; border: 1px solid rgba(255,255,255,0.2); color: var(--nav-text); width: 32px; height: 32px; border-radius: 4px; cursor: pointer; font-size: 1rem; display: flex; align-items: center; justify-content: center; }
+        .site-nav__arrow:hover { background: rgba(255,255,255,0.1); border-color: var(--nav-accent); }
+        .site-nav__arrow:disabled { opacity: 0.3; cursor: default; }
+        .nav-drawer { display: none; position: fixed; top: 48px; left: 0; bottom: 0; width: 280px; background: var(--nav-bg); z-index: 190; overflow-y: auto; border-right: 1px solid rgba(255,255,255,0.1); padding: 1rem 0; }
+        .nav-drawer.open { display: block; }
+        .nav-drawer__overlay { display: none; position: fixed; inset: 0; top: 48px; background: rgba(0,0,0,0.4); z-index: 185; }
+        .nav-drawer__overlay.open { display: block; }
+        .nav-drawer__section { font-family: var(--mono); font-size: 0.6rem; text-transform: uppercase; letter-spacing: 0.12em; color: rgba(255,255,255,0.4); padding: 0.75rem 1.25rem 0.25rem; }
+        .nav-drawer__link { display: block; padding: 0.5rem 1.25rem; color: var(--nav-text); text-decoration: none; font-size: 0.8rem; }
+        .nav-drawer__link:hover { background: rgba(255,255,255,0.08); }
+        .nav-drawer__link.active { color: var(--nav-accent); background: rgba(255,255,255,0.05); }
+        .page-header { max-width: 1200px; margin: 0 auto; padding: 2rem 2rem 1rem; }
+        .page-header__badge { font-family: var(--mono); font-size: 0.65rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--nav-accent); background: rgba(150,150,150,0.1); padding: 0.2rem 0.6rem; border-radius: 3px; display: inline-block; margin-bottom: 0.5rem; }
+        .page-header__title { font-size: 1.5rem; font-weight: 700; }
+        .page-header__meta { font-family: var(--mono); font-size: 0.75rem; color: var(--text-muted); margin-top: 0.25rem; }
+        .extraction-group { max-width: 1200px; margin: 0 auto 3rem; padding: 0 2rem; }
+        .extraction-group__source { margin-bottom: 1.5rem; }
+        .extraction-group__label { font-family: var(--mono); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-muted); margin-bottom: 0.5rem; }
+        .extraction-group__img { max-width: 100%; max-height: 400px; border-radius: 8px; box-shadow: 0 2px 12px rgba(0,0,0,0.1); object-fit: contain; }
+        .extraction-group__ref { font-family: var(--mono); font-size: 0.6rem; color: var(--text-muted); margin-top: 0.25rem; }
+        .extraction-group__colors { margin-top: 1rem; }
+        .extraction-group__colors-label { font-family: var(--mono); font-size: 0.6rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-muted); margin-bottom: 0.5rem; }
+        .extracted-colors { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+        .extracted-color { width: 60px; text-align: center; }
+        .extracted-color__fill { width: 60px; height: 40px; border-radius: 6px; border: 1px solid var(--border); }
+        .extracted-color__hex { font-family: var(--mono); font-size: 0.55rem; color: var(--text-muted); margin-top: 0.2rem; }
+        .extracted-color__name { font-family: var(--mono); font-size: 0.5rem; color: var(--text-muted); }
+        .palette-option { background: var(--surface); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
+        .palette-option__name { font-size: 1.1rem; font-weight: 600; margin-bottom: 0.25rem; }
+        .palette-option__harmony { font-family: var(--mono); font-size: 0.7rem; color: var(--text-muted); margin-bottom: 0.5rem; }
+        .palette-option__description { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem; line-height: 1.5; }
+        .palette-option__mode-label { font-family: var(--mono); font-size: 0.6rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-muted); margin: 1rem 0 0.5rem; }
+        .palette-option__chips { display: flex; gap: 0.75rem; flex-wrap: wrap; }
+        .color-chip { width: 120px; border-radius: 8px; overflow: hidden; border: 1px solid var(--border); background: var(--surface); }
+        .color-chip__fill { width: 100%; height: 100px; }
+        .color-chip__info { padding: 0.5rem; }
+        .color-chip__role { font-family: var(--mono); font-size: 0.6rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); margin-bottom: 0.25rem; }
+        .color-chip__hex { font-family: var(--mono); font-size: 0.75rem; font-weight: 600; }
+        .color-chip__rgb { font-family: var(--mono); font-size: 0.6rem; color: var(--text-muted); }
+        .color-chip__copy { font-family: var(--mono); font-size: 0.55rem; color: var(--nav-accent); cursor: pointer; background: none; border: none; padding: 0.15rem 0; margin-top: 0.15rem; }
+        .color-chip__copy:hover { text-decoration: underline; }
+        .preview-bar { display: flex; border-radius: 8px; overflow: hidden; height: 48px; margin-top: 0.75rem; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+        .preview-bar__segment { flex: 1; display: flex; align-items: center; justify-content: center; font-family: var(--mono); font-size: 0.6rem; font-weight: 600; }
+    </style>
+</head>
+<body>
+    <nav class="site-nav">
+        <button class="site-nav__hamburger" id="navToggle" aria-label="Menu">☰</button>
+        <span class="site-nav__title" id="projectTitle">AI Embodiment</span>
+        <span class="site-nav__page">Palette</span>
+        <div class="site-nav__arrows">
+            <button class="site-nav__arrow" id="navPrev" aria-label="Previous page">‹</button>
+            <button class="site-nav__arrow" id="navNext" aria-label="Next page">›</button>
+        </div>
+    </nav>
+    <div class="nav-drawer__overlay" id="navOverlay"></div>
+    <aside class="nav-drawer" id="navDrawer" role="navigation"></aside>
+
+    <header class="page-header">
+        <span class="page-header__badge">Palette Extraction</span>
+        <h1 class="page-header__title">Ambient Gradient</h1>
+        <p class="page-header__meta">Extracted from ai-voice-ui/voice-ui-2.jpg · 4 harmony options · Light & Dark modes</p>
+    </header>
+
+    <main id="extractionsContainer">
+        <section class="extraction-group">
+            <div class="extraction-group__source">
+                <div class="extraction-group__label">Source Image</div>
+                <img class="extraction-group__img" src="source-1.jpg" alt="Ambient gradient UI — calm blue and active aurora states">
+                <div class="extraction-group__ref">ai-voice-ui/voice-ui-2.jpg</div>
+            </div>
+            <div class="extraction-group__colors">
+                <div class="extraction-group__colors-label">Extracted Colors</div>
+                <div class="extracted-colors">
+                    <div class="extracted-color"><div class="extracted-color__fill" style="background:#08080C;"></div><div class="extracted-color__hex">#08080C</div><div class="extracted-color__name">Void</div></div>
+                    <div class="extracted-color"><div class="extracted-color__fill" style="background:#2878D0;"></div><div class="extracted-color__hex">#2878D0</div><div class="extracted-color__name">Electric Blue</div></div>
+                    <div class="extracted-color"><div class="extracted-color__fill" style="background:#4090C8;"></div><div class="extracted-color__hex">#4090C8</div><div class="extracted-color__name">Blue Mist</div></div>
+                    <div class="extracted-color"><div class="extracted-color__fill" style="background:#28C870;"></div><div class="extracted-color__hex">#28C870</div><div class="extracted-color__name">Emerald</div></div>
+                    <div class="extracted-color"><div class="extracted-color__fill" style="background:#D8A040;"></div><div class="extracted-color__hex">#D8A040</div><div class="extracted-color__name">Amber</div></div>
+                    <div class="extracted-color"><div class="extracted-color__fill" style="background:#8868B8;"></div><div class="extracted-color__hex">#8868B8</div><div class="extracted-color__name">Soft Violet</div></div>
+                    <div class="extracted-color"><div class="extracted-color__fill" style="background:#20A8A0;"></div><div class="extracted-color__hex">#20A8A0</div><div class="extracted-color__name">Teal</div></div>
+                </div>
+            </div>
+        </section>
+
+        <div class="palettes" style="max-width:1200px;margin:0 auto;padding:0 2rem 1rem;">
+
+            <!-- PALETTE 1: Monochromatic Blue -->
+            <div class="palette-option">
+                <div class="palette-option__name">Still Horizon</div>
+                <div class="palette-option__harmony">Monochromatic · Single hue from the calm/idle panel</div>
+                <div class="palette-option__description">Drawn entirely from the left panel — the resting state. Pure electric blue in varying depths against near-black. This is the embodiment at rest: contemplative, present, waiting. The near-black background creates a sense of infinite depth. A warm off-white accent provides the only point of warmth — a whisper that something is alive in the dark.</div>
+
+                <div class="palette-option__mode-label">☀ Light Mode</div>
+                <div class="palette-option__chips">
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#2070C0;"></div><div class="color-chip__info"><div class="color-chip__role">Primary</div><div class="color-chip__hex">#2070C0</div><div class="color-chip__rgb">32, 112, 192</div><button class="color-chip__copy" data-hex="#2070C0">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#3888D0;"></div><div class="color-chip__info"><div class="color-chip__role">Secondary</div><div class="color-chip__hex">#3888D0</div><div class="color-chip__rgb">56, 136, 208</div><button class="color-chip__copy" data-hex="#3888D0">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#F0E8D8;"></div><div class="color-chip__info"><div class="color-chip__role">Accent</div><div class="color-chip__hex">#F0E8D8</div><div class="color-chip__rgb">240, 232, 216</div><button class="color-chip__copy" data-hex="#F0E8D8">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#F0F4F8;"></div><div class="color-chip__info"><div class="color-chip__role">Background</div><div class="color-chip__hex">#F0F4F8</div><div class="color-chip__rgb">240, 244, 248</div><button class="color-chip__copy" data-hex="#F0F4F8">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#FFFFFF;"></div><div class="color-chip__info"><div class="color-chip__role">Surface</div><div class="color-chip__hex">#FFFFFF</div><div class="color-chip__rgb">255, 255, 255</div><button class="color-chip__copy" data-hex="#FFFFFF">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#0C1018;"></div><div class="color-chip__info"><div class="color-chip__role">Text</div><div class="color-chip__hex">#0C1018</div><div class="color-chip__rgb">12, 16, 24</div><button class="color-chip__copy" data-hex="#0C1018">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#6890B0;"></div><div class="color-chip__info"><div class="color-chip__role">Muted Text</div><div class="color-chip__hex">#6890B0</div><div class="color-chip__rgb">104, 144, 176</div><button class="color-chip__copy" data-hex="#6890B0">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#C8D8E8;"></div><div class="color-chip__info"><div class="color-chip__role">Border</div><div class="color-chip__hex">#C8D8E8</div><div class="color-chip__rgb">200, 216, 232</div><button class="color-chip__copy" data-hex="#C8D8E8">Copy</button></div></div>
+                </div>
+                <div class="preview-bar">
+                    <div class="preview-bar__segment" style="background:#F0F4F8;flex:6;color:#0C1018;">BG 60%</div>
+                    <div class="preview-bar__segment" style="background:#2070C0;flex:3;color:#FFFFFF;">BLU 30%</div>
+                    <div class="preview-bar__segment" style="background:#F0E8D8;flex:1;color:#0C1018;">ACC 10%</div>
+                </div>
+
+                <div class="palette-option__mode-label">🌙 Dark Mode</div>
+                <div class="palette-option__chips">
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#4090C8;"></div><div class="color-chip__info"><div class="color-chip__role">Primary</div><div class="color-chip__hex">#4090C8</div><div class="color-chip__rgb">64, 144, 200</div><button class="color-chip__copy" data-hex="#4090C8">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#2878D0;"></div><div class="color-chip__info"><div class="color-chip__role">Secondary</div><div class="color-chip__hex">#2878D0</div><div class="color-chip__rgb">40, 120, 208</div><button class="color-chip__copy" data-hex="#2878D0">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#F0E8D8;"></div><div class="color-chip__info"><div class="color-chip__role">Accent</div><div class="color-chip__hex">#F0E8D8</div><div class="color-chip__rgb">240, 232, 216</div><button class="color-chip__copy" data-hex="#F0E8D8">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#08080C;"></div><div class="color-chip__info"><div class="color-chip__role">Background</div><div class="color-chip__hex">#08080C</div><div class="color-chip__rgb">8, 8, 12</div><button class="color-chip__copy" data-hex="#08080C">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#101420;"></div><div class="color-chip__info"><div class="color-chip__role">Surface</div><div class="color-chip__hex">#101420</div><div class="color-chip__rgb">16, 20, 32</div><button class="color-chip__copy" data-hex="#101420">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#E0E8F0;"></div><div class="color-chip__info"><div class="color-chip__role">Text</div><div class="color-chip__hex">#E0E8F0</div><div class="color-chip__rgb">224, 232, 240</div><button class="color-chip__copy" data-hex="#E0E8F0">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#4870A0;"></div><div class="color-chip__info"><div class="color-chip__role">Muted Text</div><div class="color-chip__hex">#4870A0</div><div class="color-chip__rgb">72, 112, 160</div><button class="color-chip__copy" data-hex="#4870A0">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#182030;"></div><div class="color-chip__info"><div class="color-chip__role">Border</div><div class="color-chip__hex">#182030</div><div class="color-chip__rgb">24, 32, 48</div><button class="color-chip__copy" data-hex="#182030">Copy</button></div></div>
+                </div>
+                <div class="preview-bar">
+                    <div class="preview-bar__segment" style="background:#08080C;flex:6;color:#E0E8F0;">BG 60%</div>
+                    <div class="preview-bar__segment" style="background:#101420;flex:3;color:#E0E8F0;">SRF 30%</div>
+                    <div class="preview-bar__segment" style="background:#4090C8;flex:1;color:#08080C;">BLU 10%</div>
+                </div>
+            </div>
+
+            <!-- PALETTE 2: Analogous (Blue → Teal → Green) -->
+            <div class="palette-option">
+                <div class="palette-option__name">Aurora Wake</div>
+                <div class="palette-option__harmony">Analogous · Adjacent hues: Blue → Teal → Emerald</div>
+                <div class="palette-option__description">Rides the cool-to-green gradient visible in the right panel's aurora. Blue transitions through teal into emerald — the embodiment shifting from calm attention to active processing. The amber accent from the wave crest provides warmth for speaking/output states. This palette has natural state-mapping built in: blue = idle, teal = listening, green = thinking, amber = speaking.</div>
+
+                <div class="palette-option__mode-label">☀ Light Mode</div>
+                <div class="palette-option__chips">
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#2070C0;"></div><div class="color-chip__info"><div class="color-chip__role">Primary</div><div class="color-chip__hex">#2070C0</div><div class="color-chip__rgb">32, 112, 192</div><button class="color-chip__copy" data-hex="#2070C0">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#20A8A0;"></div><div class="color-chip__info"><div class="color-chip__role">Secondary</div><div class="color-chip__hex">#20A8A0</div><div class="color-chip__rgb">32, 168, 160</div><button class="color-chip__copy" data-hex="#20A8A0">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#28C870;"></div><div class="color-chip__info"><div class="color-chip__role">Tertiary</div><div class="color-chip__hex">#28C870</div><div class="color-chip__rgb">40, 200, 112</div><button class="color-chip__copy" data-hex="#28C870">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#D8A040;"></div><div class="color-chip__info"><div class="color-chip__role">Accent</div><div class="color-chip__hex">#D8A040</div><div class="color-chip__rgb">216, 160, 64</div><button class="color-chip__copy" data-hex="#D8A040">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#F0F4F6;"></div><div class="color-chip__info"><div class="color-chip__role">Background</div><div class="color-chip__hex">#F0F4F6</div><div class="color-chip__rgb">240, 244, 246</div><button class="color-chip__copy" data-hex="#F0F4F6">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#FFFFFF;"></div><div class="color-chip__info"><div class="color-chip__role">Surface</div><div class="color-chip__hex">#FFFFFF</div><div class="color-chip__rgb">255, 255, 255</div><button class="color-chip__copy" data-hex="#FFFFFF">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#0C1018;"></div><div class="color-chip__info"><div class="color-chip__role">Text</div><div class="color-chip__hex">#0C1018</div><div class="color-chip__rgb">12, 16, 24</div><button class="color-chip__copy" data-hex="#0C1018">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#6090A8;"></div><div class="color-chip__info"><div class="color-chip__role">Muted Text</div><div class="color-chip__hex">#6090A8</div><div class="color-chip__rgb">96, 144, 168</div><button class="color-chip__copy" data-hex="#6090A8">Copy</button></div></div>
+                </div>
+                <div class="preview-bar">
+                    <div class="preview-bar__segment" style="background:#F0F4F6;flex:6;color:#0C1018;">BG 60%</div>
+                    <div class="preview-bar__segment" style="background:#2070C0;flex:1.5;color:#FFFFFF;">BLU</div>
+                    <div class="preview-bar__segment" style="background:#20A8A0;flex:1;color:#FFFFFF;">TEL</div>
+                    <div class="preview-bar__segment" style="background:#28C870;flex:0.5;color:#0C1018;">GRN</div>
+                    <div class="preview-bar__segment" style="background:#D8A040;flex:1;color:#0C1018;">AMB</div>
+                </div>
+
+                <div class="palette-option__mode-label">🌙 Dark Mode</div>
+                <div class="palette-option__chips">
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#4090C8;"></div><div class="color-chip__info"><div class="color-chip__role">Primary</div><div class="color-chip__hex">#4090C8</div><div class="color-chip__rgb">64, 144, 200</div><button class="color-chip__copy" data-hex="#4090C8">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#30C0B8;"></div><div class="color-chip__info"><div class="color-chip__role">Secondary</div><div class="color-chip__hex">#30C0B8</div><div class="color-chip__rgb">48, 192, 184</div><button class="color-chip__copy" data-hex="#30C0B8">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#38D880;"></div><div class="color-chip__info"><div class="color-chip__role">Tertiary</div><div class="color-chip__hex">#38D880</div><div class="color-chip__rgb">56, 216, 128</div><button class="color-chip__copy" data-hex="#38D880">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#E8B040;"></div><div class="color-chip__info"><div class="color-chip__role">Accent</div><div class="color-chip__hex">#E8B040</div><div class="color-chip__rgb">232, 176, 64</div><button class="color-chip__copy" data-hex="#E8B040">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#08080C;"></div><div class="color-chip__info"><div class="color-chip__role">Background</div><div class="color-chip__hex">#08080C</div><div class="color-chip__rgb">8, 8, 12</div><button class="color-chip__copy" data-hex="#08080C">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#101420;"></div><div class="color-chip__info"><div class="color-chip__role">Surface</div><div class="color-chip__hex">#101420</div><div class="color-chip__rgb">16, 20, 32</div><button class="color-chip__copy" data-hex="#101420">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#E0E8F0;"></div><div class="color-chip__info"><div class="color-chip__role">Text</div><div class="color-chip__hex">#E0E8F0</div><div class="color-chip__rgb">224, 232, 240</div><button class="color-chip__copy" data-hex="#E0E8F0">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#406880;"></div><div class="color-chip__info"><div class="color-chip__role">Muted Text</div><div class="color-chip__hex">#406880</div><div class="color-chip__rgb">64, 104, 128</div><button class="color-chip__copy" data-hex="#406880">Copy</button></div></div>
+                </div>
+                <div class="preview-bar">
+                    <div class="preview-bar__segment" style="background:#08080C;flex:6;color:#E0E8F0;">BG 60%</div>
+                    <div class="preview-bar__segment" style="background:#4090C8;flex:1.5;color:#E0E8F0;">BLU</div>
+                    <div class="preview-bar__segment" style="background:#30C0B8;flex:1;color:#08080C;">TEL</div>
+                    <div class="preview-bar__segment" style="background:#38D880;flex:0.5;color:#08080C;">GRN</div>
+                    <div class="preview-bar__segment" style="background:#E8B040;flex:1;color:#08080C;">AMB</div>
+                </div>
+            </div>
+
+            <!-- PALETTE 3: Complementary (Blue ↔ Amber) -->
+            <div class="palette-option">
+                <div class="palette-option__name">Calm & Signal</div>
+                <div class="palette-option__harmony">Complementary · Opposite hues: Electric Blue ↔ Warm Amber</div>
+                <div class="palette-option__description">Distills the two-panel image to its core duality — the calm blue of the idle state versus the warm amber that crests when the agent activates. Maximum clarity for state communication: blue = at rest, amber = attention/output. Clean, high-contrast, unambiguous. The most app-ready palette — users will instinctively read the temperature shift as a state change.</div>
+
+                <div class="palette-option__mode-label">☀ Light Mode</div>
+                <div class="palette-option__chips">
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#2070C0;"></div><div class="color-chip__info"><div class="color-chip__role">Primary</div><div class="color-chip__hex">#2070C0</div><div class="color-chip__rgb">32, 112, 192</div><button class="color-chip__copy" data-hex="#2070C0">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#3888D0;"></div><div class="color-chip__info"><div class="color-chip__role">Secondary</div><div class="color-chip__hex">#3888D0</div><div class="color-chip__rgb">56, 136, 208</div><button class="color-chip__copy" data-hex="#3888D0">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#D8A040;"></div><div class="color-chip__info"><div class="color-chip__role">Accent</div><div class="color-chip__hex">#D8A040</div><div class="color-chip__rgb">216, 160, 64</div><button class="color-chip__copy" data-hex="#D8A040">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#F0F4F8;"></div><div class="color-chip__info"><div class="color-chip__role">Background</div><div class="color-chip__hex">#F0F4F8</div><div class="color-chip__rgb">240, 244, 248</div><button class="color-chip__copy" data-hex="#F0F4F8">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#FFFFFF;"></div><div class="color-chip__info"><div class="color-chip__role">Surface</div><div class="color-chip__hex">#FFFFFF</div><div class="color-chip__rgb">255, 255, 255</div><button class="color-chip__copy" data-hex="#FFFFFF">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#0C1018;"></div><div class="color-chip__info"><div class="color-chip__role">Text</div><div class="color-chip__hex">#0C1018</div><div class="color-chip__rgb">12, 16, 24</div><button class="color-chip__copy" data-hex="#0C1018">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#6890B0;"></div><div class="color-chip__info"><div class="color-chip__role">Muted Text</div><div class="color-chip__hex">#6890B0</div><div class="color-chip__rgb">104, 144, 176</div><button class="color-chip__copy" data-hex="#6890B0">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#C8D8E8;"></div><div class="color-chip__info"><div class="color-chip__role">Border</div><div class="color-chip__hex">#C8D8E8</div><div class="color-chip__rgb">200, 216, 232</div><button class="color-chip__copy" data-hex="#C8D8E8">Copy</button></div></div>
+                </div>
+                <div class="preview-bar">
+                    <div class="preview-bar__segment" style="background:#F0F4F8;flex:6;color:#0C1018;">BG 60%</div>
+                    <div class="preview-bar__segment" style="background:#2070C0;flex:3;color:#FFFFFF;">BLU 30%</div>
+                    <div class="preview-bar__segment" style="background:#D8A040;flex:1;color:#FFFFFF;">AMB 10%</div>
+                </div>
+
+                <div class="palette-option__mode-label">🌙 Dark Mode</div>
+                <div class="palette-option__chips">
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#4090C8;"></div><div class="color-chip__info"><div class="color-chip__role">Primary</div><div class="color-chip__hex">#4090C8</div><div class="color-chip__rgb">64, 144, 200</div><button class="color-chip__copy" data-hex="#4090C8">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#2878D0;"></div><div class="color-chip__info"><div class="color-chip__role">Secondary</div><div class="color-chip__hex">#2878D0</div><div class="color-chip__rgb">40, 120, 208</div><button class="color-chip__copy" data-hex="#2878D0">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#E8B040;"></div><div class="color-chip__info"><div class="color-chip__role">Accent</div><div class="color-chip__hex">#E8B040</div><div class="color-chip__rgb">232, 176, 64</div><button class="color-chip__copy" data-hex="#E8B040">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#08080C;"></div><div class="color-chip__info"><div class="color-chip__role">Background</div><div class="color-chip__hex">#08080C</div><div class="color-chip__rgb">8, 8, 12</div><button class="color-chip__copy" data-hex="#08080C">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#101420;"></div><div class="color-chip__info"><div class="color-chip__role">Surface</div><div class="color-chip__hex">#101420</div><div class="color-chip__rgb">16, 20, 32</div><button class="color-chip__copy" data-hex="#101420">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#E0E8F0;"></div><div class="color-chip__info"><div class="color-chip__role">Text</div><div class="color-chip__hex">#E0E8F0</div><div class="color-chip__rgb">224, 232, 240</div><button class="color-chip__copy" data-hex="#E0E8F0">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#4870A0;"></div><div class="color-chip__info"><div class="color-chip__role">Muted Text</div><div class="color-chip__hex">#4870A0</div><div class="color-chip__rgb">72, 112, 160</div><button class="color-chip__copy" data-hex="#4870A0">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#182030;"></div><div class="color-chip__info"><div class="color-chip__role">Border</div><div class="color-chip__hex">#182030</div><div class="color-chip__rgb">24, 32, 48</div><button class="color-chip__copy" data-hex="#182030">Copy</button></div></div>
+                </div>
+                <div class="preview-bar">
+                    <div class="preview-bar__segment" style="background:#08080C;flex:6;color:#E0E8F0;">BG 60%</div>
+                    <div class="preview-bar__segment" style="background:#101420;flex:3;color:#E0E8F0;">SRF 30%</div>
+                    <div class="preview-bar__segment" style="background:#E8B040;flex:1;color:#08080C;">AMB 10%</div>
+                </div>
+            </div>
+
+            <!-- PALETTE 4: Split-Complementary (Blue + Violet + Amber) -->
+            <div class="palette-option">
+                <div class="palette-option__name">Spectral Pulse</div>
+                <div class="palette-option__harmony">Split-Complementary · Blue + Soft Violet + Warm Amber</div>
+                <div class="palette-option__description">Captures the full emotional arc of the right panel — the violet base of the wave, the blue field it rises from, and the amber warmth at the crest. Three temperature zones that map naturally to state: cool violet = processing/thinking (internal energy), blue = calm/listening, warm amber = speaking/output. The most emotionally nuanced option — the embodiment can traverse the full spectrum of engagement without ever feeling jarring.</div>
+
+                <div class="palette-option__mode-label">☀ Light Mode</div>
+                <div class="palette-option__chips">
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#2070C0;"></div><div class="color-chip__info"><div class="color-chip__role">Primary</div><div class="color-chip__hex">#2070C0</div><div class="color-chip__rgb">32, 112, 192</div><button class="color-chip__copy" data-hex="#2070C0">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#3888D0;"></div><div class="color-chip__info"><div class="color-chip__role">Secondary</div><div class="color-chip__hex">#3888D0</div><div class="color-chip__rgb">56, 136, 208</div><button class="color-chip__copy" data-hex="#3888D0">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#8868B8;"></div><div class="color-chip__info"><div class="color-chip__role">Accent Warm</div><div class="color-chip__hex">#8868B8</div><div class="color-chip__rgb">136, 104, 184</div><button class="color-chip__copy" data-hex="#8868B8">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#D8A040;"></div><div class="color-chip__info"><div class="color-chip__role">Accent Gold</div><div class="color-chip__hex">#D8A040</div><div class="color-chip__rgb">216, 160, 64</div><button class="color-chip__copy" data-hex="#D8A040">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#F0F4F8;"></div><div class="color-chip__info"><div class="color-chip__role">Background</div><div class="color-chip__hex">#F0F4F8</div><div class="color-chip__rgb">240, 244, 248</div><button class="color-chip__copy" data-hex="#F0F4F8">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#FFFFFF;"></div><div class="color-chip__info"><div class="color-chip__role">Surface</div><div class="color-chip__hex">#FFFFFF</div><div class="color-chip__rgb">255, 255, 255</div><button class="color-chip__copy" data-hex="#FFFFFF">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#0C1018;"></div><div class="color-chip__info"><div class="color-chip__role">Text</div><div class="color-chip__hex">#0C1018</div><div class="color-chip__rgb">12, 16, 24</div><button class="color-chip__copy" data-hex="#0C1018">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#7888A0;"></div><div class="color-chip__info"><div class="color-chip__role">Muted Text</div><div class="color-chip__hex">#7888A0</div><div class="color-chip__rgb">120, 136, 160</div><button class="color-chip__copy" data-hex="#7888A0">Copy</button></div></div>
+                </div>
+                <div class="preview-bar">
+                    <div class="preview-bar__segment" style="background:#F0F4F8;flex:6;color:#0C1018;">BG 60%</div>
+                    <div class="preview-bar__segment" style="background:#2070C0;flex:2;color:#FFFFFF;">BLU 20%</div>
+                    <div class="preview-bar__segment" style="background:#8868B8;flex:1;color:#FFFFFF;">VIO 10%</div>
+                    <div class="preview-bar__segment" style="background:#D8A040;flex:1;color:#FFFFFF;">AMB 10%</div>
+                </div>
+
+                <div class="palette-option__mode-label">🌙 Dark Mode</div>
+                <div class="palette-option__chips">
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#4090C8;"></div><div class="color-chip__info"><div class="color-chip__role">Primary</div><div class="color-chip__hex">#4090C8</div><div class="color-chip__rgb">64, 144, 200</div><button class="color-chip__copy" data-hex="#4090C8">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#2878D0;"></div><div class="color-chip__info"><div class="color-chip__role">Secondary</div><div class="color-chip__hex">#2878D0</div><div class="color-chip__rgb">40, 120, 208</div><button class="color-chip__copy" data-hex="#2878D0">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#A080D0;"></div><div class="color-chip__info"><div class="color-chip__role">Accent Warm</div><div class="color-chip__hex">#A080D0</div><div class="color-chip__rgb">160, 128, 208</div><button class="color-chip__copy" data-hex="#A080D0">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#E8B040;"></div><div class="color-chip__info"><div class="color-chip__role">Accent Gold</div><div class="color-chip__hex">#E8B040</div><div class="color-chip__rgb">232, 176, 64</div><button class="color-chip__copy" data-hex="#E8B040">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#08080C;"></div><div class="color-chip__info"><div class="color-chip__role">Background</div><div class="color-chip__hex">#08080C</div><div class="color-chip__rgb">8, 8, 12</div><button class="color-chip__copy" data-hex="#08080C">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#101420;"></div><div class="color-chip__info"><div class="color-chip__role">Surface</div><div class="color-chip__hex">#101420</div><div class="color-chip__rgb">16, 20, 32</div><button class="color-chip__copy" data-hex="#101420">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#E0E8F0;"></div><div class="color-chip__info"><div class="color-chip__role">Text</div><div class="color-chip__hex">#E0E8F0</div><div class="color-chip__rgb">224, 232, 240</div><button class="color-chip__copy" data-hex="#E0E8F0">Copy</button></div></div>
+                    <div class="color-chip"><div class="color-chip__fill" style="background:#506880;"></div><div class="color-chip__info"><div class="color-chip__role">Muted Text</div><div class="color-chip__hex">#506880</div><div class="color-chip__rgb">80, 104, 128</div><button class="color-chip__copy" data-hex="#506880">Copy</button></div></div>
+                </div>
+                <div class="preview-bar">
+                    <div class="preview-bar__segment" style="background:#08080C;flex:6;color:#E0E8F0;">BG 60%</div>
+                    <div class="preview-bar__segment" style="background:#101420;flex:2;color:#E0E8F0;">SRF 20%</div>
+                    <div class="preview-bar__segment" style="background:#A080D0;flex:1;color:#E0E8F0;">VIO 10%</div>
+                    <div class="preview-bar__segment" style="background:#E8B040;flex:1;color:#08080C;">AMB 10%</div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <script>
+        const CURRENT_PAGE_ID = 'palette-ambient-gradient';
+        let navData = null;
+        async function initNav() {
+            try {
+                let navPath = null;
+                for (const candidate of ['../../../design-nav.json', '../../design-nav.json', '../design-nav.json', 'design-nav.json']) {
+                    try { const res = await fetch(candidate); if (res.ok) { navData = await res.json(); navPath = candidate; break; } } catch (e) {}
+                }
+                if (!navData) return;
+                if (navData.project?.name) document.getElementById('projectTitle').textContent = navData.project.name;
+                const drawer = document.getElementById('navDrawer');
+                const pagesByType = {};
+                navData.pages.forEach(p => { const type = p.type || 'other'; if (!pagesByType[type]) pagesByType[type] = []; pagesByType[type].push(p); });
+                const typeLabels = { home: 'Home', 'mood-board': 'Mood Boards', palette: 'Palettes', comp: 'Comps', flow: 'Flows' };
+                let drawerHtml = '';
+                for (const [type, pages] of Object.entries(pagesByType)) {
+                    drawerHtml += '<div class="nav-drawer__section">' + (typeLabels[type] || type) + '</div>';
+                    pages.forEach(p => {
+                        const basePath = navPath.replace('design-nav.json', '');
+                        const active = p.id === CURRENT_PAGE_ID ? ' active' : '';
+                        drawerHtml += '<a class="nav-drawer__link' + active + '" href="' + basePath + p.path + '">' + p.label + '</a>';
+                    });
+                }
+                drawer.innerHTML = drawerHtml;
+                const currentIdx = navData.pages.findIndex(p => p.id === CURRENT_PAGE_ID);
+                const prevBtn = document.getElementById('navPrev'), nextBtn = document.getElementById('navNext');
+                if (currentIdx <= 0) prevBtn.disabled = true;
+                else { const pp = navPath.replace('design-nav.json', '') + navData.pages[currentIdx - 1].path; prevBtn.addEventListener('click', () => window.location.href = pp); }
+                if (currentIdx >= navData.pages.length - 1 || currentIdx === -1) nextBtn.disabled = true;
+                else { const np = navPath.replace('design-nav.json', '') + navData.pages[currentIdx + 1].path; nextBtn.addEventListener('click', () => window.location.href = np); }
+            } catch (e) {}
+        }
+        document.getElementById('navToggle').addEventListener('click', () => { document.getElementById('navDrawer').classList.toggle('open'); document.getElementById('navOverlay').classList.toggle('open'); });
+        document.getElementById('navOverlay').addEventListener('click', () => { document.getElementById('navDrawer').classList.remove('open'); document.getElementById('navOverlay').classList.remove('open'); });
+        document.addEventListener('click', (e) => {
+            if (e.target.classList.contains('color-chip__copy')) {
+                const hex = e.target.dataset.hex;
+                navigator.clipboard.writeText(hex).then(() => { const orig = e.target.textContent; e.target.textContent = 'Copied!'; setTimeout(() => { e.target.textContent = orig; }, 1200); });
+            }
+        });
+        document.addEventListener('keydown', (e) => { if (e.key === 'ArrowLeft') document.getElementById('navPrev').click(); if (e.key === 'ArrowRight') document.getElementById('navNext').click(); });
+        initNav();
+    </script>
+</body>
+</html>

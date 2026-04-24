@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flow — {{FLOW_NAME}}</title>
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        :root {
+            --bg: #0f1117;
+            --surface: #1a1d27;
+            --card: #22263a;
+            --card-hover: #282d44;
+            --accent: #f39c12;
+            --accent-dim: rgba(243, 156, 18, 0.15);
+            --text: #c8ccd4;
+            --text-bright: #eef0f4;
+            --text-muted: #666d7a;
+            --border: #2a2e3e;
+            --font: system-ui, -apple-system, 'Segoe UI', sans-serif;
+            --mono: 'Cascadia Code', 'Fira Code', Consolas, monospace;
+        }
+
+        body {
+            font-family: var(--font);
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* ── Header ──────────────────────────────── */
+        .header {
+            background: var(--surface);
+            border-bottom: 3px solid var(--accent);
+            padding: 0.75rem 2rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            flex-shrink: 0;
+        }
+        .header__badge {
+            background: var(--accent);
+            color: #1a1a2e;
+            font-family: var(--mono);
+            font-size: 0.6rem;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            padding: 0.2rem 0.5rem;
+            border-radius: 3px;
+            text-transform: uppercase;
+        }
+        .header__title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--text-bright);
+            flex: 1;
+        }
+        .header__back {
+            font-family: var(--mono);
+            font-size: 0.7rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .header__back:hover { text-decoration: underline; }
+
+        /* ── Screen Bar ──────────────────────────── */
+        .screen-bar {
+            background: var(--surface);
+            display: flex;
+            align-items: center;
+            gap: 0.25rem;
+            padding: 0.5rem 2rem;
+            overflow-x: auto;
+            flex-shrink: 0;
+            border-bottom: 1px solid var(--border);
+        }
+        .screen-btn {
+            font-family: var(--mono);
+            font-size: 0.7rem;
+            padding: 0.35rem 0.75rem;
+            border-radius: 4px;
+            border: 1px solid var(--border);
+            background: var(--card);
+            color: var(--text);
+            cursor: pointer;
+            white-space: nowrap;
+            transition: all 0.15s;
+        }
+        .screen-btn:hover { background: var(--card-hover); }
+        .screen-btn.active {
+            background: var(--accent);
+            color: #1a1a2e;
+            border-color: var(--accent);
+            font-weight: 700;
+        }
+        .screen-arrow {
+            color: var(--text-muted);
+            font-size: 0.7rem;
+            padding: 0 0.15rem;
+        }
+
+        /* ── Palette Bar ─────────────────────────── */
+        .palette-bar {
+            background: var(--card);
+            display: none;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.4rem 2rem;
+            flex-shrink: 0;
+        }
+        .palette-bar.visible { display: flex; }
+        .palette-bar__label {
+            font-family: var(--mono);
+            font-size: 0.6rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--text-muted);
+            margin-right: 0.25rem;
+        }
+        .palette-btn {
+            font-family: var(--mono);
+            font-size: 0.65rem;
+            padding: 0.2rem 0.5rem;
+            border-radius: 3px;
+            border: 1px solid var(--border);
+            background: var(--surface);
+            color: var(--text);
+            cursor: pointer;
+        }
+        .palette-btn:hover { background: var(--card-hover); }
+        .palette-btn.active {
+            background: var(--accent-dim);
+            border-color: var(--accent);
+            color: var(--accent);
+        }
+
+        /* ── Frame Area ──────────────────────────── */
+        .frame-area { flex: 1; position: relative; background: #e8e8e8; }
+        .frame-area iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        /* ── Placeholder ─────────────────────────── */
+        .placeholder {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            color: var(--text-muted);
+            font-style: italic;
+            background: var(--bg);
+        }
+
+        /* ── Footer Nav ──────────────────────────── */
+        .footer-nav {
+            background: var(--surface);
+            border-top: 1px solid var(--border);
+            padding: 0.5rem 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-shrink: 0;
+        }
+        .nav-btn {
+            font-family: var(--mono);
+            font-size: 0.7rem;
+            padding: 0.3rem 0.75rem;
+            border-radius: 4px;
+            border: 1px solid var(--border);
+            background: var(--card);
+            color: var(--text);
+            cursor: pointer;
+        }
+        .nav-btn:hover { background: var(--card-hover); }
+        .nav-btn:disabled { opacity: 0.3; cursor: default; }
+        .screen-info {
+            font-family: var(--mono);
+            font-size: 0.7rem;
+            color: var(--text-muted);
+        }
+
+        /* ── Interaction hints ───────────────────── */
+        .interaction-hint {
+            position: fixed;
+            bottom: 4rem;
+            right: 2rem;
+            background: var(--accent-dim);
+            border: 1px solid var(--accent);
+            border-radius: 4px;
+            padding: 0.3rem 0.6rem;
+            font-family: var(--mono);
+            font-size: 0.6rem;
+            color: var(--accent);
+            opacity: 0;
+            transition: opacity 0.3s;
+            pointer-events: none;
+        }
+        .interaction-hint.visible { opacity: 1; }
+
+        /* ── Device Preview Bar ──────────────────── */
+        .device-bar {
+            background: var(--card);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.4rem 2rem;
+            flex-shrink: 0;
+        }
+        .device-bar__label {
+            font-family: var(--mono);
+            font-size: 0.6rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--text-muted);
+            margin-right: 0.25rem;
+        }
+        .device-bar__select {
+            font-family: var(--mono);
+            font-size: 0.65rem;
+            padding: 0.2rem 0.5rem;
+            border-radius: 3px;
+            border: 1px solid var(--border);
+            background: var(--surface);
+            color: var(--text);
+            cursor: pointer;
+        }
+        .device-bar__dims {
+            font-family: var(--mono);
+            font-size: 0.6rem;
+            color: var(--text-muted);
+        }
+        .frame-area.device-active {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
+        .frame-area.device-active iframe {
+            position: static;
+            border: 2px dashed var(--accent);
+            border-radius: 6px;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <span class="header__badge">Click-Through</span>
+        <h1 class="header__title" id="flow-title">Loading…</h1>
+        <a class="header__back" href="../../index.html">&larr; Explorer</a>
+    </header>
+
+    <nav class="screen-bar" id="screen-bar">
+        <span style="font-family:var(--mono);font-size:0.6rem;text-transform:uppercase;letter-spacing:0.1em;color:var(--text-muted);margin-right:0.25rem;">Routes:</span>
+    </nav>
+    <div class="palette-bar" id="palette-bar">
+        <span class="palette-bar__label">Palette:</span>
+    </div>
+
+    <!-- ── Device Preview ──────────────────────────── -->
+    <div class="device-bar">
+        <span class="device-bar__label">Device:</span>
+        <select class="device-bar__select" id="device-select" title="Device preview size" onchange="switchDevice(this.value)">
+            <option value="full">Full Width</option>
+            <optgroup label="Phone — Portrait">
+                <option value="375x812">iPhone SE / mini (375 × 812)</option>
+                <option value="393x852">iPhone 14 / 15 (393 × 852)</option>
+                <option value="430x932">iPhone 14 Pro Max (430 × 932)</option>
+                <option value="360x800">Android Small (360 × 800)</option>
+                <option value="412x915">Android Large (412 × 915)</option>
+            </optgroup>
+            <optgroup label="Phone — Landscape">
+                <option value="812x375">iPhone SE / mini (812 × 375)</option>
+                <option value="852x393">iPhone 14 / 15 (852 × 393)</option>
+                <option value="932x430">iPhone Pro Max (932 × 430)</option>
+                <option value="800x360">Android Small (800 × 360)</option>
+                <option value="915x412">Android Large (915 × 412)</option>
+            </optgroup>
+            <optgroup label="Tablet — Portrait">
+                <option value="768x1024">iPad Mini (768 × 1024)</option>
+                <option value="810x1080">iPad 10th Gen (810 × 1080)</option>
+                <option value="834x1194">iPad Air / Pro 11″ (834 × 1194)</option>
+                <option value="1024x1366">iPad Pro 12.9″ (1024 × 1366)</option>
+                <option value="800x1280">Android Tablet (800 × 1280)</option>
+            </optgroup>
+            <optgroup label="Tablet — Landscape">
+                <option value="1024x768">iPad Mini (1024 × 768)</option>
+                <option value="1080x810">iPad 10th Gen (1080 × 810)</option>
+                <option value="1194x834">iPad Air / Pro 11″ (1194 × 834)</option>
+                <option value="1366x1024">iPad Pro 12.9″ (1366 × 1024)</option>
+                <option value="1280x800">Android Tablet (1280 × 800)</option>
+            </optgroup>
+            <optgroup label="Desktop">
+                <option value="1280x720">HD (1280 × 720)</option>
+                <option value="1366x768">Laptop (1366 × 768)</option>
+                <option value="1440x900">MacBook Air (1440 × 900)</option>
+                <option value="1512x982">MacBook Pro 14″ (1512 × 982)</option>
+                <option value="1920x1080">Full HD (1920 × 1080)</option>
+                <option value="2560x1440">QHD / 27″ (2560 × 1440)</option>
+            </optgroup>
+        </select>
+        <span class="device-bar__dims" id="device-dims"></span>
+    </div>
+
+    <div class="frame-area" id="frame-area">
+        <iframe id="screen-frame" title="Flow screen preview" sandbox="allow-same-origin allow-scripts"></iframe>
+    </div>
+
+    <footer class="footer-nav">
+        <button class="nav-btn" id="prev-btn" onclick="prevScreen()">&larr; Prev</button>
+        <span class="screen-info" id="screen-info"></span>
+        <button class="nav-btn" id="next-btn" onclick="nextScreen()">Next &rarr;</button>
+    </footer>
+
+    <div class="interaction-hint" id="interaction-hint">Click highlighted elements to navigate</div>
+
+    <script>
+        let manifest, flow, currentIndex = 0, currentPalette = null;
+
+        /* ── Init ────────────────────────────────── */
+        (async function init() {
+            try {
+                const res = await fetch('../../manifest.json');
+                if (!res.ok) throw new Error('missing');
+                manifest = await res.json();
+                flow = manifest.flow;
+                if (!flow) throw new Error('flow not found');
+
+                document.getElementById('flow-title').textContent = flow.name;
+                document.title = 'Flow — ' + flow.name;
+
+                buildScreenBar();
+                buildPaletteBar();
+                loadScreen(0);
+            } catch (err) {
+                document.getElementById('frame-area').innerHTML =
+                    '<div class="placeholder">Flow not found. Check manifest.json.</div>';
+            }
+        })();
+
+        /* ── Screen Bar ──────────────────────────── */
+        function buildScreenBar() {
+            const bar = document.getElementById('screen-bar');
+            flow.screens.forEach((screen, i) => {
+                if (i > 0) {
+                    const arrow = document.createElement('span');
+                    arrow.className = 'screen-arrow';
+                    arrow.textContent = '→';
+                    bar.appendChild(arrow);
+                }
+                const btn = document.createElement('button');
+                btn.className = 'screen-btn' + (i === 0 ? ' active' : '');
+                /* Show route label (screenName) and comp label */
+                btn.textContent = screen.screenName || screen.label;
+                btn.title = screen.label;
+                btn.dataset.index = i;
+                btn.onclick = () => loadScreen(i);
+                bar.appendChild(btn);
+            });
+        }
+
+        /* ── Palette Bar ─────────────────────────── */
+        function buildPaletteBar() {
+            const palettes = manifest.palettes || {};
+            if (Object.keys(palettes).length === 0) return;
+
+            const bar = document.getElementById('palette-bar');
+            bar.classList.add('visible');
+
+            /* Default button */
+            const defBtn = document.createElement('button');
+            defBtn.className = 'palette-btn active';
+            defBtn.textContent = 'Default';
+            defBtn.onclick = () => switchPalette(null);
+            bar.appendChild(defBtn);
+
+            Object.entries(palettes).forEach(([id, p]) => {
+                const btn = document.createElement('button');
+                btn.className = 'palette-btn';
+                btn.textContent = p.name;
+                btn.dataset.palette = id;
+                btn.onclick = () => switchPalette(id);
+                bar.appendChild(btn);
+            });
+        }
+
+        function switchPalette(paletteId) {
+            currentPalette = paletteId;
+            document.querySelectorAll('.palette-btn').forEach(btn => {
+                const isDefault = !btn.dataset.palette && !paletteId;
+                const isMatch = btn.dataset.palette === paletteId;
+                btn.classList.toggle('active', isDefault || isMatch);
+            });
+            applyPaletteToFrame();
+        }
+
+        function applyPaletteToFrame() {
+            const iframe = document.getElementById('screen-frame');
+            const doc = iframe.contentDocument;
+            if (!doc || !doc.body) return;
+
+            /* Remove previous palette */
+            doc.body.removeAttribute('data-palette');
+            const existing = doc.getElementById('comp-palette-override');
+            if (existing) existing.remove();
+
+            if (currentPalette) {
+                const palette = (manifest.palettes || {})[currentPalette];
+                if (palette) {
+                    const link = doc.createElement('link');
+                    link.id = 'comp-palette-override';
+                    link.rel = 'stylesheet';
+                    link.href = '../../' + palette.file;
+                    doc.head.appendChild(link);
+                    doc.body.setAttribute('data-palette', currentPalette);
+                }
+            }
+        }
+
+        /* ── Load Screen ─────────────────────────── */
+        function loadScreen(idx) {
+            if (idx < 0 || idx >= flow.screens.length) return;
+            currentIndex = idx;
+            const screen = flow.screens[idx];
+            const iframe = document.getElementById('screen-frame');
+
+            /* Update screen bar active state */
+            document.querySelectorAll('.screen-btn').forEach(btn => {
+                btn.classList.toggle('active', parseInt(btn.dataset.index) === idx);
+            });
+
+            /* Update footer */
+            document.getElementById('screen-info').textContent =
+                `Route ${idx + 1} of ${flow.screens.length}: ${screen.screenName || screen.label}`;
+            document.getElementById('prev-btn').disabled = idx === 0;
+            document.getElementById('next-btn').disabled = idx === flow.screens.length - 1;
+
+            /* Load source */
+            if (screen.source) {
+                iframe.style.display = '';
+                iframe.src = '../../' + screen.source;
+                iframe.onload = () => {
+                    injectInteractions(screen);
+                    applyPaletteToFrame();
+                    showHint(screen);
+                };
+            } else {
+                iframe.style.display = 'none';
+                document.getElementById('frame-area').innerHTML =
+                    `<div class="placeholder">No comp selected for "${screen.label}"</div>`;
+            }
+        }
+
+        /* ── Interaction Injection ────────────────── */
+        function injectInteractions(screen) {
+            const iframe = document.getElementById('screen-frame');
+            const doc = iframe.contentDocument;
+            if (!doc || !screen.interactions) return;
+
+            screen.interactions.forEach(({ selector, target }) => {
+                const els = doc.querySelectorAll(selector);
+                els.forEach(el => {
+                    el.style.cursor = 'pointer';
+                    el.style.outline = '2px dashed rgba(243, 156, 18, 0.4)';
+                    el.style.outlineOffset = '2px';
+                    el.title = 'Navigates to: ' + target;
+                    el.addEventListener('click', (e) => {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        navigateTo(target);
+                    });
+                });
+            });
+        }
+
+        function navigateTo(targetId) {
+            const idx = flow.screens.findIndex(s => s.id === targetId);
+            if (idx !== -1) loadScreen(idx);
+        }
+
+        /* ── Hint ────────────────────────────────── */
+        function showHint(screen) {
+            const hint = document.getElementById('interaction-hint');
+            if (screen.interactions && screen.interactions.length > 0) {
+                hint.classList.add('visible');
+                setTimeout(() => hint.classList.remove('visible'), 3000);
+            } else {
+                hint.classList.remove('visible');
+            }
+        }
+
+        /* ── Navigation ──────────────────────────── */
+        function prevScreen() { loadScreen(currentIndex - 1); }
+        function nextScreen() { loadScreen(currentIndex + 1); }
+
+        /* Keyboard nav */
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowLeft') prevScreen();
+            if (e.key === 'ArrowRight') nextScreen();
+        });
+
+        /* ── Device Preview Switcher ──────────────── */
+        function switchDevice(value) {
+            var area = document.getElementById('frame-area');
+            var iframe = document.getElementById('screen-frame');
+            var dims = document.getElementById('device-dims');
+
+            if (value === 'full') {
+                area.classList.remove('device-active');
+                iframe.style.width = '100%';
+                iframe.style.height = '100%';
+                dims.textContent = '';
+                return;
+            }
+
+            var parts = value.split('x');
+            var w = parseInt(parts[0], 10);
+            var h = parseInt(parts[1], 10);
+            area.classList.add('device-active');
+            iframe.style.width = w + 'px';
+            iframe.style.height = h + 'px';
+            dims.textContent = w + ' × ' + h + 'px';
+        }
+    </script>
+
+</body>
+</html>

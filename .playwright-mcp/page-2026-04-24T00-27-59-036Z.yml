@@ -1,0 +1,642 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - link "Skip to content":
+      - /url: "#"
+      - generic [ref=e9] [cursor=pointer]: Skip to content
+    - generic [ref=e11]:
+      - generic [ref=e14]:
+        - combobox "Search" [ref=e16]: AI chat assistant mobile app interface minimal
+        - button "Remove search input" [ref=e21] [cursor=pointer]:
+          - img [ref=e24]
+      - generic [ref=e26]:
+        - button "Log in" [ref=e28] [cursor=pointer]:
+          - generic [ref=e30]: Log in
+        - button "Sign up" [ref=e32] [cursor=pointer]:
+          - generic [ref=e34]: Sign up
+  - navigation [ref=e36]:
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - generic "Home" [ref=e43]:
+          - link "Home" [ref=e44] [cursor=pointer]:
+            - /url: /
+            - img [ref=e46]
+        - generic "Explore" [ref=e51]:
+          - link "Explore" [ref=e52] [cursor=pointer]:
+            - /url: /ideas
+            - img [ref=e54]
+        - generic "Shop" [ref=e59]:
+          - link "Shop" [ref=e60] [cursor=pointer]:
+            - /url: /shopping
+            - img [ref=e62]
+      - generic "More options" [ref=e66]:
+        - button "More options" [ref=e67] [cursor=pointer]:
+          - img [ref=e70]
+  - main [ref=e72]:
+    - generic [ref=e74]:
+      - heading "Search" [level=1] [ref=e76]
+      - generic [ref=e81]:
+        - generic [ref=e82]: Showing more search results for AI chat assistant mobile app interface minimal
+        - list [ref=e87]:
+          - listitem [ref=e88]:
+            - group "Pin card" [ref=e91]:
+              - generic [ref=e93]:
+                - link "three screens showing different messages on their phones" [ref=e96] [cursor=pointer]:
+                  - /url: /pin/966655507532159586/
+                  - img "three screens showing different messages on their phones" [ref=e106]
+                - generic [ref=e108]:
+                  - generic:
+                    - link "three screens showing different messages on their phones":
+                      - /url: /pin/966655507532159586/
+                  - generic "More actions" [ref=e115]:
+                    - button "More actions" [ref=e116] [cursor=pointer]:
+                      - img [ref=e119]
+          - listitem [ref=e121]:
+            - group "Pin card" [ref=e124]:
+              - generic [ref=e126]:
+                - link "three smartphones with different screens and texting on them" [ref=e129] [cursor=pointer]:
+                  - /url: /pin/11188699074810699/
+                  - img "three smartphones with different screens and texting on them" [ref=e139]
+                - generic [ref=e141]:
+                  - generic:
+                    - link "three smartphones with different screens and texting on them":
+                      - /url: /pin/11188699074810699/
+                  - generic "More actions" [ref=e148]:
+                    - button "More actions" [ref=e149] [cursor=pointer]:
+                      - img [ref=e152]
+          - listitem [ref=e154]:
+            - group "Pin card" [ref=e157]:
+              - generic [ref=e159]:
+                - link "two cell phones with text on them and an image of the same phone in different colors" [ref=e162] [cursor=pointer]:
+                  - /url: /pin/7248049395623531/
+                  - img "two cell phones with text on them and an image of the same phone in different colors" [ref=e172]
+                - generic [ref=e174]:
+                  - generic:
+                    - link "two cell phones with text on them and an image of the same phone in different colors":
+                      - /url: /pin/7248049395623531/
+                  - generic "More actions" [ref=e181]:
+                    - button "More actions" [ref=e182] [cursor=pointer]:
+                      - img [ref=e185]
+          - listitem [ref=e187]:
+            - group "Pin card" [ref=e190]:
+              - generic [ref=e192]:
+                - link "an array of cell phones with purple and black screens on them, all displaying different messages" [ref=e195] [cursor=pointer]:
+                  - /url: /pin/52495151902087348/
+                  - img "an array of cell phones with purple and black screens on them, all displaying different messages" [ref=e205]
+                - generic [ref=e207]:
+                  - generic:
+                    - link "an array of cell phones with purple and black screens on them, all displaying different messages":
+                      - /url: /pin/52495151902087348/
+                  - generic "More actions" [ref=e214]:
+                    - button "More actions" [ref=e215] [cursor=pointer]:
+                      - img [ref=e218]
+          - listitem [ref=e220]:
+            - group "Pin card" [ref=e223]:
+              - generic [ref=e225]:
+                - link "A minimal mobile app design showcasing an AI chat and voice assistant interface with soft gradients, rounded cards, and a futuristic aesthetic on three iPhone screens." [ref=e228] [cursor=pointer]:
+                  - /url: /pin/44543483813287264/
+                - generic [ref=e242]:
+                  - generic:
+                    - link "A minimal mobile app design showcasing an AI chat and voice assistant interface with soft gradients, rounded cards, and a futuristic aesthetic on three iPhone screens.":
+                      - /url: /pin/44543483813287264/
+                  - generic "More actions" [ref=e249]:
+                    - button "More actions" [ref=e250] [cursor=pointer]:
+                      - img [ref=e253]
+          - listitem [ref=e255]:
+            - group "Pin card" [ref=e258]:
+              - generic [ref=e260]:
+                - link "three iphone screens showing different messages on the same screen, one with an image of a parrot" [ref=e263] [cursor=pointer]:
+                  - /url: /pin/9288742977705169/
+                  - img "three iphone screens showing different messages on the same screen, one with an image of a parrot" [ref=e273]
+                - generic [ref=e275]:
+                  - generic:
+                    - link "three iphone screens showing different messages on the same screen, one with an image of a parrot":
+                      - /url: /pin/9288742977705169/
+                  - generic "More actions" [ref=e282]:
+                    - button "More actions" [ref=e283] [cursor=pointer]:
+                      - img [ref=e286]
+          - listitem [ref=e288]:
+            - generic [ref=e289]:
+              - generic [ref=e295]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e297]:
+                - generic [ref=e299]:
+                  - link "an iphone with the message hello mary on it's screen and bubbles in the background" [ref=e302] [cursor=pointer]:
+                    - /url: /pin/55591376647211463/
+                    - img "an iphone with the message hello mary on it's screen and bubbles in the background" [ref=e312]
+                  - generic [ref=e314]:
+                    - generic:
+                      - link "an iphone with the message hello mary on it's screen and bubbles in the background":
+                        - /url: /pin/55591376647211463/
+                    - generic "More actions" [ref=e321]:
+                      - button "More actions" [ref=e322] [cursor=pointer]:
+                        - img [ref=e325]
+          - listitem [ref=e327]:
+            - group "Pin card" [ref=e330]:
+              - generic [ref=e332]:
+                - link "three iphones with different messages on them, one showing how to use the app" [ref=e335] [cursor=pointer]:
+                  - /url: /pin/603552787606367240/
+                  - img "three iphones with different messages on them, one showing how to use the app" [ref=e345]
+                - generic [ref=e347]:
+                  - generic:
+                    - link "three iphones with different messages on them, one showing how to use the app":
+                      - /url: /pin/603552787606367240/
+                  - generic "More actions" [ref=e354]:
+                    - button "More actions" [ref=e355] [cursor=pointer]:
+                      - img [ref=e358]
+          - listitem [ref=e360]:
+            - group "Pin card" [ref=e363]:
+              - generic [ref=e365]:
+                - link "three smartphones with chatbot on them" [ref=e368] [cursor=pointer]:
+                  - /url: /pin/985514330969201689/
+                  - img "three smartphones with chatbot on them" [ref=e378]
+                - generic [ref=e380]:
+                  - generic:
+                    - link "three smartphones with chatbot on them":
+                      - /url: /pin/985514330969201689/
+                  - generic "More actions" [ref=e387]:
+                    - button "More actions" [ref=e388] [cursor=pointer]:
+                      - img [ref=e391]
+          - listitem [ref=e393]:
+            - group "Pin card" [ref=e396]:
+              - generic [ref=e398]:
+                - link "two cell phones with the text what's been on your mind lately? written on them" [ref=e401] [cursor=pointer]:
+                  - /url: /pin/2674081026110482/
+                  - img "two cell phones with the text what's been on your mind lately? written on them" [ref=e411]
+                - generic [ref=e413]:
+                  - generic:
+                    - link "two cell phones with the text what's been on your mind lately? written on them":
+                      - /url: /pin/2674081026110482/
+                  - generic "More actions" [ref=e420]:
+                    - button "More actions" [ref=e421] [cursor=pointer]:
+                      - img [ref=e424]
+          - listitem [ref=e426]:
+            - group "Pin card" [ref=e429]:
+              - generic [ref=e431]:
+                - 'link "💭 Talk to Echo Mind! 📊 Your AI-powered mental wellness companion. Chat anonymously, track emotions, find calm. Features: mood analysis, personalized coping strategies. #EchoMind #AICHatbot #MentalWellness Technology App Design, Voice Chat App Design, Chatbot App Design, Designing Vr App Interfaces, Vr Ui, Chatbot Interface Design, Chatbot App Ideas, Chatbot Ui Design, Modern Chatbot Design" [ref=e434] [cursor=pointer]':
+                  - /url: /pin/5629568279048177/
+                  - 'img "💭 Talk to Echo Mind! 📊 Your AI-powered mental wellness companion. Chat anonymously, track emotions, find calm. Features: mood analysis, personalized coping strategies. #EchoMind #AICHatbot #MentalWellness Technology App Design, Voice Chat App Design, Chatbot App Design, Designing Vr App Interfaces, Vr Ui, Chatbot Interface Design, Chatbot App Ideas, Chatbot Ui Design, Modern Chatbot Design" [ref=e444]'
+                - generic [ref=e446]:
+                  - generic:
+                    - 'link "💭 Talk to Echo Mind! 📊 Your AI-powered mental wellness companion. Chat anonymously, track emotions, find calm. Features: mood analysis, personalized coping strategies. #EchoMind #AICHatbot #MentalWellness Technology App Design, Voice Chat App Design, Chatbot App Design, Designing Vr App Interfaces, Vr Ui, Chatbot Interface Design, Chatbot App Ideas, Chatbot Ui Design, Modern Chatbot Design"':
+                      - /url: /pin/5629568279048177/
+                  - generic "More actions" [ref=e453]:
+                    - button "More actions" [ref=e454] [cursor=pointer]:
+                      - img [ref=e457]
+          - listitem [ref=e459]:
+            - generic [ref=e460]:
+              - generic [ref=e466]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e468]:
+                - generic [ref=e470]:
+                  - link "an iphone with the text all snaps on it" [ref=e473] [cursor=pointer]:
+                    - /url: /pin/6192518232909713/
+                    - img "an iphone with the text all snaps on it" [ref=e483]
+                  - generic [ref=e485]:
+                    - generic:
+                      - link "an iphone with the text all snaps on it":
+                        - /url: /pin/6192518232909713/
+                    - generic "More actions" [ref=e492]:
+                      - button "More actions" [ref=e493] [cursor=pointer]:
+                        - img [ref=e496]
+          - listitem [ref=e498]:
+            - group "Pin card" [ref=e501]:
+              - generic [ref=e503]:
+                - link "an iphone with the text voice assistant mode on it, and two screens showing how to use" [ref=e506] [cursor=pointer]:
+                  - /url: /pin/57069120276031125/
+                  - img "an iphone with the text voice assistant mode on it, and two screens showing how to use" [ref=e516]
+                - generic [ref=e518]:
+                  - generic:
+                    - link "an iphone with the text voice assistant mode on it, and two screens showing how to use":
+                      - /url: /pin/57069120276031125/
+                  - button "Behance" [ref=e522] [cursor=pointer]:
+                    - generic [ref=e524]:
+                      - button "Behance" [ref=e527]:
+                        - generic "Behance" [ref=e528]
+                      - generic "More actions" [ref=e532]:
+                        - button "More actions" [ref=e533]:
+                          - img [ref=e536]
+          - listitem [ref=e538]:
+            - group "Pin card" [ref=e541]:
+              - generic [ref=e543]:
+                - link "three mobile screens showing different people's avatars" [ref=e546] [cursor=pointer]:
+                  - /url: /pin/301389400086793014/
+                  - img "three mobile screens showing different people's avatars" [ref=e556]
+                - generic [ref=e558]:
+                  - generic:
+                    - link "three mobile screens showing different people's avatars":
+                      - /url: /pin/301389400086793014/
+                  - generic "More actions" [ref=e565]:
+                    - button "More actions" [ref=e566] [cursor=pointer]:
+                      - img [ref=e569]
+          - listitem [ref=e571]:
+            - group "Pin card" [ref=e574]:
+              - generic [ref=e576]:
+                - link "six screens showing the different messages on their iphone's home screen and what they mean to them" [ref=e579] [cursor=pointer]:
+                  - /url: /pin/1044694444827679999/
+                  - img "six screens showing the different messages on their iphone's home screen and what they mean to them" [ref=e589]
+                - generic [ref=e591]:
+                  - generic:
+                    - link "six screens showing the different messages on their iphone's home screen and what they mean to them":
+                      - /url: /pin/1044694444827679999/
+                  - generic "More actions" [ref=e598]:
+                    - button "More actions" [ref=e599] [cursor=pointer]:
+                      - img [ref=e602]
+          - listitem [ref=e604]:
+            - group "Pin card" [ref=e607]:
+              - generic [ref=e609]:
+                - link "three smartphones with catmix on them and the text what can i help you with?" [ref=e612] [cursor=pointer]:
+                  - /url: /pin/8585055535499668/
+                  - img "three smartphones with catmix on them and the text what can i help you with?" [ref=e622]
+                - generic [ref=e624]:
+                  - generic:
+                    - link "three smartphones with catmix on them and the text what can i help you with?":
+                      - /url: /pin/8585055535499668/
+                  - generic "More actions" [ref=e631]:
+                    - button "More actions" [ref=e632] [cursor=pointer]:
+                      - img [ref=e635]
+          - listitem [ref=e637]:
+            - generic [ref=e638]:
+              - generic [ref=e644]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e647]:
+                - generic [ref=e649]:
+                  - link "two cell phones side by side with the text talk to your personal assistant anytime on them" [ref=e652] [cursor=pointer]:
+                    - /url: /pin/52424783158750753/
+                    - generic [ref=e654]:
+                      - generic [ref=e659]:
+                        - 'img "Designed an AI chat that’s smart, approachable, and just easy to talk to. Something you’d actually enjoy using, every day #UIdesign #UXdesign #AIchat #UX #productdesign" [ref=e663]'
+                        - 'img "Designed an AI chat that’s smart, approachable, and just easy to talk to. Something you’d actually enjoy using, every day #UIdesign #UXdesign #AIchat #UX #productdesign" [ref=e667]'
+                        - 'img "Designed an AI chat that’s smart, approachable, and just easy to talk to. Something you’d actually enjoy using, every day #UIdesign #UXdesign #AIchat #UX #productdesign" [ref=e671]'
+                        - 'img "Designed an AI chat that’s smart, approachable, and just easy to talk to. Something you’d actually enjoy using, every day #UIdesign #UXdesign #AIchat #UX #productdesign" [ref=e675]'
+                        - 'img "Designed an AI chat that’s smart, approachable, and just easy to talk to. Something you’d actually enjoy using, every day #UIdesign #UXdesign #AIchat #UX #productdesign" [ref=e679]'
+                      - generic [ref=e681]:
+                        - button "Go to slide 1 of 5" [ref=e683]
+                        - button "Go to slide 2 of 5" [ref=e686]
+                        - button "Go to slide 3 of 5" [ref=e689]
+                        - button "Go to slide 4 of 5" [ref=e692]
+                        - button "Go to slide 5 of 5" [ref=e695]
+                  - generic [ref=e698]:
+                    - generic:
+                      - link "two cell phones side by side with the text talk to your personal assistant anytime on them":
+                        - /url: /pin/52424783158750753/
+                    - generic "More actions" [ref=e705]:
+                      - button "More actions" [ref=e706] [cursor=pointer]:
+                        - img [ref=e709]
+          - listitem [ref=e711]:
+            - group "Pin card" [ref=e714]:
+              - generic [ref=e716]:
+                - link "two cell phones sitting next to each other on top of a white surface with the text hello there human how can i assist you?" [ref=e719] [cursor=pointer]:
+                  - /url: /pin/4644405860658691/
+                  - img "two cell phones sitting next to each other on top of a white surface with the text hello there human how can i assist you?" [ref=e729]
+                - generic [ref=e731]:
+                  - generic:
+                    - link "two cell phones sitting next to each other on top of a white surface with the text hello there human how can i assist you?":
+                      - /url: /pin/4644405860658691/
+                  - generic "More actions" [ref=e738]:
+                    - button "More actions" [ref=e739] [cursor=pointer]:
+                      - img [ref=e742]
+          - listitem [ref=e744]:
+            - group "Pin card" [ref=e747]:
+              - generic [ref=e749]:
+                - 'link "An intuitive voice recognition screen designed for smooth AI conversations. Perfect for AI assistant, education apps, or chatbot platforms focused on natural communication. #VoiceApp #AIDesign #AppConcept #UIDesign #FigmaDesign Mobile Ui Login, Voice Assistant Ui Design, Voice Assistant Ui, Chatbot Ui Design, Hair Logo Design, Chatbot App, Ui Design Principles, Website Design Inspiration Layout, Voice App" [ref=e752] [cursor=pointer]':
+                  - /url: /pin/17099673582831437/
+                  - 'img "An intuitive voice recognition screen designed for smooth AI conversations. Perfect for AI assistant, education apps, or chatbot platforms focused on natural communication. #VoiceApp #AIDesign #AppConcept #UIDesign #FigmaDesign Mobile Ui Login, Voice Assistant Ui Design, Voice Assistant Ui, Chatbot Ui Design, Hair Logo Design, Chatbot App, Ui Design Principles, Website Design Inspiration Layout, Voice App" [ref=e762]'
+                - generic [ref=e764]:
+                  - generic:
+                    - 'link "An intuitive voice recognition screen designed for smooth AI conversations. Perfect for AI assistant, education apps, or chatbot platforms focused on natural communication. #VoiceApp #AIDesign #AppConcept #UIDesign #FigmaDesign Mobile Ui Login, Voice Assistant Ui Design, Voice Assistant Ui, Chatbot Ui Design, Hair Logo Design, Chatbot App, Ui Design Principles, Website Design Inspiration Layout, Voice App"':
+                      - /url: /pin/17099673582831437/
+                  - generic "More actions" [ref=e771]:
+                    - button "More actions" [ref=e772] [cursor=pointer]:
+                      - img [ref=e775]
+          - listitem [ref=e777]:
+            - group "Pin card" [ref=e780]:
+              - generic [ref=e782]:
+                - link "Futuristic Text Interface, Minimalist Tech Interface, Futuristic Interface With Digital Grid, Futuristic Phone Interface Design, Minimalist Text Editor Interface, Futuristic Phone App Design, Text Editor Ui, Voice-to-text App Interface, Dark Tech Interface" [ref=e785] [cursor=pointer]:
+                  - /url: /pin/1097682109210538411/
+                  - img "Futuristic Text Interface, Minimalist Tech Interface, Futuristic Interface With Digital Grid, Futuristic Phone Interface Design, Minimalist Text Editor Interface, Futuristic Phone App Design, Text Editor Ui, Voice-to-text App Interface, Dark Tech Interface" [ref=e795]
+                - generic [ref=e797]:
+                  - generic:
+                    - link "Futuristic Text Interface, Minimalist Tech Interface, Futuristic Interface With Digital Grid, Futuristic Phone Interface Design, Minimalist Text Editor Interface, Futuristic Phone App Design, Text Editor Ui, Voice-to-text App Interface, Dark Tech Interface":
+                      - /url: /pin/1097682109210538411/
+                  - generic "More actions" [ref=e804]:
+                    - button "More actions" [ref=e805] [cursor=pointer]:
+                      - img [ref=e808]
+          - listitem [ref=e810]:
+            - group "Pin card" [ref=e813]:
+              - generic [ref=e815]:
+                - link "two iphones with the caption'conversation ui ready'in pink and white" [ref=e818] [cursor=pointer]:
+                  - /url: /pin/93097917293020336/
+                  - img "two iphones with the caption'conversation ui ready'in pink and white" [ref=e828]
+                - generic [ref=e830]:
+                  - generic:
+                    - link "two iphones with the caption'conversation ui ready'in pink and white":
+                      - /url: /pin/93097917293020336/
+                  - generic "More actions" [ref=e837]:
+                    - button "More actions" [ref=e838] [cursor=pointer]:
+                      - img [ref=e841]
+          - listitem [ref=e843]:
+            - generic [ref=e844]:
+              - generic [ref=e850]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e852]:
+                - generic [ref=e854]:
+                  - link "three iphones with different screens showing what to do and how to use them in the app" [ref=e857] [cursor=pointer]:
+                    - /url: /pin/7036943162282718/
+                    - img "three iphones with different screens showing what to do and how to use them in the app" [ref=e867]
+                  - generic [ref=e869]:
+                    - generic:
+                      - link "three iphones with different screens showing what to do and how to use them in the app":
+                        - /url: /pin/7036943162282718/
+                    - generic "More actions" [ref=e876]:
+                      - button "More actions" [ref=e877] [cursor=pointer]:
+                        - img [ref=e880]
+          - listitem [ref=e882]:
+            - group "Pin card" [ref=e885]:
+              - generic [ref=e887]:
+                - link "three cell phones with text messages displayed on the screens, all in purple hues" [ref=e890] [cursor=pointer]:
+                  - /url: /pin/625296729556095988/
+                  - img "three cell phones with text messages displayed on the screens, all in purple hues" [ref=e900]
+                - generic [ref=e902]:
+                  - generic:
+                    - link "three cell phones with text messages displayed on the screens, all in purple hues":
+                      - /url: /pin/625296729556095988/
+                  - generic "More actions" [ref=e909]:
+                    - button "More actions" [ref=e910] [cursor=pointer]:
+                      - img [ref=e913]
+          - listitem [ref=e915]:
+            - group "Pin card" [ref=e918]:
+              - generic [ref=e920]:
+                - link "two iphones side by side with the same screenshote and texting options" [ref=e923] [cursor=pointer]:
+                  - /url: /pin/27232772741678914/
+                  - img "two iphones side by side with the same screenshote and texting options" [ref=e933]
+                - generic [ref=e935]:
+                  - generic:
+                    - link "two iphones side by side with the same screenshote and texting options":
+                      - /url: /pin/27232772741678914/
+                  - generic "More actions" [ref=e942]:
+                    - button "More actions" [ref=e943] [cursor=pointer]:
+                      - img [ref=e946]
+          - listitem [ref=e948]:
+            - group "Pin card" [ref=e951]:
+              - generic [ref=e953]:
+                - link "two iphones with different messages on them, one showing an image and the other saying" [ref=e956] [cursor=pointer]:
+                  - /url: /pin/338544097013145640/
+                  - img "two iphones with different messages on them, one showing an image and the other saying" [ref=e966]
+                - generic [ref=e968]:
+                  - generic:
+                    - link "two iphones with different messages on them, one showing an image and the other saying":
+                      - /url: /pin/338544097013145640/
+                  - generic "More actions" [ref=e975]:
+                    - button "More actions" [ref=e976] [cursor=pointer]:
+                      - img [ref=e979]
+          - listitem [ref=e981]:
+            - group "Pin card" [ref=e984]:
+              - generic [ref=e986]:
+                - link "two cell phones showing the same app on their screens, one with an image of a robot" [ref=e989] [cursor=pointer]:
+                  - /url: /pin/18295942230889912/
+                  - img "two cell phones showing the same app on their screens, one with an image of a robot" [ref=e999]
+                - generic [ref=e1001]:
+                  - generic:
+                    - link "two cell phones showing the same app on their screens, one with an image of a robot":
+                      - /url: /pin/18295942230889912/
+                  - generic "More actions" [ref=e1008]:
+                    - button "More actions" [ref=e1009] [cursor=pointer]:
+                      - img [ref=e1012]
+          - listitem [ref=e1014]:
+            - generic [ref=e1015]:
+              - generic [ref=e1021]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1023]:
+                - generic [ref=e1025]:
+                  - link "an iphone with the text hey, smile, what can i help you with?" [ref=e1028] [cursor=pointer]:
+                    - /url: /pin/747386500638662151/
+                    - img "an iphone with the text hey, smile, what can i help you with?" [ref=e1038]
+                  - generic [ref=e1040]:
+                    - generic:
+                      - link "an iphone with the text hey, smile, what can i help you with?":
+                        - /url: /pin/747386500638662151/
+                    - generic "More actions" [ref=e1047]:
+                      - button "More actions" [ref=e1048] [cursor=pointer]:
+                        - img [ref=e1051]
+          - listitem [ref=e1053]:
+            - group "Pin card" [ref=e1056]:
+              - generic [ref=e1058]:
+                - link "two iphones with the same texting feature on them, one is blue and the other is white" [ref=e1061] [cursor=pointer]:
+                  - /url: /pin/54324739251244470/
+                  - img "two iphones with the same texting feature on them, one is blue and the other is white" [ref=e1071]
+                - generic [ref=e1073]:
+                  - generic:
+                    - link "two iphones with the same texting feature on them, one is blue and the other is white":
+                      - /url: /pin/54324739251244470/
+                  - generic "More actions" [ref=e1080]:
+                    - button "More actions" [ref=e1081] [cursor=pointer]:
+                      - img [ref=e1084]
+          - listitem [ref=e1086]:
+            - group "Pin card" [ref=e1089]:
+              - generic [ref=e1091]:
+                - link "two cell phones with the same text on them" [ref=e1094] [cursor=pointer]:
+                  - /url: /pin/318629742390417414/
+                  - img "two cell phones with the same text on them" [ref=e1104]
+                - generic [ref=e1106]:
+                  - generic:
+                    - link "two cell phones with the same text on them":
+                      - /url: /pin/318629742390417414/
+                  - generic "More actions" [ref=e1113]:
+                    - button "More actions" [ref=e1114] [cursor=pointer]:
+                      - img [ref=e1117]
+          - listitem [ref=e1119]:
+            - group "Pin card" [ref=e1122]:
+              - generic [ref=e1124]:
+                - link "six screens showing the user's options for their application, including an email form" [ref=e1127] [cursor=pointer]:
+                  - /url: /pin/525513850292180676/
+                  - img "six screens showing the user's options for their application, including an email form" [ref=e1137]
+                - generic [ref=e1139]:
+                  - generic:
+                    - link "six screens showing the user's options for their application, including an email form":
+                      - /url: /pin/525513850292180676/
+                  - generic "More actions" [ref=e1146]:
+                    - button "More actions" [ref=e1147] [cursor=pointer]:
+                      - img [ref=e1150]
+          - listitem [ref=e1152]:
+            - group "Pin card" [ref=e1155]:
+              - generic [ref=e1157]:
+                - link "an iphone with the text what are we going to do today? on it's screen" [ref=e1160] [cursor=pointer]:
+                  - /url: /pin/17803361026783800/
+                  - img "an iphone with the text what are we going to do today? on it's screen" [ref=e1170]
+                - generic [ref=e1172]:
+                  - generic:
+                    - link "an iphone with the text what are we going to do today? on it's screen":
+                      - /url: /pin/17803361026783800/
+                  - generic "More actions" [ref=e1179]:
+                    - button "More actions" [ref=e1180] [cursor=pointer]:
+                      - img [ref=e1183]
+          - listitem [ref=e1185]:
+            - generic [ref=e1186]:
+              - generic [ref=e1192]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1195]:
+                - generic [ref=e1197]:
+                  - link "a person holding an iphone in their hand with a quote on the screen that says," [ref=e1200] [cursor=pointer]:
+                    - /url: /pin/13651605115949952/
+                    - generic [ref=e1202]:
+                      - generic [ref=e1207]:
+                        - 'img "Designed an AI chat that’s smart, approachable, and just easy to talk to. Something you’d actually enjoy using, every day #UIdesign #UXdesign #AIchat #UX #productdesign" [ref=e1211]'
+                        - 'img "Designed an AI chat that’s smart, approachable, and just easy to talk to. Something you’d actually enjoy using, every day #UIdesign #UXdesign #AIchat #UX #productdesign" [ref=e1215]'
+                        - 'img "Designed an AI chat that’s smart, approachable, and just easy to talk to. Something you’d actually enjoy using, every day #UIdesign #UXdesign #AIchat #UX #productdesign" [ref=e1219]'
+                        - 'img "Designed an AI chat that’s smart, approachable, and just easy to talk to. Something you’d actually enjoy using, every day #UIdesign #UXdesign #AIchat #UX #productdesign" [ref=e1223]'
+                        - 'img "Designed an AI chat that’s smart, approachable, and just easy to talk to. Something you’d actually enjoy using, every day #UIdesign #UXdesign #AIchat #UX #productdesign" [ref=e1227]'
+                      - generic [ref=e1229]:
+                        - button "Go to slide 1 of 5" [ref=e1231]
+                        - button "Go to slide 2 of 5" [ref=e1234]
+                        - button "Go to slide 3 of 5" [ref=e1237]
+                        - button "Go to slide 4 of 5" [ref=e1240]
+                        - button "Go to slide 5 of 5" [ref=e1243]
+                  - generic [ref=e1246]:
+                    - generic:
+                      - link "a person holding an iphone in their hand with a quote on the screen that says,":
+                        - /url: /pin/13651605115949952/
+                    - generic "More actions" [ref=e1253]:
+                      - button "More actions" [ref=e1254] [cursor=pointer]:
+                        - img [ref=e1257]
+          - listitem [ref=e1259]:
+            - group "Pin card" [ref=e1262]:
+              - generic [ref=e1264]:
+                - 'link "AI Virtual Assistant - ChatGPT Style :: Behance Voice Assistant App Design, Voice Assistant App Ui, Purple Gradient App Design, Voice Assistant Ui, Purple Gradient Tech Design, Voice Assistant Design Ideas, Purple Gradient Ui Design, Voice Assistant Design, Purple Gradient Music Player Interface" [ref=e1267] [cursor=pointer]':
+                  - /url: /pin/5207355815678831/
+                  - 'img "AI Virtual Assistant - ChatGPT Style :: Behance Voice Assistant App Design, Voice Assistant App Ui, Purple Gradient App Design, Voice Assistant Ui, Purple Gradient Tech Design, Voice Assistant Design Ideas, Purple Gradient Ui Design, Voice Assistant Design, Purple Gradient Music Player Interface" [ref=e1277]'
+                - generic [ref=e1279]:
+                  - generic:
+                    - 'link "AI Virtual Assistant - ChatGPT Style :: Behance Voice Assistant App Design, Voice Assistant App Ui, Purple Gradient App Design, Voice Assistant Ui, Purple Gradient Tech Design, Voice Assistant Design Ideas, Purple Gradient Ui Design, Voice Assistant Design, Purple Gradient Music Player Interface"':
+                      - /url: /pin/5207355815678831/
+                  - button "Behance" [ref=e1283] [cursor=pointer]:
+                    - generic [ref=e1285]:
+                      - button "Behance" [ref=e1288]:
+                        - generic "Behance" [ref=e1289]
+                      - generic "More actions" [ref=e1293]:
+                        - button "More actions" [ref=e1294]:
+                          - img [ref=e1297]
+          - listitem [ref=e1299]:
+            - generic [ref=e1300]:
+              - generic [ref=e1306]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1308]:
+                - generic [ref=e1310]:
+                  - link "three screens showing the different features of an app for chatbott and whatsapp" [ref=e1313] [cursor=pointer]:
+                    - /url: /pin/1477812374806598/
+                    - img "three screens showing the different features of an app for chatbott and whatsapp" [ref=e1323]
+                  - generic [ref=e1325]:
+                    - generic:
+                      - link "three screens showing the different features of an app for chatbott and whatsapp":
+                        - /url: /pin/1477812374806598/
+                    - generic "More actions" [ref=e1332]:
+                      - button "More actions" [ref=e1333] [cursor=pointer]:
+                        - img [ref=e1336]
+          - listitem [ref=e1338]:
+            - generic [ref=e1339]:
+              - generic [ref=e1345]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1347]:
+                - generic [ref=e1349]:
+                  - link "the app is designed to look like it has an image of a robot on its screen" [ref=e1352] [cursor=pointer]:
+                    - /url: /pin/52495151902087305/
+                    - img "the app is designed to look like it has an image of a robot on its screen" [ref=e1362]
+                  - generic [ref=e1364]:
+                    - generic:
+                      - link "the app is designed to look like it has an image of a robot on its screen":
+                        - /url: /pin/52495151902087305/
+                    - generic "More actions" [ref=e1371]:
+                      - button "More actions" [ref=e1372] [cursor=pointer]:
+                        - img [ref=e1375]
+          - listitem [ref=e1377]:
+            - generic [ref=e1378]:
+              - generic [ref=e1384]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1386]:
+                - generic [ref=e1388]:
+                  - link "two cell phones with the text hello rehan how can i help you today?" [ref=e1391] [cursor=pointer]:
+                    - /url: /pin/23081016836726682/
+                    - img "two cell phones with the text hello rehan how can i help you today?" [ref=e1401]
+                  - generic [ref=e1403]:
+                    - generic:
+                      - link "two cell phones with the text hello rehan how can i help you today?":
+                        - /url: /pin/23081016836726682/
+                    - generic "More actions" [ref=e1410]:
+                      - button "More actions" [ref=e1411] [cursor=pointer]:
+                        - img [ref=e1414]
+          - listitem [ref=e1416]:
+            - generic [ref=e1417]:
+              - generic [ref=e1423]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1425]:
+                - generic [ref=e1427]:
+                  - link "three screens showing different messages on the same device" [ref=e1430] [cursor=pointer]:
+                    - /url: /pin/517351075967732864/
+                    - img "three screens showing different messages on the same device" [ref=e1440]
+                  - generic [ref=e1442]:
+                    - generic:
+                      - link "three screens showing different messages on the same device":
+                        - /url: /pin/517351075967732864/
+                    - generic "More actions" [ref=e1449]:
+                      - button "More actions" [ref=e1450] [cursor=pointer]:
+                        - img [ref=e1453]
+          - listitem [ref=e1455]:
+            - generic [ref=e1456]:
+              - generic [ref=e1462]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1464]:
+                - generic [ref=e1466]:
+                  - link "three cell phones with neon lights on them and the text, how may i help you today?" [ref=e1469] [cursor=pointer]:
+                    - /url: /pin/7248049395623967/
+                    - img "three cell phones with neon lights on them and the text, how may i help you today?" [ref=e1479]
+                  - generic [ref=e1481]:
+                    - generic:
+                      - link "three cell phones with neon lights on them and the text, how may i help you today?":
+                        - /url: /pin/7248049395623967/
+                    - generic "More actions" [ref=e1488]:
+                      - button "More actions" [ref=e1489] [cursor=pointer]:
+                        - img [ref=e1492]
+          - listitem [ref=e1494]:
+            - generic [ref=e1495]:
+              - generic [ref=e1501]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1503]:
+                - generic [ref=e1505]:
+                  - link "three iphone screens showing the pricing and options for an app, one with purple circles on it" [ref=e1508] [cursor=pointer]:
+                    - /url: /pin/1114852082776527107/
+                    - img "three iphone screens showing the pricing and options for an app, one with purple circles on it" [ref=e1518]
+                  - generic [ref=e1520]:
+                    - generic:
+                      - link "three iphone screens showing the pricing and options for an app, one with purple circles on it":
+                        - /url: /pin/1114852082776527107/
+                    - generic "More actions" [ref=e1527]:
+                      - button "More actions" [ref=e1528] [cursor=pointer]:
+                        - img [ref=e1531]
+          - listitem [ref=e1533]:
+            - generic [ref=e1534]:
+              - generic [ref=e1540]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1542]:
+                - generic [ref=e1544]:
+                  - link "Web Interface, Mobile Ui, App Ui, Skills To Learn, Ui Kit, Design System, Ui Design, Mobile App, Web Design" [ref=e1547] [cursor=pointer]:
+                    - /url: /pin/300544975154553540/
+                    - img "Web Interface, Mobile Ui, App Ui, Skills To Learn, Ui Kit, Design System, Ui Design, Mobile App, Web Design" [ref=e1557]
+                  - generic [ref=e1559]:
+                    - generic:
+                      - link "Web Interface, Mobile Ui, App Ui, Skills To Learn, Ui Kit, Design System, Ui Design, Mobile App, Web Design":
+                        - /url: /pin/300544975154553540/
+                    - generic "More actions" [ref=e1566]:
+                      - button "More actions" [ref=e1567] [cursor=pointer]:
+                        - img [ref=e1570]

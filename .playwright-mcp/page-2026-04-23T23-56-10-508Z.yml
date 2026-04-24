@@ -1,0 +1,701 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - link "Skip to content":
+      - /url: "#"
+      - generic [ref=e9] [cursor=pointer]: Skip to content
+    - generic [ref=e11]:
+      - generic [ref=e14]:
+        - combobox "Search" [ref=e16]: energy state visualization breathing animation subtle
+        - button "Remove search input" [ref=e21] [cursor=pointer]:
+          - img [ref=e24]
+      - generic [ref=e26]:
+        - button "Log in" [ref=e28] [cursor=pointer]:
+          - generic [ref=e30]: Log in
+        - button "Sign up" [ref=e32] [cursor=pointer]:
+          - generic [ref=e34]: Sign up
+  - navigation [ref=e36]:
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - generic "Home" [ref=e43]:
+          - link "Home" [ref=e44] [cursor=pointer]:
+            - /url: /
+            - img [ref=e46]
+        - generic "Explore" [ref=e51]:
+          - link "Explore" [ref=e52] [cursor=pointer]:
+            - /url: /ideas
+            - img [ref=e54]
+        - generic "Shop" [ref=e59]:
+          - link "Shop" [ref=e60] [cursor=pointer]:
+            - /url: /shopping
+            - img [ref=e62]
+      - generic "More options" [ref=e66]:
+        - button "More options" [ref=e67] [cursor=pointer]:
+          - img [ref=e70]
+  - main [ref=e72]:
+    - generic [ref=e74]:
+      - generic [ref=e77]:
+        - heading "Search" [level=1] [ref=e79]
+        - button "Show filters" [ref=e90] [cursor=pointer]:
+          - img [ref=e94]
+      - generic [ref=e100]:
+        - generic [ref=e101]: Showing more search results for energy state visualization breathing animation subtle
+        - list [ref=e106]:
+          - listitem [ref=e107]:
+            - group "Pin card" [ref=e110]:
+              - generic [ref=e112]:
+                - link "a black and white photo of a vase sitting in the middle of a cross - legged figure" [ref=e115] [cursor=pointer]:
+                  - /url: /pin/703756188179956/
+                - generic [ref=e129]:
+                  - generic:
+                    - link "a black and white photo of a vase sitting in the middle of a cross - legged figure":
+                      - /url: /pin/703756188179956/
+                  - generic "More actions" [ref=e136]:
+                    - button "More actions" [ref=e137] [cursor=pointer]:
+                      - img [ref=e140]
+          - listitem [ref=e142]:
+            - group "Pin card" [ref=e145]:
+              - generic [ref=e147]:
+                - generic [ref=e148]:
+                  - 'link "The body does not store stress as a thought. It stores it as vibration. When the frequency shifts, the pattern releases on its own. #OlympiaMassage #ReikiOlympia #ReikiMassage #EnergyHealingOlympia #SoundHealing #VibroacousticTherapy #HolisticHealthWA #ThurstonCountyWellness Spiritual Art Soul, Human Energy, Galaxy Photos, Cool Galaxy Wallpapers, Earth Illustration, Creative Advertising Photography, Greenscreen Ideas, Vibrational Energy, Spirited Art" [ref=e150] [cursor=pointer]':
+                    - /url: /pin/13229392654204920/
+                    - 'img "The body does not store stress as a thought. It stores it as vibration. When the frequency shifts, the pattern releases on its own. #OlympiaMassage #ReikiOlympia #ReikiMassage #EnergyHealingOlympia #SoundHealing #VibroacousticTherapy #HolisticHealthWA #ThurstonCountyWellness" [ref=e166]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:10
+                - generic [ref=e168]:
+                  - generic:
+                    - 'link "The body does not store stress as a thought. It stores it as vibration. When the frequency shifts, the pattern releases on its own. #OlympiaMassage #ReikiOlympia #ReikiMassage #EnergyHealingOlympia #SoundHealing #VibroacousticTherapy #HolisticHealthWA #ThurstonCountyWellness Spiritual Art Soul, Human Energy, Galaxy Photos, Cool Galaxy Wallpapers, Earth Illustration, Creative Advertising Photography, Greenscreen Ideas, Vibrational Energy, Spirited Art"':
+                      - /url: /pin/13229392654204920/
+                  - generic "More actions" [ref=e175]:
+                    - button "More actions" [ref=e176] [cursor=pointer]:
+                      - img [ref=e179]
+          - listitem [ref=e181]:
+            - group "Pin card" [ref=e184]:
+              - generic [ref=e186]:
+                - generic [ref=e187]:
+                  - link "an image of a waterfall with the words breathe in white circle above it and trees" [ref=e189] [cursor=pointer]:
+                    - /url: /pin/11962755256707713/
+                    - 'img "This may contain: an image of a waterfall with the words breathe in white circle above it and trees" [ref=e205]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:30
+                - generic [ref=e207]:
+                  - generic:
+                    - link "an image of a waterfall with the words breathe in white circle above it and trees":
+                      - /url: /pin/11962755256707713/
+                  - generic "More actions" [ref=e214]:
+                    - button "More actions" [ref=e215] [cursor=pointer]:
+                      - img [ref=e218]
+          - listitem [ref=e220]:
+            - group "Pin card" [ref=e223]:
+              - generic [ref=e225]:
+                - generic [ref=e226]:
+                  - link "an animated woman with different facial expressions on her face" [ref=e228] [cursor=pointer]:
+                    - /url: /pin/2322237300537479/
+                    - 'img "This may contain: an animated woman with different facial expressions on her face" [ref=e244]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:22
+                - generic [ref=e246]:
+                  - generic:
+                    - link "an animated woman with different facial expressions on her face":
+                      - /url: /pin/2322237300537479/
+                  - generic "More actions" [ref=e253]:
+                    - button "More actions" [ref=e254] [cursor=pointer]:
+                      - img [ref=e257]
+          - listitem [ref=e259]:
+            - group "Pin card" [ref=e262]:
+              - generic [ref=e264]:
+                - generic [ref=e265]:
+                  - link "Breathing Exercise Illustration, Breathing Exercise App, Wellness Animation, Breathe Logo, Lion Breathing, Lion Breath, Breath Logo, Breathing Animation, Breath Animation" [ref=e267] [cursor=pointer]:
+                    - /url: /pin/30047522507969251/
+                    - 'img "This contains an image of: Lion Breath Video" [ref=e283]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:12
+                - generic [ref=e285]:
+                  - generic:
+                    - link "Breathing Exercise Illustration, Breathing Exercise App, Wellness Animation, Breathe Logo, Lion Breathing, Lion Breath, Breath Logo, Breathing Animation, Breath Animation":
+                      - /url: /pin/30047522507969251/
+                  - generic "More actions" [ref=e292]:
+                    - button "More actions" [ref=e293] [cursor=pointer]:
+                      - img [ref=e296]
+          - listitem [ref=e298]:
+            - group "Pin card" [ref=e301]:
+              - generic [ref=e303]:
+                - generic [ref=e304]:
+                  - link "a black and white photo of a woman's body with long hair blowing in the wind" [ref=e306] [cursor=pointer]:
+                    - /url: /pin/970666525916279006/
+                    - 'img "This may contain: a black and white photo of a woman''s body with long hair blowing in the wind" [ref=e322]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:52
+                - generic [ref=e324]:
+                  - generic:
+                    - link "a black and white photo of a woman's body with long hair blowing in the wind":
+                      - /url: /pin/970666525916279006/
+                  - generic "More actions" [ref=e331]:
+                    - button "More actions" [ref=e332] [cursor=pointer]:
+                      - img [ref=e335]
+          - listitem [ref=e337]:
+            - generic [ref=e338]:
+              - generic [ref=e344]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e346]:
+                - generic [ref=e348]:
+                  - generic [ref=e349]:
+                    - 'link "Take a deep breath... #meditation #breathe Breathe Deep, Tibetan Monk, Social Media Marketing Manager, Mystical World, Cute Christmas Gifts, Good Friday, Off Grid Living, Criaturas Míticas, Graphic Tee Shirts" [ref=e351] [cursor=pointer]':
+                      - /url: /pin/237846424065414425/
+                      - 'img "Take a deep breath... #meditation #breathe" [ref=e367]'
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 0:10
+                  - generic [ref=e369]:
+                    - generic:
+                      - 'link "Take a deep breath... #meditation #breathe Breathe Deep, Tibetan Monk, Social Media Marketing Manager, Mystical World, Cute Christmas Gifts, Good Friday, Off Grid Living, Criaturas Míticas, Graphic Tee Shirts"':
+                        - /url: /pin/237846424065414425/
+                    - generic "More actions" [ref=e376]:
+                      - button "More actions" [ref=e377] [cursor=pointer]:
+                        - img [ref=e380]
+          - listitem [ref=e382]:
+            - group "Pin card" [ref=e385]:
+              - generic [ref=e387]:
+                - generic [ref=e388]:
+                  - link "Breathe To Relax, Box Breathing Technique Gif, Breathing Pattern, Breathing Excercise, Breathing Exercise Animation, Breath Pattern, Breathing Excersise, Breathing Video, Breathe Design" [ref=e390] [cursor=pointer]:
+                    - /url: /pin/4011087163255596/
+                    - 'img "This contains an image of: Anxiety & Stress Breathing Animation | Relax with the Breath" [ref=e406]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:32
+                - generic [ref=e408]:
+                  - generic:
+                    - link "Breathe To Relax, Box Breathing Technique Gif, Breathing Pattern, Breathing Excercise, Breathing Exercise Animation, Breath Pattern, Breathing Excersise, Breathing Video, Breathe Design":
+                      - /url: /pin/4011087163255596/
+                  - generic "More actions" [ref=e415]:
+                    - button "More actions" [ref=e416] [cursor=pointer]:
+                      - img [ref=e419]
+          - listitem [ref=e421]:
+            - group "Pin card" [ref=e424]:
+              - generic [ref=e426]:
+                - generic [ref=e427]:
+                  - link "a pink and white circle with a face drawn on it" [ref=e429] [cursor=pointer]:
+                    - /url: /pin/1114640976503781181/
+                    - 'img "This may contain: a pink and white circle with a face drawn on it" [ref=e445]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:15
+                - generic [ref=e447]:
+                  - generic:
+                    - link "a pink and white circle with a face drawn on it":
+                      - /url: /pin/1114640976503781181/
+                  - generic "More actions" [ref=e454]:
+                    - button "More actions" [ref=e455] [cursor=pointer]:
+                      - img [ref=e458]
+          - listitem [ref=e460]:
+            - group "Pin card" [ref=e463]:
+              - generic [ref=e465]:
+                - generic [ref=e466]:
+                  - link "the light is shining brightly in the dark sky, and it appears to be spinning around" [ref=e468] [cursor=pointer]:
+                    - /url: /pin/6051780742884385/
+                    - 'img "This may contain: the light is shining brightly in the dark sky, and it appears to be spinning around" [ref=e484]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:56
+                - generic [ref=e486]:
+                  - generic:
+                    - link "the light is shining brightly in the dark sky, and it appears to be spinning around":
+                      - /url: /pin/6051780742884385/
+                  - generic "More actions" [ref=e493]:
+                    - button "More actions" [ref=e494] [cursor=pointer]:
+                      - img [ref=e497]
+          - listitem [ref=e499]:
+            - group "Pin card" [ref=e502]:
+              - generic [ref=e504]:
+                - generic [ref=e505]:
+                  - link "Exhale yesterday’s worries. Inhale today’s potential. Breathing Animations, Inhale Animation, Relaxing Animation, Inhale Exhale Breathing Technique, Breathing Gif For Mindfulness, Headspace Onboarding, Breathing Gif For Meditation, Breathe Gif For Meditation, Breathing App For Relaxation" [ref=e507] [cursor=pointer]:
+                    - /url: /pin/5488830793079632/
+                    - img "Exhale yesterday’s worries. Inhale today’s potential." [ref=e523]
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 1:00
+                - generic [ref=e525]:
+                  - generic:
+                    - link "Exhale yesterday’s worries. Inhale today’s potential. Breathing Animations, Inhale Animation, Relaxing Animation, Inhale Exhale Breathing Technique, Breathing Gif For Mindfulness, Headspace Onboarding, Breathing Gif For Meditation, Breathe Gif For Meditation, Breathing App For Relaxation":
+                      - /url: /pin/5488830793079632/
+                  - button "Headspace" [ref=e529] [cursor=pointer]:
+                    - generic [ref=e531]:
+                      - button "Headspace" [ref=e534]:
+                        - generic "Headspace" [ref=e535]
+                      - generic "More actions" [ref=e539]:
+                        - button "More actions" [ref=e540]:
+                          - img [ref=e543]
+          - listitem [ref=e545]:
+            - generic [ref=e546]:
+              - generic [ref=e552]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e554]:
+                - generic [ref=e556]:
+                  - generic [ref=e557]:
+                    - 'link "Exercício de respiração para aliviar ansiedade e estresse. Esse exercício de respiração profunda pode aliviar a ansiedade e o estresse em poucos segundos. Inspire contando até 4 Expire contando até 4 Repita até você se sentir relaxada. #pranayama #respiração #ansiedade #autocuidado Breathing Video, Yoga Wellness, Breathing Logo, Breathwork Icon, Inspire Expire, Breathing Visuals, Breathing Graphic, Meditative And Relaxing Sound, Meditative Visual Relaxation" [ref=e559] [cursor=pointer]':
+                      - /url: /pin/2251868559160998/
+                      - 'img "Exercício de respiração para aliviar ansiedade e estresse. Esse exercício de respiração profunda pode aliviar a ansiedade e o estresse em poucos segundos. Inspire contando até 4 Expire contando até 4 Repita até você se sentir relaxada. #pranayama #respiração #ansiedade #autocuidado" [ref=e575]'
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 0:08
+                  - generic [ref=e577]:
+                    - generic:
+                      - 'link "Exercício de respiração para aliviar ansiedade e estresse. Esse exercício de respiração profunda pode aliviar a ansiedade e o estresse em poucos segundos. Inspire contando até 4 Expire contando até 4 Repita até você se sentir relaxada. #pranayama #respiração #ansiedade #autocuidado Breathing Video, Yoga Wellness, Breathing Logo, Breathwork Icon, Inspire Expire, Breathing Visuals, Breathing Graphic, Meditative And Relaxing Sound, Meditative Visual Relaxation"':
+                        - /url: /pin/2251868559160998/
+                    - generic "More actions" [ref=e584]:
+                      - button "More actions" [ref=e585] [cursor=pointer]:
+                        - img [ref=e588]
+          - listitem [ref=e590]:
+            - group "Pin card" [ref=e593]:
+              - generic [ref=e595]:
+                - generic [ref=e596]:
+                  - link "High Vibrational Frequency, Frequency Aesthetic, High Frequency Wallpaper, Frequency Background, Frequency Music, Frequency Gif, 40 Hz Frequency Effect, Music Frequency, Sound Vibration Gif" [ref=e598] [cursor=pointer]:
+                    - /url: /pin/246501779598466362/
+                    - 'img "This contains an image of: High Frequency 🎼" [ref=e614]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:56
+                - generic [ref=e616]:
+                  - generic:
+                    - link "High Vibrational Frequency, Frequency Aesthetic, High Frequency Wallpaper, Frequency Background, Frequency Music, Frequency Gif, 40 Hz Frequency Effect, Music Frequency, Sound Vibration Gif":
+                      - /url: /pin/246501779598466362/
+                  - generic "More actions" [ref=e623]:
+                    - button "More actions" [ref=e624] [cursor=pointer]:
+                      - img [ref=e627]
+          - listitem [ref=e629]:
+            - group "Pin card" [ref=e632]:
+              - generic [ref=e634]:
+                - link "a drawing of a man sitting in the middle of a body with his eyes closed" [ref=e637] [cursor=pointer]:
+                  - /url: /pin/10414642883319282/
+                  - img "a drawing of a man sitting in the middle of a body with his eyes closed" [ref=e647]
+                - generic [ref=e649]:
+                  - generic:
+                    - link "a drawing of a man sitting in the middle of a body with his eyes closed":
+                      - /url: /pin/10414642883319282/
+                  - generic "More actions" [ref=e656]:
+                    - button "More actions" [ref=e657] [cursor=pointer]:
+                      - img [ref=e660]
+          - listitem [ref=e662]:
+            - group "Pin card" [ref=e665]:
+              - generic [ref=e667]:
+                - generic [ref=e668]:
+                  - 'link "Happy #MeditationMonday, everyone. Take 15 seconds for yourself. Breathe. #meditating Breathing Excersise, Mindfulness Breathing Practice, Breathing Gif For Meditation, Breath Work Meditation, Peaceful Breathing Affirmation, Meditation Video, Guided Breathing Meditation, Breathing Meditation, Breath In Breath Out" [ref=e670] [cursor=pointer]':
+                    - /url: /pin/1407443630636865/
+                    - 'img "Happy #MeditationMonday, everyone. Take 15 seconds for yourself. Breathe. #meditating" [ref=e686]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:11
+                - generic [ref=e688]:
+                  - generic:
+                    - 'link "Happy #MeditationMonday, everyone. Take 15 seconds for yourself. Breathe. #meditating Breathing Excersise, Mindfulness Breathing Practice, Breathing Gif For Meditation, Breath Work Meditation, Peaceful Breathing Affirmation, Meditation Video, Guided Breathing Meditation, Breathing Meditation, Breath In Breath Out"':
+                      - /url: /pin/1407443630636865/
+                  - generic "More actions" [ref=e695]:
+                    - button "More actions" [ref=e696] [cursor=pointer]:
+                      - img [ref=e699]
+          - listitem [ref=e701]:
+            - group "Pin card" [ref=e704]:
+              - generic [ref=e706]:
+                - generic [ref=e707]:
+                  - link "an orange and white circle with a smiley face in the center on a yellow background" [ref=e709] [cursor=pointer]:
+                    - /url: /pin/5207355815915322/
+                    - 'img "This may contain: an orange and white circle with a smiley face in the center on a yellow background" [ref=e725]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:16
+                - generic [ref=e727]:
+                  - generic:
+                    - link "an orange and white circle with a smiley face in the center on a yellow background":
+                      - /url: /pin/5207355815915322/
+                  - button "Headspace" [ref=e731] [cursor=pointer]:
+                    - generic [ref=e733]:
+                      - button "Headspace" [ref=e736]:
+                        - generic "Headspace" [ref=e737]
+                      - generic "More actions" [ref=e741]:
+                        - button "More actions" [ref=e742]:
+                          - img [ref=e745]
+          - listitem [ref=e747]:
+            - generic [ref=e748]:
+              - generic [ref=e754]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e756]:
+                - generic [ref=e758]:
+                  - generic [ref=e759]:
+                    - link "Breathe Exercises, Breathing Techniques For Energy, Breathing Circle Gif, Breathe In Calm Gif, Calming Breathing Exercise Reminder, Breathing Gif For Mindfulness, Breathe Gif For Breathing, Breathing Techniques Gif, Breathing Gif For Meditation" [ref=e761] [cursor=pointer]:
+                      - /url: /pin/26317979064491240/
+                      - 'img "This contains an image of: Calm Energy Breathing Animation for Focus, Alertness, Cognitive Performance" [ref=e777]'
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 0:14
+                  - generic [ref=e779]:
+                    - generic:
+                      - link "Breathe Exercises, Breathing Techniques For Energy, Breathing Circle Gif, Breathe In Calm Gif, Calming Breathing Exercise Reminder, Breathing Gif For Mindfulness, Breathe Gif For Breathing, Breathing Techniques Gif, Breathing Gif For Meditation":
+                        - /url: /pin/26317979064491240/
+                    - generic "More actions" [ref=e786]:
+                      - button "More actions" [ref=e787] [cursor=pointer]:
+                        - img [ref=e790]
+          - listitem [ref=e792]:
+            - group "Pin card" [ref=e795]:
+              - generic [ref=e797]:
+                - generic [ref=e798]:
+                  - link "You didn’t just almost scroll past a breathing exercise, did you? 😉 Breathing Exercise Animation, Breathing Exercise App, Creative Breathing Exercises, Breathe Gif, Breathing Animation, Breathing Exercise Inspiration, Breath Exercises, Breathe Aesthetic, Breathing Technique Duration" [ref=e800] [cursor=pointer]:
+                    - /url: /pin/23925441768536082/
+                    - img "You didn’t just almost scroll past a breathing exercise, did you? 😉" [ref=e816]
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:38
+                - generic [ref=e818]:
+                  - generic:
+                    - link "You didn’t just almost scroll past a breathing exercise, did you? 😉 Breathing Exercise Animation, Breathing Exercise App, Creative Breathing Exercises, Breathe Gif, Breathing Animation, Breathing Exercise Inspiration, Breath Exercises, Breathe Aesthetic, Breathing Technique Duration":
+                      - /url: /pin/23925441768536082/
+                  - button "Headspace" [ref=e822] [cursor=pointer]:
+                    - generic [ref=e824]:
+                      - button "Headspace" [ref=e827]:
+                        - generic "Headspace" [ref=e828]
+                      - generic "More actions" [ref=e832]:
+                        - button "More actions" [ref=e833]:
+                          - img [ref=e836]
+          - listitem [ref=e838]:
+            - group "Pin card" [ref=e841]:
+              - generic [ref=e843]:
+                - generic [ref=e844]:
+                  - link "a black and white photo of a spiral shaped object with the word's name on it" [ref=e846] [cursor=pointer]:
+                    - /url: /pin/1119848263566716140/
+                    - 'img "This may contain: a black and white photo of a spiral shaped object with the word''s name on it" [ref=e862]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:15
+                - generic [ref=e864]:
+                  - generic:
+                    - link "a black and white photo of a spiral shaped object with the word's name on it":
+                      - /url: /pin/1119848263566716140/
+                  - generic "More actions" [ref=e871]:
+                    - button "More actions" [ref=e872] [cursor=pointer]:
+                      - img [ref=e875]
+          - listitem [ref=e877]:
+            - group "Pin card" [ref=e880]:
+              - generic [ref=e882]:
+                - generic [ref=e883]:
+                  - link "Breathing Excersise, Breathing Animations, Breathe Exercises, Breathing Gif For Mindfulness, Deep Breathing, Breathing Gif For Meditation, Calm Breathing Gif, Breathe Gif For Meditation, Breathing Meditation Music" [ref=e885] [cursor=pointer]:
+                    - /url: /pin/804525920954208533/
+                    - 'img "This contains an image of: Quick 1 Minute Breathing Exercise for Stress Relief" [ref=e901]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:33
+                - generic [ref=e903]:
+                  - generic:
+                    - link "Breathing Excersise, Breathing Animations, Breathe Exercises, Breathing Gif For Mindfulness, Deep Breathing, Breathing Gif For Meditation, Calm Breathing Gif, Breathe Gif For Meditation, Breathing Meditation Music":
+                      - /url: /pin/804525920954208533/
+                  - generic "More actions" [ref=e910]:
+                    - button "More actions" [ref=e911] [cursor=pointer]:
+                      - img [ref=e914]
+          - listitem [ref=e916]:
+            - group "Pin card" [ref=e919]:
+              - generic [ref=e921]:
+                - generic [ref=e922]:
+                  - link "ball rolling in meditation breathing exercise" [ref=e924] [cursor=pointer]:
+                    - /url: /pin/3166662230849628/
+                    - 'img "This contains: ball rolling in meditation breathing exercise" [ref=e940]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:14
+                - generic [ref=e942]:
+                  - generic:
+                    - link "ball rolling in meditation breathing exercise":
+                      - /url: /pin/3166662230849628/
+                  - generic "More actions" [ref=e949]:
+                    - button "More actions" [ref=e950] [cursor=pointer]:
+                      - img [ref=e953]
+          - listitem [ref=e955]:
+            - generic [ref=e956]:
+              - generic [ref=e962]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e964]:
+                - generic [ref=e966]:
+                  - generic [ref=e967]:
+                    - link "Reduce stress and anxiety as you follow the visual for breathing in and out. The ball will expand for inhaling and compress when exhaling." [ref=e969] [cursor=pointer]:
+                      - /url: /pin/2392606044724738/
+                      - 'img "This contains: Reduce stress and anxiety as you follow the visual for breathing in and out. The ball will expand for inhaling and compress when exhaling." [ref=e985]'
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 0:27
+                  - generic [ref=e987]:
+                    - generic:
+                      - link "Reduce stress and anxiety as you follow the visual for breathing in and out. The ball will expand for inhaling and compress when exhaling.":
+                        - /url: /pin/2392606044724738/
+                    - generic "More actions" [ref=e994]:
+                      - button "More actions" [ref=e995] [cursor=pointer]:
+                        - img [ref=e998]
+          - listitem [ref=e1000]:
+            - generic [ref=e1001]:
+              - generic [ref=e1007]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1009]:
+                - generic [ref=e1011]:
+                  - generic [ref=e1012]:
+                    - link "a man's face is projected in the air with blue lights on it and stars around him" [ref=e1014] [cursor=pointer]:
+                      - /url: /pin/14496030045400257/
+                      - 'img "This may contain: a man''s face is projected in the air with blue lights on it and stars around him" [ref=e1030]'
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 0:21
+                  - generic [ref=e1032]:
+                    - generic:
+                      - link "a man's face is projected in the air with blue lights on it and stars around him":
+                        - /url: /pin/14496030045400257/
+                    - generic "More actions" [ref=e1039]:
+                      - button "More actions" [ref=e1040] [cursor=pointer]:
+                        - img [ref=e1043]
+          - listitem [ref=e1045]:
+            - generic [ref=e1046]:
+              - generic [ref=e1052]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1054]:
+                - generic [ref=e1056]:
+                  - link "a blue and white circular with the word breathe on it's center, in front of" [ref=e1059] [cursor=pointer]:
+                    - /url: /pin/703756188843719/
+                    - img "a blue and white circular with the word breathe on it's center, in front of" [ref=e1069]
+                  - generic [ref=e1071]:
+                    - generic:
+                      - link "a blue and white circular with the word breathe on it's center, in front of":
+                        - /url: /pin/703756188843719/
+                    - generic "More actions" [ref=e1078]:
+                      - button "More actions" [ref=e1079] [cursor=pointer]:
+                        - img [ref=e1082]
+          - listitem [ref=e1084]:
+            - generic [ref=e1085]:
+              - generic [ref=e1091]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1093]:
+                - generic [ref=e1095]:
+                  - link "Spiritual Aura, Energy Manifestation, Manifestation Visuals, Sun Energy Spiritual, Sound Vibration, Spiritual World, Golden Energy, Raise Your Vibration, Frequency Healing" [ref=e1098] [cursor=pointer]:
+                    - /url: /pin/229683649742463663/
+                    - img "Spiritual Aura, Energy Manifestation, Manifestation Visuals, Sun Energy Spiritual, Sound Vibration, Spiritual World, Golden Energy, Raise Your Vibration, Frequency Healing" [ref=e1108]
+                  - generic [ref=e1110]:
+                    - generic:
+                      - link "Spiritual Aura, Energy Manifestation, Manifestation Visuals, Sun Energy Spiritual, Sound Vibration, Spiritual World, Golden Energy, Raise Your Vibration, Frequency Healing":
+                        - /url: /pin/229683649742463663/
+                    - generic "More actions" [ref=e1117]:
+                      - button "More actions" [ref=e1118] [cursor=pointer]:
+                        - img [ref=e1121]
+          - listitem [ref=e1123]:
+            - generic [ref=e1124]:
+              - generic [ref=e1130]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1132]:
+                - generic [ref=e1134]:
+                  - generic [ref=e1135]:
+                    - link "Calming Breath Techniques, Calming Breath Practice, Breathing Circle Gif, How To Practice Calming Breaths, Breathing Gif For Mindfulness, Anaesthetic Breathing System Guide, Breathing Techniques Gif, Breathing Gif For Meditation, Calm Breathing Gif" [ref=e1137] [cursor=pointer]:
+                      - /url: /pin/50524827069437490/
+                      - img "This contains an image of:" [ref=e1153]
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 0:19
+                  - generic [ref=e1155]:
+                    - generic:
+                      - link "Calming Breath Techniques, Calming Breath Practice, Breathing Circle Gif, How To Practice Calming Breaths, Breathing Gif For Mindfulness, Anaesthetic Breathing System Guide, Breathing Techniques Gif, Breathing Gif For Meditation, Calm Breathing Gif":
+                        - /url: /pin/50524827069437490/
+                    - generic "More actions" [ref=e1162]:
+                      - button "More actions" [ref=e1163] [cursor=pointer]:
+                        - img [ref=e1166]
+          - listitem [ref=e1168]:
+            - generic [ref=e1169]:
+              - generic [ref=e1175]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1177]:
+                - generic [ref=e1179]:
+                  - generic [ref=e1180]:
+                    - 'link "This binaural beats meditation is designed to support mental clarity, calm focus, and relaxed awareness. Listen gently and allow your mind to settle into a peaceful, centered state. ✨ This sound experience supports: • Calm focus • Mental relaxation • Reduced mental noise • Present-moment awareness • Deep listening and stillness 💬 Affirm silently if it feels right: “I am calm. My mind is clear.” 🎧 Listening tips: • Use headphones for best experience • Keep volume low and comfortable • Relax your breath and body 🔔 Subscribe for more binaural beats, meditation sounds & calming audio. SEO Keywords: binaural beats, brain frequency, focus music, meditation sound, calm mind, relaxation music, alpha waves, mental clarity, deep focus audio Visual Energy, Success Aesthetic Video, Mind Relaxing, Spiritual Energy, Meditation Design, Expand Your Mind, Listen Music, Mental Peace, Brain Dance" [ref=e1182] [cursor=pointer]':
+                      - /url: /pin/703265298107447887/
+                      - 'img "This binaural beats meditation is designed to support mental clarity, calm focus, and relaxed awareness. Listen gently and allow your mind to settle into a peaceful, centered state. ✨ This sound experience supports: • Calm focus • Mental relaxation • Reduced mental noise • Present-moment awareness • Deep listening and stillness 💬 Affirm silently if it feels right: “I am calm. My mind is clear.” 🎧 Listening tips: • Use headphones for best experience • Keep volume low and comfortable • Relax your breath and body 🔔 Subscribe for more binaural beats, meditation sounds & calming audio. SEO Keywords: binaural beats, brain frequency, focus music, meditation sound, calm mind, relaxation music, alpha waves, mental clarity, deep focus audio" [ref=e1198]'
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 1:00
+                  - generic [ref=e1200]:
+                    - generic:
+                      - 'link "This binaural beats meditation is designed to support mental clarity, calm focus, and relaxed awareness. Listen gently and allow your mind to settle into a peaceful, centered state. ✨ This sound experience supports: • Calm focus • Mental relaxation • Reduced mental noise • Present-moment awareness • Deep listening and stillness 💬 Affirm silently if it feels right: “I am calm. My mind is clear.” 🎧 Listening tips: • Use headphones for best experience • Keep volume low and comfortable • Relax your breath and body 🔔 Subscribe for more binaural beats, meditation sounds & calming audio. SEO Keywords: binaural beats, brain frequency, focus music, meditation sound, calm mind, relaxation music, alpha waves, mental clarity, deep focus audio Visual Energy, Success Aesthetic Video, Mind Relaxing, Spiritual Energy, Meditation Design, Expand Your Mind, Listen Music, Mental Peace, Brain Dance"':
+                        - /url: /pin/703265298107447887/
+                    - generic "More actions" [ref=e1207]:
+                      - button "More actions" [ref=e1208] [cursor=pointer]:
+                        - img [ref=e1211]
+          - listitem [ref=e1213]:
+            - generic [ref=e1214]:
+              - generic [ref=e1220]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1222]:
+                - generic [ref=e1224]:
+                  - generic [ref=e1225]:
+                    - link "an orange and yellow background with the words breathe in" [ref=e1227] [cursor=pointer]:
+                      - /url: /pin/12033124000320978/
+                      - 'img "This may contain: an orange and yellow background with the words breathe in" [ref=e1243]'
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 0:34
+                  - generic [ref=e1245]:
+                    - generic:
+                      - link "an orange and yellow background with the words breathe in":
+                        - /url: /pin/12033124000320978/
+                    - button "Headspace" [ref=e1249] [cursor=pointer]:
+                      - generic [ref=e1251]:
+                        - button "Headspace" [ref=e1254]:
+                          - generic "Headspace" [ref=e1255]
+                        - generic "More actions" [ref=e1259]:
+                          - button "More actions" [ref=e1260]:
+                            - img [ref=e1263]
+          - listitem [ref=e1265]:
+            - generic [ref=e1266]:
+              - generic [ref=e1272]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1274]:
+                - generic [ref=e1276]:
+                  - generic [ref=e1277]:
+                    - link "Breathing Exercises For Anger, Breathing Techniques For Anger, Box Breathing Technique Diagram, Box Breathing Gif, Breathing Visuals, Breathing Graphic, Box Breathing Graphic, Breathing Gif For Mindfulness, Breathe Gif For Breathing" [ref=e1279] [cursor=pointer]:
+                      - /url: /pin/8725793023176085/
+                      - 'img "This contains an image of: Anger Breathing Exercise" [ref=e1295]'
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 0:20
+                  - generic [ref=e1297]:
+                    - generic:
+                      - link "Breathing Exercises For Anger, Breathing Techniques For Anger, Box Breathing Technique Diagram, Box Breathing Gif, Breathing Visuals, Breathing Graphic, Box Breathing Graphic, Breathing Gif For Mindfulness, Breathe Gif For Breathing":
+                        - /url: /pin/8725793023176085/
+                    - generic "More actions" [ref=e1304]:
+                      - button "More actions" [ref=e1305] [cursor=pointer]:
+                        - img [ref=e1308]
+          - listitem [ref=e1310]:
+            - generic [ref=e1311]:
+              - generic [ref=e1317]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1319]:
+                - generic [ref=e1321]:
+                  - generic [ref=e1322]:
+                    - link "a man sitting on the ground in front of an eye with fire coming out of it" [ref=e1324] [cursor=pointer]:
+                      - /url: /pin/611856299422669717/
+                      - 'img "This may contain: a man sitting on the ground in front of an eye with fire coming out of it" [ref=e1340]'
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 0:24
+                  - generic [ref=e1342]:
+                    - generic:
+                      - link "a man sitting on the ground in front of an eye with fire coming out of it":
+                        - /url: /pin/611856299422669717/
+                    - generic "More actions" [ref=e1349]:
+                      - button "More actions" [ref=e1350] [cursor=pointer]:
+                        - img [ref=e1353]
+          - listitem [ref=e1355]:
+            - generic [ref=e1356]:
+              - generic [ref=e1362]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1364]:
+                - generic [ref=e1366]:
+                  - generic [ref=e1367]:
+                    - link "Breathing Poster Wallpaper, Deep Breath And Relax Wallpaper, How To Practice Healing Breath, Affirmation Breath Exercises, Pink Aesthetic Mindfulness Poster, Breathe Lockscreen, Breathe In Breathe Out Wallpaper Aesthetic, Breathe In Breathe Out Wallpaper Iphone, Breath By Breath Meditation" [ref=e1369] [cursor=pointer]:
+                      - /url: /pin/5629568278154230/
+                      - img "This contains an image of:" [ref=e1385]
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 0:17
+                  - generic [ref=e1387]:
+                    - generic:
+                      - link "Breathing Poster Wallpaper, Deep Breath And Relax Wallpaper, How To Practice Healing Breath, Affirmation Breath Exercises, Pink Aesthetic Mindfulness Poster, Breathe Lockscreen, Breathe In Breathe Out Wallpaper Aesthetic, Breathe In Breathe Out Wallpaper Iphone, Breath By Breath Meditation":
+                        - /url: /pin/5629568278154230/
+                    - generic "More actions" [ref=e1394]:
+                      - button "More actions" [ref=e1395] [cursor=pointer]:
+                        - img [ref=e1398]

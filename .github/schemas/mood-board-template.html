@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOOD BOARD — {{BOARD_NAME}}</title>
+    <style>
+        /* ── Reset ─────────────────────────────────── */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        /* ── Variables ─────────────────────────────── */
+        :root {
+            --bg: #ffffff;
+            --surface: #f5f5f5;
+            --card: #ffffff;
+            --card-hover: #fafafa;
+            --accent: #6b7280;
+            --accent-dim: rgba(107, 114, 128, 0.08);
+            --text: #374151;
+            --text-bright: #111827;
+            --text-muted: #9ca3af;
+            --border: #e5e7eb;
+            --overlay: rgba(0, 0, 0, 0.85);
+            --font: system-ui, -apple-system, 'Segoe UI', sans-serif;
+            --mono: 'Cascadia Code', 'Fira Code', Consolas, monospace;
+        }
+
+        body {
+            font-family: var(--font);
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+        }
+
+        /* ── Banner ────────────────────────────────── */
+        .banner {
+            background: var(--surface);
+            border-bottom: 1px solid var(--border);
+            padding: 1.25rem 2rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .banner__badge {
+            background: var(--accent);
+            color: #ffffff;
+            font-family: var(--mono);
+            font-size: 0.65rem;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            padding: 0.2rem 0.5rem;
+            border-radius: 3px;
+            text-transform: uppercase;
+            white-space: nowrap;
+        }
+
+        .banner__title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--text-bright);
+        }
+
+        .banner__count {
+            margin-left: auto;
+            font-family: var(--mono);
+            font-size: 0.75rem;
+            color: var(--text-muted);
+        }
+
+        /* ── Hero / Concept Header ─────────────────── */
+        .hero {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem 2rem 1rem;
+        }
+
+        .hero__concept {
+            font-size: 1.1rem;
+            color: var(--text);
+            line-height: 1.6;
+            max-width: 720px;
+        }
+
+        .hero__direction {
+            margin-top: 0.75rem;
+            font-family: var(--mono);
+            font-size: 0.8rem;
+            color: var(--accent);
+            padding: 0.5rem 0.75rem;
+            background: var(--accent-dim);
+            border-radius: 4px;
+            display: inline-block;
+        }
+
+        .hero__meta {
+            margin-top: 0.75rem;
+            font-family: var(--mono);
+            font-size: 0.7rem;
+            color: var(--text-muted);
+        }
+
+        /* ── Category Navigation ───────────────────── */
+        .category-nav {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0.75rem 2rem;
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            position: sticky;
+            top: 60px;
+            z-index: 90;
+            background: var(--bg);
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 1rem;
+        }
+
+        .category-nav__btn {
+            font-family: var(--mono);
+            font-size: 0.7rem;
+            padding: 0.35rem 0.75rem;
+            border-radius: 4px;
+            border: 1px solid var(--border);
+            background: var(--card);
+            color: var(--text);
+            cursor: pointer;
+            transition: all 0.15s;
+            white-space: nowrap;
+        }
+
+        .category-nav__btn:hover {
+            background: var(--card-hover);
+            border-color: var(--accent);
+        }
+
+        .category-nav__btn.active {
+            background: var(--accent-dim);
+            border-color: var(--accent);
+            color: var(--accent);
+        }
+
+        .category-nav__count {
+            font-size: 0.6rem;
+            opacity: 0.6;
+            margin-left: 0.25rem;
+        }
+
+        /* ── Category Sections ─────────────────────── */
+        .categories {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1rem 2rem 3rem;
+        }
+
+        .category {
+            margin-bottom: 2.5rem;
+        }
+
+        .category__header {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .category__label {
+            font-size: 0.7rem;
+            font-family: var(--mono);
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            color: var(--text-muted);
+        }
+
+        .category__query {
+            font-size: 0.65rem;
+            font-family: var(--mono);
+            color: var(--accent);
+            opacity: 0.6;
+        }
+
+        .category__image-count {
+            margin-left: auto;
+            font-family: var(--mono);
+            font-size: 0.65rem;
+            color: var(--text-muted);
+        }
+
+        /* ── Masonry Image Grid ────────────────────── */
+        .image-grid {
+            columns: 4;
+            column-gap: 0.75rem;
+        }
+
+        @media (max-width: 1200px) { .image-grid { columns: 3; } }
+        @media (max-width: 800px) { .image-grid { columns: 2; } }
+        @media (max-width: 500px) { .image-grid { columns: 1; } }
+
+        .image-card {
+            break-inside: avoid;
+            margin-bottom: 0.75rem;
+            border-radius: 8px;
+            overflow: hidden;
+            background: var(--card);
+            cursor: pointer;
+            transition: transform 0.15s, box-shadow 0.15s;
+            position: relative;
+        }
+
+        .image-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+        }
+
+        .image-card img {
+            width: 100%;
+            display: block;
+            transition: opacity 0.3s;
+        }
+
+        .image-card img[data-loaded="false"] {
+            opacity: 0;
+            min-height: 200px;
+        }
+
+        .image-card img[data-loaded="true"] {
+            opacity: 1;
+        }
+
+        /* ── Lightbox ──────────────────────────────── */
+        .lightbox {
+            display: none;
+            position: fixed;
+            inset: 0;
+            z-index: 1000;
+            background: var(--overlay);
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+
+        .lightbox.open {
+            display: flex;
+        }
+
+        .lightbox__img {
+            max-width: 90vw;
+            max-height: 85vh;
+            border-radius: 8px;
+            box-shadow: 0 16px 48px rgba(0, 0, 0, 0.6);
+            object-fit: contain;
+        }
+
+        .lightbox__close {
+            position: absolute;
+            top: 1.5rem;
+            right: 1.5rem;
+            background: rgba(255, 255, 255, 0.95);
+            border: 1px solid #d1d5db;
+            color: #374151;
+            width: 2.5rem;
+            height: 2.5rem;
+            border-radius: 50%;
+            font-size: 1.2rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background 0.15s;
+        }
+
+        .lightbox__close:hover {
+            background: #ffffff;
+        }
+
+        .lightbox__nav {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(255, 255, 255, 0.95);
+            border: 1px solid #d1d5db;
+            color: #374151;
+            width: 3rem;
+            height: 3rem;
+            border-radius: 50%;
+            font-size: 1.4rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background 0.15s;
+        }
+
+        .lightbox__nav:hover {
+            background: #ffffff;
+        }
+
+        .lightbox__nav--prev { left: 1.5rem; }
+        .lightbox__nav--next { right: 1.5rem; }
+
+        .lightbox__caption {
+            position: absolute;
+            bottom: 1.5rem;
+            left: 50%;
+            transform: translateX(-50%);
+            font-family: var(--mono);
+            font-size: 0.75rem;
+            color: #374151;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 0.4rem 1rem;
+            border-radius: 4px;
+            border: 1px solid #d1d5db;
+            white-space: nowrap;
+        }
+
+        /* ── Loading ───────────────────────────────── */
+        .loading {
+            text-align: center;
+            padding: 4rem 2rem;
+            color: var(--text-muted);
+            font-family: var(--mono);
+            font-size: 0.9rem;
+        }
+
+        .error {
+            text-align: center;
+            padding: 4rem 2rem;
+            color: #e74c3c;
+            font-family: var(--mono);
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Banner -->
+    <header class="banner">
+        <span class="banner__badge">Mood Board</span>
+        <h1 class="banner__title" id="boardTitle">{{BOARD_NAME}}</h1>
+        <span class="banner__count" id="boardCount"></span>
+    </header>
+
+    <!-- Hero / Concept -->
+    <section class="hero" id="hero">
+        <p class="hero__concept" id="heroConcept">Loading...</p>
+        <div class="hero__direction" id="heroDirection" style="display:none;"></div>
+        <div class="hero__meta" id="heroMeta"></div>
+    </section>
+
+    <!-- Category Nav -->
+    <nav class="category-nav" id="categoryNav"></nav>
+
+    <!-- Boards Content -->
+    <main class="categories" id="categoriesContainer">
+        <div class="loading">Loading mood board…</div>
+    </main>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-label="Image viewer">
+        <button class="lightbox__close" id="lightboxClose" aria-label="Close">✕</button>
+        <button class="lightbox__nav lightbox__nav--prev" id="lightboxPrev" aria-label="Previous image">‹</button>
+        <button class="lightbox__nav lightbox__nav--next" id="lightboxNext" aria-label="Next image">›</button>
+        <img class="lightbox__img" id="lightboxImg" src="" alt="Enlarged inspiration image">
+        <div class="lightbox__caption" id="lightboxCaption"></div>
+    </div>
+
+    <script>
+        const BOARD_ID = '{{BOARD_ID}}';
+
+        // ── State ──────────────────────────────────
+        let boardData = null;
+        let allImages = [];   // flat list for lightbox navigation
+        let lightboxIndex = 0;
+
+        // ── Init ───────────────────────────────────
+        async function init() {
+            try {
+                const res = await fetch('board.json');
+                if (!res.ok) throw new Error('Failed to load board.json');
+                boardData = await res.json();
+                render();
+            } catch (err) {
+                document.getElementById('categoriesContainer').innerHTML =
+                    '<div class="error">Could not load board.json — ' + err.message + '</div>';
+            }
+        }
+
+        // ── Render ─────────────────────────────────
+        function render() {
+            // Hero
+            document.getElementById('boardTitle').textContent = boardData.name || BOARD_ID;
+            document.getElementById('heroConcept').textContent = boardData.concept || '';
+
+            if (boardData.direction) {
+                const dir = document.getElementById('heroDirection');
+                dir.textContent = boardData.direction;
+                dir.style.display = 'inline-block';
+            }
+
+            const totalImages = boardData.categories.reduce((n, c) => n + c.images.length, 0);
+            document.getElementById('boardCount').textContent = totalImages + ' images';
+            document.getElementById('heroMeta').textContent = 'Created ' + (boardData.created || '—') +
+                ' · ' + boardData.categories.length + ' categories';
+
+            // Build flat image list for lightbox
+            allImages = [];
+            boardData.categories.forEach(cat => {
+                cat.images.forEach(img => {
+                    allImages.push({ file: img.file, category: cat.label });
+                });
+            });
+
+            // Category nav
+            renderCategoryNav();
+
+            // Categories
+            renderCategories();
+        }
+
+        function renderCategoryNav() {
+            const nav = document.getElementById('categoryNav');
+            // "All" button
+            let html = '<button class="category-nav__btn active" data-category="all">All' +
+                '<span class="category-nav__count">' + allImages.length + '</span></button>';
+
+            boardData.categories.forEach(cat => {
+                html += '<button class="category-nav__btn" data-category="' + cat.id + '">' +
+                    cat.label + '<span class="category-nav__count">' + cat.images.length + '</span></button>';
+            });
+            nav.innerHTML = html;
+
+            nav.querySelectorAll('.category-nav__btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    nav.querySelectorAll('.category-nav__btn').forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    filterCategory(btn.dataset.category);
+                });
+            });
+        }
+
+        function renderCategories() {
+            const container = document.getElementById('categoriesContainer');
+            let html = '';
+
+            boardData.categories.forEach(cat => {
+                html += '<section class="category" data-category-id="' + cat.id + '">';
+                html += '<div class="category__header">';
+                html += '<span class="category__label">' + cat.label + '</span>';
+                if (cat.query) html += '<span class="category__query">"' + cat.query + '"</span>';
+                html += '<span class="category__image-count">' + cat.images.length + ' images</span>';
+                html += '</div>';
+                html += '<div class="image-grid">';
+
+                cat.images.forEach((img, idx) => {
+                    const globalIdx = allImages.findIndex(a => a.file === img.file);
+                    html += '<div class="image-card" data-index="' + globalIdx + '">';
+                    html += '<img src="' + img.file + '" alt="Inspiration from ' + cat.label + '" loading="lazy" data-loaded="false" ' +
+                        'onload="this.dataset.loaded=\'true\'" onerror="this.parentElement.style.display=\'none\'">';
+                    html += '</div>';
+                });
+
+                html += '</div></section>';
+            });
+
+            container.innerHTML = html;
+
+            // Click handlers for lightbox
+            container.querySelectorAll('.image-card').forEach(card => {
+                card.addEventListener('click', () => {
+                    openLightbox(parseInt(card.dataset.index, 10));
+                });
+            });
+        }
+
+        function filterCategory(catId) {
+            document.querySelectorAll('.category').forEach(section => {
+                if (catId === 'all') {
+                    section.style.display = '';
+                } else {
+                    section.style.display = section.dataset.categoryId === catId ? '' : 'none';
+                }
+            });
+        }
+
+        // ── Lightbox ───────────────────────────────
+        function openLightbox(index) {
+            lightboxIndex = index;
+            updateLightbox();
+            document.getElementById('lightbox').classList.add('open');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeLightbox() {
+            document.getElementById('lightbox').classList.remove('open');
+            document.body.style.overflow = '';
+        }
+
+        function updateLightbox() {
+            const img = allImages[lightboxIndex];
+            if (!img) return;
+            document.getElementById('lightboxImg').src = img.file;
+            document.getElementById('lightboxCaption').textContent =
+                img.category + ' · ' + (lightboxIndex + 1) + ' / ' + allImages.length;
+        }
+
+        document.getElementById('lightboxClose').addEventListener('click', closeLightbox);
+        document.getElementById('lightboxPrev').addEventListener('click', () => {
+            lightboxIndex = (lightboxIndex - 1 + allImages.length) % allImages.length;
+            updateLightbox();
+        });
+        document.getElementById('lightboxNext').addEventListener('click', () => {
+            lightboxIndex = (lightboxIndex + 1) % allImages.length;
+            updateLightbox();
+        });
+
+        // Close on backdrop click
+        document.getElementById('lightbox').addEventListener('click', (e) => {
+            if (e.target === e.currentTarget) closeLightbox();
+        });
+
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            const lb = document.getElementById('lightbox');
+            if (!lb.classList.contains('open')) return;
+            if (e.key === 'Escape') closeLightbox();
+            if (e.key === 'ArrowLeft') {
+                lightboxIndex = (lightboxIndex - 1 + allImages.length) % allImages.length;
+                updateLightbox();
+            }
+            if (e.key === 'ArrowRight') {
+                lightboxIndex = (lightboxIndex + 1) % allImages.length;
+                updateLightbox();
+            }
+        });
+
+        // ── Go ─────────────────────────────────────
+        init();
+    </script>
+</body>
+</html>

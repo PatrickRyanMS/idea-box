@@ -1,0 +1,630 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - link "Skip to content":
+      - /url: "#"
+      - generic [ref=e9] [cursor=pointer]: Skip to content
+    - generic [ref=e11]:
+      - generic [ref=e14]:
+        - combobox "Search" [ref=e16]: voice assistant app mobile UI minimal centered
+        - button "Remove search input" [ref=e21] [cursor=pointer]:
+          - img [ref=e24]
+      - generic [ref=e26]:
+        - button "Log in" [ref=e28] [cursor=pointer]:
+          - generic [ref=e30]: Log in
+        - button "Sign up" [ref=e32] [cursor=pointer]:
+          - generic [ref=e34]: Sign up
+  - navigation [ref=e36]:
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - generic "Home" [ref=e43]:
+          - link "Home" [ref=e44] [cursor=pointer]:
+            - /url: /
+            - img [ref=e46]
+        - generic "Explore" [ref=e51]:
+          - link "Explore" [ref=e52] [cursor=pointer]:
+            - /url: /ideas
+            - img [ref=e54]
+        - generic "Shop" [ref=e59]:
+          - link "Shop" [ref=e60] [cursor=pointer]:
+            - /url: /shopping
+            - img [ref=e62]
+      - generic "More options" [ref=e66]:
+        - button "More options" [ref=e67] [cursor=pointer]:
+          - img [ref=e70]
+  - main [ref=e72]:
+    - generic [ref=e74]:
+      - generic [ref=e77]:
+        - heading "Search" [level=1] [ref=e79]
+        - button "Show filters" [ref=e90] [cursor=pointer]:
+          - img [ref=e94]
+      - generic [ref=e100]:
+        - generic [ref=e101]: Showing more search results for voice assistant app mobile UI minimal centered
+        - list [ref=e106]:
+          - listitem [ref=e107]:
+            - group "Pin card" [ref=e110]:
+              - generic [ref=e112]:
+                - link "an iphone screen with the text how can i help you?" [ref=e115] [cursor=pointer]:
+                  - /url: /pin/332984966208178984/
+                - generic [ref=e129]:
+                  - generic:
+                    - link "an iphone screen with the text how can i help you?":
+                      - /url: /pin/332984966208178984/
+                  - generic "More actions" [ref=e136]:
+                    - button "More actions" [ref=e137] [cursor=pointer]:
+                      - img [ref=e140]
+          - listitem [ref=e142]:
+            - group "Pin card" [ref=e145]:
+              - generic [ref=e147]:
+                - link "an iphone with the text voice assistant mode on it, and two screens showing how to use" [ref=e150] [cursor=pointer]:
+                  - /url: /pin/57069120276031125/
+                  - img "an iphone with the text voice assistant mode on it, and two screens showing how to use" [ref=e160]
+                - generic [ref=e162]:
+                  - generic:
+                    - link "an iphone with the text voice assistant mode on it, and two screens showing how to use":
+                      - /url: /pin/57069120276031125/
+                  - button "Behance" [ref=e166] [cursor=pointer]:
+                    - generic [ref=e168]:
+                      - button "Behance" [ref=e171]:
+                        - generic "Behance" [ref=e172]
+                      - generic "More actions" [ref=e176]:
+                        - button "More actions" [ref=e177]:
+                          - img [ref=e180]
+          - listitem [ref=e182]:
+            - group "Pin card" [ref=e185]:
+              - generic [ref=e187]:
+                - link "the voice - first uip is displayed on an iphone's screen, and it has" [ref=e190] [cursor=pointer]:
+                  - /url: /pin/199073246025531095/
+                  - img "the voice - first uip is displayed on an iphone's screen, and it has" [ref=e200]
+                - generic [ref=e202]:
+                  - generic:
+                    - link "the voice - first uip is displayed on an iphone's screen, and it has":
+                      - /url: /pin/199073246025531095/
+                  - generic "More actions" [ref=e209]:
+                    - button "More actions" [ref=e210] [cursor=pointer]:
+                      - img [ref=e213]
+          - listitem [ref=e215]:
+            - group "Pin card" [ref=e218]:
+              - generic [ref=e220]:
+                - generic [ref=e221]:
+                  - link "a microphone icon on a dark blue background" [ref=e223] [cursor=pointer]:
+                    - /url: /pin/4011087181285507/
+                    - 'img "This may contain: a microphone icon on a dark blue background" [ref=e239]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:04
+                - generic [ref=e241]:
+                  - generic:
+                    - link "a microphone icon on a dark blue background":
+                      - /url: /pin/4011087181285507/
+                  - generic "More actions" [ref=e248]:
+                    - button "More actions" [ref=e249] [cursor=pointer]:
+                      - img [ref=e252]
+          - listitem [ref=e254]:
+            - group "Pin card" [ref=e257]:
+              - generic [ref=e259]:
+                - link "an iphone with the voice memos app on it" [ref=e262] [cursor=pointer]:
+                  - /url: /pin/211174979116819/
+                  - img "an iphone with the voice memos app on it" [ref=e272]
+                - generic [ref=e274]:
+                  - generic:
+                    - link "an iphone with the voice memos app on it":
+                      - /url: /pin/211174979116819/
+                  - generic "More actions" [ref=e281]:
+                    - button "More actions" [ref=e282] [cursor=pointer]:
+                      - img [ref=e285]
+          - listitem [ref=e287]:
+            - group "Pin card" [ref=e290]:
+              - generic [ref=e292]:
+                - link "three smartphones displaying the smart command screen and how to use it on their screens" [ref=e295] [cursor=pointer]:
+                  - /url: /pin/924082417308604969/
+                  - img "three smartphones displaying the smart command screen and how to use it on their screens" [ref=e305]
+                - generic [ref=e307]:
+                  - generic:
+                    - link "three smartphones displaying the smart command screen and how to use it on their screens":
+                      - /url: /pin/924082417308604969/
+                  - generic "More actions" [ref=e314]:
+                    - button "More actions" [ref=e315] [cursor=pointer]:
+                      - img [ref=e318]
+          - listitem [ref=e320]:
+            - generic [ref=e321]:
+              - generic [ref=e327]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e329]:
+                - generic [ref=e331]:
+                  - link "an iphone with the text hey, smile, what can i help you with?" [ref=e334] [cursor=pointer]:
+                    - /url: /pin/14073817581462921/
+                    - img "an iphone with the text hey, smile, what can i help you with?" [ref=e344]
+                  - generic [ref=e346]:
+                    - generic:
+                      - link "an iphone with the text hey, smile, what can i help you with?":
+                        - /url: /pin/14073817581462921/
+                    - generic "More actions" [ref=e353]:
+                      - button "More actions" [ref=e354] [cursor=pointer]:
+                        - img [ref=e357]
+          - listitem [ref=e359]:
+            - group "Pin card" [ref=e362]:
+              - generic [ref=e364]:
+                - link "three iphones with different messages on them, one showing how to use the app" [ref=e367] [cursor=pointer]:
+                  - /url: /pin/603552787606367240/
+                  - img "three iphones with different messages on them, one showing how to use the app" [ref=e377]
+                - generic [ref=e379]:
+                  - generic:
+                    - link "three iphones with different messages on them, one showing how to use the app":
+                      - /url: /pin/603552787606367240/
+                  - generic "More actions" [ref=e386]:
+                    - button "More actions" [ref=e387] [cursor=pointer]:
+                      - img [ref=e390]
+          - listitem [ref=e392]:
+            - group "Pin card" [ref=e395]:
+              - generic [ref=e397]:
+                - link "an iphone screen with the text start speaking on it, and a circle in the middle" [ref=e400] [cursor=pointer]:
+                  - /url: /pin/174725660538563682/
+                  - img "an iphone screen with the text start speaking on it, and a circle in the middle" [ref=e410]
+                - generic [ref=e412]:
+                  - generic:
+                    - link "an iphone screen with the text start speaking on it, and a circle in the middle":
+                      - /url: /pin/174725660538563682/
+                  - generic "More actions" [ref=e419]:
+                    - button "More actions" [ref=e420] [cursor=pointer]:
+                      - img [ref=e423]
+          - listitem [ref=e425]:
+            - group "Pin card" [ref=e428]:
+              - generic [ref=e430]:
+                - link "an array of cell phones with purple and black screens on them, all displaying different messages" [ref=e433] [cursor=pointer]:
+                  - /url: /pin/52495151902087348/
+                  - img "an array of cell phones with purple and black screens on them, all displaying different messages" [ref=e443]
+                - generic [ref=e445]:
+                  - generic:
+                    - link "an array of cell phones with purple and black screens on them, all displaying different messages":
+                      - /url: /pin/52495151902087348/
+                  - generic "More actions" [ref=e452]:
+                    - button "More actions" [ref=e453] [cursor=pointer]:
+                      - img [ref=e456]
+          - listitem [ref=e458]:
+            - group "Pin card" [ref=e461]:
+              - generic [ref=e463]:
+                - link "an iphone with the message how can help you today?" [ref=e466] [cursor=pointer]:
+                  - /url: /pin/168955423517221892/
+                  - img "an iphone with the message how can help you today?" [ref=e476]
+                - generic [ref=e478]:
+                  - generic:
+                    - link "an iphone with the message how can help you today?":
+                      - /url: /pin/168955423517221892/
+                  - generic "More actions" [ref=e485]:
+                    - button "More actions" [ref=e486] [cursor=pointer]:
+                      - img [ref=e489]
+          - listitem [ref=e491]:
+            - generic [ref=e492]:
+              - generic [ref=e498]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e500]:
+                - generic [ref=e502]:
+                  - link "an iphone screen with the text capture your voice, ideas and stories record to begin" [ref=e505] [cursor=pointer]:
+                    - /url: /pin/8303580558959252/
+                    - img "an iphone screen with the text capture your voice, ideas and stories record to begin" [ref=e515]
+                  - generic [ref=e517]:
+                    - generic:
+                      - link "an iphone screen with the text capture your voice, ideas and stories record to begin":
+                        - /url: /pin/8303580558959252/
+                    - generic "More actions" [ref=e524]:
+                      - button "More actions" [ref=e525] [cursor=pointer]:
+                        - img [ref=e528]
+          - listitem [ref=e530]:
+            - group "Pin card" [ref=e533]:
+              - generic [ref=e535]:
+                - link "three cell phones with different screens showing the time and date on their screens, one is reading" [ref=e538] [cursor=pointer]:
+                  - /url: /pin/559994534938778941/
+                  - img "three cell phones with different screens showing the time and date on their screens, one is reading" [ref=e548]
+                - generic [ref=e550]:
+                  - generic:
+                    - link "three cell phones with different screens showing the time and date on their screens, one is reading":
+                      - /url: /pin/559994534938778941/
+                  - generic "More actions" [ref=e557]:
+                    - button "More actions" [ref=e558] [cursor=pointer]:
+                      - img [ref=e561]
+          - listitem [ref=e563]:
+            - group "Pin card" [ref=e566]:
+              - generic [ref=e568]:
+                - generic [ref=e569]:
+                  - link "an image of a black and green button" [ref=e571] [cursor=pointer]:
+                    - /url: /pin/2674081026176949/
+                    - 'img "This may contain: an image of a black and green button" [ref=e587]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:07
+                - generic [ref=e589]:
+                  - generic:
+                    - link "an image of a black and green button":
+                      - /url: /pin/2674081026176949/
+                  - generic "More actions" [ref=e596]:
+                    - button "More actions" [ref=e597] [cursor=pointer]:
+                      - img [ref=e600]
+          - listitem [ref=e602]:
+            - group "Pin card" [ref=e605]:
+              - generic [ref=e607]:
+                - link "an image of a cell phone with the text pro voice on it's screen" [ref=e610] [cursor=pointer]:
+                  - /url: /pin/140033869660225784/
+                  - img "an image of a cell phone with the text pro voice on it's screen" [ref=e620]
+                - generic [ref=e622]:
+                  - generic:
+                    - link "an image of a cell phone with the text pro voice on it's screen":
+                      - /url: /pin/140033869660225784/
+                  - generic "More actions" [ref=e629]:
+                    - button "More actions" [ref=e630] [cursor=pointer]:
+                      - img [ref=e633]
+          - listitem [ref=e635]:
+            - group "Pin card" [ref=e638]:
+              - generic [ref=e640]:
+                - link "an iphone screen with the text what should i do? and a photo of a person's face on it" [ref=e643] [cursor=pointer]:
+                  - /url: /pin/5418462047597020/
+                  - img "an iphone screen with the text what should i do? and a photo of a person's face on it" [ref=e653]
+                - generic [ref=e655]:
+                  - generic:
+                    - link "an iphone screen with the text what should i do? and a photo of a person's face on it":
+                      - /url: /pin/5418462047597020/
+                  - generic "More actions" [ref=e662]:
+                    - button "More actions" [ref=e663] [cursor=pointer]:
+                      - img [ref=e666]
+          - listitem [ref=e668]:
+            - generic [ref=e669]:
+              - generic [ref=e675]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e677]:
+                - generic [ref=e679]:
+                  - generic [ref=e680]:
+                    - link "an iphone screen with the text, choose how you're feeling right now neutral" [ref=e682] [cursor=pointer]:
+                      - /url: /pin/23081016836824301/
+                      - 'img "This may contain: an iphone screen with the text, choose how you''re feeling right now neutral" [ref=e698]'
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 0:22
+                  - generic [ref=e700]:
+                    - generic:
+                      - link "an iphone screen with the text, choose how you're feeling right now neutral":
+                        - /url: /pin/23081016836824301/
+                    - generic "More actions" [ref=e707]:
+                      - button "More actions" [ref=e708] [cursor=pointer]:
+                        - img [ref=e711]
+          - listitem [ref=e713]:
+            - group "Pin card" [ref=e716]:
+              - generic [ref=e718]:
+                - link "two smartphones with different app screens on them, one showing an audio wave and the other displaying text messages" [ref=e721] [cursor=pointer]:
+                  - /url: /pin/65724475804212617/
+                  - img "two smartphones with different app screens on them, one showing an audio wave and the other displaying text messages" [ref=e731]
+                - generic [ref=e733]:
+                  - generic:
+                    - link "two smartphones with different app screens on them, one showing an audio wave and the other displaying text messages":
+                      - /url: /pin/65724475804212617/
+                  - generic "More actions" [ref=e740]:
+                    - button "More actions" [ref=e741] [cursor=pointer]:
+                      - img [ref=e744]
+          - listitem [ref=e746]:
+            - group "Pin card" [ref=e749]:
+              - generic [ref=e751]:
+                - link "two iphones with recording options on them" [ref=e754] [cursor=pointer]:
+                  - /url: /pin/57069120276030431/
+                  - img "two iphones with recording options on them" [ref=e764]
+                - generic [ref=e766]:
+                  - generic:
+                    - link "two iphones with recording options on them":
+                      - /url: /pin/57069120276030431/
+                  - generic "More actions" [ref=e773]:
+                    - button "More actions" [ref=e774] [cursor=pointer]:
+                      - img [ref=e777]
+          - listitem [ref=e779]:
+            - group "Pin card" [ref=e782]:
+              - generic [ref=e784]:
+                - link "three cell phones with different screens showing the time and location of each phone, one on top of the other" [ref=e787] [cursor=pointer]:
+                  - /url: /pin/297237644182228440/
+                  - img "three cell phones with different screens showing the time and location of each phone, one on top of the other" [ref=e797]
+                - generic [ref=e799]:
+                  - generic:
+                    - link "three cell phones with different screens showing the time and location of each phone, one on top of the other":
+                      - /url: /pin/297237644182228440/
+                  - generic "More actions" [ref=e806]:
+                    - button "More actions" [ref=e807] [cursor=pointer]:
+                      - img [ref=e810]
+          - listitem [ref=e812]:
+            - group "Pin card" [ref=e815]:
+              - generic [ref=e817]:
+                - link "an iphone screen showing the white rabbit app on it's display, with text and audio" [ref=e820] [cursor=pointer]:
+                  - /url: /pin/5840674511810787/
+                  - img "an iphone screen showing the white rabbit app on it's display, with text and audio" [ref=e830]
+                - generic [ref=e832]:
+                  - generic:
+                    - link "an iphone screen showing the white rabbit app on it's display, with text and audio":
+                      - /url: /pin/5840674511810787/
+                  - generic "More actions" [ref=e839]:
+                    - button "More actions" [ref=e840] [cursor=pointer]:
+                      - img [ref=e843]
+          - listitem [ref=e845]:
+            - generic [ref=e846]:
+              - generic [ref=e852]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e854]:
+                - generic [ref=e856]:
+                  - link "an iphone screen with the words space calm and affirming on it's side" [ref=e859] [cursor=pointer]:
+                    - /url: /pin/145944844173023729/
+                    - img "an iphone screen with the words space calm and affirming on it's side" [ref=e869]
+                  - generic [ref=e871]:
+                    - generic:
+                      - link "an iphone screen with the words space calm and affirming on it's side":
+                        - /url: /pin/145944844173023729/
+                    - generic "More actions" [ref=e878]:
+                      - button "More actions" [ref=e879] [cursor=pointer]:
+                        - img [ref=e882]
+          - listitem [ref=e884]:
+            - group "Pin card" [ref=e887]:
+              - generic [ref=e889]:
+                - link "the different types of circles on a blue background" [ref=e892] [cursor=pointer]:
+                  - /url: /pin/34199278420446834/
+                  - img "the different types of circles on a blue background" [ref=e902]
+                - generic [ref=e904]:
+                  - generic:
+                    - link "the different types of circles on a blue background":
+                      - /url: /pin/34199278420446834/
+                  - generic "More actions" [ref=e911]:
+                    - button "More actions" [ref=e912] [cursor=pointer]:
+                      - img [ref=e915]
+          - listitem [ref=e917]:
+            - group "Pin card" [ref=e920]:
+              - generic [ref=e922]:
+                - link "a blue circle with the letter h in it's center, on a dark background" [ref=e925] [cursor=pointer]:
+                  - /url: /pin/8866530512191361/
+                  - img "a blue circle with the letter h in it's center, on a dark background" [ref=e935]
+                - generic [ref=e937]:
+                  - generic:
+                    - link "a blue circle with the letter h in it's center, on a dark background":
+                      - /url: /pin/8866530512191361/
+                  - generic "More actions" [ref=e944]:
+                    - button "More actions" [ref=e945] [cursor=pointer]:
+                      - img [ref=e948]
+          - listitem [ref=e950]:
+            - group "Pin card" [ref=e954]:
+              - generic [ref=e956]:
+                - link "a hand holding a cell phone with the voice memos app on it's screen" [ref=e959] [cursor=pointer]:
+                  - /url: /pin/155514993384318121/
+                  - generic [ref=e961]:
+                    - generic [ref=e966]:
+                      - 'img "A voice memo app for thoughts you don’t want to lose 🎧 #voicememo #uidesign #uxdesign #uiuxdesign #appdesign" [ref=e970]'
+                      - 'img "A voice memo app for thoughts you don’t want to lose 🎧 #voicememo #uidesign #uxdesign #uiuxdesign #appdesign" [ref=e974]'
+                      - 'img "A voice memo app for thoughts you don’t want to lose 🎧 #voicememo #uidesign #uxdesign #uiuxdesign #appdesign" [ref=e978]'
+                      - 'img "A voice memo app for thoughts you don’t want to lose 🎧 #voicememo #uidesign #uxdesign #uiuxdesign #appdesign" [ref=e982]'
+                      - 'img "A voice memo app for thoughts you don’t want to lose 🎧 #voicememo #uidesign #uxdesign #uiuxdesign #appdesign" [ref=e986]'
+                    - generic [ref=e988]:
+                      - button "Go to slide 1 of 5" [ref=e990]
+                      - button "Go to slide 2 of 5" [ref=e993]
+                      - button "Go to slide 3 of 5" [ref=e996]
+                      - button "Go to slide 4 of 5" [ref=e999]
+                      - button "Go to slide 5 of 5" [ref=e1002]
+                - generic [ref=e1005]:
+                  - generic:
+                    - link "a hand holding a cell phone with the voice memos app on it's screen":
+                      - /url: /pin/155514993384318121/
+                  - generic "More actions" [ref=e1012]:
+                    - button "More actions" [ref=e1013] [cursor=pointer]:
+                      - img [ref=e1016]
+          - listitem [ref=e1018]:
+            - group "Pin card" [ref=e1021]:
+              - generic [ref=e1023]:
+                - 'link "An intuitive voice recognition screen designed for smooth AI conversations. Perfect for AI assistant, education apps, or chatbot platforms focused on natural communication. #VoiceApp #AIDesign #AppConcept #UIDesign #FigmaDesign Mobile Ui Login, Voice Assistant Ui Design, Voice Assistant Ui, Chatbot Ui Design, Hair Logo Design, Chatbot App, Ui Design Principles, Website Design Inspiration Layout, Voice App" [ref=e1026] [cursor=pointer]':
+                  - /url: /pin/17099673582831437/
+                  - 'img "An intuitive voice recognition screen designed for smooth AI conversations. Perfect for AI assistant, education apps, or chatbot platforms focused on natural communication. #VoiceApp #AIDesign #AppConcept #UIDesign #FigmaDesign Mobile Ui Login, Voice Assistant Ui Design, Voice Assistant Ui, Chatbot Ui Design, Hair Logo Design, Chatbot App, Ui Design Principles, Website Design Inspiration Layout, Voice App" [ref=e1036]'
+                - generic [ref=e1038]:
+                  - generic:
+                    - 'link "An intuitive voice recognition screen designed for smooth AI conversations. Perfect for AI assistant, education apps, or chatbot platforms focused on natural communication. #VoiceApp #AIDesign #AppConcept #UIDesign #FigmaDesign Mobile Ui Login, Voice Assistant Ui Design, Voice Assistant Ui, Chatbot Ui Design, Hair Logo Design, Chatbot App, Ui Design Principles, Website Design Inspiration Layout, Voice App"':
+                      - /url: /pin/17099673582831437/
+                  - generic "More actions" [ref=e1045]:
+                    - button "More actions" [ref=e1046] [cursor=pointer]:
+                      - img [ref=e1049]
+          - listitem [ref=e1051]:
+            - generic [ref=e1052]:
+              - generic [ref=e1058]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1060]:
+                - generic [ref=e1062]:
+                  - link "Voice assistant mobile app UI design in dark mode with to-do list, reminders, chat history, and task management features for productivity." [ref=e1065] [cursor=pointer]:
+                    - /url: /pin/4222193395869606/
+                    - img "Voice assistant mobile app UI design in dark mode with to-do list, reminders, chat history, and task management features for productivity." [ref=e1075]
+                  - generic [ref=e1077]:
+                    - generic:
+                      - link "Voice assistant mobile app UI design in dark mode with to-do list, reminders, chat history, and task management features for productivity.":
+                        - /url: /pin/4222193395869606/
+                    - generic "More actions" [ref=e1084]:
+                      - button "More actions" [ref=e1085] [cursor=pointer]:
+                        - img [ref=e1088]
+          - listitem [ref=e1090]:
+            - group "Pin card" [ref=e1093]:
+              - generic [ref=e1095]:
+                - link "the sound recorder app on an iphone's screen is showing it's voice" [ref=e1098] [cursor=pointer]:
+                  - /url: /pin/14988611255749670/
+                  - img "the sound recorder app on an iphone's screen is showing it's voice" [ref=e1108]
+                - generic [ref=e1110]:
+                  - generic:
+                    - link "the sound recorder app on an iphone's screen is showing it's voice":
+                      - /url: /pin/14988611255749670/
+                  - generic "More actions" [ref=e1117]:
+                    - button "More actions" [ref=e1118] [cursor=pointer]:
+                      - img [ref=e1121]
+          - listitem [ref=e1123]:
+            - group "Pin card" [ref=e1126]:
+              - generic [ref=e1128]:
+                - link "three smartphones with catmix on them and the text what can i help you with?" [ref=e1131] [cursor=pointer]:
+                  - /url: /pin/8585055535499668/
+                  - img "three smartphones with catmix on them and the text what can i help you with?" [ref=e1141]
+                - generic [ref=e1143]:
+                  - generic:
+                    - link "three smartphones with catmix on them and the text what can i help you with?":
+                      - /url: /pin/8585055535499668/
+                  - generic "More actions" [ref=e1150]:
+                    - button "More actions" [ref=e1151] [cursor=pointer]:
+                      - img [ref=e1154]
+          - listitem [ref=e1156]:
+            - generic [ref=e1157]:
+              - generic [ref=e1163]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1165]:
+                - generic [ref=e1167]:
+                  - link "two iphone screens with the text, how can i help you? and an image of a" [ref=e1170] [cursor=pointer]:
+                    - /url: /pin/11118330333354918/
+                    - img "two iphone screens with the text, how can i help you? and an image of a" [ref=e1180]
+                  - generic [ref=e1182]:
+                    - generic:
+                      - link "two iphone screens with the text, how can i help you? and an image of a":
+                        - /url: /pin/11118330333354918/
+                    - generic "More actions" [ref=e1189]:
+                      - button "More actions" [ref=e1190] [cursor=pointer]:
+                        - img [ref=e1193]
+          - listitem [ref=e1195]:
+            - generic [ref=e1196]:
+              - generic [ref=e1202]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1205]:
+                - generic [ref=e1207]:
+                  - link "a cell phone with the words voice memos on it and an orange light at the bottom" [ref=e1210] [cursor=pointer]:
+                    - /url: /pin/599330662974018015/
+                    - generic [ref=e1212]:
+                      - generic [ref=e1217]:
+                        - 'img "A voice memo app for thoughts you don’t want to lose 🎧 #voicememo #uidesign #uxdesign #uiuxdesign #appdesign" [ref=e1221]'
+                        - 'img "A voice memo app for thoughts you don’t want to lose 🎧 #voicememo #uidesign #uxdesign #uiuxdesign #appdesign" [ref=e1225]'
+                        - 'img "A voice memo app for thoughts you don’t want to lose 🎧 #voicememo #uidesign #uxdesign #uiuxdesign #appdesign" [ref=e1229]'
+                        - 'img "A voice memo app for thoughts you don’t want to lose 🎧 #voicememo #uidesign #uxdesign #uiuxdesign #appdesign" [ref=e1233]'
+                        - 'img "A voice memo app for thoughts you don’t want to lose 🎧 #voicememo #uidesign #uxdesign #uiuxdesign #appdesign" [ref=e1237]'
+                      - generic [ref=e1239]:
+                        - button "Go to slide 1 of 5" [ref=e1241]
+                        - button "Go to slide 2 of 5" [ref=e1244]
+                        - button "Go to slide 3 of 5" [ref=e1247]
+                        - button "Go to slide 4 of 5" [ref=e1250]
+                        - button "Go to slide 5 of 5" [ref=e1253]
+                  - generic [ref=e1256]:
+                    - generic:
+                      - link "a cell phone with the words voice memos on it and an orange light at the bottom":
+                        - /url: /pin/599330662974018015/
+                    - generic "More actions" [ref=e1263]:
+                      - button "More actions" [ref=e1264] [cursor=pointer]:
+                        - img [ref=e1267]
+          - listitem [ref=e1269]:
+            - generic [ref=e1270]:
+              - generic [ref=e1276]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1278]:
+                - generic [ref=e1280]:
+                  - link "a bunch of screens showing different types of webpages and the text below them" [ref=e1283] [cursor=pointer]:
+                    - /url: /pin/402790760442117980/
+                    - img "a bunch of screens showing different types of webpages and the text below them" [ref=e1293]
+                  - generic [ref=e1295]:
+                    - generic:
+                      - link "a bunch of screens showing different types of webpages and the text below them":
+                        - /url: /pin/402790760442117980/
+                    - generic "More actions" [ref=e1302]:
+                      - button "More actions" [ref=e1303] [cursor=pointer]:
+                        - img [ref=e1306]
+          - listitem [ref=e1308]:
+            - generic [ref=e1309]:
+              - generic [ref=e1315]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1317]:
+                - generic [ref=e1319]:
+                  - link "the words what can i help you with? written in white on a black background" [ref=e1322] [cursor=pointer]:
+                    - /url: /pin/48835977205826306/
+                    - img "the words what can i help you with? written in white on a black background" [ref=e1332]
+                  - generic [ref=e1334]:
+                    - generic:
+                      - link "the words what can i help you with? written in white on a black background":
+                        - /url: /pin/48835977205826306/
+                    - generic "More actions" [ref=e1341]:
+                      - button "More actions" [ref=e1342] [cursor=pointer]:
+                        - img [ref=e1345]
+          - listitem [ref=e1347]:
+            - generic [ref=e1348]:
+              - generic [ref=e1354]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1356]:
+                - generic [ref=e1358]:
+                  - link "two cell phones with the text meet blurry and new innovative voice assistant on them" [ref=e1361] [cursor=pointer]:
+                    - /url: /pin/926686061540312801/
+                    - img "two cell phones with the text meet blurry and new innovative voice assistant on them" [ref=e1371]
+                  - generic [ref=e1373]:
+                    - generic:
+                      - link "two cell phones with the text meet blurry and new innovative voice assistant on them":
+                        - /url: /pin/926686061540312801/
+                    - generic "More actions" [ref=e1380]:
+                      - button "More actions" [ref=e1381] [cursor=pointer]:
+                        - img [ref=e1384]
+          - listitem [ref=e1386]:
+            - generic [ref=e1387]:
+              - generic [ref=e1393]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1395]:
+                - generic [ref=e1397]:
+                  - generic [ref=e1398]:
+                    - link "a computer screen with the words what can i help you with?" [ref=e1400] [cursor=pointer]:
+                      - /url: /pin/33143747256025070/
+                      - 'img "This may contain: a computer screen with the words what can i help you with?" [ref=e1416]'
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 0:12
+                  - generic [ref=e1418]:
+                    - generic:
+                      - link "a computer screen with the words what can i help you with?":
+                        - /url: /pin/33143747256025070/
+                    - generic "More actions" [ref=e1425]:
+                      - button "More actions" [ref=e1426] [cursor=pointer]:
+                        - img [ref=e1429]
+          - listitem [ref=e1431]:
+            - generic [ref=e1432]:
+              - generic [ref=e1438]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1440]:
+                - generic [ref=e1442]:
+                  - link "two iphone screens with different messages on them" [ref=e1445] [cursor=pointer]:
+                    - /url: /pin/112027111109373743/
+                    - img "two iphone screens with different messages on them" [ref=e1455]
+                  - generic [ref=e1457]:
+                    - generic:
+                      - link "two iphone screens with different messages on them":
+                        - /url: /pin/112027111109373743/
+                    - generic "More actions" [ref=e1464]:
+                      - button "More actions" [ref=e1465] [cursor=pointer]:
+                        - img [ref=e1468]
+          - listitem [ref=e1470]:
+            - generic [ref=e1471]:
+              - generic [ref=e1477]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e1479]:
+                - generic [ref=e1481]:
+                  - link "the text reads james blake retroradde on a white background with red lines" [ref=e1484] [cursor=pointer]:
+                    - /url: /pin/31947478603417495/
+                    - img "the text reads james blake retroradde on a white background with red lines" [ref=e1494]
+                  - generic [ref=e1496]:
+                    - generic:
+                      - link "the text reads james blake retroradde on a white background with red lines":
+                        - /url: /pin/31947478603417495/
+                    - generic "More actions" [ref=e1503]:
+                      - button "More actions" [ref=e1504] [cursor=pointer]:
+                        - img [ref=e1507]

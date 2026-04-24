@@ -1,0 +1,461 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - link "Skip to content":
+      - /url: "#"
+      - generic [ref=e9] [cursor=pointer]: Skip to content
+    - generic [ref=e11]:
+      - generic [ref=e14]:
+        - combobox "Search" [ref=e16]: flowing liquid surface interface design
+        - button "Remove search input" [ref=e21] [cursor=pointer]:
+          - img [ref=e24]
+      - generic [ref=e26]:
+        - button "Log in" [ref=e28] [cursor=pointer]:
+          - generic [ref=e30]: Log in
+        - button "Sign up" [ref=e32] [cursor=pointer]:
+          - generic [ref=e34]: Sign up
+  - navigation [ref=e36]:
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - generic "Home" [ref=e43]:
+          - link "Home" [ref=e44] [cursor=pointer]:
+            - /url: /
+            - img [ref=e46]
+        - generic "Explore" [ref=e51]:
+          - link "Explore" [ref=e52] [cursor=pointer]:
+            - /url: /ideas
+            - img [ref=e54]
+        - generic "Shop" [ref=e59]:
+          - link "Shop" [ref=e60] [cursor=pointer]:
+            - /url: /shopping
+            - img [ref=e62]
+      - generic "More options" [ref=e66]:
+        - button "More options" [ref=e67] [cursor=pointer]:
+          - img [ref=e70]
+  - main [ref=e72]:
+    - generic [ref=e74]:
+      - generic [ref=e77]:
+        - heading "Search" [level=1] [ref=e79]
+        - button "Show filters" [ref=e90] [cursor=pointer]:
+          - img [ref=e94]
+      - generic [ref=e100]:
+        - generic [ref=e101]: Showing more search results for flowing liquid surface interface design
+        - list [ref=e106]:
+          - listitem [ref=e107]:
+            - group "Pin card" [ref=e110]:
+              - generic [ref=e112]:
+                - link "the glass ui kit is displayed on a tabletop, with buttons and other icons" [ref=e115] [cursor=pointer]:
+                  - /url: /pin/281543726681660/
+                  - img "the glass ui kit is displayed on a tabletop, with buttons and other icons" [ref=e125]
+                - generic [ref=e127]:
+                  - generic:
+                    - link "the glass ui kit is displayed on a tabletop, with buttons and other icons":
+                      - /url: /pin/281543726681660/
+                  - generic "More actions" [ref=e134]:
+                    - button "More actions" [ref=e135] [cursor=pointer]:
+                      - img [ref=e138]
+          - listitem [ref=e140]:
+            - group "Pin card" [ref=e143]:
+              - generic [ref=e145]:
+                - link "an abstract background with different colors and shapes, including the words flowy on it" [ref=e148] [cursor=pointer]:
+                  - /url: /pin/351912466239947/
+                  - img "an abstract background with different colors and shapes, including the words flowy on it" [ref=e158]
+                - generic [ref=e160]:
+                  - generic:
+                    - link "an abstract background with different colors and shapes, including the words flowy on it":
+                      - /url: /pin/351912466239947/
+                  - generic "More actions" [ref=e167]:
+                    - button "More actions" [ref=e168] [cursor=pointer]:
+                      - img [ref=e171]
+          - listitem [ref=e173]:
+            - group "Pin card" [ref=e176]:
+              - generic [ref=e178]:
+                - link "an image of a computer screen with bubbles on it" [ref=e181] [cursor=pointer]:
+                  - /url: /pin/281543726681656/
+                  - img "an image of a computer screen with bubbles on it" [ref=e191]
+                - generic [ref=e193]:
+                  - generic:
+                    - link "an image of a computer screen with bubbles on it":
+                      - /url: /pin/281543726681656/
+                  - generic "More actions" [ref=e200]:
+                    - button "More actions" [ref=e201] [cursor=pointer]:
+                      - img [ref=e204]
+          - listitem [ref=e206]:
+            - group "Pin card" [ref=e209]:
+              - generic [ref=e211]:
+                - link "the liquid glass theme on an iphone" [ref=e214] [cursor=pointer]:
+                  - /url: /pin/844493676125232/
+                  - img "the liquid glass theme on an iphone" [ref=e224]
+                - generic [ref=e226]:
+                  - generic:
+                    - link "the liquid glass theme on an iphone":
+                      - /url: /pin/844493676125232/
+                  - generic "More actions" [ref=e233]:
+                    - button "More actions" [ref=e234] [cursor=pointer]:
+                      - img [ref=e237]
+          - listitem [ref=e239]:
+            - group "Pin card" [ref=e242]:
+              - generic [ref=e244]:
+                - link "the liquid glass kit is displayed on an iphone" [ref=e247] [cursor=pointer]:
+                  - /url: /pin/27092035258058019/
+                  - img "the liquid glass kit is displayed on an iphone" [ref=e257]
+                - generic [ref=e259]:
+                  - generic:
+                    - link "the liquid glass kit is displayed on an iphone":
+                      - /url: /pin/27092035258058019/
+                  - generic "More actions" [ref=e266]:
+                    - button "More actions" [ref=e267] [cursor=pointer]:
+                      - img [ref=e270]
+          - listitem [ref=e272]:
+            - group "Pin card" [ref=e275]:
+              - generic [ref=e277]:
+                - link "liquid flowing down the side of a black surface with white and blue swirls on it" [ref=e280] [cursor=pointer]:
+                  - /url: /pin/47710077299836583/
+                - generic [ref=e294]:
+                  - generic:
+                    - link "liquid flowing down the side of a black surface with white and blue swirls on it":
+                      - /url: /pin/47710077299836583/
+                  - generic "More actions" [ref=e301]:
+                    - button "More actions" [ref=e302] [cursor=pointer]:
+                      - img [ref=e305]
+          - listitem [ref=e307]:
+            - generic [ref=e308]:
+              - generic [ref=e314]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e316]:
+                - generic [ref=e318]:
+                  - link "an image of a glass plate with pearls and other things on the surface that is white" [ref=e321] [cursor=pointer]:
+                    - /url: /pin/281543726706731/
+                    - img "an image of a glass plate with pearls and other things on the surface that is white" [ref=e331]
+                  - generic [ref=e333]:
+                    - generic:
+                      - link "an image of a glass plate with pearls and other things on the surface that is white":
+                        - /url: /pin/281543726706731/
+                    - generic "More actions" [ref=e340]:
+                      - button "More actions" [ref=e341] [cursor=pointer]:
+                        - img [ref=e344]
+          - listitem [ref=e346]:
+            - group "Pin card" [ref=e349]:
+              - generic [ref=e351]:
+                - generic [ref=e352]:
+                  - link "some liquid is floating in the air" [ref=e354] [cursor=pointer]:
+                    - /url: /pin/7670261860576928/
+                    - 'img "This may contain: some liquid is floating in the air" [ref=e370]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:27
+                - generic [ref=e372]:
+                  - generic:
+                    - link "some liquid is floating in the air":
+                      - /url: /pin/7670261860576928/
+                  - button "Behance" [ref=e376] [cursor=pointer]:
+                    - generic [ref=e378]:
+                      - button "Behance" [ref=e381]:
+                        - generic "Behance" [ref=e382]
+                      - generic "More actions" [ref=e386]:
+                        - button "More actions" [ref=e387]:
+                          - img [ref=e390]
+          - listitem [ref=e392]:
+            - group "Pin card" [ref=e395]:
+              - generic [ref=e397]:
+                - generic [ref=e398]:
+                  - link "an abstract purple background with text that reads,'gradient motion trends'in blue and pink" [ref=e400] [cursor=pointer]:
+                    - /url: /pin/3588874696066613/
+                    - 'img "This may contain: an abstract purple background with text that reads,''gradient motion trends''in blue and pink" [ref=e416]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:15
+                - generic [ref=e418]:
+                  - generic:
+                    - link "an abstract purple background with text that reads,'gradient motion trends'in blue and pink":
+                      - /url: /pin/3588874696066613/
+                  - button "Adobe Stock" [ref=e422] [cursor=pointer]:
+                    - generic [ref=e424]:
+                      - button "Adobe Stock" [ref=e427]:
+                        - generic "Adobe Stock" [ref=e428]
+                      - generic "More actions" [ref=e432]:
+                        - button "More actions" [ref=e433]:
+                          - img [ref=e436]
+          - listitem [ref=e438]:
+            - group "Pin card" [ref=e441]:
+              - generic [ref=e443]:
+                - link "an abstract image of water flowing in the air" [ref=e446] [cursor=pointer]:
+                  - /url: /pin/844493675787141/
+                  - img "an abstract image of water flowing in the air" [ref=e456]
+                - generic [ref=e458]:
+                  - generic:
+                    - link "an abstract image of water flowing in the air":
+                      - /url: /pin/844493675787141/
+                  - generic "More actions" [ref=e465]:
+                    - button "More actions" [ref=e466] [cursor=pointer]:
+                      - img [ref=e469]
+          - listitem [ref=e471]:
+            - group "Pin card" [ref=e474]:
+              - generic [ref=e476]:
+                - generic [ref=e477]:
+                  - link "an image of a computer screen with the text fractal tutor on it" [ref=e479] [cursor=pointer]:
+                    - /url: /pin/563018699098510/
+                    - 'img "This may contain: an image of a computer screen with the text fractal tutor on it" [ref=e495]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:20
+                - generic [ref=e497]:
+                  - generic:
+                    - link "an image of a computer screen with the text fractal tutor on it":
+                      - /url: /pin/563018699098510/
+                  - generic "More actions" [ref=e504]:
+                    - button "More actions" [ref=e505] [cursor=pointer]:
+                      - img [ref=e508]
+          - listitem [ref=e510]:
+            - generic [ref=e511]:
+              - generic [ref=e517]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e519]:
+                - generic [ref=e521]:
+                  - link "an abstract black and white background with drops of liquid in the center, on top of each other" [ref=e524] [cursor=pointer]:
+                    - /url: /pin/43558321391471252/
+                    - img "an abstract black and white background with drops of liquid in the center, on top of each other" [ref=e534]
+                  - generic [ref=e536]:
+                    - generic:
+                      - link "an abstract black and white background with drops of liquid in the center, on top of each other":
+                        - /url: /pin/43558321391471252/
+                    - generic "More actions" [ref=e543]:
+                      - button "More actions" [ref=e544] [cursor=pointer]:
+                        - img [ref=e547]
+          - listitem [ref=e549]:
+            - group "Pin card" [ref=e552]:
+              - generic [ref=e554]:
+                - link "an abstract image of liquid flowing in the air" [ref=e557] [cursor=pointer]:
+                  - /url: /pin/422281212274819/
+                  - img "an abstract image of liquid flowing in the air" [ref=e567]
+                - generic [ref=e569]:
+                  - generic:
+                    - link "an abstract image of liquid flowing in the air":
+                      - /url: /pin/422281212274819/
+                  - generic "More actions" [ref=e576]:
+                    - button "More actions" [ref=e577] [cursor=pointer]:
+                      - img [ref=e580]
+          - listitem [ref=e582]:
+            - group "Pin card" [ref=e585]:
+              - generic [ref=e587]:
+                - link "the words reflect the tide are in front of an image of a circular object that appears to be floating" [ref=e590] [cursor=pointer]:
+                  - /url: /pin/25614291624809886/
+                  - img "the words reflect the tide are in front of an image of a circular object that appears to be floating" [ref=e600]
+                - generic [ref=e602]:
+                  - generic:
+                    - link "the words reflect the tide are in front of an image of a circular object that appears to be floating":
+                      - /url: /pin/25614291624809886/
+                  - generic "More actions" [ref=e609]:
+                    - button "More actions" [ref=e610] [cursor=pointer]:
+                      - img [ref=e613]
+          - listitem [ref=e615]:
+            - group "Pin card" [ref=e618]:
+              - generic [ref=e620]:
+                - generic [ref=e621]:
+                  - link "an image of liquid bubbles floating in the air on a light blue background with white text" [ref=e623] [cursor=pointer]:
+                    - /url: /pin/492649954292854/
+                    - 'img "This may contain: an image of liquid bubbles floating in the air on a light blue background with white text" [ref=e639]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:06
+                - generic [ref=e641]:
+                  - generic:
+                    - link "an image of liquid bubbles floating in the air on a light blue background with white text":
+                      - /url: /pin/492649954292854/
+                  - generic "More actions" [ref=e648]:
+                    - button "More actions" [ref=e649] [cursor=pointer]:
+                      - img [ref=e652]
+          - listitem [ref=e654]:
+            - group "Pin card" [ref=e657]:
+              - generic [ref=e659]:
+                - link "a woman is cutting out a piece of paper with scissors and wires attached to it" [ref=e662] [cursor=pointer]:
+                  - /url: /pin/631700285202646419/
+                  - img "a woman is cutting out a piece of paper with scissors and wires attached to it" [ref=e672]
+                - generic [ref=e674]:
+                  - generic:
+                    - link "a woman is cutting out a piece of paper with scissors and wires attached to it":
+                      - /url: /pin/631700285202646419/
+                  - button "Behance" [ref=e678] [cursor=pointer]:
+                    - generic [ref=e680]:
+                      - button "Behance" [ref=e683]:
+                        - generic "Behance" [ref=e684]
+                      - generic "More actions" [ref=e688]:
+                        - button "More actions" [ref=e689]:
+                          - img [ref=e692]
+          - listitem [ref=e694]:
+            - generic [ref=e695]:
+              - generic [ref=e701]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e703]:
+                - generic [ref=e705]:
+                  - link "an abstract blue and pink liquid painting" [ref=e708] [cursor=pointer]:
+                    - /url: /pin/9218374233226273/
+                    - img "an abstract blue and pink liquid painting" [ref=e718]
+                  - generic [ref=e720]:
+                    - generic:
+                      - link "an abstract blue and pink liquid painting":
+                        - /url: /pin/9218374233226273/
+                    - generic "More actions" [ref=e727]:
+                      - button "More actions" [ref=e728] [cursor=pointer]:
+                        - img [ref=e731]
+          - listitem [ref=e733]:
+            - group "Pin card" [ref=e737]:
+              - generic [ref=e739]:
+                - link "a close up of a fruit on a plate near a plant with leaves and a login screen" [ref=e742] [cursor=pointer]:
+                  - /url: /pin/68749661423/
+                  - generic [ref=e744]:
+                    - generic [ref=e749]:
+                      - img "Liquid glass tutorial made in Figma 🫧 Experimenting with this trend to explore the depth, transparency, and layering it brings to modern UI." [ref=e753]
+                      - img "Liquid glass tutorial made in Figma 🫧 Experimenting with this trend to explore the depth, transparency, and layering it brings to modern UI." [ref=e757]
+                      - img "Liquid glass tutorial made in Figma 🫧 Experimenting with this trend to explore the depth, transparency, and layering it brings to modern UI." [ref=e761]
+                      - img "Liquid glass tutorial made in Figma 🫧 Experimenting with this trend to explore the depth, transparency, and layering it brings to modern UI." [ref=e765]
+                      - img "Liquid glass tutorial made in Figma 🫧 Experimenting with this trend to explore the depth, transparency, and layering it brings to modern UI." [ref=e769]
+                    - generic [ref=e771]:
+                      - button "Go to slide 1 of 5" [ref=e773]
+                      - button "Go to slide 2 of 5" [ref=e776]
+                      - button "Go to slide 3 of 5" [ref=e779]
+                      - button "Go to slide 4 of 5" [ref=e782]
+                      - button "Go to slide 5 of 5" [ref=e785]
+                - generic [ref=e788]:
+                  - generic:
+                    - link "a close up of a fruit on a plate near a plant with leaves and a login screen":
+                      - /url: /pin/68749661423/
+                  - generic "More actions" [ref=e795]:
+                    - button "More actions" [ref=e796] [cursor=pointer]:
+                      - img [ref=e799]
+          - listitem [ref=e801]:
+            - group "Pin card" [ref=e804]:
+              - generic [ref=e806]:
+                - generic [ref=e807]:
+                  - link "an apple computer with water splashing on it's back side and black background" [ref=e809] [cursor=pointer]:
+                    - /url: /pin/74239093853895093/
+                    - 'img "This may contain: an apple computer with water splashing on it''s back side and black background" [ref=e825]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:04
+                - generic [ref=e827]:
+                  - generic:
+                    - link "an apple computer with water splashing on it's back side and black background":
+                      - /url: /pin/74239093853895093/
+                  - generic "More actions" [ref=e834]:
+                    - button "More actions" [ref=e835] [cursor=pointer]:
+                      - img [ref=e838]
+          - listitem [ref=e840]:
+            - group "Pin card" [ref=e843]:
+              - generic [ref=e845]:
+                - generic [ref=e846]:
+                  - link "a white toilet sitting next to a bath tub in a bathroom" [ref=e848] [cursor=pointer]:
+                    - /url: /pin/2674081025949514/
+                    - 'img "This may contain: a white toilet sitting next to a bath tub in a bathroom" [ref=e864]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 0:04
+                - generic [ref=e866]:
+                  - generic:
+                    - link "a white toilet sitting next to a bath tub in a bathroom":
+                      - /url: /pin/2674081025949514/
+                  - generic "More actions" [ref=e873]:
+                    - button "More actions" [ref=e874] [cursor=pointer]:
+                      - img [ref=e877]
+          - listitem [ref=e879]:
+            - group "Pin card" [ref=e882]:
+              - generic [ref=e884]:
+                - link "the liquid glass system is designed to look like it could be used in an application" [ref=e887] [cursor=pointer]:
+                  - /url: /pin/235031674299950499/
+                  - img "the liquid glass system is designed to look like it could be used in an application" [ref=e897]
+                - generic [ref=e899]:
+                  - generic:
+                    - link "the liquid glass system is designed to look like it could be used in an application":
+                      - /url: /pin/235031674299950499/
+                  - generic "More actions" [ref=e906]:
+                    - button "More actions" [ref=e907] [cursor=pointer]:
+                      - img [ref=e910]
+          - listitem [ref=e912]:
+            - generic [ref=e913]:
+              - generic [ref=e919]:
+                - region "third-party-ad-slot":
+                  - region "3p-google-ad-slot"
+              - group "Pin card" [ref=e921]:
+                - generic [ref=e923]:
+                  - link "the liquid is flowing into the water" [ref=e926] [cursor=pointer]:
+                    - /url: /pin/136022851240667316/
+                    - img "the liquid is flowing into the water" [ref=e936]
+                  - generic [ref=e938]:
+                    - generic:
+                      - link "the liquid is flowing into the water":
+                        - /url: /pin/136022851240667316/
+                    - generic "More actions" [ref=e945]:
+                      - button "More actions" [ref=e946] [cursor=pointer]:
+                        - img [ref=e949]
+          - listitem [ref=e951]:
+            - group "Pin card" [ref=e954]:
+              - generic [ref=e956]:
+                - link "an abstract painting with purple and orange colors" [ref=e959] [cursor=pointer]:
+                  - /url: /pin/45247171251827138/
+                  - img "an abstract painting with purple and orange colors" [ref=e969]
+                - generic [ref=e971]:
+                  - generic:
+                    - link "an abstract painting with purple and orange colors":
+                      - /url: /pin/45247171251827138/
+                  - generic "More actions" [ref=e978]:
+                    - button "More actions" [ref=e979] [cursor=pointer]:
+                      - img [ref=e982]
+          - listitem [ref=e984]:
+            - group "Pin card" [ref=e987]:
+              - generic [ref=e989]:
+                - link "Liquid Gradient, Fluid Gradient, Liquid Gradient Waves, Dynamic Gradient Waves, Fluid Dynamic Design, Dynamic Gradient Design, Dynamic Gradient Waves Backgrounds, Dynamic Liquid Art, Dynamic Liquid Gradient" [ref=e992] [cursor=pointer]:
+                  - /url: /pin/1128292512922254559/
+                  - img "Liquid Gradient, Fluid Gradient, Liquid Gradient Waves, Dynamic Gradient Waves, Fluid Dynamic Design, Dynamic Gradient Design, Dynamic Gradient Waves Backgrounds, Dynamic Liquid Art, Dynamic Liquid Gradient" [ref=e1002]
+                - generic [ref=e1004]:
+                  - generic:
+                    - link "Liquid Gradient, Fluid Gradient, Liquid Gradient Waves, Dynamic Gradient Waves, Fluid Dynamic Design, Dynamic Gradient Design, Dynamic Gradient Waves Backgrounds, Dynamic Liquid Art, Dynamic Liquid Gradient":
+                      - /url: /pin/1128292512922254559/
+                  - generic "More actions" [ref=e1011]:
+                    - button "More actions" [ref=e1012] [cursor=pointer]:
+                      - img [ref=e1015]
+          - listitem [ref=e1017]:
+            - group "Pin card" [ref=e1020]:
+              - generic [ref=e1022]:
+                - link "the liquid gradients set is shown in black and orange" [ref=e1025] [cursor=pointer]:
+                  - /url: /pin/8444318047421388/
+                  - img "the liquid gradients set is shown in black and orange" [ref=e1035]
+                - generic [ref=e1037]:
+                  - generic:
+                    - link "the liquid gradients set is shown in black and orange":
+                      - /url: /pin/8444318047421388/
+                  - generic "More actions" [ref=e1044]:
+                    - button "More actions" [ref=e1045] [cursor=pointer]:
+                      - img [ref=e1048]
+          - listitem [ref=e1050]:
+            - group "Pin card" [ref=e1053]:
+              - generic [ref=e1055]:
+                - link "an iphone screen with the text new design say hello to liquid glass" [ref=e1058] [cursor=pointer]:
+                  - /url: /pin/3377768468996048/
+                  - img "an iphone screen with the text new design say hello to liquid glass" [ref=e1068]
+                - generic [ref=e1070]:
+                  - generic:
+                    - link "an iphone screen with the text new design say hello to liquid glass":
+                      - /url: /pin/3377768468996048/
+                  - generic "More actions" [ref=e1077]:
+                    - button "More actions" [ref=e1078] [cursor=pointer]:
+                      - img [ref=e1081]
